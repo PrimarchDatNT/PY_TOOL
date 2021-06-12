@@ -5,9 +5,6 @@ import pytz
 from pytz import country_timezones as ct
 import pycountry
 
-timezonelist = ['Asia/Tashkent', 'Europe/London', 'America/Argentina/Salta', 'America/New_York', 'America/Mexico_City',
-                'Europe/Kirov', 'Europe/Berlin', 'Asia/Vientiane', 'Europe/Madrid']
-
 
 def getSalePercent(percent):
     return int(percent.replace('%', ''))
@@ -55,11 +52,6 @@ def getEventDuration(sale_month, sale_day, time_zone):
     return out
 
 
-# a = getEventDuration('1', '6', 'Europe/London')
-# print(datetime.fromtimestamp(a[0] / 1000.0))
-# print(datetime.fromtimestamp(a[1] / 1000.0))
-# print(a[2])
-
 class Sale:
     def __init__(self, sale_percent, start_date, end_date, banner_sale, banner_home, date_str, title):
         self.salePercent = sale_percent
@@ -77,9 +69,9 @@ with open('data.csv', encoding="utf8", mode='r') as file:
     reader = csv.reader(file, delimiter=',')
 
     zoneinfo = {}
-
     count = 0
     keys = []
+
     for row in reader:
         if count == 0:
             title = row
@@ -128,3 +120,8 @@ json_data += '}'
 fout = open('data.json', 'w', encoding="utf-8")
 fout.writelines(json_data)
 fout.close()
+
+# a = getEventDuration('1', '6', 'Europe/London')
+# print(datetime.fromtimestamp(a[0] / 1000.0))
+# print(datetime.fromtimestamp(a[1] / 1000.0))
+# print(a[2])
