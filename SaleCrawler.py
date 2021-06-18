@@ -44,7 +44,7 @@ def getEventDuration(sale_month, sale_day, time_zone):
         out.append(int(round(et.timestamp() * 1000)))
     else:
         st = datetime(year, int(sale_month), int(duration[0]), 1, 0, 0, 0, pytz.timezone(time_zone))
-        et = datetime(year, int(sale_month), int(duration[1]), 1, 0, 0, 0, pytz.timezone(time_zone))
+        et = datetime(year, int(sale_month), int(duration[1]), 23, 0, 0, 0, pytz.timezone(time_zone))
         out.append(int(round(st.timestamp() * 1000)))
         out.append(int(round(et.timestamp() * 1000)))
 
@@ -77,6 +77,10 @@ with open('data.csv', encoding="utf8", mode='r') as file:
             title = row
             titleIndex = 0
             for col in row:
+                if titleIndex == 2:
+                    data['Global'] = []
+                    keys.append('Global')
+
                 if titleIndex > 3:
                     zoneinfo[col] = ct[getConutryCode(col)][0]
                     data[col] = []
@@ -84,11 +88,19 @@ with open('data.csv', encoding="utf8", mode='r') as file:
                 titleIndex += 1
         else:
             for i in range(len(row)):
+
+                if i == 2:
+                    if row[3] != '':
+                        d = getEventDuration(row[0], row[1], ct['US'][0])
+                        salePercent = getSalePercent(row[2])
+                        data['Global'].append(
+                            Sale(salePercent, d[0], d[1], '', '', d[2], str(row[3]).replace("\t", '')))
+
                 if i > 3:
                     if row[i] != '':
-                        d = getEventDuration(row[0], row[1], zoneinfo[keys[i - 4]])
+                        d = getEventDuration(row[0], row[1], zoneinfo[keys[i - 3]])
                         salePercent = getSalePercent(row[2])
-                        data[keys[i - 4]].append(
+                        data[keys[i - 3]].append(
                             Sale(salePercent, d[0], d[1], '', '', d[2], str(row[i]).replace("\t", '')))
         count += 1
 
