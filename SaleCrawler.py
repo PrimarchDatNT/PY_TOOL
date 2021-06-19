@@ -51,17 +51,20 @@ def getEventDuration(sale_month, sale_day, time_zone):
         out.append(int(round(et.timestamp() * 1000)))
 
     out.append(duration[0] + '-' + sale_month + '-' + str(year))
+    out.append(duration[1] + '-' + sale_month + '-' + str(year))
     return out
 
 
 class Sale:
-    def __init__(self, sale_percent, start_date, end_date, banner_sale, banner_home, date_str, title):
+    def __init__(self, sale_percent, start_date, end_date, banner_sale, banner_home, start_date_string, end_date_string,
+                 title):
         self.salePercent = sale_percent
         self.startDate = start_date
         self.endDate = end_date
         self.bannerSale = banner_sale
         self.bannerHome = banner_home
-        self.date_str = date_str
+        self.start_date_string = start_date_string
+        self.end_date_string = end_date_string
         self.title = title
 
 
@@ -96,14 +99,14 @@ with open('data.csv', encoding="utf8", mode='r') as file:
                         d = getEventDuration(row[0], row[1], ct['US'][0])
                         salePercent = getSalePercent(row[2])
                         data['Global'].append(
-                            Sale(salePercent, d[0], d[1], '', '', d[2], str(row[3]).replace("\t", '')))
+                            Sale(salePercent, d[0], d[1], '', '', d[2], d[3], str(row[3]).replace("\t", '')))
 
                 if i > 3:
                     if row[i] != '':
                         d = getEventDuration(row[0], row[1], zoneinfo[keys[i - 3]])
                         salePercent = getSalePercent(row[2])
                         data[keys[i - 3]].append(
-                            Sale(salePercent, d[0], d[1], '', '', d[2], str(row[i]).replace("\t", '')))
+                            Sale(salePercent, d[0], d[1], '', '', d[2], d[3], str(row[i]).replace("\t", '')))
         count += 1
 
 out = {}
@@ -135,7 +138,3 @@ fout = open('data.json', 'w', encoding="utf-8")
 fout.writelines(json_data)
 fout.close()
 
-# a = getEventDuration('1', '6', 'Europe/London')
-# print(datetime.fromtimestamp(a[0] / 1000.0))
-# print(datetime.fromtimestamp(a[1] / 1000.0))
-# print(a[2])
