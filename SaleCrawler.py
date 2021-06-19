@@ -1,6 +1,6 @@
 import csv
+import datetime
 import json
-from datetime import datetime
 import pytz
 from pytz import country_timezones as ct
 import pycountry
@@ -19,7 +19,7 @@ def getConutryCode(country_name):
 
 def getEventDuration(sale_month, sale_day, time_zone):
     out = []
-    year = datetime.today().year
+    year = datetime.datetime.today().year
     duration = str(sale_day).split('-')
 
     is_same_day = False
@@ -34,17 +34,19 @@ def getEventDuration(sale_month, sale_day, time_zone):
     if int(sale_month) < 10:
         sale_month = '0' + sale_month
 
-    if int(sale_month) < datetime.today().month:
+    if int(sale_month) < datetime.datetime.today().month:
         year += 1
 
+    tz = pytz.timezone(time_zone)
+
     if is_same_day:
-        st = datetime(year, int(sale_month), int(duration[0]), 1, 0, 0, 0, pytz.timezone(time_zone))
-        et = datetime(year, int(sale_month), int(duration[0]), 23, 0, 0, 0, pytz.timezone(time_zone))
+        st = tz.localize(datetime.datetime(year, int(sale_month), int(duration[0]), 1, 0, 0, 0, ))
+        et = tz.localize(datetime.datetime(year, int(sale_month), int(duration[0]), 23, 0, 0, 0, ))
         out.append(int(round(st.timestamp() * 1000)))
         out.append(int(round(et.timestamp() * 1000)))
     else:
-        st = datetime(year, int(sale_month), int(duration[0]), 1, 0, 0, 0, pytz.timezone(time_zone))
-        et = datetime(year, int(sale_month), int(duration[1]), 23, 0, 0, 0, pytz.timezone(time_zone))
+        st = tz.localize(datetime.datetime(year, int(sale_month), int(duration[0]), 1, 0, 0, 0, ))
+        et = tz.localize(datetime.datetime(year, int(sale_month), int(duration[1]), 23, 0, 0, 0, ))
         out.append(int(round(st.timestamp() * 1000)))
         out.append(int(round(et.timestamp() * 1000)))
 
