@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 import PIL.Image
 import numpy
@@ -23,7 +22,7 @@ def clearPhoto(photo):
     return PIL.Image.fromarray(arr)
 
 
-chirent = Path('inputPhoto').iterdir()
-for child in chirent:
+chidrent = Path('inputPhoto').iterdir()
+for child in chidrent:
     out = clearPhoto(readImage(child))
     out.save(child)
