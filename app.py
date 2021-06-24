@@ -1,6 +1,7 @@
 import json
 import time
 import requests
+import threading
 import xml.etree.ElementTree as ET
 
 lang_code = ["zh", "fr", "de", "el", "hi", "in", "it", "ja", "ko", "ms", "fa", "pl", "pt", "ru", "es", "th", "tr",
@@ -48,6 +49,18 @@ def translate(data, destLang):
 
 inputdata = getInputData('D:/en.xml')
 
-for code in lang_code:
-    print(translate(inputdata, code))
-    time.sleep(5)
+
+def saveData(code):
+    content = translate(inputdata, code)
+    time.sleep(2.5)
+    out = open('value-' + code + '.xml', 'w', encoding="utf-8")
+    out.writelines(content)
+    out.close()
+
+
+for c in lang_code:
+    try:
+        task = threading.Thread(target=saveData, args=(c,))
+        task.start()
+    except:
+        print('Error')
