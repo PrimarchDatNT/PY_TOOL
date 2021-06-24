@@ -1,11 +1,53 @@
-from tkinter import *
-import tkinter
+import json
+import time
+import requests
+import xml.etree.ElementTree as ET
 
-windown = Tk()
-windown.title('SEGU Translate Tool v1.0')
-windown.geometry('800x200')
+lang_code = ["zh", "fr", "de", "el", "hi", "in", "it", "ja", "ko", "ms", "fa", "pl", "pt", "ru", "es", "th", "tr",
+             "uk", "vi"]
 
-btnInput = Button(windown, text='Input File')
-btnInput.grid(column=1, row=1)
 
-windown.mainloop()
+def getInputData(input_path):
+    tree = ET.parse(input_path)
+    root = tree.getroot()
+    key = []
+    text_value = []
+    for t in root.findall('string'):
+        key.append(t.attrib['name'])
+        text_value.append({'text': t.text})
+
+    return {'name': key, 'content': text_value}
+
+
+def translate(data, destLang):
+    urlapi = 'https://api.cognitive.microsofttranslator.com/translate'
+    api_path = '?api-version=3.0'
+    params = '&from=en&to='
+    endpoint = urlapi + api_path + params
+    constructed_url = endpoint + destLang
+
+    api_key = '1d93741c8b164f8dae9409e82c90c1dc'
+    http_post = {'content-type': 'application/json; charset=utf-8', 'Ocp-Apim-Subscription-Key': api_key}
+
+    response = requests.post(constructed_url, headers=http_post, json=data['content'])
+    if response.status_code == 400:
+        print('Cannot translate for language code:', destLang)
+        return ''
+
+    response_json = response.json()
+    raw_data = json.dumps(response_json, sort_keys=True, indent=4, ensure_ascii=False, separators=(',', ': '))
+    results = json.loads(raw_data)
+
+    xml = '<resources>\n'
+    for i in range(len(results)):
+        xml += '<string name="' + data['name'][i] + '">' + results[i]['translations'][0]['text'] + '</string>\n'
+
+    xml += '</resources>'
+    return xml
+
+
+inputdata = getInputData('D:/en.xml')
+
+for code in lang_code:
+    print(translate(inputdata, code))
+    time.sleep(5)
