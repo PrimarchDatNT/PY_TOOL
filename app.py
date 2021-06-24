@@ -1,5 +1,4 @@
 import json
-import time
 import requests
 import threading
 import xml.etree.ElementTree as ET
@@ -52,7 +51,6 @@ inputdata = getInputData('D:/en.xml')
 
 def saveData(code):
     content = translate(inputdata, code)
-    time.sleep(2.5)
     out = open('value-' + code + '.xml', 'w', encoding="utf-8")
     out.writelines(content)
     out.close()
