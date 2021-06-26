@@ -127,7 +127,7 @@ def saveData(inputdata, code, resut_dir):
 def openFile():
     file_path = filedialog.askopenfilename()
     input_lang = textBox.get(1.0, END + "-1c")
-    if input_lang is not None:
+    if input_lang is not None and str(input_lang) != '':
         default_lang_code.clear()
         for lang in str(input_lang).split(','):
             default_lang_code.append(lang.replace(' ', ''))
@@ -138,7 +138,6 @@ def openFile():
 
     inputdata = getInputData(file_path)
     threads = []
-    print(file_path)
     result_dir = str(os.path.dirname(file_path)) + '/app_translate_ouput'
 
     for c in default_lang_code:
