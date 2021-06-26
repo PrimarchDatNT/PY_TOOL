@@ -1,28 +1,17 @@
-from datetime import datetime
-import pytz
-from pytz import country_timezones as ct
-import pycountry
+import dotstrings
+import requests
 
-# d3 = getEventDuration('6', '18-20', ct['PH'][0])
-# data['Philippines'].append(Sale(20, d3[0], d3[1], '', '', d3[2], 'Happy Fathers Day!'))
+entries = dotstrings.load('C:/Users/DatNt/Documents/Localizable.strings')
 
-print(ct['PH'][0])
-st = datetime(2021, 6, 18, 1, 0, 0, 0, pytz.timezone('Asia/Manila'))
-# t = st.astimezone(pytz.timezone('Asia/Manila'))
+for entry in entries:
+    print("Key: " + entry.key, "Value: " + entry.value)
 
-mil = int(st.timestamp() * 1000)
-
-print(st)
-print(mil)
-
-# from tkinter import *
-# import tkinter
-#
-# windown = Tk()
-# windown.title('SEGU Translate Tool v1.0')
-# windown.geometry('800x200')
-#
-# btnInput = Button(windown, text='Input File')
-# btnInput.grid(column=1, row=1)
-#
-# windown.mainloop()
+urlapi = 'https://api.cognitive.microsofttranslator.com/translate'
+api_path = '?api-version=3.0'
+params = '&to='
+endpoint = urlapi + api_path + params
+constructed_url = endpoint + 'en'
+api_key = '1d93741c8b164f8dae9409e82c90c1dc'
+http_post = {'content-type': 'application/json; charset=utf-8', 'Ocp-Apim-Subscription-Key': api_key}
+response = requests.post(constructed_url, headers=http_post, json=[{'text': 'Kể từ %@'}])
+print(response.json())

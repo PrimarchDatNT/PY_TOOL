@@ -1,64 +1,180 @@
 import json
-import requests
 import threading
 import xml.etree.ElementTree as ET
+from tkinter import *
+from tkinter import filedialog
+from tkinter import messagebox
+import dotstrings
+import requests
+import os
+import errno
 
-lang_code = ["zh", "fr", "de", "el", "hi", "in", "it", "ja", "ko", "ms", "fa", "pl", "pt", "ru", "es", "th", "tr",
+lang_code = ["zh", "fr", "de", "el", "hi", "id", "it", "ja", "ko", "ms", "fa", "pl", "pt", "ru", "es", "th", "tr",
              "uk", "vi"]
+
+log = []
+
+
+def logProccess(mess):
+    log.append(mess)
 
 
 def getInputData(input_path):
-    tree = ET.parse(input_path)
-    root = tree.getroot()
     key = []
     text_value = []
-    for t in root.findall('string'):
-        key.append(t.attrib['name'])
-        text_value.append({'text': t.text})
+    isXML = False
 
-    return {'name': key, 'content': text_value}
+    if str(input_path).endswith('.xml'):
+        tree = ET.parse(input_path)
+        root = tree.getroot()
+        isXML = True
+        for t in root.findall('string'):
+            if t.text is not None:
+                key.append(t.attrib['name'])
+                text_value.append({'text': str(t.text)})
+            else:
+                logProccess('string: ' + t.attrib['name'] + ' is empty\n')
+    else:
+        entries = dotstrings.load(input_path)
+        for entry in entries:
+            if str(entry.value) != '' and entry.value is not None:
+                key.append(entry.key)
+                text_value.append({'text': entry.value})
+            else:
+                logProccess('string: ' + entry.key + ' is empty\n')
+
+    return {'name': key, 'content': text_value, 'isXML': isXML}
 
 
 def translate(data, destLang):
     urlapi = 'https://api.cognitive.microsofttranslator.com/translate'
     api_path = '?api-version=3.0'
-    params = '&from=en&to='
+    params = '&to='
     endpoint = urlapi + api_path + params
     constructed_url = endpoint + destLang
 
     api_key = '1d93741c8b164f8dae9409e82c90c1dc'
     http_post = {'content-type': 'application/json; charset=utf-8', 'Ocp-Apim-Subscription-Key': api_key}
 
-    response = requests.post(constructed_url, headers=http_post, json=data['content'])
-    if response.status_code == 400:
-        print('Cannot translate for language code:', destLang)
-        return ''
+    request_num = len(data['content']) // 100
+    str_result = ''
+    line = []
+    sub_array = []
+    for n in range(request_num):
+        indexEnd = 100 * (n + 1)
+        sub_array.append(data['content'][100 * n: indexEnd])
 
-    response_json = response.json()
-    raw_data = json.dumps(response_json, sort_keys=True, indent=4, ensure_ascii=False, separators=(',', ': '))
-    results = json.loads(raw_data)
+    sub_array.append(data['content'][100 * request_num: len(data['content'])])
 
-    xml = '<resources>\n'
-    for i in range(len(results)):
-        xml += '<string name="' + data['name'][i] + '">' + results[i]['translations'][0]['text'] + '</string>\n'
+    index = 0
+    for rq_array in sub_array:
+        response = requests.post(constructed_url, headers=http_post, json=rq_array)
+        if response.status_code == 400:
+            logProccess('Cannot translate for language code ' + destLang + ': \n')
+            for errstr in rq_array:
+                logProccess(errstr['text'] + '\n')
+            logProccess('Error Message: ' + response.text + '\n')
+            continue
+        else:
+            response_json = response.json()
+            raw_data = json.dumps(response_json, sort_keys=True, indent=4, ensure_ascii=False, separators=(',', ': '))
+            results = json.loads(raw_data)
 
-    xml += '</resources>'
-    return xml
+            if data['isXML']:
+                for i in range(len(results)):
+                    line.append(
+                        '<string name="' + data['name'][i + 100 * index] + '">' + str(
+                            results[i]['translations'][0]['text']).replace('&', '&amp;') + '</string>\n')
+            else:
+                for i in range(len(results)):
+                    line.append(
+                        '"' + data['name'][i + 100 * index] + '" = "' + results[i]['translations'][0][
+                            'text'] + '"\n')
+        index += 1
+
+    if data['isXML']:
+        str_result += '<resources>\n'
+        for ls in line:
+            str_result += ls
+        str_result += '</resources>'
+    else:
+        for ls in line:
+            str_result += ls
+
+    return str_result
 
 
-inputdata = getInputData('D:/en.xml')
-
-
-def saveData(code):
+def saveData(inputdata, code, resut_dir):
     content = translate(inputdata, code)
-    out = open('value-' + code + '.xml', 'w', encoding="utf-8")
+
+    if inputdata['isXML']:
+        result_path = resut_dir + '/value-' + code + '.xml'
+    else:
+        result_path = resut_dir + '/value-' + code + '.strings'
+
+    if not os.path.exists(os.path.dirname(result_path)):
+        try:
+            os.makedirs(os.path.dirname(result_path))
+        except OSError as exc:
+            if exc.errno != errno.EEXIST:
+                raise
+
+    out = open(result_path, 'w', encoding="utf-8")
     out.writelines(content)
     out.close()
 
 
-for c in lang_code:
-    try:
-        task = threading.Thread(target=saveData, args=(c,))
-        task.start()
-    except:
-        print('Error')
+def openFile():
+    file_path = filedialog.askopenfilename()
+
+    if not str(file_path).endswith('.xml') and not str(file_path).endswith('.strings'):
+        messagebox.showerror('Error', 'Wrong format file')
+        return
+
+    inputdata = getInputData(file_path)
+    threads = []
+    print(file_path)
+    result_dir = str(os.path.dirname(file_path)) + '/app_translate_ouput'
+
+    for c in lang_code:
+        try:
+            task = threading.Thread(target=saveData, args=(inputdata, c, str(result_dir)))
+            threads.append(task)
+            task.start()
+        except:
+            messagebox.showinfo('Title', 'Error in language code:' + c)
+
+    for x in threads:
+        x.join()
+
+    logMess = ''
+    for m in log:
+        logMess += m
+
+    logDir = result_dir + '/logProcess.txt'
+    if not os.path.exists(os.path.dirname(logDir)):
+        try:
+            os.makedirs(os.path.dirname(result_dir))
+        except OSError as exc:
+            if exc.errno != errno.EEXIST:
+                raise
+    f_log = open(str(result_dir) + '/logProcess.txt', 'w', encoding="utf-8")
+    f_log.writelines(logMess)
+    f_log.close()
+    ms = messagebox.askquestion('Translate complete', 'File saved in: ' + result_dir + ' open now?')
+    print(ms)
+    if ms == 'yes':
+        path = os.path.realpath(result_dir)
+        print(path)
+        os.startfile(path)
+
+
+window = Tk()
+window.title('SEGU Translate Tool v1.0')
+window.geometry('300x150')
+
+btnInput = Button(window, text='Input File', command=openFile)
+btnInput.grid(column=2, row=2)
+btnInput.pack()
+
+window.mainloop()
