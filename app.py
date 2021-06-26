@@ -9,8 +9,8 @@ import requests
 import os
 import errno
 
-lang_code = ["zh", "fr", "de", "el", "hi", "id", "it", "ja", "ko", "ms", "fa", "pl", "pt", "ru", "es", "th", "tr",
-             "uk", "vi"]
+default_lang_code = ["zh", "fr", "de", "el", "hi", "id", "it", "ja", "ko", "ms", "fa", "pl", "pt", "ru", "es", "th",
+                     "tr", "uk", "vi"]
 
 log = []
 
@@ -126,6 +126,11 @@ def saveData(inputdata, code, resut_dir):
 
 def openFile():
     file_path = filedialog.askopenfilename()
+    input_lang = textBox.get(1.0, END + "-1c")
+    if input_lang is not None:
+        default_lang_code.clear()
+        for lang in str(input_lang).split(','):
+            default_lang_code.append(lang.replace(' ', ''))
 
     if not str(file_path).endswith('.xml') and not str(file_path).endswith('.strings'):
         messagebox.showerror('Error', 'Wrong format file')
@@ -136,7 +141,7 @@ def openFile():
     print(file_path)
     result_dir = str(os.path.dirname(file_path)) + '/app_translate_ouput'
 
-    for c in lang_code:
+    for c in default_lang_code:
         try:
             task = threading.Thread(target=saveData, args=(inputdata, c, str(result_dir)))
             threads.append(task)
@@ -172,9 +177,9 @@ def openFile():
 window = Tk()
 window.title('SEGU Translate Tool v1.0')
 window.geometry('300x150')
-
-btnInput = Button(window, text='Input File', command=openFile)
-btnInput.grid(column=2, row=2)
+textBox = Text(window, height=1, width=300)
+textBox.pack()
+btnInput = Button(window, height=1, width=10, text='Input File', command=openFile)
 btnInput.pack()
 
 window.mainloop()
