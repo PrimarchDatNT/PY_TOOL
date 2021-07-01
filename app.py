@@ -14,6 +14,9 @@ default_lang_code = ["zh", "fr", "de", "el", "hi", "id", "it", "ja", "ko", "ms",
 
 log = []
 
+encode_space_char = {'%@': 'E1111357', '%lld': 'E1111358'}
+decode_space_char = {'E1111357': '%@', 'E1111358': '%lld'}
+
 
 def logProccess(mess):
     log.append(mess)
@@ -39,7 +42,9 @@ def getInputData(input_path):
         for entry in entries:
             if str(entry.value) != '' and entry.value is not None:
                 key.append(entry.key)
-                text_value.append({'text': entry.value})
+                text_value.append(
+                    {'text': str(entry.value).replace('%@', encode_space_char['%@']).replace('%lld', encode_space_char[
+                        '%lld'])})
             else:
                 logProccess('string: ' + entry.key + ' is empty\n')
 
@@ -82,14 +87,12 @@ def translate(data, destLang):
 
             if data['isXML']:
                 for i in range(len(results)):
-                    line.append(
-                        '<string name="' + data['name'][i + 100 * index] + '">' + str(
-                            results[i]['translations'][0]['text']).replace('&', '&amp;') + '</string>\n')
+                    line.append('<string name="' + data['name'][i + 100 * index] + '">' + str(results[i]['translations'][0]['text']).replace('&', '&amp;') + '</string>\n')
             else:
                 for i in range(len(results)):
                     line.append(
-                        '"' + data['name'][i + 100 * index] + '" = "' + results[i]['translations'][0][
-                            'text'] + '"\n')
+                        '"' + data['name'][i + 100 * index] + '" = "' + str(results[i]['translations'][0]['text'])
+                        .replace(encode_space_char['%@'], decode_space_char['E1111357']).replace(encode_space_char['%lld'], decode_space_char['E1111358']) + '";\n')
         index += 1
 
     if data['isXML']:
@@ -108,9 +111,9 @@ def saveData(inputdata, code, resut_dir):
     content = translate(inputdata, code)
 
     if inputdata['isXML']:
-        result_path = resut_dir + '/value-' + code + '.xml'
+        result_path = resut_dir + '/android/value-' + code + '/strings.xml'
     else:
-        result_path = resut_dir + '/value-' + code + '.strings'
+        result_path = resut_dir + '/ios/value-' + code + '/Loalizable.strings'
 
     if not os.path.exists(os.path.dirname(result_path)):
         try:
@@ -138,7 +141,7 @@ def openFile():
 
     inputdata = getInputData(file_path)
     threads = []
-    result_dir = str(os.path.dirname(file_path)) + '/app_translate_ouput'
+    result_dir = str(os.path.dirname(file_path)) + '/ApptTranslateOuput'
 
     for c in default_lang_code:
         try:
