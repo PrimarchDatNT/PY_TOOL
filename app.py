@@ -87,7 +87,8 @@ def translate(data, destLang):
 
             if data['isXML']:
                 for i in range(len(results)):
-                    line.append('<string name="' + data['name'][i + 100 * index] + '">' + str(results[i]['translations'][0]['text']).replace('&', '&amp;') + '</string>\n')
+                    line.append('<string name="' + data['name'][i + 100 * index] + '">' + str(results[i]['translations'][0]['text'])
+                                .replace('&', '&amp;').replace(' »', '"').replace('« ', '"') + '</string>\n')
             else:
                 for i in range(len(results)):
                     line.append(
@@ -96,6 +97,7 @@ def translate(data, destLang):
         index += 1
 
     if data['isXML']:
+        str_result += '<?xml version="1.0" encoding="utf-8"?>\n'
         str_result += '<resources>\n'
         for ls in line:
             str_result += ls
@@ -111,9 +113,9 @@ def saveData(inputdata, code, resut_dir):
     content = translate(inputdata, code)
 
     if inputdata['isXML']:
-        result_path = resut_dir + '/android/value-' + code + '/strings.xml'
+        result_path = resut_dir + '/android/values-' + code + '/strings.xml'
     else:
-        result_path = resut_dir + '/ios/value-' + code + '/Loalizable.strings'
+        result_path = resut_dir + '/ios/values-' + code + '/Loalizable.strings'
 
     if not os.path.exists(os.path.dirname(result_path)):
         try:
@@ -178,8 +180,9 @@ def openFile():
 
 window = Tk()
 window.title('SEGU Translate Tool v1.0')
-window.geometry('300x150')
+window.geometry('600x50')
 textBox = Text(window, height=1, width=300)
+textBox.insert('end-1c', 'zh, fr, de, el, hi, id, it, ja, ko, ms, fa, pl, pt, ru, es, th, tr, uk, vi')
 textBox.pack()
 btnInput = Button(window, height=1, width=10, text='Input File', command=openFile)
 btnInput.pack()
