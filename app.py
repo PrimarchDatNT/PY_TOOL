@@ -32,9 +32,10 @@ def getInputData(input_path):
         root = tree.getroot()
         isXML = True
         for t in root.findall('string'):
-            if t.text is not None:
+            if t.text is not None and not str(t.text).__contains__('@android:'):
                 key.append(t.attrib['name'])
-                text_value.append({'text': str(t.text)})
+                val = str(t.text)
+                text_value.append({'text': val})
             else:
                 logProccess('string: ' + t.attrib['name'] + ' is empty\n')
     else:
@@ -42,9 +43,7 @@ def getInputData(input_path):
         for entry in entries:
             if str(entry.value) != '' and entry.value is not None:
                 key.append(entry.key)
-                text_value.append(
-                    {'text': str(entry.value).replace('%@', encode_space_char['%@']).replace('%lld', encode_space_char[
-                        '%lld'])})
+                text_value.append({'text': str(entry.value).replace('%@', encode_space_char['%@']).replace('%lld', encode_space_char['%lld'])})
             else:
                 logProccess('string: ' + entry.key + ' is empty\n')
 
@@ -87,8 +86,12 @@ def translate(data, destLang):
 
             if data['isXML']:
                 for i in range(len(results)):
-                    line.append('<string name="' + data['name'][i + 100 * index] + '">' + str(results[i]['translations'][0]['text'])
-                                .replace('&', '&amp;').replace(' »', '"').replace('« ', '"') + '</string>\n')
+                    xm = str(results[i]['translations'][0]['text']).replace('&', '&amp;').replace(' »', '"').replace('« ', '"')
+                    if xm.__contains__("'") and not xm.startswith('"'):
+                        xm = xm.replace("'", r"\'")
+                    if xm.__contains__('</') and xm.__contains__('>'):
+                        xm = '<![CDATA[' + xm + ']]>'
+                    line.append('<string name="' + data['name'][i + 100 * index] + '">' + xm + '</string>\n')
             else:
                 for i in range(len(results)):
                     line.append(
@@ -182,7 +185,8 @@ window = Tk()
 window.title('SEGU Translate Tool v1.0')
 window.geometry('600x50')
 textBox = Text(window, height=1, width=300)
-textBox.insert('end-1c', 'zh, fr, de, el, hi, id, it, ja, ko, ms, fa, pl, pt, ru, es, th, tr, uk, vi')
+# textBox.insert('end-1c', 'zh, fr, de, el, hi, id, it, ja, ko, ms, fa, pl, pt, ru, es, th, tr, uk, vi')
+textBox.insert('end-1c', 'pt,es,ru,th,vi,fr,it,de,ko,ja,tr,id,ms')
 textBox.pack()
 btnInput = Button(window, height=1, width=10, text='Input File', command=openFile)
 btnInput.pack()
