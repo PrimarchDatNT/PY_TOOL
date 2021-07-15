@@ -170,11 +170,10 @@ def openFile():
         except OSError as exc:
             if exc.errno != errno.EEXIST:
                 raise
-    f_log = open(str(result_dir) + '/logProcess.txt', 'w', encoding="utf-8")
+    f_log = open(str(result_dir) + '/logProcess.txt', 'w', encoding='utf-8')
     f_log.writelines(logMess)
     f_log.close()
     ms = messagebox.askquestion('Translate complete', 'File saved in: ' + result_dir + ' open now?')
-    print(ms)
     if ms == 'yes':
         path = os.path.realpath(result_dir)
         print(path)
@@ -182,7 +181,7 @@ def openFile():
 
 
 window = Tk()
-window.title('SEGU Translate Tool v1.0')
+window.title('SEGU Translate Tool v1.1')
 window.geometry('600x50')
 textBox = Text(window, height=1, width=300)
 # textBox.insert('end-1c', 'zh, fr, de, el, hi, id, it, ja, ko, ms, fa, pl, pt, ru, es, th, tr, uk, vi')
