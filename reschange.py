@@ -2,7 +2,7 @@ import os
 import xml.etree.ElementTree as ET
 
 path = 'C:/Users/DatNT/Desktop/apktool/apk-tool/projects/com.commsource.beautyplus'
-packagename = 'Lcom/photoai/core/Rs'
+packagename = 'Lcom/core/camera/beauty/Res'
 
 files = []
 xml_path = None
