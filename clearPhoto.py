@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 import PIL.Image
 import numpy
@@ -22,7 +23,13 @@ def clearPhoto(photo):
     return PIL.Image.fromarray(arr)
 
 
-chidrent = Path('inputPhoto').iterdir()
-for child in chidrent:
-    out = clearPhoto(readImage(child))
-    out.save(child)
+childrent = Path('C:/Users/DatNT/Desktop/clearPhoto').iterdir()
+for child in childrent:
+    if child.name.endswith('.png'):
+        out = clearPhoto(readImage(child))
+        out.save(child)
+    else:
+        res = open(os.path.splitext(child)[0] + '.xml', 'w', encoding='utf-8')
+        res.writelines('<?xml version="1.0" encoding="utf-8"?><shape/>')
+        res.close()
+        os.remove(child)
