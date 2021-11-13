@@ -7652,7 +7652,7 @@
         "ad_slot_id": "",
         "ip_logo": "",
         "literal_icon": "1",
-        "literal": "Creative",
+        "literal": "Unique",
         "ad_platforms": [
           {
             "platform": 0,
@@ -7856,7 +7856,7 @@
         "ad_slot_id": "",
         "ip_logo": "",
         "literal_icon": "1",
-        "literal": "Cute",
+        "literal": "Meow",
         "ad_platforms": [
           {
             "platform": 0,
@@ -8024,7 +8024,7 @@
         "ad_slot_id": "",
         "ip_logo": "",
         "literal_icon": "1",
-        "literal": "Simple",
+        "literal": "Wink",
         "ad_platforms": [
           {
             "platform": 0,
@@ -8230,7 +8230,7 @@
         "ad_slot_id": "",
         "ip_logo": "",
         "literal_icon": "1",
-        "literal": "Couple",
+        "literal": "Love",
         "ad_platforms": [
           {
             "platform": 0,
@@ -8307,7 +8307,7 @@
         "ad_slot_id": "",
         "ip_logo": "",
         "literal_icon": "1",
-        "literal": "Accessory",
+        "literal": "Jewelry",
         "ad_platforms": [
           {
             "platform": 0,
@@ -8708,7 +8708,7 @@
         "ad_slot_id": "",
         "ip_logo": "",
         "literal_icon": "1",
-        "literal": "Makeup",
+        "literal": "Beauty",
         "ad_platforms": [
           {
             "platform": 0,
@@ -8793,100 +8793,6 @@
           "500148",
           "500398",
           "500399"
-        ],
-        "group_red": 0,
-        "online_at": 0
-      },
-      "510025": {
-        "id": 44,
-        "number": "510025",
-        "version_control": 0,
-        "min_version": "0",
-        "max_version": "0",
-        "sort": "19",
-        "group_sort": "15",
-        "end_time": 0,
-        "region_control": 0,
-        "is_ip": 0,
-        "ad_slot_id": "",
-        "ip_logo": "",
-        "literal_icon": "1",
-        "literal": "Pet & U",
-        "ad_platforms": [
-          {
-            "platform": 0,
-            "ad_id": "n"
-          },
-          {
-            "platform": 1,
-            "ad_id": "u"
-          },
-          {
-            "platform": 2,
-            "ad_id": "l"
-          },
-          {
-            "platform": 3,
-            "ad_id": "l"
-          }
-        ],
-        "icon": "https://beautyplus-aws.meitudata.com/image/093d1e81251a232a820b809a22b5d53f.png",
-        "title": "510025",
-        "items": [
-          "502181",
-          "502122",
-          "502078",
-          "502069",
-          "502050",
-          "501728",
-          "501609",
-          "501344",
-          "501204",
-          "501197",
-          "501150",
-          "501162",
-          "501160",
-          "501159",
-          "501099",
-          "501117",
-          "501116",
-          "501069",
-          "500979",
-          "500966",
-          "500892",
-          "500878",
-          "500872",
-          "500854",
-          "500851",
-          "500825",
-          "500814",
-          "500810",
-          "500793",
-          "500773",
-          "500758",
-          "500770",
-          "500774",
-          "500754",
-          "500671",
-          "500668",
-          "500666",
-          "500665",
-          "500656",
-          "500657",
-          "500655",
-          "500645",
-          "500637",
-          "500636",
-          "500619",
-          "500632",
-          "500633",
-          "500628",
-          "500618",
-          "500627",
-          "500626",
-          "500623",
-          "500622",
-          "500625"
         ],
         "group_red": 0,
         "online_at": 0
@@ -9415,7 +9321,7 @@
         "ad_slot_id": "",
         "ip_logo": "",
         "literal_icon": "1",
-        "literal": "Holiday",
+        "literal": "Celebration",
         "ad_platforms": [],
         "icon": "https://beautyplus-aws.meitudata.com/image/66af1c32ada020d13af0b9e722525ae4.png",
         "title": "510038",
@@ -9484,7 +9390,7 @@
         "ad_slot_id": "",
         "ip_logo": "",
         "literal_icon": "1",
-        "literal": "Funny",
+        "literal": "Crazy",
         "ad_platforms": [],
         "icon": "https://beautyplus-aws.meitudata.com/image/6b04f8584ec9c94e39d1fd499e563248.png",
         "title": "510040",
@@ -9537,7 +9443,7 @@
         "ad_slot_id": "",
         "ip_logo": "",
         "literal_icon": "1",
-        "literal": "Ambient",
+        "literal": "Space",
         "ad_platforms": [],
         "icon": "https://beautyplus-aws.meitudata.com/image/d0d75e5753db31c1260771d0cb59b381.png",
         "title": "510041",
@@ -9730,7 +9636,7 @@
         "ad_slot_id": "",
         "ip_logo": "",
         "literal_icon": "1",
-        "literal": "Starry",
+        "literal": "Twinkle",
         "ad_platforms": [],
         "icon": "https://beautyplus-aws.meitudata.com/image/dff592266f583e365cc15d50f2597b75.png",
         "title": "510045",
