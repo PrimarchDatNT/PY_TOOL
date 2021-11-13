@@ -1,7 +1,6 @@
 import json
 
 api_path = 'doodle_pens.json'
-api_res = 'C:/Users/DatNT/Desktop/appRes/api/pen'
 domain = 'https://d2hyio9ps90xn9.cloudfront.net/material/doodle/'
 olddomain = 'https://rs.videoshow.mobi/v2/muse/doodle/'
 
@@ -15,3 +14,5 @@ for d in data['data']:
 
 with open('D:/AppTranslater/api/PEN_CHANGE.json', 'w', encoding='utf-8') as outjson:
     json.dump(data, outjson)
+
+print('Succes')
