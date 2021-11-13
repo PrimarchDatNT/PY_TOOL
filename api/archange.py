@@ -1,9 +1,9 @@
 import json
 from pathlib import Path
 
-api_path = 'AR_V3.json'
+api_path = 'AR_V2.json'
 api_res = 'C:/Users/DatNT/Desktop/appRes/api/res'
-domain = 'https://rs.videoshow.mobi/v2/muse/ar/'
+domain = 'https://d2hyio9ps90xn9.cloudfront.net/material/ar/'
 
 changelist = []
 
@@ -27,5 +27,10 @@ for key, value in list_ar.items():
 
 for rm in remove_key:
     del list_ar[rm]
+
+
+with open('D:/AppTranslater/api/AR_CHANGE_V2.json', 'w', encoding='utf-8') as outjson:
+    json.dump(data, outjson)
+
 
 print(data)
