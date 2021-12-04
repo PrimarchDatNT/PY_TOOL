@@ -51,6 +51,9 @@ def getEventDuration(sale_month, sale_day, time_zone):
         out.append(int(round(et.timestamp() * 1000)))
 
     out.append(duration[0] + '-' + sale_month + '-' + str(year))
+
+    if int(duration[1]) < 10 and not duration[1].startswith('0'):
+        duration[1] = '0' + duration[1]
     out.append(duration[1] + '-' + sale_month + '-' + str(year))
     return out
 
