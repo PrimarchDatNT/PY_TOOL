@@ -20,8 +20,13 @@ def convert_to_webp(source):
     return destination
 
 
-if __name__ == '__main__':
-    paths = Path("photo").glob("**/*.jpg")
+def convert(fortmat):
+    paths = Path("C:/Users/DatNT/Desktop/appRes/New folder").glob("**/*." + fortmat)
     for path in paths:
         webp_path = convert_to_webp(path)
         print(webp_path)
+
+
+if __name__ == '__main__':
+    convert("png")
+    convert("jpg")
