@@ -1,3 +1,4 @@
+import socket
 from flask import Flask
 
 app = Flask(__name__)
@@ -22,4 +23,7 @@ def homeAPI():
 
 
 if __name__ == '__main__':
-    app.run(host='192.168.1.157', port=5000, debug=True, threaded=False)
+    hostname = socket.gethostname()
+    local_ip = socket.gethostbyname(hostname)
+    print(local_ip)
+    app.run(host=local_ip, port=5000, debug=True, threaded=False)

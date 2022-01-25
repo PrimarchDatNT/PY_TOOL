@@ -33,8 +33,7 @@ def getEventDuration(sale_month, sale_day):
 
 
 class Sale:
-    def __init__(self, sale_percent, start_date, end_date, banner_sale, banner_home, start_date_string, end_date_string,
-                 title):
+    def __init__(self, sale_percent, start_date, end_date, banner_sale, banner_home, start_date_string, end_date_string, title):
         self.salePercent = sale_percent
         self.startDate = start_date
         self.endDate = end_date

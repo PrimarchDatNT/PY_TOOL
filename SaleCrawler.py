@@ -140,4 +140,3 @@ json_data += '}'
 fout = open('data.json', 'w', encoding="utf-8")
 fout.writelines(json_data)
 fout.close()
-

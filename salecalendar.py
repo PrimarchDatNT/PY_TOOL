@@ -5,7 +5,7 @@ from pytz import country_timezones as ct
 import pycountry
 
 client_id = '682866004480-0cu6njs5l0ft1o3qbahprf4jclvfveoa.apps.googleusercontent.com'
-client_secret= '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'
+client_secret = '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'
 
 with open('sale_data.csv', encoding="utf8", mode='r') as file:
     readdata = csv.reader(file, delimiter=',')
