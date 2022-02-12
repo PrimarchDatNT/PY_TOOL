@@ -1,9 +1,7 @@
+import ast
 import csv
 import datetime
-import json
-import ast
-import socket
-import requests
+
 from flask import Flask
 
 
