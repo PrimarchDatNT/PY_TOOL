@@ -85,11 +85,9 @@ def process():
                             if key not in data[location]:
                                 data[location][key] = []
 
-                            # message = Message(row[location_map[location][0]], row[location_map[location][1]], row[2], row[4], '', False)
                             message = {'title': row[location_map[location][0]], 'body': row[location_map[location][1]],
                                        'sale': row[2], 'time': row[4], 'banner': '', 'pin': False}
                             data[location][key].append(message)
-                        # print(str(message.__dict__))
 
             row_index += 1
         file.close()
@@ -120,8 +118,7 @@ def process():
 
         json_out += '], "enable": true},'
         json_out += '],'
-    json_out += "}"
-    # print(json_out)
+    json_out += '}'
     return json_out
 
 
