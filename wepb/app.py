@@ -28,5 +28,5 @@ def convert(fortmat):
 
 
 if __name__ == '__main__':
-    convert("png")
-    convert("jpg")
+    convert('png')
+    convert('jpg')
