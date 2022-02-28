@@ -1,6 +1,7 @@
 import ast
 import csv
 import datetime
+import socket
 
 from flask import Flask
 
@@ -107,13 +108,14 @@ def process():
             json_out += '"messages" : ['
 
             for message in data[n][k]:
-                json_out += '{'
-                json_out += '"title":' + '"' + message['title'] + '",'
-                json_out += '"body":' + '"' + message['body'] + '",'
-                json_out += '"time":' + str(message['time']).replace('h', '') + ','
-                json_out += '"banner":' + '"' + message['banner'] + '",'
-                json_out += '"pin":' + str(message['pin']).lower() + ','
-                json_out += '},'
+                if message['title'] != '' and message['body'] != '':
+                    json_out += '{'
+                    json_out += '"title":' + '"' + message['title'] + '",'
+                    json_out += '"body":' + '"' + message['body'] + '",'
+                    json_out += '"time":' + str(message['time']).replace('h', '') + ','
+                    json_out += '"banner":' + '"' + message['banner'] + '",'
+                    json_out += '"pin":' + str(message['pin']).lower() + ','
+                    json_out += '},'
             json_out += ']},'
 
         json_out += '], "enable": true},'
@@ -136,7 +138,7 @@ def stickersAPI():
 
 
 if __name__ == '__main__':
-    process()
-    # hostname = socket.gethostname()
-    # local_ip = socket.gethostbyname(hostname)
-    # app.run(host=local_ip, port=5001, debug=True, threaded=False)
+    # process()
+    hostname = socket.gethostname()
+    local_ip = socket.gethostbyname(hostname)
+    app.run(host=local_ip, port=5001, debug=True, threaded=False)

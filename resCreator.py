@@ -1,7 +1,7 @@
 import os
 import xml.etree.ElementTree as ET
 
-path = 'C:/Users/DatNT/Desktop/apktool/apk-tool/projects/com.commsource.beautyplus'
+path = 'C:/Users/DatNT/Desktop/apktool/apk-tool/projects/com.muse.core'
 
 xml_path = None
 res_id = {}

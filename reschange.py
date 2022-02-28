@@ -1,8 +1,8 @@
 import os
 import xml.etree.ElementTree as ET
 
-path = 'C:/Users/DatNT/Desktop/apktool/apk-tool/projects/com.commsource.beautyplus'
-packagename = 'Lcom/core/camera/beauty/Res'
+path = 'C:/Users/DatNT/Desktop/apktool/apk-tool/projects/com.muse.core'
+packagename = 'Lcom/res/unit/Res'
 
 files = []
 xml_path = None
