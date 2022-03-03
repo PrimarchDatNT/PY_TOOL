@@ -100,7 +100,7 @@ def list_smali(path):
         if start_constructor_index == -1 and end_constructor_index == -1:
             continue
 
-        print(metadata[K_ORG_SOURCE_JAVA])
+        print(metadata[K_ORG_SOURCE_JAVA] + ' --- ' + metadata[K_LAYOUT_XML])
 
         metadata[K_ORG_INSTANCE_INIT] = {}
         index = 0
@@ -134,26 +134,28 @@ def change_code(rootpath):
                     continue
                 files.append(file_path)
 
-    path = 'C:/Users/DatNT/Desktop/apktool/apk-tool/projects/com.muse.core/code/smali_classes2/com/commsource/studio/function/s/b.smali'
-    with open(path, 'r') as file:
-        lines = file.readlines()
-        file.close()
+    for path in files:
+        with open(path, 'r') as file:
+            lines = file.readlines()
+            file.close()
 
-    for line in lines:
-        for metadata in data:
-            if line.__contains__(metadata[K_ORG_CLASS_PATH]):
-                index = lines.index(line)
-                for key in dict(metadata[K_ORG_INSTANCE_INIT]).keys():
-                    if line.__contains__(key):
-                        line = line.replace(key, dict(metadata[K_ORG_INSTANCE_INIT])[key])
+        index = 0
+        for line in lines:
+            for metadata in data:
+                if line.__contains__(metadata[K_ORG_CLASS_PATH]):
+                    for key in dict(metadata[K_ORG_INSTANCE_INIT]).keys():
+                        if line.__contains__(key):
+                            lines[index] = line.replace(key, dict(metadata[K_ORG_INSTANCE_INIT])[key])
 
-                lines[index] = line.replace(metadata[K_ORG_CLASS_PATH], metadata[K_BINDING_CLASS_PATH])
+                    lines[index] = line.replace(metadata[K_ORG_CLASS_PATH], metadata[K_BINDING_CLASS_PATH])
 
-    with open(path, 'w') as smali:
-        smali.writelines(lines)
-        smali.close()
+            index += 1
 
-    print('Done')
+        with open(path, 'w') as smali:
+            smali.writelines(lines)
+            smali.close()
+
+    print('--- All Done ---')
 
 
 if __name__ == '__main__':
