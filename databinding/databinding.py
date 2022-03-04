@@ -117,6 +117,7 @@ def list_smali(path):
 
                 index += 1
 
+        print(metadata)
         data.append(metadata)
 
     return data
@@ -134,28 +135,41 @@ def change_code(rootpath):
                     continue
                 files.append(file_path)
 
+    # procees_change('C:/Users/DatNT/Desktop/apktool/apk-tool/projects/com.muse.core/code/smali_classes2/com/commsource/studio/doodle/DoodlePagerFragment.smali', data)
     for path in files:
-        with open(path, 'r') as file:
-            lines = file.readlines()
-            file.close()
-
-        index = 0
-        for line in lines:
-            for metadata in data:
-                if line.__contains__(metadata[K_ORG_CLASS_PATH]):
-                    for key in dict(metadata[K_ORG_INSTANCE_INIT]).keys():
-                        if line.__contains__(key):
-                            lines[index] = line.replace(key, dict(metadata[K_ORG_INSTANCE_INIT])[key])
-
-                    lines[index] = line.replace(metadata[K_ORG_CLASS_PATH], metadata[K_BINDING_CLASS_PATH])
-
-            index += 1
-
-        with open(path, 'w') as smali:
-            smali.writelines(lines)
-            smali.close()
+        procees_change(path, data)
 
     print('--- All Done ---')
+
+
+def procees_change(path, data):
+    with open(path, 'r') as file:
+        lines = file.readlines()
+    file.close()
+
+    index = 0
+    for line in lines:
+        for metadata in data:
+            if line.__contains__(metadata[K_ORG_CLASS_PATH]):
+                for key in dict(metadata[K_ORG_INSTANCE_INIT]).keys():
+                    if line.__contains__(key):
+                        lines[index] = lines[index].replace(key, dict(metadata[K_ORG_INSTANCE_INIT])[key])
+                        # print('-------------')
+                        # print(key)
+                        # print(line)
+                        # print(lines[index])
+        index += 1
+
+    index = 0
+    for line in lines:
+        for metadata in data:
+            if line.__contains__(metadata[K_ORG_CLASS_PATH]):
+                lines[index] = lines[index].replace(metadata[K_ORG_CLASS_PATH], metadata[K_BINDING_CLASS_PATH])
+        index += 1
+
+    with open(path, 'w') as smali:
+        smali.writelines(lines)
+        smali.close()
 
 
 if __name__ == '__main__':
