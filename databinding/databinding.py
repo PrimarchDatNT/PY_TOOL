@@ -76,7 +76,6 @@ def list_smali(path):
 
         metadata[K_ORG_SOURCE_JAVA] = lines[2].split('"')[1]
         metadata[K_BINDING_CLASS_PATH] = BIDNING_CLASS_PATH + '/' + lines[2].split('"')[1].replace('.java', ';')
-        print('---------')
         layout = camel_to_snake(metadata[K_ORG_SOURCE_JAVA].replace('Binding.java', ''))
         metadata[K_LAYOUT_XML] = layout
         binding_id = find_binding_id(LAYOUT_DIR + layout + '.xml')
@@ -85,6 +84,8 @@ def list_smali(path):
 
         start_constructor_index = -1
         end_constructor_index = -1
+
+        metadata[K_CONTAIN_DATA_BINDING] = False
 
         for l in lines[3:]:
             if l.__contains__('.annotation runtime Landroidx/databinding/Bindable;'):
@@ -100,7 +101,7 @@ def list_smali(path):
         if start_constructor_index == -1 and end_constructor_index == -1:
             continue
 
-        print(metadata[K_ORG_SOURCE_JAVA] + ' --- ' + metadata[K_LAYOUT_XML])
+        # print(metadata[K_ORG_SOURCE_JAVA] + ' --- ' + metadata[K_LAYOUT_XML])
 
         metadata[K_ORG_INSTANCE_INIT] = {}
         index = 0
@@ -109,7 +110,7 @@ def list_smali(path):
                 org_instance = line[line.index(metadata[K_ORG_CLASS_PATH]):].replace('\n', '')
 
                 # org_instance_name = org_instance.replace(metadata[K_ORG_CLASS_PATH], '').replace('->', '').split(':')[0]
-                # print(org_instance_name + ' = ' + binding_id[index])
+                # print(org_instance_name + ' = ' + binding_id[index] + ' = ' + camel_to_snake(binding_id[index]))
                 org_instance_class = org_instance.replace(metadata[K_ORG_CLASS_PATH], '').replace('->', '').split(':')[1]
 
                 binding_instance = metadata[K_BINDING_CLASS_PATH] + '->' + binding_id[index] + ':' + org_instance_class
@@ -117,7 +118,7 @@ def list_smali(path):
 
                 index += 1
 
-        print(metadata)
+        # print('----------')
         data.append(metadata)
 
     return data
@@ -135,7 +136,6 @@ def change_code(rootpath):
                     continue
                 files.append(file_path)
 
-    # procees_change('C:/Users/DatNT/Desktop/apktool/apk-tool/projects/com.muse.core/code/smali_classes2/com/commsource/studio/doodle/DoodlePagerFragment.smali', data)
     for path in files:
         procees_change(path, data)
 
@@ -173,5 +173,7 @@ def procees_change(path, data):
 
 
 if __name__ == '__main__':
-    # list_smali(BINDING_SMALI_DIR)
+    # data = list_smali(BINDING_SMALI_DIR)
+    # for meta in data:
+    #     print(meta[K_ORG_SOURCE_JAVA] + ' --- ' + meta[K_LAYOUT_XML] + '-----' + str(meta[K_CONTAIN_DATA_BINDING]))
     change_code(ROOT_SMALI_DIR)
