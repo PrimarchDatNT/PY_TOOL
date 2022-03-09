@@ -1,10 +1,6 @@
 import os
-import re
 
 ROOT_SMALI_DIR = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/com.muse.core/code'
-
-
-# demopath = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/com.muse.core/code/smali_classes2/com/commsource/studio/MagnifyComponent.smali'
 
 
 def rundelete(path):
