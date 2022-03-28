@@ -21,9 +21,20 @@ def convert_to_webp(source):
 
 
 def convert(fortmat):
-    paths = Path("C:/Users/DatNT/Desktop/appRes/New folder").glob("**/*." + fortmat)
-    for path in paths:
-        webp_path = convert_to_webp(path)
+    # paths = Path("C:/Users/DatNT/Desktop/appRes/New folder").glob("**/*." + fortmat)
+    # for path in paths:
+    #     webp_path = convert_to_webp(path)
+    #     print(webp_path)
+
+    files = []
+    for r, d, f in os.walk("C:/Users/DatNT/Desktop/appRes/New folder"):
+        for file in f:
+            if '.' + fortmat in file:
+                file_path = str(os.path.join(r, file)).replace('\\', '/')
+                files.append(file_path)
+
+    for p in files:
+        webp_path = convert_to_webp(Path(p))
         print(webp_path)
 
 
