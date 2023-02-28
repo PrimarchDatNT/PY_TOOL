@@ -1,0 +1,15 @@
+{
+  "id": 1677431668598,
+  "method": "subscribe",
+  "params": {
+    "channels": [
+      "mark.ETH_USD",
+      "index.ETHUSD-INDEX",
+      "book.ETH_USD.150",
+      "trade.ETH_USD",
+      "ticker.ETH_USD",
+      "candlestick.1m.ETH_USD"
+    ]
+  },
+  "nonce": 1677431668598
+}

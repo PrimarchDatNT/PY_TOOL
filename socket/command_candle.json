@@ -1,0 +1,10 @@
+{
+  "id": 1677431668598,
+  "method": "subscribe",
+  "params": {
+    "channels": [
+      "candlestick.1m.ETH_USD"
+    ]
+  },
+  "nonce": 1677431668598
+}

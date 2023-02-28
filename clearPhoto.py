@@ -23,7 +23,7 @@ def clearPhoto(photo):
     return PIL.Image.fromarray(arr)
 
 
-childrent = Path('C:/Users/DatNT/Desktop/clearPhoto').iterdir()
+childrent = Path('C:/Users/DatNT/Desktop/appRes/clear-photo').iterdir()
 for child in childrent:
     if child.name.endswith('.png'):
         out = clearPhoto(readImage(child))

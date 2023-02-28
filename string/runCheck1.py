@@ -15,7 +15,6 @@ path12 = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/cn.wps.moffic
 path13 = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/cn.wps.moffice_i18n/code/smali_classes13'
 
 files = []
-xml_path = None
 
 
 def checkcode(p):
@@ -23,25 +22,23 @@ def checkcode(p):
         code = smali.readlines()
         smali.close()
 
-    match_count = 0
     for cline in code:
         if matchid(cline):
-            match_count += 1
-    return match_count
+            return p
 
 
 def matchid(codeline):
-    return codeline.__contains__('.method ')
+    return codeline.__contains__('.class public interface abstract Landroid')
 
 
 if __name__ == '__main__':
-    for r, d, listfile in os.walk(path11):
-        for file in listfile:
+    for r, d, f in os.walk(path):
+        for file in f:
             if '.smali' in file:
                 files.append(os.path.join(r, file))
-    count = 0
-    for file in files:
-        count += checkcode(file)
+    for f in files:
+        smali_path = checkcode(f)
+        if smali_path is not None:
+            print(smali_path)
 
-    print(count)
     print('Done')
