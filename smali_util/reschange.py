@@ -49,21 +49,3 @@ for f in files:
     changeCode(f)
 
 print('Done')
-
-# m = len(files) // 20
-# sub_array = []
-# for n in range(m):
-#     endindex = 20 * (n + 1)
-#     sub_array.append(files[20 * n:endindex])
-# sub_array.append(files[20 * m: len(files)])
-#
-# threads = []
-#
-# for a in sub_array:
-#     task = threading.Thread(target=run(a))
-#     threads.append(task)
-#     task.start()
-#
-# for x in threads:
-#     x.join()
-#
