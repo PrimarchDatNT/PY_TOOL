@@ -13,7 +13,7 @@ def convert_to_webp(source):
 
 def convert(fortmat):
     files = []
-    for r, d, f in os.walk('C:/Users/DatNT/Desktop/appRes'):
+    for r, d, f in os.walk('C:/Users/DatNT/Desktop/appRes/webp'):
         for file in f:
             if '.' + fortmat in file:
                 file_path = str(os.path.join(r, file)).replace('\\', '/')
