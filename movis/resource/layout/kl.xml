@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/aeh" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="@dimen/ut" android:layout_above="@id/wk">
+        <RelativeLayout android:id="@id/ii" android:layout_width="fill_parent" android:layout_height="@dimen/wd">
+            <ImageButton android:id="@id/kt" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a6a" android:layout_centerInParent="true" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/auj" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ii" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/auk" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ii" />
+        <RelativeLayout android:id="@id/aeq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ii">
+            <RelativeLayout android:id="@id/afv" android:background="@drawable/a7r" android:layout_width="fill_parent" android:layout_height="@dimen/wz" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz">
+                <ImageView android:id="@id/ab2" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/a42" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+                <com.videoai.aivpcore.editorx.widget.UKeyBackEditText android:textSize="14.0sp" android:textColor="@color/iv" android:textColorHint="@color/fd" android:gravity="start|center" android:id="@id/lo" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/akn" android:singleLine="true" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/aun" android:layout_marginStart="8.0dip" android:layout_marginEnd="@dimen/tz" android:layout_toEndOf="@id/ab2" />
+            </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/aui" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_below="@id/afv" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/aez" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:indeterminateDrawable="@drawable/b3_" android:indeterminateDuration="1000" style="@android:style/Widget.ProgressBar.Small.Inverse" />
+            <TextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/uy" android:layout_marginStart="10.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.videoai.aivpcore.editorx.board.effect.ui.effectTab.EffectTabView android:id="@id/wk" android:layout_width="fill_parent" android:layout_height="@dimen/xt" android:layout_alignParentBottom="true" />
+</RelativeLayout>

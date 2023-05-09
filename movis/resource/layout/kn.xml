@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/aj7" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:layout_gravity="center" android:id="@id/b2f" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/tz" android:layout_alignParentEnd="true" app:sitv_bottom_text="@string/a1u" app:sitv_top_drawable="@drawable/a1f" />
+    <com.videoai.aivpcore.editorx.widget.trimBar.TrimBarView android:id="@id/bav" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/wd" android:layout_marginBottom="@dimen/y_" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/aeh" android:background="@drawable/ae1" android:layout_width="fill_parent" android:layout_height="@dimen/vn" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/ii" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="@dimen/wd">
+            <ImageButton android:layout_gravity="center" android:id="@id/kt" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="32.0dip" android:layout_height="@dimen/x5" android:src="@drawable/a2d" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/ze" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.videoai.aivpcore.editorx.board.effect.ui.effectTab.EffectTabView android:id="@id/wk" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/xt" android:layout_alignParentBottom="true" />
+    <include android:id="@id/afw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/xt" android:layout_alignParentBottom="true" layout="@layout/kt" />
+</RelativeLayout>

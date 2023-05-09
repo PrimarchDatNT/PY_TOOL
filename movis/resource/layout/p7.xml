@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/atp" android:paddingBottom="180.0dip" android:focusable="true" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/xz" android:divider="@null" android:fastScrollEnabled="false" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/a1b" android:focusable="true" android:visibility="gone" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/xz" android:fastScrollEnabled="false" />
+    <include android:visibility="gone" layout="@layout/ps" />
+</FrameLayout>

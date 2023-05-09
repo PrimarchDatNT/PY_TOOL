@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.videoai.aivpcore.common.ui.Switch android:layout_gravity="center" android:id="@android:id/checkbox" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="24.0dip" android:checked="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

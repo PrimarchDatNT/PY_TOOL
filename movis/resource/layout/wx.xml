@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/mi" android:paddingTop="@dimen/mg" android:paddingRight="@dimen/mi" android:paddingBottom="@dimen/mg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/mi" android:paddingEnd="@dimen/mi"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:gravity="center" android:id="@id/a25" android:paddingBottom="6.0dip" android:scrollbars="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@color/xz" android:cacheColorHint="@color/xz" android:stretchMode="columnWidth" android:numColumns="3" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/aw4" android:layout_width="82.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+        <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/a7e" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginLeft="0.5dip" android:layout_marginTop="0.5dip" android:src="@color/xz" android:scaleType="centerCrop" android:layout_marginStart="0.5dip" fresco:placeholderImage="@color/bz" />
+        <ImageView android:id="@id/i5" android:visibility="gone" android:layout_width="73.0dip" android:layout_height="73.0dip" android:src="@drawable/wo" />
+        <RelativeLayout android:id="@id/awf" android:visibility="gone" android:layout_width="73.0dip" android:layout_height="73.0dip">
+            <ImageView android:id="@id/a3c" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/oq" android:scaleType="centerInside" android:layout_centerInParent="true" android:layout_marginEnd="2.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/awg" android:background="@drawable/az8" android:visibility="gone" android:layout_width="73.0dip" android:layout_height="73.0dip">
+            <ImageView android:id="@id/a3d" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/b5j" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ai_" android:background="@drawable/az8" android:visibility="gone" android:layout_width="73.0dip" android:layout_height="73.0dip">
+            <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/hy" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/b8i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="0%" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/a7x" android:background="@drawable/x6" android:layout_width="72.0dip" android:layout_height="24.0dip" android:layout_alignBottom="@id/a7e">
+            <TextView android:textSize="11.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/a7w" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="LOVE" android:maxLines="1" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/abm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

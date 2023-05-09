@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/afg" android:background="@color/dr" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/gv">
+        <RelativeLayout android:id="@id/b5n" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/ar2" android:layout="@layout/hw" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="-20.0dip" android:layout_alignBottom="@id/afg" />
+    <com.videoai.aivpcore.editor.widget.title.EditorTitle android:id="@id/b31" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/aft" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="@dimen/gv" android:layout_alignParentBottom="true">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/ats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:overScrollMode="never" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/a00" android:id="@id/be3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginBottom="16.0dip" android:text="@string/akc" android:drawableLeft="@drawable/xh" android:drawablePadding="5.0dip" android:layout_alignParentBottom="true" android:drawableStart="@drawable/xh" android:layout_marginStart="15.0dip" />
+    </RelativeLayout>
+    <com.videoai.aivpcore.editor.slideshow.SlideSubTextView android:id="@id/b8k" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/gv" android:layout_alignParentBottom="true" />
+</RelativeLayout>

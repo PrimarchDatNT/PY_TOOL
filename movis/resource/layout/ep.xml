@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/xz" android:layout_width="67.0dip" android:layout_height="67.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/a62" android:background="@color/xz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b39" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <ImageButton android:id="@id/a61" android:background="@color/xz" android:visibility="gone" android:layout_width="67.0dip" android:layout_height="67.0dip" android:src="@drawable/ava" android:layout_centerVertical="true" android:contentDescription="@null" />
+</RelativeLayout>

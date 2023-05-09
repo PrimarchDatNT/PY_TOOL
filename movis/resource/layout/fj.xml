@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/a_5" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/dy" />
+    <LinearLayout android:orientation="vertical" android:id="@id/aci" android:background="@drawable/l2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="@color/gl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="28.0dip" android:text="@string/zn" android:layout_marginStart="28.0dip" android:layout_marginEnd="28.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/az8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="28.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/zo" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bge" android:background="@drawable/dx" android:layout_width="281.0dip" android:layout_height="@dimen/x9" android:layout_marginTop="24.0dip" android:layout_marginBottom="32.0dip" />
+    </LinearLayout>
+</LinearLayout>

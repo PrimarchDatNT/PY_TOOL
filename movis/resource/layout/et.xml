@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/a6s" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginBottom="10.0dip" android:layout_above="@id/ra" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/zz" android:layout_gravity="center_horizontal" android:id="@id/ye" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.5dip" android:text="@string/tv" android:shadowColor="@color/bv" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <com.videoai.aivpcore.editor.widget.seekbar.IndicatorSeekBar android:id="@id/a6o" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_toRightOf="@id/ye" android:layout_alignParentBottom="true" app:isb_indicator_color="@android:color/white" app:isb_indicator_text_color="@android:color/black" app:isb_indicator_text_size="14.0sp" app:isb_max="100.0" app:isb_progress="0.0" app:isb_thumb_drawable="@drawable/tc" app:isb_thumb_size="20.0dip" app:isb_track_background_color="@color/g9" app:isb_track_progress_color="@android:color/white" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ra" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="208.0dip" android:layout_alignParentBottom="true">
+        <include android:id="@id/ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginStart="10.0dip" layout="@layout/eq" />
+        <com.videoai.aivpcore.editor.clipedit.filter.AdvanceFilterPanel android:id="@id/ch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginBottom="48.0dip" android:layout_alignParentBottom="true" />
+        <com.videoai.aivpcore.editor.widget.terminator.Terminator android:id="@id/b7u" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:terminatorText="@string/al9" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/b9m" android:background="@color/bn" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="26.0dip" android:layout_above="@id/adc">
+        <TextView android:textSize="10.0sp" android:textColor="@color/g9" android:gravity="center_vertical" android:id="@id/b9o" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/uw" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/zo" android:gravity="center_vertical" android:id="@id/b9n" android:background="@drawable/x8" android:paddingLeft="10.0dip" android:paddingTop="1.0dip" android:paddingRight="10.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/b9o" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginStart="10.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/adc" android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true">
+        <View android:background="#ff262626" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+        <ImageButton android:background="@drawable/o0" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

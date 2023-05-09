@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.firebase.inappmessaging.display.internal.layout.FiamFrameLayout android:layout_gravity="center" android:id="@id/a48" android:padding="24.0dip" android:focusable="true" android:clickable="true" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/a42" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.firebase.inappmessaging.display.internal.ResizableImageView android:id="@id/a4a" android:focusable="true" android:clickable="true" android:adjustViewBounds="true" style="@style/hg" />
+    </FrameLayout>
+    <Button android:layout_gravity="end|center|top" android:id="@id/qz" style="@style/hb" />
+</com.google.firebase.inappmessaging.display.internal.layout.FiamFrameLayout>

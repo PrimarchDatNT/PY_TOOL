@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ay5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.videoai.aivpcore.editorx.board.effect.subtitle.SubtitleStyleEditView android:id="@id/bm_" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

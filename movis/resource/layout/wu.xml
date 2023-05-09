@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/com_dialog_layout" android:background="@drawable/aud" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ew" android:layout_marginRight="@dimen/ew" android:layout_marginStart="@dimen/ew" android:layout_marginEnd="@dimen/ew">
+        <RelativeLayout android:id="@id/tf" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <TextView android:textSize="@dimen/ex" android:textColor="@color/c5" android:gravity="center" android:id="@id/com_dialog_txt_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="dialog title" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/com_gallery_dialog_txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_below="@id/tf" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/com_dialog_img_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/afx" android:background="@color/xz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/com_gallery_dialog_txt_title">
+            <TextView android:textSize="16.0sp" android:textColor="@color/bn" android:id="@id/com_dialog_txt_title_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大小：10.5M" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/a4d" android:background="@color/ia" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="17.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="17.0dip" android:layout_below="@id/com_dialog_txt_title_second" android:layout_marginStart="17.0dip" android:layout_marginEnd="17.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/ae6" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="17.0dip" android:layout_marginBottom="15.0dip" android:layout_below="@id/afx" android:layout_marginStart="17.0dip" android:layout_marginEnd="17.0dip">
+            <ImageView android:id="@id/a4c" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_centerVertical="true" android:layout_marginEnd="5.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/bn" android:ellipsize="middle" android:id="@id/com_dialog_txt_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/a4c" android:layout_centerVertical="true" android:layout_toEndOf="@id/a4c" />
+        </RelativeLayout>
+        <CheckBox android:textSize="16.0sp" android:textColor="@drawable/b1g" android:id="@id/com_dialog_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:button="@drawable/b1l" android:layout_below="@id/ae6" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/a4a" android:layout_below="@id/com_dialog_checkbox">
+            <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:src="#ffeaf0f6" android:scaleType="fitXY" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+            <LinearLayout android:gravity="center" android:id="@id/com_dialog_btns_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:layout_centerHorizontal="true">
+                <RelativeLayout android:id="@id/com_dialog_btn_layout_left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <Button android:textSize="@dimen/a4b" android:textColor="@color/fi" android:id="@id/com_dialog_btn_left" android:background="@drawable/auf" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/wc" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/com_dialog_btn_layout_middle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <Button android:textSize="@dimen/a4b" android:textColor="@color/fi" android:id="@id/com_dialog_btn_middle" android:background="@drawable/aui" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="重新导出" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/com_dialog_btn_layout_right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <Button android:textSize="@dimen/a4b" android:textColor="@color/fi" android:id="@id/com_dialog_btn_right" android:background="@drawable/auk" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/wc" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

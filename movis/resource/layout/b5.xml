@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/app_include_creation_editor_main_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/a4e" android:layout_width="fill_parent" android:layout_height="64.0dip" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
+    <ImageView android:id="@id/a4n" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="60.0dip" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
+    <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/a4h" android:layout_width="24.0dip" android:layout_height="24.0dip" app:actualImageScaleType="yv" app:layout_constraintBottom_toBottomOf="@id/a4e" app:layout_constraintEnd_toStartOf="@id/bbu" app:layout_constraintHorizontal_chainStyle="apo" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="@id/a4e" />
+    <TextView android:textSize="17.0sp" android:textColor="@android:color/white" android:id="@id/bbu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/a4h" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toEndOf="@id/a4h" app:layout_constraintTop_toTopOf="@id/a4h" />
+</androidx.constraintlayout.widget.ConstraintLayout>

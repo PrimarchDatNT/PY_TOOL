@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/g9" android:id="@id/q1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="18.0dip" android:text="@string/rg" android:layout_marginStart="15.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/q0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="5.0dip" android:layout_above="@id/ae2" android:layout_below="@id/q1" />
+    <RelativeLayout android:id="@id/ae2" android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true" android:onClick="sortConfirm">
+        <ImageButton android:background="@drawable/o0" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

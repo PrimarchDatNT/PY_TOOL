@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/zh" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="azw|wa" />
+    <com.videoedit.widgetlib.viewpager.NoScrollViewPager android:id="@id/bmp" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintTop_toTopOf="apv" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/av7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ayq" android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ayo" android:layout_width="fill_parent" android:layout_height="@dimen/a4e" android:layout_below="@id/ayq" />
+    <include android:id="@id/auz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ayq" layout="@layout/fx" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/ra" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="208.0dip" android:layout_alignParentBottom="true">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/az2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="38.0dip" />
+        <com.videoai.aivpcore.editor.widget.terminator.Terminator android:id="@id/b7u" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:terminatorText="@string/rq" />
+        <include android:id="@id/a6l" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/b7u" layout="@layout/f8" />
+        <include android:id="@id/ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginStart="10.0dip" layout="@layout/eq" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/a01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/ai9" android:background="@drawable/ae1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/zb" android:layout_width="fill_parent" android:layout_height="@dimen/wz">
+            <View android:layout_gravity="center" android:id="@id/bn6" android:background="@color/d6" android:layout_width="@dimen/wz" android:layout_height="@dimen/uk" />
+            <View android:layout_gravity="bottom" android:background="@color/ak" android:layout_width="fill_parent" android:layout_height="@dimen/t2" />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/a02" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

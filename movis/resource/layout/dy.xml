@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/dialog_purchase_success_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/hw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wz" android:src="@drawable/ak8" android:adjustViewBounds="true" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textStyle="bold" android:textColor="@color/zo" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/v7" android:text="@string/jp" android:layout_marginStart="@dimen/v7" android:layout_marginEnd="@dimen/v7" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textColor="@color/zo" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yf" android:text="@string/jo" android:layout_marginStart="@dimen/td" android:layout_marginEnd="@dimen/td" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textStyle="bold" android:textColor="@color/zo" android:gravity="center" android:layout_gravity="center" android:id="@id/bba" android:background="@drawable/dx" android:layout_width="fill_parent" android:layout_height="@dimen/xh" android:layout_marginTop="@dimen/v7" android:layout_marginBottom="@dimen/v7" android:text="@string/ek" android:drawablePadding="@dimen/td" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView android:layout_width="fill_parent" android:layout_height="fill_parent" app:lottie_autoPlay="true" app:lottie_rawRes="@raw/j" />
+</FrameLayout>

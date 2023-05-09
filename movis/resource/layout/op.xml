@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/aw5" android:background="#f2101010" android:layout_width="fill_parent" android:layout_height="@dimen/gv" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/adc" android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true">
+            <View android:background="#ff262626" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+            <ImageButton android:background="@drawable/o0" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/af7" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_above="@id/adc">
+            <View android:background="@color/fx" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentTop="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+            <View android:background="@color/fx" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+            <RelativeLayout android:gravity="center" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignWithParentIfMissing="true">
+                <TextView android:textSize="13.0sp" android:textColor="@color/zo" android:ellipsize="end" android:gravity="start|center" android:id="@id/bja" android:background="@drawable/ue" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/ano" android:singleLine="true" android:drawableLeft="@drawable/s5" android:drawableRight="@drawable/ayr" android:drawablePadding="10.0dip" android:layout_toLeftOf="@id/ahi" android:layout_centerVertical="true" android:drawableStart="@drawable/s5" android:drawableEnd="@drawable/ayr" android:paddingStart="15.0dip" android:layout_toStartOf="@id/ahi" />
+                <LinearLayout android:gravity="end|center" android:id="@id/ahi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                    <View android:background="@color/fx" android:layout_width="1.0px" android:layout_height="20.0dip" />
+                    <ImageView android:layout_gravity="center" android:id="@id/aaz" android:paddingLeft="15.0dip" android:paddingRight="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/uv" android:scaleType="centerInside" android:paddingStart="15.0dip" android:paddingEnd="8.0dip" />
+                    <ImageView android:layout_gravity="center" android:id="@id/a_9" android:paddingLeft="8.0dip" android:paddingRight="15.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/uu" android:scaleType="centerInside" android:paddingStart="8.0dip" android:paddingEnd="15.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/av1" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/af7">
+            <com.videoai.aivpcore.editor.effects.music.EditorVolumeSetView android:id="@id/bo3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/amn" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

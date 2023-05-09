@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout android:id="@id/aol" android:layout_width="@dimen/y_" android:layout_height="@dimen/yg">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/a7e" android:layout_width="fill_parent" android:layout_height="@dimen/y0" android:src="@drawable/a9e" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/iv" />
+        <View android:id="@id/bkc" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="0.94" />
+        <View android:background="@drawable/ary" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/a_q" android:background="@drawable/arz" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+        <ProgressBar android:id="@id/as_" android:visibility="invisible" android:layout_width="@dimen/vs" android:layout_height="@dimen/uk" android:progressDrawable="@drawable/aok" android:layout_centerInParent="true" style="?android:progressBarStyleHorizontal" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/abu" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:layout_marginBottom="@dimen/uw" android:src="@drawable/aj9" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/uk" android:layout_alignParentEnd="true" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/a_b" android:clickable="false" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:layout_marginTop="@dimen/uk" android:layout_marginBottom="@dimen/uk" android:src="@drawable/a9z" android:layout_marginStart="@dimen/uk" android:layout_marginEnd="@dimen/uk" android:layout_alignParentEnd="true" />
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/b_e" android:background="@drawable/ec" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:layout_margin="@dimen/uk" android:layout_marginTop="@dimen/uk" android:layout_marginBottom="@dimen/uk" android:src="@drawable/a_9" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_centerInParent="true" android:layout_marginStart="@dimen/uk" android:layout_marginEnd="@dimen/uk" android:layout_alignParentStart="true" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yy" android:textColor="@color/xj" android:gravity="center" android:id="@id/a8a" android:layout_width="fill_parent" android:layout_height="@dimen/ul" android:layout_alignParentBottom="true" />
+    </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.firebase.inappmessaging.display.internal.layout.CardLayoutPortrait android:theme="@style/h5" android:layout_gravity="center" android:id="@id/nv" android:layout_width="fill_parent" android:layout_height="fill_parent" fiam:maxHeightPct="@dimen/eu" fiam:maxWidthPct="@dimen/ev" style="@style/h7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fiam="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/a4a" style="@style/h_" />
+    <TextView android:id="@id/akp" android:paddingLeft="@dimen/st" android:paddingTop="@dimen/st" android:paddingRight="@dimen/st" style="@style/hi" />
+    <ScrollView android:id="@id/ik" style="@style/ha">
+        <TextView android:id="@id/ako" style="@style/he" />
+    </ScrollView>
+    <LinearLayout android:id="@id/b8" style="@style/h8">
+        <Button android:id="@id/b0e" style="@style/h9" />
+        <Button android:id="@id/as6" style="@style/h9" />
+    </LinearLayout>
+</com.google.firebase.inappmessaging.display.internal.layout.CardLayoutPortrait>

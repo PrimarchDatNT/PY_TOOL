@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/a5" android:insetRight="@dimen/a5" android:insetTop="@dimen/a5" android:insetBottom="@dimen/a5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item android:state_checked="false" android:state_pressed="false">
+            <layer-list>
+                <item android:drawable="@drawable/bx" />
+                <item android:drawable="@drawable/bj" />
+            </layer-list>
+        </item>
+        <item>
+            <layer-list>
+                <item android:drawable="@drawable/bw" />
+                <item android:drawable="@drawable/bj" />
+            </layer-list>
+        </item>
+    </selector>
+</inset>

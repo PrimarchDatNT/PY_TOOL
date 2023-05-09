@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.datepicker.MaterialCalendarGridView android:gravity="center" android:id="@id/al7" android:addStatesFromChildren="false" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:horizontalSpacing="@dimen/p2" android:verticalSpacing="@dimen/p3"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

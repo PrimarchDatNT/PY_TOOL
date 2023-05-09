@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.videoai.aivpcore.templatex.view.TouchRelativeLayout android:layout_width="fill_parent" android:layout_height="317.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="46.0dip" android:layout_height="230.0dip" android:src="@drawable/arl" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:translationX="46.0dip" />
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="294.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_centerHorizontal="true" app:cardCornerRadius="15.0dip" app:cardElevation="6.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/bi9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:layout_marginStart="19.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="19.0dip">
+                <ImageView android:id="@id/a9r" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="@drawable/arq" android:layout_centerVertical="true" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+                <TextView android:textSize="13.0sp" android:textColor="#ff2b9df7" android:id="@id/bcy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ag1" android:layout_centerVertical="true" android:layout_toStartOf="@id/a9r" />
+                <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:ellipsize="end" android:id="@id/bdx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_centerVertical="true" android:layout_marginEnd="40.0dip" android:layout_toStartOf="@id/bcy" android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginTop="19.0dip" android:layout_marginStart="19.0dip">
+                <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL android:id="@id/axu" android:layout_width="86.0dip" android:layout_height="86.0dip">
+                    <ImageView android:id="@id/a9b" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                    <View android:background="@drawable/arx" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bcm" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <ImageView android:id="@id/a4r" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
+                </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
+                <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL android:id="@id/axv" android:layout_width="86.0dip" android:layout_height="86.0dip" android:layout_marginStart="12.0dip">
+                    <ImageView android:id="@id/a9c" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                    <View android:background="@drawable/arx" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bcn" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <ImageView android:id="@id/a4s" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
+                </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
+                <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL android:id="@id/axw" android:layout_width="86.0dip" android:layout_height="86.0dip" android:layout_marginStart="12.0dip">
+                    <ImageView android:id="@id/a9d" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                    <View android:background="@drawable/arx" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bco" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <ImageView android:id="@id/a4t" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
+                </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
+                <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL android:id="@id/axx" android:layout_width="86.0dip" android:layout_height="86.0dip" android:layout_marginStart="12.0dip">
+                    <ImageView android:id="@id/a9e" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                    <View android:background="@drawable/arx" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bcp" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <ImageView android:id="@id/a4u" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
+                </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="19.0dip">
+                <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL android:id="@id/axy" android:layout_width="86.0dip" android:layout_height="86.0dip">
+                    <ImageView android:id="@id/a9f" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                    <View android:background="@drawable/arx" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bcq" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <ImageView android:id="@id/a4v" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
+                </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
+                <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL android:id="@id/axz" android:layout_width="86.0dip" android:layout_height="86.0dip" android:layout_marginStart="12.0dip">
+                    <ImageView android:id="@id/a9g" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                    <View android:background="@drawable/arx" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bcr" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <ImageView android:id="@id/a4w" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
+                </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
+                <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL android:id="@id/ay0" android:layout_width="86.0dip" android:layout_height="86.0dip" android:layout_marginStart="12.0dip">
+                    <ImageView android:id="@id/a9h" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                    <View android:background="@drawable/arx" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bcs" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <ImageView android:id="@id/a4x" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
+                </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
+                <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL android:id="@id/ay1" android:layout_width="86.0dip" android:layout_height="86.0dip" android:layout_marginStart="12.0dip">
+                    <ImageView android:id="@id/a9i" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                    <View android:background="@drawable/arx" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bct" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_alignParentBottom="true" />
+                    <ImageView android:id="@id/a4y" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
+                </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</com.videoai.aivpcore.templatex.view.TouchRelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/af5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layoutDirection="ltr" android:layout_alignParentEnd="true">
+        <com.videoai.aivpcore.editor.effects.quickposition.PixelMoveView android:gravity="center" android:layout_gravity="center" android:id="@id/ba9" android:layout_width="50.0dip" android:layout_height="30.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.videoai.aivpcore.editor.effects.quickposition.PixelMoveView android:gravity="start" android:layout_gravity="center" android:id="@id/agw" android:layout_width="30.0dip" android:layout_height="fill_parent" android:rotation="270.0" />
+            <com.videoai.aivpcore.editor.effects.quickposition.PixelMoveView android:gravity="end" android:layout_gravity="center" android:id="@id/avx" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:rotation="90.0" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <com.videoai.aivpcore.editor.effects.quickposition.PixelMoveView android:gravity="center" android:layout_gravity="center" android:id="@id/iq" android:layout_width="50.0dip" android:layout_height="30.0dip" android:rotation="180.0" />
+    </LinearLayout>
+</RelativeLayout>

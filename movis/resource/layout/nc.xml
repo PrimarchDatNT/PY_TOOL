@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/a7n" android:layout_width="fill_parent" android:layout_height="444.5dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <ImageView android:id="@id/a8w" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/a9a" android:layout_marginStart="24.0dip" />
+            <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="More fonts" />
+            <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageView android:id="@id/a95" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/a9b" android:layout_marginEnd="24.0dip" />
+        </LinearLayout>
+        <View android:background="@color/eb" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/ay3" android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</RelativeLayout>

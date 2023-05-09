@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/az7" android:background="@color/vz" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/sx" android:textColor="@drawable/apm" android:gravity="center|left" android:id="@id/jd" android:background="@android:color/transparent" android:paddingLeft="@dimen/sz" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Cancel" />
+    <TextView android:textSize="@dimen/t0" android:textColor="@color/w2" android:gravity="center" android:id="@id/bcb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/k6" android:layout_toRightOf="@id/jd" android:layout_centerVertical="true" />
+    <Button android:textSize="@dimen/sx" android:textColor="@drawable/apm" android:gravity="center|right" android:id="@id/k6" android:background="@android:color/transparent" android:paddingRight="@dimen/sz" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Submit" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.videoai.aivpcore.common.ui.SpannableTextView android:textSize="14.0sp" android:textColor="@color/eq" android:textColorHint="@color/i1" android:gravity="top" android:id="@id/bbc" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="15.0dip" android:hint="@string/a_c" android:singleLine="true" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toStartOf="@id/bc8" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff2b9df7" android:gravity="center_vertical" android:id="@id/bc8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginRight="15.0dip" android:layout_marginEnd="15.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintTop_toTopOf="apv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

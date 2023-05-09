@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/a7u" android:layout_width="wrap_content" android:layout_height="100.0dip">
+        <com.videoai.aivpcore.common.bitmapfun.util.RecyclingImageView android:id="@id/a5f" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        <View android:background="@drawable/ayq" android:layout_width="fill_parent" android:layout_height="39.0dip" android:layout_alignBottom="@id/a5f" />
+        <ImageView android:id="@id/a57" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/b4e" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@id/ags" android:background="@color/xz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="3.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="5.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/bj4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="00:00" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/bqd" android:clickable="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/a1g" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip" android:src="@drawable/afj" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="3.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/bqh" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/af4" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

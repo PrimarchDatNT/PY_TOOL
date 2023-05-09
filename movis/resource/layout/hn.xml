@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="76.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.videoai.aivpcore.editor.videotrim.ui.VePIPGallery android:gravity="center_vertical" android:id="@id/a1m" android:background="@color/g4" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="5.0dip" android:spacing="0.0dip" android:unselectedAlpha="1.0" />
+    <com.videoai.aivpcore.editor.videotrim.ui.VePIPGallery android:gravity="center_vertical" android:id="@id/brf" android:background="@color/g4" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="2.0px" android:spacing="0.0dip" android:layout_below="@id/a1m" android:unselectedAlpha="1.0" />
+    <ImageView android:background="@color/g4" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_below="@id/a1m" />
+    <com.videoai.aivpcore.editor.pip.TrimMaskView android:id="@id/bro" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="76.0dip" trimmaskview:curneedle="@drawable/b7n" trimmaskview:leftfakehandle="@drawable/b7m" trimmaskview:lefthandle="@drawable/avm" trimmaskview:rightfakehandle="@drawable/b7m" trimmaskview:righthandle="@drawable/avm" xmlns:trimmaskview="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

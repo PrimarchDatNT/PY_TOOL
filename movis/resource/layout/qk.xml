@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="42.0dip">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ProgressBar android:id="@id/as8" android:background="@drawable/k1" android:layout_width="@dimen/v2" android:layout_height="@dimen/v2" android:max="100" android:progress="50" android:progressDrawable="@drawable/k3" style="?android:progressBarStyleHorizontal" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/h" />
+        </FrameLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fk" android:fontFamily="@font/f" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/kf" android:background="@drawable/jf" android:layout_width="?a4" android:layout_height="?a4" android:src="@drawable/aj5" android:scaleType="centerInside" android:adjustViewBounds="true" />
+</FrameLayout>

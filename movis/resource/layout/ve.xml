@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/jf" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/a7u" android:background="@color/xz" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginBottom="6.0dip" android:layout_alignParentBottom="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/g9" android:id="@id/b_5" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="Theme" android:layout_centerVertical="true" android:fontFamily="sans-serif" android:layout_marginStart="4.0dip" />
+        <TextView android:textSize="9.0sp" android:textColor="@color/n_" android:gravity="center" android:id="@id/b_l" android:background="@drawable/arj" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="5.0dip" android:text="0" android:layout_toRightOf="@id/b_5" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/b_5" />
+        <Button android:textSize="12.0sp" android:textColor="@color/fp" android:id="@id/kq" android:background="@drawable/b4d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/td" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

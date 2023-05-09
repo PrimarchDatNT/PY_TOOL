@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/b9h" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <ImageButton android:id="@id/lg" android:background="@drawable/uw" android:layout_width="54.0dip" android:layout_height="fill_parent" android:src="@drawable/xs" android:contentDescription="@null" />
+        <View android:background="@color/dt" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_alignRight="@id/lg" android:layout_centerVertical="true" android:layout_alignEnd="@id/lg" />
+        <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator android:id="@id/aj4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/lg" android:layout_toEndOf="@id/lg" />
+    </RelativeLayout>
+    <View android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignTop="@id/b9h" />
+    <View android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignBottom="@id/b9h" />
+    <com.videoai.aivpcore.common.ui.XYViewPager android:id="@id/b9q" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/b9h" />
+    <FrameLayout android:id="@id/b9k" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/b9h" />
+</RelativeLayout>

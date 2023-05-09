@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="@dimen/td" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/yz" android:textColor="@color/xj" android:gravity="center" android:id="@id/bea" android:background="@drawable/apw" android:paddingTop="@dimen/td" android:paddingBottom="@dimen/td" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Life Like A Movie" android:fontFamily="@font/f" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz" />
+</FrameLayout>

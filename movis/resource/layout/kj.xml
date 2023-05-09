@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:attr="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/aws" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_centerVertical="true">
+        <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/to" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_centerInParent="true" attr:actualImageScaleType="o2" attr:roundedCornerRadius="2.0dip" />
+        <ImageView android:id="@id/a_p" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/a70" android:layout_centerInParent="true" />
+        <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/tp" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/aao" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/a2l" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/a_c" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/a2j" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/aak" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/a2k" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

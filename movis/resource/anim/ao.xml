@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate android:drawable="@drawable/comm_icon_studio_video_loading"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

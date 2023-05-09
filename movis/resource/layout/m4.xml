@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ag" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="194.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ai1" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="28.0dip" android:layout_marginStart="15.0dip">
+        <ImageView android:id="@id/a_s" android:background="@drawable/apw" android:paddingTop="@dimen/uk" android:paddingBottom="@dimen/uk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a35" android:scaleType="center" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/az0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ayy" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_below="@id/ai1" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ayz" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_below="@id/ai1" />
+</RelativeLayout>

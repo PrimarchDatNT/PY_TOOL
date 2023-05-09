@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.firebase.inappmessaging.display.internal.layout.FiamRelativeLayout android:id="@id/al0" android:padding="24.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/tc" />
+    <Button android:id="@id/qz" android:layout_alignTop="@id/akz" android:layout_alignRight="@id/akz" android:layout_alignEnd="@id/akz" style="@style/hb" />
+</com.google.firebase.inappmessaging.display.internal.layout.FiamRelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/u9" android:background="@drawable/hv" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/u8" android:background="@drawable/jf" android:layout_width="fill_parent" android:layout_height="@dimen/xh">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a8v" android:drawablePadding="@dimen/yf" android:drawableStart="@drawable/akq" android:fontFamily="@font/f" android:layout_marginStart="@dimen/td" />
+    </LinearLayout>
+    <View android:layout_gravity="center" android:layout_width="@dimen/u0" android:layout_height="@dimen/t2" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/u7" android:background="@drawable/jf" android:layout_width="fill_parent" android:layout_height="@dimen/xh">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a8u" android:drawablePadding="@dimen/yf" android:drawableStart="@drawable/n5" android:fontFamily="@font/f" android:layout_marginStart="@dimen/td" />
+    </LinearLayout>
+</LinearLayout>

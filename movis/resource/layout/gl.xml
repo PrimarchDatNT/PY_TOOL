@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/ari" android:background="@drawable/v2" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="@color/ew" android:layout_width="10.0dip" android:layout_height="2.0dip" />
+            <RelativeLayout android:id="@id/arj" android:background="@drawable/v2" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="@color/ew" android:layout_width="10.0dip" android:layout_height="2.0dip" />
+            <RelativeLayout android:id="@id/ark" android:background="@drawable/v2" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="10.0dip">
+            <RelativeLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <View android:background="@color/ew" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:layout_marginStart="10.0dip">
+                <View android:background="@color/ew" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:layout_marginStart="10.0dip">
+                <View android:background="@color/ew" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/arl" android:background="@drawable/v2" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="@color/ew" android:layout_width="10.0dip" android:layout_height="2.0dip" />
+            <RelativeLayout android:id="@id/arm" android:background="@drawable/v2" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="@color/ew" android:layout_width="10.0dip" android:layout_height="2.0dip" />
+            <RelativeLayout android:id="@id/arn" android:background="@drawable/v2" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="10.0dip">
+            <RelativeLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <View android:background="@color/ew" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:layout_marginStart="10.0dip">
+                <View android:background="@color/ew" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:layout_marginStart="10.0dip">
+                <View android:background="@color/ew" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/aro" android:background="@drawable/v2" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="@color/ew" android:layout_width="10.0dip" android:layout_height="2.0dip" />
+            <RelativeLayout android:id="@id/arp" android:background="@drawable/v2" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="@color/ew" android:layout_width="10.0dip" android:layout_height="2.0dip" />
+            <RelativeLayout android:id="@id/arq" android:background="@drawable/v2" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

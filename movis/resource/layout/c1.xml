@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.videoai.aivpcore.camera.ui.view.TimerView android:id="@id/b_4" android:visibility="invisible" android:layout_width="106.29999dip" android:layout_height="106.29999dip" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

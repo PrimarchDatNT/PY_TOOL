@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bn" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/afh" android:background="@color/bn" android:layout_width="fill_parent" android:layout_height="320.0dip" android:layout_below="@id/afj">
+        <RelativeLayout android:id="@id/aff" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <SurfaceView android:id="@id/as5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <com.videoai.aivpcore.editor.videotrim.crop.CropImageView android:id="@id/sc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/bn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/agi" android:layout_below="@id/afh">
+        <ImageButton android:id="@id/aqv" android:background="@color/xz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/axi" android:scaleType="center" android:contentDescription="@null" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/bax" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/aqv" android:layout_alignParentBottom="true">
+            <include layout="@layout/f6" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include android:id="@id/agi" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_alignParentBottom="true" layout="@layout/iv" />
+    <include android:id="@id/afj" android:layout_width="fill_parent" android:layout_height="@dimen/a4_" android:layout_alignParentTop="true" layout="@layout/wk" />
+    <include android:visibility="invisible" android:layout_width="@dimen/a4y" android:layout_height="@dimen/a4x" android:layout_marginTop="10.0dip" android:layout_alignTop="@id/afh" android:layout_centerHorizontal="true" layout="@layout/y1" />
+    <include android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_alignTop="@id/afh" layout="@layout/iu" />
+    <ImageView android:id="@id/a52" android:background="@color/xz" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+</RelativeLayout>

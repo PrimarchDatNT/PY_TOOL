@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/oe" />
+    <LinearLayout android:orientation="vertical" android:id="@id/xd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/xx">
+        <FrameLayout android:id="@id/xe" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/od" />
+    </LinearLayout>
+    <WebView android:id="@id/xi" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="8.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintTop_toBottomOf="@id/xd" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/xf" android:background="@color/pu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/xi" app:layout_constraintTop_toTopOf="@id/xi">
+        <TextView android:textSize="@dimen/ik" android:textColor="@color/px" android:id="@id/xh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fcm_notification_detail_retry_message" />
+    </LinearLayout>
+    <ProgressBar android:theme="@style/if" android:id="@id/xg" android:layout_width="@dimen/fm" android:layout_height="@dimen/fm" app:layout_constraintBottom_toBottomOf="@id/xi" app:layout_constraintLeft_toLeftOf="@id/xi" app:layout_constraintRight_toRightOf="@id/xi" app:layout_constraintTop_toTopOf="@id/xi" />
+</androidx.constraintlayout.widget.ConstraintLayout>

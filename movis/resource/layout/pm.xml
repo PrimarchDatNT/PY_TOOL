@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/em" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/av0" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.videoai.aivpcore.gallery.view.ExtendedViewPager android:id="@id/apq" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/ma" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="96.0dip" android:layout_alignParentTop="true">
+            <RelativeLayout android:id="@id/af2" android:background="@color/e6" android:layout_width="fill_parent" android:layout_height="@dimen/a48" android:layout_alignParentTop="true">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_marginStart="32.0dip">
+                    <TextView android:textSize="15.0sp" android:textColor="@color/fp" android:gravity="center" android:id="@id/bjd" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" android:singleLine="true" android:fontFamily="sans-serif-light" />
+                    <TextView android:textSize="15.0sp" android:textColor="@color/fp" android:gravity="center" android:id="@id/bjr" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/" />
+                    <TextView android:textSize="15.0sp" android:textColor="@color/fp" android:gravity="center" android:id="@id/bjb" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="15" android:singleLine="true" android:fontFamily="sans-serif-light" />
+                </LinearLayout>
+                <RelativeLayout android:id="@id/aet" android:background="@color/xz" android:paddingLeft="@dimen/a3x" android:paddingRight="@dimen/a3x" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:paddingStart="@dimen/a3x" android:paddingEnd="@dimen/a3x" android:layout_alignParentEnd="true">
+                    <CheckBox android:id="@id/a5z" android:focusable="false" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" style="@style/xq" />
+                </RelativeLayout>
+                <ImageView android:id="@id/ke" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:src="@drawable/aw4" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/av6" android:background="@color/e6" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_alignParentBottom="true" android:paddingStart="20.0dip" android:paddingEnd="10.0dip">
+            <ImageButton android:id="@id/a63" android:background="@color/xz" android:visibility="visible" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/b7a" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <Button android:textSize="13.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/ki" android:background="@drawable/avj" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="27.0dip" android:minWidth="75.0dip" android:minHeight="34.0dip" android:text="@string/alr" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

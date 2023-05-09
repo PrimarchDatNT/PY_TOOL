@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/b1u" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_centerInParent="true">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a52" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+        <ProgressBar android:id="@id/as9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDuration="2000" android:layout_centerInParent="true" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/bn" android:id="@id/ase" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_centerInParent="true" android:fontFamily="@font/f" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/bn" android:id="@id/ol" android:paddingLeft="4.0dip" android:paddingTop="10.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_below="@id/as9" android:layout_centerHorizontal="true" android:fontFamily="@font/f" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

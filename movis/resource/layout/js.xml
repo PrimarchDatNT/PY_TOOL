@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout android:id="@id/re" android:layout_width="@dimen/y_" android:layout_height="@dimen/yg">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/a7e" android:layout_width="@dimen/y_" android:layout_height="@dimen/y0" android:src="@drawable/a9e" android:scaleType="centerCrop" />
+        <com.videoai.aivpcore.editorx.widget.magic.RoundProgressView android:id="@id/ayg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/a7e" android:layout_alignBottom="@id/a7e" android:layout_alignStart="@id/a7e" android:layout_alignEnd="@id/a7e" app:backgroundColor="#99020202" app:circleCorner="0.0dip" app:circleProgress="0" app:circleRadius="50.0dip" app:startAngle="270" />
+        <View android:background="@drawable/ary" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/zs" android:background="@drawable/a7p" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/a7e" android:layout_alignBottom="@id/a7e" android:layout_alignStart="@id/a7e" android:layout_alignEnd="@id/a7e" layout="@layout/eo" />
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/kq" android:background="@color/xz" android:clickable="false" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:layout_margin="@dimen/uk" android:src="@drawable/a9z" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/aby" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:layout_margin="@dimen/uk" android:src="@drawable/aj9" android:layout_above="@id/a8a" android:layout_alignParentEnd="true" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yy" android:textColor="@color/xj" android:gravity="center" android:id="@id/a8a" android:layout_width="fill_parent" android:layout_height="@dimen/ul" android:layout_alignParentBottom="true" style="@style/mr" />
+    </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
+</LinearLayout>

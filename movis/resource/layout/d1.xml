@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/as3" android:background="@color/xz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/n8" />
+    <com.videoai.aivpcore.camera.ui.view.PipSwapWidget android:id="@id/aqn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/n8" />
+    <com.videoai.aivpcore.camera.ui.view.indicator.TopIndicator android:id="@id/nf" android:layout_width="fill_parent" android:layout_height="@dimen/a48" />
+    <com.videoai.aivpcore.camera.ui.view.BackDeleteProgressBar android:id="@id/h1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <RelativeLayout android:gravity="center" android:id="@id/vw" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/n8" android:layout_below="@id/nf" android:layout_centerInParent="true">
+        <TextView android:textSize="18.0sp" android:textColor="@color/zo" android:id="@id/biw" android:background="@drawable/b1s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="fdsfds" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bs2" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/n8" android:layout_below="@id/nf" android:layout_centerInParent="true">
+        <TextView android:textSize="18.0sp" android:textColor="@color/zo" android:id="@id/bj5" android:background="@drawable/b8m" android:paddingLeft="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x1.0" android:layout_centerInParent="true" android:paddingStart="25.0dip" />
+    </RelativeLayout>
+    <com.videoai.aivpcore.camera.ui.shutter.ShutterLayoutPor android:id="@id/b1s" android:background="@color/el" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/n8" android:background="@color/e6" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/a45" android:layout_above="@id/b1s">
+        <com.videoai.aivpcore.camera.ui.view.indicator.IndicatorBar android:id="@id/bpl" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/n8" android:layout_below="@id/nf">
+        <com.videoai.aivpcore.camera.ui.view.TimerView android:id="@id/b_4" android:visibility="invisible" android:layout_width="106.29999dip" android:layout_height="106.29999dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/adb" android:background="@color/el" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/n8" android:layout_alignBottom="@id/b1s">
+        <RelativeLayout android:id="@id/adc" android:layout_width="fill_parent" android:layout_height="@dimen/a45" android:layout_alignParentTop="true">
+            <ImageButton android:background="@drawable/b68" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:background="@color/fx" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignBottom="@id/adc" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        <RelativeLayout android:gravity="center_vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/adc" android:layout_alignParentBottom="true">
+            <com.videoai.aivpcore.ui.view.HotFixRecyclerView android:id="@id/aqm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <RelativeLayout android:id="@id/adv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.videoai.aivpcore.ui.view.TextSeekBar android:id="@id/bpp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.videoai.aivpcore.ui.view.RotateTextView android:textSize="10.0sp" android:textColor="#b2ffffff" android:id="@id/bj2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/r6" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <com.videoai.aivpcore.camera.ui.view.indicator.SettingIndicator android:id="@id/bpo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ni" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/n8">
+        <ImageView android:id="@id/nh" android:background="@drawable/b0d" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/nj" android:background="@drawable/b0e" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

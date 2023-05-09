@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/tt_open_ad_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="84.0">
+            <ImageView android:id="@id/tt_open_ad_back_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <FrameLayout android:id="@id/tt_open_ad_video_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/tt_open_ad_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:gravity="center" android:id="@id/tt_ad_logo" android:background="@drawable/tt_ad_logo_new" android:layout_width="31.0dip" android:layout_height="14.0dip" android:layout_alignParentBottom="true" />
+            <com.bytedance.sdk.openadsdk.component.view.ButtonFlash android:textSize="16.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/tt_open_ad_click_button" android:background="@drawable/tt_button_back" android:layout_width="180.0dip" android:layout_height="43.0dip" android:layout_marginBottom="24.0dip" android:text="@string/tt_video_download_apk" android:lines="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <include layout="@layout/tt_top_app_open_dislike" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/tt_user_info" android:background="#ffffffff" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="16.0">
+            <com.bytedance.sdk.openadsdk.core.widget.TTRoundRectImageView android:id="@id/tt_app_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="22.0dip" />
+            <TextView android:textSize="22.0dip" android:textColor="#ff161823" android:ellipsize="end" android:id="@id/tt_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

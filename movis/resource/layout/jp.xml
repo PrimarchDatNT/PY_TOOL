@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bab" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/yf" />
+    <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout android:layout_gravity="start" android:id="@id/re" android:layout_width="@dimen/y_" android:layout_height="@dimen/yg">
+        <View android:id="@id/h5" android:background="@color/d7" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/eo" />
+        <View android:background="@drawable/ary" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/zs" android:background="@drawable/a7p" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
+</LinearLayout>

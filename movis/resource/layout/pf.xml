@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="28.0dip" android:paddingRight="28.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="28.0dip" android:paddingEnd="28.0dip">
+        <RelativeLayout android:background="@drawable/av4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="85.0dip" android:layout_centerHorizontal="true">
+            <TextView android:textSize="22.0dip" android:textColor="@color/gf" android:gravity="bottom|center" android:id="@id/aod" android:paddingBottom="22.0dip" android:layout_width="fill_parent" android:layout_height="106.0dip" android:lines="1" android:singleLine="true" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingTop="22.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/aod" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+                <TextView android:textSize="13.0dip" android:textColor="@color/gf" android:id="@id/aoc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="8.0dip" />
+                <TextView android:textColor="@color/bn" android:gravity="center" android:layout_gravity="end" android:id="@id/ki" android:background="@drawable/av3" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginBottom="10.0dip" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView android:id="@id/a6c" android:background="@drawable/b4l" android:layout_width="115.0dip" android:layout_height="139.0dip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

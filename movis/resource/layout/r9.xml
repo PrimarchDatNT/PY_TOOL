@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/layout_home_feature_0" android:background="@drawable/ea" android:paddingTop="@dimen/ul" android:paddingBottom="@dimen/ul" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tz" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/z6" android:background="@drawable/e_" android:layout_width="fill_parent" android:layout_height="@dimen/xn">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textStyle="bold" android:textColor="@color/d6" android:gravity="center" android:layout_gravity="center" android:id="@id/bb_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fm" android:drawablePadding="@dimen/yf" android:textAllCaps="true" android:drawableStart="@drawable/aj7" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y6" android:layout_marginStart="@dimen/td" android:layout_marginEnd="@dimen/td">
+        <FrameLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/ahg" android:layout_width="@dimen/yj" android:layout_height="wrap_content">
+            <com.videoai.aivpcore.unit.view.PressImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/wz" android:layout_height="@dimen/wz" android:src="@drawable/ajl" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/ul" android:layout_marginTop="@dimen/x9" android:text="@string/ahx" style="@style/mr" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="bottom|center" android:id="@id/ahh" android:layout_width="@dimen/yj" android:layout_height="wrap_content">
+            <com.videoai.aivpcore.unit.view.PressImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/wz" android:layout_height="@dimen/wz" android:src="@drawable/ajm" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/ul" android:layout_marginTop="@dimen/x9" android:text="@string/ca" style="@style/mr" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/ahe" android:layout_width="@dimen/yj" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/xh" android:layout_height="wrap_content">
+                <com.videoai.aivpcore.unit.view.PressImageView android:layout_gravity="center_horizontal" android:id="@id/a8r" android:layout_width="@dimen/wz" android:layout_height="@dimen/wz" android:layout_marginTop="@dimen/x5" android:src="@drawable/c7" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/a8k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aji" />
+            </FrameLayout>
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:gravity="center" android:id="@id/bb6" android:layout_width="fill_parent" android:layout_height="@dimen/ul" android:layout_marginTop="@dimen/xh" android:text="@string/ca" style="@style/mr" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

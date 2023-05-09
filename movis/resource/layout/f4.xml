@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bn" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/agl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/b7u" layout="@layout/f6" />
+    <com.videoai.aivpcore.editor.widget.terminator.Terminator android:id="@id/b7u" android:layout_width="fill_parent" android:layout_height="@dimen/a4r" android:layout_alignParentBottom="true" />
+</RelativeLayout>

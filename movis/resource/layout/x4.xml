@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.videoai.aivpcore.ui.dialog.MDButton android:id="@id/me" style="@style/hw" />
+    <com.videoai.aivpcore.ui.dialog.MDButton android:id="@id/md" style="@style/hw" />
+    <com.videoai.aivpcore.ui.dialog.MDButton android:id="@id/mf" style="@style/hw" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/as0" style="@style/gv" />
+    <ImageButton android:id="@id/avk" style="@style/gw" />
+    <ImageButton android:id="@id/aq3" style="@style/gu" />
+    <ImageButton android:id="@id/y2" style="@style/gs" />
+    <ImageButton android:id="@id/aoe" style="@style/gt" />
+</LinearLayout>

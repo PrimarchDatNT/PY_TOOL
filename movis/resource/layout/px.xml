@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/pn" android:layout_width="fill_parent" android:layout_height="?a4">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/bib" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center_vertical" android:id="@id/bdb" android:background="@drawable/jf" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/td" android:paddingEnd="@dimen/td" app:drawableStartCompat="@drawable/aj0" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/bi9" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/az4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toEndOf="@id/bdb" app:layout_constraintTop_toTopOf="apv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.videoapp.videomakermaster.ads.GalleryBannerAds android:id="@id/bs" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:layout_below="@id/pn" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/bs">
+        <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:id="@id/ev" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center" android:id="@id/zh" android:background="@color/zo" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="azw|wa" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@id/zc" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ch" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/a15" android:background="@color/xz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.videoedit.gallery.board.MediaBoardView android:id="@id/ij" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.videoedit.gallery.board.MediaTemplateEditBoardView android:id="@id/ig" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.videoedit.gallery.board.MediaTemplatePipBoardView android:id="@id/ih" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

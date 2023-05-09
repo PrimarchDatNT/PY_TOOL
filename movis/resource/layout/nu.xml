@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.videoai.mobile.component.imageview.XYImageView android:id="@id/bma" android:background="@color/ey" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:roundedCornerRadius="4.0dip" />
+    <TextView android:textSize="@dimen/yz" android:textColor="@color/ot" android:gravity="center" android:id="@id/bc0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:drawablePadding="4.0dip" app:layout_constraintBottom_toBottomOf="@id/bma" app:layout_constraintEnd_toEndOf="@id/bma" app:layout_constraintStart_toStartOf="@id/bma" app:layout_constraintTop_toTopOf="@id/bma" />
+    <com.videoai.aivpcore.xyui.RoundedRelativeLayout android:id="@id/a90" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:VS_CornerRadius="@dimen/xz" app:VS_StrokeColor="@color/d6" app:VS_StrokeWidth="@dimen/t2" app:layout_constraintBottom_toBottomOf="@id/bma" app:layout_constraintEnd_toEndOf="@id/bma" app:layout_constraintStart_toStartOf="@id/bma" app:layout_constraintTop_toTopOf="@id/bma" />
+</androidx.constraintlayout.widget.ConstraintLayout>

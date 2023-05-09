@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/a7u" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_centerInParent="true" android:paddingEnd="10.0dip">
+        <RelativeLayout android:id="@id/b9r" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <com.videoai.aivpcore.common.bitmapfun.util.RecyclingImageView android:id="@id/a3a" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <View android:background="@drawable/ayq" android:layout_width="fill_parent" android:layout_height="39.0dip" android:layout_alignBottom="@id/a3a" />
+            <ImageView android:id="@id/a5w" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:layout_marginBottom="1.0dip" android:src="@drawable/af6" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="3.0dip" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/b8f" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginBottom="5.0dip" android:text="222" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_marginStart="3.0dip" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/a5e" android:paddingLeft="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ahi" android:scaleType="fitXY" android:paddingStart="5.0dip" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/b8q" android:background="@drawable/adw" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginStart="5.0dip" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/a59" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/agw" android:layout_alignTop="@id/a7u" android:layout_alignRight="@id/a7u" android:layout_alignEnd="@id/a7u" />
+</RelativeLayout>

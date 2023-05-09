@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:id="@id/pb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/pl" android:background="@drawable/a74" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/a_y" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/xz" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:gravity="center" android:id="@id/bf3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/af0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/a9j" android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/a46" android:scaleType="centerInside" />
+            <TextView android:textSize="@dimen/yz" android:textStyle="bold" android:textColor="@color/zo" android:id="@id/bcw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e8" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/asc" android:layout_width="@dimen/xh" android:layout_height="@dimen/uk" android:layout_marginTop="@dimen/v7" android:progressDrawable="@drawable/aok" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" style="?android:progressBarStyleHorizontal" />
+        <RelativeLayout android:id="@id/acu" android:background="@color/zv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/a07" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView android:id="@id/a_x" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:layout_margin="@dimen/uk" android:src="@drawable/a9z" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintTop_toTopOf="apv" />
+    <ImageView android:id="@id/a_z" android:visibility="gone" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
+    <ImageView android:id="@id/abu" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:layout_margin="@dimen/uk" android:src="@drawable/aj9" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

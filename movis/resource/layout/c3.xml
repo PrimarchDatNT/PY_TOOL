@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/a7u" android:layout_width="75.0dip" android:layout_height="75.0dip">
+        <com.videoai.aivpcore.ui.view.RotateImageView android:id="@id/a7t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/auy" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/a7t">
+            <com.videoai.aivpcore.ui.view.RotateTextView android:textColor="@color/zo" android:gravity="center" android:id="@id/a7g" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

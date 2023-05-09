@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="60.0dip" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:attr="http://schemas.android.com/apk/res-auto">
+    <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/a5u" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true" attr:actualImageScaleType="yz" attr:roundAsCircle="true" />
+    <ImageView android:id="@id/a5n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/b0v" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

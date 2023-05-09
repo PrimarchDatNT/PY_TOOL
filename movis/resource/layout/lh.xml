@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="@dimen/xt"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/ady">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:layout_gravity="center" android:id="@id/bc7" android:background="@drawable/apw" android:paddingTop="@dimen/x5" android:paddingBottom="@dimen/x5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kc" android:drawablePadding="@dimen/yf" android:drawableStart="@drawable/a14" android:paddingStart="@dimen/td" android:paddingEnd="@dimen/td" android:layout_marginStart="@dimen/xz" android:layout_marginEnd="@dimen/xz" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/abc" android:background="@drawable/jn" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/bc7" app:layout_constraintEnd_toEndOf="@id/bc7" app:layout_constraintStart_toStartOf="@id/bc7" app:layout_constraintTop_toTopOf="@id/bc7" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View android:id="@id/bn9" android:background="@color/ak" android:layout_width="@dimen/t2" android:layout_height="@dimen/ul" />
+        <com.videoai.aivpcore.editorx.widget.viewpager.RecyclerIndicatorView android:id="@id/ay4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/ady" android:layout_width="@dimen/xt" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <RelativeLayout android:id="@id/adz" android:background="@drawable/jf" android:layout_width="@dimen/xt" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/a_3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ahg" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="@color/aj" android:layout_width="fill_parent" android:layout_height="@dimen/t2" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/r_" android:background="@color/zo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="51.0dip" android:layout_marginRight="40.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/bn" android:gravity="center_horizontal" android:id="@id/b_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:maxLines="1" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/g9" android:gravity="center_horizontal" android:id="@id/t2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="44.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="44.0dip" android:maxLines="2" android:layout_below="@id/b_5" />
+        <RelativeLayout android:id="@id/blc" android:layout_width="fill_parent" android:layout_height="342.0dip" android:layout_marginLeft="44.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="44.0dip" android:layout_below="@id/t2" android:layout_centerHorizontal="true">
+            <com.videoai.aivpcore.xyui.video.VideoView android:id="@id/bl_" android:background="@color/zo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/blt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/q_" android:layout_centerInParent="true" />
+            <RelativeLayout android:layout_gravity="center" android:id="@id/bq1" android:background="@drawable/b18" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_centerInParent="true">
+                <ProgressBar android:id="@id/as9" android:layout_width="60.299988dip" android:layout_height="60.299988dip" android:indeterminateDrawable="@drawable/b19" android:indeterminateDuration="2000" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/sb" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="25.0dip" android:layout_below="@id/blc">
+            <ProgressBar android:id="@id/tx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progressDrawable="@drawable/sr" style="?android:progressBarStyleHorizontal" />
+            <TextView android:textSize="17.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/sa" android:background="@drawable/vu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/a6n" android:maxLines="1" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/ald" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="11.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/sb">
+            <TextView android:textSize="14.0sp" android:textColor="#ffff5e13" android:id="@id/alc" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/a6r" android:maxLines="1" />
+        </RelativeLayout>
+        <ImageView android:id="@id/qk" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/l5" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/n9" android:background="@drawable/ash" android:layout_width="fill_parent" android:layout_height="184.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/atx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/au0" android:layout_above="@id/nc" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/nc" android:layout_width="@dimen/a43" android:layout_height="@dimen/a43" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:layout_centerInParent="true">
+        <com.videoai.aivpcore.camera.ui.view.CamRecordView android:id="@id/le" android:layout_width="78.0dip" android:layout_height="78.0dip" android:layout_centerInParent="true" app:indicator="e" app:indicator_color="@color/m9" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/nc" android:layout_centerInParent="true" android:layout_toEndOf="@id/nc">
+        <com.videoai.aivpcore.camera.ui.view.BackDeleteButton android:id="@id/bpg" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerInParent="true" />
+        <Button android:id="@id/bph" android:background="@drawable/aty" android:visibility="invisible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerInParent="true" />
+        <Button android:id="@id/bpn" android:background="@drawable/at0" android:visibility="invisible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

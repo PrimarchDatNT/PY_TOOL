@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="@dimen/xt"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintTop_toTopOf="apv" />
+    <ImageView android:id="@id/fm" android:background="@drawable/jf" android:layout_width="@dimen/xt" android:layout_height="@dimen/xt" android:src="@drawable/a1n" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
+    <HorizontalScrollView android:scrollbarThumbHorizontal="@color/ak" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toEndOf="@id/fm" app:layout_constraintTop_toTopOf="apv">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/fl" android:visibility="visible" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:sitv_bottom_text="@string/zp" app:sitv_top_drawable="@drawable/y0" />
+            <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/fr" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:sitv_bottom_text="@string/a07" app:sitv_top_text="100" app:sitv_top_text_color="@drawable/a6f" app:sitv_top_type="bac" />
+            <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/fq" android:visibility="visible" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:sitv_bottom_text="@string/ak2" app:sitv_top_drawable="@drawable/ys" />
+            <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/fs" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:sitv_bottom_text="@string/p0" app:sitv_top_drawable="@drawable/a_f" />
+            <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/fn" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:sitv_bottom_text="@string/t7" app:sitv_top_drawable="@drawable/y1" />
+            <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/fp" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:sitv_bottom_text="@string/a1r" app:sitv_top_drawable="@drawable/y4" />
+            <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/fo" android:visibility="gone" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:sitv_bottom_text="@string/zy" app:sitv_top_drawable="@drawable/a64" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

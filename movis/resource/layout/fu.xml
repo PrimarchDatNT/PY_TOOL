@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/awa">
+        <com.videoai.aivpcore.editor.effects.music.EditorVolumeSetView android:id="@id/bn2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/awa" android:background="@color/bn" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/gv" android:layout_alignParentBottom="true">
+        <com.videoai.aivpcore.editor.effects.VideoEditorSeekLayout android:id="@id/b0m" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/awh" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="6.0dip" android:layout_above="@id/b7u" android:layout_below="@id/b0m" android:layout_centerHorizontal="true" />
+        <com.videoai.aivpcore.editor.widget.terminator.Terminator android:id="@id/b7u" android:layout_width="fill_parent" android:layout_height="@dimen/a4r" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/za" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

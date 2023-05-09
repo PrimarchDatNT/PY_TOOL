@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ag" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintHeight_percent="0.875" app:layout_constraintStart_toStartOf="apv" app:layout_constraintVertical_bias="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/s1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:layout_gravity="center_horizontal" android:id="@id/rr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/td" android:layout_marginBottom="@dimen/td" android:text="@string/ae8" />
+    <FrameLayout android:id="@id/s3" android:layout_width="fill_parent" android:layout_height="@dimen/t4" />
+</LinearLayout>

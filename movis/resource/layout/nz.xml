@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="bottom" android:id="@id/bme" android:background="@color/ag" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/ut" android:layout_marginBottom="@dimen/xt" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:id="@id/a2c" android:layout_width="fill_parent" android:layout_height="@dimen/vn">
+        <TextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:gravity="center" android:id="@id/biq" android:layout_width="fill_parent" android:layout_height="@dimen/xh" android:fontFamily="@font/f" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv" />
+        <View android:background="@color/aj" android:layout_width="fill_parent" android:layout_height="@dimen/t2" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintTop_toBottomOf="@id/biq" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/az9" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv" app:spanCount="4" />
+        <com.videoai.aivpcore.editorx.board.clip.widget.TextActionBottomBar android:id="@id/b4" android:layout_width="fill_parent" android:layout_height="@dimen/xt" app:layout_constraintBottom_toBottomOf="apv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

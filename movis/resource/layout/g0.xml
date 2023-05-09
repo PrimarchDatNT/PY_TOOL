@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ayq" android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_toLeftOf="@id/awr" android:layout_toStartOf="@id/awr" />
+    <RelativeLayout android:id="@id/awr" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_toLeftOf="@id/awq" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/awq">
+        <TextView android:textSize="16.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/a38" android:background="@color/eo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/a7b" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/awq" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/a37" android:clickable="false" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pl" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/aao" android:visibility="invisible" android:clickable="false" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/b6l" android:layout_alignTop="@id/a37" android:layout_alignRight="@id/a37" android:layout_alignEnd="@id/a37" />
+    </RelativeLayout>
+</RelativeLayout>

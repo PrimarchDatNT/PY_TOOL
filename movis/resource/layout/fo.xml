@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/b4z" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" app:layout_constraintVertical_bias="0.38">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/b50" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/xn" />
+            <TextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:id="@id/b51" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/afy" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/ky" android:gravity="center" android:id="@id/b52" android:background="@drawable/ww" android:visibility="gone" android:layout_width="136.0dip" android:layout_height="40.0dip" android:text="@string/a6n" />
+            <com.videoapp.videomakermaster.ViewCreatDraft android:textSize="@dimen/z1" android:textColor="@color/zo" android:gravity="center" android:id="@id/bdt" android:background="@drawable/dx" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:layout_marginTop="@dimen/td" android:text="@string/a6n" android:fontFamily="@font/f" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

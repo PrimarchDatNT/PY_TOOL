@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/y6" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/a0l" android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:layout_marginTop="@dimen/td" android:layout_marginBottom="@dimen/td" android:scaleType="centerInside" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/a0n" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/xh">
+        <TextView android:textSize="@dimen/yy" android:textColor="@color/ak" android:id="@id/a0m" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/yy" android:textColor="@color/zo" android:id="@id/a0o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/uk" />
+    </LinearLayout>
+    <com.videoai.aivpcore.editorx.widget.seekbar.ReverseSeekBar android:layout_gravity="center_horizontal" android:id="@id/a0k" android:visibility="gone" android:layout_width="@dimen/x9" android:layout_height="fill_parent" android:layout_marginTop="@dimen/xh" android:layout_marginBottom="@dimen/td" android:paddingStart="@dimen/to" android:paddingEnd="@dimen/to" app:rsb_bg_color="@color/aj" app:rsb_bg_radius="@dimen/tz" app:rsb_max_progress="100" app:rsb_orientation="bl7" app:rsb_point_color="@color/d6" app:rsb_point_radius="@dimen/yf" app:rsb_progress="0" app:rsb_progress_color="@color/d6" app:rsb_progress_radius="@dimen/td" />
+    <com.videoai.aivpcore.editorx.widget.seekbar.VHSeekBar android:layout_gravity="center_horizontal" android:id="@id/a0p" android:layout_width="@dimen/x9" android:layout_height="fill_parent" android:layout_marginTop="@dimen/xh" android:layout_marginBottom="@dimen/td" android:paddingStart="@dimen/to" android:paddingEnd="@dimen/to" app:vh_bg_color="@color/aj" app:vh_bg_radius="@dimen/tz" app:vh_max_progress="100" app:vh_orientation="bl7" app:vh_point_color="@color/d6" app:vh_point_radius="@dimen/yf" app:vh_progress="0" app:vh_progress_color="@color/d6" app:vh_progress_radius="@dimen/td" />
+</FrameLayout>

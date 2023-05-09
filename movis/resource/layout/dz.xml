@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ai" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.videoapp.videomakermaster.RateBannerView android:id="@id/bng" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textColor="@color/d6" android:gravity="center" android:id="@id/bmw" android:background="@drawable/e_" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:layout_marginBottom="@dimen/ul" android:src="@drawable/dy" android:text="@string/s_" android:fontFamily="@font/f" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
+</LinearLayout>

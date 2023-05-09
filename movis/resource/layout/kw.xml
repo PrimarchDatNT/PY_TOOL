@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/a7u" android:background="@drawable/a7_" android:layout_width="@dimen/yg" android:layout_height="@dimen/yg"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/tr" android:background="@color/xz" android:layout_width="@dimen/y0" android:layout_height="@dimen/y0" android:layout_centerInParent="true" app:roundedCornerRadius="@dimen/xz" />
+    <ImageView android:id="@id/ab3" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/abu" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:layout_margin="@dimen/uk" android:src="@drawable/aj9" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    <ProgressBar android:id="@id/as_" android:visibility="invisible" android:layout_width="@dimen/xh" android:layout_height="@dimen/uk" android:progressDrawable="@drawable/aok" android:layout_centerInParent="true" style="?android:progressBarStyleHorizontal" />
+</RelativeLayout>

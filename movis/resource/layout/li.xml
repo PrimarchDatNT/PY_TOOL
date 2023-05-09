@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ee" android:visibility="gone" android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/a08" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0sp" android:textColor="@color/j2" android:id="@id/er" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/l6" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/fd" android:id="@id/ep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/a_7" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/eq" android:background="@drawable/a09" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="@dimen/v7" android:text="@string/a_8" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+    </LinearLayout>
+</merge>

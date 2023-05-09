@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/b12" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="10.0dip" android:scaleType="center" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" />
+</LinearLayout>

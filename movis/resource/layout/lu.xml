@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ag" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ai0" android:layout_width="fill_parent" android:layout_height="@dimen/x6">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:layout_gravity="center" android:id="@id/a_r" android:background="@drawable/apw" android:paddingTop="@dimen/xz" android:paddingBottom="@dimen/xz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kc" android:drawablePadding="@dimen/yf" android:drawableStart="@drawable/a14" android:paddingStart="@dimen/td" android:paddingEnd="@dimen/td" android:layout_marginStart="@dimen/tz" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/ayx" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/td" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ayv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ai0" />
+    <FrameLayout android:id="@id/zf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ai0">
+        <TextView android:textSize="@dimen/z0" android:textColor="@color/ak" android:gravity="center" android:id="@id/bgu" android:background="@drawable/a8c" android:layout_width="fill_parent" android:layout_height="@dimen/yg" android:layout_marginTop="@dimen/ul" android:text="@string/a5b" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/ayw" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:id="@id/bki" android:background="@color/ag" android:focusable="true" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.videoai.aivpcore.editorx.widget.LoadingImageView android:id="@id/aaj" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a4p" android:scaleType="center" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/vh" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <com.videoai.aivpcore.editor.widget.HighLView android:id="@id/vg" android:background="@color/xz" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.videoai.aivpcore.editor.effects.quickposition.QuickPositionPanel android:id="@id/b8s" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/gx" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="@color/kf" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_centerVertical="true" />
+            <View android:background="@color/kf" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

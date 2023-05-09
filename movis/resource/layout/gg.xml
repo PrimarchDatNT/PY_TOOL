@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/av3" android:layout_width="fill_parent" android:layout_height="@dimen/a4g" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/axh" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:background="@color/n_" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="3.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <ImageView android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pn" android:scaleType="center" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/axm" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:background="@color/n_" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="3.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <ImageView android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pt" android:scaleType="center" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/axl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:background="@color/n_" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="3.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <ImageView android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/lv" android:scaleType="center" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/axg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:background="@color/n_" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="3.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <ImageView android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/lp" android:scaleType="center" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

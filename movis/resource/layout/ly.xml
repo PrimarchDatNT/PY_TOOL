@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="195.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/aj" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/yg" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toEndOf="@id/yg">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView android:id="@id/yj" android:tag="brightness" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fsb_max_progress="100" app:fsb_top_img="@drawable/a0k" app:fsb_top_name_text="@string/aq1" app:fsb_type="avi" />
+            <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView android:id="@id/yk" android:tag="contrast" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fsb_max_progress="100" app:fsb_top_img="@drawable/a0l" app:fsb_top_name_text="@string/aq2" app:fsb_type="avi" />
+            <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView android:id="@id/yo" android:tag="saturation" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fsb_max_progress="100" app:fsb_top_img="@drawable/a0p" app:fsb_top_name_text="@string/aq7" app:fsb_type="avi" />
+            <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView android:id="@id/yq" android:tag="sharpen" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fsb_max_progress="100" app:fsb_top_img="@drawable/a0r" app:fsb_top_name_text="@string/aq9" app:fsb_type="avi" />
+            <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView android:id="@id/yr" android:tag="temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fsb_max_progress="100" app:fsb_top_img="@drawable/a0s" app:fsb_top_name_text="@string/aq_" app:fsb_type="avi" />
+            <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView android:id="@id/ys" android:tag="vignette" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fsb_max_progress="100" app:fsb_top_img="@drawable/a0t" app:fsb_top_name_text="@string/aqa" app:fsb_type="avi" />
+            <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView android:id="@id/yn" android:tag="hue" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fsb_max_progress="100" app:fsb_top_img="@drawable/a0o" app:fsb_top_name_text="@string/aq5" app:fsb_type="avi" />
+            <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView android:id="@id/yp" android:tag="shadow" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fsb_max_progress="100" app:fsb_top_img="@drawable/a0q" app:fsb_top_name_text="@string/aq8" app:fsb_type="avi" />
+            <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView android:id="@id/ym" android:tag="highlight" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fsb_max_progress="100" app:fsb_top_img="@drawable/a0n" app:fsb_top_name_text="@string/aq4" app:fsb_type="avi" />
+            <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView android:id="@id/yl" android:tag="fade" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fsb_max_progress="100" app:fsb_top_img="@drawable/a0m" app:fsb_top_name_text="@string/aq3" app:fsb_type="bl9" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

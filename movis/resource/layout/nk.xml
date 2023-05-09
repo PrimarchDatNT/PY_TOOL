@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/af1" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="@dimen/ut" android:layout_marginBottom="@dimen/xt">
+        <RelativeLayout android:id="@id/ba6" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <TextView android:textSize="@dimen/z0" android:textStyle="bold" android:textColor="@color/zo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ap6" android:layout_centerInParent="true" />
+            <View android:background="@color/aj" android:layout_width="fill_parent" android:layout_height="@dimen/t2" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/b9p" android:paddingTop="@dimen/td" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ba6" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/b9g" android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="@dimen/xt" app:layout_constraintBottom_toBottomOf="apv">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ji" android:background="@drawable/jf" android:layout_width="@dimen/xt" android:layout_height="@dimen/xt" android:src="@drawable/aeb" android:scaleType="centerInside" android:layout_centerInParent="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/alk" android:background="@color/ag" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/m5" android:background="@drawable/jf" android:layout_width="@dimen/xt" android:layout_height="@dimen/xt" android:src="@drawable/aeb" android:scaleType="centerInside" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <EditText android:textSize="14.0sp" android:textColor="@color/zo" android:textColorHint="@color/ve" android:id="@id/b_f" android:background="@drawable/a7j" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="12.0dip" android:paddingEnd="36.0dip" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" android:layout_toStartOf="@id/m5" />
+    </RelativeLayout>
+</FrameLayout>

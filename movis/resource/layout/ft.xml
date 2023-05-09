@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ahx" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:gravity="center" android:id="@id/a_e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:src="@drawable/u2" android:layout_centerInParent="true" android:layout_centerVertical="true" android:layout_marginEnd="30.0dip" />
+        </RelativeLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/us" android:gravity="center" android:id="@id/be7" android:background="@drawable/u1" android:visibility="gone" android:layout_width="113.0dip" android:layout_height="35.0dip" android:text="@string/a4f" />
+        <com.videoai.aivpcore.editor.effects.dub.recordview.RecordView android:id="@id/bn1" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

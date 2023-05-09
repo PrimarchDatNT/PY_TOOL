@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/d0" android:background="@color/a2" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/cu" android:background="@color/a4" android:layout_width="fill_parent" android:layout_height="@dimen/ca" android:layout_marginTop="@dimen/cb" android:layoutDirection="ltr">
+        <LinearLayout android:layout_gravity="start|center" android:id="@id/dt" android:paddingLeft="@dimen/cc" android:paddingRight="@dimen/cc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:paddingStart="@dimen/cc" android:paddingEnd="@dimen/cc">
+            <TextView android:id="@id/dh" style="@style/ad" />
+            <TextView style="@style/ae" />
+            <TextView android:id="@id/d1" style="@style/ac" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="end|center" android:id="@id/ct" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <ImageButton android:id="@id/du" style="@style/a3" />
+            <ImageButton android:id="@id/dp" style="@style/a2" />
+            <ImageButton android:id="@id/dl" style="@style/a0" />
+            <ImageButton android:id="@id/dr" style="@style/v" />
+            <ImageButton android:id="@id/do" style="@style/a1" />
+            <ImageButton android:id="@id/d7" style="@style/w" />
+            <ImageButton android:id="@id/db" style="@style/y" />
+        </LinearLayout>
+        <HorizontalScrollView android:layout_gravity="end|center" android:id="@id/d4" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/d3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <ImageButton android:id="@id/da" style="@style/x" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </FrameLayout>
+    <View android:layout_gravity="bottom" android:id="@id/dk" android:layout_width="fill_parent" android:layout_height="@dimen/ci" android:layout_marginBottom="@dimen/cj" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="end|bottom|center" android:orientation="horizontal" android:id="@id/d8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ce" android:layoutDirection="ltr">
+        <ImageButton android:id="@id/d9" style="@style/w" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/cw" android:background="@android:color/transparent" android:padding="@dimen/cd" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/di" style="@style/a8" />
+        <include layout="@layout/bf" />
+        <ImageButton android:id="@id/df" style="@style/a7" />
+        <include layout="@layout/be" />
+        <ImageButton android:id="@id/d_" style="@style/a6" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/bk5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center" android:id="@id/bk6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_weight="1.0" />
+    <com.videoai.aivpcore.camera.ui.TimerImageView android:layout_gravity="center" android:id="@id/bk7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center" android:id="@id/bk4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_weight="1.0" />
+</LinearLayout>

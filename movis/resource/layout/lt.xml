@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout android:id="@id/aol" android:background="@drawable/a85" android:layout_width="@dimen/y_" android:layout_height="@dimen/yg">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/alr" android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:layout_marginTop="@dimen/ul" android:src="@drawable/a57" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:gravity="center" android:id="@id/alq" android:layout_width="fill_parent" android:layout_height="@dimen/ul" android:text="@string/vh" android:layout_alignParentBottom="true" />
+    </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
+</LinearLayout>

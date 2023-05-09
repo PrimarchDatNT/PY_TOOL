@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ae0" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="192.0dip">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/g4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/a13" android:layout_marginStart="15.0dip" />
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/a8n" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+            <Button android:textSize="12.0sp" android:textColor="@color/ey" android:id="@id/l8" android:background="@drawable/a8p" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/xt" android:layout_weight="1.0" />
+            <Button android:textSize="12.0sp" android:textColor="@color/ey" android:id="@id/l9" android:background="@drawable/a8o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/a14" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

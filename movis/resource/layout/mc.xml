@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/y_" android:layout_height="@dimen/y_"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/ab1" android:layout_width="@dimen/y_" android:layout_height="@dimen/y_" android:src="@drawable/e7" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/ix" />
+    <TextView android:textSize="@dimen/yy" android:textColor="@color/zo" android:gravity="center" android:id="@id/bh0" android:background="@drawable/a89" android:layout_width="@dimen/ul" android:layout_height="@dimen/tz" android:layout_marginTop="@dimen/xz" android:layout_marginStart="@dimen/xz" />
+</FrameLayout>

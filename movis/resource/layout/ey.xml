@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/axj" android:layout_width="80.0dip" android:layout_height="wrap_content">
+        <ImageView android:id="@id/abh" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/tt" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        <View android:id="@id/bnm" android:background="@color/n_" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="3.0dip" android:layout_above="@id/abh" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/axk" android:layout_width="80.0dip" android:layout_height="wrap_content">
+        <ImageView android:id="@id/abi" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/tu" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        <View android:id="@id/bnn" android:background="@color/n_" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="3.0dip" android:layout_above="@id/abi" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/axi" android:layout_width="80.0dip" android:layout_height="wrap_content">
+        <ImageView android:id="@id/abg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ts" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/abz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-2.0dip" android:layout_marginTop="2.0dip" android:layout_toRightOf="@id/abg" android:layout_marginStart="-2.0dip" android:layout_toEndOf="@id/abg" />
+        <View android:id="@id/bnl" android:background="@color/n_" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="3.0dip" android:layout_above="@id/abg" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

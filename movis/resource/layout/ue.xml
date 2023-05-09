@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/e0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:autofit="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/aqf" android:background="@color/e0" android:layout_width="105.0dip" android:layout_height="105.0dip">
+        <ImageView android:layout_width="44.0dip" android:layout_height="35.0dip" android:layout_marginTop="15.0dip" android:src="@drawable/ao5" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="11.0sp" android:textColor="@color/zo" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/a09" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/alp" android:maxLines="1" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/n_" android:gravity="center_horizontal" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/amb" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

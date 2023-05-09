@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/x1" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff999999" android:gravity="center" android:id="@id/b8l" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="32.0dip" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" />
+    <View android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/mu" android:showDividers="middle">
+        <TextView android:textSize="18.0sp" android:textColor="#ff999999" android:gravity="center" android:id="@id/b8e" android:paddingTop="15.5dip" android:paddingBottom="14.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/s_" android:layout_weight="1.0" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffff6333" android:gravity="center" android:id="@id/b8t" android:paddingTop="15.5dip" android:paddingBottom="14.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/adg" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

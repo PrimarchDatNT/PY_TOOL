@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/aga" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/u5" android:layout_toStartOf="@id/u5" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/u5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/fy" android:gravity="center_vertical" android:id="@id/bk2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v3" android:drawablePadding="4.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/fy" android:gravity="center_vertical" android:id="@id/bk3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/s_" />
+    </LinearLayout>
+    <ImageView android:background="@color/jj" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

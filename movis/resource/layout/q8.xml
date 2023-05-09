@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/zy" android:background="@drawable/jf" android:paddingTop="@dimen/td" android:paddingBottom="@dimen/td" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.videoedit.gallery.widget.RoundImageView android:layout_gravity="center_vertical" android:id="@id/zx" android:background="@drawable/ae1" android:layout_width="@dimen/xn" android:layout_height="@dimen/xn" android:src="@color/rl" android:scaleType="centerCrop" android:layout_marginStart="16.0dip" app:cornerRadius="@dimen/xz" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/td">
+        <TextView android:textColor="@color/zo" android:ellipsize="end" android:id="@id/zz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/xh" />
+        <TextView android:textColor="@color/a04" android:id="@id/a00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/x8" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/zw" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ahd" android:layout_marginStart="20.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

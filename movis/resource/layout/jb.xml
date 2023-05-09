@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/amf" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.videoai.aivpcore.editorx.board.audio.base.RootOperateView android:id="@id/aye" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/xt" android:layout_alignParentBottom="true" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/a4b" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginBottom="100.0dip" android:scaleType="fitXY" />
+    <com.videoai.aivpcore.editorx.widget.GuideView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

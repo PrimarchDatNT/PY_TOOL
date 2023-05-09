@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/b3x" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv">
+        <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator android:id="@id/b5u" android:background="@color/ag" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/xh" app:layout_constraintBottom_toTopOf="@id/tt" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
+        <View android:id="@id/tt" android:background="@color/aj" android:layout_width="0.0dip" android:layout_height="@dimen/t2" app:layout_constraintBottom_toTopOf="@id/rb" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
+        <FrameLayout android:id="@id/rb" android:background="@color/ag" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/uy" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

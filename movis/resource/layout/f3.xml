@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="@dimen/gv" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/ff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="15.0dip" layout="@layout/eq" />
+    <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:id="@id/bhf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_above="@id/bj7" android:layout_centerHorizontal="true" />
+    <com.videoai.aivpcore.ui.view.TextSeekBar android:id="@id/bj7" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginBottom="2.0dip" android:layout_above="@id/ac5" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ac5" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginBottom="64.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageButton android:id="@id/ac4" android:background="@null" android:padding="2.0dip" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/tn" android:layout_marginStart="15.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff8e8e93" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/rt" android:maxLines="1" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <com.videoai.aivpcore.editor.widget.terminator.Terminator android:id="@id/b7c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:terminatorText="@string/ak1" />
+</RelativeLayout>

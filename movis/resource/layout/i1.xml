@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/by" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/asg" android:layout_width="fill_parent" android:layout_height="32.0dip" android:max="100" android:progress="30" android:progressDrawable="@drawable/ax0" android:layout_alignLeft="@id/lj" android:layout_alignRight="@id/lj" android:layout_centerInParent="true" android:layout_alignStart="@id/lj" android:layout_alignEnd="@id/lj" style="?android:progressBarStyleHorizontal" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/zo" android:gravity="center" android:id="@id/bjp" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_alignLeft="@id/lj" android:layout_alignRight="@id/lj" android:layout_centerInParent="true" android:layout_alignStart="@id/lj" android:layout_alignEnd="@id/lj" />
+    <Button android:textSize="13.0dip" android:textColor="@color/zo" android:gravity="center" android:id="@id/lj" android:background="@drawable/aw3" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="32.0dip" android:minWidth="100.0dip" android:text="@string/ail" android:lines="1" android:singleLine="true" android:layout_centerInParent="true" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" />
+</RelativeLayout>

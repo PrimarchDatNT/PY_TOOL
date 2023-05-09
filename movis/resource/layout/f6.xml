@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="126.0dip" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginTop="13.0dip" android:layout_alignTop="@id/bkv">
+        <TextView android:textSize="12.0sp" android:textColor="@color/a03" android:gravity="center" android:id="@id/bl1" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:shadowColor="@color/bv" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="3.0" android:layout_centerVertical="true" android:layout_marginStart="30.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/a03" android:gravity="center" android:id="@id/bl2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="30.0dip" android:shadowColor="@color/bv" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="3.0" android:layout_alignParentRight="true" android:layout_marginEnd="30.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.videoai.aivpcore.editor.widget.timeline.VeAdvanceTrimGallery android:gravity="center_vertical" android:id="@id/bkv" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="126.0dip" android:spacing="0.0dip" android:layout_alignParentBottom="true" android:unselectedAlpha="1.0" />
+</RelativeLayout>

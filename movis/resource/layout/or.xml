@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="70.0dip" android:layout_height="wrap_content" android:layoutDirection="rtl"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/a_8" android:background="@drawable/ae1" android:padding="1.0dip" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@null" />
+    <View android:id="@id/a7q" android:background="@drawable/ahh" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageButton android:id="@id/ko" android:background="@color/xz" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/adz" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@null" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/zi" android:gravity="center" android:id="@id/be4" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:text="0:00" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/x2" />
+</RelativeLayout>

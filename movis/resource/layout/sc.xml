@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="320.0dip" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/f8" style="@style/jz">
+        <ImageView android:id="@id/f7" style="@style/jz" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/fb" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ez" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip">
+                <TextView android:id="@id/fd" android:layout_width="wrap_content" android:layout_marginBottom="1.0dip" android:layout_toLeftOf="@id/fc" android:layout_alignParentLeft="true" android:layout_toStartOf="@id/fc" android:layout_alignParentStart="true" style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingTitleTextView" />
+                <FrameLayout android:id="@id/fc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip">
+                <TextView android:id="@id/f2" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallAdBadgeTextView" />
+                <TextView android:id="@id/f1" android:layout_toLeftOf="@id/f4" android:layout_toRightOf="@id/f2" style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingBodyTextView" />
+                <Button android:textSize="15.0sp" android:id="@id/f4" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginBottom="2.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

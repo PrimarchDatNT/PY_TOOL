@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?a5d" android:paddingLeft="@dimen/mi" android:paddingRight="@dimen/mi" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mq" android:paddingStart="@dimen/mi" android:paddingEnd="@dimen/mi"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckBox android:gravity="center_vertical" android:id="@id/ak_" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/ms" android:gravity="center_vertical" android:id="@id/akh" android:paddingLeft="@dimen/mp" android:paddingTop="@dimen/mu" android:paddingBottom="@dimen/mu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="@dimen/mq" android:paddingStart="@dimen/mp" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/bnv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="14.0dip" android:layout_centerHorizontal="true" app:cardCornerRadius="16.0dip" app:cardElevation="9.0dip" />
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:layout_marginBottom="30.0dip" android:layout_below="@id/bnv" android:layout_centerHorizontal="true">
+        <View android:background="#ffbabac0" android:layout_width="31.0dip" android:layout_height="1.0dip" android:layout_marginEnd="12.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="#ffbabac0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aso" />
+        <View android:background="#ffbabac0" android:layout_width="31.0dip" android:layout_height="1.0dip" android:layout_marginStart="12.0dip" />
+    </LinearLayout>
+</RelativeLayout>

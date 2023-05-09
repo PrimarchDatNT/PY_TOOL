@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_material_center_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.videoai.aivpcore.ViewPremium android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/b5u" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tz" app:tabIndicatorFullWidth="false" app:tabMode="b01" app:tabPaddingEnd="@dimen/tz" app:tabPaddingStart="@dimen/tz" app:tabRippleColor="@null" app:tabSelectedTextColor="@color/d6" app:tabTextAppearance="@style/k1" app:tabTextColor="@color/zo" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/bo5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

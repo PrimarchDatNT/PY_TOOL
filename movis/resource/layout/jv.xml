@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.videoai.aivpcore.editorx.board.clip.main.FuncListView android:id="@id/aue" android:layout_width="0.0dip" android:layout_height="@dimen/xh" android:layout_marginBottom="@dimen/y0" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ad6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/y0" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv">
+        <TextView android:textSize="@dimen/yy" android:textColor="@color/fd" android:id="@id/bc_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ll" />
+        <com.videoai.aivpcore.xyui.RoundedTextView android:textSize="@dimen/z0" android:textStyle="bold" android:textColor="@color/g4" android:gravity="center" android:id="@id/be6" android:paddingLeft="24.0dip" android:paddingTop="5.0dip" android:paddingRight="24.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="10.0dip" android:text="@string/a27" app:VS_CornerRadius="16.0dip" app:VS_SolidColor="@color/e6" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

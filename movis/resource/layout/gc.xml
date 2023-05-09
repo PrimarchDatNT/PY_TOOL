@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ax5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.videoai.aivpcore.editor.effects.PlayerFakeView android:orientation="vertical" android:id="@id/bl4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ax4" />
+    <com.videoai.aivpcore.editor.effects.music.EditorVolumeSetView android:id="@id/bn2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_above="@id/ax4" />
+    <RelativeLayout android:id="@id/ax4" android:background="@color/bn" android:layout_width="fill_parent" android:layout_height="@dimen/gv" android:layout_alignParentBottom="true">
+        <com.videoai.aivpcore.editor.effects.VideoEditorSeekLayout android:id="@id/bl3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="4.0dip" android:layout_above="@id/b7u" android:layout_below="@id/bl3" android:layout_centerHorizontal="true">
+            <TextView android:textSize="16.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/bhh" android:background="@drawable/u1" android:visibility="gone" android:layout_width="113.0dip" android:layout_height="35.0dip" android:text="@string/rx" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/ax3" android:background="@color/bn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/gv" android:layout_above="@id/b7u">
+            <include android:id="@id/afu" android:layout_width="fill_parent" android:layout_height="40.0dip" layout="@layout/g0" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/aun" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="118.0dip" android:layout_below="@id/afu" />
+            <include android:id="@id/auz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/afu" layout="@layout/fx" />
+        </RelativeLayout>
+        <com.videoai.aivpcore.editor.widget.terminator.Terminator android:id="@id/b7u" android:layout_width="fill_parent" android:layout_height="@dimen/a4r" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

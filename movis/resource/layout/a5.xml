@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/zo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/a9u" android:background="?a5d" android:layout_width="?a4" android:layout_height="?a4" android:scaleType="centerInside" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" app:srcCompat="@drawable/aiy" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/bn" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bi9" android:layout_width="0.0dip" android:layout_height="?a4" android:text="@string/c5" android:lines="1" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toEndOf="@id/a9u" app:layout_constraintTop_toTopOf="apv" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ayu" android:paddingTop="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintTop_toBottomOf="@id/bi9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

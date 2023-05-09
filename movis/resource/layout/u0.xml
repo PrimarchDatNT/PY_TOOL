@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/ov"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:paddingLeft="@dimen/os" android:paddingTop="@dimen/os" android:paddingRight="@dimen/os" android:layout_width="fill_parent" android:layout_height="@dimen/ov" android:paddingStart="@dimen/os" android:paddingEnd="@dimen/os" style="?w4">
+        <com.google.android.material.button.MaterialButton android:gravity="center" android:layout_gravity="top" android:id="@id/nu" android:padding="12.0dip" android:layout_width="@dimen/qo" android:layout_height="@dimen/qo" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:contentDescription="@string/hx" app:icon="@drawable/am6" app:rippleColor="@color/tq" style="?w1" />
+        <FrameLayout android:id="@id/am9" android:paddingLeft="@dimen/ox" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@dimen/ox">
+            <TextView android:gravity="start|bottom|center" android:layout_gravity="start|center|top" android:id="@id/amd" android:layout_width="fill_parent" android:layout_height="wrap_content" app:firstBaselineToTopHeight="@dimen/pd" style="?w6" />
+            <TextView android:gravity="start|bottom|center" android:layout_gravity="start|center|top" android:id="@id/am8" android:paddingBottom="@dimen/p7" android:layout_width="fill_parent" android:layout_height="wrap_content" app:firstBaselineToTopHeight="@dimen/p8" app:lineHeight="@dimen/ow" style="?w5" />
+        </FrameLayout>
+        <LinearLayout android:orientation="@integer/p" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton android:layout_gravity="end|center|top" android:id="@id/r8" android:layout_width="wrap_content" android:layout_height="@dimen/qo" android:text="@string/id" android:contentDescription="@string/id" style="?w2" />
+            <include layout="@layout/u3" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/ot" style="?w3" />
+</merge>

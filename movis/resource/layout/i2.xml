@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/xz" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/a7u" android:layout_width="75.0dip" android:layout_height="63.5dip">
+        <RelativeLayout android:id="@id/b9r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/a3a" android:background="@color/xz" android:layout_width="47.0dip" android:layout_height="47.0dip" android:scaleType="fitXY" />
+        </RelativeLayout>
+        <ImageView android:id="@id/a5i" android:background="@color/xz" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:layout_marginRight="-5.0dip" android:src="@drawable/awm" android:scaleType="fitXY" android:layout_alignTop="@id/b9r" android:layout_alignRight="@id/b9r" android:layout_marginEnd="-5.0dip" android:layout_alignEnd="@id/b9r" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/zo" android:gravity="center" android:id="@id/bjc" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="50%" android:layout_alignLeft="@id/b9r" android:layout_alignRight="@id/b9r" android:layout_alignParentBottom="true" android:layout_alignStart="@id/b9r" android:layout_alignEnd="@id/b9r" />
+        <ProgressBar android:visibility="gone" android:layout_width="45.0dip" android:layout_height="4.0dip" android:layout_marginTop="2.0dip" android:max="100" android:progressDrawable="@drawable/awb" android:layout_below="@id/b9r" android:layout_centerHorizontal="true" style="?android:progressBarStyleHorizontal" />
+        <ImageView android:id="@id/a5e" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:src="@drawable/axr" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/a6f" android:background="@drawable/b7g" android:visibility="invisible" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginTop="-6.5dip" android:layout_marginRight="-6.5dip" android:scaleType="fitXY" android:layout_alignTop="@id/a5e" android:layout_alignRight="@id/a5e" android:layout_marginEnd="-6.5dip" android:layout_alignEnd="@id/a5e" />
+        <ImageView android:id="@id/a4z" android:background="@color/xz" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="-4.0dip" android:src="@drawable/axc" android:scaleType="fitXY" android:layout_alignTop="@id/a5e" android:layout_alignRight="@id/a5e" android:layout_marginEnd="-4.0dip" android:layout_alignEnd="@id/a5e" />
+    </RelativeLayout>
+</RelativeLayout>

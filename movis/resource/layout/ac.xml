@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.videoapp.videomakermaster.EditorWrapper android:id="@id/re" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/z8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/vn" android:layout_alignParentTop="true">
+        <com.videoai.aivpcore.editorx.player.EditorPlayerView android:layout_gravity="top" android:id="@id/wc" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.videoai.aivpcore.editorx.controller.vip.InTrialView android:id="@id/bay" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true" android:layout_marginEnd="0.0dip" android:layout_alignParentEnd="true" />
+        </com.videoai.aivpcore.editorx.player.EditorPlayerView>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/b1k" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+        <com.videoai.aivpcore.editorx.widget.SmallProgressView android:layout_gravity="bottom" android:id="@id/b34" android:layout_width="fill_parent" android:layout_height="@dimen/yf" android:layout_marginLeft="@dimen/tz" android:layout_marginRight="@dimen/tz" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/b1l" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/a0f" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/id" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/b_d" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/aik" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:ellipsize="end" android:gravity="center" android:id="@id/bin" android:background="@color/e6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/px" android:lines="1" android:layout_weight="124.0" />
+        <FrameLayout android:id="@id/zi" android:background="@drawable/dx" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="251.0">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/eq" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:lines="1" />
+        </FrameLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/aw1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/vn">
+        <View android:id="@id/bkb" android:layout_width="48.0dip" android:layout_height="50.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+        <com.videoai.aivpcore.editorx.player.SmallProgressTouchView android:id="@id/b45" android:layout_width="fill_parent" android:layout_height="@dimen/ul" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/awj" android:background="@color/bt" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <RelativeLayout android:id="@id/awb" android:background="@drawable/ea" android:paddingBottom="@dimen/ul" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textColor="@color/zo" android:gravity="center" android:id="@id/beo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/ul" android:text="@string/df" android:layout_centerHorizontal="true" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/beo" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz">
+                <LinearLayout android:gravity="center" android:id="@id/aic" android:background="@drawable/e_" android:layout_width="0.0dip" android:layout_height="@dimen/x6" android:layout_marginEnd="@dimen/yf" android:layout_alignParentStart="true" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toStartOf="@id/ai2" app:layout_constraintHorizontal_chainStyle="apo" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/d6" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/adq" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/ai2" android:background="@drawable/dx" android:layout_width="0.0dip" android:layout_height="@dimen/x6" android:layout_marginStart="@dimen/yf" android:layout_alignParentEnd="true" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintHorizontal_chainStyle="apo" app:layout_constraintStart_toEndOf="@id/aic" app:layout_constraintTop_toTopOf="apv">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/a2o" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <ViewStub android:id="@id/bo8" android:layout="@layout/j8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/bo9" android:layout="@layout/ml" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/a0i" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.videoapp.videomakermaster.EditorWrapper>

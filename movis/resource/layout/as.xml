@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:background="#fffdb400" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ad" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+        <com.makeuppub.ads.yu.view.RoundedImageView android:id="@id/cl" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@drawable/c7" android:adjustViewBounds="true" android:layout_marginStart="12.0dip" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:id="@id/cp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Loading....." android:layout_marginStart="12.0dip" android:layout_toEndOf="@id/cl" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff757575" android:ellipsize="end" android:id="@id/co" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="Loading....." android:maxLines="3" android:layout_below="@id/cp" android:layout_marginStart="12.0dip" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/ci" android:layout_toEndOf="@id/cl" />
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/ci" android:background="@drawable/c8" android:layout_width="wrap_content" android:layout_height="34.0dip" android:text="install" android:maxLines="2" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>
