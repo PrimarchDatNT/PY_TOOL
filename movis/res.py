@@ -1,12 +1,44 @@
 import os
 import xml.etree.ElementTree as ET
 
+# ---WORKSPACE DIR---
 ROOT_DIR = 'D:/PY_PROJECT/TOOL/movis'
+RES_DIR = 'D:/PY_PROJECT/TOOL/movis/resource'
+PUBLIC_PATH = 'public.xml'
+# ------------------------------------------------------------------
+
+
+# ---INIT CACHE DATA---
 res_id = {}
 SMALI_FILE_MAPPER = {}
-PUBLIC_PATH = 'public.xml'
 RESOUCE_DATA = []
 CHECK_ID = []
+CHECKED_FILE = []
+# ------------------------------------------------------------------
+
+
+# ---TYPE MAPPER---
+ResANIM = 'anim'
+ResATTR = 'animator'
+ResARRAY = 'array'
+ResBOOL = 'bool'
+ResCOLOR = 'color'
+ResDIMEN = 'dimen'
+ResDRAWABLE = 'anim'
+ResFONT = 'font'
+ResID = 'id'
+ResMIPMAP = 'mipmap'
+ResPLURALS = 'anim'
+ResLAYOUT = 'anim'
+ResRAW = 'anim'
+ResSTRING = 'anim'
+ResSTYLE = 'anim'
+ResSTYLEABLE = 'anim'
+ResXML = 'anim'
+ResVALUE = 'values'
+
+
+# ------------------------------------------------------------------
 
 
 class ResourceData:
@@ -15,6 +47,23 @@ class ResourceData:
         self.encrypt = encrypt
         self.hid = hid
         self.restype = restype
+
+
+def get_file_name_without_extension(file_path):
+    file_name = os.path.basename(file_path)
+    file_name_without_extension = os.path.splitext(file_name)[0]
+    return file_name_without_extension
+
+
+def get_parent_directory_name(file_path):
+    parent_directory = os.path.dirname(file_path)
+    parent_directory_name = os.path.basename(parent_directory)
+    return parent_directory_name
+
+
+def get_file_extension(file_path):
+    _, file_extension = os.path.splitext(file_path)
+    return file_extension
 
 
 if __name__ == '__main__':
@@ -43,10 +92,37 @@ if __name__ == '__main__':
                 encrypname = res_id[typekey][hexid]
                 CHECK_ID.append(hexid)
                 RESOUCE_DATA.append(ResourceData(org=orgname, encrypt=encrypname, hid=hexid, restype=typekey))
-    # check unknow id
+
+    # ---create mapper---
+    # for data in RESOUCE_DATA:
+    #     print(data.restype + ': ' + data.encrypt + ' -> ' + data.org)
+    # ------------------------------------------------------------------
+
+    # ---check unknow id---
     # for typekey in res_id:
     #     for hexid in res_id[typekey]:
     #         if not CHECK_ID.__contains__(hexid):
     #             print(hexid)
+    # ------------------------------------------------------------------
 
-print('Done')
+    for r, d, f in os.walk(RES_DIR):
+        for file in f:
+            src_file_path = (os.path.join(r, file).replace('\\', '/'))
+            if src_file_path.__contains__(ResVALUE):
+                # print('---')
+                # TODO open detail rename file
+                pass
+            else:
+                print()
+                print('browsing: ' + src_file_path)
+                parentfile = get_parent_directory_name(src_file_path)
+                filename = get_file_name_without_extension(src_file_path)
+                for data in RESOUCE_DATA:
+                    if parentfile.__contains__(data.restype) and filename == data.encrypt:
+                        dst_file_path = r.replace('\\', '/') + '/' + data.org + get_file_extension(src_file_path)
+                        print(file + ' -> ' + dst_file_path)
+                        os.rename(src_file_path, dst_file_path)
+                        CHECKED_FILE.append(file)
+                        break
+
+print('---Done---')
