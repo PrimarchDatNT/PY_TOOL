@@ -108,20 +108,25 @@ if __name__ == '__main__':
     for r, d, f in os.walk(RES_DIR):
         for file in f:
             src_file_path = (os.path.join(r, file).replace('\\', '/'))
+            # print('browsing: ' + src_file_path)
             if src_file_path.__contains__(ResVALUE):
-                # print('---')
                 # TODO open detail rename file
                 pass
             else:
-                print()
-                print('browsing: ' + src_file_path)
+                # print()
                 parentfile = get_parent_directory_name(src_file_path)
                 filename = get_file_name_without_extension(src_file_path)
                 for data in RESOUCE_DATA:
-                    if parentfile.__contains__(data.restype) and filename == data.encrypt:
+                    if parentfile.__contains__(data.restype) and filename.replace('.9', '') == data.encrypt:
                         dst_file_path = r.replace('\\', '/') + '/' + data.org + get_file_extension(src_file_path)
-                        print(file + ' -> ' + dst_file_path)
-                        os.rename(src_file_path, dst_file_path)
+                        if filename.__contains__('.9'):
+                            dst_file_nine_path = r.replace('\\', '/') + '/' + data.org + '.9' + get_file_extension(
+                                src_file_path)
+                            print(file + ' -> ' + dst_file_nine_path)
+                            os.rename(src_file_path, dst_file_nine_path)
+                        # else:
+                        #     print(file + ' -> ' + dst_file_path)
+                        #     os.rename(src_file_path, dst_file_path)
                         CHECKED_FILE.append(file)
                         break
 
