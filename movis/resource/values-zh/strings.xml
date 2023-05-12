@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="it">不，谢谢</string>
+    <string name="no_thank_you">不，谢谢</string>
     <string name="tt_00_00">00:00</string>
     <string name="tt_ad">广告</string>
     <string name="tt_ad_clicked_text">广告被点击</string>
@@ -121,5 +121,5 @@
     <string name="tt_wap_empty">请求wap不能为空</string>
     <string name="tt_web_title_default">广告</string>
     <string name="tt_will_play">即将播放</string>
-    <string name="aye">同意</string>
+    <string name="yes_i_agree">同意</string>
 </resources>

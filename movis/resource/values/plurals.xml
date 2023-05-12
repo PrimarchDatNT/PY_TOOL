@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a">
+    <plurals name="al_exo_controls_fastforward_by_amount_description">
         <item quantity="other">Fast forward %d seconds</item>
         <item quantity="one">Fast forward %d second</item>
     </plurals>
-    <plurals name="b">
+    <plurals name="al_exo_controls_rewind_by_amount_description">
         <item quantity="other">Rewind %d seconds</item>
         <item quantity="one">Rewind %d second</item>
     </plurals>
-    <plurals name="c">
+    <plurals name="history_time_days">
         <item quantity="other">%d days</item>
         <item quantity="one">%d day</item>
     </plurals>
-    <plurals name="d">
+    <plurals name="history_time_hours">
         <item quantity="other">%d hours</item>
         <item quantity="one">%d hour</item>
     </plurals>
-    <plurals name="e">
+    <plurals name="history_time_minutes">
         <item quantity="other">%d minutes</item>
         <item quantity="one">%d minute</item>
     </plurals>
-    <plurals name="f">
+    <plurals name="mtrl_badge_content_description">
         <item quantity="other">%d new notifications</item>
         <item quantity="one">%d new notification</item>
     </plurals>
-    <plurals name="g">
+    <plurals name="time_days">
         <item quantity="other">%d days ago</item>
         <item quantity="one">%d day ago</item>
     </plurals>
-    <plurals name="h">
+    <plurals name="time_hours">
         <item quantity="other">%d hours ago</item>
         <item quantity="one">%d hour ago</item>
     </plurals>
-    <plurals name="i">
+    <plurals name="time_minutes">
         <item quantity="other">%d minutes ago</item>
         <item quantity="one">%d minute ago</item>
     </plurals>
-    <plurals name="j">
+    <plurals name="time_months">
         <item quantity="other">%d months ago</item>
         <item quantity="one">%d month ago</item>
     </plurals>
-    <plurals name="k">
+    <plurals name="time_seconds">
         <item quantity="other">%d seconds ago</item>
         <item quantity="one">%d second ago</item>
     </plurals>
-    <plurals name="l">
+    <plurals name="time_years">
         <item quantity="other">%d years ago</item>
         <item quantity="one">%d year ago</item>
     </plurals>
-    <plurals name="m">
+    <plurals name="xiaoying_str_meterial_filter_countdesc_plurals">
         <item quantity="other">@string/a9s</item>
         <item quantity="zero">@string/a9t</item>
         <item quantity="one">@string/a9r</item>
     </plurals>
-    <plurals name="n">
+    <plurals name="xiaoying_str_ve_gallery_file_found_plurals">
         <item quantity="other">@string/alh</item>
         <item quantity="zero">@string/ali</item>
         <item quantity="one">@string/alg</item>
     </plurals>
-    <plurals name="o">
+    <plurals name="xiaoying_str_vip_home_free_trial_day_pluals">
         <item quantity="other">@string/arm</item>
         <item quantity="zero">@string/arn</item>
         <item quantity="one">@string/arl</item>
     </plurals>
-    <plurals name="p">
+    <plurals name="xiaoying_str_vip_popup_free_trial_desc_pluals">
         <item quantity="other">@string/arw</item>
         <item quantity="zero">@string/arx</item>
         <item quantity="one">@string/arv</item>

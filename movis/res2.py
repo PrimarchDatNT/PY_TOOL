@@ -1,4 +1,5 @@
 import os
+import re
 import xml.etree.ElementTree as ET
 
 # ---WORKSPACE DIR---
@@ -19,12 +20,13 @@ CHECKED_FILE = []
 
 # ---TYPE MAPPER---
 ResANIM = 'anim'
-ResATTR = 'animator'
+ResANIMATOR = 'animator'
+ResATTR = 'attr'
 ResARRAY = 'array'
 ResBOOL = 'bool'
 ResCOLOR = 'color'
 ResDIMEN = 'dimen'
-ResDRAWABLE = 'anim'
+ResDRAWABLE = 'drawable'
 ResFONT = 'font'
 ResID = 'id'
 ResMIPMAP = 'mipmap'
@@ -36,6 +38,21 @@ ResSTYLE = 'style'
 ResSTYLEABLE = 'styleable'
 ResXML = 'xml'
 ResVALUE = 'values'
+TYPE_ARRAY = [ResANIM,
+              ResATTR,
+              ResARRAY,
+              ResBOOL,
+              ResCOLOR,
+              ResDIMEN,
+              ResDRAWABLE,
+              ResID,
+              ResMIPMAP,
+              ResPLURALS,
+              ResLAYOUT,
+              ResSTRING,
+              ResSTYLE,
+              ResSTYLEABLE]
+ENCYP_TO_ORG_RES_MAPPER = {}
 
 
 # ------------------------------------------------------------------
@@ -105,28 +122,41 @@ if __name__ == '__main__':
     #             print(hexid)
     # ------------------------------------------------------------------
 
+    for data in RESOUCE_DATA:
+        keypair = data.restype + '---' + data.encrypt
+        ENCYP_TO_ORG_RES_MAPPER[keypair] = data.org
+
     for r, d, f in os.walk(RES_DIR):
         for file in f:
             src_file_path = (os.path.join(r, file).replace('\\', '/'))
-            # print('browsing: ' + src_file_path)
-            if src_file_path.__contains__(ResVALUE):
-                pass
-            else:
-                print()
-                parentfile = get_parent_directory_name(src_file_path)
-                filename = get_file_name_without_extension(src_file_path)
-                for data in RESOUCE_DATA:
-                    if parentfile.__contains__(data.restype) and filename.replace('.9', '') == data.encrypt:
-                        dst_file_path = r.replace('\\', '/') + '/' + data.org + get_file_extension(src_file_path)
-                        if filename.__contains__('.9'):
-                            dst_file_nine_path = r.replace('\\', '/') + '/' + data.org + '.9' + get_file_extension(
-                                src_file_path)
-                            print(file + ' -> ' + dst_file_nine_path)
-                            os.rename(src_file_path, dst_file_nine_path)
-                        else:
-                            print(file + ' -> ' + dst_file_path)
-                            os.rename(src_file_path, dst_file_path)
-                        CHECKED_FILE.append(file)
-                        break
+            if src_file_path.__contains__('.xml'):
+                needchange = False
+
+                with open(src_file_path, encoding='utf-8') as xmlres:
+                    codecontent = xmlres.readlines()
+                    xmlres.close()
+
+                for line in codecontent:
+                    matches = re.findall(r' name="([^"]*)"', line)
+                    for encrypname in matches:
+                        for typekey in TYPE_ARRAY:
+                            if file.__contains__(typekey):
+                                keypair = typekey + '---' + encrypname
+                                if ENCYP_TO_ORG_RES_MAPPER.__contains__(keypair):
+                                    # print(keypair)
+                                    # print(src_file_path)
+                                    needchange = True
+                                    modifi_index = codecontent.index(line)
+                                    line = line.replace('name="' + encrypname + '"',
+                                                        'name="' + ENCYP_TO_ORG_RES_MAPPER[keypair] + '"')
+                                    codecontent[modifi_index] = line
+                                    # print(line.strip())
+
+                if not needchange:
+                    pass
+
+                with open(src_file_path, 'w', encoding='utf-8') as srcfile:
+                    srcfile.writelines(codecontent)
+                    srcfile.close()
 
 print('---Done---')

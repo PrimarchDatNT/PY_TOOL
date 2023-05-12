@@ -18,3 +18,17 @@
 0x7f120240
 0x7f120241
 0x7f15000a
+' name="([^"]*)"'
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="enable_system_alarm_service_default">true</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="rc_extension_history">false</bool>
+    <bool name="rc_typing_status">false</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

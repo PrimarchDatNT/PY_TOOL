@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="d2">No more data</string>
-    <string name="d3">load more failed</string>
-    <string name="d4">Loading...</string>
+    <string name="brvah_load_end">No more data</string>
+    <string name="brvah_load_failed">load more failed</string>
+    <string name="brvah_loading">Loading...</string>
     <string name="tt_full_screen_skip_tx">It can be skipped after 5 seconds</string>
     <string name="tt_reward_feedback">feedback</string>
 </resources>

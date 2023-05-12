@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="a">
+    <string-array name="MediaControlView_playback_speeds">
         <item>0.25x</item>
         <item>0.5x</item>
         <item>0.75x</item>
@@ -8,7 +8,7 @@
         <item>1.5x</item>
         <item>2x</item>
     </string-array>
-    <string-array name="b">
+    <string-array name="al_exo_playback_speeds">
         <item>0.25x</item>
         <item>0.5x</item>
         <item>0.75x</item>
@@ -17,7 +17,7 @@
         <item>1.5x</item>
         <item>2x</item>
     </string-array>
-    <integer-array name="c">
+    <integer-array name="al_exo_speed_multiplied_by_100">
         <item>25</item>
         <item>50</item>
         <item>75</item>
@@ -26,7 +26,7 @@
         <item>150</item>
         <item>200</item>
     </integer-array>
-    <string-array name="d">
+    <string-array name="arr_setting_india_locale_item_names">
         <item>हिंदी</item>
         <item>English</item>
         <item>తెలుగు</item>
@@ -34,7 +34,7 @@
         <item>বাঙালি</item>
         <item>मराठी</item>
     </string-array>
-    <string-array name="e">
+    <string-array name="arr_setting_india_locale_item_values">
         <item>Hindi</item>
         <item>English</item>
         <item>Telugu</item>
@@ -42,7 +42,7 @@
         <item>Bengali</item>
         <item>Marathi</item>
     </string-array>
-    <string-array name="f">
+    <string-array name="arr_setting_local_locale_item_names">
         <item>简体中文</item>
         <item>繁體中文</item>
         <item>English</item>
@@ -63,7 +63,7 @@
         <item>Português</item>
         <item>हिंदी</item>
     </string-array>
-    <string-array name="g">
+    <string-array name="arr_setting_local_locale_item_values">
         <item>zh-Hans</item>
         <item>zh-Hant</item>
         <item>en</item>
@@ -84,7 +84,7 @@
         <item>pt</item>
         <item>hi</item>
     </string-array>
-    <string-array name="h">
+    <string-array name="mark_text_array">
         <item>0.25X</item>
         <item>0.5X</item>
         <item>0.75X</item>
@@ -93,7 +93,7 @@
         <item>3X</item>
         <item>4X</item>
     </string-array>
-    <integer-array name="i">
+    <integer-array name="rc_reconnect_interval">
         <item>1</item>
         <item>2</item>
         <item>4</item>
@@ -105,12 +105,12 @@
         <item>256</item>
         <item>512</item>
     </integer-array>
-    <string-array name="j">
+    <string-array name="seekbar_array_pic_duration">
         <item>0.1</item>
         <item>30.0</item>
         <item>60.0</item>
     </string-array>
-    <integer-array name="k">
+    <integer-array name="speed_multiplied_by_100">
         <item>25</item>
         <item>50</item>
         <item>75</item>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="it">Tidak, terima kasih</string>
+    <string name="no_thank_you">Tidak, terima kasih</string>
     <string name="tt_00_00">00:00</string>
     <string name="tt_ad">Iklan</string>
     <string name="tt_ad_clicked_text">Iklan diklik</string>
@@ -119,5 +119,5 @@
     <string name="tt_wap_empty">No request wap</string>
     <string name="tt_web_title_default">Iklan</string>
     <string name="tt_will_play">Video akan diputar</string>
-    <string name="aye">Ya, saya setuju</string>
+    <string name="yes_i_agree">Ya, saya setuju</string>
 </resources>
