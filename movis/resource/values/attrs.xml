@@ -181,14 +181,14 @@
     <attr name="animateRelativeTo" format="reference" />
     <attr name="animationMode">
         <enum name="b2x" value="0" />
-        <enum name="md_dark_theme" value="1" />
+        <enum name="x5" value="1" />
     </attr>
     <attr name="appBarLayoutStyle" format="reference" />
     <attr name="applyMotionScene" format="boolean" />
     <attr name="arcMode">
         <enum name="b4d" value="0" />
         <enum name="b4b" value="1" />
-        <enum name="myTarget_adSize" value="2" />
+        <enum name="zl" value="2" />
     </attr>
     <attr name="arrowHeadLength" format="dimension" />
     <attr name="arrowShaftLength" format="dimension" />
@@ -197,7 +197,7 @@
     <attr name="aspectRatioY" format="integer" />
     <attr name="attributeName" format="string" />
     <attr name="autoCompleteMode">
-        <enum name="itemHorizontalPadding" value="0" />
+        <enum name="rg" value="0" />
         <enum name="b44" value="1" />
     </attr>
     <attr name="autoCompleteTextViewStyle" format="reference" />
@@ -211,10 +211,10 @@
     </attr>
     <attr name="autoTransition">
         <enum name="aoi" value="0" />
-        <enum name="tooltipText" value="1" />
-        <enum name="tooltipStyle" value="2" />
-        <enum name="buttonStyleSmall" value="3" />
-        <enum name="buttonStyle" value="4" />
+        <enum name="ac3" value="1" />
+        <enum name="ac2" value="2" />
+        <enum name="en" value="3" />
+        <enum name="em" value="4" />
     </attr>
     <attr name="backEnable" format="boolean" />
     <attr name="background" format="reference" />
@@ -233,13 +233,13 @@
         <enum name="b47" value="9" />
         <enum name="amj" value="14" />
         <enum name="azv" value="15" />
-        <enum name="alphabeticModifiers" value="16" />
+        <enum name="cc" value="16" />
     </attr>
     <attr name="badgeGravity">
-        <enum name="XY_Typeface" value="8388661" />
-        <enum name="actionBarDivider" value="8388659" />
-        <enum name="RightTrimBar" value="8388693" />
-        <enum name="SharedValue" value="8388691" />
+        <enum name="a0" value="8388661" />
+        <enum name="a1" value="8388659" />
+        <enum name="b" value="8388693" />
+        <enum name="c" value="8388691" />
     </attr>
     <attr name="badgeStyle" format="reference" />
     <attr name="badgeTextColor" format="color" />
@@ -249,9 +249,9 @@
         <enum name="agt" value="0" />
         <enum name="avs" value="1" />
         <enum name="ba1" value="2" />
-        <enum name="contentInsetStart" value="3" />
+        <enum name="il" value="3" />
         <enum name="b4a" value="5" />
-        <enum name="materialCalendarMonth" value="6" />
+        <enum name="w8" value="6" />
     </attr>
     <attr name="barrierMargin" format="dimension" />
     <attr name="behavior_autoHide" format="boolean" />
@@ -263,14 +263,14 @@
     <attr name="behavior_hideable" format="boolean" />
     <attr name="behavior_overlapTop" format="dimension" />
     <attr name="behavior_peekHeight" format="dimension">
-        <enum name="clickAction" value="-1" />
+        <enum name="gs" value="-1" />
     </attr>
     <attr name="behavior_saveFlags">
         <flag name="aq5" value="0x00000001" />
-        <flag name="msb_mark_bg_color" value="0x00000002" />
-        <flag name="pwTextSize" value="0x00000004" />
+        <flag name="yy" value="0x00000002" />
+        <flag name="a2v" value="0x00000004" />
         <flag name="b2v" value="0x00000008" />
-        <flag name="bottomSheetStyle" value="0xffffffff" />
+        <flag name="e0" value="0xffffffff" />
         <flag name="aoi" value="0x00000000" />
     </attr>
     <attr name="behavior_skipCollapsed" format="boolean" />
@@ -287,7 +287,7 @@
     <attr name="boxBackgroundColor" format="color" />
     <attr name="boxBackgroundMode">
         <enum name="aoi" value="0" />
-        <enum name="motionInterpolator" value="1" />
+        <enum name="yd" value="1" />
         <enum name="aph" value="2" />
     </attr>
     <attr name="boxCollapsedPaddingTop" format="dimension" />
@@ -307,16 +307,16 @@
     <attr name="buttonBarStyle" format="reference" />
     <attr name="buttonCompat" format="reference" />
     <attr name="buttonGravity">
-        <flag name="fsb_min_progress" value="0x00000010" />
+        <flag name="o9" value="0x00000010" />
         <flag name="ba1" value="0x00000030" />
-        <flag name="contentInsetStart" value="0x00000050" />
+        <flag name="il" value="0x00000050" />
     </attr>
     <attr name="buttonIconDimen" format="dimension" />
     <attr name="buttonPanelSideLayout" format="reference" />
     <attr name="buttonSize" format="reference">
         <enum name="b4_" value="0" />
         <enum name="boy" value="1" />
-        <enum name="righthandle" value="2" />
+        <enum name="a3j" value="2" />
     </attr>
     <attr name="buttonStyle" format="reference" />
     <attr name="buttonStyleSmall" format="reference" />
@@ -327,7 +327,7 @@
         <enum name="b47" value="9" />
         <enum name="amj" value="14" />
         <enum name="azv" value="15" />
-        <enum name="alphabeticModifiers" value="16" />
+        <enum name="cc" value="16" />
     </attr>
     <attr name="cardBackgroundColor" format="color" />
     <attr name="cardCornerRadius" format="dimension" />
@@ -339,8 +339,8 @@
     <attr name="cardViewStyle" format="reference" />
     <attr name="carousel_backwardTransition" format="reference" />
     <attr name="carousel_emptyViewsBehavior">
-        <enum name="srlDrawableArrowSize" value="4" />
-        <enum name="progress_text_size" value="8" />
+        <enum name="a6y" value="4" />
+        <enum name="a22" value="8" />
     </attr>
     <attr name="carousel_firstView" format="reference" />
     <attr name="carousel_forwardTransition" format="reference" />
@@ -348,8 +348,8 @@
     <attr name="carousel_nextState" format="reference" />
     <attr name="carousel_previousState" format="reference" />
     <attr name="carousel_touchUpMode">
-        <enum name="spinnerStyle" value="1" />
-        <enum name="fontProviderFetchTimeout" value="2" />
+        <enum name="a6j" value="1" />
+        <enum name="nz" value="2" />
     </attr>
     <attr name="carousel_touchUp_dampeningFactor" format="float" />
     <attr name="carousel_touchUp_velocityThreshold" format="float" />
@@ -415,8 +415,8 @@
         <flag name="b_v" value="0x00000011" />
         <flag name="baj" value="0x00000001" />
         <flag name="bak" value="0x00000010" />
-        <flag name="tooltipStyle" value="0x00000100" />
-        <flag name="tooltipText" value="0x00001000" />
+        <flag name="ac2" value="0x00000100" />
+        <flag name="ac3" value="0x00001000" />
     </attr>
     <attr name="clip_background" format="reference|string|integer|boolean|color|float|dimension|fraction" />
     <attr name="clockFaceBackgroundColor" format="color" />
@@ -436,15 +436,15 @@
     <attr name="collapsedSize" format="dimension" />
     <attr name="collapsedTitleGravity">
         <flag name="ba1" value="0x00000030" />
-        <flag name="contentInsetStart" value="0x00000050" />
+        <flag name="il" value="0x00000050" />
         <flag name="agt" value="0x00000003" />
         <flag name="avs" value="0x00000005" />
-        <flag name="fsb_min_progress" value="0x00000010" />
-        <flag name="motionEffect_viewTransition" value="0x00000070" />
-        <flag name="fontWeight" value="0x00000001" />
-        <flag name="fontProviderPackage" value="0x00000011" />
+        <flag name="o9" value="0x00000010" />
+        <flag name="yc" value="0x00000070" />
+        <flag name="o5" value="0x00000001" />
+        <flag name="o0" value="0x00000011" />
         <flag name="b4a" value="0x00800003" />
-        <flag name="materialCalendarMonth" value="0x00800005" />
+        <flag name="w8" value="0x00800005" />
     </attr>
     <attr name="collapsedTitleTextAppearance" format="reference" />
     <attr name="collapsingToolbarLayoutStyle" format="reference" />
@@ -467,9 +467,9 @@
     <attr name="colorPrimarySurface" format="color" />
     <attr name="colorPrimaryVariant" format="color" />
     <attr name="colorScheme" format="reference">
-        <enum name="layout_constraintBaseline_toBottomOf" value="0" />
+        <enum name="sq" value="0" />
         <enum name="agy" value="1" />
-        <enum name="clickAction" value="2" />
+        <enum name="gs" value="2" />
     </attr>
     <attr name="colorSecondary" format="color" />
     <attr name="colorSecondaryVariant" format="color" />
@@ -520,23 +520,23 @@
     <attr name="coordinatorLayoutStyle" format="reference" />
     <attr name="cornerFamily">
         <enum name="ayi" value="0" />
-        <enum name="layout_constrainedWidth" value="1" />
+        <enum name="sn" value="1" />
     </attr>
     <attr name="cornerFamilyBottomLeft">
         <enum name="ayi" value="0" />
-        <enum name="layout_constrainedWidth" value="1" />
+        <enum name="sn" value="1" />
     </attr>
     <attr name="cornerFamilyBottomRight">
         <enum name="ayi" value="0" />
-        <enum name="layout_constrainedWidth" value="1" />
+        <enum name="sn" value="1" />
     </attr>
     <attr name="cornerFamilyTopLeft">
         <enum name="ayi" value="0" />
-        <enum name="layout_constrainedWidth" value="1" />
+        <enum name="sn" value="1" />
     </attr>
     <attr name="cornerFamilyTopRight">
         <enum name="ayi" value="0" />
-        <enum name="layout_constrainedWidth" value="1" />
+        <enum name="sn" value="1" />
     </attr>
     <attr name="cornerRadius" format="dimension" />
     <attr name="cornerSize" format="dimension|fraction" />
@@ -555,12 +555,12 @@
     <attr name="csb_bg_left_padding" format="reference|dimension" />
     <attr name="csb_bg_right_padding" format="reference|dimension" />
     <attr name="csb_color_type">
-        <enum name="colorSurface" value="5" />
-        <enum name="colorSwitchThumbNormal" value="2" />
-        <enum name="color_bar_ThumbHeight" value="6" />
-        <enum name="color_bar_ThumbRadius" value="3" />
-        <enum name="color_bar_Thumb_visible" value="4" />
-        <enum name="color_bar_height" value="7" />
+        <enum name="hw" value="5" />
+        <enum name="hx" value="2" />
+        <enum name="i2" value="6" />
+        <enum name="i4" value="3" />
+        <enum name="i6" value="4" />
+        <enum name="i7" value="7" />
         <enum name="b83" value="1" />
     </attr>
     <attr name="csb_default_color" format="reference|color" />
@@ -610,10 +610,10 @@
         <flag name="aoi" value="0x00000000" />
         <flag name="bk1" value="0x00000001" />
         <flag name="b1n" value="0x00000002" />
-        <flag name="quantizeMotionSteps" value="0x00000004" />
+        <flag name="a2y" value="0x00000004" />
         <flag name="b1o" value="0x00000008" />
         <flag name="b1m" value="0x00000010" />
-        <flag name="layout_constraintStart_toStartOf" value="0x00000020" />
+        <flag name="ti" value="0x00000020" />
     </attr>
     <attr name="display_mode" format="integer" />
     <attr name="divider" format="reference" />
@@ -625,14 +625,14 @@
     <attr name="dividerVertical" format="reference" />
     <attr name="draftEnable" format="boolean" />
     <attr name="dragDirection">
-        <enum name="layout_scrollInterpolator" value="0" />
-        <enum name="layout_minHeight" value="1" />
-        <enum name="layout_optimizationLevel" value="2" />
-        <enum name="layout_order" value="3" />
-        <enum name="layout_scrollFlags" value="4" />
-        <enum name="layout_minWidth" value="5" />
-        <enum name="layout_maxWidth" value="6" />
-        <enum name="layout_maxHeight" value="7" />
+        <enum name="uh" value="0" />
+        <enum name="uc" value="1" />
+        <enum name="ue" value="2" />
+        <enum name="uf" value="3" />
+        <enum name="ug" value="4" />
+        <enum name="ud" value="5" />
+        <enum name="ub" value="6" />
+        <enum name="ua" value="7" />
     </attr>
     <attr name="dragScale" format="float" />
     <attr name="dragThreshold" format="float" />
@@ -640,8 +640,8 @@
         <enum name="aoi" value="0" />
         <enum name="aq1" value="1" />
         <enum name="aq2" value="2" />
-        <enum name="layout_constraintEnd_toStartOf" value="3" />
-        <enum name="chipBackgroundColor" value="4" />
+        <enum name="t0" value="3" />
+        <enum name="fj" value="4" />
         <enum name="aud" value="5" />
     </attr>
     <attr name="drawableBottomCompat" format="reference" />
@@ -657,7 +657,7 @@
         <enum name="b47" value="9" />
         <enum name="amj" value="14" />
         <enum name="azv" value="15" />
-        <enum name="alphabeticModifiers" value="16" />
+        <enum name="cc" value="16" />
     </attr>
     <attr name="drawableTopCompat" format="reference" />
     <attr name="drawerArrowStyle" format="reference" />
@@ -679,11 +679,11 @@
     <attr name="endIconContentDescription" format="string" />
     <attr name="endIconDrawable" format="reference" />
     <attr name="endIconMode">
-        <enum name="layout_alignSelf" value="-1" />
+        <enum name="sg" value="-1" />
         <enum name="aoi" value="0" />
         <enum name="apz" value="1" />
-        <enum name="indeterminateAnimationType" value="2" />
-        <enum name="layout_wrapBefore" value="3" />
+        <enum name="pp" value="2" />
+        <enum name="ui" value="3" />
     </attr>
     <attr name="endIconTint" format="color" />
     <attr name="endIconTintMode">
@@ -715,15 +715,15 @@
     <attr name="expandedHintEnabled" format="boolean" />
     <attr name="expandedTitleGravity">
         <flag name="ba1" value="0x00000030" />
-        <flag name="contentInsetStart" value="0x00000050" />
+        <flag name="il" value="0x00000050" />
         <flag name="agt" value="0x00000003" />
         <flag name="avs" value="0x00000005" />
-        <flag name="fsb_min_progress" value="0x00000010" />
-        <flag name="motionEffect_viewTransition" value="0x00000070" />
-        <flag name="fontWeight" value="0x00000001" />
-        <flag name="fontProviderPackage" value="0x00000011" />
+        <flag name="o9" value="0x00000010" />
+        <flag name="yc" value="0x00000070" />
+        <flag name="o5" value="0x00000001" />
+        <flag name="o0" value="0x00000011" />
         <flag name="b4a" value="0x00800003" />
-        <flag name="materialCalendarMonth" value="0x00800005" />
+        <flag name="w8" value="0x00800005" />
     </attr>
     <attr name="expandedTitleMargin" format="dimension" />
     <attr name="expandedTitleMarginBottom" format="dimension" />
@@ -734,8 +734,8 @@
     <attr name="extendMotionSpec" format="reference" />
     <attr name="extendedFloatingActionButtonStyle" format="reference" />
     <attr name="fabAlignmentMode">
-        <enum name="fontProviderPackage" value="0" />
-        <enum name="materialCalendarMonth" value="1" />
+        <enum name="o0" value="0" />
+        <enum name="w8" value="1" />
     </attr>
     <attr name="fabAnimationMode">
         <enum name="azm" value="0" />
@@ -746,7 +746,7 @@
     <attr name="fabCradleVerticalOffset" format="dimension" />
     <attr name="fabCustomSize" format="dimension" />
     <attr name="fabSize">
-        <enum name="clickAction" value="-1" />
+        <enum name="gs" value="-1" />
         <enum name="aok" value="0" />
         <enum name="akt" value="1" />
     </attr>
@@ -767,7 +767,7 @@
     <attr name="fastScrollPopupTextColor" format="reference|color" />
     <attr name="fastScrollPopupTextSize" format="reference|dimension" />
     <attr name="fastScrollPopupTextVerticalAlignmentMode">
-        <enum name="onStateTransition" value="1" />
+        <enum name="a04" value="1" />
         <enum name="b8d" value="0" />
     </attr>
     <attr name="fastScrollThumbColor" format="reference|color" />
@@ -782,8 +782,8 @@
     <attr name="flexDirection">
         <enum name="ayk" value="0" />
         <enum name="aym" value="1" />
-        <enum name="isb_tick_texts_size" value="2" />
-        <enum name="isb_tick_texts_typeface" value="3" />
+        <enum name="r6" value="2" />
+        <enum name="r7" value="3" />
     </attr>
     <attr name="flexWrap">
         <enum name="aos" value="0" />
@@ -805,8 +805,8 @@
     </attr>
     <attr name="flow_horizontalAlign">
         <enum name="b4a" value="0" />
-        <enum name="materialCalendarMonth" value="1" />
-        <enum name="fontProviderPackage" value="2" />
+        <enum name="w8" value="1" />
+        <enum name="o0" value="2" />
     </attr>
     <attr name="flow_horizontalBias" format="float" />
     <attr name="flow_horizontalGap" format="dimension" />
@@ -831,9 +831,9 @@
     <attr name="flow_padding" format="dimension" />
     <attr name="flow_verticalAlign">
         <enum name="ba1" value="0" />
-        <enum name="contentInsetStart" value="1" />
-        <enum name="fontProviderPackage" value="2" />
-        <enum name="colorOnSecondary" value="3" />
+        <enum name="il" value="1" />
+        <enum name="o0" value="2" />
+        <enum name="hn" value="3" />
     </attr>
     <attr name="flow_verticalBias" format="float" />
     <attr name="flow_verticalGap" format="dimension" />
@@ -844,8 +844,8 @@
     </attr>
     <attr name="flow_wrapMode">
         <enum name="aoi" value="0" />
-        <enum name="fsb_text_size" value="1" />
-        <enum name="bottomSheetDialogTheme" value="2" />
+        <enum name="ob" value="1" />
+        <enum name="dz" value="2" />
     </attr>
     <attr name="font" format="reference" />
     <attr name="fontFamily" format="string" />
@@ -856,14 +856,14 @@
         <enum name="chipCornerRadius" value="1" />
     </attr>
     <attr name="fontProviderFetchTimeout" format="integer">
-        <enum name="p_progressDoubleSegColor" value="-1" />
+        <enum name="a0e" value="-1" />
     </attr>
     <attr name="fontProviderPackage" format="string" />
     <attr name="fontProviderQuery" format="string" />
     <attr name="fontProviderSystemFontFamily" format="string" />
     <attr name="fontStyle">
         <enum name="aok" value="0" />
-        <enum name="srlDrawableProgress" value="1" />
+        <enum name="a70" value="1" />
     </attr>
     <attr name="fontVariationSettings" format="string" />
     <attr name="fontWeight" format="integer" />
@@ -872,8 +872,8 @@
     <attr name="fsb_max_progress" format="integer" />
     <attr name="fsb_min_progress" format="integer" />
     <attr name="fsb_rotation">
-        <enum name="XY_FontFamily" value="270" />
-        <enum name="XY_SwitchMinWidth" value="90" />
+        <enum name="k" value="270" />
+        <enum name="l" value="90" />
     </attr>
     <attr name="fsb_text_color" format="reference|color" />
     <attr name="fsb_text_size" format="reference|dimension" />
@@ -904,7 +904,7 @@
     <attr name="hideAnimationBehavior">
         <enum name="aoi" value="0" />
         <enum name="apj" value="1" />
-        <enum name="srlDrawableMarginRight" value="2" />
+        <enum name="a6z" value="2" />
     </attr>
     <attr name="hideMotionSpec" format="reference" />
     <attr name="hideOnContentScroll" format="boolean" />
@@ -923,7 +923,7 @@
     <attr name="iconGravity">
         <flag name="b4a" value="0x00000001" />
         <flag name="b89" value="0x00000002" />
-        <flag name="materialCalendarMonth" value="0x00000003" />
+        <flag name="w8" value="0x00000003" />
         <flag name="b86" value="0x00000004" />
         <flag name="ba1" value="0x00000010" />
         <flag name="b8a" value="0x00000020" />
@@ -938,7 +938,7 @@
         <enum name="b47" value="9" />
         <enum name="amj" value="14" />
         <enum name="azv" value="15" />
-        <enum name="alphabeticModifiers" value="16" />
+        <enum name="cc" value="16" />
     </attr>
     <attr name="iconifiedByDefault" format="boolean" />
     <attr name="ifTagNotSet" format="reference" />
@@ -946,8 +946,8 @@
     <attr name="imageAspectRatio" format="float" />
     <attr name="imageAspectRatioAdjust">
         <enum name="aoi" value="0" />
-        <enum name="animationMode" value="1" />
-        <enum name="animateRelativeTo" value="2" />
+        <enum name="cg" value="1" />
+        <enum name="cf" value="2" />
     </attr>
     <attr name="imageButtonStyle" format="reference" />
     <attr name="imagePanX" format="float" />
@@ -957,24 +957,24 @@
     <attr name="image_src" format="reference" />
     <attr name="includeEdge" format="boolean" />
     <attr name="indeterminateAnimationType">
-        <enum name="itemFillColor" value="0" />
-        <enum name="layout_constraintVertical_bias" value="1" />
+        <enum name="rf" value="0" />
+        <enum name="tn" value="1" />
     </attr>
     <attr name="indeterminateProgressStyle" format="reference" />
     <attr name="indicator">
-        <flag name="SharedValueId" value="0x00000000" />
-        <flag name="VS_CornerRadius" value="0x0000001c" />
+        <flag name="d" value="0x00000000" />
+        <flag name="e" value="0x0000001c" />
     </attr>
     <attr name="indicatorColor" format="reference|color" />
     <attr name="indicatorDirectionCircular">
-        <enum name="isb_max" value="0" />
-        <enum name="itemPadding" value="1" />
+        <enum name="qj" value="0" />
+        <enum name="rm" value="1" />
     </attr>
     <attr name="indicatorDirectionLinear">
         <enum name="agu" value="0" />
         <enum name="avt" value="1" />
         <enum name="b4c" value="2" />
-        <enum name="materialCalendarMonthNavigationButton" value="3" />
+        <enum name="w9" value="3" />
     </attr>
     <attr name="indicatorInset" format="dimension" />
     <attr name="indicatorSize" format="dimension" />
@@ -1009,15 +1009,15 @@
     <attr name="isb_r2l" format="boolean" />
     <attr name="isb_seek_smoothly" format="boolean" />
     <attr name="isb_show_indicator">
-        <enum name="homeLayout" value="1" />
-        <enum name="layout_alignSelf" value="4" />
+        <enum name="p2" value="1" />
+        <enum name="sg" value="4" />
         <enum name="aoi" value="0" />
         <enum name="auc" value="3" />
         <enum name="ayj" value="2" />
     </attr>
     <attr name="isb_show_thumb_text" format="boolean" />
     <attr name="isb_show_tick_marks_type">
-        <enum name="layout_constraintWidth_max" value="3" />
+        <enum name="ts" value="3" />
         <enum name="aoi" value="0" />
         <enum name="apk" value="1" />
         <enum name="b46" value="2" />
@@ -1076,15 +1076,15 @@
     <attr name="itv_top_img" format="reference" />
     <attr name="itv_top_name_text" format="string" />
     <attr name="justifyContent">
-        <enum name="multiChoiceItemLayout" value="0" />
-        <enum name="mulprogbgfocusDrawable" value="1" />
-        <enum name="fontProviderPackage" value="2" />
+        <enum name="zk" value="0" />
+        <enum name="zj" value="1" />
+        <enum name="o0" value="2" />
         <enum name="b3t" value="3" />
         <enum name="b3s" value="4" />
         <enum name="b3u" value="5" />
     </attr>
     <attr name="keyPositionType">
-        <enum name="layout_constraintEnd_toStartOf" value="0" />
+        <enum name="t0" value="0" />
         <enum name="aq2" value="1" />
         <enum name="apx" value="2" />
     </attr>
@@ -1113,11 +1113,11 @@
     </attr>
     <attr name="layoutManager" format="string" />
     <attr name="layout_alignSelf">
-        <enum name="clickAction" value="-1" />
-        <enum name="multiChoiceItemLayout" value="0" />
-        <enum name="mulprogbgfocusDrawable" value="1" />
-        <enum name="fontProviderPackage" value="2" />
-        <enum name="colorOnSecondary" value="3" />
+        <enum name="gs" value="-1" />
+        <enum name="zk" value="0" />
+        <enum name="zj" value="1" />
+        <enum name="o0" value="2" />
+        <enum name="hn" value="3" />
         <enum name="b4l" value="4" />
     </attr>
     <attr name="layout_anchor" format="reference" />
@@ -1261,8 +1261,8 @@
         <flag name="agt" value="0x00000003" />
         <flag name="avs" value="0x00000005" />
         <flag name="b4a" value="0x00800003" />
-        <flag name="materialCalendarMonth" value="0x00800005" />
-        <flag name="bottomSheetStyle" value="0x00000077" />
+        <flag name="w8" value="0x00800005" />
+        <flag name="e0" value="0x00000077" />
     </attr>
     <attr name="layout_editor_absoluteX" format="dimension" />
     <attr name="layout_editor_absoluteY" format="dimension" />
@@ -1435,8 +1435,8 @@
     </attr>
     <attr name="md_content_color" format="color" />
     <attr name="md_content_gravity">
-        <enum name="fontProviderPackage" value="1" />
-        <enum name="materialCalendarMonth" value="2" />
+        <enum name="o0" value="1" />
+        <enum name="w8" value="2" />
         <enum name="b4a" value="0" />
     </attr>
     <attr name="md_dark_theme" format="boolean" />
@@ -1496,7 +1496,7 @@
     <attr name="motionEffect_alpha" format="float" />
     <attr name="motionEffect_end" format="integer" />
     <attr name="motionEffect_move">
-        <enum name="clickAction" value="-1" />
+        <enum name="gs" value="-1" />
         <enum name="aoo" value="0" />
         <enum name="b3p" value="1" />
         <enum name="uq" value="2" />
@@ -1925,14 +1925,14 @@
         <flag name="a3p" value="0x00000001" />
         <flag name="e2" value="0x00000002" />
         <flag name="boz" value="0x00000004" />
-        <flag name="isb_thumb_text_color" value="0x00000008" />
+        <flag name="qy" value="0x00000008" />
     </attr>
     <attr name="showDelay" format="integer" />
     <attr name="showDivider">
         <flag name="aoi" value="0x00000000" />
-        <flag name="colorPrimarySurface" value="0x00000001" />
+        <flag name="hr" value="0x00000001" />
         <flag name="akq" value="0x00000002" />
-        <flag name="materialCalendarMonth" value="0x00000004" />
+        <flag name="w8" value="0x00000004" />
     </attr>
     <attr name="showDividerHorizontal">
         <flag name="aoi" value="0x00000000" />
@@ -2331,8 +2331,8 @@
     </attr>
     <attr name="transitionFlags">
         <flag name="aoi" value="0x00000000" />
-        <flag name="colorPrimaryDark" value="0x00000001" />
-        <flag name="layout_constraintTag" value="0x00000002" />
+        <flag name="hq" value="0x00000001" />
+        <flag name="tj" value="0x00000002" />
         <flag name="aoz" value="0x00000004" />
     </attr>
     <attr name="transitionPathRotate" format="float" />
