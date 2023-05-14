@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout android:theme="@style/p3" android:orientation="vertical" android:tag="layout/fragment_material_page_0" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="azw|wm"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.appbar.AppBarLayout android:background="@color/m_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:elevation="0.0dip">
-        <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="azw|wm">
-            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/p4" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="aps">
-                <androidx.constraintlayout.helper.widget.Flow android:id="@id/zn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ul" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" app:flow_horizontalBias="0.0" app:flow_horizontalGap="@dimen/tz" app:flow_horizontalStyle="apo" app:flow_verticalBias="0.0" app:flow_verticalGap="@dimen/td" app:flow_verticalStyle="b42" app:flow_wrapMode="ob" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:tag="layout/fragment_material_page_0"
+    android:theme="@style/p3"
+    app:layout_scrollFlags="azw|wm">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/m_"
+        android:elevation="0.0dip"
+        app:elevation="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:layout_scrollFlags="azw|wm">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/p4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:layout_collapseMode="aps">
+                <androidx.constraintlayout.helper.widget.Flow
+                    android:id="@id/zn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/tz"
+                    android:layout_marginTop="@dimen/ul"
+                    android:layout_marginEnd="@dimen/tz"
+                    app:flow_horizontalBias="0.0"
+                    app:flow_horizontalGap="@dimen/tz"
+                    app:flow_horizontalStyle="apo"
+                    app:flow_verticalBias="0.0"
+                    app:flow_verticalGap="@dimen/td"
+                    app:flow_verticalStyle="b42"
+                    app:flow_wrapMode="ob"
+                    app:layout_constraintBottom_toBottomOf="apv"
+                    app:layout_constraintEnd_toEndOf="apv"
+                    app:layout_constraintStart_toStartOf="apv"
+                    app:layout_constraintTop_toTopOf="apv" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/ayn" android:paddingTop="@dimen/ul" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ch" />
-    <ProgressBar android:layout_gravity="center" android:id="@id/aq4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/ayn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="@dimen/ul"
+        app:layout_behavior="@string/ch" />
+    <ProgressBar
+        android:id="@id/aq4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

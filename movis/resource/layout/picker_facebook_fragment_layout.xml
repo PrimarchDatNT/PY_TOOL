@@ -1,19 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView android:id="@id/a03" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
-    <RelativeLayout android:id="@id/af3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView android:id="@id/akk" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
-        <ImageView android:id="@id/zu" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ao1" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black">
+    <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView
+        android:id="@id/a03"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+    <RelativeLayout
+        android:id="@id/af3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone">
+        <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView
+            android:id="@id/akk"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+        <ImageView
+            android:id="@id/zu"
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16.0dip"
+            android:src="@drawable/ao1" />
     </RelativeLayout>
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/afe" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textSize="14.0sp" android:textColor="@color/zz" android:id="@id/bgf" android:paddingBottom="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <RelativeLayout android:id="@id/aqg" android:layout_width="335.0dip" android:layout_height="50.0dip">
-            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
-                <ImageView android:id="@id/aas" android:layout_width="25.0dip" android:layout_height="25.0dip" android:scaleType="center" android:layout_centerVertical="true" />
-                <TextView android:id="@id/b39" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@id/afe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@id/bgf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="18.0dip"
+            android:textColor="@color/zz"
+            android:textSize="14.0sp" />
+        <RelativeLayout
+            android:id="@id/aqg"
+            android:layout_width="335.0dip"
+            android:layout_height="50.0dip">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+                <ImageView
+                    android:id="@id/aas"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_centerVertical="true"
+                    android:scaleType="center" />
+                <TextView
+                    android:id="@id/b39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
             </RelativeLayout>
         </RelativeLayout>
     </LinearLayout>
-    <include android:visibility="gone" layout="@layout/ub" />
+    <include
+        layout="@layout/ub"
+        android:visibility="gone" />
 </RelativeLayout>

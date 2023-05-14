@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:background="@drawable/aic" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/eq" android:gravity="center" android:id="@id/bev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:maxWidth="300.0dip" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <View android:background="@color/j4" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="40.0dip" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintTop_toBottomOf="@id/bev" />
-    <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/gl" android:gravity="center" android:id="@id/bdb" android:layout_width="0.0dip" android:layout_height="52.0dip" android:layout_marginTop="40.0dip" android:text="@string/s_" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toLeftOf="@id/bgv" app:layout_constraintTop_toBottomOf="@id/bev" />
-    <View android:background="@color/j4" android:layout_width="1.0px" android:layout_height="52.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" />
-    <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/ky" android:gravity="center" android:id="@id/bgv" android:layout_width="0.0dip" android:layout_height="52.0dip" android:layout_marginTop="40.0dip" android:text="@string/ade" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintLeft_toRightOf="@id/bdb" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toBottomOf="@id/bev" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="32.0dip"
+    android:background="@drawable/aic">
+    <TextView
+        android:id="@id/bev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40.0dip"
+        android:gravity="center"
+        android:maxWidth="300.0dip"
+        android:textColor="@color/eq"
+        android:textSize="18.0dip"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintRight_toRightOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="40.0dip"
+        android:background="@color/j4"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/bev" />
+    <TextView
+        android:id="@id/bdb"
+        android:layout_width="0.0dip"
+        android:layout_height="52.0dip"
+        android:layout_marginTop="40.0dip"
+        android:gravity="center"
+        android:text="@string/s_"
+        android:textColor="@color/gl"
+        android:textSize="18.0dip"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_weight="1.0"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintRight_toLeftOf="@id/bgv"
+        app:layout_constraintTop_toBottomOf="@id/bev" />
+    <View
+        android:layout_width="1.0px"
+        android:layout_height="52.0dip"
+        android:background="@color/j4"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintRight_toRightOf="apv" />
+    <TextView
+        android:id="@id/bgv"
+        android:layout_width="0.0dip"
+        android:layout_height="52.0dip"
+        android:layout_marginTop="40.0dip"
+        android:gravity="center"
+        android:text="@string/ade"
+        android:textColor="@color/ky"
+        android:textSize="18.0dip"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_weight="1.0"
+        app:layout_constraintLeft_toRightOf="@id/bdb"
+        app:layout_constraintRight_toRightOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/bev" />
 </androidx.constraintlayout.widget.ConstraintLayout>

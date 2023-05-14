@@ -1,21 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/amt" android:layout_width="wrap_content" android:layout_height="60.0dip">
-        <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/ang" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="20.0dip" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" />
-        <TextView android:textSize="12.0sp" android:textColor="@color/zw" android:id="@id/anb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
-        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/an3" android:layout_toRightOf="@id/anb" android:layout_centerVertical="true" android:layout_toStartOf="@id/an3" android:layout_toEndOf="@id/anb">
-            <TextView android:textSize="16.0sp" android:textColor="@color/a04" android:ellipsize="end" android:id="@id/an2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="10.0dip" android:text="aklsdjklasjdklasjd" android:maxLines="1" android:textDirection="locale" android:layout_marginStart="16.0dip" android:layout_marginEnd="10.0dip" />
-            <TextView android:textSize="12.0sp" android:textColor="@color/zy" android:ellipsize="end" android:id="@id/amu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="10.0dip" android:text="aklsdjklasjdklasjd" android:maxLines="1" android:textDirection="locale" android:layout_marginStart="16.0dip" android:layout_marginEnd="10.0dip" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@id/amt"
+        android:layout_width="wrap_content"
+        android:layout_height="60.0dip">
+        <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+            android:id="@id/ang"
+            android:layout_width="22.0dip"
+            android:layout_height="22.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20.0dip"
+            android:layout_marginLeft="20.0dip"
+            android:visibility="gone" />
+        <TextView
+            android:id="@id/anb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:textColor="@color/zw"
+            android:textSize="12.0sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/an3"
+            android:layout_toLeftOf="@id/an3"
+            android:layout_toEndOf="@id/anb"
+            android:layout_toRightOf="@id/anb"
+            android:orientation="vertical">
+            <TextView
+                android:id="@id/an2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginEnd="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="aklsdjklasjdklasjd"
+                android:textColor="@color/a04"
+                android:textDirection="locale"
+                android:textSize="16.0sp" />
+            <TextView
+                android:id="@id/amu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginTop="2.0dip"
+                android:layout_marginEnd="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="aklsdjklasjdklasjd"
+                android:textColor="@color/zy"
+                android:textDirection="locale"
+                android:textSize="12.0sp"
+                android:visibility="gone" />
         </LinearLayout>
-        <FrameLayout android:id="@id/an3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
-            <com.videoai.aivpcore.ui.view.ProgressWheel android:layout_gravity="end|center" android:id="@id/an8" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="11.0dip" android:layout_marginEnd="11.0dip" ProgressWheel:pwBarColor="@color/n_" ProgressWheel:pwBarWidth="2.0dip" ProgressWheel:pwCircleColor="@color/bn" ProgressWheel:pwContourColor="@color/n_" ProgressWheel:pwRimColor="@color/n_" ProgressWheel:pwRimWidth="2.0px" xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto" />
-            <ImageView android:layout_gravity="end|center" android:id="@id/amw" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_marginRight="3.5dip" android:src="@drawable/b55" android:scaleType="center" android:layout_marginEnd="3.5dip" />
-            <TextView android:textColor="@color/n_" android:gravity="center" android:layout_gravity="end|center" android:id="@id/ane" android:background="@drawable/b52" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginRight="15.0dip" android:minWidth="36.0dip" android:text="@string/rx" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginEnd="15.0dip" />
-            <ImageView android:layout_gravity="end|center" android:id="@id/amv" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/b54" android:scaleType="center" />
-            <ImageView android:layout_gravity="end|center" android:id="@id/an1" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/b59" android:scaleType="center" />
+        <FrameLayout
+            android:id="@id/an3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true">
+            <com.videoai.aivpcore.ui.view.ProgressWheel xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+                android:id="@id/an8"
+                android:layout_width="35.0dip"
+                android:layout_height="35.0dip"
+                android:layout_gravity="end|center"
+                android:layout_marginEnd="11.0dip"
+                android:layout_marginRight="11.0dip"
+                android:visibility="gone"
+                ProgressWheel:pwBarColor="@color/n_"
+                ProgressWheel:pwBarWidth="2.0dip"
+                ProgressWheel:pwCircleColor="@color/bn"
+                ProgressWheel:pwContourColor="@color/n_"
+                ProgressWheel:pwRimColor="@color/n_"
+                ProgressWheel:pwRimWidth="2.0px" />
+            <ImageView
+                android:id="@id/amw"
+                android:layout_width="50.0dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="end|center"
+                android:layout_marginEnd="3.5dip"
+                android:layout_marginRight="3.5dip"
+                android:scaleType="center"
+                android:src="@drawable/b55"
+                android:visibility="gone" />
+            <TextView
+                android:id="@id/ane"
+                android:layout_width="wrap_content"
+                android:layout_height="26.0dip"
+                android:layout_gravity="end|center"
+                android:layout_marginEnd="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:background="@drawable/b52"
+                android:gravity="center"
+                android:minWidth="36.0dip"
+                android:paddingStart="12.0dip"
+                android:paddingLeft="12.0dip"
+                android:paddingEnd="12.0dip"
+                android:paddingRight="12.0dip"
+                android:text="@string/rx"
+                android:textColor="@color/n_"
+                android:visibility="gone" />
+            <ImageView
+                android:id="@id/amv"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_gravity="end|center"
+                android:scaleType="center"
+                android:src="@drawable/b54"
+                android:visibility="gone" />
+            <ImageView
+                android:id="@id/an1"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_gravity="end|center"
+                android:scaleType="center"
+                android:src="@drawable/b59"
+                android:visibility="gone" />
         </FrameLayout>
-        <View android:id="@id/ah_" android:background="@color/zt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="10.0dip" />
+        <View
+            android:id="@id/ah_"
+            android:layout_width="wrap_content"
+            android:layout_height="1.0px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginEnd="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:background="@color/zt"
+            android:visibility="gone" />
     </RelativeLayout>
-    <ViewStub android:id="@id/an7" android:layout="@layout/rs" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+    <ViewStub
+        android:id="@id/an7"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout="@layout/rs" />
 </LinearLayout>

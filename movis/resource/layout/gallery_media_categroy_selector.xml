@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ahr" android:background="@drawable/jf" android:paddingTop="@dimen/xz" android:paddingBottom="@dimen/xz" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="100.0dip" android:paddingStart="@dimen/td" android:paddingEnd="@dimen/td"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/a_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <TextView android:textStyle="bold" android:textColor="@color/zo" android:id="@id/bdc" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xh" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/a_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ae2" android:adjustViewBounds="true" android:layout_marginStart="6.0dip" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/ahr"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/jf"
+    android:gravity="center"
+    android:minWidth="100.0dip"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/td"
+    android:paddingTop="@dimen/xz"
+    android:paddingEnd="@dimen/td"
+    android:paddingBottom="@dimen/xz">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/a_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <TextView
+        android:id="@id/bdc"
+        style="@style/xh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/zo"
+        android:textStyle="bold" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/a_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6.0dip"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ae2" />
 </LinearLayout>

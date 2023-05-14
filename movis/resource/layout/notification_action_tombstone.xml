@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:enabled="false" android:orientation="horizontal" android:id="@id/be" android:background="@null" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0" android:paddingStart="4.0dip" style="@style/sp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:enabled="false" android:layout_gravity="start|center" android:id="@id/bh" android:layout_width="@dimen/se" android:layout_height="@dimen/se" android:scaleType="centerInside" android:alpha="0.5" />
-    <TextView android:enabled="false" android:ellipsize="end" android:layout_gravity="start|center" android:id="@id/bo" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:alpha="0.5" android:paddingStart="4.0dip" style="@style/sq" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/be"
+    style="@style/sp"
+    android:layout_width="0.0dip"
+    android:layout_height="48.0dip"
+    android:layout_weight="1.0"
+    android:background="@null"
+    android:enabled="false"
+    android:orientation="horizontal"
+    android:paddingStart="4.0dip">
+    <ImageView
+        android:id="@id/bh"
+        android:layout_width="@dimen/se"
+        android:layout_height="@dimen/se"
+        android:layout_gravity="start|center"
+        android:alpha="0.5"
+        android:enabled="false"
+        android:scaleType="centerInside" />
+    <TextView
+        android:id="@id/bo"
+        style="@style/sq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+        android:alpha="0.5"
+        android:clickable="false"
+        android:ellipsize="end"
+        android:enabled="false"
+        android:paddingStart="4.0dip"
+        android:singleLine="true" />
 </LinearLayout>

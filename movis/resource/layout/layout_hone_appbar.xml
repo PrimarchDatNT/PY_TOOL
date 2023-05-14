@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/layout_hone_appbar_0" android:layout_width="fill_parent" android:layout_height="?a4"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start|center" android:id="@id/a8m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/e5" android:adjustViewBounds="true" android:layout_marginStart="@dimen/tz" />
-    <com.videoai.aivpcore.unit.view.CountDownComponent android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/tz" />
-    <com.videoai.aivpcore.unit.view.PressImageView android:layout_gravity="end|center" android:id="@id/a8j" android:layout_width="@dimen/w3" android:layout_height="@dimen/w3" android:src="@drawable/aix" android:adjustViewBounds="true" android:layout_marginEnd="@dimen/xw" />
-    <com.videoai.aivpcore.unit.view.PressImageView android:layout_gravity="end|center" android:id="@id/a92" android:layout_width="@dimen/w3" android:layout_height="@dimen/w3" android:src="@drawable/ajt" android:adjustViewBounds="true" android:layout_marginEnd="@dimen/tz" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?a4"
+    android:tag="layout/layout_hone_appbar_0">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/a8m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+        android:layout_marginStart="@dimen/tz"
+        android:adjustViewBounds="true"
+        android:src="@drawable/e5" />
+    <com.videoai.aivpcore.unit.view.CountDownComponent
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+        android:layout_marginStart="@dimen/tz" />
+    <com.videoai.aivpcore.unit.view.PressImageView
+        android:id="@id/a8j"
+        android:layout_width="@dimen/w3"
+        android:layout_height="@dimen/w3"
+        android:layout_gravity="end|center"
+        android:layout_marginEnd="@dimen/xw"
+        android:adjustViewBounds="true"
+        android:src="@drawable/aix" />
+    <com.videoai.aivpcore.unit.view.PressImageView
+        android:id="@id/a92"
+        android:layout_width="@dimen/w3"
+        android:layout_height="@dimen/w3"
+        android:layout_gravity="end|center"
+        android:layout_marginEnd="@dimen/tz"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ajt" />
 </FrameLayout>

@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/ajg" android:background="?hw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:baselineAligned="false" android:layoutDirection="ltr" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/ajp" layout="@layout/s4" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/ajg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8.0dip"
+    android:background="?hw"
+    android:baselineAligned="false"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal"
+    app:layout_constraintLeft_toLeftOf="apv"
+    app:layout_constraintRight_toRightOf="apv"
+    app:layout_constraintTop_toTopOf="apv">
+    <include
+        android:id="@id/ajp"
+        layout="@layout/s4" />
     <include layout="@layout/rx" />
-    <include android:id="@id/ajt" layout="@layout/s4" />
+    <include
+        android:id="@id/ajt"
+        layout="@layout/s4" />
 </LinearLayout>

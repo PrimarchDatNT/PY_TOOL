@@ -1,10 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/bme" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="@dimen/ut" app:layout_constraintBottom_toTopOf="@id/b4" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
-    <TextView android:textSize="@dimen/yz" android:textColor="@color/g4" android:id="@id/bip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:layout_marginStart="14.0dip" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintTop_toTopOf="@id/bme" />
-    <View android:id="@id/bk8" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_marginTop="44.0dip" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintTop_toTopOf="@id/bme" />
-    <com.videoai.aivpcore.editorx.widget.seekbar.PopSeekBar android:id="@id/arc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" app:layout_constraintBottom_toBottomOf="@id/bk8" app:layout_constraintRight_toRightOf="apv" app:psb_bg_color="@color/e6" app:psb_bg_height="28.0dip" app:psb_bg_max_progress_color="@color/fd" app:psb_max_progress="100" app:psb_seek_bar_color="@color/g4" app:psb_seek_bar_left_padding="68.0dip" app:psb_seek_bar_progress_drawable="@drawable/aoo" app:psb_seek_bar_right_padding="15.0dip" app:psb_seek_bar_thumb="@drawable/an4" app:psb_top_circle_color="@color/zo" app:psb_top_text_color="@color/e6" app:psb_top_text_size="10.0dip" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/az9" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="@id/bme" app:spanCount="4" />
-    <com.videoai.aivpcore.editorx.board.clip.widget.TextActionBottomBar android:id="@id/b4" android:layout_width="0.0dip" android:layout_height="44.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <View
+        android:id="@id/bme"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ut"
+        android:background="@color/ag"
+        app:layout_constraintBottom_toTopOf="@id/b4"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv" />
+    <TextView
+        android:id="@id/bip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14.0dip"
+        android:layout_marginTop="21.0dip"
+        android:textColor="@color/g4"
+        android:textSize="@dimen/yz"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintTop_toTopOf="@id/bme" />
+    <View
+        android:id="@id/bk8"
+        android:layout_width="1.0dip"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="44.0dip"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintTop_toTopOf="@id/bme" />
+    <com.videoai.aivpcore.editorx.widget.seekbar.PopSeekBar
+        android:id="@id/arc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/bk8"
+        app:layout_constraintRight_toRightOf="apv"
+        app:psb_bg_color="@color/e6"
+        app:psb_bg_height="28.0dip"
+        app:psb_bg_max_progress_color="@color/fd"
+        app:psb_max_progress="100"
+        app:psb_seek_bar_color="@color/g4"
+        app:psb_seek_bar_left_padding="68.0dip"
+        app:psb_seek_bar_progress_drawable="@drawable/aoo"
+        app:psb_seek_bar_right_padding="15.0dip"
+        app:psb_seek_bar_thumb="@drawable/an4"
+        app:psb_top_circle_color="@color/zo"
+        app:psb_top_text_color="@color/e6"
+        app:psb_top_text_size="10.0dip" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/az9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintRight_toRightOf="apv"
+        app:layout_constraintTop_toTopOf="@id/bme"
+        app:spanCount="4" />
+    <com.videoai.aivpcore.editorx.board.clip.widget.TextActionBottomBar
+        android:id="@id/b4"
+        android:layout_width="0.0dip"
+        android:layout_height="44.0dip"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv" />
 </merge>

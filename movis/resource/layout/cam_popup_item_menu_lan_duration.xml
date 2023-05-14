@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/a7u" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rotateView="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
-        <LinearLayout android:gravity="center" android:id="@id/b_g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
-            <com.videoai.aivpcore.ui.view.RotateTextView android:textSize="17.0sp" android:textColor="@drawable/auz" android:gravity="center" android:id="@id/are" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="rotate test" rotateView:rotation="270" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rotateView="http://schemas.android.com/apk/res-auto"
+    android:id="@id/a7u"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:id="@id/b_g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center">
+            <com.videoai.aivpcore.ui.view.RotateTextView
+                android:id="@id/are"
+                android:layout_width="40.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="rotate test"
+                android:textColor="@drawable/auz"
+                android:textSize="17.0sp"
+                rotateView:rotation="270" />
         </LinearLayout>
-        <com.videoai.aivpcore.ui.view.RotateImageView android:id="@id/ard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:src="@drawable/b6p" android:layout_below="@id/b_g" android:layout_centerHorizontal="true" rotateView:rotation="270" />
+        <com.videoai.aivpcore.ui.view.RotateImageView
+            android:id="@id/ard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/b_g"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="3.0dip"
+            android:src="@drawable/b6p"
+            rotateView:rotation="270" />
     </RelativeLayout>
 </RelativeLayout>

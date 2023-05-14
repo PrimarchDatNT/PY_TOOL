@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aki" android:paddingLeft="@dimen/mi" android:paddingTop="@dimen/mi" android:paddingRight="@dimen/mi" android:paddingBottom="@dimen/n1" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/akb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mn" android:scaleType="fitXY" android:layout_marginEnd="@dimen/mn" />
-    <TextView android:textSize="@dimen/n3" android:id="@id/akh" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/aki"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/mi"
+    android:paddingTop="@dimen/mi"
+    android:paddingRight="@dimen/mi"
+    android:paddingBottom="@dimen/n1">
+    <ImageView
+        android:id="@id/akb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/mn"
+        android:layout_marginRight="@dimen/mn"
+        android:scaleType="fitXY" />
+    <TextView
+        android:id="@id/akh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/n3" />
 </LinearLayout>

@@ -1,12 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/a07" android:layout_width="fill_parent" android:layout_height="60.0dip">
-        <ProgressBar android:layout_gravity="center" android:id="@id/a08" android:layout_width="15.0dip" android:layout_height="15.0dip" android:indeterminateDrawable="@drawable/b3a" android:indeterminateDuration="1000" style="@android:style/Widget.ProgressBar.Small.Inverse" />
-        <TextView android:textSize="10.0sp" android:textColor="@color/gf" android:gravity="center" android:layout_gravity="center" android:id="@id/a0a" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginStart="10.0dip" />
-        <TextView android:textSize="10.0sp" android:textColor="@color/hg" android:gravity="center" android:layout_gravity="center" android:id="@id/a0b" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:text="@string/z5" android:layout_marginStart="10.0dip" />
-        <TextView android:textSize="10.0sp" android:textColor="@color/hg" android:gravity="center" android:layout_gravity="center" android:id="@id/a0c" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:text="@string/z4" android:layout_marginStart="10.0dip" />
-        <Button android:layout_gravity="center" android:id="@id/a0_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="refresh" android:layout_marginStart="5.0dip" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@id/a07"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ProgressBar
+            android:id="@id/a08"
+            style="@android:style/Widget.ProgressBar.Small.Inverse"
+            android:layout_width="15.0dip"
+            android:layout_height="15.0dip"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/b3a"
+            android:indeterminateDuration="1000" />
+        <TextView
+            android:id="@id/a0a"
+            android:layout_width="wrap_content"
+            android:layout_height="50.0dip"
+            android:layout_gravity="center"
+            android:layout_marginStart="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="center"
+            android:textColor="@color/gf"
+            android:textSize="10.0sp" />
+        <TextView
+            android:id="@id/a0b"
+            android:layout_width="wrap_content"
+            android:layout_height="50.0dip"
+            android:layout_gravity="center"
+            android:layout_marginStart="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="center"
+            android:text="@string/z5"
+            android:textColor="@color/hg"
+            android:textSize="10.0sp" />
+        <TextView
+            android:id="@id/a0c"
+            android:layout_width="wrap_content"
+            android:layout_height="50.0dip"
+            android:layout_gravity="center"
+            android:layout_marginStart="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="center"
+            android:text="@string/z4"
+            android:textColor="@color/hg"
+            android:textSize="10.0sp" />
+        <Button
+            android:id="@id/a0_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:text="refresh"
+            android:visibility="gone" />
     </LinearLayout>
-    <View android:id="@id/bmj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_below="@id/a07" />
+    <View
+        android:id="@id/bmj"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_below="@id/a07"
+        android:visibility="gone" />
 </RelativeLayout>

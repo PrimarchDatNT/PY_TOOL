@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="@dimen/ou"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/am7" android:paddingLeft="@dimen/or" android:paddingRight="@dimen/or" android:layout_width="fill_parent" android:layout_height="@dimen/ou" android:baselineAligned="false" android:paddingStart="@dimen/or" android:paddingEnd="@dimen/or" style="?w4">
-        <FrameLayout android:id="@id/am9" android:paddingLeft="@dimen/ox" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@dimen/ox">
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/ou">
+    <LinearLayout
+        android:id="@id/am7"
+        style="?w4"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ou"
+        android:layout_gravity="top"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/or"
+        android:paddingLeft="@dimen/or"
+        android:paddingEnd="@dimen/or"
+        android:paddingRight="@dimen/or">
+        <FrameLayout
+            android:id="@id/am9"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:paddingStart="@dimen/ox"
+            android:paddingLeft="@dimen/ox">
             <include layout="@layout/u2" />
             <include layout="@layout/u1" />
         </FrameLayout>
         <include layout="@layout/u3" />
     </LinearLayout>
-    <View android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/ot" style="?w3" />
+    <View
+        style="?w3"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ot"
+        android:layout_gravity="bottom" />
 </merge>

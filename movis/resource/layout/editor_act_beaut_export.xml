@@ -1,9 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.videoai.aivpcore.editor.export.beaut.BeautExportComponent android:id="@id/ad9" android:background="@color/bn" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <FrameLayout android:id="@id/ach" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="256.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/ad9" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/jc" android:background="@drawable/jf" android:layout_width="?a4" android:layout_height="?a4" android:src="@drawable/aj5" android:scaleType="centerInside" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/jz" android:visibility="gone" android:layout_width="?a4" android:layout_height="?a4" android:src="@drawable/a2e" android:scaleType="centerInside" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/jg" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/q0" android:layout_marginEnd="23.0dip" app:layout_constraintEnd_toStartOf="@id/jz" app:layout_constraintTop_toTopOf="apv" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.videoai.aivpcore.editor.export.beaut.BeautExportComponent
+        android:id="@id/ad9"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:background="@color/bn"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <FrameLayout
+        android:id="@id/ach"
+        android:layout_width="0.0dip"
+        android:layout_height="256.0dip"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/ad9" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/jc"
+        android:layout_width="?a4"
+        android:layout_height="?a4"
+        android:background="@drawable/jf"
+        android:scaleType="centerInside"
+        android:src="@drawable/aj5"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/jz"
+        android:layout_width="?a4"
+        android:layout_height="?a4"
+        android:scaleType="centerInside"
+        android:src="@drawable/a2e"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/jg"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginEnd="23.0dip"
+        android:src="@drawable/q0"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@id/jz"
+        app:layout_constraintTop_toTopOf="apv" />
 </androidx.constraintlayout.widget.ConstraintLayout>

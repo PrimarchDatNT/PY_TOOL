@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textColor="@color/xj" android:gravity="center" android:id="@id/lg" android:background="@drawable/apw" android:paddingTop="@dimen/x5" android:paddingBottom="@dimen/x5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aif" android:paddingStart="@dimen/td" android:paddingEnd="@dimen/td" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/lg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/apw"
+        android:gravity="center"
+        android:paddingStart="@dimen/td"
+        android:paddingTop="@dimen/x5"
+        android:paddingEnd="@dimen/td"
+        android:paddingBottom="@dimen/x5"
+        android:text="@string/aif"
+        android:textColor="@color/xj"
+        android:textSize="@dimen/yz" />
 </LinearLayout>

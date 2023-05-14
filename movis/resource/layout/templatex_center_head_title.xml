@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="26.0sp" android:textStyle="bold" android:textColor="#ff333333" android:id="@id/bb0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/aip" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@id/bb0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20.0dip"
+        android:layout_marginTop="8.0dip"
+        android:text="@string/aip"
+        android:textColor="#ff333333"
+        android:textSize="26.0sp"
+        android:textStyle="bold" />
 </RelativeLayout>

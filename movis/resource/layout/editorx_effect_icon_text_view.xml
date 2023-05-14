@@ -1,9 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/jf" android:layout_width="@dimen/y6" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/ba5" android:visibility="visible" android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:scaleType="centerInside" app:layout_constraintBottom_toTopOf="@id/a2f" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
-    <TextView android:textSize="13.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/bad" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/v7" android:maxLines="1" android:singleLine="true" android:fontFamily="@font/f" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <View android:id="@id/a2f" android:layout_width="fill_parent" android:layout_height="@dimen/t2" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="11.0sp" android:textColor="@color/ou" android:ellipsize="end" android:gravity="center" android:id="@id/is" android:paddingTop="@dimen/x5" android:paddingBottom="@dimen/x5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/a2f" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/abu" android:visibility="gone" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:layout_margin="@dimen/uk" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintTop_toTopOf="apv" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/y6"
+    android:layout_height="fill_parent"
+    android:background="@drawable/jf">
+    <ImageView
+        android:id="@id/ba5"
+        android:layout_width="@dimen/v7"
+        android:layout_height="@dimen/v7"
+        android:scaleType="centerInside"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/a2f"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv" />
+    <TextView
+        android:id="@id/bad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/v7"
+        android:fontFamily="@font/f"
+        android:gravity="center"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/zo"
+        android:textSize="13.0sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <View
+        android:id="@id/a2f"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/t2"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/is"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingTop="@dimen/x5"
+        android:paddingBottom="@dimen/x5"
+        android:textColor="@color/ou"
+        android:textSize="11.0sp"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/a2f" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/abu"
+        android:layout_width="@dimen/tz"
+        android:layout_height="@dimen/tz"
+        android:layout_margin="@dimen/uk"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
 </androidx.constraintlayout.widget.ConstraintLayout>

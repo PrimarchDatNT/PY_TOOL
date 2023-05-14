@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:gravity="center" android:background="@drawable/up" android:layout_width="30.0dip" android:layout_height="30.0dip">
-        <ImageView android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/ly" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+    <RelativeLayout
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:background="@drawable/up"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="10.0dip"
+            android:layout_height="10.0dip"
+            android:src="@drawable/ly" />
     </RelativeLayout>
 </RelativeLayout>

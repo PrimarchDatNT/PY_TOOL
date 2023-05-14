@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/a0y" android:background="@color/xz" android:paddingTop="30.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="14.0sp" android:textColor="@color/g9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a6o" />
-    <TextView android:textSize="14.0sp" android:textColor="@color/n_" android:gravity="center" android:id="@id/bey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a6p" android:drawablePadding="5.0dip" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/a0y"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/xz"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:paddingTop="30.0dip"
+    android:paddingBottom="30.0dip">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/a6o"
+        android:textColor="@color/g9"
+        android:textSize="14.0sp" />
+    <TextView
+        android:id="@id/bey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5.0dip"
+        android:gravity="center"
+        android:text="@string/a6p"
+        android:textColor="@color/n_"
+        android:textSize="14.0sp" />
 </LinearLayout>

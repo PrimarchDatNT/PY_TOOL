@@ -1,19 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/aj_" android:layout_width="76.0dip" android:layout_height="75.0dip">
-        <ImageView android:id="@id/bou" android:background="@drawable/avu" android:visibility="visible" android:layout_width="60.0dip" android:layout_height="2.0dip" android:layout_marginBottom="4.0dip" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
-        <RelativeLayout android:layout_width="63.0dip" android:layout_height="63.0dip" android:layout_centerHorizontal="true">
-            <RelativeLayout android:layout_width="53.0dip" android:layout_height="53.0dip" android:layout_margin="5.0dip" android:layout_centerInParent="true">
-                <com.videoai.aivpcore.ui.view.SafeDrawImageView android:id="@id/bov" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/at1" android:scaleType="fitXY" android:layout_centerInParent="true" />
-                <com.videoai.aivpcore.ui.view.SafeDrawImageView android:id="@id/bot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
-                <ImageView android:id="@id/a5n" android:background="@color/xz" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="14.0dip" android:src="@drawable/b7h" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
-                <ImageView android:id="@id/a5j" android:background="@color/xz" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/b2q" android:scaleType="fitXY" />
-                <ImageView android:id="@id/a5k" android:background="@color/xz" android:visibility="invisible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/b2r" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
-                <ImageView android:id="@id/a5_" android:background="@color/xz" android:visibility="invisible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/b2p" android:scaleType="fitXY" android:layout_centerInParent="true" />
-                <ProgressBar android:id="@id/tx" android:visibility="invisible" android:layout_width="48.0dip" android:layout_height="5.0dip" android:progress="0" android:layout_centerInParent="true" style="@style/y9" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@id/aj_"
+        android:layout_width="76.0dip"
+        android:layout_height="75.0dip">
+        <ImageView
+            android:id="@id/bou"
+            android:layout_width="60.0dip"
+            android:layout_height="2.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4.0dip"
+            android:background="@drawable/avu"
+            android:scaleType="fitXY"
+            android:visibility="visible" />
+        <RelativeLayout
+            android:layout_width="63.0dip"
+            android:layout_height="63.0dip"
+            android:layout_centerHorizontal="true">
+            <RelativeLayout
+                android:layout_width="53.0dip"
+                android:layout_height="53.0dip"
+                android:layout_centerInParent="true"
+                android:layout_margin="5.0dip">
+                <com.videoai.aivpcore.ui.view.SafeDrawImageView
+                    android:id="@id/bov"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/at1" />
+                <com.videoai.aivpcore.ui.view.SafeDrawImageView
+                    android:id="@id/bot"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY" />
+                <ImageView
+                    android:id="@id/a5n"
+                    android:layout_width="30.0dip"
+                    android:layout_height="14.0dip"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/xz"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/b7h"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@id/a5j"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/xz"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/b2q"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@id/a5k"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/xz"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/b2r"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@id/a5_"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_centerInParent="true"
+                    android:background="@color/xz"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/b2p"
+                    android:visibility="invisible" />
+                <ProgressBar
+                    android:id="@id/tx"
+                    style="@style/y9"
+                    android:layout_width="48.0dip"
+                    android:layout_height="5.0dip"
+                    android:layout_centerInParent="true"
+                    android:progress="0"
+                    android:visibility="invisible" />
             </RelativeLayout>
         </RelativeLayout>
-        <TextView android:textSize="@dimen/he" android:textColor="@color/zo" android:gravity="center" android:id="@id/bow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@id/bow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/he"
+            android:visibility="invisible" />
     </RelativeLayout>
 </RelativeLayout>

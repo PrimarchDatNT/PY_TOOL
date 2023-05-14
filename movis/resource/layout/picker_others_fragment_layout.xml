@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView android:id="@id/a03" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
-    <RelativeLayout android:id="@id/af3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView android:id="@id/akk" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
-        <ImageView android:id="@id/zu" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/ao1" android:layout_alignParentRight="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView
+        android:id="@id/a03"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+    <RelativeLayout
+        android:id="@id/af3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone">
+        <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView
+            android:id="@id/akk"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+        <ImageView
+            android:id="@id/zu"
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="16.0dip"
+            android:layout_marginRight="16.0dip"
+            android:src="@drawable/ao1" />
     </RelativeLayout>
-    <include android:visibility="gone" layout="@layout/ub" />
+    <include
+        layout="@layout/ub"
+        android:visibility="gone" />
 </RelativeLayout>

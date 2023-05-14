@@ -1,15 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/templatex_act_trans_detail_0" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/jc" android:tag="binding_1" android:background="@drawable/jf" android:layout_width="?a4" android:layout_height="?a4" android:src="@drawable/aj0" android:scaleType="centerInside" android:adjustViewBounds="true" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textStyle="bold" android:textColor="@color/zo" android:gravity="start|center" android:id="@id/bcb" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="?a4" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toEndOf="@id/jc" app:layout_constraintTop_toTopOf="apv" />
-    <TextView android:gravity="center_vertical" android:id="@id/bcc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/bcb" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/aue" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/ul" android:layout_marginBottom="@dimen/yk" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintTop_toBottomOf="@id/bcb" />
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ahp" android:tag="binding_3" android:background="@drawable/e_" android:layout_width="fill_parent" android:layout_height="@dimen/xh" android:layout_marginBottom="@dimen/ul" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv">
-        <TextView android:textSize="@dimen/z1" android:textColor="@color/d6" android:id="@id/ja" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pe" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ag"
+    android:tag="layout/templatex_act_trans_detail_0">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/jc"
+        android:layout_width="?a4"
+        android:layout_height="?a4"
+        android:adjustViewBounds="true"
+        android:background="@drawable/jf"
+        android:scaleType="centerInside"
+        android:src="@drawable/aj0"
+        android:tag="binding_1"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bcb"
+        android:layout_width="0.0dip"
+        android:layout_height="?a4"
+        android:gravity="start|center"
+        android:tag="binding_2"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z1"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toEndOf="@id/jc"
+        app:layout_constraintTop_toTopOf="apv" />
+    <TextView
+        android:id="@id/bcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/bcb" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/aue"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginStart="@dimen/tz"
+        android:layout_marginTop="@dimen/ul"
+        android:layout_marginEnd="@dimen/tz"
+        android:layout_marginBottom="@dimen/yk"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/bcb" />
+    <LinearLayout
+        android:id="@id/ahp"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xh"
+        android:layout_marginStart="@dimen/tz"
+        android:layout_marginEnd="@dimen/tz"
+        android:layout_marginBottom="@dimen/ul"
+        android:background="@drawable/e_"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:tag="binding_3"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv">
+        <TextView
+            android:id="@id/ja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pe"
+            android:textColor="@color/d6"
+            android:textSize="@dimen/z1" />
     </LinearLayout>
-    <TextView android:id="@id/jb" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="48.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toStartOf="apv" />
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ahq" android:tag="binding_4" android:background="@drawable/dx" android:layout_width="fill_parent" android:layout_height="@dimen/xh" android:layout_marginBottom="@dimen/ul" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" app:layout_constraintBottom_toBottomOf="apv">
-        <TextView android:textSize="@dimen/z1" android:textColor="@color/zo" android:id="@id/k7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gf" />
+    <TextView
+        android:id="@id/jb"
+        android:layout_width="0.0dip"
+        android:layout_height="48.0dip"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintStart_toStartOf="apv" />
+    <LinearLayout
+        android:id="@id/ahq"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xh"
+        android:layout_marginStart="@dimen/tz"
+        android:layout_marginEnd="@dimen/tz"
+        android:layout_marginBottom="@dimen/ul"
+        android:background="@drawable/dx"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:tag="binding_4"
+        app:layout_constraintBottom_toBottomOf="apv">
+        <TextView
+            android:id="@id/k7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gf"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z1" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

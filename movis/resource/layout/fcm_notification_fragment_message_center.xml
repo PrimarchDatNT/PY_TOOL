@@ -1,11 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/xc" android:paddingBottom="@dimen/g9" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:overScrollMode="never" app:layout_constraintTop_toTopOf="apv" />
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/aeg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintTop_toTopOf="apv">
-        <ImageView android:layout_width="@dimen/i3" android:layout_height="@dimen/hu" android:scaleType="fitXY" android:contentDescription="@string/fcm_notification_center_empty_text" app:srcCompat="@drawable/fcm_notification_vector_empty_center" />
-        <TextView android:textSize="@dimen/i1" android:textColor="@color/pz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hw" android:text="@string/fcm_notification_center_empty_text" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/xc"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingBottom="@dimen/g9"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toTopOf="apv" />
+    <LinearLayout
+        android:id="@id/aeg"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintTop_toTopOf="apv">
+        <ImageView
+            android:layout_width="@dimen/i3"
+            android:layout_height="@dimen/hu"
+            android:contentDescription="@string/fcm_notification_center_empty_text"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/fcm_notification_vector_empty_center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hw"
+            android:text="@string/fcm_notification_center_empty_text"
+            android:textColor="@color/pz"
+            android:textSize="@dimen/i1" />
     </LinearLayout>
-    <ProgressBar android:theme="@style/if" android:id="@id/xw" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <FrameLayout android:orientation="vertical" android:id="@id/xa" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv" />
+    <ProgressBar
+        android:id="@id/xw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/if"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintRight_toRightOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <FrameLayout
+        android:id="@id/xa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="apv" />
 </androidx.constraintlayout.widget.ConstraintLayout>

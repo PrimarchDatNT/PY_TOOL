@@ -1,14 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/xz" android:layout_width="60.0dip" android:layout_height="60.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/aew" android:background="@null" android:layout_width="wrap_content" android:layout_height="55.0dip" android:layout_marginBottom="4.0dip" android:layout_centerInParent="true">
-        <com.videoai.aivpcore.ui.view.SafeDrawImageView android:id="@id/bqf" android:background="@null" android:clickable="false" android:layout_width="55.0dip" android:layout_height="55.0dip" android:scaleType="fitXY" />
-        <com.videoai.aivpcore.ui.view.SafeDrawImageView android:id="@id/bqg" android:background="@null" android:visibility="gone" android:clickable="false" android:layout_width="97.0dip" android:layout_height="55.0dip" android:scaleType="fitXY" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60.0dip"
+    android:layout_height="60.0dip"
+    android:background="@color/xz">
+    <RelativeLayout
+        android:id="@id/aew"
+        android:layout_width="wrap_content"
+        android:layout_height="55.0dip"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="4.0dip"
+        android:background="@null">
+        <com.videoai.aivpcore.ui.view.SafeDrawImageView
+            android:id="@id/bqf"
+            android:layout_width="55.0dip"
+            android:layout_height="55.0dip"
+            android:background="@null"
+            android:clickable="false"
+            android:scaleType="fitXY" />
+        <com.videoai.aivpcore.ui.view.SafeDrawImageView
+            android:id="@id/bqg"
+            android:layout_width="97.0dip"
+            android:layout_height="55.0dip"
+            android:background="@null"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
     </RelativeLayout>
-    <ImageView android:id="@id/bqm" android:background="@drawable/avg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
-    <RelativeLayout android:id="@id/agb" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ImageView android:id="@id/a6g" android:background="@drawable/b2q" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <ImageView android:id="@id/a5i" android:background="@color/xz" android:visibility="invisible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/b2p" android:scaleType="fitXY" android:layout_centerInParent="true" />
-        <ProgressBar android:id="@id/tx" android:visibility="invisible" android:layout_width="48.0dip" android:layout_height="5.0dip" android:progress="0" android:layout_centerInParent="true" style="@style/y9" />
+    <ImageView
+        android:id="@id/bqm"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/avg"
+        android:visibility="gone" />
+    <RelativeLayout
+        android:id="@id/agb"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@null">
+        <ImageView
+            android:id="@id/a6g"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/b2q"
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@id/a5i"
+            android:layout_width="25.0dip"
+            android:layout_height="25.0dip"
+            android:layout_centerInParent="true"
+            android:background="@color/xz"
+            android:scaleType="fitXY"
+            android:src="@drawable/b2p"
+            android:visibility="invisible" />
+        <ProgressBar
+            android:id="@id/tx"
+            style="@style/y9"
+            android:layout_width="48.0dip"
+            android:layout_height="5.0dip"
+            android:layout_centerInParent="true"
+            android:progress="0"
+            android:visibility="invisible" />
     </RelativeLayout>
 </RelativeLayout>

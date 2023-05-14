@@ -1,21 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/ax1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/xt">
-        <HorizontalScrollView android:id="@id/acv" android:focusable="true" android:scrollbars="none" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
-            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/aef" android:background="@color/ag" android:layout_width="wrap_content" android:layout_height="@dimen/xt">
-                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/b25" android:layout_width="@dimen/y6" android:layout_height="fill_parent" app:sitv_bottom_text="@string/a4f" app:sitv_top_drawable="@drawable/a00" />
-                <com.videoai.aivpcore.editorx.board.effect.ui.ThemeIconTextView android:id="@id/b2n" android:layout_width="@dimen/y6" android:layout_height="fill_parent" app:sitv_bottom_text="@string/ap6" app:sitv_top_drawable="@drawable/xq" />
-                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/b26" android:layout_width="@dimen/y6" android:layout_height="fill_parent" app:sitv_bottom_text="@string/ajf" app:sitv_top_drawable="@drawable/a2s" />
-                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/b2m" android:layout_width="@dimen/y6" android:layout_height="fill_parent" app:sitv_bottom_text="@string/ap0" app:sitv_top_drawable="@drawable/a36" />
-                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:layout_gravity="bottom" android:id="@id/b2k" android:visibility="gone" android:layout_width="@dimen/y6" android:layout_height="fill_parent" app:sitv_bottom_text="字幕识别" app:sitv_top_drawable="@drawable/a1o" />
-                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/b2l" android:layout_width="@dimen/y6" android:layout_height="fill_parent" app:sitv_bottom_text="@string/a4i" app:sitv_top_drawable="@drawable/a34" />
-                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/b2d" android:layout_width="@dimen/y6" android:layout_height="fill_parent" app:sitv_bottom_text="@string/amc" app:sitv_top_drawable="@drawable/a2w" />
-                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/b20" android:layout_width="@dimen/y6" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/tz" app:sitv_bottom_text="@string/uj" app:sitv_top_drawable="@drawable/a2n" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@id/ax1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/xt">
+        <HorizontalScrollView
+            android:id="@id/acv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:scrollbars="none">
+            <LinearLayout
+                android:id="@id/aef"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/xt"
+                android:background="@color/ag"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+                    android:id="@id/b25"
+                    android:layout_width="@dimen/y6"
+                    android:layout_height="fill_parent"
+                    app:sitv_bottom_text="@string/a4f"
+                    app:sitv_top_drawable="@drawable/a00" />
+                <com.videoai.aivpcore.editorx.board.effect.ui.ThemeIconTextView
+                    android:id="@id/b2n"
+                    android:layout_width="@dimen/y6"
+                    android:layout_height="fill_parent"
+                    app:sitv_bottom_text="@string/ap6"
+                    app:sitv_top_drawable="@drawable/xq" />
+                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+                    android:id="@id/b26"
+                    android:layout_width="@dimen/y6"
+                    android:layout_height="fill_parent"
+                    app:sitv_bottom_text="@string/ajf"
+                    app:sitv_top_drawable="@drawable/a2s" />
+                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+                    android:id="@id/b2m"
+                    android:layout_width="@dimen/y6"
+                    android:layout_height="fill_parent"
+                    app:sitv_bottom_text="@string/ap0"
+                    app:sitv_top_drawable="@drawable/a36" />
+                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+                    android:id="@id/b2k"
+                    android:layout_width="@dimen/y6"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="bottom"
+                    android:visibility="gone"
+                    app:sitv_bottom_text="字幕识别"
+                    app:sitv_top_drawable="@drawable/a1o" />
+                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+                    android:id="@id/b2l"
+                    android:layout_width="@dimen/y6"
+                    android:layout_height="fill_parent"
+                    app:sitv_bottom_text="@string/a4i"
+                    app:sitv_top_drawable="@drawable/a34" />
+                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+                    android:id="@id/b2d"
+                    android:layout_width="@dimen/y6"
+                    android:layout_height="fill_parent"
+                    app:sitv_bottom_text="@string/amc"
+                    app:sitv_top_drawable="@drawable/a2w" />
+                <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+                    android:id="@id/b20"
+                    android:layout_width="@dimen/y6"
+                    android:layout_height="fill_parent"
+                    android:layout_marginEnd="@dimen/tz"
+                    app:sitv_bottom_text="@string/uj"
+                    app:sitv_top_drawable="@drawable/a2n" />
             </LinearLayout>
         </HorizontalScrollView>
-        <RelativeLayout android:id="@id/adf" android:background="@drawable/a7b" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="15.0dip">
-            <ImageView android:id="@id/a9j" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/a2h" android:layout_centerInParent="true" />
+        <RelativeLayout
+            android:id="@id/adf"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15.0dip"
+            android:layout_marginBottom="24.0dip"
+            android:background="@drawable/a7b"
+            android:visibility="gone">
+            <ImageView
+                android:id="@id/a9j"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_centerInParent="true"
+                android:src="@drawable/a2h" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

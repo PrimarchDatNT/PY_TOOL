@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:layout_width="fill_parent" android:layout_height="@dimen/sy" layout="@layout/qu" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/apb" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <com.contrarywind.view.WheelView android:id="@id/ap9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
-        <com.contrarywind.view.WheelView android:id="@id/ap_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
-        <com.contrarywind.view.WheelView android:id="@id/apa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <include
+        layout="@layout/qu"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/sy" />
+    <LinearLayout
+        android:id="@id/apb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+        <com.contrarywind.view.WheelView
+            android:id="@id/ap9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+        <com.contrarywind.view.WheelView
+            android:id="@id/ap_"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+        <com.contrarywind.view.WheelView
+            android:id="@id/apa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
     </LinearLayout>
 </LinearLayout>

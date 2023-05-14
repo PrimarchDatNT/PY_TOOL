@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.bytedance.sdk.openadsdk.core.widget.RatioFrameLayout android:layout_gravity="center" android:id="@id/at_" android:layout_width="wrap_content" android:layout_height="fill_parent" />
-    <com.bytedance.sdk.openadsdk.core.widget.ShadowImageView android:gravity="center" android:id="@id/tt_banner_mute" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="5.0dip" android:src="@drawable/tt_mute" android:scaleType="center" />
-    <com.bytedance.sdk.openadsdk.core.widget.ShadowImageView android:layout_gravity="right" android:id="@id/tt_bu_close" android:padding="3.0dip" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="7.0dip" android:src="@drawable/tt_pangle_ad_close_drawable" android:scaleType="fitCenter" />
-    <include android:layout_gravity="bottom" android:id="@id/tt_backup_logoLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" layout="@layout/tt_backup_ad_round_top_right" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <com.bytedance.sdk.openadsdk.core.widget.RatioFrameLayout
+        android:id="@id/at_"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" />
+    <com.bytedance.sdk.openadsdk.core.widget.ShadowImageView
+        android:id="@id/tt_banner_mute"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_margin="5.0dip"
+        android:gravity="center"
+        android:scaleType="center"
+        android:src="@drawable/tt_mute" />
+    <com.bytedance.sdk.openadsdk.core.widget.ShadowImageView
+        android:id="@id/tt_bu_close"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_gravity="right"
+        android:layout_margin="7.0dip"
+        android:padding="3.0dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tt_pangle_ad_close_drawable" />
+    <include
+        android:id="@id/tt_backup_logoLayout"
+        layout="@layout/tt_backup_ad_round_top_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="5.0dip" />
 </FrameLayout>

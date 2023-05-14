@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="#ffffbf35" android:gravity="center" android:layout_gravity="center" android:id="@id/b_5" android:background="@drawable/aiw" android:padding="@dimen/ul" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:drawablePadding="@dimen/yf" android:lineSpacingExtra="4.0dip" android:fontFamily="@font/f" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/b_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/aiw"
+        android:drawablePadding="@dimen/yf"
+        android:fontFamily="@font/f"
+        android:gravity="center"
+        android:lineSpacingExtra="4.0dip"
+        android:maxLines="2"
+        android:padding="@dimen/ul"
+        android:textColor="#ffffbf35"
+        android:textSize="@dimen/z0" />
 </LinearLayout>

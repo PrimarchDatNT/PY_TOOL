@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_enabled="true" android:drawable="@drawable/ahg" />
-    <item android:state_enabled="false" android:drawable="@drawable/ahf" />
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ahg" android:state_enabled="true" />
+    <item android:drawable="@drawable/ahf" android:state_enabled="false" />
 </selector>

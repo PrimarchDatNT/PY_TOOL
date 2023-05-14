@@ -1,19 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" app:cardBackgroundColor="@color/zo" app:cardCornerRadius="5.0dip" app:cardElevation="5.0dip">
-        <com.google.android.gms.ads.nativead.NativeAdView android:id="@id/anz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
-            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/af4" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                    <com.google.android.gms.ads.nativead.MediaView android:orientation="vertical" android:id="@id/c5" android:background="#ffe0e0e0" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="H,16:9" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv" />
-                    <TextView app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintTop_toTopOf="apv" style="@style/a" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8.0dip"
+        app:cardBackgroundColor="@color/zo"
+        app:cardCornerRadius="5.0dip"
+        app:cardElevation="5.0dip">
+        <com.google.android.gms.ads.nativead.NativeAdView
+            android:id="@id/anz"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@id/af4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <com.google.android.gms.ads.nativead.MediaView
+                        android:id="@id/c5"
+                        android:layout_width="0.0dip"
+                        android:layout_height="0.0dip"
+                        android:background="#ffe0e0e0"
+                        android:orientation="vertical"
+                        app:layout_constraintDimensionRatio="H,16:9"
+                        app:layout_constraintLeft_toLeftOf="apv"
+                        app:layout_constraintRight_toRightOf="apv"
+                        app:layout_constraintTop_toTopOf="apv" />
+                    <TextView
+                        style="@style/a"
+                        app:layout_constraintLeft_toLeftOf="apv"
+                        app:layout_constraintTop_toTopOf="apv" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
-                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
-                    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/bt" android:background="#ffe0e0e0" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_centerVertical="true" />
-                    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="#de000000" android:ellipsize="end" android:id="@id/c1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="da asdsadasdasdasdasdasasd asdasdasdasdas" android:maxLines="2" android:layout_weight="1.0" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
-                    <androidx.appcompat.widget.AppCompatTextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/bv" android:background="@drawable/c2" android:layout_width="110.0dip" android:layout_height="35.0dip" android:text="Tim hieu ngay jajajajaja kakakakak" android:maxLines="2" android:textAllCaps="true" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" app:autoSizeMaxTextSize="14.0sp" app:autoSizeMinTextSize="10.0sp" />
+                <LinearLayout
+                    android:id="@id/bz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6.0dip"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@id/bt"
+                        android:layout_width="45.0dip"
+                        android:layout_height="45.0dip"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:background="#ffe0e0e0" />
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@id/c1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5.0dip"
+                        android:layout_marginEnd="5.0dip"
+                        android:layout_weight="1.0"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="da asdsadasdasdasdasdasasd asdasdasdasdas"
+                        android:textColor="#de000000"
+                        android:textSize="16.0sp" />
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@id/bv"
+                        android:layout_width="110.0dip"
+                        android:layout_height="35.0dip"
+                        android:background="@drawable/c2"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:paddingStart="4.0dip"
+                        android:paddingEnd="4.0dip"
+                        android:text="Tim hieu ngay jajajajaja kakakakak"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffffff"
+                        app:autoSizeMaxTextSize="14.0sp"
+                        app:autoSizeMinTextSize="10.0sp" />
                 </LinearLayout>
-                <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="#8a000000" android:ellipsize="end" android:id="@id/bu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/xz" android:text="da asdsadasdasdasdasdasasd asdnasndlkas  dasdpjaspkdjaslkjdlas daskdjlasndlkas  asdasdasdasdas" android:maxLines="2" />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@id/bu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/xz"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="da asdsadasdasdasdasdasasd asdnasndlkas  dasdpjaspkdjaslkjdlas daskdjlasndlkas  asdasdasdasdas"
+                    android:textColor="#8a000000"
+                    android:textSize="12.0sp" />
             </LinearLayout>
         </com.google.android.gms.ads.nativead.NativeAdView>
     </androidx.cardview.widget.CardView>

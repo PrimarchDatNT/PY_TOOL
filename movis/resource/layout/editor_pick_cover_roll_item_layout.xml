@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
-        <RelativeLayout android:id="@id/a7u" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_centerVertical="true">
-            <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/a3a" android:background="@color/xz" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_centerInParent="true" />
-            <ImageView android:id="@id/a5e" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/v5" android:layout_centerInParent="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:id="@id/a7u"
+            android:layout_width="75.0dip"
+            android:layout_height="75.0dip"
+            android:layout_centerVertical="true">
+            <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+                android:id="@id/a3a"
+                android:layout_width="65.0dip"
+                android:layout_height="65.0dip"
+                android:layout_centerInParent="true"
+                android:background="@color/xz" />
+            <ImageView
+                android:id="@id/a5e"
+                android:layout_width="70.0dip"
+                android:layout_height="70.0dip"
+                android:layout_centerInParent="true"
+                android:src="@drawable/v5" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

@@ -1,12 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/b3_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
-        <View android:background="#ffeeeeee" android:layout_width="wrap_content" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/b1r" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/b1r" android:layout_alignParentStart="true" />
-        <TextView android:textSize="12.0sp" android:textColor="@color/gl" android:gravity="center_horizontal" android:id="@id/b1r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ah3" android:drawablePadding="7.5dip" android:layout_centerHorizontal="true" />
-        <View android:background="#ffeeeeee" android:layout_width="wrap_content" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="15.0dip" android:layout_toRightOf="@id/b1r" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="15.0dip" android:layout_toEndOf="@id/b1r" android:layout_alignParentEnd="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@id/b3_"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15.0dip">
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginEnd="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toStartOf="@id/b1r"
+            android:layout_toLeftOf="@id/b1r"
+            android:background="#ffeeeeee" />
+        <TextView
+            android:id="@id/b1r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="7.5dip"
+            android:gravity="center_horizontal"
+            android:text="@string/ah3"
+            android:textColor="@color/gl"
+            android:textSize="12.0sp" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginEnd="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_toEndOf="@id/b1r"
+            android:layout_toRightOf="@id/b1r"
+            android:background="#ffeeeeee" />
     </RelativeLayout>
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/b3_">
-        <com.videoai.aivpcore.ui.view.HotFixRecyclerView android:orientation="horizontal" android:id="@id/b1g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b3_">
+        <com.videoai.aivpcore.ui.view.HotFixRecyclerView
+            android:id="@id/b1g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
     </RelativeLayout>
 </RelativeLayout>

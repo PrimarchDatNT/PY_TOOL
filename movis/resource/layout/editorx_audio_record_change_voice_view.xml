@@ -1,25 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:id="@id/gk" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="@dimen/ut" app:layout_constraintBottom_toTopOf="@id/b3d" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv">
-        <TextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:layout_gravity="center_horizontal" android:id="@id/b3f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/td" android:text="@string/rq" />
-        <View android:id="@id/gq" android:background="@color/aj" android:layout_width="fill_parent" android:layout_height="@dimen/t2" android:layout_marginTop="@dimen/td" />
-        <com.videoai.aivpcore.timeline.fixed.scale.ScaleTimeline android:id="@id/azn" android:layout_width="fill_parent" android:layout_height="@dimen/y6" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-        <HorizontalScrollView android:scrollbarThumbHorizontal="@color/ak" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv">
-            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
-                <com.videoai.aivpcore.editorx.widget.SelectTextView android:id="@id/b3k" android:layout_width="@dimen/y0" android:layout_height="@dimen/y0" android:layout_marginStart="@dimen/xz" app:stv_selected="true" app:stv_text="@string/a9m" />
-                <com.videoai.aivpcore.editorx.widget.SelectTextView android:id="@id/b3l" android:layout_width="@dimen/y0" android:layout_height="@dimen/y0" android:layout_marginStart="@dimen/xz" app:stv_image="@drawable/akw" />
-                <com.videoai.aivpcore.editorx.widget.SelectTextView android:id="@id/b3o" android:layout_width="@dimen/y0" android:layout_height="@dimen/y0" android:layout_marginStart="@dimen/xz" app:stv_image="@drawable/al2" />
-                <com.videoai.aivpcore.editorx.widget.SelectTextView android:id="@id/b3j" android:layout_width="@dimen/y0" android:layout_height="@dimen/y0" android:layout_marginStart="@dimen/xz" app:stv_image="@drawable/aky" />
-                <com.videoai.aivpcore.editorx.widget.SelectTextView android:id="@id/b3n" android:layout_width="@dimen/y0" android:layout_height="@dimen/y0" android:layout_marginStart="@dimen/xz" app:stv_image="@drawable/al0" />
-                <com.videoai.aivpcore.editorx.widget.SelectTextView android:id="@id/b3i" android:layout_width="@dimen/y0" android:layout_height="@dimen/y0" android:layout_marginStart="@dimen/xz" app:stv_image="@drawable/akx" />
-                <com.videoai.aivpcore.editorx.widget.SelectTextView android:id="@id/b3c" android:layout_width="@dimen/y0" android:layout_height="@dimen/y0" android:layout_marginStart="@dimen/xz" app:stv_image="@drawable/al1" />
-                <com.videoai.aivpcore.editorx.widget.SelectTextView android:id="@id/b3h" android:layout_width="@dimen/y0" android:layout_height="@dimen/y0" android:layout_marginStart="@dimen/xz" app:stv_image="@drawable/aky" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@id/gk"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ut"
+        android:background="@color/ag"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/b3d"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv">
+        <TextView
+            android:id="@id/b3f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/td"
+            android:text="@string/rq"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z0" />
+        <View
+            android:id="@id/gq"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/t2"
+            android:layout_marginTop="@dimen/td"
+            android:background="@color/aj" />
+        <com.videoai.aivpcore.timeline.fixed.scale.ScaleTimeline
+            android:id="@id/azn"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y6"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toTopOf="apv" />
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbarThumbHorizontal="@color/ak"
+            app:layout_constraintLeft_toLeftOf="apv"
+            app:layout_constraintRight_toRightOf="apv"
+            app:layout_constraintTop_toTopOf="apv">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <com.videoai.aivpcore.editorx.widget.SelectTextView
+                    android:id="@id/b3k"
+                    android:layout_width="@dimen/y0"
+                    android:layout_height="@dimen/y0"
+                    android:layout_marginStart="@dimen/xz"
+                    app:stv_selected="true"
+                    app:stv_text="@string/a9m" />
+                <com.videoai.aivpcore.editorx.widget.SelectTextView
+                    android:id="@id/b3l"
+                    android:layout_width="@dimen/y0"
+                    android:layout_height="@dimen/y0"
+                    android:layout_marginStart="@dimen/xz"
+                    app:stv_image="@drawable/akw" />
+                <com.videoai.aivpcore.editorx.widget.SelectTextView
+                    android:id="@id/b3o"
+                    android:layout_width="@dimen/y0"
+                    android:layout_height="@dimen/y0"
+                    android:layout_marginStart="@dimen/xz"
+                    app:stv_image="@drawable/al2" />
+                <com.videoai.aivpcore.editorx.widget.SelectTextView
+                    android:id="@id/b3j"
+                    android:layout_width="@dimen/y0"
+                    android:layout_height="@dimen/y0"
+                    android:layout_marginStart="@dimen/xz"
+                    app:stv_image="@drawable/aky" />
+                <com.videoai.aivpcore.editorx.widget.SelectTextView
+                    android:id="@id/b3n"
+                    android:layout_width="@dimen/y0"
+                    android:layout_height="@dimen/y0"
+                    android:layout_marginStart="@dimen/xz"
+                    app:stv_image="@drawable/al0" />
+                <com.videoai.aivpcore.editorx.widget.SelectTextView
+                    android:id="@id/b3i"
+                    android:layout_width="@dimen/y0"
+                    android:layout_height="@dimen/y0"
+                    android:layout_marginStart="@dimen/xz"
+                    app:stv_image="@drawable/akx" />
+                <com.videoai.aivpcore.editorx.widget.SelectTextView
+                    android:id="@id/b3c"
+                    android:layout_width="@dimen/y0"
+                    android:layout_height="@dimen/y0"
+                    android:layout_marginStart="@dimen/xz"
+                    app:stv_image="@drawable/al1" />
+                <com.videoai.aivpcore.editorx.widget.SelectTextView
+                    android:id="@id/b3h"
+                    android:layout_width="@dimen/y0"
+                    android:layout_height="@dimen/y0"
+                    android:layout_marginStart="@dimen/xz"
+                    app:stv_image="@drawable/aky" />
             </LinearLayout>
         </HorizontalScrollView>
     </LinearLayout>
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/b3d" android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="@dimen/xt" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv">
-        <TextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:id="@id/b3m" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/tz" />
-        <ImageView android:id="@id/b3g" android:background="@drawable/jf" android:layout_width="@dimen/xt" android:layout_height="@dimen/xt" android:src="@drawable/aeb" android:scaleType="centerInside" />
+    <LinearLayout
+        android:id="@id/b3d"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xt"
+        android:background="@color/ah"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv">
+        <TextView
+            android:id="@id/b3m"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/tz"
+            android:layout_weight="1.0"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/yz" />
+        <ImageView
+            android:id="@id/b3g"
+            android:layout_width="@dimen/xt"
+            android:layout_height="@dimen/xt"
+            android:background="@drawable/jf"
+            android:scaleType="centerInside"
+            android:src="@drawable/aeb" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

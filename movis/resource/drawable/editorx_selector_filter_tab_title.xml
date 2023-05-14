@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_enabled="false" android:color="@color/ak" />
-    <item android:state_selected="false" android:color="@color/zo" />
-    <item android:state_selected="true" android:color="@color/n_" />
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/ak" android:state_enabled="false" />
+    <item android:color="@color/zo" android:state_selected="false" />
+    <item android:color="@color/n_" android:state_selected="true" />
 </selector>

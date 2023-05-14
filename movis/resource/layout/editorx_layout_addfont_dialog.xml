@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/ai" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/z1" android:textStyle="bold" android:textColor="@color/zo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ul" android:text="@string/e8" />
-    <TextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ul" android:text="@string/aoz" />
-    <TextView android:textSize="@dimen/z0" android:textStyle="bold" android:textColor="@color/d6" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sdcard/aivpcore/fonts/" />
-    <TextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:gravity="center" android:id="@id/bbq" android:background="@drawable/dx" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:layout_marginTop="@dimen/ul" android:text="@string/vo" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ai"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/tz"
+    android:paddingEnd="@dimen/tz">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ul"
+        android:text="@string/e8"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z1"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ul"
+        android:text="@string/aoz"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z0" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="sdcard/aivpcore/fonts/"
+        android:textColor="@color/d6"
+        android:textSize="@dimen/z0"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@id/bbq"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x9"
+        android:layout_marginTop="@dimen/ul"
+        android:background="@drawable/dx"
+        android:gravity="center"
+        android:text="@string/vo"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z0" />
 </LinearLayout>

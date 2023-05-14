@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_selected="false" android:drawable="@drawable/a9l" />
-    <item android:state_selected="true" android:drawable="@drawable/a9m" />
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/a9l" android:state_selected="false" />
+    <item android:drawable="@drawable/a9m" android:state_selected="true" />
 </selector>

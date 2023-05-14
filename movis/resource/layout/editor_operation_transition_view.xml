@@ -1,17 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/av5" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:background="@color/bn" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="vertical" android:id="@id/aeo" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="160.0dip">
-            <RelativeLayout android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
-                <include android:id="@id/ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginStart="10.0dip" layout="@layout/eq" />
-                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/at2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true">
-                    <ImageView android:id="@id/aaw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/t8" />
-                    <TextView android:textSize="12.0sp" android:textColor="@color/g9" android:gravity="center" android:id="@id/bgp" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="4.0dip" android:text="@string/a53" android:maxLines="1" android:layout_marginStart="4.0dip" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/av5"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/xz"
+    android:gravity="bottom"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bn"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@id/aeo"
+            android:layout_width="fill_parent"
+            android:layout_height="160.0dip"
+            android:orientation="vertical"
+            android:paddingBottom="10.0dip">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:paddingTop="10.0dip"
+                android:paddingBottom="10.0dip">
+                <include
+                    android:id="@id/ff"
+                    layout="@layout/eq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10.0dip"
+                    android:layout_marginLeft="10.0dip" />
+                <LinearLayout
+                    android:id="@id/at2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+                    <ImageView
+                        android:id="@id/aaw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/t8" />
+                    <TextView
+                        android:id="@id/bgp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20.0dip"
+                        android:layout_marginStart="4.0dip"
+                        android:layout_marginLeft="4.0dip"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/a53"
+                        android:textColor="@color/g9"
+                        android:textSize="12.0sp" />
                 </LinearLayout>
             </RelativeLayout>
-            <com.videoai.aivpcore.editor.clipedit.transition.recycler.TransitionRecyclerView android:id="@id/baq" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+            <com.videoai.aivpcore.editor.clipedit.transition.recycler.TransitionRecyclerView
+                android:id="@id/baq"
+                android:layout_width="fill_parent"
+                android:layout_height="100.0dip" />
         </LinearLayout>
-        <com.videoai.aivpcore.editor.widget.terminator.Terminator android:id="@id/b7u" android:layout_width="fill_parent" android:layout_height="wrap_content" app:terminatorText="@string/ap_" />
+        <com.videoai.aivpcore.editor.widget.terminator.Terminator
+            android:id="@id/b7u"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:terminatorText="@string/ap_" />
     </LinearLayout>
 </LinearLayout>

@@ -1,46 +1,272 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/awy" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/awv" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/awz" />
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="10.0dip" android:layout_above="@id/awz" android:layoutDirection="ltr">
-        <ImageButton android:id="@id/a39" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:src="@drawable/uz" android:scaleType="centerCrop" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginStart="15.0dip" />
-        <RelativeLayout android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true">
-            <ImageView android:id="@id/a9z" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tr" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
-            <RelativeLayout android:id="@id/afc" android:visibility="gone" android:layout_width="172.0dip" android:layout_height="48.0dip" android:layout_marginRight="15.0dip" android:layout_toLeftOf="@id/a9z" android:layout_centerVertical="true" android:layoutDirection="locale" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/a9z">
-                <ImageView android:id="@id/a5h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:src="@drawable/o8" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" />
-                <SeekBar android:id="@id/aq_" android:focusable="true" android:layout_width="fill_parent" android:layout_height="18.0dip" android:maxHeight="2.0dip" android:max="100" android:progress="20" android:progressDrawable="@drawable/sq" android:thumb="@drawable/o7" android:thumbOffset="9.0dip" android:layout_toLeftOf="@id/a5p" android:layout_toRightOf="@id/a5h" android:layout_centerInParent="true" android:layout_toStartOf="@id/a5p" android:layout_toEndOf="@id/a5h" android:mirrorForRtl="true" />
-                <ImageView android:id="@id/a5p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/o6" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="4.0dip" android:layout_alignParentEnd="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/awy"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@id/awv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/awz"
+        android:background="@color/xz" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_above="@id/awz"
+        android:layout_marginBottom="10.0dip"
+        android:layoutDirection="ltr">
+        <ImageButton
+            android:id="@id/a39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/uz" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="48.0dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15.0dip"
+            android:layout_marginRight="15.0dip">
+            <ImageView
+                android:id="@id/a9z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/tr"
+                android:visibility="gone" />
+            <RelativeLayout
+                android:id="@id/afc"
+                android:layout_width="172.0dip"
+                android:layout_height="48.0dip"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:layout_toStartOf="@id/a9z"
+                android:layout_toLeftOf="@id/a9z"
+                android:layoutDirection="locale"
+                android:visibility="gone">
+                <ImageView
+                    android:id="@id/a5h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="4.0dip"
+                    android:layout_marginLeft="4.0dip"
+                    android:src="@drawable/o8" />
+                <SeekBar
+                    android:id="@id/aq_"
+                    android:layout_width="fill_parent"
+                    android:layout_height="18.0dip"
+                    android:layout_centerInParent="true"
+                    android:layout_toStartOf="@id/a5p"
+                    android:layout_toLeftOf="@id/a5p"
+                    android:layout_toEndOf="@id/a5h"
+                    android:layout_toRightOf="@id/a5h"
+                    android:focusable="true"
+                    android:max="100"
+                    android:maxHeight="2.0dip"
+                    android:mirrorForRtl="true"
+                    android:progress="20"
+                    android:progressDrawable="@drawable/sq"
+                    android:thumb="@drawable/o7"
+                    android:thumbOffset="9.0dip" />
+                <ImageView
+                    android:id="@id/a5p"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="4.0dip"
+                    android:layout_marginRight="4.0dip"
+                    android:src="@drawable/o6" />
             </RelativeLayout>
         </RelativeLayout>
     </RelativeLayout>
-    <RelativeLayout android:id="@id/awz" android:background="@color/bn" android:layout_width="fill_parent" android:layout_height="158.0dip" android:layout_above="@id/b7c">
-        <include android:id="@id/ff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginStart="10.0dip" layout="@layout/eq" />
-        <TextView android:textSize="12.0sp" android:textColor="@color/g9" android:gravity="center" android:id="@id/bgt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
-        <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="128.0dip" android:layout_alignParentBottom="true">
-            <HorizontalScrollView android:id="@id/a34" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip">
-                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView android:id="@id/atl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginStart="10.0dip" />
-                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView android:id="@id/atg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginStart="30.0dip" />
-                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView android:id="@id/atj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginStart="30.0dip" />
-                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView android:id="@id/atf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginStart="30.0dip" />
-                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView android:id="@id/atk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginStart="30.0dip" />
-                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView android:id="@id/ath" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginStart="30.0dip" />
-                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView android:id="@id/ati" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginStart="30.0dip" />
-                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView android:id="@id/ate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginStart="30.0dip" />
+    <RelativeLayout
+        android:id="@id/awz"
+        android:layout_width="fill_parent"
+        android:layout_height="158.0dip"
+        android:layout_above="@id/b7c"
+        android:background="@color/bn">
+        <include
+            android:id="@id/ff"
+            layout="@layout/eq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:visibility="gone" />
+        <TextView
+            android:id="@id/bgt"
+            android:layout_width="wrap_content"
+            android:layout_height="20.0dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginEnd="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:gravity="center"
+            android:textColor="@color/g9"
+            android:textSize="12.0sp"
+            android:visibility="gone" />
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="128.0dip"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+            <HorizontalScrollView
+                android:id="@id/a34"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28.0dip"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
+                        android:id="@id/atl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10.0dip"
+                        android:layout_marginLeft="10.0dip" />
+                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
+                        android:id="@id/atg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30.0dip"
+                        android:layout_marginLeft="30.0dip" />
+                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
+                        android:id="@id/atj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30.0dip"
+                        android:layout_marginLeft="30.0dip" />
+                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
+                        android:id="@id/atf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30.0dip"
+                        android:layout_marginLeft="30.0dip" />
+                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
+                        android:id="@id/atk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30.0dip"
+                        android:layout_marginLeft="30.0dip" />
+                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
+                        android:id="@id/ath"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30.0dip"
+                        android:layout_marginLeft="30.0dip" />
+                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
+                        android:id="@id/ati"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30.0dip"
+                        android:layout_marginLeft="30.0dip" />
+                    <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
+                        android:id="@id/ate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30.0dip"
+                        android:layout_marginLeft="30.0dip" />
                 </LinearLayout>
             </HorizontalScrollView>
-            <RelativeLayout android:id="@id/awp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
-                <com.videoai.aivpcore.ui.view.MultiColorBar android:id="@id/amg" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" app:color_bar_CircleRadius="10.0dip" app:color_bar_ThumbHeight="20.0dip" app:color_bar_ThumbMarginBottom="15.0dip" app:color_bar_ThumbWidth="18.0dip" app:color_bar_Thumb_visible="true" app:color_bar_height="10.0dip" />
+            <RelativeLayout
+                android:id="@id/awp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:visibility="gone">
+                <com.videoai.aivpcore.ui.view.MultiColorBar
+                    android:id="@id/amg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60.0dip"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10.0dip"
+                    app:color_bar_CircleRadius="10.0dip"
+                    app:color_bar_ThumbHeight="20.0dip"
+                    app:color_bar_ThumbMarginBottom="15.0dip"
+                    app:color_bar_ThumbWidth="18.0dip"
+                    app:color_bar_Thumb_visible="true"
+                    app:color_bar_height="10.0dip" />
             </RelativeLayout>
-            <RelativeLayout android:id="@id/awo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
-                <RelativeLayout android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true">
-                    <ImageView android:id="@id/a5g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:src="@drawable/o8" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
-                    <SeekBar android:id="@id/b0o" android:focusable="true" android:layout_width="fill_parent" android:layout_height="18.0dip" android:maxHeight="2.0dip" android:max="100" android:progress="20" android:progressDrawable="@drawable/sq" android:thumb="@drawable/o7" android:thumbOffset="9.0dip" android:layout_toLeftOf="@id/a5o" android:layout_toRightOf="@id/a5g" android:layout_centerInParent="true" android:layout_toStartOf="@id/a5o" android:layout_toEndOf="@id/a5g" android:mirrorForRtl="true" />
-                    <ImageView android:id="@id/a5o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/o6" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+            <RelativeLayout
+                android:id="@id/awo"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:visibility="gone">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="18.0dip"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20.0dip">
+                    <ImageView
+                        android:id="@id/a5g"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15.0dip"
+                        android:layout_marginLeft="15.0dip"
+                        android:src="@drawable/o8" />
+                    <SeekBar
+                        android:id="@id/b0o"
+                        android:layout_width="fill_parent"
+                        android:layout_height="18.0dip"
+                        android:layout_centerInParent="true"
+                        android:layout_toStartOf="@id/a5o"
+                        android:layout_toLeftOf="@id/a5o"
+                        android:layout_toEndOf="@id/a5g"
+                        android:layout_toRightOf="@id/a5g"
+                        android:focusable="true"
+                        android:max="100"
+                        android:maxHeight="2.0dip"
+                        android:mirrorForRtl="true"
+                        android:progress="20"
+                        android:progressDrawable="@drawable/sq"
+                        android:thumb="@drawable/o7"
+                        android:thumbOffset="9.0dip" />
+                    <ImageView
+                        android:id="@id/a5o"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15.0dip"
+                        android:layout_marginRight="15.0dip"
+                        android:src="@drawable/o6" />
                 </RelativeLayout>
             </RelativeLayout>
         </FrameLayout>
     </RelativeLayout>
-    <com.videoai.aivpcore.editor.widget.picker.EditorGalleryBoard android:id="@id/pz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/b7c" app:picFocus="true" app:picNoneItem="true" app:topTransparent="true" />
-    <com.videoai.aivpcore.editor.widget.terminator.Terminator android:id="@id/b7c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:terminatorText="@string/aq0" />
+    <com.videoai.aivpcore.editor.widget.picker.EditorGalleryBoard
+        android:id="@id/pz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/b7c"
+        android:visibility="gone"
+        app:picFocus="true"
+        app:picNoneItem="true"
+        app:topTransparent="true" />
+    <com.videoai.aivpcore.editor.widget.terminator.Terminator
+        android:id="@id/b7c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:terminatorText="@string/aq0" />
 </RelativeLayout>

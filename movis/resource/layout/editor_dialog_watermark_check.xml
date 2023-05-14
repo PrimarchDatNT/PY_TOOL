@@ -1,10 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/eq" android:gravity="center" android:id="@id/bcb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="32.0dip" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/zo" android:gravity="center" android:id="@id/jn" android:background="@drawable/b8g" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_marginLeft="32.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="32.0dip" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/bcb" />
-    <Space android:id="@id/b3r" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="4.0dip" android:layout_marginEnd="26.0dip" app:layout_constraintBottom_toTopOf="@id/jn" app:layout_constraintEnd_toEndOf="@id/jn" />
-    <ImageView android:id="@id/a4q" android:layout_width="28.0dip" android:layout_height="16.0dip" app:layout_constraintStart_toEndOf="@id/b3r" app:layout_constraintTop_toTopOf="@id/b3r" />
-    <com.videoai.aivpcore.xyui.RoundedTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/eq" android:gravity="center" android:id="@id/k5" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_marginLeft="32.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="12.0dip" app:VS_CornerRadius="26.0dip" app:VS_SolidColor="@color/jf" app:layout_constraintBottom_toTopOf="@id/bmd" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/jn" />
-    <View android:id="@id/bmd" android:layout_width="0.0dip" android:layout_height="20.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@id/bcb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32.0dip"
+        android:layout_marginTop="32.0dip"
+        android:layout_marginRight="32.0dip"
+        android:gravity="center"
+        android:textColor="@color/eq"
+        android:textSize="18.0sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <TextView
+        android:id="@id/jn"
+        android:layout_width="0.0dip"
+        android:layout_height="48.0dip"
+        android:layout_marginLeft="32.0dip"
+        android:layout_marginTop="32.0dip"
+        android:layout_marginRight="32.0dip"
+        android:background="@drawable/b8g"
+        android:gravity="center"
+        android:textColor="@color/zo"
+        android:textSize="16.0sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/bcb" />
+    <Space
+        android:id="@id/b3r"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginEnd="26.0dip"
+        android:layout_marginRight="26.0dip"
+        android:layout_marginBottom="4.0dip"
+        app:layout_constraintBottom_toTopOf="@id/jn"
+        app:layout_constraintEnd_toEndOf="@id/jn" />
+    <ImageView
+        android:id="@id/a4q"
+        android:layout_width="28.0dip"
+        android:layout_height="16.0dip"
+        app:layout_constraintStart_toEndOf="@id/b3r"
+        app:layout_constraintTop_toTopOf="@id/b3r" />
+    <com.videoai.aivpcore.xyui.RoundedTextView
+        android:id="@id/k5"
+        android:layout_width="0.0dip"
+        android:layout_height="48.0dip"
+        android:layout_marginLeft="32.0dip"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginRight="32.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:gravity="center"
+        android:textColor="@color/eq"
+        android:textSize="16.0sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:VS_CornerRadius="26.0dip"
+        app:VS_SolidColor="@color/jf"
+        app:layout_constraintBottom_toTopOf="@id/bmd"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/jn" />
+    <View
+        android:id="@id/bmd"
+        android:layout_width="0.0dip"
+        android:layout_height="20.0dip"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:tag="layout/home_banner_premium_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.videoai.aivpcore.unit.view.PressImageView android:id="@id/a8q" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" app:layout_constraintDimensionRatio="328:128" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" app:shapeAppearanceOverlay="@style/iw" app:srcCompat="@drawable/hi" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textStyle="bold" android:textColor="@color/zo" android:id="@id/bcb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/td" android:text="@string/jc" android:layout_marginStart="@dimen/tz" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/tz"
+    android:paddingEnd="@dimen/tz"
+    android:tag="layout/home_banner_premium_0">
+    <com.videoai.aivpcore.unit.view.PressImageView
+        android:id="@id/a8q"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintDimensionRatio="328:128"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv"
+        app:shapeAppearanceOverlay="@style/iw"
+        app:srcCompat="@drawable/hi" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bcb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tz"
+        android:layout_marginTop="@dimen/td"
+        android:text="@string/jc"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z0"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
 </androidx.constraintlayout.widget.ConstraintLayout>

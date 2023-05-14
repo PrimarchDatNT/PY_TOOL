@@ -1,11 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:paddingTop="12.0dip" android:paddingRight="7.0dip" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/zd" android:layout_width="68.0dip" android:layout_height="68.0dip">
-        <ImageView android:layout_gravity="center" android:id="@id/aa9" android:layout_width="62.0dip" android:layout_height="62.0dip" android:src="@drawable/t3" android:scaleType="centerCrop" />
-        <View android:id="@id/bkd" android:background="@drawable/st" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:rotation="-90.0" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:paddingTop="12.0dip"
+    android:paddingRight="7.0dip">
+    <FrameLayout
+        android:id="@id/zd"
+        android:layout_width="68.0dip"
+        android:layout_height="68.0dip">
+        <ImageView
+            android:id="@id/aa9"
+            android:layout_width="62.0dip"
+            android:layout_height="62.0dip"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/t3" />
+        <View
+            android:id="@id/bkd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/st"
+            android:rotation="-90.0"
+            android:visibility="invisible" />
     </FrameLayout>
-    <ImageView android:id="@id/abu" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="-8.0dip" android:layout_alignTop="@id/zd" android:layout_alignRight="@id/zd" android:layout_alignEnd="@id/zd" />
-    <ImageView android:id="@id/abv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginTop="-5.0dip" android:layout_marginRight="-7.0dip" android:layout_alignTop="@id/zd" android:layout_alignRight="@id/zd" android:layout_alignEnd="@id/zd" />
-    <TextView android:textSize="11.0dip" android:textColor="@color/g9" android:id="@id/bi9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/zd" android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@id/abu"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_alignTop="@id/zd"
+        android:layout_alignEnd="@id/zd"
+        android:layout_alignRight="@id/zd"
+        android:layout_marginTop="-8.0dip"
+        android:visibility="visible" />
+    <ImageView
+        android:id="@id/abv"
+        android:layout_width="wrap_content"
+        android:layout_height="16.0dip"
+        android:layout_alignTop="@id/zd"
+        android:layout_alignEnd="@id/zd"
+        android:layout_alignRight="@id/zd"
+        android:layout_marginTop="-5.0dip"
+        android:layout_marginRight="-7.0dip"
+        android:visibility="gone" />
+    <TextView
+        android:id="@id/bi9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zd"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/g9"
+        android:textSize="11.0dip" />
 </RelativeLayout>

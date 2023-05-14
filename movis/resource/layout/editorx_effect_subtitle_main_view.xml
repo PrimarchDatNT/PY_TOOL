@@ -1,36 +1,259 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:id="@id/aid" android:background="@drawable/a0_" android:layout_width="@dimen/wd" android:layout_height="0.0dip" android:layout_marginTop="@dimen/xh" android:layout_marginBottom="@dimen/td" android:layout_marginEnd="@dimen/tz" app:layout_constraintBottom_toTopOf="@id/aec" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintTop_toTopOf="apv">
-        <com.videoai.aivpcore.editorx.widget.seekbar.VerticalSeekBarWrapper android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-            <com.videoai.aivpcore.editorx.widget.seekbar.FontSizeSeekBar android:id="@id/b0k" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxHeight="2.0dip" app:fsb_min_progress="1" app:fsb_rotation="k" app:fsb_text_color="@color/zo" />
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@id/aid"
+        android:layout_width="@dimen/wd"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/xh"
+        android:layout_marginEnd="@dimen/tz"
+        android:layout_marginBottom="@dimen/td"
+        android:background="@drawable/a0_"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/aec"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintTop_toTopOf="apv">
+        <com.videoai.aivpcore.editorx.widget.seekbar.VerticalSeekBarWrapper
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0">
+            <com.videoai.aivpcore.editorx.widget.seekbar.FontSizeSeekBar
+                android:id="@id/b0k"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:maxHeight="2.0dip"
+                app:fsb_min_progress="1"
+                app:fsb_rotation="k"
+                app:fsb_text_color="@color/zo" />
         </com.videoai.aivpcore.editorx.widget.seekbar.VerticalSeekBarWrapper>
-        <TextView android:textSize="@dimen/yz" android:textStyle="bold" android:textColor="@color/zo" android:gravity="center_horizontal" android:id="@id/bh5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/uk" android:layout_marginBottom="@dimen/td" android:text="@string/a15" />
+        <TextView
+            android:id="@id/bh5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/uk"
+            android:layout_marginBottom="@dimen/td"
+            android:gravity="center_horizontal"
+            android:text="@string/a15"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/yz"
+            android:textStyle="bold" />
     </LinearLayout>
-    <LinearLayout android:orientation="horizontal" android:id="@id/afo" android:background="@drawable/a9i" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginBottom="12.0dip" android:layout_marginEnd="24.0dip" app:layout_constraintBottom_toTopOf="@id/aec" app:layout_constraintEnd_toEndOf="apv">
-        <ImageView android:id="@id/b8u" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:src="@drawable/a1f" android:scaleType="centerInside" />
-        <TextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:id="@id/b8v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a1u" android:layout_marginStart="6.0dip" />
+    <LinearLayout
+        android:id="@id/afo"
+        android:layout_width="wrap_content"
+        android:layout_height="32.0dip"
+        android:layout_marginEnd="24.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:background="@drawable/a9i"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/aec"
+        app:layout_constraintEnd_toEndOf="apv">
+        <ImageView
+            android:id="@id/b8u"
+            android:layout_width="@dimen/tz"
+            android:layout_height="@dimen/tz"
+            android:scaleType="centerInside"
+            android:src="@drawable/a1f" />
+        <TextView
+            android:id="@id/b8v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6.0dip"
+            android:text="@string/a1u"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/yz" />
     </LinearLayout>
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/acf" android:background="@drawable/ec" android:layout_width="wrap_content" android:layout_height="@dimen/wd" android:layout_marginBottom="@dimen/td" android:paddingStart="@dimen/td" android:paddingEnd="@dimen/td" android:layout_marginStart="@dimen/tz" app:layout_constraintBottom_toTopOf="@id/aec" app:layout_constraintStart_toStartOf="apv">
-        <ImageView android:id="@id/a8n" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:src="@drawable/a17" />
-        <TextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:gravity="center" android:id="@id/bb3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a2l" android:layout_marginStart="@dimen/xz" />
+    <LinearLayout
+        android:id="@id/acf"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/wd"
+        android:layout_marginStart="@dimen/tz"
+        android:layout_marginBottom="@dimen/td"
+        android:background="@drawable/ec"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/td"
+        android:paddingEnd="@dimen/td"
+        app:layout_constraintBottom_toTopOf="@id/aec"
+        app:layout_constraintStart_toStartOf="apv">
+        <ImageView
+            android:id="@id/a8n"
+            android:layout_width="@dimen/tz"
+            android:layout_height="@dimen/tz"
+            android:src="@drawable/a17" />
+        <TextView
+            android:id="@id/bb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/xz"
+            android:gravity="center"
+            android:text="@string/a2l"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/yz" />
     </LinearLayout>
-    <com.videoai.aivpcore.editorx.widget.trimBar.TrimBarView android:id="@id/bav" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/wd" android:layout_marginBottom="@dimen/y_" app:layout_constraintBottom_toBottomOf="apv" />
-    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/aec" android:background="@color/ag" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv">
-        <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleKeyboardView android:id="@id/v9" android:layout_width="0.0dip" android:layout_height="@dimen/x9" app:layout_constraintEnd_toStartOf="@id/a8z" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-        <View android:id="@id/uw" android:layout_width="fill_parent" android:layout_height="@dimen/ut" app:layout_constraintBottom_toTopOf="@id/ag_" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/v9" />
-        <ImageView android:id="@id/a8z" android:background="@drawable/jf" android:layout_width="@dimen/x9" android:layout_height="@dimen/x9" android:src="@drawable/ae0" android:scaleType="centerInside" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintTop_toTopOf="apv" />
-        <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitlePresetsView android:id="@id/arz" android:background="@color/ag" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ut" app:layout_constraintBottom_toTopOf="@id/ag_" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/v9" />
-        <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleCustomizeView android:id="@id/sm" android:background="@color/ag" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ut" app:layout_constraintBottom_toTopOf="@id/ag_" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/v9" />
-        <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleAnimationView android:id="@id/eo" android:background="@color/ag" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ut" app:layout_constraintBottom_toTopOf="@id/ag_" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/v9" />
-        <LinearLayout android:orientation="horizontal" android:id="@id/ag_" android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="@dimen/xt" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv">
-            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabFillView android:id="@id/b6f" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" app:tfv_tab_icon="@drawable/a9w" app:tfv_tab_title="@string/a4q" app:tfv_tab_title_color="@drawable/a9y" />
-            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabFillView android:id="@id/b6i" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toEndOf="@id/b6f" app:layout_constraintTop_toTopOf="apv" app:tfv_tab_icon="@drawable/a9x" app:tfv_tab_title="@string/apw" app:tfv_tab_title_color="@drawable/a9y" />
-            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabFillView android:id="@id/b5z" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toEndOf="@id/b5y" app:layout_constraintTop_toTopOf="apv" app:tfv_tab_icon="@drawable/a9v" app:tfv_tab_title="@string/ale" app:tfv_tab_title_color="@drawable/a9y" />
-            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabFillView android:id="@id/b5w" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toEndOf="@id/b5y" app:layout_constraintTop_toTopOf="apv" app:tfv_tab_icon="@drawable/a9u" app:tfv_tab_title="@string/a4l" app:tfv_tab_title_color="@drawable/a9y" />
+    <com.videoai.aivpcore.editorx.widget.trimBar.TrimBarView
+        android:id="@id/bav"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/wd"
+        android:layout_marginBottom="@dimen/y_"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="apv" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/aec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ag"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="apv">
+        <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleKeyboardView
+            android:id="@id/v9"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/x9"
+            app:layout_constraintEnd_toStartOf="@id/a8z"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toTopOf="apv" />
+        <View
+            android:id="@id/uw"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/ut"
+            app:layout_constraintBottom_toTopOf="@id/ag_"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toBottomOf="@id/v9" />
+        <ImageView
+            android:id="@id/a8z"
+            android:layout_width="@dimen/x9"
+            android:layout_height="@dimen/x9"
+            android:background="@drawable/jf"
+            android:scaleType="centerInside"
+            android:src="@drawable/ae0"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintTop_toTopOf="apv" />
+        <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitlePresetsView
+            android:id="@id/arz"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/ut"
+            android:background="@color/ag"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@id/ag_"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toBottomOf="@id/v9" />
+        <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleCustomizeView
+            android:id="@id/sm"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/ut"
+            android:background="@color/ag"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@id/ag_"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toBottomOf="@id/v9" />
+        <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleAnimationView
+            android:id="@id/eo"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/ut"
+            android:background="@color/ag"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@id/ag_"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toBottomOf="@id/v9" />
+        <LinearLayout
+            android:id="@id/ag_"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt"
+            android:background="@color/ah"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv">
+            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabFillView
+                android:id="@id/b6f"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                app:layout_constraintBottom_toBottomOf="apv"
+                app:layout_constraintStart_toStartOf="apv"
+                app:layout_constraintTop_toTopOf="apv"
+                app:tfv_tab_icon="@drawable/a9w"
+                app:tfv_tab_title="@string/a4q"
+                app:tfv_tab_title_color="@drawable/a9y" />
+            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabFillView
+                android:id="@id/b6i"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                app:layout_constraintBottom_toBottomOf="apv"
+                app:layout_constraintStart_toEndOf="@id/b6f"
+                app:layout_constraintTop_toTopOf="apv"
+                app:tfv_tab_icon="@drawable/a9x"
+                app:tfv_tab_title="@string/apw"
+                app:tfv_tab_title_color="@drawable/a9y" />
+            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabFillView
+                android:id="@id/b5z"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                app:layout_constraintBottom_toBottomOf="apv"
+                app:layout_constraintStart_toEndOf="@id/b5y"
+                app:layout_constraintTop_toTopOf="apv"
+                app:tfv_tab_icon="@drawable/a9v"
+                app:tfv_tab_title="@string/ale"
+                app:tfv_tab_title_color="@drawable/a9y" />
+            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabFillView
+                android:id="@id/b5w"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                app:layout_constraintBottom_toBottomOf="apv"
+                app:layout_constraintStart_toEndOf="@id/b5y"
+                app:layout_constraintTop_toTopOf="apv"
+                app:tfv_tab_icon="@drawable/a9u"
+                app:tfv_tab_title="@string/a4l"
+                app:tfv_tab_title_color="@drawable/a9y" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
-    <include android:id="@id/afw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/xt" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" layout="@layout/kt" />
-    <Button android:textSize="@dimen/yz" android:textStyle="bold" android:textColor="@color/eq" android:id="@id/ka" android:background="@drawable/a06" android:visibility="gone" android:layout_width="104.0dip" android:layout_height="32.0dip" android:layout_marginBottom="12.0dip" android:text="@string/a4u" android:layout_above="@id/afw" android:layout_centerHorizontal="true" app:layout_constraintBottom_toTopOf="@id/afw" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
-    <com.videoai.aivpcore.editorx.widget.seekbar.CircleShadowView android:id="@id/b5j" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:csv_bg_color="@color/ds" app:csv_bg_diam="44.0dip" app:csv_border_color="@color/zo" app:csv_border_width="3.0dip" app:csv_text="0" app:csv_text_color="@color/zo" app:csv_text_size="18.0sp" />
+    <include
+        android:id="@id/afw"
+        layout="@layout/kt"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xt"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv" />
+    <Button
+        android:id="@id/ka"
+        android:layout_width="104.0dip"
+        android:layout_height="32.0dip"
+        android:layout_above="@id/afw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12.0dip"
+        android:background="@drawable/a06"
+        android:text="@string/a4u"
+        android:textColor="@color/eq"
+        android:textSize="@dimen/yz"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/afw"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv" />
+    <com.videoai.aivpcore.editorx.widget.seekbar.CircleShadowView
+        android:id="@id/b5j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:csv_bg_color="@color/ds"
+        app:csv_bg_diam="44.0dip"
+        app:csv_border_color="@color/zo"
+        app:csv_border_width="3.0dip"
+        app:csv_text="0"
+        app:csv_text_color="@color/zo"
+        app:csv_text_size="18.0sp" />
 </merge>

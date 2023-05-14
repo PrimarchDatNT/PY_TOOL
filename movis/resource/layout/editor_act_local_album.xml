@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:orientation="vertical" android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="@dimen/a4s"
-      xmlns:android="http://schemas.android.com/apk/res/android">
-        <ImageView android:id="@id/blx" android:layout_width="@dimen/a4s" android:layout_height="fill_parent" android:src="@drawable/asm" android:scaleType="center" />
-        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/b_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ak8" android:layout_centerInParent="true" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/a4s"
+        android:background="@color/dt"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@id/blx"
+            android:layout_width="@dimen/a4s"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/asm" />
+        <TextView
+            android:id="@id/b_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/ak8"
+            android:textColor="@android:color/white"
+            android:textSize="17.0sp"
+            android:textStyle="bold" />
     </RelativeLayout>
-    <FrameLayout android:id="@id/qm" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/qm"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/black" />
 </LinearLayout>

@@ -1,12 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:paddingTop="22.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/bmm" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <TextView android:textSize="16.0sp" android:textColor="@color/bn" android:id="@id/bbo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/a85" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/bmm" app:layout_constraintStart_toStartOf="@id/bmm" app:layout_constraintTop_toTopOf="@id/bmm" />
-    <TextView android:textSize="12.0sp" android:textColor="@color/zo" android:id="@id/bbi" android:background="@drawable/b4h" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/bmm" app:layout_constraintStart_toEndOf="@id/bbo" app:layout_constraintTop_toTopOf="@id/bmm" />
-    <CheckBox android:id="@id/oe" android:layout_width="16.0dip" android:layout_height="16.0dip" android:checked="true" android:button="@drawable/mi" app:layout_constraintBottom_toBottomOf="@id/bmm" app:layout_constraintEnd_toEndOf="@id/bmm" app:layout_constraintTop_toTopOf="@id/bmm" />
-    <View android:id="@id/bmn" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/bmm" />
-    <TextView android:textSize="16.0sp" android:textColor="@color/bn" android:id="@id/bbp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/a86" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/bmn" app:layout_constraintStart_toStartOf="@id/bmn" app:layout_constraintTop_toTopOf="@id/bmn" />
-    <CheckBox android:id="@id/of" android:layout_width="16.0dip" android:layout_height="16.0dip" android:checked="false" android:button="@drawable/mi" app:layout_constraintBottom_toBottomOf="@id/bmn" app:layout_constraintEnd_toEndOf="@id/bmn" app:layout_constraintTop_toTopOf="@id/bmn" />
-    <com.videoai.aivpcore.xyui.RoundedTextView android:textColor="@color/zo" android:gravity="center" android:id="@id/jt" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="24.0dip" android:text="@string/z3" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:VS_CornerRadius="3.0dip" app:VS_SolidColor="@color/aq" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/bmn" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="22.0dip"
+    android:paddingBottom="24.0dip">
+    <View
+        android:id="@id/bmm"
+        android:layout_width="0.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginStart="24.0dip"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginEnd="24.0dip"
+        android:layout_marginRight="24.0dip"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <TextView
+        android:id="@id/bbo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:text="@string/a85"
+        android:textColor="@color/bn"
+        android:textSize="16.0sp"
+        app:layout_constraintBottom_toBottomOf="@id/bmm"
+        app:layout_constraintStart_toStartOf="@id/bmm"
+        app:layout_constraintTop_toTopOf="@id/bmm" />
+    <TextView
+        android:id="@id/bbi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:background="@drawable/b4h"
+        android:paddingStart="5.0dip"
+        android:paddingLeft="5.0dip"
+        android:paddingEnd="5.0dip"
+        android:paddingRight="5.0dip"
+        android:textColor="@color/zo"
+        android:textSize="12.0sp"
+        app:layout_constraintBottom_toBottomOf="@id/bmm"
+        app:layout_constraintStart_toEndOf="@id/bbo"
+        app:layout_constraintTop_toTopOf="@id/bmm" />
+    <CheckBox
+        android:id="@id/oe"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:button="@drawable/mi"
+        android:checked="true"
+        app:layout_constraintBottom_toBottomOf="@id/bmm"
+        app:layout_constraintEnd_toEndOf="@id/bmm"
+        app:layout_constraintTop_toTopOf="@id/bmm" />
+    <View
+        android:id="@id/bmn"
+        android:layout_width="0.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginStart="24.0dip"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginEnd="24.0dip"
+        android:layout_marginRight="24.0dip"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/bmm" />
+    <TextView
+        android:id="@id/bbp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:text="@string/a86"
+        android:textColor="@color/bn"
+        android:textSize="16.0sp"
+        app:layout_constraintBottom_toBottomOf="@id/bmn"
+        app:layout_constraintStart_toStartOf="@id/bmn"
+        app:layout_constraintTop_toTopOf="@id/bmn" />
+    <CheckBox
+        android:id="@id/of"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:button="@drawable/mi"
+        android:checked="false"
+        app:layout_constraintBottom_toBottomOf="@id/bmn"
+        app:layout_constraintEnd_toEndOf="@id/bmn"
+        app:layout_constraintTop_toTopOf="@id/bmn" />
+    <com.videoai.aivpcore.xyui.RoundedTextView
+        android:id="@id/jt"
+        android:layout_width="0.0dip"
+        android:layout_height="44.0dip"
+        android:layout_marginStart="24.0dip"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginTop="18.0dip"
+        android:layout_marginEnd="24.0dip"
+        android:layout_marginRight="24.0dip"
+        android:gravity="center"
+        android:text="@string/z3"
+        android:textColor="@color/zo"
+        app:VS_CornerRadius="3.0dip"
+        app:VS_SolidColor="@color/aq"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/bmn" />
 </androidx.constraintlayout.widget.ConstraintLayout>

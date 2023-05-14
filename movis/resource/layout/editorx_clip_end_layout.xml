@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_gravity="bottom" android:id="@id/alk" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="@dimen/xt">
-        <ImageView android:id="@id/m5" android:background="@drawable/jf" android:layout_width="@dimen/xt" android:layout_height="@dimen/xt" android:src="@drawable/ahg" android:scaleType="centerInside" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
-        <EditText android:textSize="@dimen/yz" android:textColor="@color/zo" android:textColorHint="@color/ve" android:gravity="center_vertical" android:id="@id/b_f" android:background="@drawable/a7j" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLength="30" android:layout_centerVertical="true" android:paddingStart="@dimen/td" android:paddingEnd="@dimen/td" android:layout_toStartOf="@id/m5" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@id/alk"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xt"
+        android:layout_gravity="bottom"
+        android:background="@color/ag">
+        <ImageView
+            android:id="@id/m5"
+            android:layout_width="@dimen/xt"
+            android:layout_height="@dimen/xt"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/jf"
+            android:scaleType="centerInside"
+            android:src="@drawable/ahg" />
+        <EditText
+            android:id="@id/b_f"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/m5"
+            android:background="@drawable/a7j"
+            android:gravity="center_vertical"
+            android:maxLength="30"
+            android:paddingStart="@dimen/td"
+            android:paddingEnd="@dimen/td"
+            android:textColor="@color/zo"
+            android:textColorHint="@color/ve"
+            android:textSize="@dimen/yz" />
     </RelativeLayout>
 </FrameLayout>

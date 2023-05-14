@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:background="?hw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layoutDirection="ltr" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?hw"
+    android:baselineAligned="false"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal"
+    app:layout_constraintLeft_toLeftOf="apv"
+    app:layout_constraintRight_toRightOf="apv"
+    app:layout_constraintTop_toTopOf="apv">
     <include layout="@layout/s8" />
-    <include android:id="@id/ajl" android:layout_width="@dimen/l0" android:layout_height="@dimen/ky" android:layout_marginStart="@dimen/kz" layout="@layout/ry" />
+    <include
+        android:id="@id/ajl"
+        layout="@layout/ry"
+        android:layout_width="@dimen/l0"
+        android:layout_height="@dimen/ky"
+        android:layout_marginStart="@dimen/kz" />
 </LinearLayout>

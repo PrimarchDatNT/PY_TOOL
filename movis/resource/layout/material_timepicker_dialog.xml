@@ -1,11 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:id="@id/a2u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/gr" android:importantForAccessibility="no" android:layout_marginStart="24.0dip" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" style="?aa7" />
-    <androidx.constraintlayout.widget.Barrier android:id="@id/hm" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="il" app:barrierMargin="@dimen/lj" app:constraint_referenced_ids="material_textinput_timepicker, material_timepicker_view" />
-    <com.google.android.material.timepicker.TimePickerView android:id="@id/ak0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="@dimen/kt" android:layout_marginRight="24.0dip" android:layout_marginBottom="24.0dip" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <ViewStub android:id="@id/aju" android:layout="@layout/s3" android:inflatedId="@id/aju" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="44.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="24.0dip" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <com.google.android.material.button.MaterialButton android:id="@id/ajy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/hm" style="?pi" />
-    <Button android:id="@id/ajv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:minWidth="72.0dip" android:text="@android:string/cancel" android:layout_marginEnd="8.0dip" app:layout_constraintEnd_toStartOf="@id/ajz" app:layout_constraintTop_toTopOf="@id/ajy" style="?dw" />
-    <Button android:id="@id/ajz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:minWidth="64.0dip" android:text="@android:string/ok" android:layout_marginEnd="8.0dip" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintTop_toTopOf="@id/ajy" style="?dw" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="2.0dip">
+    <TextView
+        android:id="@id/a2u"
+        style="?aa7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24.0dip"
+        android:layout_marginTop="16.0dip"
+        android:importantForAccessibility="no"
+        android:text="@string/gr"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/hm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="il"
+        app:barrierMargin="@dimen/lj"
+        app:constraint_referenced_ids="material_textinput_timepicker, material_timepicker_view" />
+    <com.google.android.material.timepicker.TimePickerView
+        android:id="@id/ak0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginTop="@dimen/kt"
+        android:layout_marginRight="24.0dip"
+        android:layout_marginBottom="24.0dip"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <ViewStub
+        android:id="@id/aju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginTop="44.0dip"
+        android:layout_marginRight="24.0dip"
+        android:layout_marginBottom="24.0dip"
+        android:inflatedId="@id/aju"
+        android:layout="@layout/s3"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/ajy"
+        style="?pi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12.0dip"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/hm" />
+    <Button
+        android:id="@id/ajv"
+        style="?dw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:layout_marginEnd="8.0dip"
+        android:minWidth="72.0dip"
+        android:text="@android:string/cancel"
+        app:layout_constraintEnd_toStartOf="@id/ajz"
+        app:layout_constraintTop_toTopOf="@id/ajy" />
+    <Button
+        android:id="@id/ajz"
+        style="?dw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:layout_marginEnd="8.0dip"
+        android:minWidth="64.0dip"
+        android:text="@android:string/ok"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintTop_toTopOf="@id/ajy" />
 </androidx.constraintlayout.widget.ConstraintLayout>

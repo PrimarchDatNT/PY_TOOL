@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="ring" android:innerRadiusRatio="2.5" android:useLevel="false" android:thickness="@dimen/uk"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:innerRadiusRatio="2.5" android:shape="ring" android:thickness="@dimen/uk" android:useLevel="false">
     <solid android:color="@color/am" />
 </shape>

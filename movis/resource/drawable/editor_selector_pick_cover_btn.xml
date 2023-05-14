@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
         <shape android:shape="rectangle">
             <corners android:radius="5.0dip" />
-            <gradient android:startColor="@color/k1" android:endColor="@color/l8" android:angle="180.0" />
+            <gradient android:angle="180.0" android:endColor="@color/l8" android:startColor="@color/k1" />
         </shape>
     </item>
     <item>
         <shape android:shape="rectangle">
             <corners android:radius="5.0dip" />
-            <gradient android:startColor="@color/l1" android:endColor="@color/iu" android:angle="180.0" />
+            <gradient android:angle="180.0" android:endColor="@color/iu" android:startColor="@color/l1" />
         </shape>
     </item>
 </selector>

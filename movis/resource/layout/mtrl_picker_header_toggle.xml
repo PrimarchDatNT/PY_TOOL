@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.internal.CheckableImageButton android:layout_gravity="end|bottom|center" android:id="@id/am_" android:layout_width="@dimen/qo" android:layout_height="@dimen/qo" android:layout_marginTop="@dimen/oz" android:layout_marginBottom="@dimen/oy" style="?w7"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<com.google.android.material.internal.CheckableImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/am_"
+    style="?w7"
+    android:layout_width="@dimen/qo"
+    android:layout_height="@dimen/qo"
+    android:layout_gravity="end|bottom|center"
+    android:layout_marginTop="@dimen/oz"
+    android:layout_marginBottom="@dimen/oy" />

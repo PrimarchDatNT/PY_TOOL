@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/premium_appbar_0" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="?a4"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/a93" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/e5" android:adjustViewBounds="true" />
-    <com.videoai.aivpcore.unit.view.CountDownComponent android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/tz" />
-    <com.videoai.aivpcore.unit.view.PressImageView android:id="@id/a8t" android:layout_width="?a4" android:layout_height="?a4" android:src="@drawable/ak6" android:scaleType="centerInside" android:adjustViewBounds="true" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?a4"
+    android:background="@color/ag"
+    android:tag="layout/premium_appbar_0">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/a93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:src="@drawable/e5" />
+    <com.videoai.aivpcore.unit.view.CountDownComponent
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/tz" />
+    <com.videoai.aivpcore.unit.view.PressImageView
+        android:id="@id/a8t"
+        android:layout_width="?a4"
+        android:layout_height="?a4"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ak6" />
 </FrameLayout>

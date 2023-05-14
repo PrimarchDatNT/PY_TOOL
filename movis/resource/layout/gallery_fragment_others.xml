@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/atp" android:paddingBottom="180.0dip" android:focusable="true" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/xz" android:divider="@null" android:fastScrollEnabled="false" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/a1b" android:focusable="true" android:visibility="gone" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/xz" android:fastScrollEnabled="false" />
-    <include android:visibility="gone" layout="@layout/ps" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/atp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@color/xz"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:focusable="true"
+        android:paddingBottom="180.0dip" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/a1b"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@color/xz"
+        android:clipToPadding="false"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:focusable="true"
+        android:visibility="gone" />
+    <include
+        layout="@layout/ps"
+        android:visibility="gone" />
 </FrameLayout>

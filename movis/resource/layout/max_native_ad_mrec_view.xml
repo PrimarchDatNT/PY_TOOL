@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@android:color/white" android:layout_width="300.0dip" android:layout_height="250.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/f6" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" layout="@layout/s_" />
-    <FrameLayout android:id="@id/fb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_above="@id/f4" android:layout_below="@id/f6" />
-    <Button android:textSize="17.0sp" android:id="@id/f4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentBottom="true" style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300.0dip"
+    android:layout_height="250.0dip"
+    android:background="@android:color/white">
+    <include
+        android:id="@id/f6"
+        layout="@layout/s_"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginRight="8.0dip" />
+    <FrameLayout
+        android:id="@id/fb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/f4"
+        android:layout_below="@id/f6"
+        android:layout_marginTop="4.0dip" />
+    <Button
+        android:id="@id/f4"
+        style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginBottom="4.0dip"
+        android:textSize="17.0sp" />
 </RelativeLayout>

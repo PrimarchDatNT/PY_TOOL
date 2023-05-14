@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView android:gravity="start|bottom|center" android:layout_gravity="start|center|top" android:id="@id/am8" android:paddingBottom="@dimen/p7" android:layout_width="fill_parent" android:layout_height="wrap_content" app:firstBaselineToTopHeight="@dimen/pa" app:lineHeight="@dimen/ow" style="?w5"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/am8"
+    style="?w5"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start|center|top"
+    android:gravity="start|bottom|center"
+    android:paddingBottom="@dimen/p7"
+    app:firstBaselineToTopHeight="@dimen/pa"
+    app:lineHeight="@dimen/ow" />

@@ -1,12 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ag2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/acy" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" app:layout_constraintVertical_chainStyle="apo">
-        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/eq" android:id="@id/bc4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ah7" android:layout_marginStart="15.0dip" />
-        <TextView android:textSize="12.0sp" android:textColor="#ff5a4426" android:gravity="center_vertical" android:id="@id/b8w" android:background="@drawable/kz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aek" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@id/ag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/acy"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv"
+        app:layout_constraintVertical_chainStyle="apo">
+        <TextView
+            android:id="@id/bc4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15.0dip"
+            android:text="@string/ah7"
+            android:textColor="@color/eq"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@id/b8w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/kz"
+            android:gravity="center_vertical"
+            android:text="@string/aek"
+            android:textColor="#ff5a4426"
+            android:textSize="12.0sp"
+            android:visibility="gone" />
     </LinearLayout>
-    <com.videoai.aivpcore.sns.ui.SnsShareListView android:id="@id/acy" android:paddingTop="20.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/bmc" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/ag2" />
-    <include android:id="@id/acp" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" app:layout_constraintBottom_toTopOf="@id/bmc" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" layout="@layout/j1" />
-    <View android:id="@id/bmc" android:background="@color/jf" android:layout_width="0.0dip" android:layout_height="44.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
-    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/eq" android:gravity="center" android:id="@id/bb4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_a" android:drawablePadding="3.0dip" app:layout_constraintBottom_toBottomOf="@id/bmc" app:layout_constraintEnd_toEndOf="@id/bmc" app:layout_constraintStart_toStartOf="@id/bmc" app:layout_constraintTop_toTopOf="@id/bmc" />
+    <com.videoai.aivpcore.sns.ui.SnsShareListView
+        android:id="@id/acy"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingTop="20.0dip"
+        app:layout_constraintBottom_toTopOf="@id/bmc"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/ag2" />
+    <include
+        android:id="@id/acp"
+        layout="@layout/j1"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/bmc"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <View
+        android:id="@id/bmc"
+        android:layout_width="0.0dip"
+        android:layout_height="44.0dip"
+        android:background="@color/jf"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv" />
+    <TextView
+        android:id="@id/bb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="3.0dip"
+        android:gravity="center"
+        android:text="@string/a_a"
+        android:textColor="@color/eq"
+        android:textSize="14.0sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/bmc"
+        app:layout_constraintEnd_toEndOf="@id/bmc"
+        app:layout_constraintStart_toStartOf="@id/bmc"
+        app:layout_constraintTop_toTopOf="@id/bmc" />
 </androidx.constraintlayout.widget.ConstraintLayout>

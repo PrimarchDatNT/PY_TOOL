@@ -1,11 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/dialog_error_query_purchase_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:background="@drawable/hw" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/td" android:src="@drawable/ak9" android:adjustViewBounds="true" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textStyle="bold" android:textColor="@color/zo" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/td" android:text="@string/fq" android:layout_marginStart="@dimen/v7" android:layout_marginEnd="@dimen/v7" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textColor="@color/zo" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yf" android:text="@string/fp" android:layout_marginStart="@dimen/td" android:layout_marginEnd="@dimen/td" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textStyle="bold" android:textColor="@color/zo" android:gravity="center" android:layout_gravity="center" android:id="@id/bc1" android:background="@drawable/dx" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:layout_marginTop="@dimen/v7" android:layout_marginBottom="@dimen/ul" android:minWidth="@dimen/t4" android:text="@string/fw" android:textAllCaps="true" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textStyle="bold" android:textColor="@color/d6" android:gravity="center" android:id="@id/bd8" android:background="@drawable/e_" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:layout_marginBottom="@dimen/ul" android:text="@string/at3" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:tag="layout/dialog_error_query_purchase_0">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hw"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/td"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ak9" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/v7"
+            android:layout_marginTop="@dimen/td"
+            android:layout_marginEnd="@dimen/v7"
+            android:gravity="center"
+            android:text="@string/fq"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z1"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/td"
+            android:layout_marginTop="@dimen/yf"
+            android:layout_marginEnd="@dimen/td"
+            android:gravity="center"
+            android:text="@string/fp"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z1" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/bc1"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/x9"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/tz"
+            android:layout_marginTop="@dimen/v7"
+            android:layout_marginEnd="@dimen/tz"
+            android:layout_marginBottom="@dimen/ul"
+            android:background="@drawable/dx"
+            android:gravity="center"
+            android:minWidth="@dimen/t4"
+            android:text="@string/fw"
+            android:textAllCaps="true"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z1"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/bd8"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/x9"
+            android:layout_marginStart="@dimen/tz"
+            android:layout_marginEnd="@dimen/tz"
+            android:layout_marginBottom="@dimen/ul"
+            android:background="@drawable/e_"
+            android:gravity="center"
+            android:text="@string/at3"
+            android:textColor="@color/d6"
+            android:textSize="@dimen/z1"
+            android:textStyle="bold" />
     </LinearLayout>
 </FrameLayout>

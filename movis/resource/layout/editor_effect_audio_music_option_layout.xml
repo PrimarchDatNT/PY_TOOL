@@ -1,10 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/ahx" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
-        <ImageView android:id="@id/a_h" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/p5" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_alignParentStart="true" />
-        <TextView android:textSize="16.0sp" android:textColor="@drawable/us" android:gravity="center" android:id="@id/be7" android:background="@drawable/u1" android:visibility="gone" android:layout_width="113.0dip" android:layout_height="35.0dip" android:text="@string/a4f" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
-        <ImageView android:gravity="center" android:id="@id/a_e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:src="@drawable/u2" android:layout_toLeftOf="@id/be7" android:layout_centerVertical="true" android:layout_marginEnd="30.0dip" android:layout_toStartOf="@id/be7" />
-        <ImageView android:id="@id/a_i" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/p7" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@id/ahx"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:descendantFocusability="afterDescendants">
+        <ImageView
+            android:id="@id/a_h"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:src="@drawable/p5"
+            android:visibility="gone" />
+        <TextView
+            android:id="@id/be7"
+            android:layout_width="113.0dip"
+            android:layout_height="35.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/u1"
+            android:gravity="center"
+            android:text="@string/a4f"
+            android:textColor="@drawable/us"
+            android:textSize="16.0sp"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@id/a_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="30.0dip"
+            android:layout_marginRight="30.0dip"
+            android:layout_toStartOf="@id/be7"
+            android:layout_toLeftOf="@id/be7"
+            android:gravity="center"
+            android:src="@drawable/u2"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@id/a_i"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:src="@drawable/p7"
+            android:visibility="gone" />
     </RelativeLayout>
 </RelativeLayout>

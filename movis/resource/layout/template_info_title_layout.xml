@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/ke" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/dy" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_alignParentStart="true" />
-    <TextView android:textSize="18.0sp" android:textColor="@color/fp" android:gravity="center" android:id="@id/bi9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:lines="1" android:singleLine="true" android:layout_toRightOf="@id/ke" android:layout_centerVertical="true" android:layout_marginStart="2.0dip" android:layout_toEndOf="@id/ke" />
-    <ImageButton android:gravity="center" android:id="@id/l2" android:background="@color/xz" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/awu" android:text="@string/v3" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
-    <View android:background="@color/fx" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="48.0dip">
+    <ImageView
+        android:id="@id/ke"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingStart="8.0dip"
+        android:paddingLeft="8.0dip"
+        android:paddingEnd="8.0dip"
+        android:paddingRight="8.0dip"
+        android:scaleType="centerInside"
+        android:src="@drawable/dy" />
+    <TextView
+        android:id="@id/bi9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2.0dip"
+        android:layout_marginLeft="2.0dip"
+        android:layout_toEndOf="@id/ke"
+        android:layout_toRightOf="@id/ke"
+        android:gravity="center"
+        android:lines="1"
+        android:singleLine="true"
+        android:textColor="@color/fp"
+        android:textSize="18.0sp" />
+    <ImageButton
+        android:id="@id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/xz"
+        android:gravity="center"
+        android:padding="6.0dip"
+        android:src="@drawable/awu"
+        android:text="@string/v3" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/fx" />
 </RelativeLayout>

@@ -1,46 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:tag="layout/activity_extra_help_0" android:paddingLeft="@dimen/bl" android:paddingTop="@dimen/bm" android:paddingRight="@dimen/bl" android:paddingBottom="@dimen/bm" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/bl" android:paddingEnd="@dimen/bl"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
-                <EditText android:id="@id/vr" android:layout_width="100.0dip" android:layout_height="50.0dip" />
-                <Button android:id="@id/lx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apply Sns Flag" />
-                <Button android:id="@id/t_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设备注销" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/bl"
+    android:paddingLeft="@dimen/bl"
+    android:paddingTop="@dimen/bm"
+    android:paddingEnd="@dimen/bl"
+    android:paddingRight="@dimen/bl"
+    android:paddingBottom="@dimen/bm"
+    android:tag="layout/activity_extra_help_0">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@id/vr"
+                    android:layout_width="100.0dip"
+                    android:layout_height="50.0dip" />
+                <Button
+                    android:id="@id/lx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apply Sns Flag" />
+                <Button
+                    android:id="@id/t_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设备注销" />
             </LinearLayout>
-            <RelativeLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip">
-                <EditText android:id="@id/vp" android:layout_width="200.0dip" android:layout_height="50.0dip" android:hint="enter appkey" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
-                <Button android:id="@id/kd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apply appkey" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:visibility="visible">
+                <EditText
+                    android:id="@id/vp"
+                    android:layout_width="200.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:hint="enter appkey" />
+                <Button
+                    android:id="@id/kd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="Apply appkey" />
             </RelativeLayout>
-            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
-                <Button android:id="@id/km" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cur Splash Info" />
-                <Button android:id="@id/kv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Get Splash" />
-                <Button android:id="@id/l3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Media Check" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@id/km"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cur Splash Info" />
+                <Button
+                    android:id="@id/kv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Get Splash" />
+                <Button
+                    android:id="@id/l3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Media Check"
+                    android:visibility="gone" />
             </LinearLayout>
-            <RelativeLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip">
-                <Button android:id="@id/kc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apply ABTest" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
-                <EditText android:id="@id/us" android:layout_width="200.0dip" android:layout_height="50.0dip" android:hint="enter AB Test" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:visibility="visible">
+                <Button
+                    android:id="@id/kc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="Apply ABTest" />
+                <EditText
+                    android:id="@id/us"
+                    android:layout_width="200.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:hint="enter AB Test" />
             </RelativeLayout>
-            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <Button android:id="@id/kb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="APK INFO" />
-                <Button android:id="@id/m7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="set视频质量参数" />
-                <Button android:id="@id/b19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置config值" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@id/kb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APK INFO" />
+                <Button
+                    android:id="@id/m7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="set视频质量参数" />
+                <Button
+                    android:id="@id/b19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设置config值" />
             </LinearLayout>
-            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <Button android:id="@id/ku" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Export KeyPathFile" />
-                <Button android:id="@id/l4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Monitor Setting" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@id/ku"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Export KeyPathFile" />
+                <Button
+                    android:id="@id/l4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Monitor Setting" />
             </LinearLayout>
-            <Button android:gravity="center" android:id="@id/kk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="copy database r\n(make sure no database task running)" />
-            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                <EditText android:id="@id/wj" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="设置青少年模式时间(单位秒)" android:layout_weight="1.0" />
-                <Button android:id="@id/ls" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置" />
+            <Button
+                android:id="@id/kk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="copy database r\n(make sure no database task running)" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@id/wj"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:hint="设置青少年模式时间(单位秒)" />
+                <Button
+                    android:id="@id/ls"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设置" />
             </LinearLayout>
-            <CheckBox android:textColor="#ff000000" android:id="@id/aiz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Logger event to web: ip:9988 测试包才有" />
-            <TextView android:textColor="#ff000000" android:id="@id/aj0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="在浏览器打开: http://手机ip:9988" />
-            <CheckBox android:textColor="#ff000000" android:id="@id/c4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AdLog" />
-            <CheckBox android:textColor="#ff000000" android:id="@id/x8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Faker Google Channel" />
-            <CheckBox android:textColor="#ff000000" android:id="@id/a0d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Force Show Logo WaterMark" />
-            <TextView android:id="@id/bj_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="appstate" />
+            <CheckBox
+                android:id="@id/aiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logger event to web: ip:9988 测试包才有"
+                android:textColor="#ff000000" />
+            <TextView
+                android:id="@id/aj0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="在浏览器打开: http://手机ip:9988"
+                android:textColor="#ff000000" />
+            <CheckBox
+                android:id="@id/c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AdLog"
+                android:textColor="#ff000000" />
+            <CheckBox
+                android:id="@id/x8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faker Google Channel"
+                android:textColor="#ff000000" />
+            <CheckBox
+                android:id="@id/a0d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Force Show Logo WaterMark"
+                android:textColor="#ff000000" />
+            <TextView
+                android:id="@id/bj_"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="appstate" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

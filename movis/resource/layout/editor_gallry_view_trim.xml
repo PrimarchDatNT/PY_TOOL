@@ -1,27 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/afh" android:background="@color/dr" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <SurfaceView android:id="@id/as5" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <com.github.chrisbanes.photoview.PhotoView android:id="@id/aq7" android:visibility="invisible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+    <RelativeLayout
+        android:id="@id/afh"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/dr"
+        android:visibility="visible">
+        <SurfaceView
+            android:id="@id/as5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="false" />
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@id/aq7"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="false"
+            android:visibility="invisible" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/as3" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignLeft="@id/afh" android:layout_alignTop="@id/afh" android:layout_alignRight="@id/afh" android:layout_alignBottom="@id/afh" android:layout_alignStart="@id/afh" android:layout_alignEnd="@id/afh" />
-    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/aij" android:visibility="invisible" android:layout_width="47.0dip" android:layout_height="wrap_content" android:layout_above="@id/q2" android:layout_alignRight="@id/afh" android:layout_alignWithParentIfMissing="true" android:layout_alignEnd="@id/afh">
-        <ImageButton android:id="@id/a67" android:background="@drawable/v6" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/qe" android:onClick="onClick" />
-        <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="0.0dip" />
-        <RelativeLayout android:id="@id/axq" android:layout_width="47.0dip" android:layout_height="42.0dip">
-            <ImageButton android:id="@id/a68" android:background="@drawable/v6" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/qd" android:layout_alignParentBottom="true" android:onClick="onClick" />
-            <TextView android:textSize="12.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/bim" android:background="@drawable/v7" android:visibility="invisible" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="-9.0dip" android:layout_marginRight="-9.0dip" android:layout_alignTop="@id/a68" android:layout_alignRight="@id/a68" android:layout_marginEnd="-9.0dip" android:layout_alignEnd="@id/a68" />
+    <RelativeLayout
+        android:id="@id/as3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignStart="@id/afh"
+        android:layout_alignLeft="@id/afh"
+        android:layout_alignTop="@id/afh"
+        android:layout_alignEnd="@id/afh"
+        android:layout_alignRight="@id/afh"
+        android:layout_alignBottom="@id/afh"
+        android:background="@color/xz" />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@id/aij"
+        android:layout_width="47.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_above="@id/q2"
+        android:layout_alignEnd="@id/afh"
+        android:layout_alignRight="@id/afh"
+        android:orientation="vertical"
+        android:visibility="invisible">
+        <ImageButton
+            android:id="@id/a67"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:background="@drawable/v6"
+            android:onClick="onClick"
+            android:src="@drawable/qe" />
+        <androidx.legacy.widget.Space
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip" />
+        <RelativeLayout
+            android:id="@id/axq"
+            android:layout_width="47.0dip"
+            android:layout_height="42.0dip">
+            <ImageButton
+                android:id="@id/a68"
+                android:layout_width="32.0dip"
+                android:layout_height="32.0dip"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/v6"
+                android:onClick="onClick"
+                android:src="@drawable/qd" />
+            <TextView
+                android:id="@id/bim"
+                android:layout_width="18.0dip"
+                android:layout_height="18.0dip"
+                android:layout_alignTop="@id/a68"
+                android:layout_alignEnd="@id/a68"
+                android:layout_alignRight="@id/a68"
+                android:layout_marginTop="-9.0dip"
+                android:layout_marginEnd="-9.0dip"
+                android:layout_marginRight="-9.0dip"
+                android:background="@drawable/v7"
+                android:gravity="center"
+                android:textColor="@color/zo"
+                android:textSize="12.0sp"
+                android:visibility="invisible" />
         </RelativeLayout>
     </androidx.appcompat.widget.LinearLayoutCompat>
-    <ImageButton android:id="@id/a66" android:background="@drawable/v6" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/qe" android:layout_alignRight="@id/afh" android:layout_alignBottom="@id/afh" android:onClick="onClick" android:layout_marginEnd="15.0dip" android:layout_alignEnd="@id/afh" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/q2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-30.0dip" android:layout_alignBottom="@id/afh" android:layoutDirection="ltr">
-        <androidx.legacy.widget.Space android:layout_width="36.0dip" android:layout_height="wrap_content" />
-        <include android:id="@id/agl" layout="@layout/f6" />
+    <ImageButton
+        android:id="@id/a66"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:layout_alignEnd="@id/afh"
+        android:layout_alignRight="@id/afh"
+        android:layout_alignBottom="@id/afh"
+        android:layout_marginEnd="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginBottom="15.0dip"
+        android:background="@drawable/v6"
+        android:onClick="onClick"
+        android:src="@drawable/qe"
+        android:visibility="gone" />
+    <LinearLayout
+        android:id="@id/q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/afh"
+        android:layout_marginBottom="-30.0dip"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal">
+        <androidx.legacy.widget.Space
+            android:layout_width="36.0dip"
+            android:layout_height="wrap_content" />
+        <include
+            android:id="@id/agl"
+            layout="@layout/f6" />
     </LinearLayout>
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_alignTop="@id/q2" android:layout_alignBottom="@id/q2" android:layoutDirection="ltr">
-        <ImageButton android:id="@id/a62" android:background="@color/xz" android:padding="11.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/uz" android:layout_centerVertical="true" android:onClick="onClick" android:contentDescription="@null" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@id/q2"
+        android:layout_alignBottom="@id/q2"
+        android:layout_marginTop="0.0dip"
+        android:layoutDirection="ltr">
+        <ImageButton
+            android:id="@id/a62"
+            android:layout_width="36.0dip"
+            android:layout_height="36.0dip"
+            android:layout_centerVertical="true"
+            android:background="@color/xz"
+            android:contentDescription="@null"
+            android:onClick="onClick"
+            android:padding="11.0dip"
+            android:src="@drawable/uz" />
     </RelativeLayout>
-    <include android:visibility="gone" android:layout_width="@dimen/a4y" android:layout_height="@dimen/a4x" android:layout_marginTop="50.0dip" android:layout_alignTop="@id/afg" android:layout_centerHorizontal="true" layout="@layout/gu" />
-    <ImageView android:id="@id/a52" android:background="@color/xz" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    <include
+        layout="@layout/gu"
+        android:layout_width="@dimen/a4y"
+        android:layout_height="@dimen/a4x"
+        android:layout_alignTop="@id/afg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50.0dip"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@id/a52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/xz"
+        android:scaleType="fitXY"
+        android:visibility="invisible" />
 </RelativeLayout>

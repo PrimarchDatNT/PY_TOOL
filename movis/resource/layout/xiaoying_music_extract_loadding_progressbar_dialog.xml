@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ProgressBar android:id="@id/amr" android:layout_width="27.0dip" android:layout_height="27.0dip" android:indeterminateDrawable="@drawable/b4s" android:layout_centerInParent="true" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/xz"
+    android:orientation="vertical">
+    <ProgressBar
+        android:id="@id/amr"
+        android:layout_width="27.0dip"
+        android:layout_height="27.0dip"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/b4s" />
 </LinearLayout>

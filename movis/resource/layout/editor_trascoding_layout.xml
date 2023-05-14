@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/bv" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="115.0dip" android:src="@drawable/qf" />
-    <TextView android:textSize="16.0sp" android:textColor="@color/zo" android:id="@id/bfc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
-    <TextView android:textSize="35.0dip" android:textColor="@color/zo" android:gravity="center" android:id="@id/bjm" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:lines="1" />
-    <ProgressBar android:id="@id/asa" android:layout_width="268.0dip" android:layout_height="2.0dip" android:layout_marginTop="5.0dip" android:progress="0" android:progressDrawable="@drawable/sq" style="?android:progressBarStyleHorizontal" />
-    <TextView android:textSize="12.0sp" android:textColor="@color/zz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/e4" />
-    <ImageButton android:id="@id/a_0" android:background="@null" android:padding="6.0dip" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="36.0dip" android:src="@drawable/qc" android:contentDescription="@null" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bv"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115.0dip"
+        android:src="@drawable/qf" />
+    <TextView
+        android:id="@id/bfc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:textColor="@color/zo"
+        android:textSize="16.0sp" />
+    <TextView
+        android:id="@id/bjm"
+        android:layout_width="100.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:gravity="center"
+        android:lines="1"
+        android:textColor="@color/zo"
+        android:textSize="35.0dip" />
+    <ProgressBar
+        android:id="@id/asa"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="268.0dip"
+        android:layout_height="2.0dip"
+        android:layout_marginTop="5.0dip"
+        android:progress="0"
+        android:progressDrawable="@drawable/sq" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:text="@string/e4"
+        android:textColor="@color/zz"
+        android:textSize="12.0sp" />
+    <ImageButton
+        android:id="@id/a_0"
+        android:layout_width="28.0dip"
+        android:layout_height="28.0dip"
+        android:layout_marginTop="36.0dip"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:padding="6.0dip"
+        android:src="@drawable/qc" />
 </LinearLayout>

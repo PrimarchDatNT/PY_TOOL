@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="@dimen/yz" android:textColor="@drawable/a69" android:gravity="center" android:orientation="vertical" android:id="@id/yf" android:background="@drawable/jf" android:paddingTop="@dimen/td" android:paddingBottom="@dimen/td" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/yf"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/jf"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/td"
+    android:paddingBottom="@dimen/td"
+    android:textColor="@drawable/a69"
+    android:textSize="@dimen/yz" />

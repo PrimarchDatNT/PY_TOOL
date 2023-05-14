@@ -1,26 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/bn" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/a1o" android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="@dimen/a4_">
-        <ImageView android:id="@id/bps" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:src="@drawable/ask" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_alignParentStart="true" />
-        <RelativeLayout android:id="@id/a19" android:visibility="gone" android:layout_width="140.0dip" android:layout_height="fill_parent" android:layout_centerInParent="true">
-            <TextView android:textSize="9.0sp" android:textColor="@color/fw" android:id="@id/b99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/a8b" android:maxLines="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
-            <TextView android:textSize="17.0sp" android:textColor="@color/zo" android:id="@id/a1n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agz" android:maxLines="1" android:layout_above="@id/b99" android:layout_centerHorizontal="true" />
-            <ImageView android:id="@id/a1f" android:background="@drawable/b6o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginBottom="5.0dip" android:layout_toRightOf="@id/a1n" android:layout_alignBottom="@id/a1n" android:layout_marginStart="3.0dip" android:layout_toEndOf="@id/a1n" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bn">
+    <RelativeLayout
+        android:id="@id/a1o"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/a4_"
+        android:background="@color/dt">
+        <ImageView
+            android:id="@id/bps"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/ask" />
+        <RelativeLayout
+            android:id="@id/a19"
+            android:layout_width="140.0dip"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:visibility="gone">
+            <TextView
+                android:id="@id/b99"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5.0dip"
+                android:maxLines="1"
+                android:text="@string/a8b"
+                android:textColor="@color/fw"
+                android:textSize="9.0sp" />
+            <TextView
+                android:id="@id/a1n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/b99"
+                android:layout_centerHorizontal="true"
+                android:maxLines="1"
+                android:text="@string/agz"
+                android:textColor="@color/zo"
+                android:textSize="17.0sp" />
+            <ImageView
+                android:id="@id/a1f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/a1n"
+                android:layout_marginStart="3.0dip"
+                android:layout_marginLeft="3.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:layout_toEndOf="@id/a1n"
+                android:layout_toRightOf="@id/a1n"
+                android:background="@drawable/b6o" />
         </RelativeLayout>
-        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/a18" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="140.0dip" android:layout_centerHorizontal="true">
-            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/n_" android:gravity="center_vertical" android:id="@id/gz" android:paddingLeft="22.0dip" android:paddingRight="22.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/aln" />
-            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/g9" android:gravity="center_vertical" android:id="@id/gy" android:paddingLeft="22.0dip" android:paddingRight="22.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/alm" />
+        <LinearLayout
+            android:id="@id/a18"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:minWidth="140.0dip"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <TextView
+                android:id="@id/gz"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="22.0dip"
+                android:paddingRight="22.0dip"
+                android:text="@string/aln"
+                android:textColor="@color/n_"
+                android:textSize="17.0sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@id/gy"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="22.0dip"
+                android:paddingRight="22.0dip"
+                android:text="@string/alm"
+                android:textColor="@color/g9"
+                android:textSize="17.0sp"
+                android:textStyle="bold" />
         </LinearLayout>
-        <TextView android:textSize="17.0sp" android:textColor="@color/zo" android:id="@id/b_5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/agz" android:maxLines="1" android:layout_toRightOf="@id/bps" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/bps" />
-        <ImageButton android:id="@id/a16" android:background="@color/xz" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:src="@drawable/b6m" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true" />
+        <TextView
+            android:id="@id/b_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toEndOf="@id/bps"
+            android:layout_toRightOf="@id/bps"
+            android:maxLines="1"
+            android:text="@string/agz"
+            android:textColor="@color/zo"
+            android:textSize="17.0sp"
+            android:visibility="gone" />
+        <ImageButton
+            android:id="@id/a16"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:background="@color/xz"
+            android:paddingLeft="5.0dip"
+            android:paddingRight="5.0dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/b6m"
+            android:visibility="gone" />
     </RelativeLayout>
-    <RelativeLayout android:gravity="center_horizontal" android:id="@id/a15" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/a1o" />
-    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/a1a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/a15">
-        <com.google.android.material.appbar.AppBarLayout android:gravity="center" android:background="#1affffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <com.google.android.material.tabs.TabLayout android:id="@id/a1i" android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_centerHorizontal="true" app:layout_scrollFlags="azw|wa" app:tabGravity="o0" app:tabIndicatorColor="@color/n_" app:tabIndicatorHeight="2.0dip" app:tabMode="b01" app:tabSelectedTextColor="@color/n_" app:tabTextColor="@color/gl" />
+    <RelativeLayout
+        android:id="@id/a15"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a1o"
+        android:gravity="center_horizontal" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@id/a1a"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/a15">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#1affffff"
+            android:gravity="center">
+            <com.google.android.material.tabs.TabLayout
+                android:id="@id/a1i"
+                android:layout_width="wrap_content"
+                android:layout_height="44.0dip"
+                android:layout_centerHorizontal="true"
+                app:layout_scrollFlags="azw|wa"
+                app:tabGravity="o0"
+                app:tabIndicatorColor="@color/n_"
+                app:tabIndicatorHeight="2.0dip"
+                app:tabMode="b01"
+                app:tabSelectedTextColor="@color/n_"
+                app:tabTextColor="@color/gl" />
         </com.google.android.material.appbar.AppBarLayout>
-        <com.videoai.aivpcore.common.ui.XYViewPager android:id="@id/a1q" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ch" />
+        <com.videoai.aivpcore.common.ui.XYViewPager
+            android:id="@id/a1q"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:layout_behavior="@string/ch" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
-    <com.videoai.aivpcore.gallery.storyboard.StoryBoardView android:id="@id/a1h" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.videoai.aivpcore.gallery.storyboard.StoryBoardView
+        android:id="@id/a1h"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
 </RelativeLayout>

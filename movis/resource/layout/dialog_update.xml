@@ -1,11 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/td">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/a9w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/td" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" app:srcCompat="@drawable/aku" />
-        <TextView android:textSize="@dimen/z1" android:textStyle="bold" android:textColor="@color/zo" android:gravity="center" android:id="@id/bic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/kw" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/a9w" />
-        <TextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:gravity="center" android:id="@id/bdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yf" android:text="@string/ku" android:layout_marginStart="@dimen/wd" android:layout_marginEnd="@dimen/wd" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/bic" />
-        <TextView android:textSize="@dimen/z1" android:textStyle="bold" android:textColor="@color/zo" android:gravity="center" android:id="@id/m6" android:background="@drawable/dx" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:layout_marginTop="@dimen/ul" android:layout_marginBottom="@dimen/ul" android:text="@string/kv" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/bdp" />
-        <TextView android:textSize="@dimen/z1" android:textStyle="bold" android:textColor="@color/d6" android:gravity="center" android:id="@id/kz" android:background="@drawable/e_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:layout_marginTop="@dimen/ul" android:layout_marginBottom="@dimen/ul" android:text="@string/d6" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/m6" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/td"
+        android:background="@drawable/et">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/a9w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/td"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toTopOf="apv"
+            app:srcCompat="@drawable/aku" />
+        <TextView
+            android:id="@id/bic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:gravity="center"
+            android:text="@string/kw"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z1"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toBottomOf="@id/a9w" />
+        <TextView
+            android:id="@id/bdp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/wd"
+            android:layout_marginTop="@dimen/yf"
+            android:layout_marginEnd="@dimen/wd"
+            android:gravity="center"
+            android:text="@string/ku"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z0"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toBottomOf="@id/bic" />
+        <TextView
+            android:id="@id/m6"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/x9"
+            android:layout_marginStart="@dimen/tz"
+            android:layout_marginTop="@dimen/ul"
+            android:layout_marginEnd="@dimen/tz"
+            android:layout_marginBottom="@dimen/ul"
+            android:background="@drawable/dx"
+            android:gravity="center"
+            android:text="@string/kv"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z1"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toBottomOf="@id/bdp" />
+        <TextView
+            android:id="@id/kz"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/x9"
+            android:layout_marginStart="@dimen/tz"
+            android:layout_marginTop="@dimen/ul"
+            android:layout_marginEnd="@dimen/tz"
+            android:layout_marginBottom="@dimen/ul"
+            android:background="@drawable/e_"
+            android:gravity="center"
+            android:text="@string/d6"
+            android:textColor="@color/d6"
+            android:textSize="@dimen/z1"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toBottomOf="@id/m6" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

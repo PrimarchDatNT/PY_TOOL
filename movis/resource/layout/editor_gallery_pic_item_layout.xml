@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="#1affffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/aq9" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/qb" android:scaleType="center" android:layout_centerInParent="true" />
-    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/qv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/a1b" android:layout_centerInParent="true" />
-    <ImageView android:id="@id/qu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/b1e" android:scaleType="centerCrop" android:layout_centerInParent="true" />
-    <ImageView android:id="@id/aq8" android:background="@drawable/w6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/qa" android:scaleType="center" android:layout_centerInParent="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1affffff">
+    <ImageView
+        android:id="@id/aq9"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="center"
+        android:src="@drawable/qb"
+        android:visibility="visible" />
+    <TextView
+        android:id="@id/qv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/a1b"
+        android:textColor="@android:color/white"
+        android:textSize="14.0sp"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@id/qu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/b1e" />
+    <ImageView
+        android:id="@id/aq8"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/w6"
+        android:scaleType="center"
+        android:src="@drawable/qa"
+        android:visibility="gone" />
 </RelativeLayout>

@@ -1,15 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.afollestad.materialdialogs.internal.MDRootLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<com.afollestad.materialdialogs.internal.MDRootLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
     <include layout="@layout/t2" />
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ScrollView android:id="@id/ak9" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textSize="@dimen/mh" android:id="@id/ak6" android:paddingLeft="@dimen/mi" android:paddingTop="@dimen/mg" android:paddingRight="@dimen/mi" android:paddingBottom="@dimen/mf" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:id="@id/ak9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false">
+            <TextView
+                android:id="@id/ak6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/mi"
+                android:paddingTop="@dimen/mg"
+                android:paddingRight="@dimen/mi"
+                android:paddingBottom="@dimen/mf"
+                android:textSize="@dimen/mh" />
         </ScrollView>
-        <FrameLayout android:id="@id/ak7" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/ak8" android:paddingTop="@dimen/mg" android:paddingBottom="@dimen/mf" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout
+            android:id="@id/ak7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/ak8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:paddingTop="@dimen/mg"
+                android:paddingBottom="@dimen/mf"
+                android:scrollbarStyle="outsideOverlay"
+                android:scrollbars="vertical" />
         </FrameLayout>
-        <CheckBox android:gravity="start|center" android:layout_gravity="start" android:id="@id/ake" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mw" android:layout_marginRight="@dimen/mw" />
+        <CheckBox
+            android:id="@id/ake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="@dimen/mw"
+            android:layout_marginRight="@dimen/mw"
+            android:focusable="true"
+            android:gravity="start|center" />
     </LinearLayout>
     <include layout="@layout/sx" />
 </com.afollestad.materialdialogs.internal.MDRootLayout>

@@ -1,16 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/qj" app:cardCornerRadius="@dimen/ji"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:id="@id/y0" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" app:layout_constraintDimensionRatio="16:9" app:layout_constraintTop_toTopOf="apv" />
-        <TextView android:textSize="@dimen/jq" android:textColor="@color/ql" android:ellipsize="end" android:id="@id/y1" android:background="@color/qk" android:padding="@dimen/jm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintTop_toTopOf="apv" />
-        <ImageView android:id="@id/xy" android:layout_width="@dimen/jo" android:layout_height="@dimen/jo" app:layout_constraintBottom_toBottomOf="@id/y0" app:layout_constraintLeft_toLeftOf="@id/y0" app:layout_constraintRight_toRightOf="@id/y0" app:layout_constraintTop_toBottomOf="@id/y1" app:srcCompat="@drawable/fcm_notification_vector_play_big" />
-        <ImageView android:id="@id/xz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/jj" android:layout_marginTop="@dimen/jl" android:layout_marginRight="@dimen/jj" android:scaleType="fitXY" app:layout_constraintTop_toBottomOf="@id/y0" app:srcCompat="@drawable/fcm_notification_ic_progress_bar" />
-        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jk" android:layout_marginBottom="@dimen/jk" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintLeft_toLeftOf="@id/xz" app:layout_constraintTop_toBottomOf="@id/xz">
-            <ImageView android:layout_width="@dimen/jn" android:layout_height="@dimen/jn" app:srcCompat="@drawable/fcm_notification_vector_previous" />
-            <ImageView android:layout_width="@dimen/jn" android:layout_height="@dimen/jn" app:srcCompat="@drawable/fcm_notification_vector_play" />
-            <ImageView android:layout_width="@dimen/jn" android:layout_height="@dimen/jn" app:srcCompat="@drawable/fcm_notification_vector_next" />
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/qj"
+    app:cardCornerRadius="@dimen/ji">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/y0"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="16:9"
+            app:layout_constraintTop_toTopOf="apv" />
+        <TextView
+            android:id="@id/y1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/qk"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="@dimen/jm"
+            android:textColor="@color/ql"
+            android:textSize="@dimen/jq"
+            app:layout_constraintLeft_toLeftOf="apv"
+            app:layout_constraintTop_toTopOf="apv" />
+        <ImageView
+            android:id="@id/xy"
+            android:layout_width="@dimen/jo"
+            android:layout_height="@dimen/jo"
+            app:layout_constraintBottom_toBottomOf="@id/y0"
+            app:layout_constraintLeft_toLeftOf="@id/y0"
+            app:layout_constraintRight_toRightOf="@id/y0"
+            app:layout_constraintTop_toBottomOf="@id/y1"
+            app:srcCompat="@drawable/fcm_notification_vector_play_big" />
+        <ImageView
+            android:id="@id/xz"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/jj"
+            android:layout_marginTop="@dimen/jl"
+            android:layout_marginRight="@dimen/jj"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toBottomOf="@id/y0"
+            app:srcCompat="@drawable/fcm_notification_ic_progress_bar" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/jk"
+            android:layout_marginBottom="@dimen/jk"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintLeft_toLeftOf="@id/xz"
+            app:layout_constraintTop_toBottomOf="@id/xz">
+            <ImageView
+                android:layout_width="@dimen/jn"
+                android:layout_height="@dimen/jn"
+                app:srcCompat="@drawable/fcm_notification_vector_previous" />
+            <ImageView
+                android:layout_width="@dimen/jn"
+                android:layout_height="@dimen/jn"
+                app:srcCompat="@drawable/fcm_notification_vector_play" />
+            <ImageView
+                android:layout_width="@dimen/jn"
+                android:layout_height="@dimen/jn"
+                app:srcCompat="@drawable/fcm_notification_vector_next" />
         </LinearLayout>
-        <ImageView android:layout_width="@dimen/jp" android:layout_height="@dimen/jp" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintRight_toRightOf="@id/xz" app:layout_constraintTop_toBottomOf="@id/xz" app:srcCompat="@drawable/fcm_notification_vector_setting" />
+        <ImageView
+            android:layout_width="@dimen/jp"
+            android:layout_height="@dimen/jp"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintRight_toRightOf="@id/xz"
+            app:layout_constraintTop_toBottomOf="@id/xz"
+            app:srcCompat="@drawable/fcm_notification_vector_setting" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

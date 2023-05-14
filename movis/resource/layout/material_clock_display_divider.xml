@@ -1,3 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView android:textAppearance="?a_y" android:textSize="56.0dip" android:textColor="?ho" android:gravity="center" android:layout_width="@dimen/ks" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/gd" android:maxEms="1" android:includeFontPadding="false" android:lineSpacingExtra="0.0dip" android:importantForAccessibility="no"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/ks"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4.0dip"
+    android:gravity="center"
+    android:importantForAccessibility="no"
+    android:includeFontPadding="false"
+    android:lineSpacingExtra="0.0dip"
+    android:maxEms="1"
+    android:text="@string/gd"
+    android:textAppearance="?a_y"
+    android:textColor="?ho"
+    android:textSize="56.0dip" />

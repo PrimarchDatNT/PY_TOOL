@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/a74" android:layout_width="@dimen/te" android:layout_height="@dimen/xh"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/yz" android:textStyle="bold" android:textColor="@color/zo" android:id="@id/bbt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/te"
+    android:layout_height="@dimen/xh"
+    android:background="@drawable/a74">
+    <TextView
+        android:id="@id/bbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/yz"
+        android:textStyle="bold" />
 </RelativeLayout>

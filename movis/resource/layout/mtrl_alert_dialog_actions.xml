@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:id="@id/mg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" style="?eg"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.ButtonBarLayout android:gravity="bottom" android:orientation="horizontal" android:paddingLeft="8.0dip" android:paddingTop="2.0dip" android:paddingRight="8.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
-        <Button android:id="@android:id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?ee" />
-        <android.widget.Space android:id="@id/b3v" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
-        <Button android:id="@android:id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?ed" />
-        <Button android:id="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?ef" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/mg"
+    style="?eg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+    <androidx.appcompat.widget.ButtonBarLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layoutDirection="locale"
+        android:orientation="horizontal"
+        android:paddingStart="8.0dip"
+        android:paddingLeft="8.0dip"
+        android:paddingTop="2.0dip"
+        android:paddingEnd="8.0dip"
+        android:paddingRight="8.0dip"
+        android:paddingBottom="2.0dip">
+        <Button
+            android:id="@android:id/button3"
+            style="?ee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.widget.Space
+            android:id="@id/b3v"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:visibility="invisible" />
+        <Button
+            android:id="@android:id/button2"
+            style="?ed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@android:id/button1"
+            style="?ef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </androidx.appcompat.widget.ButtonBarLayout>
 </ScrollView>

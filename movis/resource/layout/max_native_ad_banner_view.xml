@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@android:color/white" android:layout_width="320.0dip" android:layout_height="50.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/f6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/f4" android:layout_toStartOf="@id/f4" layout="@layout/s_" />
-    <Button android:textSize="15.0sp" android:id="@id/f4" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320.0dip"
+    android:layout_height="50.0dip"
+    android:background="@android:color/white">
+    <include
+        android:id="@id/f6"
+        layout="@layout/s_"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toStartOf="@id/f4"
+        android:layout_toLeftOf="@id/f4" />
+    <Button
+        android:id="@id/f4"
+        style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton"
+        android:layout_width="wrap_content"
+        android:layout_height="24.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:textSize="15.0sp" />
 </RelativeLayout>

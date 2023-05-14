@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/new_item_title_layout_0" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textColor="@color/xj" android:gravity="center" android:layout_gravity="center" android:id="@id/bcb" android:background="@drawable/apw" android:paddingTop="@dimen/x5" android:paddingBottom="@dimen/x5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/td" android:paddingEnd="@dimen/td" android:layout_marginStart="@dimen/xz" android:layout_marginEnd="@dimen/xz" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:tag="layout/new_item_title_layout_0">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bcb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/xz"
+        android:layout_marginEnd="@dimen/xz"
+        android:background="@drawable/apw"
+        android:gravity="center"
+        android:paddingStart="@dimen/td"
+        android:paddingTop="@dimen/x5"
+        android:paddingEnd="@dimen/td"
+        android:paddingBottom="@dimen/x5"
+        android:textColor="@color/xj"
+        android:textSize="@dimen/yz" />
 </FrameLayout>

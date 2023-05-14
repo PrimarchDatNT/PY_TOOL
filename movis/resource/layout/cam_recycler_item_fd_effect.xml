@@ -1,13 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:attr="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/aj8" android:layout_width="70.0dip" android:layout_height="70.0dip">
-        <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/a5d" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_centerInParent="true" attr:actualImageScaleType="o2" attr:roundedCornerRadius="2.0dip" />
-        <ImageView android:id="@id/a5c" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/az_" android:layout_centerInParent="true" />
-        <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/tx" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" />
-        <ImageView android:id="@id/a5n" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/b0z" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
-        <ImageView android:id="@id/a5_" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/b0w" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
-        <ImageView android:id="@id/a51" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/jx" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_marginStart="8.0dip" android:layout_alignParentStart="true" />
-        <ImageView android:id="@id/a5i" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/b0x" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@id/aj8"
+        android:layout_width="70.0dip"
+        android:layout_height="70.0dip">
+        <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+            android:id="@id/a5d"
+            android:layout_width="45.0dip"
+            android:layout_height="45.0dip"
+            android:layout_centerInParent="true"
+            attr:actualImageScaleType="o2"
+            attr:roundedCornerRadius="2.0dip" />
+        <ImageView
+            android:id="@id/a5c"
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_centerInParent="true"
+            android:src="@drawable/az_" />
+        <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+            android:id="@id/tx"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@id/a5n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginEnd="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/b0z"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@id/a5_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/b0w"
+            android:visibility="visible" />
+        <ImageView
+            android:id="@id/a51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/jx"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@id/a5i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/b0x"
+            android:visibility="gone" />
     </RelativeLayout>
 </RelativeLayout>

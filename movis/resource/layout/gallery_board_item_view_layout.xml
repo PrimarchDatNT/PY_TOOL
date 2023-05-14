@@ -1,9 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/yb" android:layout_height="@dimen/yb"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/a_8" android:background="@color/ak" android:layout_width="@dimen/y0" android:layout_height="@dimen/y0" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <TextView android:textColor="@color/zi" android:gravity="center" android:id="@id/be4" android:background="@drawable/ah4" android:paddingTop="@dimen/uk" android:paddingBottom="@dimen/uk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/xz" android:text="0:00" android:paddingStart="@dimen/yf" android:paddingEnd="@dimen/yf" app:layout_constraintBottom_toBottomOf="@id/a_8" app:layout_constraintEnd_toEndOf="@id/a_8" app:layout_constraintStart_toStartOf="@id/a_8" style="@style/x9" />
-    <View android:id="@id/a7r" android:background="@drawable/ahb" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="56.0dip" app:layout_constraintBottom_toBottomOf="@id/a_8" app:layout_constraintEnd_toEndOf="@id/a_8" app:layout_constraintStart_toStartOf="@id/a_8" app:layout_constraintTop_toTopOf="@id/a_8" />
-    <TextView android:textColor="@color/zi" android:id="@id/bgc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="01" android:layout_marginStart="4.0dip" app:layout_constraintStart_toStartOf="@id/a_8" app:layout_constraintTop_toTopOf="@id/a_8" app:layout_goneMarginStart="4.0dip" style="@style/x7" />
-    <ImageButton android:id="@id/ko" android:background="@drawable/jf" android:layout_width="@dimen/ul" android:layout_height="@dimen/ul" android:src="@drawable/adz" android:scaleType="fitXY" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintTop_toTopOf="apv" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/yb"
+    android:layout_height="@dimen/yb">
+    <ImageView
+        android:id="@id/a_8"
+        android:layout_width="@dimen/y0"
+        android:layout_height="@dimen/y0"
+        android:background="@color/ak"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <TextView
+        android:id="@id/be4"
+        style="@style/x9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/xz"
+        android:background="@drawable/ah4"
+        android:gravity="center"
+        android:paddingStart="@dimen/yf"
+        android:paddingTop="@dimen/uk"
+        android:paddingEnd="@dimen/yf"
+        android:paddingBottom="@dimen/uk"
+        android:text="0:00"
+        android:textColor="@color/zi"
+        app:layout_constraintBottom_toBottomOf="@id/a_8"
+        app:layout_constraintEnd_toEndOf="@id/a_8"
+        app:layout_constraintStart_toStartOf="@id/a_8" />
+    <View
+        android:id="@id/a7r"
+        android:layout_width="56.0dip"
+        android:layout_height="56.0dip"
+        android:background="@drawable/ahb"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/a_8"
+        app:layout_constraintEnd_toEndOf="@id/a_8"
+        app:layout_constraintStart_toStartOf="@id/a_8"
+        app:layout_constraintTop_toTopOf="@id/a_8" />
+    <TextView
+        android:id="@id/bgc"
+        style="@style/x7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginTop="2.0dip"
+        android:text="01"
+        android:textColor="@color/zi"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/a_8"
+        app:layout_constraintTop_toTopOf="@id/a_8"
+        app:layout_goneMarginStart="4.0dip" />
+    <ImageButton
+        android:id="@id/ko"
+        android:layout_width="@dimen/ul"
+        android:layout_height="@dimen/ul"
+        android:background="@drawable/jf"
+        android:scaleType="fitXY"
+        android:src="@drawable/adz"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
 </androidx.constraintlayout.widget.ConstraintLayout>

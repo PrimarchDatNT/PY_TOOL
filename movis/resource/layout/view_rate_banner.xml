@@ -1,21 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/ai" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/awx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ul">
-        <TextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:id="@id/bgs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jr" android:layout_alignParentTop="true" android:fontFamily="@font/f" android:layout_marginEnd="@dimen/tz" android:layout_toStartOf="@id/aax" android:layout_alignParentStart="true" />
-        <TextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:id="@id/bgr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tz" android:text="@string/jq" android:layout_below="@id/bgs" android:layout_marginEnd="@dimen/tz" android:layout_toStartOf="@id/aax" android:layout_alignParentStart="true" />
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/aax" android:layout_width="@dimen/t6" android:layout_height="@dimen/t6" android:src="@drawable/ap3" android:adjustViewBounds="true" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ai"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/tz"
+    android:paddingEnd="@dimen/tz">
+    <RelativeLayout
+        android:id="@id/awx"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ul">
+        <TextView
+            android:id="@id/bgs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="@dimen/tz"
+            android:layout_toStartOf="@id/aax"
+            android:fontFamily="@font/f"
+            android:text="@string/jr"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z0" />
+        <TextView
+            android:id="@id/bgr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bgs"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/tz"
+            android:layout_marginEnd="@dimen/tz"
+            android:layout_toStartOf="@id/aax"
+            android:text="@string/jq"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/yz" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/aax"
+            android:layout_width="@dimen/t6"
+            android:layout_height="@dimen/t6"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ap3" />
     </RelativeLayout>
-    <FrameLayout android:layout_gravity="center" android:id="@id/zg" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip">
-        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <ImageView android:id="@id/ab8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/apl" android:adjustViewBounds="true" android:layout_weight="0.25" />
-            <ImageView android:id="@id/ab9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/apl" android:adjustViewBounds="true" android:layout_weight="0.25" />
-            <ImageView android:id="@id/ab_" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/apl" android:adjustViewBounds="true" android:layout_weight="0.25" />
-            <ImageView android:id="@id/aba" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/apl" android:adjustViewBounds="true" android:layout_weight="0.25" />
-            <ImageView android:id="@id/abb" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/api" android:adjustViewBounds="true" android:layout_weight="0.25" />
+    <FrameLayout
+        android:id="@id/zg"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_gravity="center"
+        android:layout_marginStart="50.0dip"
+        android:layout_marginEnd="50.0dip">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@id/ab8"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:adjustViewBounds="true"
+                android:src="@drawable/apl" />
+            <ImageView
+                android:id="@id/ab9"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:adjustViewBounds="true"
+                android:src="@drawable/apl" />
+            <ImageView
+                android:id="@id/ab_"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:adjustViewBounds="true"
+                android:src="@drawable/apl" />
+            <ImageView
+                android:id="@id/aba"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:adjustViewBounds="true"
+                android:src="@drawable/apl" />
+            <ImageView
+                android:id="@id/abb"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:adjustViewBounds="true"
+                android:src="@drawable/api" />
         </LinearLayout>
-        <SeekBar android:id="@id/azk" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progress="0" android:alpha="0.0" />
+        <SeekBar
+            android:id="@id/azk"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:alpha="0.0"
+            android:progress="0" />
     </FrameLayout>
-    <TextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:gravity="center" android:layout_gravity="center" android:id="@id/bhg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/star_bar_message" />
-    <TextView android:textSize="@dimen/z1" android:textColor="@color/zo" android:gravity="center" android:id="@id/bgq" android:background="@drawable/dx" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:layout_marginTop="@dimen/ul" android:layout_marginBottom="@dimen/ul" android:text="@string/dr" android:fontFamily="@font/f" />
+    <TextView
+        android:id="@id/bhg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/star_bar_message"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/yz" />
+    <TextView
+        android:id="@id/bgq"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x9"
+        android:layout_marginTop="@dimen/ul"
+        android:layout_marginBottom="@dimen/ul"
+        android:background="@drawable/dx"
+        android:fontFamily="@font/f"
+        android:gravity="center"
+        android:text="@string/dr"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z1" />
 </LinearLayout>

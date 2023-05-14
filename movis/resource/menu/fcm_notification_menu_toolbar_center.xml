@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/fcm_notification_ic_toolbar_delete_all" android:id="@id/xu" android:title="@string/fcm_notification_center_toolbar_delete_all" app:showAsAction="a3p" />
-    <item android:icon="@drawable/fcm_notification_ic_toolbar_read_all" android:id="@id/xv" android:title="@string/fcm_notification_center_toolbar_read_all" app:showAsAction="a3p" />
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@id/xu" android:icon="@drawable/fcm_notification_ic_toolbar_delete_all" android:title="@string/fcm_notification_center_toolbar_delete_all" app:showAsAction="a3p" />
+    <item
+        android:id="@id/xv" android:icon="@drawable/fcm_notification_ic_toolbar_read_all" android:title="@string/fcm_notification_center_toolbar_read_all" app:showAsAction="a3p" />
 </menu>

@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout android:id="@id/aol" android:layout_width="@dimen/y_" android:layout_height="@dimen/yg">
-        <com.google.android.material.imageview.ShapeableImageView android:id="@id/a7e" android:layout_width="@dimen/y_" android:layout_height="@dimen/y0" android:src="@drawable/a9e" android:scaleType="centerCrop" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yy" android:textColor="@color/xj" android:gravity="center" android:id="@id/a8a" android:layout_width="fill_parent" android:layout_height="@dimen/ul" android:text="@string/ze" android:layout_alignParentBottom="true" />
-        <View android:id="@id/bmb" android:background="@drawable/apx" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout
+        android:id="@id/aol"
+        android:layout_width="@dimen/y_"
+        android:layout_height="@dimen/yg">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@id/a7e"
+            android:layout_width="@dimen/y_"
+            android:layout_height="@dimen/y0"
+            android:scaleType="centerCrop"
+            android:src="@drawable/a9e" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/a8a"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/ul"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="@string/ze"
+            android:textColor="@color/xj"
+            android:textSize="@dimen/yy" />
+        <View
+            android:id="@id/bmb"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/apx" />
     </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
 </LinearLayout>

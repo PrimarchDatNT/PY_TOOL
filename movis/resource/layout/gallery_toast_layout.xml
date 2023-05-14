@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/b_t" android:background="@drawable/ahm" android:layout_width="wrap_content" android:layout_height="42.0dip" android:minWidth="48.0dip" android:minLines="1" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@id/b_t"
+        android:layout_width="wrap_content"
+        android:layout_height="42.0dip"
+        android:background="@drawable/ahm"
+        android:gravity="center"
+        android:minWidth="48.0dip"
+        android:minLines="1"
+        android:paddingStart="24.0dip"
+        android:paddingEnd="24.0dip"
+        android:textColor="@android:color/white"
+        android:textSize="14.0sp" />
 </LinearLayout>

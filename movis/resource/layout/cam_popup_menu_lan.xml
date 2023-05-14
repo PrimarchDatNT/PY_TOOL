@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.videoai.aivpcore.camera.ui.view.HorizontalListView android:id="@id/arf" android:layout_width="240.0dip" android:layout_height="fill_parent" android:cacheColorHint="@color/xz" android:divider="@null" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <com.videoai.aivpcore.camera.ui.view.HorizontalListView
+        android:id="@id/arf"
+        android:layout_width="240.0dip"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@color/xz"
+        android:divider="@null" />
 </LinearLayout>

@@ -1,11 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="95.0dip" android:layout_height="95.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/abn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/b1e" android:scaleType="centerCrop" />
-    <FrameLayout android:id="@id/a7p" android:background="@drawable/ao8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <RelativeLayout android:id="@id/ba6" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
-        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/b10" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="x1" android:shadowColor="#40000000" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" />
-        <ImageButton android:id="@id/ky" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ao4" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="95.0dip"
+    android:layout_height="95.0dip">
+    <ImageView
+        android:id="@id/abn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/b1e" />
+    <FrameLayout
+        android:id="@id/a7p"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/ao8"
+        android:visibility="gone" />
+    <RelativeLayout
+        android:id="@id/ba6"
+        android:layout_width="fill_parent"
+        android:layout_height="36.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+        <TextView
+            android:id="@id/b10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:shadowColor="#40000000"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="x1"
+            android:textColor="@android:color/white"
+            android:textSize="12.0sp"
+            android:visibility="gone" />
+        <ImageButton
+            android:id="@id/ky"
+            android:layout_width="36.0dip"
+            android:layout_height="36.0dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/ao4" />
     </RelativeLayout>
-    <TextView android:textSize="11.0sp" android:textColor="@android:color/white" android:id="@id/uj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="4.0dip" android:text="00:00" android:layout_alignParentBottom="true" android:layout_marginStart="5.0dip" />
+    <TextView
+        android:id="@id/uj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginBottom="4.0dip"
+        android:text="00:00"
+        android:textColor="@android:color/white"
+        android:textSize="11.0sp"
+        android:visibility="gone" />
 </RelativeLayout>

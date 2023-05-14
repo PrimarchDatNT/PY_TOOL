@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/mg" android:paddingBottom="@dimen/mg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="76.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <EditText android:gravity="start" android:id="@id/v7" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:maxHeight="150.0dip" android:ems="10" android:scrollHorizontally="false" android:maxLength="250" android:lineSpacingExtra="5.0dip" android:inputType="textMultiLine" android:textCursorDrawable="@drawable/aun" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:minHeight="76.0dip"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/mg"
+    android:paddingBottom="@dimen/mg">
+    <EditText
+        android:id="@id/v7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginEnd="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="5.0dip"
+        android:maxHeight="150.0dip"
+        android:maxLength="250"
+        android:scrollHorizontally="false"
+        android:textCursorDrawable="@drawable/aun" />
 </LinearLayout>

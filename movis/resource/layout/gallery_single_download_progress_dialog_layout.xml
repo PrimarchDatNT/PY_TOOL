@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/tc" android:background="@drawable/ah6" android:layout_width="fill_parent" android:layout_height="190.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintDimensionRatio="280:164" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <com.videoedit.gallery.widget.RoundProgressBar android:layout_gravity="center_horizontal" android:id="@id/ayh" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="24.0dip" app:layout_constraintEnd_toEndOf="@id/tc" app:layout_constraintStart_toStartOf="@id/tc" app:layout_constraintTop_toTopOf="@id/tc" />
-    <TextView android:textColor="@color/zi" android:layout_gravity="center_horizontal" android:id="@id/bgm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" app:layout_constraintEnd_toEndOf="@id/tc" app:layout_constraintStart_toStartOf="@id/tc" app:layout_constraintTop_toBottomOf="@id/ayh" style="@style/x_" />
-    <TextView android:textColor="@color/zj" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/awb" app:layout_constraintEnd_toEndOf="@id/tc" app:layout_constraintStart_toStartOf="@id/tc" app:layout_constraintTop_toBottomOf="@id/bgm" style="@style/x3" />
-    <ImageButton android:id="@id/kg" android:background="@android:color/transparent" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.5dip" android:src="@drawable/aeh" android:layout_marginStart="5.5dip" app:layout_constraintStart_toStartOf="@id/tc" app:layout_constraintTop_toTopOf="@id/tc" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+    <View
+        android:id="@id/tc"
+        android:layout_width="fill_parent"
+        android:layout_height="190.0dip"
+        android:layout_marginStart="40.0dip"
+        android:layout_marginEnd="40.0dip"
+        android:background="@drawable/ah6"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintDimensionRatio="280:164"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <com.videoedit.gallery.widget.RoundProgressBar
+        android:id="@id/ayh"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24.0dip"
+        app:layout_constraintEnd_toEndOf="@id/tc"
+        app:layout_constraintStart_toStartOf="@id/tc"
+        app:layout_constraintTop_toTopOf="@id/tc" />
+    <TextView
+        android:id="@id/bgm"
+        style="@style/x_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12.0dip"
+        android:textColor="@color/zi"
+        app:layout_constraintEnd_toEndOf="@id/tc"
+        app:layout_constraintStart_toStartOf="@id/tc"
+        app:layout_constraintTop_toBottomOf="@id/ayh" />
+    <TextView
+        style="@style/x3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12.0dip"
+        android:text="@string/awb"
+        android:textColor="@color/zj"
+        app:layout_constraintEnd_toEndOf="@id/tc"
+        app:layout_constraintStart_toStartOf="@id/tc"
+        app:layout_constraintTop_toBottomOf="@id/bgm" />
+    <ImageButton
+        android:id="@id/kg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5.5dip"
+        android:layout_marginTop="5.5dip"
+        android:background="@android:color/transparent"
+        android:padding="4.0dip"
+        android:src="@drawable/aeh"
+        app:layout_constraintStart_toStartOf="@id/tc"
+        app:layout_constraintTop_toTopOf="@id/tc" />
 </androidx.constraintlayout.widget.ConstraintLayout>

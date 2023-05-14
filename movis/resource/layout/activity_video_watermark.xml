@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="#ff121212" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/a41" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/common_back_iocn_white" />
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-        <VideoView android:layout_gravity="center" android:id="@id/bm9" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <ImageView android:layout_gravity="center" android:id="@id/a47" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/xx" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff121212"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@id/a41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginTop="30.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginBottom="15.0dip"
+        android:src="@drawable/common_back_iocn_white" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <VideoView
+            android:id="@id/bm9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+        <ImageView
+            android:id="@id/a47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/xx" />
     </FrameLayout>
-    <Button android:textSize="14.0sp" android:textColor="@color/zo" android:layout_gravity="bottom|center" android:id="@id/l6" android:background="@drawable/j2" android:layout_width="138.0dip" android:layout_height="44.0dip" android:layout_marginTop="36.0dip" android:layout_marginBottom="40.0dip" android:text="@string/w7" android:textAllCaps="false" />
+    <Button
+        android:id="@id/l6"
+        android:layout_width="138.0dip"
+        android:layout_height="44.0dip"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="36.0dip"
+        android:layout_marginBottom="40.0dip"
+        android:background="@drawable/j2"
+        android:text="@string/w7"
+        android:textAllCaps="false"
+        android:textColor="@color/zo"
+        android:textSize="14.0sp" />
 </LinearLayout>

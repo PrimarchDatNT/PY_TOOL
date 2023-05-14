@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/ary" android:layout_width="@dimen/yg" android:layout_height="@dimen/yg"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.videoai.aivpcore.ui.view.RoundImageView android:id="@id/avz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/a84" android:scaleType="centerCrop" app:riv_check_border_color="@color/d6" app:riv_check_border_width="@dimen/t2" app:riv_corner_radius="@dimen/xz" />
-    <ImageView android:id="@id/abu" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:layout_margin="@dimen/uk" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" />
-    <ImageView android:id="@id/abt" android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:scaleType="centerInside" app:layout_constraintBottom_toTopOf="@id/bii" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv" app:layout_constraintVertical_chainStyle="apo" app:tint="@color/zo" />
-    <TextView android:textSize="@dimen/yy" android:textColor="@color/zo" android:gravity="center" android:id="@id/bii" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xz" android:text="@string/a0e" android:maxLines="2" android:paddingStart="@dimen/xz" android:paddingEnd="@dimen/xz" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toBottomOf="@id/abt" />
-    <com.google.android.material.imageview.ShapeableImageView android:id="@id/aa0" android:layout_width="fill_parent" android:layout_height="fill_parent" app:shapeAppearanceOverlay="@style/ix" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/yg"
+    android:layout_height="@dimen/yg"
+    android:background="@drawable/ary">
+    <com.videoai.aivpcore.ui.view.RoundImageView
+        android:id="@id/avz"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/a84"
+        app:riv_check_border_color="@color/d6"
+        app:riv_check_border_width="@dimen/t2"
+        app:riv_corner_radius="@dimen/xz" />
+    <ImageView
+        android:id="@id/abu"
+        android:layout_width="@dimen/tz"
+        android:layout_height="@dimen/tz"
+        android:layout_margin="@dimen/uk"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv" />
+    <ImageView
+        android:id="@id/abt"
+        android:layout_width="@dimen/v7"
+        android:layout_height="@dimen/v7"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/bii"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintRight_toRightOf="apv"
+        app:layout_constraintTop_toTopOf="apv"
+        app:layout_constraintVertical_chainStyle="apo"
+        app:tint="@color/zo" />
+    <TextView
+        android:id="@id/bii"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/xz"
+        android:gravity="center"
+        android:maxLines="2"
+        android:paddingStart="@dimen/xz"
+        android:paddingEnd="@dimen/xz"
+        android:text="@string/a0e"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/yy"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintRight_toRightOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/abt" />
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/aa0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:shapeAppearanceOverlay="@style/ix" />
 </androidx.constraintlayout.widget.ConstraintLayout>

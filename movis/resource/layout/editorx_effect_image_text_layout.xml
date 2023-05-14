@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/a8e" android:background="@drawable/a7v" android:layout_width="48.0dip" android:layout_height="48.0dip" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <ImageView android:id="@id/a8f" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="@id/a8e" app:layout_constraintEnd_toEndOf="@id/a8e" app:layout_constraintStart_toStartOf="@id/a8e" app:layout_constraintTop_toTopOf="@id/a8e" />
-    <TextView android:textStyle="bold" android:id="@id/a8d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/a8e" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@id/a8e"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:background="@drawable/a7v"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <ImageView
+        android:id="@id/a8f"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@id/a8e"
+        app:layout_constraintEnd_toEndOf="@id/a8e"
+        app:layout_constraintStart_toStartOf="@id/a8e"
+        app:layout_constraintTop_toTopOf="@id/a8e" />
+    <TextView
+        android:id="@id/a8d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6.0dip"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/a8e" />
 </androidx.constraintlayout.widget.ConstraintLayout>

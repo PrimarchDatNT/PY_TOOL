@@ -1,14 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/afr" android:background="@color/xz" android:visibility="visible" android:layout_width="70.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
-        <ImageButton android:id="@id/a65" android:background="@color/xz" android:clickable="false" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/xv" android:layout_centerInParent="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="44.0dip">
+    <RelativeLayout
+        android:id="@id/afr"
+        android:layout_width="70.0dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/xz"
+        android:visibility="visible">
+        <ImageButton
+            android:id="@id/a65"
+            android:layout_width="22.0dip"
+            android:layout_height="22.0dip"
+            android:layout_centerInParent="true"
+            android:background="@color/xz"
+            android:clickable="false"
+            android:src="@drawable/xv" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/ae4" android:background="@color/xz" android:visibility="visible" android:layout_width="70.0dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/afr" android:layout_toEndOf="@id/afr">
-        <ImageButton android:id="@id/a5y" android:background="@color/xz" android:clickable="false" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/v1" android:layout_centerInParent="true" />
+    <RelativeLayout
+        android:id="@id/ae4"
+        android:layout_width="70.0dip"
+        android:layout_height="fill_parent"
+        android:layout_toEndOf="@id/afr"
+        android:layout_toRightOf="@id/afr"
+        android:background="@color/xz"
+        android:visibility="visible">
+        <ImageButton
+            android:id="@id/a5y"
+            android:layout_width="22.0dip"
+            android:layout_height="22.0dip"
+            android:layout_centerInParent="true"
+            android:background="@color/xz"
+            android:clickable="false"
+            android:src="@drawable/v1" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/agk" android:background="@color/xz" android:visibility="visible" android:layout_width="70.0dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/ae4" android:layout_toEndOf="@id/ae4">
-        <ImageButton android:id="@id/ly" android:background="@color/xz" android:visibility="visible" android:clickable="false" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/mg" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    <RelativeLayout
+        android:id="@id/agk"
+        android:layout_width="70.0dip"
+        android:layout_height="fill_parent"
+        android:layout_toEndOf="@id/ae4"
+        android:layout_toRightOf="@id/ae4"
+        android:background="@color/xz"
+        android:visibility="visible">
+        <ImageButton
+            android:id="@id/ly"
+            android:layout_width="22.0dip"
+            android:layout_height="22.0dip"
+            android:layout_centerInParent="true"
+            android:background="@color/xz"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/mg"
+            android:visibility="visible" />
     </RelativeLayout>
-    <Button android:textSize="14.0sp" android:textColor="@color/zo" android:ellipsize="middle" android:id="@id/a60" android:background="@drawable/wc" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="27.0dip" android:layout_marginRight="9.0dip" android:minWidth="71.0dip" android:text="@string/rx" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_marginEnd="9.0dip" android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@id/a60"
+        android:layout_width="wrap_content"
+        android:layout_height="27.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="9.0dip"
+        android:layout_marginRight="9.0dip"
+        android:background="@drawable/wc"
+        android:ellipsize="middle"
+        android:minWidth="71.0dip"
+        android:paddingStart="5.0dip"
+        android:paddingLeft="5.0dip"
+        android:paddingEnd="5.0dip"
+        android:paddingRight="5.0dip"
+        android:singleLine="true"
+        android:text="@string/rx"
+        android:textColor="@color/zo"
+        android:textSize="14.0sp"
+        android:visibility="visible" />
 </RelativeLayout>

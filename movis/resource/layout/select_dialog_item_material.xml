@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView android:textAppearance="?aa6" android:textColor="?aai" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@android:id/text1" android:paddingLeft="?v5" android:paddingRight="?v6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?v3"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="marquee"
+    android:gravity="center_vertical"
+    android:minHeight="?v3"
+    android:paddingLeft="?v5"
+    android:paddingRight="?v6"
+    android:textAppearance="?aa6"
+    android:textColor="?aai" />

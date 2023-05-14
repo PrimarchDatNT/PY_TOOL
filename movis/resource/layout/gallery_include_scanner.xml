@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/l0" android:background="@drawable/ash" android:paddingTop="30.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:textColor="@color/zo" android:id="@id/kr" android:background="@drawable/dx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alk" />
-    <Button android:textColor="@color/zo" android:id="@id/ks" android:background="@drawable/aus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/alf" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/l0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/ash"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="30.0dip"
+    android:paddingBottom="30.0dip">
+    <Button
+        android:id="@id/kr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dx"
+        android:text="@string/alk"
+        android:textColor="@color/zo" />
+    <Button
+        android:id="@id/ks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13.0dip"
+        android:background="@drawable/aus"
+        android:text="@string/alf"
+        android:textColor="@color/zo" />
 </LinearLayout>

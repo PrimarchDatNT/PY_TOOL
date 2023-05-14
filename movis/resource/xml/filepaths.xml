@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <paths>
-    <external-path name="sdcard_files" path="." />
-    <external-files-path name="camera_has_sdcard" path="file/" />
-    <files-path name="camera_no_sdcard" path="." />
+    <external-path
+        name="sdcard_files" path="." />
+    <external-files-path
+        name="camera_has_sdcard" path="file/" />
+    <files-path
+        name="camera_no_sdcard" path="." />
 </paths>

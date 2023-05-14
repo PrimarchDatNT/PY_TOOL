@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="@dimen/xt"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/g5" android:background="@drawable/jf" android:layout_width="?a4" android:layout_height="fill_parent" android:src="@drawable/a1n" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/g9" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toStartOf="@id/g7" app:layout_constraintStart_toEndOf="@id/g5" app:layout_constraintTop_toTopOf="apv" app:sitv_bottom_text="@string/a07" app:sitv_top_text="100" app:sitv_top_text_color="@drawable/a6f" app:sitv_top_type="bac" />
-    <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/g7" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toStartOf="@id/g6" app:layout_constraintStart_toEndOf="@id/g9" app:layout_constraintTop_toTopOf="apv" app:sitv_bottom_text="@string/aju" app:sitv_top_drawable="@drawable/aqc" />
-    <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/g6" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toStartOf="@id/g8" app:layout_constraintStart_toEndOf="@id/g7" app:layout_constraintTop_toTopOf="apv" app:sitv_bottom_text="@string/rq" app:sitv_top_drawable="@drawable/ya" />
-    <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/g8" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toEndOf="@id/g6" app:layout_constraintTop_toTopOf="apv" app:sitv_bottom_text="@string/akz" app:sitv_top_drawable="@drawable/yg" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/xt"
+    android:background="@color/ah">
+    <ImageView
+        android:id="@id/g5"
+        android:layout_width="?a4"
+        android:layout_height="fill_parent"
+        android:background="@drawable/jf"
+        android:scaleType="centerInside"
+        android:src="@drawable/a1n"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+        android:id="@id/g9"
+        android:layout_width="@dimen/y6"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toStartOf="@id/g7"
+        app:layout_constraintStart_toEndOf="@id/g5"
+        app:layout_constraintTop_toTopOf="apv"
+        app:sitv_bottom_text="@string/a07"
+        app:sitv_top_text="100"
+        app:sitv_top_text_color="@drawable/a6f"
+        app:sitv_top_type="bac" />
+    <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+        android:id="@id/g7"
+        android:layout_width="@dimen/y6"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toStartOf="@id/g6"
+        app:layout_constraintStart_toEndOf="@id/g9"
+        app:layout_constraintTop_toTopOf="apv"
+        app:sitv_bottom_text="@string/aju"
+        app:sitv_top_drawable="@drawable/aqc" />
+    <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+        android:id="@id/g6"
+        android:layout_width="@dimen/y6"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toStartOf="@id/g8"
+        app:layout_constraintStart_toEndOf="@id/g7"
+        app:layout_constraintTop_toTopOf="apv"
+        app:sitv_bottom_text="@string/rq"
+        app:sitv_top_drawable="@drawable/ya" />
+    <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+        android:id="@id/g8"
+        android:layout_width="@dimen/y6"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toEndOf="@id/g6"
+        app:layout_constraintTop_toTopOf="apv"
+        app:sitv_bottom_text="@string/akz"
+        app:sitv_top_drawable="@drawable/yg" />
 </androidx.constraintlayout.widget.ConstraintLayout>

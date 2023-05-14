@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="50.0dip" android:layout_height="40.0dip" android:scaleType="centerInside"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/abn" android:background="@color/xz" android:layout_width="50.0dip" android:layout_height="40.0dip" android:scaleType="centerInside" />
-    <TextView android:textColor="@color/zo" android:gravity="center" android:id="@id/bi9" android:background="@color/xz" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="40.0dip" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50.0dip"
+    android:layout_height="40.0dip"
+    android:scaleType="centerInside">
+    <ImageView
+        android:id="@id/abn"
+        android:layout_width="50.0dip"
+        android:layout_height="40.0dip"
+        android:background="@color/xz"
+        android:scaleType="centerInside" />
+    <TextView
+        android:id="@id/bi9"
+        android:layout_width="50.0dip"
+        android:layout_height="40.0dip"
+        android:background="@color/xz"
+        android:gravity="center"
+        android:textColor="@color/zo"
+        android:visibility="gone" />
 </FrameLayout>

@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.applovin.exoplayer2.ui.AspectRatioFrameLayout android:layout_gravity="center" android:id="@id/cx" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <View android:id="@id/dq" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <ImageView android:id="@id/cr" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
-        <com.applovin.exoplayer2.ui.SubtitleView android:id="@id/ds" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <ProgressBar android:layout_gravity="center" android:id="@id/cv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
-        <TextView android:textSize="@dimen/br" android:textColor="@color/a8" android:gravity="center" android:layout_gravity="center" android:id="@id/d2" android:background="@drawable/g5" android:paddingLeft="@dimen/bp" android:paddingTop="@dimen/bq" android:paddingRight="@dimen/bp" android:paddingBottom="@dimen/bq" android:layout_width="wrap_content" android:layout_height="@dimen/bn" android:layout_marginBottom="@dimen/bo" />
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.applovin.exoplayer2.ui.AspectRatioFrameLayout
+        android:id="@id/cx"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center">
+        <View
+            android:id="@id/dq"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/black" />
+        <ImageView
+            android:id="@id/cr"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY" />
+        <com.applovin.exoplayer2.ui.SubtitleView
+            android:id="@id/ds"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <ProgressBar
+            android:id="@id/cv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true" />
+        <TextView
+            android:id="@id/d2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/bn"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/bo"
+            android:background="@drawable/g5"
+            android:gravity="center"
+            android:paddingLeft="@dimen/bp"
+            android:paddingTop="@dimen/bq"
+            android:paddingRight="@dimen/bp"
+            android:paddingBottom="@dimen/bq"
+            android:textColor="@color/a8"
+            android:textSize="@dimen/br" />
     </com.applovin.exoplayer2.ui.AspectRatioFrameLayout>
-    <FrameLayout android:id="@id/cq" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <FrameLayout android:id="@id/dc" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <View android:id="@id/cz" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/cq"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/dc"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <View
+        android:id="@id/cz"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
 </merge>

@@ -1,3 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheckedTextView android:ellipsize="marquee" android:gravity="center|left" android:id="@android:id/text1" android:paddingLeft="@dimen/b1" android:paddingRight="?kk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?v3" android:drawablePadding="20.0dip" android:textAlignment="viewStart" android:paddingStart="@dimen/b1" android:paddingEnd="?kk" app:drawableLeftCompat="?android:listChoiceIndicatorMultiple" app:drawableStartCompat="?android:listChoiceIndicatorMultiple"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@android:id/text1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:drawablePadding="20.0dip"
+    android:ellipsize="marquee"
+    android:gravity="center|left"
+    android:minHeight="?v3"
+    android:paddingStart="@dimen/b1"
+    android:paddingLeft="@dimen/b1"
+    android:paddingEnd="?kk"
+    android:paddingRight="?kk"
+    android:textAlignment="viewStart"
+    app:drawableLeftCompat="?android:listChoiceIndicatorMultiple"
+    app:drawableStartCompat="?android:listChoiceIndicatorMultiple" />

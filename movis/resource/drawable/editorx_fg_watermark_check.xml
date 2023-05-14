@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="rectangle">
             <solid android:color="@color/br" />
             <corners android:radius="@dimen/xz" />
-            <stroke android:width="@dimen/t2" android:color="@color/d6" />
-            <size android:height="@dimen/yg" android:width="@dimen/yg" />
+            <stroke
+                android:width="@dimen/t2" android:color="@color/d6" />
+            <size
+                android:width="@dimen/yg" android:height="@dimen/yg" />
         </shape>
     </item>
     <item>
-        <bitmap android:gravity="center" android:src="@drawable/yt" />
+        <bitmap
+            android:gravity="center" android:src="@drawable/yt" />
     </item>
 </layer-list>

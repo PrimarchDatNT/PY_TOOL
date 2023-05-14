@@ -1,12 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="101.0dip" android:layout_marginTop="-2.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/blp" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
-        <TextView android:textSize="10.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/bll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:03" android:layout_centerInParent="true" />
-        <TextView android:textSize="10.0sp" android:textColor="@color/g9" android:gravity="center" android:id="@id/blm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="00:03" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="101.0dip"
+    android:layout_marginTop="-2.0dip">
+    <RelativeLayout
+        android:id="@id/blp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:background="@color/xz">
+        <TextView
+            android:id="@id/bll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="00:03"
+            android:textColor="@color/zo"
+            android:textSize="10.0sp" />
+        <TextView
+            android:id="@id/blm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:gravity="center"
+            android:text="00:03"
+            android:textColor="@color/g9"
+            android:textSize="10.0sp" />
     </RelativeLayout>
-    <com.videoai.aivpcore.editor.widget.timeline.VeGallery2 android:gravity="center_vertical" android:id="@id/bln" android:background="@color/xz" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:spacing="0.0dip" android:unselectedAlpha="1.0" />
-    <ImageView android:id="@id/blo" android:background="@drawable/me" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="8.0dip" android:src="@drawable/axi" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginEnd="8.0dip" android:layout_alignParentStart="true" />
-    <ImageView android:id="@id/hv" android:background="@drawable/v8" android:layout_width="75.0dip" android:layout_height="fill_parent" android:layout_below="@id/blp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
-    <ImageView android:id="@id/blj" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/o_" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <com.videoai.aivpcore.editor.widget.timeline.VeGallery2
+        android:id="@id/bln"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/xz"
+        android:fadingEdge="none"
+        android:gravity="center_vertical"
+        android:spacing="0.0dip"
+        android:unselectedAlpha="1.0" />
+    <ImageView
+        android:id="@id/blo"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:background="@drawable/me"
+        android:contentDescription="@null"
+        android:scaleType="center"
+        android:src="@drawable/axi" />
+    <ImageView
+        android:id="@id/hv"
+        android:layout_width="75.0dip"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/blp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/v8" />
+    <ImageView
+        android:id="@id/blj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="10.0dip"
+        android:src="@drawable/o_" />
 </RelativeLayout>

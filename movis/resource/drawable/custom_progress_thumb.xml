@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scale android:scaleWidth="100%" android:scaleHeight="100%" android:scaleGravity="center"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<scale xmlns:android="http://schemas.android.com/apk/res/android" android:scaleWidth="100%" android:scaleHeight="100%" android:scaleGravity="center">
     <shape android:shape="oval">
         <solid android:color="#ffffffff" />
-        <size android:height="@dimen/lo" android:width="@dimen/lo" />
+        <size
+            android:width="@dimen/lo" android:height="@dimen/lo" />
     </shape>
 </scale>

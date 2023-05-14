@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.ActionBarOverlayLayout android:id="@id/sw" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.appcompat.widget.ActionBarOverlayLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/sw"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
     <include layout="@layout/u" />
-    <androidx.appcompat.widget.ActionBarContainer android:gravity="top" android:id="@id/b_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:touchscreenBlocksFocus="true" style="?a6">
-        <androidx.appcompat.widget.Toolbar android:id="@id/b8" android:layout_width="fill_parent" android:layout_height="wrap_content" app:navigationContentDescription="@string/h" style="?abz" />
-        <androidx.appcompat.widget.ActionBarContextView android:theme="?a_" android:id="@id/bf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?ar" />
+    <androidx.appcompat.widget.ActionBarContainer
+        android:id="@id/b_"
+        style="?a6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:touchscreenBlocksFocus="true">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@id/b8"
+            style="?abz"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:navigationContentDescription="@string/h" />
+        <androidx.appcompat.widget.ActionBarContextView
+            android:id="@id/bf"
+            style="?ar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:theme="?a_"
+            android:visibility="gone" />
     </androidx.appcompat.widget.ActionBarContainer>
 </androidx.appcompat.widget.ActionBarOverlayLayout>

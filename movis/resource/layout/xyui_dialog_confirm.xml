@@ -1,9 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/te" android:background="@color/ai" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textColor="@color/zo" android:gravity="center" android:id="@id/bbc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/v7" android:layout_marginTop="@dimen/ul" android:layout_marginRight="@dimen/v7" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <View android:id="@id/bmg" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginTop="@dimen/ul" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/bbc" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textColor="@color/d6" android:gravity="center" android:id="@id/bbv" android:background="@drawable/e_" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/x9" android:singleLine="true" android:layout_marginEnd="@dimen/yf" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toStartOf="@id/bmh" app:layout_constraintHorizontal_chainStyle="b42" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/bmg" />
-    <View android:id="@id/bmh" android:layout_width="1.0dip" android:layout_height="52.0dip" app:layout_constraintEnd_toStartOf="@id/bbx" app:layout_constraintStart_toEndOf="@id/bbv" app:layout_constraintTop_toBottomOf="@id/bmg" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textColor="@color/zo" android:gravity="center" android:id="@id/bbx" android:background="@drawable/dx" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/x9" android:singleLine="true" android:fontFamily="@font/f" android:layout_marginStart="@dimen/yf" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toEndOf="@id/bmh" app:layout_constraintTop_toBottomOf="@id/bmg" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/te"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ai">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bbc"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/v7"
+        android:layout_marginTop="@dimen/ul"
+        android:layout_marginRight="@dimen/v7"
+        android:gravity="center"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z1"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <View
+        android:id="@id/bmg"
+        android:layout_width="0.0dip"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="@dimen/ul"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/bbc" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bbv"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/x9"
+        android:layout_marginEnd="@dimen/yf"
+        android:background="@drawable/e_"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/d6"
+        android:textSize="@dimen/z1"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toStartOf="@id/bmh"
+        app:layout_constraintHorizontal_chainStyle="b42"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/bmg" />
+    <View
+        android:id="@id/bmh"
+        android:layout_width="1.0dip"
+        android:layout_height="52.0dip"
+        app:layout_constraintEnd_toStartOf="@id/bbx"
+        app:layout_constraintStart_toEndOf="@id/bbv"
+        app:layout_constraintTop_toBottomOf="@id/bmg" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bbx"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/x9"
+        android:layout_marginStart="@dimen/yf"
+        android:background="@drawable/dx"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/f"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z1"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toEndOf="@id/bmh"
+        app:layout_constraintTop_toBottomOf="@id/bmg" />
 </androidx.constraintlayout.widget.ConstraintLayout>

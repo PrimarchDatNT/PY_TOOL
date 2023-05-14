@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.textfield.TextInputLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:errorIconDrawable="@null" app:hintEnabled="false" app:shapeAppearance="?a5k" app:shapeAppearanceOverlay="@null" style="@style/vo"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <EditText android:id="@id/ajx" android:paddingBottom="6.0dip" android:layout_width="96.0dip" android:layout_height="80.0dip" android:textCursorDrawable="@drawable/am4" style="@style/vx" />
-    <TextView android:textAppearance="?a_v" android:id="@id/ajq" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:labelFor="@id/ajx" />
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/vo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:errorIconDrawable="@null"
+    app:hintEnabled="false"
+    app:shapeAppearance="?a5k"
+    app:shapeAppearanceOverlay="@null">
+    <EditText
+        android:id="@id/ajx"
+        style="@style/vx"
+        android:layout_width="96.0dip"
+        android:layout_height="80.0dip"
+        android:paddingBottom="6.0dip"
+        android:textCursorDrawable="@drawable/am4" />
+    <TextView
+        android:id="@id/ajq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:labelFor="@id/ajx"
+        android:textAppearance="?a_v" />
 </com.google.android.material.textfield.TextInputLayout>

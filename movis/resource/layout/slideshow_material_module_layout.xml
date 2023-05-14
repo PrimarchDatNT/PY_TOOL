@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/bi9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginStart="15.0dip" />
-    <TextView android:textSize="14.0sp" android:textColor="@color/g9" android:id="@id/bdx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginStart="15.0dip" />
-    <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="fill_parent">
-        <LinearLayout android:orientation="horizontal" android:id="@id/ajm" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@id/bi9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:textColor="@android:color/black"
+        android:textSize="16.0sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@id/bdx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginTop="5.0dip"
+        android:textColor="@color/g9"
+        android:textSize="14.0sp" />
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:id="@id/ajm"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" />
     </HorizontalScrollView>
-    <View android:id="@id/al4" android:background="@color/j4" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" />
+    <View
+        android:id="@id/al4"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginTop="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:background="@color/j4" />
 </LinearLayout>

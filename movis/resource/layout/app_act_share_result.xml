@@ -1,9 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/app_act_share_result_0" android:background="@color/zo" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/a4f" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="16.0dip" app:aspectRatio="1.0" app:layout_constraintBottom_toTopOf="@id/bc4" app:layout_constraintDimensionRatio="h,1:1" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintHeight_percent="0.3" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" app:roundedCornerRadius="8.0dip" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/eq" android:id="@id/bc4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/a_b" app:layout_constraintBottom_toTopOf="@id/acx" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
-    <com.videoai.aivpcore.sns.ui.SnsShareListView android:id="@id/acx" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/ace" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
-    <com.videoai.aivpcore.xyui.RoundedRelativeLayout android:id="@id/ace" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" app:VS_CornerRadius="8.0dip" app:VS_SolidColor="#fffaf9fa" app:layout_constraintBottom_toTopOf="@id/jc" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
-    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/zo" android:gravity="center" android:id="@id/jc" android:background="@drawable/dm" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="36.0dip" android:layout_marginRight="36.0dip" android:layout_marginBottom="15.0dip" android:text="@string/a_a" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zo"
+    android:tag="layout/app_act_share_result_0">
+    <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+        android:id="@id/a4f"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginBottom="16.0dip"
+        android:tag="binding_1"
+        app:aspectRatio="1.0"
+        app:layout_constraintBottom_toTopOf="@id/bc4"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv"
+        app:roundedCornerRadius="8.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bc4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12.0dip"
+        android:text="@string/a_b"
+        android:textColor="@color/eq"
+        android:textSize="16.0sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/acx"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv" />
+    <com.videoai.aivpcore.sns.ui.SnsShareListView
+        android:id="@id/acx"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:tag="binding_2"
+        app:layout_constraintBottom_toTopOf="@id/ace"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv" />
+    <com.videoai.aivpcore.xyui.RoundedRelativeLayout
+        android:id="@id/ace"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:tag="binding_3"
+        app:VS_CornerRadius="8.0dip"
+        app:VS_SolidColor="#fffaf9fa"
+        app:layout_constraintBottom_toTopOf="@id/jc"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv" />
+    <TextView
+        android:id="@id/jc"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_marginLeft="36.0dip"
+        android:layout_marginRight="36.0dip"
+        android:layout_marginBottom="15.0dip"
+        android:background="@drawable/dm"
+        android:gravity="center"
+        android:text="@string/a_a"
+        android:textColor="@color/zo"
+        android:textSize="16.0sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv" />
 </androidx.constraintlayout.widget.ConstraintLayout>

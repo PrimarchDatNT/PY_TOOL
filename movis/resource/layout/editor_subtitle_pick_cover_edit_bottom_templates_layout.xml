@@ -1,12 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/av7" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/adw" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="@dimen/a4f">
-        <com.videoai.aivpcore.xyui.StoryGridView android:scrollbarAlwaysDrawHorizontalTrack="false" android:scrollbarAlwaysDrawVerticalTrack="false" android:id="@id/bmx" android:background="@color/xz" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="1.0px" android:layout_toLeftOf="@id/ae9" android:layout_toStartOf="@id/ae9" app:horizontalSpacing="0" app:includeEdge="true" app:orientation="0" xmlns:app="http://schemas.android.com/apk/res-auto" />
-        <RelativeLayout android:id="@id/ae9" android:clickable="true" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
-            <ImageView android:id="@id/kq" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b55" android:layout_centerInParent="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/av7"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerVertical="true"
+    android:visibility="invisible">
+    <RelativeLayout
+        android:id="@id/adw"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/a4f"
+        android:background="@color/xz">
+        <com.videoai.aivpcore.xyui.StoryGridView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@id/bmx"
+            android:layout_width="fill_parent"
+            android:layout_height="42.0dip"
+            android:layout_marginTop="1.0px"
+            android:layout_toStartOf="@id/ae9"
+            android:layout_toLeftOf="@id/ae9"
+            android:background="@color/xz"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:scrollbars="none"
+            app:horizontalSpacing="0"
+            app:includeEdge="true"
+            app:orientation="0" />
+        <RelativeLayout
+            android:id="@id/ae9"
+            android:layout_width="45.0dip"
+            android:layout_height="45.0dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:clickable="true">
+            <ImageView
+                android:id="@id/kq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:src="@drawable/b55" />
         </RelativeLayout>
     </RelativeLayout>
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/ag4" android:layout_width="fill_parent" android:layout_height="169.0dip" android:layout_below="@id/adw" />
-    <include android:id="@id/auz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignLeft="@id/ag4" android:layout_alignTop="@id/ag4" android:layout_alignRight="@id/ag4" android:layout_alignBottom="@id/ag4" layout="@layout/i1" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/ag4"
+        android:layout_width="fill_parent"
+        android:layout_height="169.0dip"
+        android:layout_below="@id/adw" />
+    <include
+        android:id="@id/auz"
+        layout="@layout/i1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@id/ag4"
+        android:layout_alignTop="@id/ag4"
+        android:layout_alignRight="@id/ag4"
+        android:layout_alignBottom="@id/ag4"
+        android:visibility="gone" />
 </RelativeLayout>

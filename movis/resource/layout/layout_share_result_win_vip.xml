@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/kn" android:showDividers="middle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff333333" android:gravity="center" android:layout_width="fill_parent" android:layout_height="86.0dip" android:text="@string/aej" />
-    <TextView android:textSize="18.0sp" android:textColor="@color/d6" android:gravity="center" android:id="@id/b8r" android:layout_width="fill_parent" android:layout_height="51.0dip" android:text="@string/wc" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:divider="@drawable/kn"
+    android:orientation="vertical"
+    android:showDividers="middle">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="86.0dip"
+        android:gravity="center"
+        android:text="@string/aej"
+        android:textColor="#ff333333"
+        android:textSize="18.0sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@id/b8r"
+        android:layout_width="fill_parent"
+        android:layout_height="51.0dip"
+        android:gravity="center"
+        android:text="@string/wc"
+        android:textColor="@color/d6"
+        android:textSize="18.0sp" />
 </LinearLayout>

@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:background="@drawable/aut" android:paddingLeft="@dimen/mi" android:paddingRight="@dimen/mi" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/mi" android:paddingEnd="@dimen/mi"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RadioButton android:gravity="center_vertical" android:id="@id/rh" android:background="@drawable/b15" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="22.0dip" android:layout_height="22.0dip" android:button="@null" />
-    <TextView android:textSize="@dimen/ms" android:gravity="center_vertical" android:id="@id/b_5" android:paddingLeft="@dimen/mp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/mq" android:paddingStart="@dimen/mp" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/aut"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/mi"
+    android:paddingLeft="@dimen/mi"
+    android:paddingEnd="@dimen/mi"
+    android:paddingRight="@dimen/mi">
+    <RadioButton
+        android:id="@id/rh"
+        android:layout_width="22.0dip"
+        android:layout_height="22.0dip"
+        android:background="@drawable/b15"
+        android:button="@null"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical" />
+    <TextView
+        android:id="@id/b_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/mq"
+        android:paddingStart="@dimen/mp"
+        android:paddingLeft="@dimen/mp"
+        android:textSize="@dimen/ms" />
 </LinearLayout>

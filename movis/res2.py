@@ -40,7 +40,7 @@ ResSTYLEABLE = 'styleable'
 ResXML = 'xml'
 ResVALUE = 'values'
 TYPE_ARRAY = [ResANIM,
-              ResATTR,
+              # ResATTR,
               ResARRAY,
               ResBOOL,
               ResCOLOR,

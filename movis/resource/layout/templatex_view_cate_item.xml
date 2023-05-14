@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.videoai.aivpcore.xyui.RoundedTextView android:textSize="@dimen/z0" android:textColor="@color/xb" android:gravity="center" android:layout_gravity="center" android:id="@id/bcb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/f" android:paddingStart="@dimen/td" android:paddingEnd="@dimen/td" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.videoai.aivpcore.xyui.RoundedTextView
+        android:id="@id/bcb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/f"
+        android:gravity="center"
+        android:paddingStart="@dimen/td"
+        android:paddingEnd="@dimen/td"
+        android:textColor="@color/xb"
+        android:textSize="@dimen/z0" />
 </FrameLayout>

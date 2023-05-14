@@ -1,15 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/aib" android:background="@color/xz" android:paddingBottom="@dimen/ul" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:background="@drawable/hv" android:paddingTop="@dimen/ul" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/ul" android:paddingEnd="@dimen/ul">
-        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <androidx.recyclerview.widget.RecyclerView android:id="@id/ays" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/aib"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/xz"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/tz"
+    android:paddingEnd="@dimen/tz"
+    android:paddingBottom="@dimen/ul">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/hv"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/ul"
+        android:paddingTop="@dimen/ul"
+        android:paddingEnd="@dimen/ul">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/ays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="apv"
+                app:layout_constraintEnd_toEndOf="apv"
+                app:layout_constraintStart_toStartOf="apv"
+                app:layout_constraintTop_toTopOf="apv" />
         </androidx.constraintlayout.widget.ConstraintLayout>
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:gravity="center" android:id="@id/bi9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ul" android:text="@string/a57" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:gravity="center" android:id="@id/bdx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a56" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/bn" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bd_" android:background="@drawable/i0" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:layout_marginTop="@dimen/vs" android:text="@string/kx" android:fontFamily="@font/f" />
-        <FrameLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bda" android:background="@drawable/hz" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:layout_marginTop="@dimen/ul" android:layout_marginBottom="@dimen/ul">
-            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textStyle="bold" android:textColor="@color/zo" android:gravity="center" android:layout_gravity="center" android:id="@id/bb7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ds" android:drawablePadding="@dimen/yf" android:textAllCaps="true" android:drawableEnd="@drawable/ak4" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/bi9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ul"
+            android:gravity="center"
+            android:text="@string/a57"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z0" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/bdx"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/a56"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z0" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/bd_"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/x9"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/vs"
+            android:background="@drawable/i0"
+            android:fontFamily="@font/f"
+            android:gravity="center"
+            android:text="@string/kx"
+            android:textColor="@color/bn"
+            android:textSize="@dimen/z0" />
+        <FrameLayout
+            android:id="@id/bda"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/x9"
+            android:layout_marginTop="@dimen/ul"
+            android:layout_marginBottom="@dimen/ul"
+            android:background="@drawable/hz"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@id/bb7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableEnd="@drawable/ak4"
+                android:drawablePadding="@dimen/yf"
+                android:gravity="center"
+                android:text="@string/ds"
+                android:textAllCaps="true"
+                android:textColor="@color/zo"
+                android:textSize="@dimen/z0"
+                android:textStyle="bold" />
         </FrameLayout>
     </LinearLayout>
 </LinearLayout>

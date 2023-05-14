@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animated-vector android:drawable="@drawable/a"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <target android:name="strike_thru_path" android:animation="@drawable/b" />
-    <target android:name="strike_thru_mask" android:animation="@drawable/c" />
-    <target android:name="left_corner_mask" android:animation="@drawable/d" />
-    <target android:name="right_corner_mask" android:animation="@drawable/e" />
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/a">
+    <target
+        android:name="strike_thru_path" android:animation="@drawable/b" />
+    <target
+        android:name="strike_thru_mask" android:animation="@drawable/c" />
+    <target
+        android:name="left_corner_mask" android:animation="@drawable/d" />
+    <target
+        android:name="right_corner_mask" android:animation="@drawable/e" />
 </animated-vector>

@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/premium_slider_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/td"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.imageview.ShapeableImageView android:id="@id/a91" android:layout_width="@dimen/yi" android:layout_height="@dimen/yi" android:adjustViewBounds="true" app:shapeAppearanceOverlay="@style/iw" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yy" android:textColor="@color/zo" android:gravity="center" android:id="@id/bcb" android:layout_width="@dimen/yi" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ym" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/td"
+    android:tag="layout/premium_slider_item_0">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/a91"
+        android:layout_width="@dimen/yi"
+        android:layout_height="@dimen/yi"
+        android:adjustViewBounds="true"
+        app:shapeAppearanceOverlay="@style/iw" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bcb"
+        android:layout_width="@dimen/yi"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ym"
+        android:gravity="center"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/yy" />
 </FrameLayout>

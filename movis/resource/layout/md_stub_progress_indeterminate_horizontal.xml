@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/mh" android:layout_gravity="center_horizontal" android:id="@id/ak6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="20.0dip" android:fontFamily="sans-serif" />
-    <ProgressBar android:id="@android:id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="true" style="@style/w6" />
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@id/ak6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginBottom="20.0dip"
+        android:fontFamily="sans-serif"
+        android:textSize="@dimen/mh" />
+    <ProgressBar
+        android:id="@android:id/progress"
+        style="@style/w6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true" />
 </merge>

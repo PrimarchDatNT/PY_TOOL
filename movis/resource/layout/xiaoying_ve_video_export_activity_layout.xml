@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/ag0" android:background="@color/c4" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/a69" android:background="@drawable/asm" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
-    <TextView android:textSize="18.0dip" android:textColor="@color/zo" android:gravity="center" android:id="@id/bjh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50.0dip" android:text="0%" android:layout_centerInParent="true" android:fontFamily="sans-serif" />
-    <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/ul" android:layout_width="163.0dip" android:layout_height="81.0dip" android:layout_marginLeft="-30.0dip" android:layout_marginBottom="-32.0dip" android:layout_alignLeft="@id/bjh" android:layout_alignBottom="@id/bjh" android:layout_marginStart="-30.0dip" android:layout_alignStart="@id/bjh" />
-    <TextView android:textSize="13.0dip" android:textColor="@color/zo" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:minWidth="60.0dip" android:text="@string/oe" android:layout_below="@id/ul" android:layout_centerHorizontal="true" android:fontFamily="sans-serif" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/ag0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/c4">
+    <ImageView
+        android:id="@id/a69"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginEnd="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:background="@drawable/asm" />
+    <TextView
+        android:id="@id/bjh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:minWidth="50.0dip"
+        android:text="0%"
+        android:textColor="@color/zo"
+        android:textSize="18.0dip" />
+    <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+        android:id="@id/ul"
+        android:layout_width="163.0dip"
+        android:layout_height="81.0dip"
+        android:layout_alignStart="@id/bjh"
+        android:layout_alignLeft="@id/bjh"
+        android:layout_alignBottom="@id/bjh"
+        android:layout_marginStart="-30.0dip"
+        android:layout_marginLeft="-30.0dip"
+        android:layout_marginBottom="-32.0dip" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ul"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30.0dip"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:minWidth="60.0dip"
+        android:text="@string/oe"
+        android:textColor="@color/zo"
+        android:textSize="13.0dip" />
 </RelativeLayout>

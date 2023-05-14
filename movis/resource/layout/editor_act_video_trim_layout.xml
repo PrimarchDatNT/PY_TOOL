@@ -1,21 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/bn" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/afh" android:background="@color/bn" android:layout_width="fill_parent" android:layout_height="320.0dip" android:layout_below="@id/afj">
-        <RelativeLayout android:id="@id/aff" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
-            <SurfaceView android:id="@id/as5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@color/bn">
+    <RelativeLayout
+        android:id="@id/afh"
+        android:layout_width="fill_parent"
+        android:layout_height="320.0dip"
+        android:layout_below="@id/afj"
+        android:background="@color/bn">
+        <RelativeLayout
+            android:id="@id/aff"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/xz">
+            <SurfaceView
+                android:id="@id/as5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
         </RelativeLayout>
-        <com.videoai.aivpcore.editor.videotrim.crop.CropImageView android:id="@id/sc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+        <com.videoai.aivpcore.editor.videotrim.crop.CropImageView
+            android:id="@id/sc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:visibility="gone" />
     </RelativeLayout>
-    <RelativeLayout android:background="@color/bn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/agi" android:layout_below="@id/afh">
-        <ImageButton android:id="@id/aqv" android:background="@color/xz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/axi" android:scaleType="center" android:contentDescription="@null" />
-        <LinearLayout android:orientation="horizontal" android:id="@id/bax" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/aqv" android:layout_alignParentBottom="true">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/agi"
+        android:layout_below="@id/afh"
+        android:background="@color/bn">
+        <ImageButton
+            android:id="@id/aqv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/xz"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/axi" />
+        <LinearLayout
+            android:id="@id/bax"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aqv"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:visibility="visible">
             <include layout="@layout/f6" />
         </LinearLayout>
     </RelativeLayout>
-    <include android:id="@id/agi" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_alignParentBottom="true" layout="@layout/iv" />
-    <include android:id="@id/afj" android:layout_width="fill_parent" android:layout_height="@dimen/a4_" android:layout_alignParentTop="true" layout="@layout/wk" />
-    <include android:visibility="invisible" android:layout_width="@dimen/a4y" android:layout_height="@dimen/a4x" android:layout_marginTop="10.0dip" android:layout_alignTop="@id/afh" android:layout_centerHorizontal="true" layout="@layout/y1" />
-    <include android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_alignTop="@id/afh" layout="@layout/iu" />
-    <ImageView android:id="@id/a52" android:background="@color/xz" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    <include
+        android:id="@id/agi"
+        layout="@layout/iv"
+        android:layout_width="fill_parent"
+        android:layout_height="52.0dip"
+        android:layout_alignParentBottom="true" />
+    <include
+        android:id="@id/afj"
+        layout="@layout/wk"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/a4_"
+        android:layout_alignParentTop="true" />
+    <include
+        layout="@layout/y1"
+        android:layout_width="@dimen/a4y"
+        android:layout_height="@dimen/a4x"
+        android:layout_alignTop="@id/afh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10.0dip"
+        android:visibility="invisible" />
+    <include
+        layout="@layout/iu"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_alignTop="@id/afh"
+        android:visibility="invisible" />
+    <ImageView
+        android:id="@id/a52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/xz"
+        android:scaleType="fitXY"
+        android:visibility="invisible" />
 </RelativeLayout>

@@ -1,15 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@color/yz" android:layout_width="fill_parent" android:layout_height="200.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/aim" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="150.0dip">
-        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/zi" android:id="@id/x6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/axo" android:layout_marginStart="8.0dip" app:autoSizeMaxTextSize="20.0sp" app:autoSizeMinTextSize="15.0sp" app:autoSizeStepGranularity="1.0sp" app:autoSizeTextType="bjy" style="@style/x3" />
-        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/zf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/axp" style="@style/x3" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="200.0dip"
+    android:background="@color/yz">
+    <LinearLayout
+        android:id="@id/aim"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginBottom="150.0dip"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/x6"
+            style="@style/x3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8.0dip"
+            android:text="@string/axo"
+            android:textColor="@color/zi"
+            app:autoSizeMaxTextSize="20.0sp"
+            app:autoSizeMinTextSize="15.0sp"
+            app:autoSizeStepGranularity="1.0sp"
+            app:autoSizeTextType="bjy" />
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/x3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/axp"
+            android:textColor="@color/zf" />
     </LinearLayout>
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/aio" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="150.0dip">
-        <ProgressBar android:id="@id/as8" android:layout_width="24.0dip" android:layout_height="24.0dip" android:indeterminateDrawable="@drawable/aec" android:indeterminateDuration="1000" />
-        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/zj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/axq" android:layout_marginStart="8.0dip" style="@style/x3" />
+    <LinearLayout
+        android:id="@id/aio"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginBottom="150.0dip"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ProgressBar
+            android:id="@id/as8"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:indeterminateDrawable="@drawable/aec"
+            android:indeterminateDuration="1000" />
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/x3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8.0dip"
+            android:text="@string/axq"
+            android:textColor="@color/zj" />
     </LinearLayout>
-    <LinearLayout android:gravity="center" android:id="@id/ail" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="150.0dip">
-        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/zj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/axn" android:layout_marginStart="8.0dip" style="@style/x3" />
+    <LinearLayout
+        android:id="@id/ail"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginBottom="150.0dip"
+        android:gravity="center">
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/x3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8.0dip"
+            android:text="@string/axn"
+            android:textColor="@color/zj" />
     </LinearLayout>
 </FrameLayout>

@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.videoai.aivpcore.camera.ui.view.indicator.FocusIndicatorView android:id="@id/zp" android:background="@drawable/azq" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<com.videoai.aivpcore.camera.ui.view.indicator.FocusIndicatorView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/zp"
+    android:layout_width="80.0dip"
+    android:layout_height="80.0dip"
+    android:layout_centerInParent="true"
+    android:background="@drawable/azq" />

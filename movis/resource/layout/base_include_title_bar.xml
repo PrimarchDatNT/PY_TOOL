@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/zo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="2.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/jc" android:background="@drawable/com_md_ripple_transparent_bg_drawable" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dv" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/bn" android:id="@id/b8b" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toEndOf="@id/jc" app:layout_constraintTop_toTopOf="apv" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/zo"
+    android:elevation="2.0dip">
+    <ImageView
+        android:id="@id/jc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/com_md_ripple_transparent_bg_drawable"
+        android:padding="8.0dip"
+        android:src="@drawable/dv"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <TextView
+        android:id="@id/b8b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bn"
+        android:textSize="18.0sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintStart_toEndOf="@id/jc"
+        app:layout_constraintTop_toTopOf="apv" />
 </androidx.constraintlayout.widget.ConstraintLayout>

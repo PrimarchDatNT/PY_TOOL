@@ -1,11 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/ul" android:paddingBottom="@dimen/ul" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textStyle="bold" android:textColor="@color/zo" android:gravity="center" android:id="@id/bcb" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/a87" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <include android:id="@id/a77" android:layout_width="0.0dip" android:layout_height="52.0dip" android:layout_marginLeft="@dimen/tz" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/tz" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/bcb" layout="@layout/ke" />
-    <include android:id="@id/a79" android:layout_width="0.0dip" android:layout_height="52.0dip" android:layout_marginLeft="@dimen/tz" android:layout_marginTop="28.0dip" android:layout_marginRight="@dimen/tz" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/a77" layout="@layout/ke" />
-    <include android:id="@id/a72" android:layout_width="0.0dip" android:layout_height="52.0dip" android:layout_marginLeft="@dimen/tz" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/tz" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/a79" layout="@layout/ke" />
-    <include android:id="@id/a74" android:layout_width="0.0dip" android:layout_height="52.0dip" android:layout_marginLeft="@dimen/tz" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/tz" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/a72" layout="@layout/ke" />
-    <include android:id="@id/a78" android:layout_width="0.0dip" android:layout_height="52.0dip" android:layout_marginLeft="@dimen/tz" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/tz" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/a74" layout="@layout/ke" />
-    <include android:id="@id/a7_" android:layout_width="0.0dip" android:layout_height="52.0dip" android:layout_marginLeft="@dimen/tz" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/tz" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/a78" layout="@layout/ke" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="@dimen/ul"
+    android:paddingBottom="@dimen/ul">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bcb"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tz"
+        android:layout_marginEnd="@dimen/tz"
+        android:gravity="center"
+        android:text="@string/a87"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z0"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <include
+        android:id="@id/a77"
+        layout="@layout/ke"
+        android:layout_width="0.0dip"
+        android:layout_height="52.0dip"
+        android:layout_marginLeft="@dimen/tz"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginRight="@dimen/tz"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/bcb" />
+    <include
+        android:id="@id/a79"
+        layout="@layout/ke"
+        android:layout_width="0.0dip"
+        android:layout_height="52.0dip"
+        android:layout_marginLeft="@dimen/tz"
+        android:layout_marginTop="28.0dip"
+        android:layout_marginRight="@dimen/tz"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/a77" />
+    <include
+        android:id="@id/a72"
+        layout="@layout/ke"
+        android:layout_width="0.0dip"
+        android:layout_height="52.0dip"
+        android:layout_marginLeft="@dimen/tz"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginRight="@dimen/tz"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/a79" />
+    <include
+        android:id="@id/a74"
+        layout="@layout/ke"
+        android:layout_width="0.0dip"
+        android:layout_height="52.0dip"
+        android:layout_marginLeft="@dimen/tz"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginRight="@dimen/tz"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/a72" />
+    <include
+        android:id="@id/a78"
+        layout="@layout/ke"
+        android:layout_width="0.0dip"
+        android:layout_height="52.0dip"
+        android:layout_marginLeft="@dimen/tz"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginRight="@dimen/tz"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/a74" />
+    <include
+        android:id="@id/a7_"
+        layout="@layout/ke"
+        android:layout_width="0.0dip"
+        android:layout_height="52.0dip"
+        android:layout_marginLeft="@dimen/tz"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginRight="@dimen/tz"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/a78" />
 </androidx.constraintlayout.widget.ConstraintLayout>

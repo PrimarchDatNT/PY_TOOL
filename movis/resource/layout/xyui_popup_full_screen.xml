@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/b7t" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/a5f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b87" android:layout_centerInParent="true" />
-    <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/bhs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/qm" android:layout_below="@id/a5f" android:layout_centerHorizontal="true" />
-    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/bhs" android:layout_centerHorizontal="true">
-        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/bht" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qn" />
-        <TextView android:textSize="20.0sp" android:textColor="@color/n_" android:id="@id/bhu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qo" android:layout_toRightOf="@id/bht" android:layout_toEndOf="@id/bht" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b7t">
+    <ImageView
+        android:id="@id/a5f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/b87" />
+    <TextView
+        android:id="@id/bhs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a5f"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20.0dip"
+        android:text="@string/qm"
+        android:textColor="#ffffffff"
+        android:textSize="15.0sp" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bhs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12.0dip">
+        <TextView
+            android:id="@id/bht"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qn"
+            android:textColor="#ffffffff"
+            android:textSize="20.0sp" />
+        <TextView
+            android:id="@id/bhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/bht"
+            android:layout_toRightOf="@id/bht"
+            android:text="@string/qo"
+            android:textColor="@color/n_"
+            android:textSize="20.0sp" />
     </RelativeLayout>
 </RelativeLayout>

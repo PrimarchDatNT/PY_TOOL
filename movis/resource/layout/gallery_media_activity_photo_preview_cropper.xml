@@ -1,15 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/arw" android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="?a4" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/arx" android:background="@drawable/jf" android:layout_width="?a4" android:layout_height="?a4" android:src="@drawable/aj0" android:scaleType="centerInside" android:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="@id/arw" app:layout_constraintStart_toStartOf="@id/arw" app:layout_constraintTop_toTopOf="@id/arw" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textStyle="bold" android:textColor="@color/zo" android:gravity="center" android:layout_width="wrap_content" android:layout_height="?a4" android:text="@string/ab5" app:layout_constraintStart_toEndOf="@id/arx" app:layout_constraintTop_toTopOf="apv" />
-    <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:id="@id/art" android:background="@drawable/jf" android:layout_width="?a4" android:layout_height="?a4" android:src="@drawable/ae0" android:scaleType="centerInside" android:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="@id/arw" app:layout_constraintEnd_toEndOf="@id/ars" app:layout_constraintTop_toTopOf="apv" />
-    <com.videoedit.gallery.widget.photo.PhotoView android:id="@id/arv" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/ahd" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/arw" />
-    <androidx.appcompat.widget.AppCompatTextView android:id="@id/ary" android:background="@drawable/aew" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/arv" app:layout_constraintEnd_toEndOf="@id/arv" app:layout_constraintStart_toStartOf="@id/arv" app:layout_constraintTop_toTopOf="@id/arv" />
-    <View android:id="@id/ars" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ahd" android:background="@color/ah" android:paddingTop="@dimen/xz" android:paddingBottom="@dimen/tz" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/aru" android:background="@drawable/jf" android:layout_width="?a4" android:layout_height="?a4" android:src="@drawable/agt" android:scaleType="centerInside" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ajz" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ag">
+    <View
+        android:id="@id/arw"
+        android:layout_width="fill_parent"
+        android:layout_height="?a4"
+        android:background="@color/ah"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/arx"
+        android:layout_width="?a4"
+        android:layout_height="?a4"
+        android:adjustViewBounds="true"
+        android:background="@drawable/jf"
+        android:scaleType="centerInside"
+        android:src="@drawable/aj0"
+        app:layout_constraintBottom_toBottomOf="@id/arw"
+        app:layout_constraintStart_toStartOf="@id/arw"
+        app:layout_constraintTop_toTopOf="@id/arw" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="?a4"
+        android:gravity="center"
+        android:text="@string/ab5"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z1"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/arx"
+        app:layout_constraintTop_toTopOf="apv" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/art"
+        android:layout_width="?a4"
+        android:layout_height="?a4"
+        android:adjustViewBounds="true"
+        android:background="@drawable/jf"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ae0"
+        app:layout_constraintBottom_toBottomOf="@id/arw"
+        app:layout_constraintEnd_toEndOf="@id/ars"
+        app:layout_constraintTop_toTopOf="apv" />
+    <com.videoedit.gallery.widget.photo.PhotoView
+        android:id="@id/arv"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toTopOf="@id/ahd"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/arw" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/ary"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:background="@drawable/aew"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/arv"
+        app:layout_constraintEnd_toEndOf="@id/arv"
+        app:layout_constraintStart_toStartOf="@id/arv"
+        app:layout_constraintTop_toTopOf="@id/arv" />
+    <View
+        android:id="@id/ars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <LinearLayout
+        android:id="@id/ahd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ah"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/xz"
+        android:paddingBottom="@dimen/tz"
+        app:layout_constraintBottom_toBottomOf="apv">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/aru"
+            android:layout_width="?a4"
+            android:layout_height="?a4"
+            android:background="@drawable/jf"
+            android:scaleType="centerInside"
+            android:src="@drawable/agt" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ajz"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/yz" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

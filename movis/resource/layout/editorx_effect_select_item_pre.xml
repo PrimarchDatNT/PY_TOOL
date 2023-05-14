@@ -1,13 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/a7_" android:layout_width="@dimen/yg" android:layout_height="@dimen/yg"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/a7u" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/a_b" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:layout_margin="@dimen/uk" android:src="@drawable/a9f" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
-        <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/tr" android:background="@color/xz" android:layout_width="@dimen/y0" android:layout_height="@dimen/y0" android:layout_centerInParent="true" app:roundedCornerRadius="2.0dip" />
-        <com.videoai.aivpcore.editorx.widget.magic.RoundProgressView android:id="@id/asc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:backgroundColor="#99020202" app:circleCorner="0.0dip" app:circleProgress="0" app:circleRadius="50.0dip" app:startAngle="270" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/yg"
+    android:layout_height="@dimen/yg"
+    android:background="@drawable/a7_">
+    <RelativeLayout
+        android:id="@id/a7u"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/a_b"
+            android:layout_width="@dimen/tz"
+            android:layout_height="@dimen/tz"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/uk"
+            android:src="@drawable/a9f" />
+        <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+            android:id="@id/tr"
+            android:layout_width="@dimen/y0"
+            android:layout_height="@dimen/y0"
+            android:layout_centerInParent="true"
+            android:background="@color/xz"
+            app:roundedCornerRadius="2.0dip" />
+        <com.videoai.aivpcore.editorx.widget.magic.RoundProgressView
+            android:id="@id/asc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            app:backgroundColor="#99020202"
+            app:circleCorner="0.0dip"
+            app:circleProgress="0"
+            app:circleRadius="50.0dip"
+            app:startAngle="270" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/acn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/a94" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/a07" android:layout_centerHorizontal="true" />
-        <TextView android:textSize="14.0sp" android:textColor="@color/iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ah6" android:layout_below="@id/a94" android:layout_centerHorizontal="true" />
+    <RelativeLayout
+        android:id="@id/acn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/a94"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24.0dip"
+            android:src="@drawable/a07" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/a94"
+            android:layout_centerHorizontal="true"
+            android:text="@string/ah6"
+            android:textColor="@color/iv"
+            android:textSize="14.0sp" />
     </RelativeLayout>
 </RelativeLayout>

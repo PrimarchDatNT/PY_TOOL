@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/bpk" android:layout_width="37.0dip" android:layout_height="37.0dip" android:src="@drawable/b13" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@id/bpk"
+        android:layout_width="37.0dip"
+        android:layout_height="37.0dip"
+        android:src="@drawable/b13" />
 </RelativeLayout>

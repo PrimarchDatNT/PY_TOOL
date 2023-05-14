@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:tag="layout/item_effect_center_0" android:background="@drawable/ea" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.videoai.aivpcore.unit.view.PressImageView android:id="@id/a_k" android:layout_width="fill_parent" android:layout_height="@dimen/tb" android:scaleType="centerCrop" android:adjustViewBounds="true" app:shapeAppearanceOverlay="@style/iv" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textStyle="bold" android:textColor="@color/zo" android:id="@id/bef" android:padding="@dimen/yf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cf" android:fontFamily="@font/f" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ea"
+    android:orientation="vertical"
+    android:tag="layout/item_effect_center_0">
+    <com.videoai.aivpcore.unit.view.PressImageView
+        android:id="@id/a_k"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/tb"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/iv" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bef"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/f"
+        android:padding="@dimen/yf"
+        android:text="@string/cf"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z0"
+        android:textStyle="bold" />
 </LinearLayout>

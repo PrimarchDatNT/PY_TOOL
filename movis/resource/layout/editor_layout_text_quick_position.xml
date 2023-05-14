@@ -1,41 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:gravity="center" android:id="@id/ba8" android:background="@drawable/ut" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginStart="10.0dip">
-        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/md" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layoutDirection="ltr">
+    <RelativeLayout
+        android:id="@id/ba8"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginStart="10.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/ut"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/md" />
     </RelativeLayout>
-    <RelativeLayout android:gravity="center" android:id="@id/baa" android:background="@drawable/ut" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true">
-        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/md" android:rotation="90.0" />
+    <RelativeLayout
+        android:id="@id/baa"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginEnd="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:background="@drawable/ut"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:rotation="90.0"
+            android:src="@drawable/md" />
     </RelativeLayout>
-    <RelativeLayout android:gravity="center" android:id="@id/ip" android:background="@drawable/ut" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="10.0dip">
-        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/md" android:rotation="270.0" />
+    <RelativeLayout
+        android:id="@id/ip"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:background="@drawable/ut"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:rotation="270.0"
+            android:src="@drawable/md" />
     </RelativeLayout>
-    <RelativeLayout android:gravity="center" android:id="@id/ir" android:background="@drawable/ut" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true">
-        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/md" android:rotation="180.0" />
+    <RelativeLayout
+        android:id="@id/ir"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:background="@drawable/ut"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:rotation="180.0"
+            android:src="@drawable/md" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/o6" android:background="@drawable/ut" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_centerVertical="true" android:layout_marginStart="10.0dip">
-        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/mc" />
+    <RelativeLayout
+        android:id="@id/o6"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:background="@drawable/ut">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/mc" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/o7" android:background="@drawable/ut" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true">
-        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/mc" android:rotation="180.0" />
+    <RelativeLayout
+        android:id="@id/o7"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:background="@drawable/ut">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:rotation="180.0"
+            android:src="@drawable/mc" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/o8" android:background="@drawable/ut" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true">
-        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/mc" android:rotation="90.0" />
+    <RelativeLayout
+        android:id="@id/o8"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/ut">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:rotation="90.0"
+            android:src="@drawable/mc" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/o4" android:background="@drawable/ut" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
-        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/mc" android:rotation="270.0" />
+    <RelativeLayout
+        android:id="@id/o4"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10.0dip"
+        android:background="@drawable/ut">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:rotation="270.0"
+            android:src="@drawable/mc" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/o0" android:background="@drawable/ut" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true">
-        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/mb" />
+    <RelativeLayout
+        android:id="@id/o0"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ut">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/mb" />
     </RelativeLayout>
-    <LinearLayout android:orientation="vertical" android:id="@id/ah2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/x4" android:showDividers="middle">
-        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout
+        android:id="@id/ah2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/x4"
+        android:orientation="vertical"
+        android:showDividers="middle">
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
     </LinearLayout>
-    <LinearLayout android:orientation="horizontal" android:id="@id/ah3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/x5" android:showDividers="middle">
-        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
-        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
-        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout
+        android:id="@id/ah3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/x5"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
     </LinearLayout>
 </RelativeLayout>

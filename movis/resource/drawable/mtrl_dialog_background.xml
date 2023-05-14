@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<inset android:insetLeft="@dimen/cl" android:insetRight="@dimen/cl" android:insetTop="@dimen/cl" android:insetBottom="@dimen/cl"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@dimen/cl" android:insetTop="@dimen/cl" android:insetRight="@dimen/cl" android:insetBottom="@dimen/cl">
     <shape android:shape="rectangle">
         <corners android:radius="@dimen/r_" />
         <solid android:color="?hw" />

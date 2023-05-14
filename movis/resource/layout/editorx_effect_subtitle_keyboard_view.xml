@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <EditText android:textSize="@dimen/yz" android:textColor="@color/zo" android:textColorHint="@color/ao" android:gravity="center_vertical" android:id="@id/wh" android:background="@drawable/a7k" android:paddingTop="@dimen/yf" android:paddingBottom="@dimen/yf" android:focusable="true" android:focusableInTouchMode="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:maxHeight="@dimen/x9" android:maxLength="247" android:paddingStart="@dimen/td" android:paddingEnd="@dimen/td" />
-    <View android:background="@color/aj" android:layout_width="fill_parent" android:layout_height="@dimen/t2" android:layout_marginTop="@dimen/x6" android:layout_marginStart="@dimen/td" android:layout_marginEnd="@dimen/td" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@id/wh"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x9"
+        android:background="@drawable/a7k"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:maxHeight="@dimen/x9"
+        android:maxLength="247"
+        android:paddingStart="@dimen/td"
+        android:paddingTop="@dimen/yf"
+        android:paddingEnd="@dimen/td"
+        android:paddingBottom="@dimen/yf"
+        android:textColor="@color/zo"
+        android:textColorHint="@color/ao"
+        android:textSize="@dimen/yz" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/t2"
+        android:layout_marginStart="@dimen/td"
+        android:layout_marginTop="@dimen/x6"
+        android:layout_marginEnd="@dimen/td"
+        android:background="@color/aj" />
 </FrameLayout>

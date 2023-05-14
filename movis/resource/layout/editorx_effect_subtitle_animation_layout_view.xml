@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/ej" android:layout_width="wrap_content" android:layout_height="@dimen/x9" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <com.videoai.aivpcore.common.ui.RtlViewPager android:id="@id/el" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/ej" />
-    <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleAnimStateView android:id="@id/ef" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/el" app:layout_constraintEnd_toEndOf="@id/el" app:layout_constraintStart_toStartOf="@id/el" app:layout_constraintTop_toTopOf="@id/el" />
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ag">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/ej"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/x9"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <com.videoai.aivpcore.common.ui.RtlViewPager
+        android:id="@id/el"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/ej" />
+    <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleAnimStateView
+        android:id="@id/ef"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/el"
+        app:layout_constraintEnd_toEndOf="@id/el"
+        app:layout_constraintStart_toStartOf="@id/el"
+        app:layout_constraintTop_toTopOf="@id/el" />
 </merge>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_enabled="true" android:state_pressed="true" android:color="@color/rg" android:alpha="@dimen/kk" />
-    <item android:color="@color/rg" android:alpha="@dimen/ki" />
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:alpha="@dimen/kk" android:color="@color/rg" android:state_enabled="true" android:state_pressed="true" />
+    <item android:alpha="@dimen/ki" android:color="@color/rg" />
 </selector>

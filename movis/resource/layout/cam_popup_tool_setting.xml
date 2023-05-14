@@ -1,25 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="190.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:background="@drawable/azd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_centerHorizontal="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
-        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ag1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
-            <RelativeLayout android:id="@id/agg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-                <ImageView android:id="@id/a3l" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/b03" android:layout_centerInParent="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="190.0dip">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginEnd="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:background="@drawable/azd">
+        <LinearLayout
+            android:id="@id/ag1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:id="@id/agg"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <ImageView
+                    android:id="@id/a3l"
+                    android:layout_width="44.0dip"
+                    android:layout_height="44.0dip"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/b03" />
             </RelativeLayout>
-            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-                <ImageView android:id="@id/a3m" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/b05" android:layout_centerInParent="true" />
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <ImageView
+                    android:id="@id/a3m"
+                    android:layout_width="44.0dip"
+                    android:layout_height="44.0dip"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/b05" />
             </RelativeLayout>
-            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-                <ImageView android:id="@id/a3n" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/b0_" android:layout_centerInParent="true" />
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <ImageView
+                    android:id="@id/a3n"
+                    android:layout_width="44.0dip"
+                    android:layout_height="44.0dip"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/b0_" />
             </RelativeLayout>
-            <RelativeLayout android:id="@id/agf" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-                <ImageView android:id="@id/a3k" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/b01" android:layout_centerInParent="true" />
+            <RelativeLayout
+                android:id="@id/agf"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <ImageView
+                    android:id="@id/a3k"
+                    android:layout_width="44.0dip"
+                    android:layout_height="44.0dip"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/b01" />
             </RelativeLayout>
         </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:id="@id/agz" android:background="#0dffffff" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/ag1" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
-        <LinearLayout android:orientation="horizontal" android:id="@id/ag3" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/agz" android:paddingEnd="4.0dip">
-            <TextView android:textSize="14.0sp" android:textColor="#80ffffff" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="@string/r6" android:layout_marginStart="18.0dip" />
-            <com.videoai.aivpcore.camera.ui.view.seekbar.DraggableSeekBar android:layout_gravity="end" android:id="@id/b3w" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@id/agz"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_below="@id/ag1"
+            android:layout_marginStart="20.0dip"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginEnd="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:background="#0dffffff"
+            android:orientation="horizontal" />
+        <LinearLayout
+            android:id="@id/ag3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/agz"
+            android:orientation="horizontal"
+            android:paddingEnd="4.0dip"
+            android:paddingRight="4.0dip">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center"
+                android:layout_marginStart="18.0dip"
+                android:layout_marginLeft="18.0dip"
+                android:text="@string/r6"
+                android:textColor="#80ffffff"
+                android:textSize="14.0sp" />
+            <com.videoai.aivpcore.camera.ui.view.seekbar.DraggableSeekBar
+                android:id="@id/b3w"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end" />
         </LinearLayout>
     </RelativeLayout>
 </RelativeLayout>

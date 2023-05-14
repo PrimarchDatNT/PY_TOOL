@@ -1,17 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/aoq" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/asi" android:background="@color/xz" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="10.0dip">
-        <ImageView android:id="@id/ash" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
-        <ImageView android:id="@id/aqz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jq" android:layout_centerInParent="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/aoq"
+    android:paddingTop="20.0dip"
+    android:paddingBottom="10.0dip">
+    <RelativeLayout
+        android:id="@id/asi"
+        android:layout_width="100.0dip"
+        android:layout_height="100.0dip"
+        android:layout_marginStart="10.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:background="@color/xz">
+        <ImageView
+            android:id="@id/ash"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY" />
+        <ImageView
+            android:id="@id/aqz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/jq" />
     </RelativeLayout>
-    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/asi" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/asi">
-        <TextView android:textSize="15.0dip" android:textColor="@color/fp" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ac8" android:paddingEnd="10.0dip" />
-        <com.videoai.aivpcore.common.ui.widgets.autofittextview.AutofitTextView android:textSize="12.0dip" android:textColor="@color/fp" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/ac6" android:maxLines="1" android:fontFamily="sans-serif-light" android:paddingEnd="10.0dip" />
-        <TextView android:textSize="9.0dip" android:textColor="@color/l3" android:id="@id/asj" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:fontFamily="sans-serif-light" android:paddingEnd="10.0dip" />
-        <TextView android:textColor="@color/zo" android:gravity="center" android:id="@id/avd" android:background="@drawable/jo" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" android:text="Find this video" android:fontFamily="@string/fd" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
-        <androidx.recyclerview.widget.RecyclerView android:scrollbarAlwaysDrawHorizontalTrack="false" android:scrollbarAlwaysDrawVerticalTrack="false" android:id="@id/avg" android:background="@color/xz" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginStart="10.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_toEndOf="@id/asi"
+        android:layout_toRightOf="@id/asi"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="10.0dip"
+            android:paddingRight="10.0dip"
+            android:text="@string/ac8"
+            android:textColor="@color/fp"
+            android:textSize="15.0dip" />
+        <com.videoai.aivpcore.common.ui.widgets.autofittextview.AutofitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.0dip"
+            android:fontFamily="sans-serif-light"
+            android:maxLines="1"
+            android:paddingEnd="10.0dip"
+            android:paddingRight="10.0dip"
+            android:text="@string/ac6"
+            android:textColor="@color/fp"
+            android:textSize="12.0dip" />
+        <TextView
+            android:id="@id/asj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.0dip"
+            android:fontFamily="sans-serif-light"
+            android:maxLines="1"
+            android:paddingEnd="10.0dip"
+            android:paddingRight="10.0dip"
+            android:textColor="@color/l3"
+            android:textSize="9.0dip"
+            android:visibility="gone" />
+        <TextView
+            android:id="@id/avd"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="5.0dip"
+            android:background="@drawable/jo"
+            android:fontFamily="@string/fd"
+            android:gravity="center"
+            android:paddingStart="10.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingEnd="10.0dip"
+            android:paddingRight="10.0dip"
+            android:text="Find this video"
+            android:textColor="@color/zo"
+            android:visibility="gone" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/avg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="5.0dip"
+            android:background="@color/xz"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:scrollbars="none"
+            android:visibility="gone" />
     </LinearLayout>
-    <TextView android:textSize="12.0dip" android:textColor="@color/l3" android:gravity="center" android:id="@id/ave" android:background="@drawable/jp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="Find this video" android:layout_below="@id/asi" android:fontFamily="@string/fd" />
-    <View android:id="@id/avf" android:background="@color/ip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/ave" />
+    <TextView
+        android:id="@id/ave"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_below="@id/asi"
+        android:background="@drawable/jp"
+        android:fontFamily="@string/fd"
+        android:gravity="center"
+        android:text="Find this video"
+        android:textColor="@color/l3"
+        android:textSize="12.0dip"
+        android:visibility="gone" />
+    <View
+        android:id="@id/avf"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_above="@id/ave"
+        android:background="@color/ip"
+        android:visibility="gone" />
 </RelativeLayout>

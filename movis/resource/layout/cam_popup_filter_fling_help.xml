@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/bw" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="320.0dip" android:layout_marginTop="48.0dip">
-        <ImageView android:id="@id/a6a" android:layout_width="120.0dip" android:layout_height="120.0dip" android:src="@drawable/avv" android:layout_centerInParent="true" />
-        <TextView android:textSize="16.0sp" android:textColor="@color/zo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a89" android:layout_below="@id/a6a" android:layout_centerInParent="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bw">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="320.0dip"
+        android:layout_marginTop="48.0dip">
+        <ImageView
+            android:id="@id/a6a"
+            android:layout_width="120.0dip"
+            android:layout_height="120.0dip"
+            android:layout_centerInParent="true"
+            android:src="@drawable/avv" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/a6a"
+            android:layout_centerInParent="true"
+            android:text="@string/a89"
+            android:textColor="@color/zo"
+            android:textSize="16.0sp" />
     </RelativeLayout>
 </RelativeLayout>

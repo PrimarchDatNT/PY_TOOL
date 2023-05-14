@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/ah" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/xt" android:layout_alignParentBottom="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:layout_width="fill_parent" android:layout_height="@dimen/t2" />
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <RelativeLayout android:id="@id/ae7" android:background="@drawable/jf" android:visibility="visible" android:layout_width="@dimen/xt" android:layout_height="@dimen/xt">
-            <ImageView android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/a1n" android:layout_centerInParent="true" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/xt"
+    android:layout_alignParentBottom="true"
+    android:background="@color/ah"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:visibility="visible">
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/t2" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@id/ae7"
+            android:layout_width="@dimen/xt"
+            android:layout_height="@dimen/xt"
+            android:background="@drawable/jf"
+            android:visibility="visible">
+            <ImageView
+                android:layout_width="@dimen/v7"
+                android:layout_height="@dimen/v7"
+                android:layout_centerInParent="true"
+                android:src="@drawable/a1n" />
         </RelativeLayout>
-        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/b21" android:visibility="visible" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:sitv_bottom_text="Picker" app:sitv_top_drawable="@drawable/a4r" />
-        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/b2e" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:sitv_bottom_text="Acc" app:sitv_top_text="20" app:sitv_top_text_color="@drawable/a6f" app:sitv_top_type="bac" />
-        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/b2h" android:layout_width="@dimen/y6" android:layout_height="wrap_content" app:sitv_bottom_text="@string/a1u" app:sitv_top_drawable="@drawable/a1f" />
+        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+            android:id="@id/b21"
+            android:layout_width="@dimen/y6"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:sitv_bottom_text="Picker"
+            app:sitv_top_drawable="@drawable/a4r" />
+        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+            android:id="@id/b2e"
+            android:layout_width="@dimen/y6"
+            android:layout_height="wrap_content"
+            app:sitv_bottom_text="Acc"
+            app:sitv_top_text="20"
+            app:sitv_top_text_color="@drawable/a6f"
+            app:sitv_top_type="bac" />
+        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+            android:id="@id/b2h"
+            android:layout_width="@dimen/y6"
+            android:layout_height="wrap_content"
+            app:sitv_bottom_text="@string/a1u"
+            app:sitv_top_drawable="@drawable/a1f" />
     </LinearLayout>
 </LinearLayout>

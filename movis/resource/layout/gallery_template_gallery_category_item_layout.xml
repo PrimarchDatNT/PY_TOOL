@@ -1,12 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.cardview.widget.CardView android:id="@id/b7g" android:layout_width="fill_parent" android:layout_height="0.0dip" app:cardBackgroundColor="@color/rp" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip" app:layout_constraintDimensionRatio="16:9" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/b7h" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/aeg" android:scaleType="centerCrop" android:contentDescription="@null" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:id="@id/b7g"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:cardBackgroundColor="@color/rp"
+        app:cardCornerRadius="8.0dip"
+        app:cardElevation="0.0dip"
+        app:layout_constraintDimensionRatio="16:9"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/b7h"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/aeg" />
     </androidx.cardview.widget.CardView>
-    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/zi" android:gravity="start" android:id="@id/b7o" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:includeFontPadding="false" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="@id/b7g" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="@id/b7g" style="@style/x7" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/b7i" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/af_" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <View android:id="@id/b7n" android:background="@drawable/ahb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <TextView android:textStyle="bold" android:textColor="@color/zo" android:id="@id/b7p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="01" android:layout_marginStart="6.0dip" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" style="@style/xd" />
-    <ImageButton android:id="@id/b7l" android:background="@color/xz" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:src="@drawable/agh" android:contentDescription="@null" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="@id/b7g" app:layout_constraintEnd_toEndOf="@id/b7g" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/b7o"
+        style="@style/x7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="4.0dip"
+        android:layout_marginBottom="4.0dip"
+        android:gravity="start"
+        android:includeFontPadding="false"
+        android:textColor="@color/zi"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="@id/b7g"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="@id/b7g" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/b7i"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:src="@drawable/af_"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <View
+        android:id="@id/b7n"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:background="@drawable/ahb"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <TextView
+        android:id="@id/b7p"
+        style="@style/xd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6.0dip"
+        android:text="01"
+        android:textColor="@color/zo"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <ImageButton
+        android:id="@id/b7l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4.0dip"
+        android:layout_marginBottom="4.0dip"
+        android:background="@color/xz"
+        android:contentDescription="@null"
+        android:src="@drawable/agh"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/b7g"
+        app:layout_constraintEnd_toEndOf="@id/b7g" />
 </androidx.constraintlayout.widget.ConstraintLayout>

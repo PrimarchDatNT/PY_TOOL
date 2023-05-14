@@ -1,19 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rotateView="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/aj_" android:layout_width="75.0dip" android:layout_height="90.0dip">
-        <com.videoai.aivpcore.ui.view.RotateImageView android:id="@id/bou" android:background="@drawable/avu" android:layout_width="2.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" />
-        <RelativeLayout android:layout_width="63.0dip" android:layout_height="90.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
-            <RelativeLayout android:layout_width="53.0dip" android:layout_height="90.0dip" android:layout_margin="5.0dip" android:layout_centerInParent="true">
-                <com.videoai.aivpcore.ui.view.RotateImageView android:id="@id/bov" android:layout_width="53.0dip" android:layout_height="68.0dip" android:src="@drawable/at1" android:scaleType="fitXY" android:layout_centerInParent="true" rotateView:rotation="270" />
-                <com.videoai.aivpcore.ui.view.RotateImageView android:id="@id/bot" android:layout_width="38.0dip" android:layout_height="68.0dip" android:scaleType="fitXY" android:layout_centerInParent="true" />
-                <com.videoai.aivpcore.ui.view.RotateImageView android:id="@id/a5n" android:background="@color/xz" android:visibility="visible" android:layout_width="14.0dip" android:layout_height="30.0dip" android:src="@drawable/b7i" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
-                <com.videoai.aivpcore.ui.view.RotateImageView android:id="@id/a5j" android:background="@color/xz" android:visibility="invisible" android:layout_width="38.0dip" android:layout_height="68.0dip" android:src="@drawable/b2q" android:scaleType="fitXY" rotateView:rotation="270" />
-                <com.videoai.aivpcore.ui.view.RotateImageView android:id="@id/a5k" android:background="@color/xz" android:visibility="invisible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/b2r" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" rotateView:rotation="270" />
-                <com.videoai.aivpcore.ui.view.RotateImageView android:id="@id/a5_" android:background="@color/xz" android:visibility="invisible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/b2p" android:scaleType="fitXY" rotateView:rotation="270" />
-                <com.videoai.aivpcore.ui.view.RotateProgressBar android:id="@id/tx" android:visibility="invisible" android:layout_width="5.0dip" android:layout_height="68.0dip" android:progress="0" android:layout_centerInParent="true" style="@style/y9" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rotateView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@id/aj_"
+        android:layout_width="75.0dip"
+        android:layout_height="90.0dip">
+        <com.videoai.aivpcore.ui.view.RotateImageView
+            android:id="@id/bou"
+            android:layout_width="2.0dip"
+            android:layout_height="50.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:background="@drawable/avu"
+            android:scaleType="fitXY" />
+        <RelativeLayout
+            android:layout_width="63.0dip"
+            android:layout_height="90.0dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+            <RelativeLayout
+                android:layout_width="53.0dip"
+                android:layout_height="90.0dip"
+                android:layout_centerInParent="true"
+                android:layout_margin="5.0dip">
+                <com.videoai.aivpcore.ui.view.RotateImageView
+                    android:id="@id/bov"
+                    android:layout_width="53.0dip"
+                    android:layout_height="68.0dip"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/at1"
+                    rotateView:rotation="270" />
+                <com.videoai.aivpcore.ui.view.RotateImageView
+                    android:id="@id/bot"
+                    android:layout_width="38.0dip"
+                    android:layout_height="68.0dip"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY" />
+                <com.videoai.aivpcore.ui.view.RotateImageView
+                    android:id="@id/a5n"
+                    android:layout_width="14.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/xz"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/b7i"
+                    android:visibility="visible" />
+                <com.videoai.aivpcore.ui.view.RotateImageView
+                    android:id="@id/a5j"
+                    android:layout_width="38.0dip"
+                    android:layout_height="68.0dip"
+                    android:background="@color/xz"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/b2q"
+                    android:visibility="invisible"
+                    rotateView:rotation="270" />
+                <com.videoai.aivpcore.ui.view.RotateImageView
+                    android:id="@id/a5k"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/xz"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/b2r"
+                    android:visibility="invisible"
+                    rotateView:rotation="270" />
+                <com.videoai.aivpcore.ui.view.RotateImageView
+                    android:id="@id/a5_"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:background="@color/xz"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/b2p"
+                    android:visibility="invisible"
+                    rotateView:rotation="270" />
+                <com.videoai.aivpcore.ui.view.RotateProgressBar
+                    android:id="@id/tx"
+                    style="@style/y9"
+                    android:layout_width="5.0dip"
+                    android:layout_height="68.0dip"
+                    android:layout_centerInParent="true"
+                    android:progress="0"
+                    android:visibility="invisible" />
             </RelativeLayout>
         </RelativeLayout>
-        <com.videoai.aivpcore.ui.view.RotateTextView android:textSize="@dimen/he" android:textColor="@color/zo" android:id="@id/bow" android:visibility="invisible" android:layout_width="15.0dip" android:layout_height="fill_parent" rotateView:isShadowOn="false" rotateView:rotation="270" />
+        <com.videoai.aivpcore.ui.view.RotateTextView
+            android:id="@id/bow"
+            android:layout_width="15.0dip"
+            android:layout_height="fill_parent"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/he"
+            android:visibility="invisible"
+            rotateView:isShadowOn="false"
+            rotateView:rotation="270" />
     </RelativeLayout>
 </RelativeLayout>

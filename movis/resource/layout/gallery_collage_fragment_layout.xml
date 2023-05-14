@@ -1,16 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/ahs" android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:layout_gravity="center" android:id="@id/bi9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/j3" android:fontFamily="@font/f" />
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:layout_gravity="start|center" android:id="@id/bdb" android:background="@drawable/jf" android:layout_width="@dimen/xh" android:layout_height="@dimen/xh" android:src="@drawable/e0" android:scaleType="centerInside" />
-        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/az4" android:layout_width="fill_parent" android:layout_height="@dimen/xh" android:layout_marginStart="@dimen/xh" android:layout_marginEnd="@dimen/xh" />
-        <ImageView android:layout_gravity="end|center" android:id="@id/be0" android:background="@drawable/jf" android:layout_width="@dimen/xh" android:layout_height="@dimen/xh" android:src="@drawable/ae0" android:scaleType="centerInside" style="@style/x5" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/ahs"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ah"
+    android:orientation="vertical">
+    <TextView
+        android:id="@id/bi9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/f"
+        android:text="@string/j3"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z0" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/bdb"
+            android:layout_width="@dimen/xh"
+            android:layout_height="@dimen/xh"
+            android:layout_gravity="start|center"
+            android:background="@drawable/jf"
+            android:scaleType="centerInside"
+            android:src="@drawable/e0" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/az4"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xh"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/xh"
+            android:layout_marginEnd="@dimen/xh" />
+        <ImageView
+            android:id="@id/be0"
+            style="@style/x5"
+            android:layout_width="@dimen/xh"
+            android:layout_height="@dimen/xh"
+            android:layout_gravity="end|center"
+            android:background="@drawable/jf"
+            android:scaleType="centerInside"
+            android:src="@drawable/ae0" />
     </FrameLayout>
-    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <FrameLayout android:id="@id/zh" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="azw|wa" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ah"
+            android:orientation="vertical">
+            <FrameLayout
+                android:id="@id/zh"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="azw|wa" />
         </com.google.android.material.appbar.AppBarLayout>
-        <FrameLayout android:id="@id/zc" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ch" />
+        <FrameLayout
+            android:id="@id/zc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_behavior="@string/ch" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </LinearLayout>

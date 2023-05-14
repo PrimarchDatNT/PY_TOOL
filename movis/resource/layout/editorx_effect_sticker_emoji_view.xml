@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/ag_" android:background="@drawable/a71" android:layout_width="32.0dip" android:layout_height="332.0dip" android:layout_centerVertical="true" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/ay2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@id/ag_"
+        android:layout_width="32.0dip"
+        android:layout_height="332.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="14.0dip"
+        android:background="@drawable/a71"
+        android:orientation="vertical" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/ay2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
 </RelativeLayout>

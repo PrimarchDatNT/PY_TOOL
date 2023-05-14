@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/ay5" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="@dimen/gv"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.videoai.aivpcore.editor.preview.EditorViewPager android:id="@id/bo6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="44.0dip" app:scrollable="false" />
-    <View android:background="#ff262626" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_above="@id/vm" />
-    <com.google.android.material.tabs.TabLayout android:id="@id/vm" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_scrollFlags="azw|wa" app:tabBackground="@color/dt" app:tabGravity="ya" app:tabIndicatorColor="#ffff5e13" app:tabIndicatorHeight="3.0dip" app:tabMode="z0" app:tabPaddingEnd="2.0dip" app:tabPaddingStart="2.0dip" app:tabSelectedTextColor="@color/n_" app:tabTextAppearance="@style/af" app:tabTextColor="#80ffffff" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/ay5"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/gv"
+    android:background="@android:color/black">
+    <com.videoai.aivpcore.editor.preview.EditorViewPager
+        android:id="@id/bo6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginBottom="44.0dip"
+        app:scrollable="false" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_above="@id/vm"
+        android:background="#ff262626" />
+    <com.google.android.material.tabs.TabLayout
+        android:id="@id/vm"
+        android:layout_width="fill_parent"
+        android:layout_height="44.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:layout_scrollFlags="azw|wa"
+        app:tabBackground="@color/dt"
+        app:tabGravity="ya"
+        app:tabIndicatorColor="#ffff5e13"
+        app:tabIndicatorHeight="3.0dip"
+        app:tabMode="z0"
+        app:tabPaddingEnd="2.0dip"
+        app:tabPaddingStart="2.0dip"
+        app:tabSelectedTextColor="@color/n_"
+        app:tabTextAppearance="@style/af"
+        app:tabTextColor="#80ffffff" />
 </RelativeLayout>

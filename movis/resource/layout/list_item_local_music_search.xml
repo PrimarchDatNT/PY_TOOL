@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ahb" android:background="@color/do" android:layout_width="fill_parent" android:layout_height="52.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/anh" android:background="@drawable/b5a" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
-        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/b58" android:layout_marginStart="10.0dip" />
-        <TextView android:textStyle="bold" android:textColor="@color/a01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@string/alt" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/ahb"
+    android:layout_width="fill_parent"
+    android:layout_height="52.0dip"
+    android:background="@color/do"
+    android:gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@id/anh"
+        android:layout_width="fill_parent"
+        android:layout_height="36.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:background="@drawable/b5a"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:src="@drawable/b58" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:text="@string/alt"
+            android:textColor="@color/a01"
+            android:textStyle="bold" />
     </LinearLayout>
 </LinearLayout>

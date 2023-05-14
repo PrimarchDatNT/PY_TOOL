@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/b_7" android:paddingLeft="@dimen/mi" android:paddingTop="@dimen/mi" android:paddingRight="@dimen/mi" android:paddingBottom="@dimen/n1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/mi" android:paddingEnd="@dimen/mi"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/a3a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mn" android:scaleType="fitXY" android:layout_marginEnd="@dimen/mn" />
-    <TextView android:textSize="@dimen/n3" android:textColor="@color/c5" android:id="@id/b_5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/b_7"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/mi"
+    android:paddingLeft="@dimen/mi"
+    android:paddingTop="@dimen/mi"
+    android:paddingEnd="@dimen/mi"
+    android:paddingRight="@dimen/mi"
+    android:paddingBottom="@dimen/n1">
+    <ImageView
+        android:id="@id/a3a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/mn"
+        android:layout_marginRight="@dimen/mn"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+    <TextView
+        android:id="@id/b_5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/c5"
+        android:textSize="@dimen/n3" />
 </LinearLayout>

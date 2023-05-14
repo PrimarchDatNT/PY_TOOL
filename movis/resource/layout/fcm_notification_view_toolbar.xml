@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/xx" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="?a4">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/j9" android:background="?a5d" android:layout_width="?a4" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_centerVertical="true" app:srcCompat="@drawable/aiy" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z2" android:textStyle="bold" android:textColor="@android:color/black" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/bid" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="@font/f" android:layout_toEndOf="@id/j9" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/xx"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="?a4"
+        android:layout_gravity="center_vertical">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/j9"
+            android:layout_width="?a4"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:background="?a5d"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/aiy" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/bid"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toEndOf="@id/j9"
+            android:ellipsize="marquee"
+            android:fontFamily="@font/f"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/z2"
+            android:textStyle="bold" />
     </RelativeLayout>
     <include layout="@layout/od" />
 </LinearLayout>

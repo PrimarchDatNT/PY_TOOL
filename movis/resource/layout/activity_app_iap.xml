@@ -1,18 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/activity_app_iap_0" android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/ayn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
-    <com.videoai.aivpcore.unit.premium.view.ViewPremiumAppbar android:id="@id/eu" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <View android:background="@color/aj" android:layout_width="fill_parent" android:layout_height="1.0dip" />
-        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/p3" android:background="#eb2e2e2e" android:paddingBottom="@dimen/td" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz" app:layout_constraintBottom_toBottomOf="apv">
-            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textStyle="bold" android:textColor="@color/zo" android:id="@id/bhn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yf" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textStyle="bold" android:textColor="@color/zo" android:id="@id/bgk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yf" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintTop_toTopOf="apv" />
-            <FrameLayout android:id="@id/bgi" android:background="@drawable/dx" android:layout_width="fill_parent" android:layout_height="@dimen/xh" android:layout_marginTop="@dimen/td" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/bhn">
-                <com.google.android.material.imageview.ShapeableImageView android:gravity="center" android:id="@id/a8y" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:alpha="0.2" android:textAllCaps="true" app:shapeAppearanceOverlay="@style/iw" />
-                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textStyle="bold" android:textColor="@color/zo" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/abx" android:textAllCaps="true" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ah"
+    android:tag="layout/activity_app_iap_0">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/ayn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:overScrollMode="never" />
+    <com.videoai.aivpcore.unit.premium.view.ViewPremiumAppbar
+        android:id="@id/eu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/aj" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/p3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#eb2e2e2e"
+            android:paddingStart="@dimen/tz"
+            android:paddingEnd="@dimen/tz"
+            android:paddingBottom="@dimen/td"
+            app:layout_constraintBottom_toBottomOf="apv">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@id/bhn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/yf"
+                android:textColor="@color/zo"
+                android:textSize="@dimen/yz"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="apv"
+                app:layout_constraintTop_toTopOf="apv" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@id/bgk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/yf"
+                android:textColor="@color/zo"
+                android:textSize="@dimen/yz"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="apv"
+                app:layout_constraintTop_toTopOf="apv" />
+            <FrameLayout
+                android:id="@id/bgi"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/xh"
+                android:layout_marginTop="@dimen/td"
+                android:background="@drawable/dx"
+                app:layout_constraintEnd_toEndOf="apv"
+                app:layout_constraintStart_toStartOf="apv"
+                app:layout_constraintTop_toBottomOf="@id/bhn">
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@id/a8y"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:alpha="0.2"
+                    android:gravity="center"
+                    android:scaleType="fitXY"
+                    android:textAllCaps="true"
+                    app:shapeAppearanceOverlay="@style/iw" />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/abx"
+                    android:textAllCaps="true"
+                    android:textColor="@color/zo"
+                    android:textSize="@dimen/z1"
+                    android:textStyle="bold" />
             </FrameLayout>
-            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:gravity="center" android:id="@id/bby" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/td" android:text="@string/ju" app:layout_constraintTop_toBottomOf="@id/bgi" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@id/bby"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/td"
+                android:gravity="center"
+                android:text="@string/ju"
+                android:textColor="@color/zo"
+                android:textSize="@dimen/yz"
+                app:layout_constraintTop_toBottomOf="@id/bgi" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 </FrameLayout>

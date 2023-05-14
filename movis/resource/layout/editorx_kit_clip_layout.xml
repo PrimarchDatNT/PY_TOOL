@@ -1,16 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="#ff141414" android:clickable="true" android:layout_width="fill_parent" android:layout_height="190.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_horizontal" android:id="@id/pd" android:background="@drawable/a4s" android:layout_width="wrap_content" android:layout_height="38.0dip" android:layout_marginTop="24.0dip">
-        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ai4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintHorizontal_chainStyle="apo" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toLeftOf="@id/bkf" app:layout_constraintTop_toTopOf="apv">
-            <ImageView android:id="@id/aag" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/a4w" />
-            <TextView android:textSize="16.0sp" android:textColor="#ffe6e6e6" android:id="@id/bfk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/als" android:layout_marginStart="6.0dip" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="190.0dip"
+    android:background="#ff141414"
+    android:clickable="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/pd"
+        android:layout_width="wrap_content"
+        android:layout_height="38.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24.0dip"
+        android:background="@drawable/a4s">
+        <LinearLayout
+            android:id="@id/ai4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24.0dip"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintHorizontal_chainStyle="apo"
+            app:layout_constraintLeft_toLeftOf="apv"
+            app:layout_constraintRight_toLeftOf="@id/bkf"
+            app:layout_constraintTop_toTopOf="apv">
+            <ImageView
+                android:id="@id/aag"
+                android:layout_width="16.0dip"
+                android:layout_height="16.0dip"
+                android:src="@drawable/a4w" />
+            <TextView
+                android:id="@id/bfk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6.0dip"
+                android:text="@string/als"
+                android:textColor="#ffe6e6e6"
+                android:textSize="16.0sp" />
         </LinearLayout>
-        <View android:id="@id/bkf" android:background="#ff363636" android:layout_width="1.0dip" android:layout_height="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintHorizontal_chainStyle="apo" app:layout_constraintLeft_toRightOf="@id/ai4" app:layout_constraintRight_toLeftOf="@id/ai3" app:layout_constraintTop_toTopOf="apv" />
-        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ai3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="24.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintHorizontal_chainStyle="apo" app:layout_constraintLeft_toRightOf="@id/bkf" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv">
-            <ImageView android:id="@id/aaf" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/a4u" />
-            <TextView android:textSize="16.0sp" android:textColor="#ffe6e6e6" android:id="@id/bfj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a4g" android:layout_marginStart="6.0dip" />
+        <View
+            android:id="@id/bkf"
+            android:layout_width="1.0dip"
+            android:layout_height="12.0dip"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip"
+            android:background="#ff363636"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintHorizontal_chainStyle="apo"
+            app:layout_constraintLeft_toRightOf="@id/ai4"
+            app:layout_constraintRight_toLeftOf="@id/ai3"
+            app:layout_constraintTop_toTopOf="apv" />
+        <LinearLayout
+            android:id="@id/ai3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24.0dip"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintHorizontal_chainStyle="apo"
+            app:layout_constraintLeft_toRightOf="@id/bkf"
+            app:layout_constraintRight_toRightOf="apv"
+            app:layout_constraintTop_toTopOf="apv">
+            <ImageView
+                android:id="@id/aaf"
+                android:layout_width="16.0dip"
+                android:layout_height="16.0dip"
+                android:src="@drawable/a4u" />
+            <TextView
+                android:id="@id/bfj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6.0dip"
+                android:text="@string/a4g"
+                android:textColor="#ffe6e6e6"
+                android:textSize="16.0sp" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
-    <com.videoai.aivpcore.supertimeline.view.KitTimeLine android:id="@id/ac6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.videoai.aivpcore.supertimeline.view.KitTimeLine
+        android:id="@id/ac6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
 </FrameLayout>

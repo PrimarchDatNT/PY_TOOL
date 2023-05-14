@@ -1,8 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/a2h" android:background="@drawable/ed" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz" android:layout_alignParentStart="true">
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textColor="@color/d6" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/a2o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/t3" android:layout_marginBottom="@dimen/t3" android:maxWidth="120.0dip" android:maxLines="3" android:fontFamily="@font/f" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/a_5" android:background="@drawable/jf" android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/e0" android:scaleType="centerInside" android:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toEndOf="@id/a2o" app:layout_constraintTop_toTopOf="apv" />
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/xz">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/a2h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/ed"
+        android:paddingStart="@dimen/tz"
+        android:paddingEnd="@dimen/tz"
+        android:visibility="invisible">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/a2o"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/t3"
+            android:layout_marginBottom="@dimen/t3"
+            android:ellipsize="end"
+            android:fontFamily="@font/f"
+            android:gravity="center"
+            android:maxWidth="120.0dip"
+            android:maxLines="3"
+            android:textColor="@color/d6"
+            android:textSize="@dimen/yz"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toTopOf="apv" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/a_5"
+            android:layout_width="@dimen/v7"
+            android:layout_height="@dimen/v7"
+            android:adjustViewBounds="true"
+            android:background="@drawable/jf"
+            android:scaleType="centerInside"
+            android:src="@drawable/e0"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toEndOf="@id/a2o"
+            app:layout_constraintTop_toTopOf="apv" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </merge>

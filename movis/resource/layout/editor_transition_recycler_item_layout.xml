@@ -1,16 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:clipToPadding="false" android:layout_width="72.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginEnd="10.0dip">
-        <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/a7e" android:layout_width="71.0dip" android:layout_height="71.0dip" android:layout_marginLeft="0.5dip" android:layout_marginTop="0.5dip" android:src="@color/xz" android:scaleType="centerCrop" android:layout_marginStart="0.5dip" fresco:placeholderImage="@color/dt" fresco:roundedCornerRadius="2.0dip" />
-        <ImageView android:id="@id/a3i" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="15.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/azx" android:layout_alignTop="@id/a7e" android:layout_alignRight="@id/a7e" android:layout_marginEnd="2.0dip" android:layout_alignEnd="@id/a7e" />
-        <ImageView android:id="@id/i5" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/wo" />
-        <ImageView android:id="@id/a3h" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/n_" android:layout_alignRight="@id/a7e" android:layout_alignBottom="@id/a7e" android:layout_marginEnd="5.0dip" android:layout_alignEnd="@id/a7e" />
-        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ai_" android:background="@drawable/az8" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="72.0dip">
-            <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/hy" android:layout_width="20.0dip" android:layout_height="20.0dip" />
-            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/b8i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="0%" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false">
+    <RelativeLayout
+        android:layout_width="72.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginEnd="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:clipToPadding="false">
+        <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+            android:id="@id/a7e"
+            android:layout_width="71.0dip"
+            android:layout_height="71.0dip"
+            android:layout_marginStart="0.5dip"
+            android:layout_marginLeft="0.5dip"
+            android:layout_marginTop="0.5dip"
+            android:scaleType="centerCrop"
+            android:src="@color/xz"
+            fresco:placeholderImage="@color/dt"
+            fresco:roundedCornerRadius="2.0dip" />
+        <ImageView
+            android:id="@id/a3i"
+            android:layout_width="25.0dip"
+            android:layout_height="15.0dip"
+            android:layout_alignTop="@id/a7e"
+            android:layout_alignEnd="@id/a7e"
+            android:layout_alignRight="@id/a7e"
+            android:layout_marginTop="2.0dip"
+            android:layout_marginEnd="2.0dip"
+            android:layout_marginRight="2.0dip"
+            android:src="@drawable/azx"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@id/i5"
+            android:layout_width="72.0dip"
+            android:layout_height="72.0dip"
+            android:src="@drawable/wo"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@id/a3h"
+            android:layout_width="15.0dip"
+            android:layout_height="15.0dip"
+            android:layout_alignEnd="@id/a7e"
+            android:layout_alignRight="@id/a7e"
+            android:layout_alignBottom="@id/a7e"
+            android:layout_marginEnd="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginBottom="5.0dip"
+            android:src="@drawable/n_"
+            android:visibility="gone" />
+        <LinearLayout
+            android:id="@id/ai_"
+            android:layout_width="72.0dip"
+            android:layout_height="72.0dip"
+            android:background="@drawable/az8"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+                android:id="@id/hy"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip" />
+            <TextView
+                android:id="@id/b8i"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:text="0%"
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
         </LinearLayout>
-        <TextView android:textSize="12.0sp" android:textColor="#80ffffff" android:id="@id/a7w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/a7e" android:layout_centerHorizontal="true" />
-        <ImageView android:id="@id/abw" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="-10.0dip" android:layout_marginRight="-10.0dip" android:src="@drawable/sm" android:layout_alignParentRight="true" />
+        <TextView
+            android:id="@id/a7w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/a7e"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5.0dip"
+            android:textColor="#80ffffff"
+            android:textSize="12.0sp" />
+        <ImageView
+            android:id="@id/abw"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-10.0dip"
+            android:layout_marginRight="-10.0dip"
+            android:src="@drawable/sm"
+            android:visibility="gone" />
     </RelativeLayout>
 </FrameLayout>

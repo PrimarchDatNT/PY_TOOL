@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/cj" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cm" android:background="@drawable/c9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:layout_alignParentTop="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_alignParentEnd="true">
-        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/cn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="5" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@id/cj"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY" />
+    <LinearLayout
+        android:id="@id/cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16.0dip"
+        android:background="@drawable/c9"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="10.0dip"
+        android:paddingEnd="10.0dip">
+        <TextView
+            android:id="@id/cn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:text="5"
+            android:textColor="@android:color/white"
+            android:textSize="12.0sp" />
     </LinearLayout>
-    <Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/ci" android:background="@drawable/c8" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="30.0dip" android:text="INSTALL" android:maxLines="2" android:layout_alignParentBottom="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" />
+    <Button
+        android:id="@id/ci"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40.0dip"
+        android:layout_marginEnd="40.0dip"
+        android:layout_marginBottom="30.0dip"
+        android:background="@drawable/c8"
+        android:maxLines="2"
+        android:paddingStart="10.0dip"
+        android:paddingEnd="10.0dip"
+        android:text="INSTALL"
+        android:textColor="#ffffffff"
+        android:textSize="18.0sp"
+        android:textStyle="bold" />
 </RelativeLayout>

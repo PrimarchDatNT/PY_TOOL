@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:layout_width="82.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
-        <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/a7e" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="0.5dip" android:src="@color/xz" android:scaleType="centerCrop" android:layout_marginStart="0.5dip" fresco:placeholderImage="@color/bz" />
-        <ImageView android:id="@id/a_v" android:visibility="gone" android:layout_width="73.0dip" android:layout_height="73.0dip" android:src="@drawable/wo" />
-        <TextView android:textSize="11.0sp" android:textColor="@color/a04" android:gravity="center_horizontal" android:id="@id/a8a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:maxLines="1" android:layout_alignBottom="@id/a7e" android:layout_alignStart="@id/a7e" android:layout_alignEnd="@id/a7e" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="82.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip">
+        <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+            android:id="@id/a7e"
+            android:layout_width="72.0dip"
+            android:layout_height="72.0dip"
+            android:layout_marginStart="0.5dip"
+            android:layout_marginTop="0.5dip"
+            android:scaleType="centerCrop"
+            android:src="@color/xz"
+            fresco:placeholderImage="@color/bz" />
+        <ImageView
+            android:id="@id/a_v"
+            android:layout_width="73.0dip"
+            android:layout_height="73.0dip"
+            android:src="@drawable/wo"
+            android:visibility="gone" />
+        <TextView
+            android:id="@id/a8a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/a7e"
+            android:layout_alignEnd="@id/a7e"
+            android:layout_alignBottom="@id/a7e"
+            android:layout_marginBottom="12.0dip"
+            android:gravity="center_horizontal"
+            android:maxLines="1"
+            android:textColor="@color/a04"
+            android:textSize="11.0sp" />
     </RelativeLayout>
 </RelativeLayout>

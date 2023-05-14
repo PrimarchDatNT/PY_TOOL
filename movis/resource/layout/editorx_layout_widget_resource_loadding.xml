@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.videoai.aivpcore.editorx.widget.LoadingImageView android:id="@id/bp5" android:visibility="visible" android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/a4p" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.videoai.aivpcore.editorx.widget.LoadingImageView
+        android:id="@id/bp5"
+        android:layout_width="@dimen/v7"
+        android:layout_height="@dimen/v7"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/a4p"
+        android:visibility="visible" />
 </merge>

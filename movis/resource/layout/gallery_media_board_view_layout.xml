@@ -1,12 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/adx" android:layout_width="fill_parent" android:layout_height="@dimen/tt"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center_vertical" android:id="@id/b_g" android:layout_width="fill_parent" android:layout_height="@dimen/xh">
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textColor="@color/a04" android:gravity="center_vertical" android:id="@id/ic" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="@dimen/tz" />
-        <View android:layout_gravity="center_vertical" android:id="@id/if" android:background="@color/ak" android:visibility="gone" android:layout_width="@dimen/t2" android:layout_height="@dimen/td" android:layout_marginStart="@dimen/xz" />
-        <TextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/awu" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
-        <TextView android:gravity="center" android:id="@id/l6" android:background="@drawable/jf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginEnd="@dimen/tz" app:drawableStartCompat="@drawable/ahf" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/tt"
+    android:background="@drawable/adx">
+    <LinearLayout
+        android:id="@id/b_g"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xh"
+        android:gravity="center_vertical">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/tz"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:textColor="@color/a04"
+            android:textSize="@dimen/yz"
+            android:visibility="gone" />
+        <View
+            android:id="@id/if"
+            android:layout_width="@dimen/t2"
+            android:layout_height="@dimen/td"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/xz"
+            android:background="@color/ak"
+            android:visibility="gone" />
+        <TextView
+            android:id="@id/bit"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/tz"
+            android:layout_marginEnd="@dimen/tz"
+            android:layout_weight="1.0"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text="@string/awu"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/yz" />
+        <TextView
+            android:id="@id/l6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/tz"
+            android:background="@drawable/jf"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            app:drawableStartCompat="@drawable/ahf" />
     </LinearLayout>
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/atv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/b_g" android:layout_centerVertical="true" />
-    <TextView android:textSize="@dimen/yy" android:textColor="@color/a04" android:gravity="center_vertical" android:id="@id/bg4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/xz" android:text="@string/aws" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/tz" android:layout_alignParentStart="true" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/atv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/b_g"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:id="@id/bg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/tz"
+        android:layout_marginBottom="@dimen/xz"
+        android:gravity="center_vertical"
+        android:text="@string/aws"
+        android:textColor="@color/a04"
+        android:textSize="@dimen/yy" />
 </RelativeLayout>

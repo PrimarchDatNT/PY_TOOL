@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/a3g" android:layout_width="@dimen/sj" android:layout_height="@dimen/si"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/sg" android:layout_marginBottom="@dimen/sg" android:scaleType="centerInside" android:layout_marginStart="@dimen/sg" android:layout_marginEnd="@dimen/sg" />
-    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/avv" android:visibility="gone" android:layout_width="@dimen/sm" android:layout_height="@dimen/sm" android:layout_marginBottom="8.0dip" android:scaleType="centerInside" android:layout_marginEnd="8.0dip" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/a3g"
+    android:layout_width="@dimen/sj"
+    android:layout_height="@dimen/si">
+    <ImageView
+        android:id="@id/a3a"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="@dimen/sg"
+        android:layout_marginTop="@dimen/sg"
+        android:layout_marginEnd="@dimen/sg"
+        android:layout_marginBottom="@dimen/sg"
+        android:scaleType="centerInside" />
+    <ImageView
+        android:id="@id/avv"
+        android:layout_width="@dimen/sm"
+        android:layout_height="@dimen/sm"
+        android:layout_gravity="end|bottom|center"
+        android:layout_marginEnd="8.0dip"
+        android:layout_marginBottom="8.0dip"
+        android:scaleType="centerInside"
+        android:visibility="gone" />
 </FrameLayout>

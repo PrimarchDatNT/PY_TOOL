@@ -1,12 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ay_" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="@dimen/y6">
-        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/ayb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/xh" app:sitv_bottom_text="@string/arb" app:sitv_top_drawable="@drawable/yo" />
-        <View android:layout_gravity="center_vertical" android:id="@id/aya" android:background="@color/ak" android:layout_width="@dimen/t2" android:layout_height="@dimen/wd" android:layout_marginStart="@dimen/xz" android:layout_marginEnd="@dimen/xz" />
-        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/ay8" android:layout_width="wrap_content" android:layout_height="wrap_content" app:sitv_bottom_text="@string/ann" app:sitv_top_drawable="@drawable/ym" />
-        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/ay9" android:layout_width="wrap_content" android:layout_height="wrap_content" app:sitv_bottom_text="@string/aku" app:sitv_top_drawable="@drawable/yn" />
-        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/ayd" android:layout_width="wrap_content" android:layout_height="wrap_content" app:sitv_bottom_text="@string/dz" app:sitv_top_drawable="@drawable/yq" />
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@id/ay_"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y6"
+        android:layout_gravity="center_vertical"
+        android:background="@color/ag"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+            android:id="@id/ayb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/xh"
+            app:sitv_bottom_text="@string/arb"
+            app:sitv_top_drawable="@drawable/yo" />
+        <View
+            android:id="@id/aya"
+            android:layout_width="@dimen/t2"
+            android:layout_height="@dimen/wd"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/xz"
+            android:layout_marginEnd="@dimen/xz"
+            android:background="@color/ak" />
+        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+            android:id="@id/ay8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:sitv_bottom_text="@string/ann"
+            app:sitv_top_drawable="@drawable/ym" />
+        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+            android:id="@id/ay9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:sitv_bottom_text="@string/aku"
+            app:sitv_top_drawable="@drawable/yn" />
+        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+            android:id="@id/ayd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:sitv_bottom_text="@string/dz"
+            app:sitv_top_drawable="@drawable/yq" />
     </LinearLayout>
-    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/ayc" android:layout_width="@dimen/wz" android:layout_height="@dimen/wz" android:src="@drawable/yp" android:scaleType="fitXY" android:layout_marginStart="@dimen/td" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/ayc"
+        android:layout_width="@dimen/wz"
+        android:layout_height="@dimen/wz"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/td"
+        android:scaleType="fitXY"
+        android:src="@drawable/yp" />
 </merge>

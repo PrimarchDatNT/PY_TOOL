@@ -1,15 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/e8" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/bno" android:background="@color/xz" android:clickable="true" android:layout_width="fill_parent" android:layout_height="42.0dip">
-        <TextView android:textSize="12.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/bq3" android:background="@drawable/ahj" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginRight="6.0dip" android:maxWidth="75.0dip" android:minWidth="45.0dip" android:text="@string/w7" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
-        <RelativeLayout android:id="@id/adu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="75.0dip" android:layout_marginRight="75.0dip" android:layout_marginStart="75.0dip" android:layout_marginEnd="75.0dip">
-            <Button android:id="@id/kt" android:background="@drawable/af8" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerHorizontal="true" />
-            <TextView android:textSize="9.0sp" android:textColor="@color/fw" android:id="@id/biv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/akc" android:singleLine="true" android:layout_below="@id/kt" android:layout_centerHorizontal="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/e8">
+    <RelativeLayout
+        android:id="@id/bno"
+        android:layout_width="fill_parent"
+        android:layout_height="42.0dip"
+        android:background="@color/xz"
+        android:clickable="true">
+        <TextView
+            android:id="@id/bq3"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="6.0dip"
+            android:layout_marginRight="6.0dip"
+            android:background="@drawable/ahj"
+            android:clickable="true"
+            android:gravity="center"
+            android:maxWidth="75.0dip"
+            android:minWidth="45.0dip"
+            android:paddingStart="4.0dip"
+            android:paddingLeft="4.0dip"
+            android:paddingEnd="4.0dip"
+            android:paddingRight="4.0dip"
+            android:text="@string/w7"
+            android:textColor="@color/zo"
+            android:textSize="12.0sp" />
+        <RelativeLayout
+            android:id="@id/adu"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="75.0dip"
+            android:layout_marginLeft="75.0dip"
+            android:layout_marginEnd="75.0dip"
+            android:layout_marginRight="75.0dip">
+            <Button
+                android:id="@id/kt"
+                android:layout_width="30.0dip"
+                android:layout_height="30.0dip"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/af8"
+                android:clickable="false"
+                android:focusable="false"
+                android:visibility="visible" />
+            <TextView
+                android:id="@id/biv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kt"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
+                android:text="@string/akc"
+                android:textColor="@color/fw"
+                android:textSize="9.0sp" />
         </RelativeLayout>
-        <com.videoai.aivpcore.common.ui.SpannableTextView android:textSize="10.0sp" android:textColor="@color/zo" android:id="@id/bq2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:maxWidth="75.0dip" android:text="@string/aol" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" android:layout_alignParentStart="true" />
+        <com.videoai.aivpcore.common.ui.SpannableTextView
+            android:id="@id/bq2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="14.0dip"
+            android:layout_marginLeft="14.0dip"
+            android:maxWidth="75.0dip"
+            android:text="@string/aol"
+            android:textColor="@color/zo"
+            android:textSize="10.0sp" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/bmx" android:paddingTop="6.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="117.0dip" android:layout_below="@id/bno">
-        <com.videoai.aivpcore.gallery.storyboard.ClipDragGridView android:id="@id/q8" android:paddingBottom="55.0dip" android:scrollbars="none" android:fadingEdge="@null" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:listSelector="@color/xz" android:horizontalSpacing="0.0dip" android:verticalSpacing="2.0dip" android:stretchMode="columnWidth" android:numColumns="4" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+    <RelativeLayout
+        android:id="@id/bmx"
+        android:layout_width="fill_parent"
+        android:layout_height="117.0dip"
+        android:layout_below="@id/bno"
+        android:clickable="true"
+        android:paddingTop="6.0dip">
+        <com.videoai.aivpcore.gallery.storyboard.ClipDragGridView
+            android:id="@id/q8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="7.0dip"
+            android:layout_marginLeft="7.0dip"
+            android:layout_marginEnd="7.0dip"
+            android:layout_marginRight="7.0dip"
+            android:clipToPadding="false"
+            android:fadingEdge="@null"
+            android:horizontalSpacing="0.0dip"
+            android:listSelector="@color/xz"
+            android:numColumns="4"
+            android:paddingBottom="55.0dip"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="2.0dip" />
     </RelativeLayout>
 </RelativeLayout>

@@ -1,11 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:paddingBottom="@dimen/ia" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="@dimen/ie" android:textColor="@color/pt" android:id="@id/xo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i8" android:layout_marginStart="@dimen/ia" android:layout_marginEnd="@dimen/ia" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/xn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginStart="@dimen/fd" android:layout_marginEnd="@dimen/fd" app:layout_constraintTop_toBottomOf="@id/xo">
-        <ImageView android:id="@id/xj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" app:layout_constraintDimensionRatio="16:9" app:layout_constraintTop_toTopOf="apv" />
-        <ImageView android:id="@id/xm" android:visibility="gone" android:layout_width="@dimen/if" android:layout_height="@dimen/i5" android:layout_marginTop="@dimen/ia" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/ia">
+    <TextView
+        android:id="@id/xo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/ia"
+        android:layout_marginTop="@dimen/i8"
+        android:layout_marginEnd="@dimen/ia"
+        android:textColor="@color/pt"
+        android:textSize="@dimen/ie"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/xn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fd"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginEnd="@dimen/fd"
+        app:layout_constraintTop_toBottomOf="@id/xo">
+        <ImageView
+            android:id="@id/xj"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            app:layout_constraintDimensionRatio="16:9"
+            app:layout_constraintTop_toTopOf="apv" />
+        <ImageView
+            android:id="@id/xm"
+            android:layout_width="@dimen/if"
+            android:layout_height="@dimen/i5"
+            android:layout_marginTop="@dimen/ia"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="apv"
+            app:layout_constraintRight_toRightOf="apv"
+            app:layout_constraintTop_toTopOf="apv" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-    <TextView android:textSize="@dimen/ic" android:textColor="@color/pp" android:textColorLink="@color/po" android:autoLink="web" android:id="@id/xk" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i6" android:layout_marginBottom="@dimen/i6" android:maxHeight="@dimen/i_" android:layout_marginStart="@dimen/ia" android:layout_marginEnd="@dimen/ia" app:layout_constraintBottom_toTopOf="@id/xl" app:layout_constraintTop_toBottomOf="@id/xn" />
-    <TextView android:textSize="@dimen/id" android:textColor="@color/ps" android:gravity="center" android:id="@id/xl" android:background="@drawable/fcm_notification_selector_dialog_cta" android:paddingTop="@dimen/i9" android:paddingBottom="@dimen/i9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fcm_notification_detail_dialog_cta_default" android:textAllCaps="true" android:layout_marginStart="@dimen/ia" android:layout_marginEnd="@dimen/ia" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toBottomOf="@id/xk" />
+    <TextView
+        android:id="@id/xk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/ia"
+        android:layout_marginTop="@dimen/i6"
+        android:layout_marginEnd="@dimen/ia"
+        android:layout_marginBottom="@dimen/i6"
+        android:autoLink="web"
+        android:maxHeight="@dimen/i_"
+        android:scrollbars="vertical"
+        android:textColor="@color/pp"
+        android:textColorLink="@color/po"
+        android:textSize="@dimen/ic"
+        app:layout_constraintBottom_toTopOf="@id/xl"
+        app:layout_constraintTop_toBottomOf="@id/xn" />
+    <TextView
+        android:id="@id/xl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/ia"
+        android:layout_marginEnd="@dimen/ia"
+        android:background="@drawable/fcm_notification_selector_dialog_cta"
+        android:gravity="center"
+        android:paddingTop="@dimen/i9"
+        android:paddingBottom="@dimen/i9"
+        android:text="@string/fcm_notification_detail_dialog_cta_default"
+        android:textAllCaps="true"
+        android:textColor="@color/ps"
+        android:textSize="@dimen/id"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintRight_toRightOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/xk" />
 </androidx.constraintlayout.widget.ConstraintLayout>

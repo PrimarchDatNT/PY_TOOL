@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:gravity="center_vertical" android:id="@android:id/background">
-        <scale android:drawable="@drawable/ay3" android:scaleWidth="0%" android:scaleHeight="50%" />
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/background" android:gravity="center_vertical">
+        <scale
+            android:drawable="@drawable/ay3" android:scaleWidth="0%" android:scaleHeight="50%" />
     </item>
-    <item android:gravity="center" android:id="@android:id/progress">
+    <item
+        android:id="@android:id/progress" android:gravity="center">
         <clip android:drawable="@color/xz" />
     </item>
 </layer-list>

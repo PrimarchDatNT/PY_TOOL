@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/yz" android:textColor="@color/ao" android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/yg" android:text="@string/a8c" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/yg"
+        android:gravity="center"
+        android:paddingStart="@dimen/tz"
+        android:paddingEnd="@dimen/tz"
+        android:text="@string/a8c"
+        android:textColor="@color/ao"
+        android:textSize="@dimen/yz" />
 </RelativeLayout>

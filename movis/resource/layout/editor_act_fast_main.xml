@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/vc" android:background="@color/dr" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.videoai.aivpcore.editor.player.EditorPlayerView android:id="@id/vj" android:layout_width="fill_parent" android:layout_height="fill_parent" app:display_mode="1" app:seek_enable="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@id/vc"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/dr">
+        <com.videoai.aivpcore.editor.player.EditorPlayerView
+            android:id="@id/vj"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:display_mode="1"
+            app:seek_enable="true" />
     </RelativeLayout>
-    <FrameLayout android:id="@id/a0h" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/a0h"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
 </RelativeLayout>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:state_enabled="true" app:state_dragged="true">
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:state_enabled="true" app:state_dragged="true">
         <set>
-            <objectAnimator android:interpolator="@interpolator/i" android:duration="@integer/t" android:valueTo="@dimen/pm" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="@integer/s" />
+            <objectAnimator
+                android:duration="@integer/t" android:interpolator="@interpolator/i" android:propertyName="translationZ" android:startDelay="@integer/s" android:valueTo="@dimen/pm" android:valueType="floatType" />
         </set>
     </item>
     <item android:state_enabled="true">
         <set>
-            <objectAnimator android:interpolator="@anim/c5" android:duration="@integer/t" android:valueTo="0.0dip" android:valueType="floatType" android:propertyName="translationZ" />
+            <objectAnimator
+                android:duration="@integer/t" android:interpolator="@anim/c5" android:propertyName="translationZ" android:valueTo="0.0dip" android:valueType="floatType" />
         </set>
     </item>
 </selector>

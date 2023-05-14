@@ -1,27 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:id="@id/b2f" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" app:sitv_bottom_text="@string/a1u" app:sitv_top_drawable="@drawable/a1f" />
-    <LinearLayout android:orientation="vertical" android:id="@id/aec" android:background="@color/dt" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
-        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
-            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabIndicatorView android:id="@id/b6f" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginStart="3.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" app:tab_title="@string/a4q" />
-            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabIndicatorView android:id="@id/b5y" android:layout_width="wrap_content" android:layout_height="48.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toEndOf="@id/b6f" app:layout_constraintTop_toTopOf="apv" app:tab_title="@string/a4p" />
-            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabIndicatorView android:id="@id/b5x" android:layout_width="wrap_content" android:layout_height="48.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintStart_toEndOf="@id/b5y" app:layout_constraintTop_toTopOf="apv" app:tab_title="@string/a4m" />
-            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+    <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+        android:id="@id/b2f"
+        android:layout_width="64.0dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15.0dip"
+        android:visibility="gone"
+        app:sitv_bottom_text="@string/a1u"
+        app:sitv_top_drawable="@drawable/a1f" />
+    <LinearLayout
+        android:id="@id/aec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/dt"
+        android:clickable="true"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabIndicatorView
+                android:id="@id/b6f"
+                android:layout_width="wrap_content"
+                android:layout_height="48.0dip"
+                android:layout_marginStart="3.0dip"
+                app:layout_constraintBottom_toBottomOf="apv"
+                app:layout_constraintStart_toStartOf="apv"
+                app:layout_constraintTop_toTopOf="apv"
+                app:tab_title="@string/a4q" />
+            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabIndicatorView
+                android:id="@id/b5y"
+                android:layout_width="wrap_content"
+                android:layout_height="48.0dip"
+                app:layout_constraintBottom_toBottomOf="apv"
+                app:layout_constraintStart_toEndOf="@id/b6f"
+                app:layout_constraintTop_toTopOf="apv"
+                app:tab_title="@string/a4p" />
+            <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabIndicatorView
+                android:id="@id/b5x"
+                android:layout_width="wrap_content"
+                android:layout_height="48.0dip"
+                app:layout_constraintBottom_toBottomOf="apv"
+                app:layout_constraintStart_toEndOf="@id/b5y"
+                app:layout_constraintTop_toTopOf="apv"
+                app:tab_title="@string/a4m" />
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
         </LinearLayout>
-        <View android:background="@color/eb" android:layout_width="fill_parent" android:layout_height="0.5dip" />
-        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/acf" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="6.0dip">
-            <ImageView android:id="@id/a8n" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/a17" />
-            <TextView android:textSize="14.0sp" android:textColor="@color/hg" android:id="@id/bb3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apply style to all subtitles" android:layout_marginStart="6.0dip" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/eb" />
+        <LinearLayout
+            android:id="@id/acf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16.0dip"
+            android:layout_marginBottom="6.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible">
+            <ImageView
+                android:id="@id/a8n"
+                android:layout_width="16.0dip"
+                android:layout_height="16.0dip"
+                android:src="@drawable/a17" />
+            <TextView
+                android:id="@id/bb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6.0dip"
+                android:text="Apply style to all subtitles"
+                android:textColor="@color/hg"
+                android:textSize="14.0sp" />
         </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:id="@id/aex" android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleKeyboardView android:id="@id/v9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="200.0dip" android:layout_weight="1.0" />
-            <ImageView android:layout_gravity="top" android:id="@id/a8z" android:background="@drawable/a6z" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="48.0dip" android:layout_height="28.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/a2m" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="23.0dip" />
+        <LinearLayout
+            android:id="@id/aex"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dt"
+            android:orientation="horizontal">
+            <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleKeyboardView
+                android:id="@id/v9"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="200.0dip"
+                android:layout_weight="1.0" />
+            <ImageView
+                android:id="@id/a8z"
+                android:layout_width="48.0dip"
+                android:layout_height="28.0dip"
+                android:layout_gravity="top"
+                android:layout_marginStart="12.0dip"
+                android:layout_marginTop="8.0dip"
+                android:layout_marginEnd="23.0dip"
+                android:background="@drawable/a6z"
+                android:paddingStart="12.0dip"
+                android:paddingTop="2.0dip"
+                android:paddingEnd="12.0dip"
+                android:paddingBottom="2.0dip"
+                android:src="@drawable/a2m" />
         </LinearLayout>
-        <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitlePresetsView android:id="@id/arz" android:background="@color/dt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="200.0dip" />
-        <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleCustomizeView android:id="@id/sm" android:background="@color/dt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+        <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitlePresetsView
+            android:id="@id/arz"
+            android:layout_width="fill_parent"
+            android:layout_height="200.0dip"
+            android:background="@color/dt"
+            android:visibility="gone" />
+        <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleCustomizeView
+            android:id="@id/sm"
+            android:layout_width="fill_parent"
+            android:layout_height="200.0dip"
+            android:background="@color/dt"
+            android:visibility="gone" />
     </LinearLayout>
-    <include android:id="@id/afw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/xt" android:layout_alignParentBottom="true" layout="@layout/kt" />
-    <Button android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/eq" android:id="@id/ka" android:background="@drawable/a06" android:visibility="gone" android:layout_width="104.0dip" android:layout_height="32.0dip" android:layout_marginBottom="12.0dip" android:text="@string/a4u" android:layout_above="@id/afw" android:layout_centerHorizontal="true" />
-    <com.videoai.aivpcore.editorx.widget.seekbar.CircleShadowView android:id="@id/b5j" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:csv_bg_color="@color/zo" app:csv_bg_diam="44.0dip" app:csv_text="0" app:csv_text_color="@color/eq" app:csv_text_size="18.0sp" />
+    <include
+        android:id="@id/afw"
+        layout="@layout/kt"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xt"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+    <Button
+        android:id="@id/ka"
+        android:layout_width="104.0dip"
+        android:layout_height="32.0dip"
+        android:layout_above="@id/afw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12.0dip"
+        android:background="@drawable/a06"
+        android:text="@string/a4u"
+        android:textColor="@color/eq"
+        android:textSize="14.0sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+    <com.videoai.aivpcore.editorx.widget.seekbar.CircleShadowView
+        android:id="@id/b5j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:csv_bg_color="@color/zo"
+        app:csv_bg_diam="44.0dip"
+        app:csv_text="0"
+        app:csv_text_color="@color/eq"
+        app:csv_text_size="18.0sp" />
 </merge>

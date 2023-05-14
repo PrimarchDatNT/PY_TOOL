@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rotateView="http://schemas.android.com/apk/res-auto">
-    <com.videoai.aivpcore.camera.ui.view.seekbar.DraggableSeekBar android:id="@id/bj8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <com.videoai.aivpcore.ui.view.RotateTextView android:textSize="10.0sp" android:textColor="#b2ffffff" android:id="@id/bj2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" rotateView:rotation="180" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rotateView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.videoai.aivpcore.camera.ui.view.seekbar.DraggableSeekBar
+        android:id="@id/bj8"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.videoai.aivpcore.ui.view.RotateTextView
+        android:id="@id/bj2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5.0dip"
+        android:textColor="#b2ffffff"
+        android:textSize="10.0sp"
+        rotateView:rotation="180" />
 </RelativeLayout>

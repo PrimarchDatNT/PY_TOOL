@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckedTextView android:textAppearance="@style/ke" android:gravity="start|center" android:id="@id/t6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:drawablePadding="@dimen/e8" android:layout_weight="1.0" />
-    <ViewStub android:id="@id/t5" android:layout="@layout/di" android:inflatedId="@id/t4" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView
+        android:id="@id/t6"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:drawablePadding="@dimen/e8"
+        android:gravity="start|center"
+        android:maxLines="1"
+        android:textAppearance="@style/ke" />
+    <ViewStub
+        android:id="@id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:inflatedId="@id/t4"
+        android:layout="@layout/di" />
 </merge>

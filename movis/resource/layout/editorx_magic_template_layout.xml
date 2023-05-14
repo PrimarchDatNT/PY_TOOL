@@ -1,14 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_gravity="bottom" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:orientation="horizontal" android:id="@id/b9h" android:layout_width="fill_parent" android:layout_height="@dimen/x9">
-        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/ap8" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true">
-            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:layout_gravity="center" android:id="@id/bc7" android:background="@drawable/apw" android:paddingTop="@dimen/x5" android:paddingBottom="@dimen/x5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kc" android:drawablePadding="@dimen/yf" android:drawableStart="@drawable/a14" android:paddingStart="@dimen/td" android:paddingEnd="@dimen/td" android:layout_marginStart="@dimen/xz" android:layout_marginEnd="@dimen/xz" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-            <ImageButton android:id="@id/lz" android:background="@drawable/jn" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/bc7" app:layout_constraintEnd_toEndOf="@id/bc7" app:layout_constraintStart_toStartOf="@id/bc7" app:layout_constraintTop_toTopOf="@id/bc7" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom"
+    android:background="@color/ag">
+    <RelativeLayout
+        android:id="@id/b9h"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x9"
+        android:orientation="horizontal">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/ap8"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@id/bc7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/xz"
+                android:layout_marginEnd="@dimen/xz"
+                android:background="@drawable/apw"
+                android:drawableStart="@drawable/a14"
+                android:drawablePadding="@dimen/yf"
+                android:paddingStart="@dimen/td"
+                android:paddingTop="@dimen/x5"
+                android:paddingEnd="@dimen/td"
+                android:paddingBottom="@dimen/x5"
+                android:text="@string/kc"
+                android:textColor="@color/zo"
+                android:textSize="@dimen/yz"
+                app:layout_constraintBottom_toBottomOf="apv"
+                app:layout_constraintEnd_toEndOf="apv"
+                app:layout_constraintStart_toStartOf="apv"
+                app:layout_constraintTop_toTopOf="apv" />
+            <ImageButton
+                android:id="@id/lz"
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                android:background="@drawable/jn"
+                app:layout_constraintBottom_toBottomOf="@id/bc7"
+                app:layout_constraintEnd_toEndOf="@id/bc7"
+                app:layout_constraintStart_toStartOf="@id/bc7"
+                app:layout_constraintTop_toTopOf="@id/bc7" />
         </androidx.constraintlayout.widget.ConstraintLayout>
-        <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator android:id="@id/aj4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toEndOf="@id/ap8" />
+        <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator
+            android:id="@id/aj4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toEndOf="@id/ap8" />
     </RelativeLayout>
-    <com.videoai.aivpcore.editorx.widget.magic.MagicRecyclerView android:id="@id/aj6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/b9h" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/au0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/b9h" />
-    <TextView android:textSize="@dimen/z0" android:textColor="@color/ap" android:gravity="center" android:layout_gravity="center" android:id="@id/atz" android:background="@drawable/a8c" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="30.0dip" android:layout_marginBottom="34.0dip" android:text="@string/a5b" android:layout_below="@id/b9h" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+    <com.videoai.aivpcore.editorx.widget.magic.MagicRecyclerView
+        android:id="@id/aj6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/b9h" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/au0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/b9h"
+        android:visibility="gone" />
+    <TextView
+        android:id="@id/atz"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/b9h"
+        android:layout_gravity="center"
+        android:layout_marginStart="15.0dip"
+        android:layout_marginTop="30.0dip"
+        android:layout_marginEnd="15.0dip"
+        android:layout_marginBottom="34.0dip"
+        android:background="@drawable/a8c"
+        android:gravity="center"
+        android:text="@string/a5b"
+        android:textColor="@color/ap"
+        android:textSize="@dimen/z0"
+        android:visibility="gone" />
 </RelativeLayout>

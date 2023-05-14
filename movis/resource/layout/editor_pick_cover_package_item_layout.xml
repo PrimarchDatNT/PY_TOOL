@@ -1,12 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:attr="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/aj8" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_centerVertical="true">
-        <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/a5d" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_centerInParent="true" attr:actualImageScaleType="o2" />
-        <ImageView android:id="@id/a5c" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/v5" android:layout_centerInParent="true" />
-        <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/tx" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" />
-        <ImageView android:id="@id/a5n" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/b0z" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
-        <ImageView android:id="@id/a5_" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/b0w" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
-        <ImageView android:id="@id/a5i" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/b0x" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@id/aj8"
+        android:layout_width="75.0dip"
+        android:layout_height="75.0dip"
+        android:layout_centerVertical="true">
+        <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+            android:id="@id/a5d"
+            android:layout_width="65.0dip"
+            android:layout_height="65.0dip"
+            android:layout_centerInParent="true"
+            attr:actualImageScaleType="o2" />
+        <ImageView
+            android:id="@id/a5c"
+            android:layout_width="70.0dip"
+            android:layout_height="70.0dip"
+            android:layout_centerInParent="true"
+            android:src="@drawable/v5" />
+        <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+            android:id="@id/tx"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_centerInParent="true" />
+        <ImageView
+            android:id="@id/a5n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/b0z"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@id/a5_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/b0w"
+            android:visibility="visible" />
+        <ImageView
+            android:id="@id/a5i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/b0x"
+            android:visibility="gone" />
     </RelativeLayout>
 </RelativeLayout>

@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="@dimen/z0" android:textColor="@color/xj" android:id="@id/bcb" android:tag="layout/item_material_tag_0" android:background="@drawable/apw" android:paddingTop="@dimen/x5" android:paddingBottom="@dimen/x5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/td" android:paddingEnd="@dimen/td"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/bcb"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/apw"
+    android:paddingStart="@dimen/td"
+    android:paddingTop="@dimen/x5"
+    android:paddingEnd="@dimen/td"
+    android:paddingBottom="@dimen/x5"
+    android:tag="layout/item_material_tag_0"
+    android:textColor="@color/xj"
+    android:textSize="@dimen/z0" />

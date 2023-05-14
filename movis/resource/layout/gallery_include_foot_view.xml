@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/a1c" android:background="#1affffff" android:layout_width="165.0dip" android:layout_height="165.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
-        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b6n" />
-        <TextView android:textSize="14.0sp" android:textColor="@color/zo" android:id="@id/a1d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/alp" />
-        <TextView android:textSize="14.0sp" android:textColor="@color/k1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/amb" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/a1c"
+    android:layout_width="165.0dip"
+    android:layout_height="165.0dip"
+    android:background="#1affffff">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b6n" />
+        <TextView
+            android:id="@id/a1d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12.0dip"
+            android:text="@string/alp"
+            android:textColor="@color/zo"
+            android:textSize="14.0sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amb"
+            android:textColor="@color/k1"
+            android:textSize="14.0sp" />
     </LinearLayout>
 </RelativeLayout>

@@ -1,14 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bs">
-        <com.videoapp.videomakermaster.ads.ExportAdView android:id="@id/c_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tz" />
-        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <com.videoai.aivpcore.editor.export.beaut.ExportProgressBar android:layout_gravity="center" android:id="@id/act" android:background="@drawable/k1" android:layout_width="@dimen/v2" android:layout_height="@dimen/v2" android:max="100" android:progress="0" android:progressDrawable="@drawable/k3" android:secondaryProgressTint="@color/n_" style="?android:progressBarStyleHorizontal" />
-            <TextView android:textSize="@dimen/z9" android:textStyle="bold" android:textColor="@color/d6" android:layout_gravity="center" android:id="@id/bbz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bs"
+        android:background="@color/ag"
+        android:gravity="center"
+        android:orientation="vertical">
+        <com.videoapp.videomakermaster.ads.ExportAdView
+            android:id="@id/c_"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/tz" />
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.videoai.aivpcore.editor.export.beaut.ExportProgressBar
+                android:id="@id/act"
+                style="?android:progressBarStyleHorizontal"
+                android:layout_width="@dimen/v2"
+                android:layout_height="@dimen/v2"
+                android:layout_gravity="center"
+                android:background="@drawable/k1"
+                android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/k3"
+                android:secondaryProgressTint="@color/n_" />
+            <TextView
+                android:id="@id/bbz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="0%"
+                android:textColor="@color/d6"
+                android:textSize="@dimen/z9"
+                android:textStyle="bold" />
         </FrameLayout>
-        <TextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:layout_gravity="center" android:id="@id/bbf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ul" android:text="Loading..." />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yz" android:textColor="@color/ao" android:gravity="center" android:layout_gravity="center" android:id="@id/bb5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ul" android:text="@string/abk" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" app:autoSizeTextType="bjy" />
+        <TextView
+            android:id="@id/bbf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/ul"
+            android:text="Loading..."
+            android:textColor="@color/zo"
+            android:textSize="@dimen/yz" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/bb5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/tz"
+            android:layout_marginTop="@dimen/ul"
+            android:layout_marginEnd="@dimen/tz"
+            android:gravity="center"
+            android:text="@string/abk"
+            android:textColor="@color/ao"
+            android:textSize="@dimen/yz"
+            app:autoSizeTextType="bjy" />
     </LinearLayout>
-    <com.videoapp.videomakermaster.ads.ExportBannerAdview android:layout_gravity="bottom" android:id="@id/bs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:minHeight="50.0dip" android:layout_alignParentBottom="true" />
+    <com.videoapp.videomakermaster.ads.ExportBannerAdview
+        android:id="@id/bs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="5.0dip"
+        android:minHeight="50.0dip" />
 </RelativeLayout>

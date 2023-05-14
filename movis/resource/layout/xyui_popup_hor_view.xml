@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:gravity="center" android:id="@id/biy" android:background="@drawable/b7v" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <com.videoai.aivpcore.ui.view.RotateTextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/bhr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@id/biy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b7v"
+        android:gravity="center">
+        <com.videoai.aivpcore.ui.view.RotateTextView
+            android:id="@id/bhr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffffff"
+            android:textSize="12.0sp" />
     </RelativeLayout>
 </RelativeLayout>

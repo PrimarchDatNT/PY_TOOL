@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:tag="layout/premium_policy_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yy" android:textColor="@color/zo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/tz" android:text="@string/dp" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yy" android:textColor="@color/zo" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bb2" android:background="@drawable/jf" android:padding="@dimen/yf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/td" android:text="@string/ft" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:tag="layout/premium_policy_0">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/tz"
+        android:text="@string/dp"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/yy" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/td"
+        android:background="@drawable/jf"
+        android:gravity="center"
+        android:padding="@dimen/yf"
+        android:text="@string/ft"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/yy" />
 </LinearLayout>

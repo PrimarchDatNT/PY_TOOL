@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aj7" android:background="@drawable/a7x" android:layout_width="fill_parent" android:layout_height="44.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/a4b" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginStart="4.0dip" app:roundedCornerRadius="2.0dip" />
-    <TextView android:textSize="14.0sp" android:textColor="@color/iv" android:textColorHint="@color/g4" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bb9" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
-    <ImageView android:id="@id/a8x" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/a3l" android:layout_marginEnd="14.0dip" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/aj7"
+    android:layout_width="fill_parent"
+    android:layout_height="44.0dip"
+    android:background="@drawable/a7x"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+        android:id="@id/a4b"
+        android:layout_width="36.0dip"
+        android:layout_height="36.0dip"
+        android:layout_marginStart="4.0dip"
+        app:roundedCornerRadius="2.0dip" />
+    <TextView
+        android:id="@id/bb9"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:paddingStart="12.0dip"
+        android:paddingEnd="12.0dip"
+        android:textColor="@color/iv"
+        android:textColorHint="@color/g4"
+        android:textSize="14.0sp" />
+    <ImageView
+        android:id="@id/a8x"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:layout_marginEnd="14.0dip"
+        android:src="@drawable/a3l" />
 </LinearLayout>

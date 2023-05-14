@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
-        <shape android:shape="oval" android:useLevel="true">
-            <size android:height="24.0dip" android:width="24.0dip" />
+        <shape
+            android:shape="oval" android:useLevel="true">
+            <size
+                android:width="24.0dip" android:height="24.0dip" />
             <solid android:color="@color/fd" />
-            <stroke android:width="14.0dip" android:color="@color/fd" />
+            <stroke
+                android:width="14.0dip" android:color="@color/fd" />
         </shape>
     </item>
-    <item android:left="4.0dip" android:top="4.0dip" android:right="4.0dip" android:bottom="4.0dip">
-        <shape android:shape="oval" android:useLevel="true">
-            <size android:height="16.0dip" android:width="16.0dip" />
+    <item
+        android:bottom="4.0dip" android:left="4.0dip" android:right="4.0dip" android:top="4.0dip">
+        <shape
+            android:shape="oval" android:useLevel="true">
+            <size
+                android:width="16.0dip" android:height="16.0dip" />
             <solid android:color="@color/a03" />
         </shape>
     </item>

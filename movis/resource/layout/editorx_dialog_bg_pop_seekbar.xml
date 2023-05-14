@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/tc" android:background="@drawable/a6n" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="58.0dip" android:layout_marginRight="15.0dip" app:layout_constraintBottom_toBottomOf="@id/arb" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <com.videoai.aivpcore.editorx.widget.seekbar.PopSeekBar android:id="@id/arb" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="@id/tc" app:layout_constraintStart_toStartOf="@id/tc" app:layout_constraintTop_toTopOf="apv" app:psb_bg_color="@color/nj" app:psb_max_progress="90" app:psb_seek_bar_color="@color/n_" app:psb_seek_bar_left_padding="24.0dip" app:psb_seek_bar_progress_drawable="@drawable/aon" app:psb_seek_bar_right_padding="24.0dip" app:psb_seek_bar_thumb="@drawable/aop" app:psb_text_bg_space="24.0dip" app:psb_top_text_color="@color/eq" app:psb_top_text_diam="44.0dip" app:psb_top_text_size="@dimen/z1" />
-    <TextView android:textSize="@dimen/yz" android:textStyle="bold" android:textColor="@color/zo" android:id="@id/bcb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/a0d" app:layout_constraintEnd_toEndOf="@id/tc" app:layout_constraintStart_toStartOf="@id/tc" app:layout_constraintTop_toTopOf="@id/tc" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@id/tc"
+        android:layout_width="fill_parent"
+        android:layout_height="90.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginTop="58.0dip"
+        android:layout_marginRight="15.0dip"
+        android:background="@drawable/a6n"
+        app:layout_constraintBottom_toBottomOf="@id/arb"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <com.videoai.aivpcore.editorx.widget.seekbar.PopSeekBar
+        android:id="@id/arb"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/tc"
+        app:layout_constraintStart_toStartOf="@id/tc"
+        app:layout_constraintTop_toTopOf="apv"
+        app:psb_bg_color="@color/nj"
+        app:psb_max_progress="90"
+        app:psb_seek_bar_color="@color/n_"
+        app:psb_seek_bar_left_padding="24.0dip"
+        app:psb_seek_bar_progress_drawable="@drawable/aon"
+        app:psb_seek_bar_right_padding="24.0dip"
+        app:psb_seek_bar_thumb="@drawable/aop"
+        app:psb_text_bg_space="24.0dip"
+        app:psb_top_text_color="@color/eq"
+        app:psb_top_text_diam="44.0dip"
+        app:psb_top_text_size="@dimen/z1" />
+    <TextView
+        android:id="@id/bcb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        android:text="@string/a0d"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/yz"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/tc"
+        app:layout_constraintStart_toStartOf="@id/tc"
+        app:layout_constraintTop_toTopOf="@id/tc" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,29 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/pn" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/a9u" android:background="@drawable/jf" android:layout_width="?a4" android:layout_height="?a4" android:scaleType="centerInside" app:srcCompat="@drawable/aj0" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textStyle="bold" android:textColor="@color/zo" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bi9" android:layout_width="fill_parent" android:layout_height="?a4" android:text="@string/wj" android:lines="1" android:fontFamily="@font/f" android:layout_marginStart="?a4" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ag"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@id/pn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/a9u"
+            android:layout_width="?a4"
+            android:layout_height="?a4"
+            android:background="@drawable/jf"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/aj0" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/bi9"
+            android:layout_width="fill_parent"
+            android:layout_height="?a4"
+            android:layout_marginStart="?a4"
+            android:ellipsize="end"
+            android:fontFamily="@font/f"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:text="@string/wj"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z1"
+            android:textStyle="bold" />
     </FrameLayout>
-    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/aam" android:layout_width="@dimen/yj" android:layout_height="@dimen/vs" android:layout_marginTop="@dimen/wd" android:adjustViewBounds="true" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/ade" app:srcCompat="@drawable/e5" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:layout_gravity="center" android:id="@id/bij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xz" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/aam" />
-    <LinearLayout android:orientation="vertical" android:background="@drawable/hv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vs" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz">
-        <FrameLayout android:id="@id/p6" android:background="@drawable/jf" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:id="@id/bd2" android:paddingTop="@dimen/v7" android:paddingBottom="@dimen/v7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a7" android:fontFamily="@font/f" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/aam"
+        android:layout_width="@dimen/yj"
+        android:layout_height="@dimen/vs"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/wd"
+        android:adjustViewBounds="true"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/ade"
+        app:srcCompat="@drawable/e5" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bij"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/xz"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z0"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/aam" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tz"
+        android:layout_marginTop="@dimen/vs"
+        android:layout_marginEnd="@dimen/tz"
+        android:background="@drawable/hv"
+        android:orientation="vertical">
+        <FrameLayout
+            android:id="@id/p6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/jf">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@id/bd2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/f"
+                android:paddingStart="@dimen/tz"
+                android:paddingTop="@dimen/v7"
+                android:paddingEnd="@dimen/tz"
+                android:paddingBottom="@dimen/v7"
+                android:text="@string/a7"
+                android:textColor="@color/zo"
+                android:textSize="@dimen/z0" />
         </FrameLayout>
-        <View android:background="@color/ak" android:layout_width="fill_parent" android:layout_height="@dimen/t2" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
-        <FrameLayout android:id="@id/p7" android:background="@drawable/jf" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:id="@id/bd3" android:paddingTop="@dimen/v7" android:paddingBottom="@dimen/v7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wm" android:fontFamily="@font/f" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/t2"
+            android:layout_marginStart="@dimen/tz"
+            android:layout_marginEnd="@dimen/tz"
+            android:background="@color/ak" />
+        <FrameLayout
+            android:id="@id/p7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/jf">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@id/bd3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/f"
+                android:paddingStart="@dimen/tz"
+                android:paddingTop="@dimen/v7"
+                android:paddingEnd="@dimen/tz"
+                android:paddingBottom="@dimen/v7"
+                android:text="@string/wm"
+                android:textColor="@color/zo"
+                android:textSize="@dimen/z0" />
         </FrameLayout>
-        <View android:background="@color/ak" android:layout_width="fill_parent" android:layout_height="@dimen/t2" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
-        <FrameLayout android:id="@id/p8" android:background="@drawable/jf" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:id="@id/bd4" android:paddingTop="@dimen/v7" android:paddingBottom="@dimen/v7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/c_" android:fontFamily="@font/f" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz" />
-            <LinearLayout android:layout_gravity="end|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/tz">
-                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/ako" android:adjustViewBounds="true" />
-                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/ako" android:adjustViewBounds="true" />
-                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/ako" android:adjustViewBounds="true" />
-                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/ako" android:adjustViewBounds="true" />
-                <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/ako" android:adjustViewBounds="true" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/t2"
+            android:layout_marginStart="@dimen/tz"
+            android:layout_marginEnd="@dimen/tz"
+            android:background="@color/ak" />
+        <FrameLayout
+            android:id="@id/p8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/jf">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@id/bd4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/f"
+                android:paddingStart="@dimen/tz"
+                android:paddingTop="@dimen/v7"
+                android:paddingEnd="@dimen/tz"
+                android:paddingBottom="@dimen/v7"
+                android:text="@string/c_"
+                android:textColor="@color/zo"
+                android:textSize="@dimen/z0" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                android:layout_marginEnd="@dimen/tz"
+                android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/v7"
+                    android:layout_height="@dimen/v7"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ako" />
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/v7"
+                    android:layout_height="@dimen/v7"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ako" />
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/v7"
+                    android:layout_height="@dimen/v7"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ako" />
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/v7"
+                    android:layout_height="@dimen/v7"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ako" />
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/v7"
+                    android:layout_height="@dimen/v7"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ako" />
             </LinearLayout>
         </FrameLayout>
     </LinearLayout>

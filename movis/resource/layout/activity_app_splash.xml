@@ -1,11 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bmk" android:tag="layout/activity_app_splash_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/a8i" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:alpha="0.65" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/a8h" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/iv" android:scaleType="fitXY" android:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/a93" android:padding="@dimen/yf" android:layout_width="@dimen/tx" android:layout_height="@dimen/xn" android:src="@drawable/e5" android:adjustViewBounds="true" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" app:layout_constraintVertical_bias="0.39" />
-    <LinearLayout android:orientation="vertical" android:id="@id/ara" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv">
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textStyle="bold" android:textColor="@color/zo" android:textColorLink="@color/m9" android:gravity="center" android:id="@id/bgg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/v7" android:text="@string/aa" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textColor="@color/zo" android:gravity="center" android:id="@id/a1u" android:background="@drawable/k9" android:layout_width="fill_parent" android:layout_height="@dimen/y0" android:text="@string/k_" android:textAllCaps="true" android:fontFamily="@font/f" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/bmk"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/activity_app_splash_0">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/a8i"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:adjustViewBounds="true"
+        android:alpha="0.65"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/a8h"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/iv"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/a93"
+        android:layout_width="@dimen/tx"
+        android:layout_height="@dimen/xn"
+        android:adjustViewBounds="true"
+        android:alpha="0.0"
+        android:padding="@dimen/yf"
+        android:src="@drawable/e5"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv"
+        app:layout_constraintVertical_bias="0.39" />
+    <LinearLayout
+        android:id="@id/ara"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="apv">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/bgg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/v7"
+            android:gravity="center"
+            android:text="@string/aa"
+            android:textColor="@color/zo"
+            android:textColorLink="@color/m9"
+            android:textSize="@dimen/z0"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/a1u"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y0"
+            android:background="@drawable/k9"
+            android:fontFamily="@font/f"
+            android:gravity="center"
+            android:text="@string/k_"
+            android:textAllCaps="true"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z1" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

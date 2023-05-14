@@ -1,12 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_centerHorizontal="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/af6" android:background="@drawable/aza" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
-        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="3.0dip">
-            <ImageView android:layout_gravity="center_vertical" android:layout_width="12.0dip" android:layout_height="15.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/b08" android:layout_marginStart="10.0dip" />
-            <com.videoai.aivpcore.xyui.MarqueeTextView android:textSize="16.0sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:id="@id/ant" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="180.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:minWidth="28.0dip" android:text="@string/pp" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="10.0dip" />
-            <ImageView android:layout_gravity="center_vertical" android:layout_width="6.0dip" android:layout_height="10.299988dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/b07" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="38.0dip"
+    android:layout_centerHorizontal="true">
+    <RelativeLayout
+        android:id="@id/af6"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/aza">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="3.0dip">
+            <ImageView
+                android:layout_width="12.0dip"
+                android:layout_height="15.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:src="@drawable/b08" />
+            <com.videoai.aivpcore.xyui.MarqueeTextView
+                android:id="@id/ant"
+                android:layout_width="180.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginStart="10.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:minWidth="28.0dip"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/pp"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp" />
+            <ImageView
+                android:layout_width="6.0dip"
+                android:layout_height="10.299988dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginEnd="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:src="@drawable/b07" />
         </LinearLayout>
     </RelativeLayout>
-    <ProgressBar android:id="@id/as_" android:layout_width="wrap_content" android:layout_height="3.0dip" android:max="1000" android:progress="0" android:indeterminateOnly="false" android:progressDrawable="@drawable/azc" android:layout_alignLeft="@id/af6" android:layout_alignRight="@id/af6" android:layout_alignBottom="@id/af6" android:layout_alignStart="@id/af6" android:layout_alignEnd="@id/af6" />
+    <ProgressBar
+        android:id="@id/as_"
+        android:layout_width="wrap_content"
+        android:layout_height="3.0dip"
+        android:layout_alignStart="@id/af6"
+        android:layout_alignLeft="@id/af6"
+        android:layout_alignEnd="@id/af6"
+        android:layout_alignRight="@id/af6"
+        android:layout_alignBottom="@id/af6"
+        android:indeterminateOnly="false"
+        android:max="1000"
+        android:progress="0"
+        android:progressDrawable="@drawable/azc" />
 </RelativeLayout>

@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animation-list android:variablePadding="true" android:oneshot="false"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:duration="60" android:drawable="@drawable/alm" />
-    <item android:duration="60" android:drawable="@drawable/aln" />
-    <item android:duration="60" android:drawable="@drawable/alo" />
-    <item android:duration="60" android:drawable="@drawable/alp" />
-    <item android:duration="60" android:drawable="@drawable/alq" />
-    <item android:duration="60" android:drawable="@drawable/alr" />
-    <item android:duration="60" android:drawable="@drawable/als" />
-    <item android:duration="60" android:drawable="@drawable/alt" />
-    <item android:duration="60" android:drawable="@drawable/alu" />
-    <item android:duration="60" android:drawable="@drawable/alv" />
-    <item android:duration="60" android:drawable="@drawable/alw" />
-    <item android:duration="60" android:drawable="@drawable/alx" />
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false" android:variablePadding="true">
+    <item
+        android:drawable="@drawable/alm" android:duration="60" />
+    <item
+        android:drawable="@drawable/aln" android:duration="60" />
+    <item
+        android:drawable="@drawable/alo" android:duration="60" />
+    <item
+        android:drawable="@drawable/alp" android:duration="60" />
+    <item
+        android:drawable="@drawable/alq" android:duration="60" />
+    <item
+        android:drawable="@drawable/alr" android:duration="60" />
+    <item
+        android:drawable="@drawable/als" android:duration="60" />
+    <item
+        android:drawable="@drawable/alt" android:duration="60" />
+    <item
+        android:drawable="@drawable/alu" android:duration="60" />
+    <item
+        android:drawable="@drawable/alv" android:duration="60" />
+    <item
+        android:drawable="@drawable/alw" android:duration="60" />
+    <item
+        android:drawable="@drawable/alx" android:duration="60" />
 </animation-list>

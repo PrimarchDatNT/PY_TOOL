@@ -1,13 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/b3x" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv">
-        <TextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:gravity="center" android:id="@id/bcb" android:background="@color/ag" android:layout_width="0.0dip" android:layout_height="@dimen/xh" android:text="@string/ak1" android:fontFamily="@font/f" app:layout_constraintBottom_toTopOf="@id/tt" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
-        <androidx.appcompat.widget.AppCompatCheckBox android:textSize="@dimen/yy" android:textColor="@color/zo" android:gravity="center" android:id="@id/g1" android:background="@drawable/jf" android:layout_width="@dimen/yj" android:layout_height="@dimen/xh" android:checked="true" android:button="@drawable/a66" android:text="@string/zx" android:maxLines="2" app:layout_constraintBottom_toBottomOf="@id/bcb" app:layout_constraintEnd_toEndOf="@id/bcb" app:layout_constraintRight_toRightOf="@id/bcb" app:layout_constraintTop_toTopOf="@id/bcb" />
-        <View android:id="@id/tt" android:background="@color/aj" android:layout_width="0.0dip" android:layout_height="@dimen/t2" app:layout_constraintBottom_toTopOf="@id/bme" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
-        <View android:id="@id/bme" android:background="@color/ag" android:layout_width="0.0dip" android:layout_height="@dimen/u3" app:layout_constraintBottom_toTopOf="@id/b4" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
-        <com.videoai.aivpcore.timeline.fixed.scale.ScaleTimeline android:id="@id/b3y" android:layout_width="0.0dip" android:layout_height="@dimen/y6" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/tt" />
-        <com.videoai.aivpcore.editorx.widget.seekbar.MarkSeekBar android:id="@id/b0f" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/bme" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="@id/bme" app:msb_mark_text_array="@array/h" app:msb_max_progress="120" app:msb_seek_bar_left_padding="@dimen/v7" app:msb_seek_bar_progress_drawable="@drawable/an5" app:msb_seek_bar_right_padding="@dimen/v7" app:msb_seek_bar_thumb="@drawable/an2" />
-        <com.videoai.aivpcore.editorx.board.clip.widget.SelectActionBottomBar android:id="@id/b4" android:layout_width="0.0dip" android:layout_height="@dimen/xt" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/b3x"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="apv">
+        <TextView
+            android:id="@id/bcb"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/xh"
+            android:background="@color/ag"
+            android:fontFamily="@font/f"
+            android:gravity="center"
+            android:text="@string/ak1"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z0"
+            app:layout_constraintBottom_toTopOf="@id/tt"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv" />
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@id/g1"
+            android:layout_width="@dimen/yj"
+            android:layout_height="@dimen/xh"
+            android:background="@drawable/jf"
+            android:button="@drawable/a66"
+            android:checked="true"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="@string/zx"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/yy"
+            app:layout_constraintBottom_toBottomOf="@id/bcb"
+            app:layout_constraintEnd_toEndOf="@id/bcb"
+            app:layout_constraintRight_toRightOf="@id/bcb"
+            app:layout_constraintTop_toTopOf="@id/bcb" />
+        <View
+            android:id="@id/tt"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/t2"
+            android:background="@color/aj"
+            app:layout_constraintBottom_toTopOf="@id/bme"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv" />
+        <View
+            android:id="@id/bme"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/u3"
+            android:background="@color/ag"
+            app:layout_constraintBottom_toTopOf="@id/b4"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv" />
+        <com.videoai.aivpcore.timeline.fixed.scale.ScaleTimeline
+            android:id="@id/b3y"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/y6"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toBottomOf="@id/tt" />
+        <com.videoai.aivpcore.editorx.widget.seekbar.MarkSeekBar
+            android:id="@id/b0f"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/bme"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toTopOf="@id/bme"
+            app:msb_mark_text_array="@array/h"
+            app:msb_max_progress="120"
+            app:msb_seek_bar_left_padding="@dimen/v7"
+            app:msb_seek_bar_progress_drawable="@drawable/an5"
+            app:msb_seek_bar_right_padding="@dimen/v7"
+            app:msb_seek_bar_thumb="@drawable/an2" />
+        <com.videoai.aivpcore.editorx.board.clip.widget.SelectActionBottomBar
+            android:id="@id/b4"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/xt"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center_horizontal" android:id="@id/a3a" android:duplicateParentState="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/du" android:layout_marginBottom="@dimen/du" android:contentDescription="@null" />
-    <com.google.android.material.internal.BaselineLayout android:layout_gravity="bottom|center" android:id="@id/ac_" android:paddingBottom="@dimen/dt" android:duplicateParentState="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <TextView android:textSize="@dimen/dw" android:ellipsize="end" android:id="@id/b33" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
-        <TextView android:textSize="@dimen/dn" android:ellipsize="end" android:id="@id/acb" android:visibility="invisible" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/a3a"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/du"
+        android:layout_marginBottom="@dimen/du"
+        android:contentDescription="@null"
+        android:duplicateParentState="true" />
+    <com.google.android.material.internal.BaselineLayout
+        android:id="@id/ac_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:duplicateParentState="true"
+        android:paddingBottom="@dimen/dt">
+        <TextView
+            android:id="@id/b33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="@dimen/dw" />
+        <TextView
+            android:id="@id/acb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="@dimen/dn"
+            android:visibility="invisible" />
     </com.google.android.material.internal.BaselineLayout>
 </merge>

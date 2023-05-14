@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/jf" android:layout_width="fill_parent" android:layout_height="@dimen/xt"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center_horizontal" android:id="@id/a3b" android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:scaleType="centerInside" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yy" android:textStyle="bold" android:textColor="@color/zo" android:ellipsize="end" android:gravity="center" android:id="@id/bcb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/xt"
+    android:background="@drawable/jf"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@id/a3b"
+        android:layout_width="@dimen/v7"
+        android:layout_height="@dimen/v7"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bcb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/yy"
+        android:textStyle="bold" />
 </LinearLayout>

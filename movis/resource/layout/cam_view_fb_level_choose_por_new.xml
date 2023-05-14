@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="120.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.videoai.aivpcore.camera.ui.view.seekbar.DraggableSeekBar android:id="@id/bj8" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
-    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/bj2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/py" android:layout_centerHorizontal="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="120.0dip">
+    <com.videoai.aivpcore.camera.ui.view.seekbar.DraggableSeekBar
+        android:id="@id/bj8"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginEnd="15.0dip"
+        android:layout_marginRight="15.0dip" />
+    <TextView
+        android:id="@id/bj2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/py"
+        android:textColor="#ffffffff"
+        android:textSize="16.0sp" />
 </RelativeLayout>

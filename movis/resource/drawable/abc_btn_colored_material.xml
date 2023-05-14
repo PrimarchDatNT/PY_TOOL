@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<inset android:insetLeft="@dimen/y" android:insetRight="@dimen/y" android:insetTop="@dimen/z" android:insetBottom="@dimen/z"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@dimen/y" android:insetTop="@dimen/z" android:insetRight="@dimen/y" android:insetBottom="@dimen/z">
     <ripple android:color="?android:colorControlHighlight">
         <item>
             <selector>
@@ -8,14 +7,16 @@
                     <shape android:shape="rectangle">
                         <corners android:radius="@dimen/a4" />
                         <solid android:color="?android:colorButtonNormal" />
-                        <padding android:left="@dimen/a0" android:top="@dimen/a1" android:right="@dimen/a0" android:bottom="@dimen/a1" />
+                        <padding
+                            android:bottom="@dimen/a1" android:left="@dimen/a0" android:right="@dimen/a0" android:top="@dimen/a1" />
                     </shape>
                 </item>
                 <item>
                     <shape android:shape="rectangle">
                         <corners android:radius="@dimen/a4" />
                         <solid android:color="?android:colorAccent" />
-                        <padding android:left="@dimen/a0" android:top="@dimen/a1" android:right="@dimen/a0" android:bottom="@dimen/a1" />
+                        <padding
+                            android:bottom="@dimen/a1" android:left="@dimen/a0" android:right="@dimen/a0" android:top="@dimen/a1" />
                     </shape>
                 </item>
             </selector>

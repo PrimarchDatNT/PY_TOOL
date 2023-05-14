@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_focused="true" android:color="?hp" />
-    <item android:color="?ho" android:alpha="0.46" android:state_hovered="true" />
-    <item android:state_enabled="false" android:color="?ho" android:alpha="0.38" />
-    <item android:color="?ho" android:alpha="0.42" />
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="?hp" android:state_focused="true" />
+    <item android:alpha="0.46" android:color="?ho" android:state_hovered="true" />
+    <item android:alpha="0.38" android:color="?ho" android:state_enabled="false" />
+    <item android:alpha="0.42" android:color="?ho" />
 </selector>

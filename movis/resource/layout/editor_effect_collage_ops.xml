@@ -1,14 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.videoai.aivpcore.editor.effects.PlayerFakeView android:orientation="vertical" android:id="@id/bku" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bks" />
-    <RelativeLayout android:id="@id/bks" android:background="@color/bn" android:layout_width="fill_parent" android:layout_height="@dimen/gv" android:layout_alignParentBottom="true">
-        <com.videoai.aivpcore.editor.effects.VideoEditorSeekLayout android:id="@id/bkt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
-        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" android:layout_below="@id/bkt" android:layout_centerHorizontal="true">
-            <TextView android:textSize="16.0sp" android:textColor="@drawable/us" android:gravity="center" android:id="@id/bkq" android:background="@drawable/u1" android:layout_width="113.0dip" android:layout_height="35.0dip" android:text="@string/apc" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
-            <ImageView android:gravity="center" android:id="@id/bkr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:src="@drawable/u2" android:layout_toLeftOf="@id/bkq" android:layout_centerVertical="true" android:layout_marginEnd="30.0dip" android:layout_toStartOf="@id/bkq" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.videoai.aivpcore.editor.effects.PlayerFakeView
+        android:id="@id/bku"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bks"
+        android:orientation="vertical" />
+    <RelativeLayout
+        android:id="@id/bks"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/gv"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bn">
+        <com.videoai.aivpcore.editor.effects.VideoEditorSeekLayout
+            android:id="@id/bkt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12.0dip" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/bkt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50.0dip">
+            <TextView
+                android:id="@id/bkq"
+                android:layout_width="113.0dip"
+                android:layout_height="35.0dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/u1"
+                android:gravity="center"
+                android:text="@string/apc"
+                android:textColor="@drawable/us"
+                android:textSize="16.0sp" />
+            <ImageView
+                android:id="@id/bkr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="30.0dip"
+                android:layout_marginRight="30.0dip"
+                android:layout_toStartOf="@id/bkq"
+                android:layout_toLeftOf="@id/bkq"
+                android:gravity="center"
+                android:src="@drawable/u2" />
         </RelativeLayout>
     </RelativeLayout>
-    <com.videoai.aivpcore.editor.widget.picker.EditorGalleryBoard android:id="@id/vf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/b7u" app:picFocus="false" app:picNoneItem="false" />
-    <com.videoai.aivpcore.editor.widget.terminator.Terminator android:id="@id/b7u" android:layout_width="fill_parent" android:layout_height="@dimen/a4r" android:layout_alignParentBottom="true" />
+    <com.videoai.aivpcore.editor.widget.picker.EditorGalleryBoard
+        android:id="@id/vf"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/b7u"
+        app:picFocus="false"
+        app:picNoneItem="false" />
+    <com.videoai.aivpcore.editor.widget.terminator.Terminator
+        android:id="@id/b7u"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/a4r"
+        android:layout_alignParentBottom="true" />
 </RelativeLayout>

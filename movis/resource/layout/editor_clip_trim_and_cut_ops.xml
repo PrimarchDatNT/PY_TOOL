@@ -1,12 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="@color/bn" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RadioGroup android:orientation="horizontal" android:id="@id/at1" android:visibility="visible" android:layout_width="153.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true">
-        <RadioButton android:textSize="14.0sp" android:textColor="@drawable/tq" android:gravity="center" android:id="@id/baw" android:background="@drawable/ux" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:checked="true" android:button="@null" android:text="@string/ak2" android:layout_weight="1.0" />
-        <RadioButton android:textSize="14.0sp" android:textColor="@drawable/tq" android:gravity="center" android:id="@id/so" android:background="@drawable/uy" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@null" android:text="@string/ajo" android:layout_weight="1.0" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bn"
+    android:orientation="vertical">
+    <RadioGroup
+        android:id="@id/at1"
+        android:layout_width="153.0dip"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20.0dip"
+        android:orientation="horizontal"
+        android:visibility="visible">
+        <RadioButton
+            android:id="@id/baw"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/ux"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingTop="5.0dip"
+            android:paddingBottom="5.0dip"
+            android:text="@string/ak2"
+            android:textColor="@drawable/tq"
+            android:textSize="14.0sp" />
+        <RadioButton
+            android:id="@id/so"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/uy"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingTop="5.0dip"
+            android:paddingBottom="5.0dip"
+            android:text="@string/ajo"
+            android:textColor="@drawable/tq"
+            android:textSize="14.0sp" />
     </RadioGroup>
-    <LinearLayout android:gravity="center_vertical" android:id="@id/q2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_above="@id/b7u" android:layout_below="@id/at1">
-        <include android:id="@id/agl" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/f6" />
+    <LinearLayout
+        android:id="@id/q2"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/b7u"
+        android:layout_below="@id/at1"
+        android:gravity="center_vertical">
+        <include
+            android:id="@id/agl"
+            layout="@layout/f6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
     </LinearLayout>
-    <com.videoai.aivpcore.editor.widget.terminator.Terminator android:id="@id/b7u" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.videoai.aivpcore.editor.widget.terminator.Terminator
+        android:id="@id/b7u"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
 </RelativeLayout>

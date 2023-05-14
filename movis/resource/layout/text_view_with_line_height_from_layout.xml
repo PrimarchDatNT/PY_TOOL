@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.textview.MaterialTextView android:textAppearance="@style/k7" android:layout_width="fill_parent" android:layout_height="wrap_content" app:lineHeight="@dimen/li"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+<com.google.android.material.textview.MaterialTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="@style/k7"
+    app:lineHeight="@dimen/li" />

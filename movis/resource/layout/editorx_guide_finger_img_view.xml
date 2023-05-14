@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.AppCompatImageView android:id="@id/a2i" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/a6b" android:scaleType="centerCrop" android:layout_alignParentStart="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<androidx.appcompat.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/a2i"
+    android:layout_width="40.0dip"
+    android:layout_height="40.0dip"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="20.0dip"
+    android:scaleType="centerCrop"
+    android:src="@drawable/a6b" />

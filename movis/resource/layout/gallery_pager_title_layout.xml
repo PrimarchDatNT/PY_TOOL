@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.videoedit.widgetlib.magicindicator.SimplePagerTitleView android:textSize="@dimen/z0" android:textColor="@color/zi" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<com.videoedit.widgetlib.magicindicator.SimplePagerTitleView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/zi"
+    android:textSize="@dimen/z0" />

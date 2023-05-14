@@ -1,21 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/ad8" android:layout_width="fill_parent" android:layout_height="?a4" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/jc" android:background="@drawable/jf" android:layout_width="?a4" android:layout_height="?a4" android:src="@drawable/aj0" android:scaleType="centerInside" android:adjustViewBounds="true" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textColor="@color/zo" android:id="@id/bcc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_toEndOf="@id/jc" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textColor="@color/zo" android:id="@id/bcb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/jc" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ag">
+    <RelativeLayout
+        android:id="@id/ad8"
+        android:layout_width="fill_parent"
+        android:layout_height="?a4"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/jc"
+            android:layout_width="?a4"
+            android:layout_height="?a4"
+            android:adjustViewBounds="true"
+            android:background="@drawable/jf"
+            android:scaleType="centerInside"
+            android:src="@drawable/aj0" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/bcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/jc"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z1"
+            android:visibility="gone" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/bcb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/jc"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z1" />
     </RelativeLayout>
-    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/ad8">
-        <com.google.android.material.appbar.AppBarLayout android:id="@id/ey" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:elevation="0.0dip">
-            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/r0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="wa">
-                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                    <View android:id="@id/bms" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/ad8">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@id/ey"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ag"
+            android:elevation="0.0dip"
+            app:elevation="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@id/r0"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_scrollFlags="wa">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <View
+                        android:id="@id/bms"
+                        android:layout_width="fill_parent"
+                        android:layout_height="24.0dip" />
                 </LinearLayout>
             </com.google.android.material.appbar.CollapsingToolbarLayout>
-            <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator android:id="@id/b5t" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/xh" />
+            <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator
+                android:id="@id/b5t"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/xh"
+                android:visibility="gone" />
         </com.google.android.material.appbar.AppBarLayout>
-        <com.videoai.aivpcore.common.ui.XYViewPager android:id="@id/bmp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/td" app:layout_behavior="@string/ch" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/b5t" />
-        <androidx.recyclerview.widget.RecyclerView android:id="@id/ah8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/td" app:layout_behavior="@string/ch" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toBottomOf="@id/bcb" />
+        <com.videoai.aivpcore.common.ui.XYViewPager
+            android:id="@id/bmp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/td"
+            android:visibility="gone"
+            app:layout_behavior="@string/ch"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toBottomOf="@id/b5t" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/ah8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/td"
+            android:visibility="gone"
+            app:layout_behavior="@string/ch"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toBottomOf="@id/bcb" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

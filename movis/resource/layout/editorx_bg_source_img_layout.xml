@@ -1,13 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout android:layout_gravity="start" android:id="@id/re" android:layout_width="@dimen/y_" android:layout_height="@dimen/yg">
-        <com.google.android.material.imageview.ShapeableImageView android:id="@id/a7e" android:layout_width="@dimen/y_" android:layout_height="@dimen/y0" android:src="@drawable/yz" android:scaleType="centerCrop" />
-        <View android:background="@drawable/ary" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <View android:id="@id/zs" android:background="@drawable/a7p" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/a9k" android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/yu" android:scaleType="centerInside" android:layout_above="@id/a8a" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
-        <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/a7e" android:layout_alignBottom="@id/a7e" android:layout_alignStart="@id/a7e" android:layout_alignEnd="@id/a7e" layout="@layout/eo" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yy" android:textColor="@color/xj" android:gravity="center" android:id="@id/a8a" android:layout_width="fill_parent" android:layout_height="@dimen/ul" android:text="@string/alm" android:layout_alignParentBottom="true" app:autoSizeTextType="bjy" style="@style/mr" />
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/aby" android:visibility="gone" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:layout_margin="@dimen/uk" android:src="@drawable/aj9" android:layout_above="@id/a8a" android:layout_alignParentEnd="true" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout
+        android:id="@id/re"
+        android:layout_width="@dimen/y_"
+        android:layout_height="@dimen/yg"
+        android:layout_gravity="start">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@id/a7e"
+            android:layout_width="@dimen/y_"
+            android:layout_height="@dimen/y0"
+            android:scaleType="centerCrop"
+            android:src="@drawable/yz" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/ary" />
+        <View
+            android:id="@id/zs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/a7p"
+            android:visibility="gone" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/a9k"
+            android:layout_width="@dimen/v7"
+            android:layout_height="@dimen/v7"
+            android:layout_above="@id/a8a"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/yu" />
+        <include
+            layout="@layout/eo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/a7e"
+            android:layout_alignTop="@id/a7e"
+            android:layout_alignEnd="@id/a7e"
+            android:layout_alignBottom="@id/a7e"
+            android:visibility="gone" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/a8a"
+            style="@style/mr"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/ul"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="@string/alm"
+            android:textColor="@color/xj"
+            android:textSize="@dimen/yy"
+            app:autoSizeTextType="bjy" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/aby"
+            android:layout_width="@dimen/tz"
+            android:layout_height="@dimen/tz"
+            android:layout_above="@id/a8a"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/uk"
+            android:src="@drawable/aj9"
+            android:visibility="gone" />
     </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
 </LinearLayout>

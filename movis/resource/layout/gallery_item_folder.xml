@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/adj" android:layout_width="165.0dip" android:layout_height="165.0dip">
-        <ImageView android:id="@id/ut" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <ImageView android:id="@id/y9" android:visibility="invisible" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@id/adj"
+        android:layout_width="165.0dip"
+        android:layout_height="165.0dip">
+        <ImageView
+            android:id="@id/ut"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <ImageView
+            android:id="@id/y9"
+            android:layout_width="18.0dip"
+            android:layout_height="18.0dip"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible" />
     </RelativeLayout>
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
-        <TextView android:textSize="14.0sp" android:textColor="@color/zo" android:ellipsize="end" android:id="@id/uv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="80.0dip" android:maxLines="1" />
-        <TextView android:textSize="14.0sp" android:textColor="#ff8e8e93" android:ellipsize="end" android:id="@id/uu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="80.0dip" android:maxLines="1" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip">
+        <TextView
+            android:id="@id/uv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxWidth="80.0dip"
+            android:maxLines="1"
+            android:textColor="@color/zo"
+            android:textSize="14.0sp" />
+        <TextView
+            android:id="@id/uu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:ellipsize="end"
+            android:maxWidth="80.0dip"
+            android:maxLines="1"
+            android:textColor="#ff8e8e93"
+            android:textSize="14.0sp" />
     </RelativeLayout>
 </LinearLayout>

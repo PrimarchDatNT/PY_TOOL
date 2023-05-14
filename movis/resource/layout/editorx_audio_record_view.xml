@@ -1,16 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/au1" android:background="@drawable/yi" android:layout_width="fill_parent" android:layout_height="@dimen/t4" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" />
-    <View android:id="@id/au9" android:background="@drawable/yl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="apv" />
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/aub" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/au9" app:layout_constraintEnd_toEndOf="@id/au9" app:layout_constraintStart_toStartOf="@id/au9" app:layout_constraintTop_toTopOf="@id/au9">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/au_" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="centerCrop" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/aua" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad0" android:layout_marginStart="6.0dip" />
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <View
+        android:id="@id/au1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/t4"
+        android:background="@drawable/yi"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv" />
+    <View
+        android:id="@id/au9"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginStart="15.0dip"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginEnd="15.0dip"
+        android:background="@drawable/yl"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv"
+        app:layout_constraintTop_toTopOf="apv" />
+    <LinearLayout
+        android:id="@id/aub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@id/au9"
+        app:layout_constraintEnd_toEndOf="@id/au9"
+        app:layout_constraintStart_toStartOf="@id/au9"
+        app:layout_constraintTop_toTopOf="@id/au9">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/au_"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:scaleType="centerCrop" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/aua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6.0dip"
+            android:gravity="center"
+            android:text="@string/ad0"
+            android:textColor="@color/zo"
+            android:textSize="14.0sp" />
     </LinearLayout>
-    <com.videoai.aivpcore.editorx.board.audio.base.RecordButtonView android:id="@id/au2" android:background="@drawable/jn" android:layout_width="@dimen/u6" android:layout_height="@dimen/x9" android:layout_marginBottom="@dimen/td" app:layout_constraintBottom_toBottomOf="@id/au1" app:layout_constraintEnd_toEndOf="@id/au1" app:layout_constraintStart_toStartOf="@id/au1" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/au5" android:visibility="gone" android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/yk" android:layout_marginStart="32.0dip" app:layout_constraintBottom_toBottomOf="@id/au2" app:layout_constraintStart_toStartOf="@id/au1" app:layout_constraintTop_toTopOf="@id/au2" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:id="@id/au8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tz" app:layout_constraintBottom_toTopOf="@id/au2" app:layout_constraintEnd_toEndOf="@id/au1" app:layout_constraintStart_toStartOf="@id/au1" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:id="@id/au6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tz" android:text="@string/a04" app:layout_constraintBottom_toTopOf="@id/au2" app:layout_constraintEnd_toEndOf="@id/au1" app:layout_constraintStart_toStartOf="@id/au1" />
-    <View android:id="@id/au3" android:background="@drawable/jf" android:layout_width="@dimen/xh" android:layout_height="@dimen/wd" app:layout_constraintBottom_toBottomOf="@id/au2" app:layout_constraintEnd_toEndOf="@id/au1" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintTop_toTopOf="@id/au2" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/au4" android:layout_width="@dimen/v7" android:layout_height="@dimen/v7" android:src="@drawable/tp" app:layout_constraintBottom_toBottomOf="@id/au3" app:layout_constraintEnd_toEndOf="@id/au3" app:layout_constraintStart_toStartOf="@id/au3" app:layout_constraintTop_toTopOf="@id/au3" />
+    <com.videoai.aivpcore.editorx.board.audio.base.RecordButtonView
+        android:id="@id/au2"
+        android:layout_width="@dimen/u6"
+        android:layout_height="@dimen/x9"
+        android:layout_marginBottom="@dimen/td"
+        android:background="@drawable/jn"
+        app:layout_constraintBottom_toBottomOf="@id/au1"
+        app:layout_constraintEnd_toEndOf="@id/au1"
+        app:layout_constraintStart_toStartOf="@id/au1" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/au5"
+        android:layout_width="@dimen/v7"
+        android:layout_height="@dimen/v7"
+        android:layout_marginStart="32.0dip"
+        android:src="@drawable/yk"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/au2"
+        app:layout_constraintStart_toStartOf="@id/au1"
+        app:layout_constraintTop_toTopOf="@id/au2" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/au8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/tz"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z0"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/au2"
+        app:layout_constraintEnd_toEndOf="@id/au1"
+        app:layout_constraintStart_toStartOf="@id/au1" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/au6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/tz"
+        android:text="@string/a04"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z0"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/au2"
+        app:layout_constraintEnd_toEndOf="@id/au1"
+        app:layout_constraintStart_toStartOf="@id/au1" />
+    <View
+        android:id="@id/au3"
+        android:layout_width="@dimen/xh"
+        android:layout_height="@dimen/wd"
+        android:background="@drawable/jf"
+        app:layout_constraintBottom_toBottomOf="@id/au2"
+        app:layout_constraintEnd_toEndOf="@id/au1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toTopOf="@id/au2" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/au4"
+        android:layout_width="@dimen/v7"
+        android:layout_height="@dimen/v7"
+        android:src="@drawable/tp"
+        app:layout_constraintBottom_toBottomOf="@id/au3"
+        app:layout_constraintEnd_toEndOf="@id/au3"
+        app:layout_constraintStart_toStartOf="@id/au3"
+        app:layout_constraintTop_toTopOf="@id/au3" />
 </merge>

@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/al8" android:paddingTop="@dimen/p6" android:paddingBottom="@dimen/p4" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-        <com.google.android.material.button.MaterialButton android:gravity="start|center" android:layout_gravity="start" android:id="@id/al9" android:layout_width="wrap_content" android:layout_height="@dimen/p5" android:insetTop="0.0dip" android:insetBottom="0.0dip" app:icon="@drawable/amb" app:iconGravity="b86" app:iconPadding="4.0dip" style="?wb" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/al8"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/p6"
+    android:paddingBottom="@dimen/p4">
+    <FrameLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0">
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/al9"
+            style="?wb"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/p5"
+            android:layout_gravity="start"
+            android:gravity="start|center"
+            android:insetTop="0.0dip"
+            android:insetBottom="0.0dip"
+            app:icon="@drawable/amb"
+            app:iconGravity="b86"
+            app:iconPadding="4.0dip" />
     </FrameLayout>
-    <com.google.android.material.button.MaterialButton android:gravity="center" android:id="@id/ala" android:layout_width="@dimen/qo" android:layout_height="@dimen/p5" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:contentDescription="@string/hv" app:icon="@drawable/am_" style="?w9" />
-    <com.google.android.material.button.MaterialButton android:gravity="center" android:id="@id/al_" android:layout_width="@dimen/qo" android:layout_height="@dimen/p5" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:contentDescription="@string/hu" app:icon="@drawable/am9" style="?w9" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/ala"
+        style="?w9"
+        android:layout_width="@dimen/qo"
+        android:layout_height="@dimen/p5"
+        android:contentDescription="@string/hv"
+        android:gravity="center"
+        android:insetTop="0.0dip"
+        android:insetBottom="0.0dip"
+        app:icon="@drawable/am_" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/al_"
+        style="?w9"
+        android:layout_width="@dimen/qo"
+        android:layout_height="@dimen/p5"
+        android:contentDescription="@string/hu"
+        android:gravity="center"
+        android:insetTop="0.0dip"
+        android:insetBottom="0.0dip"
+        app:icon="@drawable/am9" />
 </LinearLayout>

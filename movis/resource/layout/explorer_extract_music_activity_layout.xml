@@ -1,18 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/b_g" android:layout_width="fill_parent" android:layout_height="50.0dip">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ke" android:background="@drawable/jf" android:layout_width="?a4" android:layout_height="?a4" android:src="@drawable/aj5" android:scaleType="centerInside" android:layout_centerVertical="true" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textColor="@color/zo" android:gravity="center" android:id="@id/b_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a6h" android:layout_centerVertical="true" android:fontFamily="@font/f" android:layout_toEndOf="@id/ke" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ag">
+    <RelativeLayout
+        android:id="@id/b_g"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/ke"
+            android:layout_width="?a4"
+            android:layout_height="?a4"
+            android:layout_centerVertical="true"
+            android:background="@drawable/jf"
+            android:scaleType="centerInside"
+            android:src="@drawable/aj5" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/b_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/ke"
+            android:fontFamily="@font/f"
+            android:gravity="center"
+            android:text="@string/a6h"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z1" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/afg" android:background="@color/bn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/boo" android:layout_below="@id/b_g">
-        <RelativeLayout android:id="@id/ag8" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
-            <SurfaceView android:id="@id/b5o" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout
+        android:id="@id/afg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/boo"
+        android:layout_below="@id/b_g"
+        android:background="@color/bn">
+        <RelativeLayout
+            android:id="@id/ag8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/xz">
+            <SurfaceView
+                android:id="@id/b5o"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
         </RelativeLayout>
-        <ImageButton android:id="@id/aqv" android:background="?a5d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/xz" android:src="@drawable/k_" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+        <ImageButton
+            android:id="@id/aqv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/xz"
+            android:background="?a5d"
+            android:contentDescription="@null"
+            android:src="@drawable/k_" />
     </RelativeLayout>
-    <com.videoai.aivpcore.explorer.ui.WaveSeekBar android:id="@id/boo" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="@dimen/yg" android:layout_marginTop="@dimen/tz" android:layout_above="@id/a_n" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/a_n" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tz" android:src="@drawable/k5" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_above="@id/ki" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:gravity="center" android:id="@id/ki" android:background="@drawable/dx" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:layout_marginBottom="@dimen/ul" android:text="@string/rx" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="@font/f" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/a3o" android:visibility="gone" android:layout_width="@dimen/tz" android:layout_height="@dimen/tz" android:layout_marginBottom="50.0dip" android:layout_alignParentBottom="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    <com.videoai.aivpcore.explorer.ui.WaveSeekBar
+        android:id="@id/boo"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/yg"
+        android:layout_above="@id/a_n"
+        android:layout_marginTop="@dimen/tz"
+        android:background="@color/xz" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/a_n"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ki"
+        android:layout_marginStart="@dimen/tz"
+        android:layout_marginEnd="@dimen/tz"
+        android:layout_marginBottom="@dimen/tz"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/k5" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/ki"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x9"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/tz"
+        android:layout_marginEnd="@dimen/tz"
+        android:layout_marginBottom="@dimen/ul"
+        android:background="@drawable/dx"
+        android:fontFamily="@font/f"
+        android:gravity="center"
+        android:text="@string/rx"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z0" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/a3o"
+        android:layout_width="@dimen/tz"
+        android:layout_height="@dimen/tz"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8.0dip"
+        android:layout_marginBottom="50.0dip"
+        android:visibility="gone" />
 </RelativeLayout>

@@ -1,14 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="end" android:id="@id/aey" android:background="@drawable/a0a" android:visibility="gone" android:layout_width="@dimen/t5" android:layout_height="@dimen/wd" android:layout_marginEnd="@dimen/tz">
-        <ImageView android:id="@id/a3s" android:background="@drawable/jf" android:layout_width="@dimen/vs" android:layout_height="@dimen/vs" android:src="@drawable/a_b" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toLeftOf="@id/agz" app:layout_constraintTop_toTopOf="apv" />
-        <View android:id="@id/agz" android:background="@color/aj" android:layout_width="@dimen/uk" android:layout_height="@dimen/tz" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv" />
-        <ImageView android:id="@id/a3t" android:background="@drawable/jf" android:layout_width="@dimen/vs" android:layout_height="@dimen/vs" android:src="@drawable/a_c" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintLeft_toRightOf="@id/agz" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/aey"
+        android:layout_width="@dimen/t5"
+        android:layout_height="@dimen/wd"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/tz"
+        android:background="@drawable/a0a"
+        android:visibility="gone">
+        <ImageView
+            android:id="@id/a3s"
+            android:layout_width="@dimen/vs"
+            android:layout_height="@dimen/vs"
+            android:background="@drawable/jf"
+            android:scaleType="centerInside"
+            android:src="@drawable/a_b"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintLeft_toLeftOf="apv"
+            app:layout_constraintRight_toLeftOf="@id/agz"
+            app:layout_constraintTop_toTopOf="apv" />
+        <View
+            android:id="@id/agz"
+            android:layout_width="@dimen/uk"
+            android:layout_height="@dimen/tz"
+            android:background="@color/aj"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintLeft_toLeftOf="apv"
+            app:layout_constraintRight_toRightOf="apv"
+            app:layout_constraintTop_toTopOf="apv" />
+        <ImageView
+            android:id="@id/a3t"
+            android:layout_width="@dimen/vs"
+            android:layout_height="@dimen/vs"
+            android:background="@drawable/jf"
+            android:scaleType="centerInside"
+            android:src="@drawable/a_c"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintLeft_toRightOf="@id/agz"
+            app:layout_constraintRight_toRightOf="apv"
+            app:layout_constraintTop_toTopOf="apv" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="end" android:id="@id/afp" android:background="@drawable/a0a" android:visibility="gone" android:layout_width="@dimen/t5" android:layout_height="@dimen/wd" android:layout_marginEnd="@dimen/tz">
-        <ImageView android:enabled="false" android:id="@id/a3v" android:background="@drawable/jf" android:layout_width="@dimen/vs" android:layout_height="@dimen/vs" android:src="@drawable/a_c" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toLeftOf="@id/avw" app:layout_constraintTop_toTopOf="apv" />
-        <View android:id="@id/avw" android:background="@color/aj" android:layout_width="@dimen/uk" android:layout_height="@dimen/tz" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv" />
-        <ImageView android:id="@id/a3u" android:background="@drawable/jf" android:layout_width="@dimen/vs" android:layout_height="@dimen/vs" android:src="@drawable/a_a" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintLeft_toRightOf="@id/avw" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/afp"
+        android:layout_width="@dimen/t5"
+        android:layout_height="@dimen/wd"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/tz"
+        android:background="@drawable/a0a"
+        android:visibility="gone">
+        <ImageView
+            android:id="@id/a3v"
+            android:layout_width="@dimen/vs"
+            android:layout_height="@dimen/vs"
+            android:background="@drawable/jf"
+            android:enabled="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/a_c"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintLeft_toLeftOf="apv"
+            app:layout_constraintRight_toLeftOf="@id/avw"
+            app:layout_constraintTop_toTopOf="apv" />
+        <View
+            android:id="@id/avw"
+            android:layout_width="@dimen/uk"
+            android:layout_height="@dimen/tz"
+            android:background="@color/aj"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintLeft_toLeftOf="apv"
+            app:layout_constraintRight_toRightOf="apv"
+            app:layout_constraintTop_toTopOf="apv" />
+        <ImageView
+            android:id="@id/a3u"
+            android:layout_width="@dimen/vs"
+            android:layout_height="@dimen/vs"
+            android:background="@drawable/jf"
+            android:scaleType="centerInside"
+            android:src="@drawable/a_a"
+            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintLeft_toRightOf="@id/avw"
+            app:layout_constraintRight_toRightOf="apv"
+            app:layout_constraintTop_toTopOf="apv" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

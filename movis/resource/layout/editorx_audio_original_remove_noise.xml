@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="horizontal" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:background="@drawable/yc" android:layout_width="fill_parent" android:layout_height="@dimen/xt" android:paddingStart="@dimen/tz" android:paddingEnd="@dimen/tz" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
-        <TextView android:textSize="@dimen/yz" android:textColor="@color/zo" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/akz" android:layout_weight="1.0" />
-        <CheckBox android:id="@id/on" android:background="@color/xz" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@drawable/yf" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/xz"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xt"
+        android:layout_marginStart="15.0dip"
+        android:layout_marginEnd="15.0dip"
+        android:background="@drawable/yc"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/tz"
+        android:paddingEnd="@dimen/tz">
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:text="@string/akz"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/yz" />
+        <CheckBox
+            android:id="@id/on"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/xz"
+            android:button="@drawable/yf" />
     </LinearLayout>
 </FrameLayout>

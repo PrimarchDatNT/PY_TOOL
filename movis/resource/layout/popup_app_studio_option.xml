@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/hv" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/ahu" android:background="@drawable/jf" android:layout_width="fill_parent" android:layout_height="@dimen/xh">
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aag" android:drawablePadding="@dimen/yf" android:drawableStart="@drawable/akq" android:fontFamily="@font/f" android:layout_marginStart="@dimen/td" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/hv"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@id/ahu"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xh"
+        android:background="@drawable/jf">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/td"
+            android:drawableStart="@drawable/akq"
+            android:drawablePadding="@dimen/yf"
+            android:fontFamily="@font/f"
+            android:gravity="center"
+            android:text="@string/aag"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z0" />
     </FrameLayout>
-    <View android:layout_gravity="center" android:layout_width="@dimen/u0" android:layout_height="@dimen/t2" />
-    <FrameLayout android:id="@id/aie" android:background="@drawable/jf" android:layout_width="fill_parent" android:layout_height="@dimen/xh">
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z0" android:textColor="@color/zo" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agl" android:drawablePadding="@dimen/yf" android:drawableStart="@drawable/aki" android:fontFamily="@font/f" android:layout_marginStart="@dimen/td" app:drawableTint="@color/zo" />
+    <View
+        android:layout_width="@dimen/u0"
+        android:layout_height="@dimen/t2"
+        android:layout_gravity="center" />
+    <FrameLayout
+        android:id="@id/aie"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xh"
+        android:background="@drawable/jf">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/td"
+            android:drawableStart="@drawable/aki"
+            android:drawablePadding="@dimen/yf"
+            android:fontFamily="@font/f"
+            android:gravity="center"
+            android:text="@string/agl"
+            android:textColor="@color/zo"
+            android:textSize="@dimen/z0"
+            app:drawableTint="@color/zo" />
     </FrameLayout>
 </LinearLayout>

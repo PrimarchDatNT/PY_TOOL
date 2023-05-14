@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout android:id="@id/re" android:layout_width="@dimen/y_" android:layout_height="@dimen/yg">
-        <com.google.android.material.imageview.ShapeableImageView android:id="@id/aap" android:background="@color/ah" android:layout_width="@dimen/y_" android:layout_height="@dimen/y0" android:src="@drawable/a58" android:scaleType="centerInside" android:layout_centerHorizontal="true" app:shapeAppearanceOverlay="@style/iu" />
-        <View android:background="@drawable/ary" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <View android:id="@id/zt" android:background="@drawable/a7p" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/yy" android:textColor="@color/xj" android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/ul" android:text="@string/ap2" android:layout_alignParentBottom="true" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout
+        android:id="@id/re"
+        android:layout_width="@dimen/y_"
+        android:layout_height="@dimen/yg">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@id/aap"
+            android:layout_width="@dimen/y_"
+            android:layout_height="@dimen/y0"
+            android:layout_centerHorizontal="true"
+            android:background="@color/ah"
+            android:scaleType="centerInside"
+            android:src="@drawable/a58"
+            app:shapeAppearanceOverlay="@style/iu" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/ary" />
+        <View
+            android:id="@id/zt"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/a7p"
+            android:visibility="gone" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/ul"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="@string/ap2"
+            android:textColor="@color/xj"
+            android:textSize="@dimen/yy" />
     </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
 </LinearLayout>

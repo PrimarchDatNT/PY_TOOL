@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/a7_" android:layout_width="103.0dip" android:layout_height="103.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.videoai.mobile.component.imageview.DynamicLoadingImageView android:id="@id/qr" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
-    <ImageView android:id="@id/qo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b6f" android:scaleType="centerCrop" android:layout_centerInParent="true" />
-    <View android:id="@id/adx" android:background="@drawable/a79" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ImageView android:id="@id/abu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:src="@drawable/aj9" android:layout_marginEnd="4.0dip" android:layout_alignParentEnd="true" />
-    <com.videoai.aivpcore.editorx.widget.magic.RoundProgressView android:id="@id/asc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:backgroundColor="#99020202" app:circleCorner="0.0dip" app:circleProgress="0" app:circleRadius="80.0dip" app:startAngle="270" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="103.0dip"
+    android:layout_height="103.0dip"
+    android:background="@drawable/a7_">
+    <com.videoai.mobile.component.imageview.DynamicLoadingImageView
+        android:id="@id/qr"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/xz" />
+    <ImageView
+        android:id="@id/qo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/b6f"
+        android:visibility="gone" />
+    <View
+        android:id="@id/adx"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/a79" />
+    <ImageView
+        android:id="@id/abu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginEnd="4.0dip"
+        android:src="@drawable/aj9" />
+    <com.videoai.aivpcore.editorx.widget.magic.RoundProgressView
+        android:id="@id/asc"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        app:backgroundColor="#99020202"
+        app:circleCorner="0.0dip"
+        app:circleProgress="0"
+        app:circleRadius="80.0dip"
+        app:startAngle="270" />
 </RelativeLayout>

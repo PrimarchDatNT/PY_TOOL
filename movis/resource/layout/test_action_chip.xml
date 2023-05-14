@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.chip.Chip android:ellipsize="end" android:id="@id/op" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/da" style="@style/tz"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/op"
+    style="@style/tz"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ellipsize="end"
+    android:text="@string/da" />

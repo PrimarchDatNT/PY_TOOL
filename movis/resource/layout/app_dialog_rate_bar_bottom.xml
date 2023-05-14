@@ -1,12 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.videoapp.videomakermaster.RateViewClick android:background="@drawable/et" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="apv" />
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/aci" android:background="@drawable/dl" android:visibility="gone" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="33.0dip" app:layout_constraintBottom_toBottomOf="apv" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv">
-        <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-52.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/e7" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="@id/aci" app:layout_constraintEnd_toEndOf="apv" app:layout_constraintStart_toStartOf="apv" app:layout_constraintTop_toTopOf="@id/aci" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/f5" android:gravity="center" android:id="@id/at6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:text="@string/a8l" />
-        <com.videoai.aivpcore.common.ui.custom.RatingBarView android:gravity="center" android:id="@id/at7" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:starNums="5" app:starRating="5.0" app:stepSize="1.0" />
-        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/zo" android:gravity="center" android:id="@id/at5" android:background="@drawable/dx" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aid" android:singleLine="true" android:textAllCaps="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false">
+    <com.videoapp.videomakermaster.RateViewClick
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et"
+        app:layout_constraintBottom_toBottomOf="apv" />
+    <LinearLayout
+        android:id="@id/aci"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginBottom="33.0dip"
+        android:background="@drawable/dl"
+        android:clipChildren="false"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintEnd_toEndOf="apv"
+        app:layout_constraintStart_toStartOf="apv">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-52.0dip"
+            android:layout_marginBottom="16.0dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/e7"
+            app:layout_constraintBottom_toBottomOf="@id/aci"
+            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintStart_toStartOf="apv"
+            app:layout_constraintTop_toTopOf="@id/aci" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/at6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50.0dip"
+            android:layout_marginRight="50.0dip"
+            android:gravity="center"
+            android:text="@string/a8l"
+            android:textColor="@color/f5"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+        <com.videoai.aivpcore.common.ui.custom.RatingBarView
+            android:id="@id/at7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20.0dip"
+            android:paddingBottom="20.0dip"
+            app:starNums="5"
+            app:starRating="5.0"
+            app:stepSize="1.0" />
+        <TextView
+            android:id="@id/at5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24.0dip"
+            android:layout_marginEnd="24.0dip"
+            android:background="@drawable/dx"
+            android:gravity="center"
+            android:padding="14.0dip"
+            android:singleLine="true"
+            android:text="@string/aid"
+            android:textAllCaps="true"
+            android:textColor="@color/zo"
+            android:textSize="18.0sp"
+            android:textStyle="bold" />
     </LinearLayout>
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/jd" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginBottom="18.0dip" android:src="@drawable/dy" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toTopOf="@id/aci" app:layout_constraintStart_toStartOf="@id/aci" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/jd"
+        android:layout_width="28.0dip"
+        android:layout_height="28.0dip"
+        android:layout_marginStart="8.0dip"
+        android:layout_marginBottom="18.0dip"
+        android:src="@drawable/dy"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/aci"
+        app:layout_constraintStart_toStartOf="@id/aci" />
 </androidx.constraintlayout.widget.ConstraintLayout>

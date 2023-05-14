@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <EditText android:id="@id/brx" android:layout_width="fill_parent" android:layout_height="100.0dip" android:text="/sdcard/aivpcore/kittool/1584015431200.zip" android:hint="输入zip地址" />
-    <Button android:id="@id/j_" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="100.0dip" android:text="启动" />
-    <Button android:id="@id/j6" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="250.0dip" android:text="h5" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@id/brx"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:hint="输入zip地址"
+        android:text="/sdcard/aivpcore/kittool/1584015431200.zip" />
+    <Button
+        android:id="@id/j_"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="100.0dip"
+        android:text="启动" />
+    <Button
+        android:id="@id/j6"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="250.0dip"
+        android:text="h5" />
 </LinearLayout>

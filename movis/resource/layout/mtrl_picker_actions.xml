@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/ss" android:paddingRight="@dimen/og" android:layout_width="fill_parent" android:layout_height="@dimen/of" android:paddingEnd="@dimen/og"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:layout_gravity="center_vertical" android:id="@id/nu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hx" style="?ed" />
-    <Button android:layout_gravity="center_vertical" android:id="@id/r8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/oe" android:text="@string/hy" style="?ef" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/ss"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/of"
+    android:gravity="end"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/og"
+    android:paddingRight="@dimen/og">
+    <Button
+        android:id="@id/nu"
+        style="?ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/hx" />
+    <Button
+        android:id="@id/r8"
+        style="?ef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:minWidth="@dimen/oe"
+        android:text="@string/hy" />
 </LinearLayout>

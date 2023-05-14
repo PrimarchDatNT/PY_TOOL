@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.videoedit.widgetlib.magicindicator.MagicIndicator android:layout_gravity="center_horizontal" android:id="@id/aj3" android:layout_width="wrap_content" android:layout_height="24.0dip" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.videoedit.widgetlib.magicindicator.MagicIndicator
+        android:id="@id/aj3"
+        android:layout_width="wrap_content"
+        android:layout_height="24.0dip"
+        android:layout_gravity="center_horizontal" />
 </FrameLayout>

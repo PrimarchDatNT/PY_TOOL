@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/v0" android:padding="@dimen/c" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/dv" android:layout_width="@dimen/b" android:layout_height="@dimen/b" android:layout_marginBottom="@dimen/d" android:src="@drawable/aj8" />
-    <TextView android:textSize="@dimen/f" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/b_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/b" android:text="@string/h1" />
-    <TextView android:textSize="@dimen/a" android:textColor="#ffbbbbbb" android:id="@id/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/b" android:text="@string/h0" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/v0"
+    android:orientation="vertical"
+    android:padding="@dimen/c">
+    <ImageView
+        android:id="@id/dv"
+        android:layout_width="@dimen/b"
+        android:layout_height="@dimen/b"
+        android:layout_marginBottom="@dimen/d"
+        android:src="@drawable/aj8" />
+    <TextView
+        android:id="@id/b_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/b"
+        android:text="@string/h1"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/f"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@id/fi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/b"
+        android:text="@string/h0"
+        android:textColor="#ffbbbbbb"
+        android:textSize="@dimen/a" />
 </LinearLayout>

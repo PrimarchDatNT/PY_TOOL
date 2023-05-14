@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/jb" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/b_g" android:layout_width="wrap_content" android:layout_height="48.0dip" layout="@layout/vf" />
-    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/b5q" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/b_g">
-        <androidx.recyclerview.widget.RecyclerView android:id="@id/aue" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/jb">
+    <include
+        android:id="@id/b_g"
+        layout="@layout/vf"
+        android:layout_width="wrap_content"
+        android:layout_height="48.0dip" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@id/b5q"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/b_g">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/aue"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="5.0dip" />
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
-    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/b_g" android:layout_centerInParent="true" layout="@layout/vg" />
-    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/b_g" layout="@layout/vj" />
+    <include
+        layout="@layout/vg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/b_g"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+    <include
+        layout="@layout/vj"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/b_g"
+        android:visibility="gone" />
 </RelativeLayout>

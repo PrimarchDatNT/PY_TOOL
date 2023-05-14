@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_enabled="false">
         <layer-list>
-            <item android:top="6.0dip" android:bottom="6.0dip">
+            <item android:bottom="6.0dip" android:top="6.0dip">
                 <shape android:shape="rectangle">
-                    <size android:height="15.0dip" android:width="48.0dip" />
+                    <size android:width="48.0dip" android:height="15.0dip" />
                     <solid android:color="@color/e0" />
                     <corners android:radius="10.0dip" />
                 </shape>
@@ -14,9 +13,9 @@
     </item>
     <item android:state_pressed="true">
         <layer-list>
-            <item android:top="6.0dip" android:bottom="6.0dip">
+            <item android:bottom="6.0dip" android:top="6.0dip">
                 <shape android:shape="rectangle">
-                    <size android:height="15.0dip" android:width="48.0dip" />
+                    <size android:width="48.0dip" android:height="15.0dip" />
                     <solid android:color="@color/nd" />
                     <corners android:radius="10.0dip" />
                 </shape>
@@ -25,9 +24,9 @@
     </item>
     <item android:state_checked="true">
         <layer-list>
-            <item android:top="6.0dip" android:bottom="6.0dip">
+            <item android:bottom="6.0dip" android:top="6.0dip">
                 <shape android:shape="rectangle">
-                    <size android:height="15.0dip" android:width="48.0dip" />
+                    <size android:width="48.0dip" android:height="15.0dip" />
                     <solid android:color="@color/nd" />
                     <corners android:radius="10.0dip" />
                 </shape>
@@ -36,9 +35,9 @@
     </item>
     <item>
         <layer-list>
-            <item android:top="6.0dip" android:bottom="6.0dip">
+            <item android:bottom="6.0dip" android:top="6.0dip">
                 <shape android:shape="rectangle">
-                    <size android:height="15.0dip" android:width="48.0dip" />
+                    <size android:width="48.0dip" android:height="15.0dip" />
                     <solid android:color="@color/zw" />
                     <corners android:radius="10.0dip" />
                 </shape>

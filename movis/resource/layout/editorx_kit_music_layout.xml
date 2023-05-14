@@ -1,28 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/dt" android:layout_width="fill_parent" android:layout_height="190.0dip" android:paddingStart="15.0dip" android:paddingEnd="15.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="horizontal" android:id="@id/adt" android:background="@drawable/a6l" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="24.0dip" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toTopOf="apv">
-        <ImageView android:layout_gravity="center_vertical" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/xy" android:scaleType="centerCrop" android:layout_marginStart="14.0dip" />
-        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-            <com.videoai.aivpcore.xyui.MarqueeTextView android:textSize="14.0sp" android:textColor="@color/iv" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/i8" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zp" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="6.0dip" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="190.0dip"
+    android:background="@color/dt"
+    android:paddingStart="15.0dip"
+    android:paddingEnd="15.0dip">
+    <LinearLayout
+        android:id="@id/adt"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_marginTop="24.0dip"
+        android:background="@drawable/a6l"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintRight_toRightOf="apv"
+        app:layout_constraintTop_toTopOf="apv">
+        <ImageView
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="14.0dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/xy" />
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+            <com.videoai.aivpcore.xyui.MarqueeTextView
+                android:id="@id/i8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="6.0dip"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/zp"
+                android:textColor="@color/iv"
+                android:textSize="14.0sp" />
         </LinearLayout>
     </LinearLayout>
-    <LinearLayout android:orientation="horizontal" android:id="@id/ads" android:background="@drawable/a7x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="24.0dip" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toBottomOf="@id/adt">
-        <ImageView android:layout_gravity="center_vertical" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/xz" android:scaleType="centerCrop" android:layout_marginStart="14.0dip" />
-        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-            <com.videoai.aivpcore.xyui.MarqueeTextView android:textSize="14.0sp" android:textColor="@color/g4" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/i_" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="6.0dip" />
+    <LinearLayout
+        android:id="@id/ads"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_marginTop="24.0dip"
+        android:background="@drawable/a7x"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintRight_toRightOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/adt">
+        <ImageView
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="14.0dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/xz" />
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+            <com.videoai.aivpcore.xyui.MarqueeTextView
+                android:id="@id/i_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="6.0dip"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="@color/g4"
+                android:textSize="14.0sp" />
         </LinearLayout>
-        <View android:layout_gravity="center_vertical" android:background="@color/ey" android:layout_width="1.0dip" android:layout_height="16.0dip" />
-        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:layout_gravity="center_vertical" android:id="@id/i9" android:layout_width="60.0dip" android:layout_height="wrap_content" app:sitv_bottom_text="@string/a1r" app:sitv_top_drawable="@drawable/y4" />
-        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:layout_gravity="center_vertical" android:id="@id/ia" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_marginEnd="6.0dip" app:sitv_bottom_text="@string/a07" app:sitv_top_text="100" app:sitv_top_text_color="@drawable/a6f" app:sitv_top_type="bac" />
+        <View
+            android:layout_width="1.0dip"
+            android:layout_height="16.0dip"
+            android:layout_gravity="center_vertical"
+            android:background="@color/ey" />
+        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+            android:id="@id/i9"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:sitv_bottom_text="@string/a1r"
+            app:sitv_top_drawable="@drawable/y4" />
+        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+            android:id="@id/ia"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="6.0dip"
+            app:sitv_bottom_text="@string/a07"
+            app:sitv_top_text="100"
+            app:sitv_top_text_color="@drawable/a6f"
+            app:sitv_top_type="bac" />
     </LinearLayout>
-    <LinearLayout android:orientation="horizontal" android:id="@id/af_" android:background="@drawable/a7x" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="20.0dip" app:layout_constraintLeft_toLeftOf="apv" app:layout_constraintRight_toRightOf="apv" app:layout_constraintTop_toBottomOf="@id/ads">
-        <ImageView android:layout_gravity="center_vertical" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/y_" android:scaleType="centerCrop" android:layout_marginStart="14.0dip" />
-        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-            <TextView android:textSize="14.0sp" android:textColor="@color/g4" android:layout_gravity="center_vertical" android:id="@id/ape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a9m" android:layout_marginStart="6.0dip" />
+    <LinearLayout
+        android:id="@id/af_"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/a7x"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="apv"
+        app:layout_constraintRight_toRightOf="apv"
+        app:layout_constraintTop_toBottomOf="@id/ads">
+        <ImageView
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="14.0dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/y_" />
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@id/ape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="6.0dip"
+                android:text="@string/a9m"
+                android:textColor="@color/g4"
+                android:textSize="14.0sp" />
         </LinearLayout>
-        <View android:layout_gravity="center_vertical" android:background="@color/ey" android:layout_width="1.0dip" android:layout_height="16.0dip" />
-        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:layout_gravity="center_vertical" android:id="@id/apd" android:layout_width="60.0dip" android:layout_height="wrap_content" app:sitv_bottom_text="@string/aju" app:sitv_top_drawable="@drawable/a65" />
-        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView android:layout_gravity="center_vertical" android:id="@id/apf" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_marginEnd="6.0dip" app:sitv_bottom_text="@string/a07" app:sitv_top_text="100" app:sitv_top_text_color="@drawable/a6f" app:sitv_top_type="bac" />
+        <View
+            android:layout_width="1.0dip"
+            android:layout_height="16.0dip"
+            android:layout_gravity="center_vertical"
+            android:background="@color/ey" />
+        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+            android:id="@id/apd"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:sitv_bottom_text="@string/aju"
+            app:sitv_top_drawable="@drawable/a65" />
+        <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
+            android:id="@id/apf"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="6.0dip"
+            app:sitv_bottom_text="@string/a07"
+            app:sitv_top_text="100"
+            app:sitv_top_text_color="@drawable/a6f"
+            app:sitv_top_type="bac" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

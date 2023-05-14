@@ -1,26 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/av1" android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/afd" android:layout_width="fill_parent" android:layout_height="320.0dip" android:layout_below="@id/agj">
-        <RelativeLayout android:id="@id/afg" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <RelativeLayout android:id="@id/as2" android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
-                <SurfaceView android:id="@id/as5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-                <Button android:textSize="14.0sp" android:textColor="@color/zo" android:gravity="center" android:id="@id/m9" android:background="@drawable/v3" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginBottom="10.0dip" android:minWidth="50.0dip" android:text="@string/a7e" android:lines="1" android:singleLine="true" android:drawablePadding="5.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:drawableEnd="@drawable/ayk" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" style="?android:borderlessButtonStyle" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/av1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ag">
+    <RelativeLayout
+        android:id="@id/afd"
+        android:layout_width="fill_parent"
+        android:layout_height="320.0dip"
+        android:layout_below="@id/agj">
+        <RelativeLayout
+            android:id="@id/afg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <RelativeLayout
+                android:id="@id/as2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="@color/xz">
+                <SurfaceView
+                    android:id="@id/as5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+                <Button
+                    android:id="@id/m9"
+                    style="?android:borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10.0dip"
+                    android:background="@drawable/v3"
+                    android:drawableEnd="@drawable/ayk"
+                    android:drawablePadding="5.0dip"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:minWidth="50.0dip"
+                    android:paddingStart="10.0dip"
+                    android:paddingLeft="10.0dip"
+                    android:paddingEnd="10.0dip"
+                    android:paddingRight="10.0dip"
+                    android:singleLine="true"
+                    android:text="@string/a7e"
+                    android:textColor="@color/zo"
+                    android:textSize="14.0sp"
+                    android:visibility="invisible" />
             </RelativeLayout>
-            <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/ep" />
-            <RelativeLayout android:id="@id/bjl" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/as2" android:layout_alignParentStart="true">
-                <TextView android:textSize="15.0sp" android:textColor="@color/zo" android:gravity="center" android:background="@drawable/w2" android:layout_width="wrap_content" android:layout_height="23.0dip" android:minWidth="66.0dip" android:text="480P" android:drawablePadding="4.0dip" app:drawableEndCompat="@drawable/b4k" />
+            <include
+                layout="@layout/ep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+            <RelativeLayout
+                android:id="@id/bjl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/as2"
+                android:layout_alignParentStart="true"
+                android:padding="10.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="23.0dip"
+                    android:background="@drawable/w2"
+                    android:drawablePadding="4.0dip"
+                    android:gravity="center"
+                    android:minWidth="66.0dip"
+                    android:text="480P"
+                    android:textColor="@color/zo"
+                    android:textSize="15.0sp"
+                    app:drawableEndCompat="@drawable/b4k" />
             </RelativeLayout>
-            <RelativeLayout android:id="@id/bjk" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/as2" android:layout_alignParentEnd="true">
-                <TextView android:textSize="15.0sp" android:textColor="@color/zo" android:gravity="center" android:background="@drawable/w2" android:layout_width="wrap_content" android:layout_height="23.0dip" android:minWidth="66.0dip" android:text="15F/s" android:drawablePadding="4.0dip" app:drawableEndCompat="@drawable/b4k" />
+            <RelativeLayout
+                android:id="@id/bjk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/as2"
+                android:layout_alignParentEnd="true"
+                android:padding="10.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="23.0dip"
+                    android:background="@drawable/w2"
+                    android:drawablePadding="4.0dip"
+                    android:gravity="center"
+                    android:minWidth="66.0dip"
+                    android:text="15F/s"
+                    android:textColor="@color/zo"
+                    android:textSize="15.0sp"
+                    app:drawableEndCompat="@drawable/b4k" />
             </RelativeLayout>
         </RelativeLayout>
     </RelativeLayout>
-    <include android:id="@id/agj" layout="@layout/ap" />
-    <RelativeLayout android:background="@color/xz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/b1f" android:layout_below="@id/afd">
-        <RelativeLayout android:id="@id/av9" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+    <include
+        android:id="@id/agj"
+        layout="@layout/ap" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/b1f"
+        android:layout_below="@id/afd"
+        android:background="@color/xz">
+        <RelativeLayout
+            android:id="@id/av9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:visibility="visible">
             <include layout="@layout/it" />
         </RelativeLayout>
     </RelativeLayout>
-    <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/z1" android:textColor="@color/zo" android:gravity="center" android:id="@id/b1f" android:background="@drawable/dx" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:layout_marginBottom="@dimen/ul" android:text="@string/ag0" android:lines="1" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@id/b1f"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x9"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/tz"
+        android:layout_marginEnd="@dimen/tz"
+        android:layout_marginBottom="@dimen/ul"
+        android:background="@drawable/dx"
+        android:gravity="center"
+        android:lines="1"
+        android:singleLine="true"
+        android:text="@string/ag0"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z1"
+        android:visibility="visible" />
 </RelativeLayout>

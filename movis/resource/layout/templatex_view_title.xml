@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="?a4"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/a9u" android:background="@drawable/jf" android:layout_width="?a4" android:layout_height="?a4" android:src="@drawable/aj0" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerVertical="true" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/z1" android:textColor="@color/zo" android:id="@id/bb0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aip" android:layout_centerVertical="true" android:alpha="0.0" android:layout_toEndOf="@id/a9u" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/a96" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/tz" android:layout_alignParentEnd="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?a4">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/a9u"
+        android:layout_width="?a4"
+        android:layout_height="?a4"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/jf"
+        android:scaleType="centerInside"
+        android:src="@drawable/aj0" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/bb0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/a9u"
+        android:alpha="0.0"
+        android:text="@string/aip"
+        android:textColor="@color/zo"
+        android:textSize="@dimen/z1" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/a96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/tz" />
 </RelativeLayout>

@@ -1,29 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/ag" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/agd" android:background="@drawable/b4b" android:layout_width="fill_parent" android:layout_height="?a4">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/bps" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/asm" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_alignParentStart="true" />
-        <TextView android:textSize="18.0sp" android:textColor="@color/zo" android:gravity="start" android:id="@id/b_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alj" android:maxLines="1" android:layout_centerVertical="true" android:layout_toStartOf="@id/b0y" android:layout_toEndOf="@id/bps" />
-        <CheckBox android:id="@id/b0y" android:focusable="false" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" style="@style/h1" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ag">
+    <RelativeLayout
+        android:id="@id/agd"
+        android:layout_width="fill_parent"
+        android:layout_height="?a4"
+        android:background="@drawable/b4b">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/bps"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8.0dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/asm" />
+        <TextView
+            android:id="@id/b_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/b0y"
+            android:layout_toEndOf="@id/bps"
+            android:gravity="start"
+            android:maxLines="1"
+            android:text="@string/alj"
+            android:textColor="@color/zo"
+            android:textSize="18.0sp" />
+        <CheckBox
+            android:id="@id/b0y"
+            style="@style/h1"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10.0dip"
+            android:focusable="false" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/adu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/agd">
-        <RelativeLayout android:id="@id/azr" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_above="@id/l0" android:layout_centerInParent="true">
-                <androidx.appcompat.widget.AppCompatImageView android:id="@id/a5f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b2v" android:layout_centerInParent="true" />
+    <RelativeLayout
+        android:id="@id/adu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/agd">
+        <RelativeLayout
+            android:id="@id/azr"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/l0"
+                android:layout_centerInParent="true">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@id/a5f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/b2v" />
             </RelativeLayout>
-            <RelativeLayout android:id="@id/l0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
-                <Button android:textSize="16.0sp" android:textColor="@drawable/b17" android:gravity="center" android:id="@id/ld" android:background="@drawable/b16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/alk" />
-                <Button android:textSize="16.0sp" android:textColor="@drawable/b17" android:gravity="center" android:id="@id/kn" android:background="@drawable/b16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/alf" android:layout_below="@id/ld" />
+            <RelativeLayout
+                android:id="@id/l0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+                <Button
+                    android:id="@id/ld"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10.0dip"
+                    android:background="@drawable/b16"
+                    android:gravity="center"
+                    android:text="@string/alk"
+                    android:textColor="@drawable/b17"
+                    android:textSize="16.0sp" />
+                <Button
+                    android:id="@id/kn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ld"
+                    android:layout_marginTop="10.0dip"
+                    android:background="@drawable/b16"
+                    android:gravity="center"
+                    android:text="@string/alf"
+                    android:textColor="@drawable/b17"
+                    android:textSize="16.0sp" />
             </RelativeLayout>
         </RelativeLayout>
-        <RelativeLayout android:id="@id/sl" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/adq" android:background="@drawable/aur" android:layout_width="fill_parent" android:layout_height="?a4" android:maxLines="1">
-                <androidx.appcompat.widget.AppCompatImageView android:id="@id/h2" android:background="@drawable/jf" android:layout_width="?a4" android:layout_height="?a4" android:src="@drawable/aj0" android:scaleType="centerInside" />
-                <TextView android:textSize="15.0sp" android:textColor="@color/zo" android:id="@id/h3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AD" android:maxLines="1" android:layout_marginStart="9.0dip" />
+        <RelativeLayout
+            android:id="@id/sl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="visible">
+            <LinearLayout
+                android:id="@id/adq"
+                android:layout_width="fill_parent"
+                android:layout_height="?a4"
+                android:background="@drawable/aur"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@id/h2"
+                    android:layout_width="?a4"
+                    android:layout_height="?a4"
+                    android:background="@drawable/jf"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/aj0" />
+                <TextView
+                    android:id="@id/h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="9.0dip"
+                    android:maxLines="1"
+                    android:text="AD"
+                    android:textColor="@color/zo"
+                    android:textSize="15.0sp" />
             </LinearLayout>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@id/y4" android:background="@color/fx" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/adq" android:layout_centerHorizontal="true" />
-            <ListView android:id="@id/y5" android:focusable="true" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/ul" android:listSelector="@drawable/b4j" android:cacheColorHint="@color/xz" android:divider="@null" android:layout_above="@id/ll" android:layout_below="@id/y4" android:fastScrollEnabled="false" />
-            <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/z0" android:textColor="@color/zo" android:gravity="center" android:id="@id/ll" android:background="@drawable/dx" android:layout_width="fill_parent" android:layout_height="@dimen/x9" android:layout_marginBottom="@dimen/ul" android:text="@string/all" android:maxLines="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/tz" android:layout_marginEnd="@dimen/tz" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@id/y4"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_below="@id/adq"
+                android:layout_centerHorizontal="true"
+                android:background="@color/fx" />
+            <ListView
+                android:id="@id/y5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/ll"
+                android:layout_below="@id/y4"
+                android:layout_marginBottom="@dimen/ul"
+                android:cacheColorHint="@color/xz"
+                android:divider="@null"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="false"
+                android:focusable="true"
+                android:listSelector="@drawable/b4j" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@id/ll"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/x9"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/tz"
+                android:layout_marginEnd="@dimen/tz"
+                android:layout_marginBottom="@dimen/ul"
+                android:background="@drawable/dx"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/all"
+                android:textColor="@color/zo"
+                android:textSize="@dimen/z0" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>
