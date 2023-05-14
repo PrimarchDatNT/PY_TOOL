@@ -29,6 +29,7 @@ ResDIMEN = 'dimen'
 ResDRAWABLE = 'drawable'
 ResFONT = 'font'
 ResID = 'id'
+ResINTEGER = 'integer'
 ResMIPMAP = 'mipmap'
 ResPLURALS = 'plurals'
 ResLAYOUT = 'layout'
@@ -46,6 +47,7 @@ TYPE_ARRAY = [ResANIM,
               ResDIMEN,
               ResDRAWABLE,
               ResID,
+              ResINTEGER,
               ResMIPMAP,
               ResPLURALS,
               ResLAYOUT,
