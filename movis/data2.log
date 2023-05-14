@@ -1,26 +1,3 @@
-0x7f080000
-0x7f080001
-0x7f080002
-0x7f080003
-0x7f080004
-0x7f080005
-0x7f080006
-0x7f080007
-0x7f080008
-0x7f080009
-0x7f08000a
-0x7f08000b
-0x7f08000c
-0x7f08000d
-0x7f08000e
-0x7f08000f
-0x7f12023f
-0x7f120240
-0x7f120241
-0x7f15000a
-' name="([^"]*)"'
-
-
 drawable: e5 -> app_logo hexid: 0x7f0800b3
 C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/com.videomaker.movis/code/smali/com/a.smali
 ----------
