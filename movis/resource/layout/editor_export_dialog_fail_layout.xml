@@ -83,7 +83,7 @@
             android:textSize="18.0sp"
             app:autoSizeMaxTextSize="18.0dip"
             app:autoSizeMinTextSize="10.0dip"
-            app:autoSizeTextType="bjy" />
+            app:autoSizeTextType="uniform" />
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="22.0dip"
             android:layout_height="22.0dip"
@@ -108,6 +108,6 @@
             android:textSize="18.0sp"
             app:autoSizeMaxTextSize="18.0dip"
             app:autoSizeMinTextSize="10.0dip"
-            app:autoSizeTextType="bjy" />
+            app:autoSizeTextType="uniform" />
     </RelativeLayout>
 </RelativeLayout>

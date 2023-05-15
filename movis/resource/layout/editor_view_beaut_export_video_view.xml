@@ -69,7 +69,7 @@
             app:autoSizeMaxTextSize="24.0sp"
             app:autoSizeMinTextSize="18.0sp"
             app:autoSizeStepGranularity="1.0sp"
-            app:autoSizeTextType="bjy" />
+            app:autoSizeTextType="uniform" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
             app:autoSizeMaxTextSize="24.0sp"
             app:autoSizeMinTextSize="18.0sp"
             app:autoSizeStepGranularity="1.0sp"
-            app:autoSizeTextType="bjy" />
+            app:autoSizeTextType="uniform" />
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvTotalProgress"
             android:layout_width="52.0dip"

@@ -44,7 +44,7 @@
         app:autoSizeMaxTextSize="14.0sp"
         app:autoSizeMinTextSize="8.0sp"
         app:autoSizeStepGranularity="1.0sp"
-        app:autoSizeTextType="bjy"
+        app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="@id/contentLayout"
         app:layout_constraintEnd_toEndOf="@id/contentLayout"
         app:layout_constraintStart_toStartOf="@id/contentLayout"

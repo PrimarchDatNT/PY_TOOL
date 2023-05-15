@@ -20,7 +20,7 @@
         app:autoSizeMaxTextSize="14.0sp"
         app:autoSizeMinTextSize="9.0sp"
         app:autoSizeStepGranularity="1.0sp"
-        app:autoSizeTextType="bjy"
+        app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toTopOf="@id/imgLogo"
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent"

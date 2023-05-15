@@ -46,6 +46,6 @@
             android:text="@string/xiaoying_str_blur_background_title"
             android:textColor="@color/text_selector_tab"
             android:textSize="@dimen/sp10"
-            app:autoSizeTextType="bjy" />
+            app:autoSizeTextType="uniform" />
     </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
 </LinearLayout>

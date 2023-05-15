@@ -45,7 +45,7 @@
         android:lines="1"
         android:textColor="@color/white"
         app:autoSizeStepGranularity="1.0sp"
-        app:autoSizeTextType="bjy"
+        app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="@id/pmm_item_icon"
         app:layout_constraintStart_toStartOf="@id/pmm_item_icon"
         app:layout_constraintTop_toBottomOf="@id/pmm_item_icon" />

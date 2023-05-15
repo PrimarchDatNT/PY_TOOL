@@ -60,7 +60,7 @@
             android:text="@string/xiaoying_str_prj_export_exporting_tips_v8"
             android:textColor="@color/app_dcolor_text_1"
             android:textSize="@dimen/sp12"
-            app:autoSizeTextType="bjy" />
+            app:autoSizeTextType="uniform" />
     </LinearLayout>
     <com.videoapp.videomakermaster.ads.ExportBannerAdview
         android:id="@+id/ad_View"

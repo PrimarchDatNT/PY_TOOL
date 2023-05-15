@@ -33,6 +33,6 @@
             android:textColor="@color/color_8E8E93"
             app:autoSizeMaxTextSize="11.0sp"
             app:autoSizeMinTextSize="8.0sp"
-            app:autoSizeTextType="bjy" />
+            app:autoSizeTextType="uniform" />
     </RelativeLayout>
 </RelativeLayout>

@@ -21,5 +21,5 @@
         app:autoSizeMaxTextSize="12.0sp"
         app:autoSizeMinTextSize="6.0sp"
         app:autoSizeStepGranularity="1.0sp"
-        app:autoSizeTextType="bjy" />
+        app:autoSizeTextType="uniform" />
 </LinearLayout>

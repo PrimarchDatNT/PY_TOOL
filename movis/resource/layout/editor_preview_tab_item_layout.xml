@@ -23,5 +23,5 @@
         android:textColor="@color/color_8E8E93"
         app:autoSizeMaxTextSize="@dimen/editor_preview_tab_normal_textsize"
         app:autoSizeMinTextSize="@dimen/editor_preview_tab_tiny_textsize"
-        app:autoSizeTextType="bjy" />
+        app:autoSizeTextType="uniform" />
 </LinearLayout>
