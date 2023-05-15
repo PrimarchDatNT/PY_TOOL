@@ -14,7 +14,7 @@
             android:layout_width="?a4"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
-            android:background="?a5d"
+            android:background="?attr/selectableItemBackground"
             android:scaleType="centerInside"
             app:srcCompat="@drawable/ic_app_back" />
         <androidx.appcompat.widget.AppCompatTextView

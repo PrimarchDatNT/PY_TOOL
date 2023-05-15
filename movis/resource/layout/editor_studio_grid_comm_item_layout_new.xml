@@ -55,7 +55,7 @@
         android:layout_alignParentEnd="true"
         android:layout_gravity="center_vertical"
         android:adjustViewBounds="true"
-        android:background="?a5d"
+        android:background="?attr/selectableItemBackground"
         android:scaleType="centerInside"
         android:src="@drawable/editor_draft_item_operate_icon"
         autofit:layout_constraintBottom_toBottomOf="@id/studio_img_project_thumb"

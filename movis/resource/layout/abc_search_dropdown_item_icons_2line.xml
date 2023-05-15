@@ -19,7 +19,7 @@
         android:layout_height="48.0dip"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:background="?a5d"
+        android:background="?attr/selectableItemBackground"
         android:scaleType="centerInside"
         android:visibility="gone" />
     <ImageView

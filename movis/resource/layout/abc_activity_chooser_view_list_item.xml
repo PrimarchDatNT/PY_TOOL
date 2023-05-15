@@ -3,7 +3,7 @@
     android:id="@+id/list_item"
     android:layout_width="match_parent"
     android:layout_height="?la"
-    android:background="?a5d"
+    android:background="?attr/selectableItemBackground"
     android:minWidth="196.0dip"
     android:orientation="vertical"
     android:paddingLeft="16.0dip"

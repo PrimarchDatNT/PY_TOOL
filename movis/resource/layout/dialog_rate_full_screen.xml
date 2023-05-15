@@ -16,7 +16,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:adjustViewBounds="true"
-            android:background="?a5d"
+            android:background="?attr/selectableItemBackground"
             android:padding="14.0dip"
             android:src="@drawable/ic_goto_home"
             app:layout_constraintEnd_toEndOf="parrent"

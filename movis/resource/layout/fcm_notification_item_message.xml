@@ -7,7 +7,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?a5d"
+        android:background="?attr/selectableItemBackground"
         android:paddingTop="12.0dip"
         android:paddingBottom="12.0dip">
         <TextView
