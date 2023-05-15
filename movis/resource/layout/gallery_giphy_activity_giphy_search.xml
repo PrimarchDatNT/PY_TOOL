@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/veds_color_bg_black_1">
     <LinearLayout
-        android:id="@id/search_layout"
+        android:id="@+id/search_layout"
         android:layout_width="0.0dip"
         android:layout_height="32.0dip"
         android:layout_marginStart="16.0dip"
@@ -20,13 +20,13 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent">
         <ImageView
-            android:id="@id/iv_search"
+            android:id="@+id/iv_search"
             android:layout_width="12.0dip"
             android:layout_height="12.0dip"
             android:layout_gravity="center_vertical"
             android:src="@drawable/gallery_icon_search" />
         <EditText
-            android:id="@id/editview_search"
+            android:id="@+id/editview_search"
             style="@style/veds_latn_font_body_12"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -43,7 +43,7 @@
             android:textCursorDrawable="@drawable/gallery_giphy_search_cursor"
             android:textSize="12.0sp" />
         <ImageView
-            android:id="@id/iv_delete"
+            android:id="@+id/iv_delete"
             android:layout_width="22.0dip"
             android:layout_height="22.0dip"
             android:layout_gravity="center_vertical"
@@ -52,7 +52,7 @@
             android:visibility="gone" />
     </LinearLayout>
     <TextView
-        android:id="@id/tv_cancel"
+        android:id="@+id/tv_cancel"
         style="@style/veds_latn_font_button_14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -67,14 +67,14 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintTop_toTopOf="@id/search_layout" />
     <View
-        android:id="@id/v_divide_line"
+        android:id="@+id/v_divide_line"
         android:layout_width="match_parent"
         android:layout_height="0.5dip"
         android:layout_marginTop="6.0dip"
         android:background="@color/veds_color_bg_dividing_60"
         app:layout_constraintTop_toBottomOf="@id/search_layout" />
     <TextView
-        android:id="@id/tv_history"
+        android:id="@+id/tv_history"
         style="@style/veds_latn_font_subtitle_12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -87,7 +87,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/v_divide_line" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/recyclerview_history"
+        android:id="@+id/recyclerview_history"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8.0dip"
@@ -98,7 +98,7 @@
         app:layoutManager="com.google.android.flexbox.FlexboxLayoutManager"
         app:layout_constraintTop_toBottomOf="@id/tv_history" />
     <TextView
-        android:id="@id/tv_trending"
+        android:id="@+id/tv_trending"
         style="@style/veds_latn_font_subtitle_12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/recyclerview_history" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/recyclerview_trending"
+        android:id="@+id/recyclerview_trending"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8.0dip"
@@ -122,7 +122,7 @@
         app:layoutManager="com.google.android.flexbox.FlexboxLayoutManager"
         app:layout_constraintTop_toBottomOf="@id/tv_trending" />
     <FrameLayout
-        android:id="@id/fragment_container"
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_marginTop="16.0dip"

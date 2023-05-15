@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/imgTipsLoading"
+        android:id="@+id/imgTipsLoading"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:background="@color/color_f2f2f2"
@@ -14,7 +14,7 @@
         app:layout_constraintTop_toTopOf="@id/imgTips"
         app:roundedCornerRadius="8.0dip" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/imgLoading"
+        android:id="@+id/imgLoading"
         android:layout_width="44.0dip"
         android:layout_height="44.0dip"
         android:src="@drawable/editor_icon_export_tips_loading"
@@ -23,7 +23,7 @@
         app:layout_constraintStart_toStartOf="@id/imgTips"
         app:layout_constraintTop_toTopOf="@id/imgTips" />
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/imgTips"
+        android:id="@+id/imgTips"
         android:layout_width="0.0dip"
         android:layout_height="118.0dip"
         android:layout_marginLeft="15.0dip"
@@ -37,7 +37,7 @@
         app:layout_constraintVertical_chainStyle="apo"
         app:roundedCornerRadius="8.0dip" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvTips"
+        android:id="@+id/tvTips"
         android:layout_width="0.0dip"
         android:layout_height="18.0dip"
         android:layout_marginLeft="12.0dip"
@@ -54,7 +54,7 @@
         app:layout_constraintEnd_toEndOf="@id/imgTips"
         app:layout_constraintStart_toStartOf="@id/imgTips" />
     <com.videoai.aivpcore.xyui.RoundedTextView
-        android:id="@id/btnMoreLoading"
+        android:id="@+id/btnMoreLoading"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         app:VS_CornerRadius="16.0dip"
@@ -64,7 +64,7 @@
         app:layout_constraintStart_toStartOf="@id/btnMore"
         app:layout_constraintTop_toTopOf="@id/btnMore" />
     <com.videoai.aivpcore.xyui.RoundedTextView
-        android:id="@id/btnMore"
+        android:id="@+id/btnMore"
         android:layout_width="wrap_content"
         android:layout_height="32.0dip"
         android:layout_marginTop="15.0dip"

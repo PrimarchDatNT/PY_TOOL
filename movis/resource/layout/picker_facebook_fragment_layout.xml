@@ -4,24 +4,24 @@
     android:layout_height="match_parent"
     android:background="@android:color/black">
     <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView
-        android:id="@id/folder_recycler_view"
+        android:id="@+id/folder_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:overScrollMode="never"
         android:scrollbars="none" />
     <RelativeLayout
-        android:id="@id/layout_media"
+        android:id="@+id/layout_media"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone">
         <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView
-            android:id="@id/media_recycler_view"
+            android:id="@+id/media_recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:overScrollMode="never"
             android:scrollbars="none" />
         <ImageView
-            android:id="@id/folder_back_icon"
+            android:id="@+id/folder_back_icon"
             android:layout_width="60.0dip"
             android:layout_height="60.0dip"
             android:layout_alignParentEnd="true"
@@ -29,20 +29,20 @@
             android:src="@drawable/picker_folder_back_icon" />
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/layout_picker_sns_login"
+        android:id="@+id/layout_picker_sns_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical">
         <TextView
-            android:id="@id/tv_picker_sns_login_desc"
+            android:id="@+id/tv_picker_sns_login_desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingBottom="18.0dip"
             android:textColor="@color/white_p50"
             android:textSize="14.0sp" />
         <RelativeLayout
-            android:id="@id/picker_sns_facebook"
+            android:id="@+id/picker_sns_facebook"
             android:layout_width="335.0dip"
             android:layout_height="50.0dip">
             <RelativeLayout
@@ -50,13 +50,13 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true">
                 <ImageView
-                    android:id="@id/iv_picker_sns"
+                    android:id="@+id/iv_picker_sns"
                     android:layout_width="25.0dip"
                     android:layout_height="25.0dip"
                     android:layout_centerVertical="true"
                     android:scaleType="center" />
                 <TextView
-                    android:id="@id/sns_login_text"
+                    android:id="@+id/sns_login_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
             </RelativeLayout>

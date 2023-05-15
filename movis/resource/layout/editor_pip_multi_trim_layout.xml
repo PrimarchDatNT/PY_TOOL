@@ -4,7 +4,7 @@
     android:layout_height="76.0dip"
     android:background="@color/transparent">
     <com.videoai.aivpcore.editor.videotrim.ui.VePIPGallery
-        android:id="@id/gallery_timeline"
+        android:id="@+id/gallery_timeline"
         android:layout_width="match_parent"
         android:layout_height="32.0dip"
         android:layout_marginTop="5.0dip"
@@ -14,7 +14,7 @@
         android:spacing="0.0dip"
         android:unselectedAlpha="1.0" />
     <com.videoai.aivpcore.editor.videotrim.ui.VePIPGallery
-        android:id="@id/xiaoying_ve_pip_gallery_timeline"
+        android:id="@+id/xiaoying_ve_pip_gallery_timeline"
         android:layout_width="match_parent"
         android:layout_height="32.0dip"
         android:layout_below="@id/gallery_timeline"
@@ -30,7 +30,7 @@
         android:layout_below="@id/gallery_timeline"
         android:background="@color/color_808080" />
     <com.videoai.aivpcore.editor.pip.TrimMaskView xmlns:trimmaskview="http://schemas.android.com/apk/res-auto"
-        android:id="@id/xiaoying_ve_trimmaskview"
+        android:id="@+id/xiaoying_ve_trimmaskview"
         android:layout_width="match_parent"
         android:layout_height="76.0dip"
         android:visibility="visible"

@@ -9,12 +9,12 @@
     app:cardBackgroundColor="@color/black"
     app:cardCornerRadius="12.0dip">
     <com.videoai.aivpcore.common.ui.banner.LoopViewPager
-        android:id="@id/vpLoopImage"
+        android:id="@+id/vpLoopImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
     <TextView
-        android:id="@id/tvIndicator"
+        android:id="@+id/tvIndicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"

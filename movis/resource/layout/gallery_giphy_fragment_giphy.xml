@@ -5,12 +5,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <FrameLayout
-        android:id="@id/fl_tab_container"
+        android:id="@+id/fl_tab_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_scrollFlags="azw|wa" />
     <com.videoedit.widgetlib.viewpager.NoScrollViewPager
-        android:id="@id/view_pager"
+        android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="12.0dip"

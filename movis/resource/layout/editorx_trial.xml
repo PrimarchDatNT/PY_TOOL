@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
-        android:id="@id/ll_trial_title"
+        android:id="@+id/ll_trial_title"
         android:layout_width="match_parent"
         android:layout_height="36.0dip"
         android:layout_marginTop="56.0dip"
@@ -24,7 +24,7 @@
             android:src="@drawable/editorx_vip_trial_arrow" />
     </LinearLayout>
     <TextView
-        android:id="@id/tv_trial_try"
+        android:id="@+id/tv_trial_try"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingStart="6.0dip"

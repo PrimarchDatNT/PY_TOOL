@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/relativelayout_storyboard_panel"
+    android:id="@+id/relativelayout_storyboard_panel"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_262626">
     <RelativeLayout
-        android:id="@id/layout_preview_bg_wrapper"
+        android:id="@+id/layout_preview_bg_wrapper"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/xiaoying_ve_pip_bottom_hide_view"
         android:layout_below="@id/btns_layout"
         android:background="@color/transparent">
         <RelativeLayout
-            android:id="@id/layout_preview_background"
+            android:id="@+id/layout_preview_background"
             android:layout_width="match_parent"
             android:layout_height="320.0dip"
             android:layout_centerInParent="true"
             android:background="@color/transparent"
             android:visibility="visible">
             <RelativeLayout
-                android:id="@id/preview_layout"
+                android:id="@+id/preview_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerInParent="true"
                 android:background="@color/transparent">
                 <SurfaceView
-                    android:id="@id/previewview"
+                    android:id="@+id/previewview"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/preview_layout_fake"
+                android:id="@+id/preview_layout_fake"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignStart="@id/preview_layout"
@@ -41,7 +41,7 @@
                 android:layout_alignBottom="@id/preview_layout"
                 android:background="@color/transparent">
                 <com.videoai.aivpcore.editor.pip.HighLightView
-                    android:id="@id/xiaoying_pip_highlightview_videoarea"
+                    android:id="@+id/xiaoying_pip_highlightview_videoarea"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/transparent"
@@ -50,13 +50,13 @@
         </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/btns_layout"
+        android:id="@+id/btns_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/v4_xiaoying_com_top_panel_height"
         android:layout_alignParentTop="true"
         android:visibility="visible">
         <TextView
-            android:id="@id/tv_main_panel_mode_title"
+            android:id="@+id/tv_main_panel_mode_title"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/panel_top_height"
             android:layout_centerVertical="true"
@@ -69,7 +69,7 @@
             android:textColor="@color/white"
             android:textSize="@dimen/v2_com_top_bar_title_text_size" />
         <ImageView
-            android:id="@id/btn_import_finish"
+            android:id="@+id/btn_import_finish"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
@@ -81,7 +81,7 @@
             android:src="@drawable/v4_xiaoying_com_btn_next_selector"
             android:visibility="visible" />
         <ImageButton
-            android:id="@id/xiaoying_ve_preview_layout_captrue"
+            android:id="@+id/xiaoying_ve_preview_layout_captrue"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
@@ -94,7 +94,7 @@
             android:src="@drawable/v4_xiaoying_com_btn_ok_selector"
             android:visibility="visible" />
         <ImageView
-            android:id="@id/xiaoying_com_btn_left"
+            android:id="@+id/xiaoying_com_btn_left"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentStart="true"
@@ -106,13 +106,13 @@
             android:src="@drawable/v4_xiaoying_com_btn_back_selector" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/btns_layout2"
+        android:id="@+id/btns_layout2"
         android:layout_width="match_parent"
         android:layout_height="@dimen/v4_xiaoying_com_top_panel_height"
         android:layout_alignParentTop="true"
         android:visibility="gone">
         <TextView
-            android:id="@id/textview_title"
+            android:id="@+id/textview_title"
             android:layout_width="150.0dip"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
@@ -124,7 +124,7 @@
             android:textColor="@color/white"
             android:textSize="@dimen/v2_com_top_bar_title_text_size" />
         <ImageButton
-            android:id="@id/btn_text_ok"
+            android:id="@+id/btn_text_ok"
             android:layout_width="32.0dip"
             android:layout_height="32.0dip"
             android:layout_alignParentEnd="true"
@@ -136,14 +136,14 @@
             android:scaleType="fitXY" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/layout_time_show"
+        android:id="@+id/layout_time_show"
         android:layout_width="match_parent"
         android:layout_height="20.0dip"
         android:layout_above="@id/relativelayout_trimgallery_content_area"
         android:layout_marginBottom="5.0dip"
         android:visibility="invisible">
         <TextView
-            android:id="@id/txtview_trimed_duration"
+            android:id="@+id/txtview_trimed_duration"
             android:layout_width="50.0dip"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
@@ -153,16 +153,16 @@
             android:textSize="@dimen/v2_preview_time_textsize" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/relativelayout_trimgallery_content_area"
+        android:id="@+id/relativelayout_trimgallery_content_area"
         android:layout_width="match_parent"
         android:layout_height="101.0dip"
         android:layout_above="@id/xiaoying_ve_pip_bottom_view"
         android:visibility="gone">
         <include
-            android:id="@id/xiaoying_ve_pip_layout_multi_trim"
+            android:id="@+id/xiaoying_ve_pip_layout_multi_trim"
             layout="@layout/editor_pip_multi_trim_layout" />
         <TextView
-            android:id="@id/xiaoying_ve_txtview_pip_trim_tip"
+            android:id="@+id/xiaoying_ve_txtview_pip_trim_tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/xiaoying_ve_pip_layout_multi_trim"
@@ -174,18 +174,18 @@
             android:visibility="gone" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/xiaoying_ve_pip_bottom_hide_view"
+        android:id="@+id/xiaoying_ve_pip_bottom_hide_view"
         android:layout_width="match_parent"
         android:layout_height="101.0dip"
         android:layout_above="@id/xiaoying_ve_pip_bottom_view"
         android:visibility="visible">
         <RelativeLayout
-            android:id="@id/relativelayout_seekbar"
+            android:id="@+id/relativelayout_seekbar"
             android:layout_width="match_parent"
             android:layout_height="40.0dip"
             android:layoutDirection="ltr">
             <TextView
-                android:id="@id/txtview_cur_time"
+                android:id="@+id/txtview_cur_time"
                 android:layout_width="50.0dip"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -199,7 +199,7 @@
                 android:textColor="@color/color_5f6366"
                 android:textSize="@dimen/v2_preview_time_textsize" />
             <SeekBar
-                android:id="@id/seekbar_simple_edit"
+                android:id="@+id/seekbar_simple_edit"
                 android:layout_width="match_parent"
                 android:layout_height="18.0dip"
                 android:layout_centerHorizontal="true"
@@ -221,7 +221,7 @@
                 android:thumbOffset="6.5999756dip"
                 android:visibility="visible" />
             <TextView
-                android:id="@id/txtview_duration"
+                android:id="@+id/txtview_duration"
                 android:layout_width="50.0dip"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -236,20 +236,20 @@
                 android:textSize="@dimen/v2_preview_time_textsize" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/relativelayout_tool_list_content"
+            android:id="@+id/relativelayout_tool_list_content"
             android:layout_width="match_parent"
             android:layout_height="60.0dip"
             android:layout_alignParentBottom="true"
             android:gravity="center_vertical">
             <HorizontalScrollView
-                android:id="@id/hscrollview_tools"
+                android:id="@+id/hscrollview_tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerVertical="true"
                 android:scrollbarStyle="insideOverlay"
                 android:scrollbars="none">
                 <LinearLayout
-                    android:id="@id/linearlayout_tools"
+                    android:id="@+id/linearlayout_tools"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -259,13 +259,13 @@
         </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/xiaoying_ve_pip_bottom_view"
+        android:id="@+id/xiaoying_ve_pip_bottom_view"
         android:layout_width="match_parent"
         android:layout_height="72.0dip"
         android:layout_alignParentBottom="true"
         android:visibility="visible">
         <RelativeLayout
-            android:id="@id/xiaoying_ad_edit_layout"
+            android:id="@+id/xiaoying_ad_edit_layout"
             android:layout_width="match_parent"
             android:layout_height="72.0dip"
             android:layout_alignParentBottom="true"
@@ -274,7 +274,7 @@
             android:layout_marginEnd="8.299988dip"
             android:layout_marginRight="8.299988dip">
             <ImageButton
-                android:id="@id/xiaoying_ve_pip_btn_exchagne"
+                android:id="@+id/xiaoying_ve_pip_btn_exchagne"
                 android:layout_width="50.0dip"
                 android:layout_height="50.0dip"
                 android:layout_alignParentStart="true"
@@ -287,7 +287,7 @@
                 android:src="@drawable/v4_xiaoying_ve_pip_edit_exchange_btn_selector"
                 android:visibility="visible" />
             <ImageButton
-                android:id="@id/btn_play"
+                android:id="@+id/btn_play"
                 android:layout_width="58.0dip"
                 android:layout_height="58.0dip"
                 android:layout_centerInParent="true"
@@ -296,7 +296,7 @@
                 android:src="@drawable/v4_xiaoying_ve_pip_edit_play_btn_selector"
                 android:visibility="visible" />
             <ImageButton
-                android:id="@id/btn_pause"
+                android:id="@+id/btn_pause"
                 android:layout_width="58.0dip"
                 android:layout_height="58.0dip"
                 android:layout_centerInParent="true"
@@ -305,7 +305,7 @@
                 android:src="@drawable/v4_xiaoying_ve_pip_edit_pause_btn_selector"
                 android:visibility="invisible" />
             <ImageButton
-                android:id="@id/xiaoying_ve_pip_btn_trim"
+                android:id="@+id/xiaoying_ve_pip_btn_trim"
                 android:layout_width="50.0dip"
                 android:layout_height="50.0dip"
                 android:layout_alignParentEnd="true"
@@ -318,7 +318,7 @@
                 android:src="@drawable/v4_xiaoying_ve_pip_edit_trim_btn_selector"
                 android:visibility="visible" />
             <ImageButton
-                android:id="@id/xiaoying_btn_hide"
+                android:id="@+id/xiaoying_btn_hide"
                 android:layout_width="50.0dip"
                 android:layout_height="50.0dip"
                 android:layout_alignStart="@id/xiaoying_ve_pip_btn_trim"

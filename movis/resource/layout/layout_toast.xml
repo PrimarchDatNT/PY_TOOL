@@ -10,12 +10,12 @@
     android:paddingRight="28.0dip"
     android:paddingBottom="12.0dip">
     <ImageView
-        android:id="@id/image_toast_icon"
+        android:id="@+id/image_toast_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/xyui_toast_success_icon" />
     <TextView
-        android:id="@id/text_toast"
+        android:id="@+id/text_toast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6.0dip"

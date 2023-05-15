@@ -20,7 +20,7 @@
             app:lottie_loop="true"
             app:lottie_rawRes="@raw/gallery_normal_loading" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tvTitle"
+            android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawablePadding="@dimen/px6"
@@ -30,7 +30,7 @@
             android:textSize="@dimen/sp14" />
     </LinearLayout>
     <ProgressBar
-        android:id="@id/progressBar"
+        android:id="@+id/progressBar"
         style="?android:progressBarStyleHorizontal"
         android:layout_width="@dimen/px230"
         android:layout_height="@dimen/px230"
@@ -43,7 +43,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/btnCancel"
+        android:id="@+id/btnCancel"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:adjustViewBounds="true"
@@ -53,7 +53,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvHint"
+        android:id="@+id/tvHint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/px32"

@@ -6,7 +6,7 @@
     android:background="@drawable/bg_app_setting_dialog"
     android:orientation="vertical">
     <FrameLayout
-        android:id="@id/ll_delete_video"
+        android:id="@+id/ll_delete_video"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px48"
         android:background="@drawable/btn_dcolor_ripple">
@@ -28,7 +28,7 @@
         android:layout_height="@dimen/px1"
         android:layout_gravity="center" />
     <FrameLayout
-        android:id="@id/ll_share_video"
+        android:id="@+id/ll_share_video"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px48"
         android:background="@drawable/btn_dcolor_ripple">

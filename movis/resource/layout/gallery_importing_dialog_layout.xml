@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center">
     <View
-        android:id="@id/dialog_bg"
+        android:id="@+id/dialog_bg"
         android:layout_width="match_parent"
         android:layout_height="214.0dip"
         android:layout_marginStart="30.0dip"
@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@id/progressBar"
+        android:id="@+id/progressBar"
         android:layout_width="76.0dip"
         android:layout_height="76.0dip"
         android:layout_gravity="center"
@@ -28,7 +28,7 @@
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/gallery_normal_loading" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_importing_des"
+        android:id="@+id/tv_importing_des"
         style="@style/veds_latn_font_body_14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

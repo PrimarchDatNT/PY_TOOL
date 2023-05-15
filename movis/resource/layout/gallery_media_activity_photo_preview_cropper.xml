@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/app_dcolor_background">
     <View
-        android:id="@id/pp_title_bg"
+        android:id="@+id/pp_title_bg"
         android:layout_width="match_parent"
         android:layout_height="?a4"
         android:background="@color/app_dcolor_bg_1"
@@ -13,7 +13,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/pp_title_text"
+        android:id="@+id/pp_title_text"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:adjustViewBounds="true"
@@ -34,7 +34,7 @@
         app:layout_constraintStart_toEndOf="@id/pp_title_text"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/pp_btn_done"
+        android:id="@+id/pp_btn_done"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:adjustViewBounds="true"
@@ -46,7 +46,7 @@
         app:layout_constraintEnd_toEndOf="@id/pp_bottom_bg"
         app:layout_constraintTop_toTopOf="parrent" />
     <com.videoedit.gallery.widget.photo.PhotoView
-        android:id="@id/pp_img"
+        android:id="@+id/pp_img"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         app:layout_constraintBottom_toTopOf="@id/llBottom"
@@ -55,7 +55,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/pp_title_bg" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/pp_water_img"
+        android:id="@+id/pp_water_img"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:background="@drawable/gallery_eeyeful_water_icon"
@@ -65,13 +65,13 @@
         app:layout_constraintStart_toStartOf="@id/pp_img"
         app:layout_constraintTop_toTopOf="@id/pp_img" />
     <View
-        android:id="@id/pp_bottom_bg"
+        android:id="@+id/pp_bottom_bg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <LinearLayout
-        android:id="@id/llBottom"
+        android:id="@+id/llBottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/app_dcolor_bg_1"
@@ -81,7 +81,7 @@
         android:paddingBottom="@dimen/px16"
         app:layout_constraintBottom_toBottomOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/pp_btn_rotate"
+            android:id="@+id/pp_btn_rotate"
             android:layout_width="?a4"
             android:layout_height="?a4"
             android:background="@drawable/btn_dcolor_ripple"

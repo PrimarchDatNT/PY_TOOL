@@ -3,14 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
-        android:id="@id/layout_tab_root"
+        android:id="@+id/layout_tab_root"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_toStartOf="@id/draft_manager_ll"
         android:layout_toLeftOf="@id/draft_manager_ll"
         android:orientation="horizontal" />
     <LinearLayout
-        android:id="@id/draft_manager_ll"
+        android:id="@+id/draft_manager_ll"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
@@ -21,7 +21,7 @@
         android:orientation="horizontal"
         android:visibility="gone">
         <TextView
-            android:id="@id/user_draft_manager"
+            android:id="@+id/user_draft_manager"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawablePadding="4.0dip"
@@ -30,7 +30,7 @@
             android:textColor="@color/color_727280"
             android:textSize="14.0sp" />
         <TextView
-            android:id="@id/user_draft_manager_cancel"
+            android:id="@+id/user_draft_manager_cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"

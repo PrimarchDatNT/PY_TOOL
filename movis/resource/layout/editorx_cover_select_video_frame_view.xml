@@ -12,12 +12,12 @@
     app:layout_constraintStart_toStartOf="parrent"
     app:layout_constraintVertical_bias="0.0">
     <FrameLayout
-        android:id="@id/cover_player_container"
+        android:id="@+id/cover_player_container"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_weight="1.0" />
     <TextView
-        android:id="@id/cover_hint_text"
+        android:id="@+id/cover_hint_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -27,7 +27,7 @@
         android:textColor="@color/white"
         android:textSize="@dimen/sp12" />
     <FrameLayout
-        android:id="@id/cover_timeline_container"
+        android:id="@+id/cover_timeline_container"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px100" />
 </LinearLayout>

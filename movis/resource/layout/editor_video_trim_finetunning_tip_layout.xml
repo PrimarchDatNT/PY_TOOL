@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/xiaoying_relativelayout_finetunning_help"
+    android:id="@+id/xiaoying_relativelayout_finetunning_help"
     android:layout_width="match_parent"
     android:layout_height="30.0dip"
     android:background="@color/color_ff774e_p80">
     <TextView
-        android:id="@id/xiaoying_txtview_help_tip"
+        android:id="@+id/xiaoying_txtview_help_tip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -19,7 +19,7 @@
         android:textColor="@color/white"
         android:textSize="14.0sp" />
     <Button
-        android:id="@id/xiaoying_btn_hide"
+        android:id="@+id/xiaoying_btn_hide"
         android:layout_width="30.0dip"
         android:layout_height="30.0dip"
         android:layout_alignParentEnd="true"

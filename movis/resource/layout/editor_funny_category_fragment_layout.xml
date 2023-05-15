@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-        android:id="@id/funny_template_refresh"
+        android:id="@+id/funny_template_refresh"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/funny_template_split_line">
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/rec_template_info"
+            android:id="@+id/rec_template_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/color_f6f6f6"
@@ -18,7 +18,7 @@
             android:paddingRight="5.0dip" />
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
     <LinearLayout
-        android:id="@id/empty_layout"
+        android:id="@+id/empty_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
@@ -37,7 +37,7 @@
             android:textColor="@color/color_8E8E93"
             android:textSize="14.0sp" />
         <TextView
-            android:id="@id/btn_retry"
+            android:id="@+id/btn_retry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12.0dip"

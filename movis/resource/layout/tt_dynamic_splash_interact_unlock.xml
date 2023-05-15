@@ -3,13 +3,13 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/tt_splash_unlock_btn"
+        android:id="@+id/tt_splash_unlock_btn"
         android:layout_width="247.0dip"
         android:layout_height="56.0dip"
         android:layout_centerHorizontal="true"
         android:background="@drawable/tt_splash_unlock_btn_bg">
         <ImageView
-            android:id="@id/tt_splash_unlock_go"
+            android:id="@+id/tt_splash_unlock_go"
             android:layout_width="48.0dip"
             android:layout_height="48.0dip"
             android:layout_alignParentStart="true"
@@ -17,7 +17,7 @@
             android:layout_marginStart="4.0dip"
             android:src="@drawable/tt_splash_unlock_image_go" />
         <com.bytedance.sdk.component.adexpress.widget.FlowLightView
-            android:id="@id/tt_splash_arrow_group"
+            android:id="@+id/tt_splash_arrow_group"
             android:layout_width="match_parent"
             android:layout_height="24.0dip"
             android:layout_centerVertical="true"
@@ -26,7 +26,7 @@
             android:layout_toStartOf="@id/tt_splash_unlock_empty"
             android:layout_toEndOf="@id/tt_splash_unlock_go" />
         <ImageView
-            android:id="@id/tt_splash_unlock_empty"
+            android:id="@+id/tt_splash_unlock_empty"
             android:layout_width="48.0dip"
             android:layout_height="48.0dip"
             android:layout_alignParentEnd="true"
@@ -36,7 +36,7 @@
             android:src="@drawable/tt_splash_unlock_icon_empty" />
     </RelativeLayout>
     <TextView
-        android:id="@id/tt_splash_unlock_text"
+        android:id="@+id/tt_splash_unlock_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tt_splash_unlock_btn"

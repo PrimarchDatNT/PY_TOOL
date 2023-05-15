@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <ScrollView
-            android:id="@id/md_contentScrollView"
+            android:id="@+id/md_contentScrollView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
@@ -19,7 +19,7 @@
             android:paddingTop="@dimen/md_content_padding_top"
             android:paddingBottom="@dimen/md_content_padding_bottom">
             <TextView
-                android:id="@id/md_content"
+                android:id="@+id/md_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/md_content_padding_top"
@@ -28,7 +28,7 @@
                 android:textSize="@dimen/md_content_textsize" />
         </ScrollView>
         <CheckBox
-            android:id="@id/md_promptCheckbox"
+            android:id="@+id/md_promptCheckbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="start"

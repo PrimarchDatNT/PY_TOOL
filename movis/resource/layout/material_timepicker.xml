@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/material_timepicker_container"
+    android:id="@+id/material_timepicker_container"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <include
-        android:id="@id/material_clock_display"
+        android:id="@+id/material_clock_display"
         layout="@layout/material_clock_display" />
     <include
-        android:id="@id/material_clock_period_toggle"
+        android:id="@+id/material_clock_period_toggle"
         layout="@layout/material_clock_period_toggle" />
     <com.google.android.material.timepicker.ClockFaceView
-        android:id="@id/material_clock_face"
+        android:id="@+id/material_clock_face"
         android:layout_width="@dimen/material_clock_size"
         android:layout_height="@dimen/material_clock_size"
         android:layout_gravity="center"

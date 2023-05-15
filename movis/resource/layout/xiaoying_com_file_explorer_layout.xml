@@ -4,12 +4,12 @@
     android:layout_height="match_parent"
     android:background="@color/app_dcolor_background">
     <RelativeLayout
-        android:id="@id/layout_title"
+        android:id="@+id/layout_title"
         android:layout_width="match_parent"
         android:layout_height="?a4"
         android:background="@drawable/xiaoying_com_title_bar_bg">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/xiaoying_com_btn_left"
+            android:id="@+id/xiaoying_com_btn_left"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentStart="true"
@@ -18,7 +18,7 @@
             android:scaleType="centerInside"
             android:src="@drawable/v4_xiaoying_cam_btn_cam_cancel_selector" />
         <TextView
-            android:id="@id/title"
+            android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -30,7 +30,7 @@
             android:textColor="@color/white"
             android:textSize="18.0sp" />
         <CheckBox
-            android:id="@id/select_all"
+            android:id="@+id/select_all"
             style="@style/Explorer_File_All_Style"
             android:layout_width="30.0dip"
             android:layout_height="30.0dip"
@@ -40,12 +40,12 @@
             android:focusable="false" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/layout_body"
+        android:id="@+id/layout_body"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/layout_title">
         <RelativeLayout
-            android:id="@id/scan_type_select_layout"
+            android:id="@+id/scan_type_select_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone">
@@ -55,19 +55,19 @@
                 android:layout_above="@id/btn_layout"
                 android:layout_centerInParent="true">
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@id/img_icon"
+                    android:id="@+id/img_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:src="@drawable/xiaoying_com_music_icon_big" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/btn_layout"
+                android:id="@+id/btn_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true">
                 <Button
-                    android:id="@id/btn_qucik_scan"
+                    android:id="@+id/btn_qucik_scan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10.0dip"
@@ -77,7 +77,7 @@
                     android:textColor="@drawable/xiaoying_com_btn_scan_big_text_color_selector"
                     android:textSize="16.0sp" />
                 <Button
-                    android:id="@id/btn_custom_scan"
+                    android:id="@+id/btn_custom_scan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/btn_qucik_scan"
@@ -90,12 +90,12 @@
             </RelativeLayout>
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/custom_scan_layout"
+            android:id="@+id/custom_scan_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="visible">
             <LinearLayout
-                android:id="@id/layout_back_item"
+                android:id="@+id/layout_back_item"
                 android:layout_width="match_parent"
                 android:layout_height="?a4"
                 android:background="@drawable/v4_xiaoying_com_file_explorer_back_layout_bg_selector"
@@ -103,14 +103,14 @@
                 android:maxLines="1"
                 android:orientation="horizontal">
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@id/back_file_icon"
+                    android:id="@+id/back_file_icon"
                     android:layout_width="?a4"
                     android:layout_height="?a4"
                     android:background="@drawable/btn_dcolor_ripple"
                     android:scaleType="centerInside"
                     android:src="@drawable/ic_back" />
                 <TextView
-                    android:id="@id/back_file_name"
+                    android:id="@+id/back_file_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="9.0dip"
@@ -120,14 +120,14 @@
                     android:textSize="15.0sp" />
             </LinearLayout>
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/file_item_divider"
+                android:id="@+id/file_item_divider"
                 android:layout_width="match_parent"
                 android:layout_height="1.0dip"
                 android:layout_below="@id/layout_back_item"
                 android:layout_centerHorizontal="true"
                 android:background="@color/color_707070_p40" />
             <ListView
-                android:id="@id/file_listview"
+                android:id="@+id/file_listview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_above="@id/btn_scan"
@@ -140,7 +140,7 @@
                 android:focusable="true"
                 android:listSelector="@drawable/xiaoying_gallery_list_item_bg_selector" />
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@id/btn_scan"
+                android:id="@+id/btn_scan"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/px42"
                 android:layout_alignParentBottom="true"

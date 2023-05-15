@@ -6,7 +6,7 @@
     android:background="@color/app_dcolor_background"
     android:tag="layout/templatex_act_effect_detail_0">
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/btnBack"
+        android:id="@+id/btnBack"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:background="@drawable/btn_dcolor_ripple"
@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvTitle"
+        android:id="@+id/tvTitle"
         android:layout_width="0.0dip"
         android:layout_height="?a4"
         android:gravity="start|center"
@@ -28,14 +28,14 @@
         app:layout_constraintStart_toEndOf="@id/btnBack"
         app:layout_constraintTop_toTopOf="parrent" />
     <TextView
-        android:id="@id/tvTitle2"
+        android:id="@+id/tvTitle2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/tvTitle" />
     <TextView
-        android:id="@id/tvDesc"
+        android:id="@+id/tvDesc"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -45,14 +45,14 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <View
-        android:id="@id/spaceBottom"
+        android:id="@+id/spaceBottom"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         app:layout_constraintBottom_toTopOf="@id/recyclerView"
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/recyclerView"
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px80"
         android:layout_marginStart="@dimen/px16"
@@ -68,7 +68,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/tvTitle2">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/imgCover"
+            android:id="@+id/imgCover"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -79,7 +79,7 @@
             app:roundedCornerRadius="@dimen/px8" />
     </FrameLayout>
     <LinearLayout
-        android:id="@id/ll_btn_add"
+        android:id="@+id/ll_btn_add"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px48"
         android:layout_marginStart="@dimen/px16"
@@ -93,7 +93,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent">
         <TextView
-            android:id="@id/btnAdd"
+            android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/xiaoying_str_btn_freedownload"
@@ -101,7 +101,7 @@
             android:textSize="@dimen/sp16" />
     </LinearLayout>
     <TextView
-        android:id="@id/btnAdded"
+        android:id="@+id/btnAdded"
         android:layout_width="0.0dip"
         android:layout_height="48.0dip"
         android:gravity="center"
@@ -109,7 +109,7 @@
         app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <LinearLayout
-        android:id="@id/ll_btn_to_editor"
+        android:id="@+id/ll_btn_to_editor"
         android:layout_width="0.0dip"
         android:layout_height="@dimen/px48"
         android:layout_marginStart="@dimen/px16"
@@ -123,7 +123,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toEndOf="@id/btnAdded">
         <TextView
-            android:id="@id/btnToEditor"
+            android:id="@+id/btnToEditor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/material_detail_cta"

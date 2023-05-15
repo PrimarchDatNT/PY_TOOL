@@ -8,20 +8,20 @@
     android:paddingEnd="@dimen/px16"
     android:paddingBottom="@dimen/px20">
     <com.videoai.aivpcore.unit.view.PressImageView
-        android:id="@id/iv_close"
+        android:id="@+id/iv_close"
         android:layout_width="@dimen/px24"
         android:layout_height="@dimen/px24"
         android:scaleType="centerInside"
         android:src="@drawable/ag_icon_close" />
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/layoutContent"
+        android:id="@+id/layoutContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/px20"
         android:background="@drawable/editorx_bg_vip_check_dialog"
         android:orientation="vertical">
         <TextView
-            android:id="@id/tvTitle"
+            android:id="@+id/tvTitle"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/px20"
@@ -34,7 +34,7 @@
             app:layout_constraintRight_toRightOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <TextView
-            android:id="@id/tv_pay_func"
+            android:id="@+id/tv_pay_func"
             android:layout_width="0.0dip"
             android:layout_height="@dimen/px42"
             android:layout_marginStart="@dimen/px10"
@@ -53,7 +53,7 @@
             app:layout_constraintRight_toRightOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <TextView
-            android:id="@id/tv_remove_vip_func"
+            android:id="@+id/tv_remove_vip_func"
             android:layout_width="0.0dip"
             android:layout_height="@dimen/px42"
             android:layout_marginStart="@dimen/px20"

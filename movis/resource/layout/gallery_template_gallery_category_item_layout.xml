@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <androidx.cardview.widget.CardView
-        android:id="@id/template_item_card_wrapper"
+        android:id="@+id/template_item_card_wrapper"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         app:cardBackgroundColor="@color/gallery_main_bg_color"
@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/template_item_cover"
+            android:id="@+id/template_item_cover"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:contentDescription="@null"
@@ -23,7 +23,7 @@
             android:src="@drawable/gallery_default_pic_cover" />
     </androidx.cardview.widget.CardView>
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/template_item_title"
+        android:id="@+id/template_item_title"
         style="@style/veds_latn_font_caption_10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,14 +38,14 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="@id/template_item_card_wrapper" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/template_item_download_icon"
+        android:id="@+id/template_item_download_icon"
         android:layout_width="16.0dip"
         android:layout_height="16.0dip"
         android:src="@drawable/gallery_icon_giphy_download"
         app:layout_constraintLeft_toLeftOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <View
-        android:id="@id/template_item_select_view"
+        android:id="@+id/template_item_select_view"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:background="@drawable/gallery_shape_item_hover"
@@ -55,7 +55,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <TextView
-        android:id="@id/template_item_tv_order"
+        android:id="@+id/template_item_tv_order"
         style="@style/veds_latn_font_number_28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <ImageButton
-        android:id="@id/template_item_preview_icon"
+        android:id="@+id/template_item_preview_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="4.0dip"

@@ -6,7 +6,7 @@
     android:layout_alignParentBottom="true"
     android:background="@color/transparent">
     <View
-        android:id="@id/pmm_bg"
+        android:id="@+id/pmm_bg"
         android:layout_width="match_parent"
         android:layout_height="177.0dip"
         android:background="@color/color_212121"
@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/pmm_recyclerview"
+        android:id="@+id/pmm_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="90.0dip"
         android:layout_marginBottom="15.0dip"
@@ -22,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <com.videoai.aivpcore.editorx.widget.seekbar.PopSeekBar
-        android:id="@id/pmm_pop_seek_bar"
+        android:id="@+id/pmm_pop_seek_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="1.0dip"
@@ -46,7 +46,7 @@
         app:psb_top_text_diam="44.0dip"
         app:psb_top_text_size="18.0sp" />
     <ImageView
-        android:id="@id/pmm_right_btn"
+        android:id="@+id/pmm_right_btn"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_marginEnd="15.0dip"

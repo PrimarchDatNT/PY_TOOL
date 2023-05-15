@@ -4,24 +4,24 @@
     android:layout_height="match_parent"
     android:background="@color/black">
     <RelativeLayout
-        android:id="@id/layout_preview_bg"
+        android:id="@+id/layout_preview_bg"
         android:layout_width="match_parent"
         android:layout_height="320.0dip"
         android:layout_below="@id/layout_preview_topmenu"
         android:background="@color/black">
         <RelativeLayout
-            android:id="@id/layout_preview"
+            android:id="@+id/layout_preview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:background="@color/transparent">
             <SurfaceView
-                android:id="@id/previewview"
+                android:id="@+id/previewview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </RelativeLayout>
         <com.videoai.aivpcore.editor.videotrim.crop.CropImageView
-            android:id="@id/crop_view"
+            android:id="@+id/crop_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
@@ -36,7 +36,7 @@
         android:layout_below="@id/layout_preview_bg"
         android:background="@color/black">
         <ImageButton
-            android:id="@id/play_btn"
+            android:id="@+id/play_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -44,7 +44,7 @@
             android:scaleType="center"
             android:src="@drawable/v5_xiaoying_ve_preview_play_btn" />
         <LinearLayout
-            android:id="@id/trim_gallery_content_layout"
+            android:id="@+id/trim_gallery_content_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/play_btn"
@@ -55,13 +55,13 @@
         </LinearLayout>
     </RelativeLayout>
     <include
-        android:id="@id/layout_tools_btns"
+        android:id="@+id/layout_tools_btns"
         layout="@layout/editor_video_trim_tools_layout"
         android:layout_width="match_parent"
         android:layout_height="52.0dip"
         android:layout_alignParentBottom="true" />
     <include
-        android:id="@id/layout_preview_topmenu"
+        android:id="@+id/layout_preview_topmenu"
         layout="@layout/v4_xiaoying_com_title_bar_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/v4_xiaoying_com_top_panel_height"
@@ -81,7 +81,7 @@
         android:layout_alignTop="@id/layout_preview_bg"
         android:visibility="invisible" />
     <ImageView
-        android:id="@id/img_avatar"
+        android:id="@+id/img_avatar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/transparent"

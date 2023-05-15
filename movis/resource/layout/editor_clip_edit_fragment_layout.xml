@@ -3,19 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/clipedit_tool_rcview"
+        android:id="@+id/clipedit_tool_rcview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:overScrollMode="never" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/clipedit_clip_rcview"
+        android:id="@+id/clipedit_clip_rcview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/clipedit_tool_rcview"
         android:layout_marginTop="6.0dip"
         android:overScrollMode="never" />
     <RelativeLayout
-        android:id="@id/rl_clip_add"
+        android:id="@+id/rl_clip_add"
         android:layout_width="75.0dip"
         android:layout_height="match_parent"
         android:layout_below="@id/clipedit_tool_rcview"
@@ -23,7 +23,7 @@
         android:layout_alignParentRight="true"
         android:background="@drawable/editor_shape_clip_add_bg">
         <ImageButton
-            android:id="@id/clipedit_add_btn"
+            android:id="@+id/clipedit_add_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"

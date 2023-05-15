@@ -6,7 +6,7 @@
     android:gravity="bottom"
     android:orientation="vertical">
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/sitv_reset"
+        android:id="@+id/sitv_reset"
         android:layout_width="64.0dip"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
@@ -16,7 +16,7 @@
         app:sitv_bottom_text="@string/xiaoying_str_edit_reset_text"
         app:sitv_top_drawable="@drawable/editorx_ico_effect_reset" />
     <LinearLayout
-        android:id="@id/layout_edit"
+        android:id="@+id/layout_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -29,7 +29,7 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
             <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabIndicatorView
-                android:id="@id/tab_keyboard"
+                android:id="@+id/tab_keyboard"
                 android:layout_width="wrap_content"
                 android:layout_height="48.0dip"
                 android:layout_marginStart="3.0dip"
@@ -38,7 +38,7 @@
                 app:layout_constraintTop_toTopOf="parrent"
                 app:tab_title="@string/xiaoying_str_editor_text_keyboard_title" />
             <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabIndicatorView
-                android:id="@id/tab_effect"
+                android:id="@+id/tab_effect"
                 android:layout_width="wrap_content"
                 android:layout_height="48.0dip"
                 app:layout_constraintBottom_toBottomOf="parrent"
@@ -46,7 +46,7 @@
                 app:layout_constraintTop_toTopOf="parrent"
                 app:tab_title="@string/xiaoying_str_editor_text_hot_title" />
             <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabIndicatorView
-                android:id="@id/tab_custom"
+                android:id="@+id/tab_custom"
                 android:layout_width="wrap_content"
                 android:layout_height="48.0dip"
                 app:layout_constraintBottom_toBottomOf="parrent"
@@ -63,7 +63,7 @@
             android:layout_height="0.5dip"
             android:background="@color/color_242424" />
         <LinearLayout
-            android:id="@id/layoutApply"
+            android:id="@+id/layoutApply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -73,12 +73,12 @@
             android:orientation="horizontal"
             android:visibility="visible">
             <ImageView
-                android:id="@id/ivApplySubtitle"
+                android:id="@+id/ivApplySubtitle"
                 android:layout_width="16.0dip"
                 android:layout_height="16.0dip"
                 android:src="@drawable/editorx_ico_apply_subtitle_unchoose" />
             <TextView
-                android:id="@id/tvApplySubtitle"
+                android:id="@+id/tvApplySubtitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6.0dip"
@@ -87,19 +87,19 @@
                 android:textSize="14.0sp" />
         </LinearLayout>
         <LinearLayout
-            android:id="@id/layout_keyboard"
+            android:id="@+id/layout_keyboard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/color_141414"
             android:orientation="horizontal">
             <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleKeyboardView
-                android:id="@id/edit_view"
+                android:id="@+id/edit_view"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="200.0dip"
                 android:layout_weight="1.0" />
             <ImageView
-                android:id="@id/ivFinish"
+                android:id="@+id/ivFinish"
                 android:layout_width="48.0dip"
                 android:layout_height="28.0dip"
                 android:layout_gravity="top"
@@ -114,27 +114,27 @@
                 android:src="@drawable/editorx_icon_effect_choose_finish" />
         </LinearLayout>
         <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitlePresetsView
-            android:id="@id/preset_view"
+            android:id="@+id/preset_view"
             android:layout_width="match_parent"
             android:layout_height="200.0dip"
             android:background="@color/color_141414"
             android:visibility="gone" />
         <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleCustomizeView
-            android:id="@id/customize_view"
+            android:id="@+id/customize_view"
             android:layout_width="match_parent"
             android:layout_height="200.0dip"
             android:background="@color/color_141414"
             android:visibility="gone" />
     </LinearLayout>
     <include
-        android:id="@id/layout_second"
+        android:id="@+id/layout_second"
         layout="@layout/editorx_effect_layout_second"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px56"
         android:layout_alignParentBottom="true"
         android:visibility="gone" />
     <Button
-        android:id="@id/btn_add_text"
+        android:id="@+id/btn_add_text"
         android:layout_width="104.0dip"
         android:layout_height="32.0dip"
         android:layout_above="@id/layout_second"
@@ -147,7 +147,7 @@
         android:textStyle="bold"
         android:visibility="gone" />
     <com.videoai.aivpcore.editorx.widget.seekbar.CircleShadowView
-        android:id="@id/subtitle_top_circle_view"
+        android:id="@+id/subtitle_top_circle_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"

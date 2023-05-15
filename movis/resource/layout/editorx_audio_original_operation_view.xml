@@ -5,7 +5,7 @@
     android:layout_height="@dimen/px56"
     android:background="@color/app_dcolor_bg_1">
     <ImageView
-        android:id="@id/audio_ori_back_btn"
+        android:id="@+id/audio_ori_back_btn"
         android:layout_width="?a4"
         android:layout_height="match_parent"
         android:background="@drawable/btn_dcolor_ripple"
@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/audio_ori_volume"
+        android:id="@+id/audio_ori_volume"
         android:layout_width="@dimen/px64"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parrent"
@@ -27,7 +27,7 @@
         app:sitv_top_text_color="@drawable/editorx_selector_sitv_text_color"
         app:sitv_top_type="bac" />
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/audio_ori_mute"
+        android:id="@+id/audio_ori_mute"
         android:layout_width="@dimen/px64"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parrent"
@@ -37,7 +37,7 @@
         app:sitv_bottom_text="@string/xiaoying_str_ve_basic_mute_title"
         app:sitv_top_drawable="@drawable/super_timeline_audio_open_all" />
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/audio_ori_change_voice"
+        android:id="@+id/audio_ori_change_voice"
         android:layout_width="@dimen/px64"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parrent"
@@ -47,7 +47,7 @@
         app:sitv_bottom_text="@string/xiaoying_str_clip_func_magic_sound"
         app:sitv_top_drawable="@drawable/editorx_audio_original_chang_voice_icon" />
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/audio_ori_remove_noise"
+        android:id="@+id/audio_ori_remove_noise"
         android:layout_width="@dimen/px64"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parrent"

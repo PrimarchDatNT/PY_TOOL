@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/ll_sns_login_list_title"
+        android:id="@+id/ll_sns_login_list_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
@@ -20,7 +20,7 @@
             android:layout_weight="1.0"
             android:background="@color/white_p30" />
         <TextView
-            android:id="@id/tv_sns_login_list_title"
+            android:id="@+id/tv_sns_login_list_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -40,12 +40,12 @@
             android:background="@color/white_p30" />
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rv_sns_login_list"
+        android:id="@+id/rv_sns_login_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10.0dip" />
     <com.videoai.aivpcore.app.welcomepage.snsview.ExpandHeightGridView
-        android:id="@id/gv_sns_login_list"
+        android:id="@+id/gv_sns_login_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10.0dip"
@@ -65,7 +65,7 @@
         android:verticalSpacing="15.0dip"
         android:visibility="gone" />
     <TextView
-        android:id="@id/tv_privacy"
+        android:id="@+id/tv_privacy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

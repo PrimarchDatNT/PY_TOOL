@@ -7,29 +7,29 @@
     android:gravity="center_vertical"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/layout_content"
+        android:id="@+id/layout_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/btn_dcolor_ripple"
         android:orientation="horizontal">
         <LinearLayout
-            android:id="@id/mussic_item_top_layout"
+            android:id="@+id/mussic_item_top_layout"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px64"
             android:gravity="center_vertical"
             android:orientation="horizontal">
             <com.videoai.aivpcore.xyui.view.CustomRoundImageView
-                android:id="@id/music_item_round_imageview"
+                android:id="@+id/music_item_round_imageview"
                 android:layout_width="@dimen/px64"
                 android:layout_height="@dimen/px64" />
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@id/music_item_title_layout"
+                android:id="@+id/music_item_title_layout"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12.0dip"
                 android:layout_weight="1.0">
                 <TextView
-                    android:id="@id/music_item_title"
+                    android:id="@+id/music_item_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
@@ -39,7 +39,7 @@
                     app:layout_constraintLeft_toLeftOf="parrent"
                     app:layout_constraintTop_toTopOf="parrent" />
                 <TextView
-                    android:id="@id/music_item_subtitle"
+                    android:id="@+id/music_item_subtitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8.0dip"
@@ -50,7 +50,7 @@
                     app:layout_constraintLeft_toLeftOf="parrent"
                     app:layout_constraintTop_toBottomOf="@id/music_item_title" />
                 <View
-                    android:id="@id/music_item_space_line"
+                    android:id="@+id/music_item_space_line"
                     android:layout_width="1.0dip"
                     android:layout_height="8.0dip"
                     android:layout_marginStart="12.0dip"
@@ -59,7 +59,7 @@
                     app:layout_constraintLeft_toRightOf="@id/music_item_subtitle"
                     app:layout_constraintTop_toTopOf="@id/music_item_subtitle" />
                 <TextView
-                    android:id="@id/music_item_duration"
+                    android:id="@+id/music_item_duration"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="12.0dip"
@@ -72,7 +72,7 @@
                     app:layout_constraintTop_toTopOf="@id/music_item_space_line" />
             </androidx.constraintlayout.widget.ConstraintLayout>
             <com.videoai.aivpcore.ui.view.ProgressWheel
-                android:id="@id/music_item_download_progress"
+                android:id="@+id/music_item_download_progress"
                 android:layout_width="28.0dip"
                 android:layout_height="28.0dip"
                 android:layout_gravity="end|center"
@@ -85,7 +85,7 @@
                 app:pwRimColor="@color/color_0a0a0a"
                 app:pwRimWidth="0.0px" />
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/music_item_download_btn"
+                android:id="@+id/music_item_download_btn"
                 android:layout_width="22.0dip"
                 android:layout_height="22.0dip"
                 android:layout_marginLeft="15.0dip"
@@ -94,7 +94,7 @@
                 android:src="@drawable/xiaoying_music_item_download"
                 android:visibility="gone" />
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/music_item_use_btn"
+                android:id="@+id/music_item_use_btn"
                 android:layout_width="52.0dip"
                 android:layout_height="26.0dip"
                 android:layout_marginLeft="15.0dip"
@@ -112,13 +112,13 @@
                 android:visibility="gone" />
         </LinearLayout>
         <LinearLayout
-            android:id="@id/item_extra_layout"
+            android:id="@+id/item_extra_layout"
             android:layout_width="80.0dip"
             android:layout_height="match_parent"
             android:background="@color/blue"
             android:orientation="horizontal">
             <TextView
-                android:id="@id/btn_delete"
+                android:id="@+id/btn_delete"
                 android:layout_width="80.0dip"
                 android:layout_height="match_parent"
                 android:background="#ffff3131"
@@ -129,7 +129,7 @@
         </LinearLayout>
     </LinearLayout>
     <ViewStub
-        android:id="@id/music_item_player"
+        android:id="@+id/music_item_player"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px96"
         android:layout="@layout/list_item_music_player" />

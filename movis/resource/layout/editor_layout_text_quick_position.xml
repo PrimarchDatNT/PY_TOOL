@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:layoutDirection="ltr">
     <RelativeLayout
-        android:id="@id/top_left"
+        android:id="@+id/top_left"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_marginStart="10.0dip"
@@ -18,7 +18,7 @@
             android:src="@drawable/editor_btn_text_quick_position_top_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/top_right"
+        android:id="@+id/top_right"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentEnd="true"
@@ -35,7 +35,7 @@
             android:src="@drawable/editor_btn_text_quick_position_top_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/bottom_left"
+        android:id="@+id/bottom_left"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentBottom="true"
@@ -51,7 +51,7 @@
             android:src="@drawable/editor_btn_text_quick_position_top_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/bottom_right"
+        android:id="@+id/bottom_right"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentEnd="true"
@@ -69,7 +69,7 @@
             android:src="@drawable/editor_btn_text_quick_position_top_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/center_left"
+        android:id="@+id/center_left"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_centerVertical="true"
@@ -82,7 +82,7 @@
             android:src="@drawable/editor_btn_text_quick_position_center_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/center_right"
+        android:id="@+id/center_right"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentEnd="true"
@@ -98,7 +98,7 @@
             android:src="@drawable/editor_btn_text_quick_position_center_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/center_top"
+        android:id="@+id/center_top"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_centerHorizontal="true"
@@ -111,7 +111,7 @@
             android:src="@drawable/editor_btn_text_quick_position_center_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/center_bottom"
+        android:id="@+id/center_bottom"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentBottom="true"
@@ -125,7 +125,7 @@
             android:src="@drawable/editor_btn_text_quick_position_center_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/center"
+        android:id="@+id/center"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_centerInParent="true"
@@ -136,7 +136,7 @@
             android:src="@drawable/editor_btn_text_quick_position_center" />
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/line_horizontal"
+        android:id="@+id/line_horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="@drawable/editor_shape_text_quick_position_divider"
@@ -156,7 +156,7 @@
             android:layout_weight="1.0" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/line_vertical"
+        android:id="@+id/line_vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="@drawable/editor_shape_text_quick_position_divider_horizontal"

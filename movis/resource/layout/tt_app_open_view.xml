@@ -9,33 +9,33 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <RelativeLayout
-            android:id="@id/tt_open_ad_container"
+            android:id="@+id/tt_open_ad_container"
             android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:layout_weight="84.0">
             <ImageView
-                android:id="@id/tt_open_ad_back_image"
+                android:id="@+id/tt_open_ad_back_image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY" />
             <FrameLayout
-                android:id="@id/tt_open_ad_video_container"
+                android:id="@+id/tt_open_ad_video_container"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerInParent="true" />
             <ImageView
-                android:id="@id/tt_open_ad_image"
+                android:id="@+id/tt_open_ad_image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
             <TextView
-                android:id="@id/tt_ad_logo"
+                android:id="@+id/tt_ad_logo"
                 android:layout_width="31.0dip"
                 android:layout_height="14.0dip"
                 android:layout_alignParentBottom="true"
                 android:background="@drawable/tt_ad_logo_new"
                 android:gravity="center" />
             <com.bytedance.sdk.openadsdk.component.view.ButtonFlash
-                android:id="@id/tt_open_ad_click_button"
+                android:id="@+id/tt_open_ad_click_button"
                 android:layout_width="180.0dip"
                 android:layout_height="43.0dip"
                 android:layout_alignParentBottom="true"
@@ -51,7 +51,7 @@
             <include layout="@layout/tt_top_app_open_dislike" />
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/tt_user_info"
+            android:id="@+id/tt_user_info"
             android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:layout_weight="16.0"
@@ -62,13 +62,13 @@
             android:paddingLeft="20.0dip"
             android:paddingRight="20.0dip">
             <com.bytedance.sdk.openadsdk.core.widget.TTRoundRectImageView
-                android:id="@id/tt_app_icon"
+                android:id="@+id/tt_app_icon"
                 android:layout_width="40.0dip"
                 android:layout_height="40.0dip"
                 android:layout_marginLeft="2.0dip"
                 android:layout_marginRight="22.0dip" />
             <TextView
-                android:id="@id/tt_app_name"
+                android:id="@+id/tt_app_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="2.0dip"

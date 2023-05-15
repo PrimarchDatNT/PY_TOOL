@@ -7,7 +7,7 @@
     android:gravity="center"
     android:orientation="vertical">
     <FrameLayout
-        android:id="@id/btnOneKeyShare"
+        android:id="@+id/btnOneKeyShare"
         android:layout_width="match_parent"
         android:layout_height="48.0dip"
         android:layout_marginLeft="32.0dip"
@@ -27,7 +27,7 @@
             android:textStyle="bold" />
     </FrameLayout>
     <com.videoai.aivpcore.xyui.RoundedRelativeLayout
-        android:id="@id/btnShareMore"
+        android:id="@+id/btnShareMore"
         android:layout_width="match_parent"
         android:layout_height="48.0dip"
         android:layout_marginLeft="32.0dip"

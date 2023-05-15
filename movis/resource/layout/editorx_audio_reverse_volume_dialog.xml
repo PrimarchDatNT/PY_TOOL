@@ -14,7 +14,7 @@
         android:textColor="@color/white"
         android:textSize="@dimen/sp14" />
     <com.videoai.aivpcore.editorx.widget.seekbar.ReverseSeekBar
-        android:id="@id/audio_reverse_seek_bar"
+        android:id="@+id/audio_reverse_seek_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px24"
         android:layout_marginStart="@dimen/px16"

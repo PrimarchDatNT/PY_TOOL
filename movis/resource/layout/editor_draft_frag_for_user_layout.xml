@@ -4,12 +4,12 @@
     android:layout_height="match_parent"
     android:background="@color/white">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/studio_recyclerview"
+        android:id="@+id/studio_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white" />
     <RelativeLayout
-        android:id="@id/studio_tips_layout"
+        android:id="@+id/studio_tips_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/color_ff774e"
@@ -17,7 +17,7 @@
         android:focusable="true"
         android:visibility="gone">
         <TextView
-            android:id="@id/xiaoying_txtview_help_tip"
+            android:id="@+id/xiaoying_txtview_help_tip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -29,7 +29,7 @@
             android:textColor="@color/white"
             android:textSize="14.0sp" />
         <Button
-            android:id="@id/xiaoying_btn_hide"
+            android:id="@+id/xiaoying_btn_hide"
             android:layout_width="30.0dip"
             android:layout_height="30.0dip"
             android:layout_alignParentEnd="true"
@@ -41,14 +41,14 @@
         android:layout_width="match_parent"
         android:layout_height="100.0dip">
         <LinearLayout
-            android:id="@id/linearlayout_draft_search_tip"
+            android:id="@+id/linearlayout_draft_search_tip"
             android:layout_width="match_parent"
             android:layout_height="44.0dip"
             android:background="@color/white"
             android:orientation="horizontal"
             android:visibility="gone">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/imgview_draft_search_icon"
+                android:id="@+id/imgview_draft_search_icon"
                 android:layout_width="33.0dip"
                 android:layout_height="33.0dip"
                 android:layout_marginStart="10.0dip"
@@ -56,7 +56,7 @@
                 android:background="@color/transparent"
                 android:src="@drawable/xy_studio_imgview_draft_searching_icon" />
             <TextView
-                android:id="@id/txtview_draft_info"
+                android:id="@+id/txtview_draft_info"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="5.0dip"
@@ -67,18 +67,18 @@
         </LinearLayout>
     </RelativeLayout>
     <androidx.core.widget.NestedScrollView
-        android:id="@id/studio_scroll_view2"
+        android:id="@+id/studio_scroll_view2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white"
         android:visibility="visible">
         <RelativeLayout
-            android:id="@id/studio_no_video_hint_view"
+            android:id="@+id/studio_no_video_hint_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="64.0dip">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/studio_no_video_icon"
+                android:id="@+id/studio_no_video_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"

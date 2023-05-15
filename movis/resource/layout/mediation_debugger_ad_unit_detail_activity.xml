@@ -4,20 +4,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <include
-        android:id="@id/listView"
+        android:id="@+id/listView"
         layout="@layout/mediation_debugger_list_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/ad_presenter_view"
         android:layout_alignParentTop="true" />
     <RelativeLayout
-        android:id="@id/ad_presenter_view"
+        android:id="@+id/ad_presenter_view"
         android:layout_width="match_parent"
         android:layout_height="100.0dip"
         android:layout_alignParentBottom="true"
         android:elevation="3.0dip">
         <TextView
-            android:id="@id/status_textview"
+            android:id="@+id/status_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@id/ad_control_button"
@@ -25,7 +25,7 @@
             android:layout_centerHorizontal="true"
             android:layout_margin="12.0dip" />
         <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
-            android:id="@id/ad_control_button"
+            android:id="@+id/ad_control_button"
             android:layout_width="@dimen/applovin_sdk_adControlButton_width"
             android:layout_height="@dimen/applovin_sdk_adControlButton_height"
             android:layout_alignParentBottom="true"

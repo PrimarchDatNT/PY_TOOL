@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <ImageView
-        android:id="@id/iv_loading"
+        android:id="@+id/iv_loading"
         android:layout_width="@dimen/px24"
         android:layout_height="@dimen/px24"
         android:layout_gravity="center"
@@ -14,7 +14,7 @@
         android:src="@drawable/editorx_effect_text_anim_loading_icon"
         android:visibility="gone" />
     <LinearLayout
-        android:id="@id/layoutBottom"
+        android:id="@+id/layoutBottom"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px42"
         android:gravity="center_vertical"
@@ -25,7 +25,7 @@
             android:layout_height="match_parent"
             android:layout_marginStart="@dimen/px16">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tvStore"
+                android:id="@+id/tvStore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -46,7 +46,7 @@
                 app:layout_constraintStart_toStartOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <ImageView
-                android:id="@id/iv_store"
+                android:id="@+id/iv_store"
                 android:layout_width="0.0dip"
                 android:layout_height="0.0dip"
                 android:background="@drawable/btn_record_view"
@@ -56,12 +56,12 @@
                 app:layout_constraintTop_toTopOf="@id/tvStore" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <com.videoai.aivpcore.editorx.widget.viewpager.RecyclerIndicatorView
-            android:id="@id/rlv_indicator"
+            android:id="@+id/rlv_indicator"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
     <com.videoai.aivpcore.common.ui.RtlViewPager
-        android:id="@id/view_pager"
+        android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_weight="1.0"

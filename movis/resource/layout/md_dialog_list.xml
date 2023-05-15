@@ -9,12 +9,12 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <ScrollView
-            android:id="@id/md_contentScrollView"
+            android:id="@+id/md_contentScrollView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clipToPadding="false">
             <TextView
-                android:id="@id/md_content"
+                android:id="@+id/md_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="@dimen/md_dialog_frame_margin"
@@ -24,11 +24,11 @@
                 android:textSize="@dimen/md_content_textsize" />
         </ScrollView>
         <FrameLayout
-            android:id="@id/md_contentListViewFrame"
+            android:id="@+id/md_contentListViewFrame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@id/md_contentRecyclerView"
+                android:id="@+id/md_contentRecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clipToPadding="false"

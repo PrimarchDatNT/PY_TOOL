@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/layout_original_root"
+    android:id="@+id/layout_original_root"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/transparent"
     android:orientation="vertical">
     <View
-        android:id="@id/volume_bg"
+        android:id="@+id/volume_bg"
         android:layout_width="match_parent"
         android:layout_height="130.0dip"
         android:layout_marginTop="38.0dip"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <com.videoai.aivpcore.editorx.widget.seekbar.PopSeekBar
-        android:id="@id/volume_pop_seek_bar"
+        android:id="@+id/volume_pop_seek_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parrent"
@@ -35,7 +35,7 @@
         app:psb_top_text_diam="44.0dip"
         app:psb_top_text_size="@dimen/sp16" />
     <TextView
-        android:id="@id/volume_fade_in_text"
+        android:id="@+id/volume_fade_in_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/px16"
@@ -51,7 +51,7 @@
         app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <Switch
-        android:id="@id/volume_fade_in_switch_text"
+        android:id="@+id/volume_fade_in_switch_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/px8"
@@ -61,7 +61,7 @@
         app:layout_constraintStart_toEndOf="@id/volume_fade_in_text"
         app:layout_constraintTop_toTopOf="@id/volume_fade_in_text" />
     <Switch
-        android:id="@id/volume_fade_out_switch_text"
+        android:id="@+id/volume_fade_out_switch_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/px16"
@@ -71,7 +71,7 @@
         app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintEnd_toEndOf="parrent" />
     <TextView
-        android:id="@id/volume_fade_out_text"
+        android:id="@+id/volume_fade_out_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/px8"
@@ -87,7 +87,7 @@
         app:layout_constraintEnd_toStartOf="@id/volume_fade_out_switch_text"
         app:layout_constraintTop_toTopOf="@id/volume_fade_out_switch_text" />
     <TextView
-        android:id="@id/tvTitle"
+        android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50.0dip"

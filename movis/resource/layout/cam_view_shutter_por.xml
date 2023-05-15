@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/cam_layout_command"
+    android:id="@+id/cam_layout_command"
     android:layout_width="match_parent"
     android:layout_height="184.0dip"
     android:background="@drawable/v4_xiaoying_cam_bottom_bg">
     <ImageView
-        android:id="@id/rec_blink"
+        android:id="@+id/rec_blink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/cam_layout_shutter"
@@ -14,7 +14,7 @@
         android:src="@drawable/v4_xiaoying_cam_rec1"
         android:visibility="gone" />
     <RelativeLayout
-        android:id="@id/cam_layout_shutter"
+        android:id="@+id/cam_layout_shutter"
         android:layout_width="@dimen/v4_cam_default_shutter_btn_height"
         android:layout_height="@dimen/v4_cam_default_shutter_btn_height"
         android:layout_centerInParent="true"
@@ -22,7 +22,7 @@
         android:layout_marginBottom="3.0dip"
         android:orientation="horizontal">
         <com.videoai.aivpcore.camera.ui.view.CamRecordView
-            android:id="@id/btn_rec"
+            android:id="@+id/btn_rec"
             android:layout_width="78.0dip"
             android:layout_height="78.0dip"
             android:layout_centerInParent="true"
@@ -36,20 +36,20 @@
         android:layout_toEndOf="@id/cam_layout_shutter"
         android:layout_toRightOf="@id/cam_layout_shutter">
         <com.videoai.aivpcore.camera.ui.view.BackDeleteButton
-            android:id="@id/xiaoying_cam_btn_delete"
+            android:id="@+id/xiaoying_cam_btn_delete"
             android:layout_width="48.0dip"
             android:layout_height="48.0dip"
             android:layout_centerInParent="true"
             android:visibility="visible" />
         <Button
-            android:id="@id/xiaoying_cam_btn_pip_gallery"
+            android:id="@+id/xiaoying_cam_btn_pip_gallery"
             android:layout_width="48.0dip"
             android:layout_height="48.0dip"
             android:layout_centerInParent="true"
             android:background="@drawable/v4_xiaoying_cam_pip_gallery_selector"
             android:visibility="invisible" />
         <Button
-            android:id="@id/xiaoying_cam_pip_btn_back"
+            android:id="@+id/xiaoying_cam_pip_btn_back"
             android:layout_width="48.0dip"
             android:layout_height="48.0dip"
             android:layout_centerInParent="true"

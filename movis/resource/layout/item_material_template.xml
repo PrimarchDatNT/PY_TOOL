@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <com.videoai.aivpcore.unit.view.PressImageView
-            android:id="@id/ivCover"
+            android:id="@+id/ivCover"
             android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:scaleType="fitXY"
@@ -27,7 +27,7 @@
         android:paddingTop="@dimen/px6"
         android:paddingBottom="@dimen/px6">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tvTitle"
+            android:id="@+id/tvTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"

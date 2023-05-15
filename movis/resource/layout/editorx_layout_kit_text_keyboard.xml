@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/layout_keyboard"
+        android:id="@+id/layout_keyboard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
@@ -13,7 +13,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <EditText
-            android:id="@id/et_edit"
+            android:id="@+id/et_edit"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_marginStart="15.0dip"
@@ -37,7 +37,7 @@
             android:textColorHint="@color/opacity_3_white"
             android:textSize="14.0sp" />
         <ImageView
-            android:id="@id/iv_finish"
+            android:id="@+id/iv_finish"
             android:layout_width="48.0dip"
             android:layout_height="32.0dip"
             android:layout_marginEnd="15.0dip"

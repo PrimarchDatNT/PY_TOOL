@@ -11,14 +11,14 @@
         android:layout_marginTop="115.0dip"
         android:src="@drawable/editor_icon_import_scene" />
     <TextView
-        android:id="@id/tv_import_scene_progress"
+        android:id="@+id/tv_import_scene_progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10.0dip"
         android:textColor="@color/white"
         android:textSize="16.0sp" />
     <TextView
-        android:id="@id/txtview_progressview"
+        android:id="@+id/txtview_progressview"
         android:layout_width="100.0dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="10.0dip"
@@ -27,7 +27,7 @@
         android:textColor="@color/white"
         android:textSize="35.0dip" />
     <ProgressBar
-        android:id="@id/progress_bar_import"
+        android:id="@+id/progress_bar_import"
         style="?android:progressBarStyleHorizontal"
         android:layout_width="268.0dip"
         android:layout_height="2.0dip"
@@ -42,7 +42,7 @@
         android:textColor="@color/white_p50"
         android:textSize="12.0sp" />
     <ImageButton
-        android:id="@id/iv_cancel"
+        android:id="@+id/iv_cancel"
         android:layout_width="28.0dip"
         android:layout_height="28.0dip"
         android:layout_marginTop="36.0dip"

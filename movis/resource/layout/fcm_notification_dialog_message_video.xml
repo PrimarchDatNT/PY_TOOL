@@ -9,14 +9,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
-            android:id="@id/fcm_notification_video_thumbnails"
+            android:id="@+id/fcm_notification_video_thumbnails"
             android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:scaleType="fitXY"
             app:layout_constraintDimensionRatio="16:9"
             app:layout_constraintTop_toTopOf="parrent" />
         <TextView
-            android:id="@id/fcm_notification_video_title"
+            android:id="@+id/fcm_notification_video_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/fcm_notification_video_dialog_title_background"
@@ -28,7 +28,7 @@
             app:layout_constraintLeft_toLeftOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <ImageView
-            android:id="@id/fcm_notification_video_play"
+            android:id="@+id/fcm_notification_video_play"
             android:layout_width="@dimen/fcm_notification_video_dialog_size_play_big"
             android:layout_height="@dimen/fcm_notification_video_dialog_size_play_big"
             app:layout_constraintBottom_toBottomOf="@id/fcm_notification_video_thumbnails"
@@ -37,7 +37,7 @@
             app:layout_constraintTop_toBottomOf="@id/fcm_notification_video_title"
             app:srcCompat="@drawable/fcm_notification_vector_play_big" />
         <ImageView
-            android:id="@id/fcm_notification_video_progress"
+            android:id="@+id/fcm_notification_video_progress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/fcm_notification_video_dialog_margin_hor_progress"

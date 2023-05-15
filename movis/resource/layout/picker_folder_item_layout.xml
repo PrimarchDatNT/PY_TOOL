@@ -3,16 +3,16 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/layout_album_cover"
+        android:id="@+id/layout_album_cover"
         android:layout_width="105.0dip"
         android:layout_height="105.0dip">
         <ImageView
-            android:id="@id/iv_album_cover"
+            android:id="@+id/iv_album_cover"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop" />
         <ImageView
-            android:id="@id/iv_new_flag"
+            android:id="@+id/iv_new_flag"
             android:layout_width="18.0dip"
             android:layout_height="18.0dip"
             android:layout_alignParentTop="true"
@@ -27,7 +27,7 @@
         android:layout_below="@id/layout_album_cover"
         android:layout_marginTop="5.0dip">
         <TextView
-            android:id="@id/picker_album_title"
+            android:id="@+id/picker_album_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ellipsize="end"
@@ -36,7 +36,7 @@
             android:textColor="@color/white"
             android:textSize="14.0sp" />
         <TextView
-            android:id="@id/picker_album_item_num"
+            android:id="@+id/picker_album_item_num"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"

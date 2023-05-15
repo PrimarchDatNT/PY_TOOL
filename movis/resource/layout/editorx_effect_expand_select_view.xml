@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/mainLayout"
+    android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/transparent">
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/sitv_reset"
+        android:id="@+id/sitv_reset"
         android:layout_width="64.0dip"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
@@ -17,26 +17,26 @@
         app:sitv_bottom_text="@string/xiaoying_str_edit_reset_text"
         app:sitv_top_drawable="@drawable/editorx_ico_effect_reset" />
     <com.videoai.aivpcore.editorx.widget.trimBar.TrimBarView
-        android:id="@id/trim_bar_view"
+        android:id="@+id/trim_bar_view"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px32"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/px68"
         android:visibility="gone" />
     <LinearLayout
-        android:id="@id/layout_expand"
+        android:id="@+id/layout_expand"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px270"
         android:layout_alignParentBottom="true"
         android:background="@drawable/gallery_border_item"
         android:orientation="vertical">
         <FrameLayout
-            android:id="@id/board_top"
+            android:id="@+id/board_top"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px32"
             android:background="@color/transparent">
             <ImageButton
-                android:id="@id/btn_expand"
+                android:id="@+id/btn_expand"
                 android:layout_width="32.0dip"
                 android:layout_height="@dimen/px4"
                 android:layout_gravity="center"
@@ -46,18 +46,18 @@
                 android:src="@drawable/editorx_icon_clip_arrow_up_shape" />
         </FrameLayout>
         <FrameLayout
-            android:id="@id/fl_media_container"
+            android:id="@+id/fl_media_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
     <com.videoai.aivpcore.editorx.board.effect.ui.effectTab.EffectTabView
-        android:id="@id/etv_tab"
+        android:id="@+id/etv_tab"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px56"
         android:layout_alignParentBottom="true"
         android:visibility="gone" />
     <include
-        android:id="@id/layout_second"
+        android:id="@+id/layout_second"
         layout="@layout/editorx_effect_layout_second"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px56"

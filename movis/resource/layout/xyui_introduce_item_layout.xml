@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.xyui.RoundedRelativeLayout
-        android:id="@id/layoutContent"
+        android:id="@+id/layoutContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="37.5dip"
@@ -16,7 +16,7 @@
         app:VS_CornerRadius="5.0dip"
         app:VS_SolidColor="@color/white">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/imgLogo"
+            android:id="@+id/imgLogo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:actualImageScaleType="o1"
@@ -27,7 +27,7 @@
             app:roundTopRight="true"
             app:roundedCornerRadius="4.5dip" />
         <TextView
-            android:id="@id/textTitle"
+            android:id="@+id/textTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/imgLogo"
@@ -40,7 +40,7 @@
             android:textSize="20.0sp"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/textContent"
+            android:id="@+id/textContent"
             android:layout_width="match_parent"
             android:layout_height="36.0dip"
             android:layout_below="@id/textTitle"

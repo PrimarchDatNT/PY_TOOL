@@ -5,14 +5,14 @@
     android:layout_height="match_parent"
     android:background="@color/app_dcolor_background">
     <RelativeLayout
-        android:id="@id/layoutTitle"
+        android:id="@+id/layoutTitle"
         android:layout_width="match_parent"
         android:layout_height="?a4"
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/btnBack"
+            android:id="@+id/btnBack"
             android:layout_width="?a4"
             android:layout_height="?a4"
             android:adjustViewBounds="true"
@@ -20,7 +20,7 @@
             android:scaleType="centerInside"
             android:src="@drawable/ic_back" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tvTitle2"
+            android:id="@+id/tvTitle2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -29,7 +29,7 @@
             android:textSize="@dimen/sp16"
             android:visibility="gone" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tvTitle"
+            android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -45,14 +45,14 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/layoutTitle">
         <com.google.android.material.appbar.AppBarLayout
-            android:id="@id/appbar"
+            android:id="@+id/appbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/app_dcolor_background"
             android:elevation="0.0dip"
             app:elevation="0.0dip">
             <com.google.android.material.appbar.CollapsingToolbarLayout
-                android:id="@id/collapsing_toolbar_layout"
+                android:id="@+id/collapsing_toolbar_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:visibility="gone"
@@ -62,19 +62,19 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <View
-                        android:id="@id/viewTitleGap"
+                        android:id="@+id/viewTitleGap"
                         android:layout_width="match_parent"
                         android:layout_height="24.0dip" />
                 </LinearLayout>
             </com.google.android.material.appbar.CollapsingToolbarLayout>
             <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator
-                android:id="@id/tabCate"
+                android:id="@+id/tabCate"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/px48"
                 android:visibility="gone" />
         </com.google.android.material.appbar.AppBarLayout>
         <com.videoai.aivpcore.common.ui.XYViewPager
-            android:id="@id/viewPager"
+            android:id="@+id/viewPager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/px12"
@@ -85,7 +85,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tabCate" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/listView"
+            android:id="@+id/listView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/px12"

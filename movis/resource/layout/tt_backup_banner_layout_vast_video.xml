@@ -4,12 +4,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <com.bytedance.sdk.openadsdk.core.widget.RatioFrameLayout
-        android:id="@id/ratio_frame_layout"
+        android:id="@+id/ratio_frame_layout"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="center" />
     <com.bytedance.sdk.openadsdk.core.widget.ShadowImageView
-        android:id="@id/tt_banner_mute"
+        android:id="@+id/tt_banner_mute"
         android:layout_width="20.0dip"
         android:layout_height="20.0dip"
         android:layout_margin="5.0dip"
@@ -17,7 +17,7 @@
         android:scaleType="center"
         android:src="@drawable/tt_mute" />
     <com.bytedance.sdk.openadsdk.core.widget.ShadowImageView
-        android:id="@id/tt_bu_close"
+        android:id="@+id/tt_bu_close"
         android:layout_width="20.0dip"
         android:layout_height="20.0dip"
         android:layout_gravity="right"
@@ -26,7 +26,7 @@
         android:scaleType="fitCenter"
         android:src="@drawable/tt_pangle_ad_close_drawable" />
     <include
-        android:id="@id/tt_backup_logoLayout"
+        android:id="@+id/tt_backup_logoLayout"
         layout="@layout/tt_backup_ad_round_top_right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -3,24 +3,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView
-        android:id="@id/folder_recycler_view"
+        android:id="@+id/folder_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:overScrollMode="never"
         android:scrollbars="none" />
     <RelativeLayout
-        android:id="@id/layout_media"
+        android:id="@+id/layout_media"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone">
         <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView
-            android:id="@id/media_recycler_view"
+            android:id="@+id/media_recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:overScrollMode="never"
             android:scrollbars="none" />
         <ImageView
-            android:id="@id/folder_back_icon"
+            android:id="@+id/folder_back_icon"
             android:layout_width="60.0dip"
             android:layout_height="60.0dip"
             android:layout_alignParentEnd="true"

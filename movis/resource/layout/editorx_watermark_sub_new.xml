@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <View
-        android:id="@id/viewContentBg"
+        android:id="@+id/viewContentBg"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px214"
         android:layout_gravity="bottom"
@@ -13,12 +13,12 @@
         android:clickable="true"
         android:focusable="true" />
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/group_watermark_root"
+        android:id="@+id/group_watermark_root"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px270"
         android:layout_gravity="bottom">
         <TextView
-            android:id="@id/tv_watermark_title"
+            android:id="@+id/tv_watermark_title"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px48"
             android:fontFamily="@font/poppins_semibold"
@@ -35,7 +35,7 @@
             app:layout_constraintLeft_toLeftOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tv_watermark_title" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/rv_watermark"
+            android:id="@+id/rv_watermark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
@@ -45,7 +45,7 @@
             app:layout_constraintTop_toTopOf="parrent"
             app:spanCount="4" />
         <com.videoai.aivpcore.editorx.board.clip.widget.TextActionBottomBar
-            android:id="@id/actionBottomBar"
+            android:id="@+id/actionBottomBar"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px56"
             app:layout_constraintBottom_toBottomOf="parrent" />

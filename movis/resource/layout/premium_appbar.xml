@@ -5,7 +5,7 @@
     android:background="@color/app_dcolor_background"
     android:tag="layout/premium_appbar_0">
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/ivLogo"
+        android:id="@+id/ivLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -17,7 +17,7 @@
         android:layout_gravity="end"
         android:layout_marginEnd="@dimen/px16" />
     <com.videoai.aivpcore.unit.view.PressImageView
-        android:id="@id/ivClose"
+        android:id="@+id/ivClose"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:adjustViewBounds="true"

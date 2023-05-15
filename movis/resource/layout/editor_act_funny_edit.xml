@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/root"
+    android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/black">
     <RelativeLayout
-        android:id="@id/title_layout"
+        android:id="@+id/title_layout"
         android:layout_width="match_parent"
         android:layout_height="44.0dip"
         android:background="@color/color_141414">
         <ImageButton
-            android:id="@id/back_btn"
+            android:id="@+id/back_btn"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
@@ -22,7 +22,7 @@
             android:paddingRight="5.0dip"
             android:src="@drawable/v4_xiaoying_cam_btn_cam_cancel" />
         <TextView
-            android:id="@id/export_btn"
+            android:id="@+id/export_btn"
             android:layout_width="wrap_content"
             android:layout_height="28.0dip"
             android:layout_alignParentEnd="true"
@@ -41,20 +41,20 @@
             android:textStyle="bold" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/preview_layout"
+        android:id="@+id/preview_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/material_layout"
         android:layout_below="@id/title_layout"
         android:layout_marginBottom="32.0dip">
         <RelativeLayout
-            android:id="@id/surface_layout"
+            android:id="@+id/surface_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:background="@color/transparent" />
         <com.videoai.aivpcore.editor.widget.HighLView
-            android:id="@id/high_light_view"
+            android:id="@+id/high_light_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignStart="@id/surface_layout"
@@ -66,7 +66,7 @@
             android:background="@color/transparent"
             android:visibility="gone" />
         <RelativeLayout
-            android:id="@id/surface_fake_layout"
+            android:id="@+id/surface_fake_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignStart="@id/surface_layout"
@@ -77,7 +77,7 @@
             android:layout_alignBottom="@id/surface_layout"
             android:background="@color/transparent" />
         <ImageButton
-            android:id="@id/play_btn"
+            android:id="@+id/play_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -88,13 +88,13 @@
             android:src="@drawable/explorer_selector_video_play_btn" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/material_layout"
+        android:id="@+id/material_layout"
         android:layout_width="match_parent"
         android:layout_height="80.0dip"
         android:layout_alignParentBottom="true"
         android:background="@color/color_141414">
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/rc_material"
+            android:id="@+id/rc_material"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -102,7 +102,7 @@
             android:layout_marginRight="65.0dip"
             android:orientation="horizontal" />
         <LinearLayout
-            android:id="@id/modify_bgm_layout"
+            android:id="@+id/modify_bgm_layout"
             android:layout_width="65.0dip"
             android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
@@ -116,7 +116,7 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/editor_icon_theme_music_n" />
             <TextView
-                android:id="@id/tv_theme_change_music"
+                android:id="@+id/tv_theme_change_music"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

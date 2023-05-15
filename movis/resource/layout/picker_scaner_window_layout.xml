@@ -9,7 +9,7 @@
     android:paddingTop="15.0dip"
     android:paddingBottom="15.0dip">
     <TextView
-        android:id="@id/btn_scan_quick"
+        android:id="@+id/btn_scan_quick"
         android:layout_width="match_parent"
         android:layout_height="48.0dip"
         android:layout_marginStart="15.0dip"
@@ -22,7 +22,7 @@
         android:textColor="@color/white"
         android:textSize="18.0sp" />
     <TextView
-        android:id="@id/btn_scan_custom"
+        android:id="@+id/btn_scan_custom"
         android:layout_width="match_parent"
         android:layout_height="48.0dip"
         android:layout_marginStart="15.0dip"

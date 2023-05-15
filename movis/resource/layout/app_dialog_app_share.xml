@@ -13,7 +13,7 @@
         android:textColor="@color/color_333333"
         android:textSize="16.0sp" />
     <LinearLayout
-        android:id="@id/layoutSnsList"
+        android:id="@+id/layoutSnsList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="26.0dip"

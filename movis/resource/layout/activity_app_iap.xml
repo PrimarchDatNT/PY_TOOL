@@ -6,12 +6,12 @@
     android:background="@color/app_dcolor_bg_1"
     android:tag="layout/activity_app_iap_0">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rvContent"
+        android:id="@+id/rvContent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:overScrollMode="never" />
     <com.videoai.aivpcore.unit.premium.view.ViewPremiumAppbar
-        android:id="@id/appBar"
+        android:id="@+id/appBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <LinearLayout
@@ -24,7 +24,7 @@
             android:layout_height="1.0dip"
             android:background="@color/app_dcolor_indicator" />
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@id/clBottomCta"
+            android:id="@+id/clBottomCta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#eb2e2e2e"
@@ -33,7 +33,7 @@
             android:paddingBottom="@dimen/px12"
             app:layout_constraintBottom_toBottomOf="parrent">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tv_sub_time"
+                android:id="@+id/tv_sub_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/px8"
@@ -43,7 +43,7 @@
                 app:layout_constraintStart_toStartOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tv_price_per_time"
+                android:id="@+id/tv_price_per_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/px8"
@@ -53,7 +53,7 @@
                 app:layout_constraintEnd_toEndOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <FrameLayout
-                android:id="@id/tv_premium_cta"
+                android:id="@+id/tv_premium_cta"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/px48"
                 android:layout_marginTop="@dimen/px12"
@@ -62,7 +62,7 @@
                 app:layout_constraintStart_toStartOf="parrent"
                 app:layout_constraintTop_toBottomOf="@id/tv_sub_time">
                 <com.google.android.material.imageview.ShapeableImageView
-                    android:id="@id/ivEffect"
+                    android:id="@+id/ivEffect"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:alpha="0.2"
@@ -81,7 +81,7 @@
                     android:textStyle="bold" />
             </FrameLayout>
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tvPremiumDesc"
+                android:id="@+id/tvPremiumDesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/px12"

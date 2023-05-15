@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/layoutContent"
+        android:id="@+id/layoutContent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/app_dcolor_background"
@@ -26,7 +26,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/image_studio_draft_more"
+            android:id="@+id/image_studio_draft_more"
             android:layout_width="50.0dip"
             android:layout_height="44.0dip"
             android:paddingStart="@dimen/px16"
@@ -38,7 +38,7 @@
             app:layout_constraintEnd_toEndOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/studio_recyclerview"
+            android:id="@+id/studio_recyclerview"
             android:layout_width="0.0dip"
             android:layout_height="0.0dip"
             app:layout_constraintBottom_toBottomOf="parrent"
@@ -46,7 +46,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/image_studio_draft_more" />
         <LinearLayout
-            android:id="@id/layout_draft_loading_tip"
+            android:id="@+id/layout_draft_loading_tip"
             android:layout_width="0.0dip"
             android:layout_height="44.0dip"
             android:background="@color/colorPrimaryDark"
@@ -56,7 +56,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toTopOf="parrent">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/image_draft_search_icon"
+                android:id="@+id/image_draft_search_icon"
                 android:layout_width="33.0dip"
                 android:layout_height="33.0dip"
                 android:layout_marginStart="10.0dip"
@@ -65,7 +65,7 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/xy_studio_imgview_draft_searching_icon" />
             <TextView
-                android:id="@id/text_draft_info"
+                android:id="@+id/text_draft_info"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="5.0dip"
@@ -75,7 +75,7 @@
                 android:textSize="13.0sp" />
         </LinearLayout>
         <ViewStub
-            android:id="@id/view_stub_del_warning"
+            android:id="@+id/view_stub_del_warning"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/px16"
@@ -89,7 +89,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <include
-            android:id="@id/layout_empty"
+            android:id="@+id/layout_empty"
             layout="@layout/editor_draft_fragment_empty_layout"
             android:layout_width="0.0dip"
             android:layout_height="0.0dip"
@@ -100,7 +100,7 @@
             app:layout_constraintTop_toTopOf="parrent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <LinearLayout
-        android:id="@id/layoutNoStorage"
+        android:id="@+id/layoutNoStorage"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -130,7 +130,7 @@
             android:textColor="@color/app_dcolor_text_2"
             android:textSize="@dimen/sp12" />
         <TextView
-            android:id="@id/tvGetPermission"
+            android:id="@+id/tvGetPermission"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px42"
             android:layout_marginStart="@dimen/px16"

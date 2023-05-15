@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageView
-        android:id="@id/studio_img_project_thumb"
+        android:id="@+id/studio_img_project_thumb"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop" />
@@ -19,7 +19,7 @@
         android:paddingRight="10.0dip"
         android:paddingBottom="6.0dip">
         <com.videoai.aivpcore.common.ui.widgets.autofittextview.AutofitTextView
-            android:id="@id/studio_item_time_duration"
+            android:id="@+id/studio_item_time_duration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -30,7 +30,7 @@
             android:textSize="13.0sp"
             autofit:minTextSize="8.0sp" />
         <ImageView
-            android:id="@id/studio_img_delete"
+            android:id="@+id/studio_img_delete"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:layout_alignParentEnd="true"
@@ -40,7 +40,7 @@
             android:src="@drawable/editor_draft_white_delete_icon" />
     </RelativeLayout>
     <ImageView
-        android:id="@id/studio_del_select"
+        android:id="@+id/studio_del_select"
         android:layout_width="44.0dip"
         android:layout_height="44.0dip"
         android:layout_alignParentTop="true"

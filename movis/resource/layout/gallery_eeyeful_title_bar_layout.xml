@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/search_layout"
+        android:id="@+id/search_layout"
         android:layout_width="match_parent"
         android:layout_height="32.0dip"
         android:layout_marginLeft="16.0dip"
@@ -14,13 +14,13 @@
         android:paddingLeft="13.0dip"
         android:paddingRight="13.0dip">
         <ImageView
-            android:id="@id/iv_search"
+            android:id="@+id/iv_search"
             android:layout_width="12.0dip"
             android:layout_height="12.0dip"
             android:layout_gravity="center_vertical"
             android:src="@drawable/gallery_icon_search" />
         <TextView
-            android:id="@id/tv_search"
+            android:id="@+id/tv_search"
             style="@style/veds_latn_font_body_12"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -33,7 +33,7 @@
             android:textSize="12.0sp" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/llTitles"
+        android:id="@+id/llTitles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

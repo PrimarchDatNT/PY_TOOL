@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.videoedit.gallery.widget.CustomSizeFrameLayout1 xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/layout"
+    android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="4.0dip">
@@ -12,7 +12,7 @@
         app:cardCornerRadius="8.0dip"
         app:cardElevation="0.0dip">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/ivContent"
+            android:id="@+id/ivContent"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
@@ -22,7 +22,7 @@
             app:layout_constraintTop_toTopOf="parrent" />
     </androidx.cardview.widget.CardView>
     <View
-        android:id="@id/select_bg"
+        android:id="@+id/select_bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/gallery_shape_item_hover"
@@ -34,7 +34,7 @@
         android:orientation="horizontal"
         android:padding="4.0dip">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_duration"
+            android:id="@+id/tv_duration"
             style="@style/veds_latn_font_caption_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
             android:text="00:02"
             android:textColor="@color/veds_color_fill_white_1" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_clarity"
+            android:id="@+id/tv_clarity"
             style="@style/veds_latn_font_caption_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
             android:text="HD"
             android:textColor="@color/veds_color_fill_white_1" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_is4k"
+            android:id="@+id/tv_is4k"
             style="@style/veds_latn_font_caption_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
             android:textColor="@color/veds_color_fill_white_1" />
     </LinearLayout>
     <ImageView
-        android:id="@id/preview_icon"
+        android:id="@+id/preview_icon"
         android:layout_width="20.0dip"
         android:layout_height="20.0dip"
         android:layout_gravity="end|bottom|center"
@@ -82,7 +82,7 @@
         android:src="@drawable/gallery_media_photo_preview_icon"
         android:visibility="gone" />
     <TextView
-        android:id="@id/tv_order"
+        android:id="@+id/tv_order"
         style="@style/veds_latn_font_headline_28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

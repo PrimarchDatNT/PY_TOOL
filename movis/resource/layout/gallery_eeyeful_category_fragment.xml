@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/view_header_info"
+        android:id="@+id/view_header_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -13,7 +13,7 @@
         android:paddingRight="16.0dip"
         android:paddingBottom="8.0dip">
         <RelativeLayout
-            android:id="@id/view_photo_purpose_info"
+            android:id="@+id/view_photo_purpose_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/gallery_eeyeful_item_bg1"
@@ -38,7 +38,7 @@
                 android:src="@drawable/gallery_eeyeful_warning1" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/view_login_info"
+            android:id="@+id/view_login_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/gallery_eeyeful_item_bg1"
@@ -48,7 +48,7 @@
             android:paddingRight="12.0dip"
             android:paddingBottom="8.0dip">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tv_account"
+                android:id="@+id/tv_account"
                 style="@style/veds_latn_font_body_12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -68,21 +68,21 @@
         android:layout_height="match_parent"
         android:layout_below="@id/view_header_info">
         <RelativeLayout
-            android:id="@id/view_content"
+            android:id="@+id/view_content"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <RelativeLayout
-                android:id="@id/view_content_list"
+                android:id="@+id/view_content_list"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@id/recyclerview"
+                    android:id="@+id/recyclerview"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="12.0dip"
                     android:layout_marginRight="12.0dip" />
                 <LinearLayout
-                    android:id="@id/view_empty"
+                    android:id="@+id/view_empty"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="16.0dip"
@@ -94,13 +94,13 @@
                     android:paddingRight="16.0dip"
                     android:visibility="gone">
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:id="@id/iv_empty"
+                        android:id="@+id/iv_empty"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10.0dip"
                         android:src="@drawable/editor_studio_draft_empty_bg" />
                     <androidx.appcompat.widget.AppCompatTextView
-                        android:id="@id/tv_empty_title"
+                        android:id="@+id/tv_empty_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10.0dip"
@@ -109,7 +109,7 @@
                         android:textColor="@color/veds_color_fill_white_2"
                         android:textSize="18.0sp" />
                     <androidx.appcompat.widget.AppCompatTextView
-                        android:id="@id/tv_empty_search_tip"
+                        android:id="@+id/tv_empty_search_tip"
                         style="@style/veds_latn_font_body_14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
                 </LinearLayout>
             </RelativeLayout>
             <LinearLayout
-                android:id="@id/ll_login"
+                android:id="@+id/ll_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16.0dip"
@@ -149,7 +149,7 @@
                     android:text="@string/xy_eeyeful_purchased_login_tip"
                     android:textColor="@color/veds_color_fill_white_2" />
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/tv_login"
+                    android:id="@+id/tv_login"
                     style="@style/veds_latn_font_button_16"
                     android:layout_width="match_parent"
                     android:layout_height="40.0dip"
@@ -163,20 +163,20 @@
             </LinearLayout>
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/view_error"
+            android:id="@+id/view_error"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:orientation="vertical"
             android:visibility="gone">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/iv_error"
+                android:id="@+id/iv_error"
                 android:layout_width="48.0dip"
                 android:layout_height="48.0dip"
                 android:layout_marginTop="50.0dip"
                 android:src="@drawable/gallery_icon_empty" />
             <TextView
-                android:id="@id/tv_error_title"
+                android:id="@+id/tv_error_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7.0dip"
@@ -185,7 +185,7 @@
                 android:textColor="@color/veds_color_fill_white_1"
                 android:textSize="20.0sp" />
             <TextView
-                android:id="@id/tv_error_desc"
+                android:id="@+id/tv_error_desc"
                 style="@style/veds_latn_font_body_14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -197,7 +197,7 @@
                 android:text="@string/xy_module_gallery_template_emty_second_txt"
                 android:textColor="@color/veds_color_fill_white_2" />
             <TextView
-                android:id="@id/tv_error_retry"
+                android:id="@+id/tv_error_retry"
                 style="@style/veds_latn_font_button_16"
                 android:layout_width="match_parent"
                 android:layout_height="40.0dip"
@@ -210,21 +210,21 @@
                 android:textColor="@color/veds_color_fill_black_6" />
         </LinearLayout>
         <LinearLayout
-            android:id="@id/view_loading"
+            android:id="@+id/view_loading"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:orientation="vertical"
             android:visibility="gone">
             <ProgressBar
-                android:id="@id/progressBar"
+                android:id="@+id/progressBar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60.0dip"
                 android:indeterminateDrawable="@drawable/gallery_com_progressbar_loading_img"
                 android:indeterminateDuration="1000" />
             <TextView
-                android:id="@id/tv_loading"
+                android:id="@+id/tv_loading"
                 style="@style/veds_latn_font_headline_20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

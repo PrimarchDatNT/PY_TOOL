@@ -6,18 +6,18 @@
     android:orientation="horizontal"
     android:visibility="visible">
     <RelativeLayout
-        android:id="@id/rl_tab_blur"
+        android:id="@+id/rl_tab_blur"
         android:layout_width="80.0dip"
         android:layout_height="wrap_content">
         <ImageView
-            android:id="@id/iv_tab_blur"
+            android:id="@+id/iv_tab_blur"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:scaleType="centerInside"
             android:src="@drawable/editor_selector_clip_effect_blur" />
         <View
-            android:id="@id/view_tab_blur"
+            android:id="@+id/view_tab_blur"
             android:layout_width="30.0dip"
             android:layout_height="3.0dip"
             android:layout_above="@id/iv_tab_blur"
@@ -27,18 +27,18 @@
             android:visibility="gone" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/rl_tab_color"
+        android:id="@+id/rl_tab_color"
         android:layout_width="80.0dip"
         android:layout_height="wrap_content">
         <ImageView
-            android:id="@id/iv_tab_color"
+            android:id="@+id/iv_tab_color"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:scaleType="centerInside"
             android:src="@drawable/editor_selector_clip_effect_color" />
         <View
-            android:id="@id/view_tab_color"
+            android:id="@+id/view_tab_color"
             android:layout_width="30.0dip"
             android:layout_height="3.0dip"
             android:layout_above="@id/iv_tab_color"
@@ -48,18 +48,18 @@
             android:visibility="gone" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/rl_tab_background"
+        android:id="@+id/rl_tab_background"
         android:layout_width="80.0dip"
         android:layout_height="wrap_content">
         <ImageView
-            android:id="@id/iv_tab_background"
+            android:id="@+id/iv_tab_background"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:scaleType="centerInside"
             android:src="@drawable/editor_selector_clip_effect_background" />
         <ImageView
-            android:id="@id/iv_vip_label"
+            android:id="@+id/iv_vip_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="-2.0dip"
@@ -68,7 +68,7 @@
             android:layout_toEndOf="@id/iv_tab_background"
             android:layout_toRightOf="@id/iv_tab_background" />
         <View
-            android:id="@id/view_tab_background"
+            android:id="@+id/view_tab_background"
             android:layout_width="30.0dip"
             android:layout_height="3.0dip"
             android:layout_above="@id/iv_tab_background"

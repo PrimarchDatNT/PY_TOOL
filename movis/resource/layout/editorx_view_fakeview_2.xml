@@ -4,23 +4,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <RelativeLayout
-        android:id="@id/editor_fake_layout"
+        android:id="@+id/editor_fake_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true">
         <RelativeLayout
-            android:id="@id/auxiliary_line"
+            android:id="@+id/auxiliary_line"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone">
             <View
-                android:id="@id/left_hori"
+                android:id="@+id/left_hori"
                 android:layout_width="50.0dip"
                 android:layout_height="0.5dip"
                 android:layout_centerVertical="true"
                 android:background="@color/color_ff203d" />
             <View
-                android:id="@id/right_hori"
+                android:id="@+id/right_hori"
                 android:layout_width="50.0dip"
                 android:layout_height="0.5dip"
                 android:layout_alignParentEnd="true"
@@ -28,13 +28,13 @@
                 android:layout_centerVertical="true"
                 android:background="@color/color_ff203d" />
             <View
-                android:id="@id/top_verti"
+                android:id="@+id/top_verti"
                 android:layout_width="0.5dip"
                 android:layout_height="50.0dip"
                 android:layout_centerHorizontal="true"
                 android:background="@color/color_ff203d" />
             <View
-                android:id="@id/bottom_verti"
+                android:id="@+id/bottom_verti"
                 android:layout_width="0.5dip"
                 android:layout_height="50.0dip"
                 android:layout_alignParentBottom="true"

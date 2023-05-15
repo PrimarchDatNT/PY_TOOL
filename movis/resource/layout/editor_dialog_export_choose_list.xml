@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/app_dcolor_bg_dialog">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvTitle"
+        android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/px16"
@@ -19,14 +19,14 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <View
-        android:id="@id/view_indicator_top"
+        android:id="@+id/view_indicator_top"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px1"
         android:layout_marginTop="@dimen/px24"
         android:background="@color/app_dcolor_indicator_2"
         app:layout_constraintTop_toBottomOf="@id/tvTitle" />
     <include
-        android:id="@id/item480"
+        android:id="@+id/item480"
         layout="@layout/editor_dialog_export_choose_list_item"
         android:layout_width="0.0dip"
         android:layout_height="@dimen/px48"
@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/view_indicator_top" />
     <include
-        android:id="@id/item720"
+        android:id="@+id/item720"
         layout="@layout/editor_dialog_export_choose_list_item"
         android:layout_width="0.0dip"
         android:layout_height="@dimen/px48"
@@ -42,7 +42,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/item480" />
     <include
-        android:id="@id/item1080"
+        android:id="@+id/item1080"
         layout="@layout/editor_dialog_export_choose_list_item"
         android:layout_width="0.0dip"
         android:layout_height="@dimen/px48"
@@ -50,19 +50,19 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/item720" />
     <com.videoapp.videomakermaster.ads.ProView
-        android:id="@id/view_pro"
+        android:id="@+id/view_pro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/item1080">
         <include
-            android:id="@id/item2K"
+            android:id="@+id/item2K"
             layout="@layout/editor_dialog_export_choose_list_item"
             android:layout_width="0.0dip"
             android:layout_height="@dimen/px48"
             app:layout_constraintEnd_toEndOf="parrent"
             app:layout_constraintStart_toStartOf="parrent" />
         <include
-            android:id="@id/item4K"
+            android:id="@+id/item4K"
             layout="@layout/editor_dialog_export_choose_list_item"
             android:layout_width="0.0dip"
             android:layout_height="@dimen/px48"
@@ -71,7 +71,7 @@
             app:layout_constraintTop_toBottomOf="@id/item2K" />
     </com.videoapp.videomakermaster.ads.ProView>
     <include
-        android:id="@id/itemGif"
+        android:id="@+id/itemGif"
         layout="@layout/editor_dialog_export_choose_list_item"
         android:layout_width="0.0dip"
         android:layout_height="@dimen/px48"

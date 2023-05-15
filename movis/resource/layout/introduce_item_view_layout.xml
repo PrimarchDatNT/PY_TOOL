@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageView
-        android:id="@id/iv_close"
+        android:id="@+id/iv_close"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_marginStart="15.0dip"
@@ -13,7 +13,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/iv_logo"
+        android:id="@+id/iv_logo"
         android:layout_width="168.0dip"
         android:layout_height="28.0dip"
         android:src="@drawable/introduce_logo"
@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="@id/iv_close" />
     <RelativeLayout
-        android:id="@id/card_view"
+        android:id="@+id/card_view"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:layout_marginStart="30.0dip"
@@ -35,12 +35,12 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/iv_logo">
         <androidx.viewpager.widget.ViewPager
-            android:id="@id/viewPager"
+            android:id="@+id/viewPager"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/ll_dot"
+        android:id="@+id/ll_dot"
         android:layout_width="wrap_content"
         android:layout_height="30.0dip"
         android:orientation="horizontal"
@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <TextView
-        android:id="@id/tv_title"
+        android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40.0dip"
@@ -63,7 +63,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <TextView
-        android:id="@id/tv_desc"
+        android:id="@+id/tv_desc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40.0dip"
@@ -79,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <TextView
-        android:id="@id/apply_btn"
+        android:id="@+id/apply_btn"
         android:layout_width="match_parent"
         android:layout_height="52.0dip"
         android:layout_below="@id/tv_desc"

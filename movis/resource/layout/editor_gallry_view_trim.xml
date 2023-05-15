@@ -4,25 +4,25 @@
     android:layout_height="wrap_content"
     android:layoutDirection="ltr">
     <RelativeLayout
-        android:id="@id/layout_preview_bg"
+        android:id="@+id/layout_preview_bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/color_101010"
         android:visibility="visible">
         <SurfaceView
-            android:id="@id/previewview"
+            android:id="@+id/previewview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clickable="false" />
         <com.github.chrisbanes.photoview.PhotoView
-            android:id="@id/photo_view"
+            android:id="@+id/photo_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clickable="false"
             android:visibility="invisible" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/preview_layout_fake"
+        android:id="@+id/preview_layout_fake"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignStart="@id/layout_preview_bg"
@@ -33,7 +33,7 @@
         android:layout_alignBottom="@id/layout_preview_bg"
         android:background="@color/transparent" />
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@id/ll_trim_video_tools_layout"
+        android:id="@+id/ll_trim_video_tools_layout"
         android:layout_width="47.0dip"
         android:layout_height="wrap_content"
         android:layout_alignWithParentIfMissing="true"
@@ -43,7 +43,7 @@
         android:orientation="vertical"
         android:visibility="invisible">
         <ImageButton
-            android:id="@id/imgbtn_rotate_video_clip"
+            android:id="@+id/imgbtn_rotate_video_clip"
             android:layout_width="32.0dip"
             android:layout_height="32.0dip"
             android:background="@drawable/editor_shape_circle_000000_50"
@@ -53,11 +53,11 @@
             android:layout_width="match_parent"
             android:layout_height="0.0dip" />
         <RelativeLayout
-            android:id="@id/rl_trim"
+            android:id="@+id/rl_trim"
             android:layout_width="47.0dip"
             android:layout_height="42.0dip">
             <ImageButton
-                android:id="@id/imgbtn_trim_clip"
+                android:id="@+id/imgbtn_trim_clip"
                 android:layout_width="32.0dip"
                 android:layout_height="32.0dip"
                 android:layout_alignParentBottom="true"
@@ -65,7 +65,7 @@
                 android:onClick="onClick"
                 android:src="@drawable/editor_icon_gallery_cut" />
             <TextView
-                android:id="@id/tv_video_trim_count"
+                android:id="@+id/tv_video_trim_count"
                 android:layout_width="18.0dip"
                 android:layout_height="18.0dip"
                 android:layout_alignTop="@id/imgbtn_trim_clip"
@@ -82,7 +82,7 @@
         </RelativeLayout>
     </androidx.appcompat.widget.LinearLayoutCompat>
     <ImageButton
-        android:id="@id/imgbtn_rotate_img_clip"
+        android:id="@+id/imgbtn_rotate_img_clip"
         android:layout_width="32.0dip"
         android:layout_height="32.0dip"
         android:layout_alignEnd="@id/layout_preview_bg"
@@ -96,7 +96,7 @@
         android:src="@drawable/editor_icon_gallery_rotate"
         android:visibility="gone" />
     <LinearLayout
-        android:id="@id/clip_trim_container"
+        android:id="@+id/clip_trim_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/layout_preview_bg"
@@ -107,7 +107,7 @@
             android:layout_width="36.0dip"
             android:layout_height="wrap_content" />
         <include
-            android:id="@id/layout_trim_relate"
+            android:id="@+id/layout_trim_relate"
             layout="@layout/editor_clip_trim_layout" />
     </LinearLayout>
     <RelativeLayout
@@ -118,7 +118,7 @@
         android:layout_marginTop="0.0dip"
         android:layoutDirection="ltr">
         <ImageButton
-            android:id="@id/imgbtn_play"
+            android:id="@+id/imgbtn_play"
             android:layout_width="36.0dip"
             android:layout_height="36.0dip"
             android:layout_centerVertical="true"
@@ -137,7 +137,7 @@
         android:layout_marginTop="50.0dip"
         android:visibility="gone" />
     <ImageView
-        android:id="@id/img_avatar"
+        android:id="@+id/img_avatar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/transparent"

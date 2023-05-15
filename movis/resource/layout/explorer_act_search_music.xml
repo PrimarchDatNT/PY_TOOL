@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <FrameLayout
-        android:id="@id/layoutFragment"
+        android:id="@+id/layoutFragment"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         app:layout_constraintBottom_toBottomOf="parrent"

@@ -4,7 +4,7 @@
     android:layout_height="38.0dip"
     android:layout_centerHorizontal="true">
     <RelativeLayout
-        android:id="@id/layout_music_info"
+        android:id="@+id/layout_music_info"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
@@ -21,7 +21,7 @@
                 android:layout_marginLeft="10.0dip"
                 android:src="@drawable/xiaoying_cam_icon_tool_music_control_flag" />
             <com.videoai.aivpcore.xyui.MarqueeTextView
-                android:id="@id/music_title"
+                android:id="@+id/music_title"
                 android:layout_width="180.0dip"
                 android:layout_height="match_parent"
                 android:layout_marginStart="10.0dip"
@@ -49,7 +49,7 @@
         </LinearLayout>
     </RelativeLayout>
     <ProgressBar
-        android:id="@id/progress_bar"
+        android:id="@+id/progress_bar"
         android:layout_width="wrap_content"
         android:layout_height="3.0dip"
         android:layout_alignStart="@id/layout_music_info"

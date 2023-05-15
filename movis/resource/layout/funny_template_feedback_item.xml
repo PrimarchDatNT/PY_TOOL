@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/funny_template_feedback"
+    android:id="@+id/funny_template_feedback"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/transparent"
@@ -15,7 +15,7 @@
         android:textColor="@color/color_8E8E93"
         android:textSize="14.0sp" />
     <TextView
-        android:id="@id/tv_feedback"
+        android:id="@+id/tv_feedback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawablePadding="5.0dip"

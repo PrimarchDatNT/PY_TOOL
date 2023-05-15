@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <LinearLayout
-        android:id="@id/draft_item_layout"
+        android:id="@+id/draft_item_layout"
         android:layout_width="match_parent"
         android:layout_height="120.0dip"
         android:background="@drawable/v4_xiaoying_studio_list_item_bg_selector"
         android:orientation="horizontal">
         <LinearLayout
-            android:id="@id/draft_delete_select_layout"
+            android:id="@+id/draft_delete_select_layout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="16.0dip"
@@ -17,7 +17,7 @@
             android:gravity="center_vertical"
             android:visibility="gone">
             <ImageButton
-                android:id="@id/delete_flag_icon"
+                android:id="@+id/delete_flag_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
@@ -25,7 +25,7 @@
                 android:src="@drawable/edit_btn_del_selector" />
         </LinearLayout>
         <RelativeLayout
-            android:id="@id/studio_layout_left"
+            android:id="@+id/studio_layout_left"
             android:layout_width="90.0dip"
             android:layout_height="90.0dip"
             android:layout_gravity="center_vertical"
@@ -34,7 +34,7 @@
             android:layout_marginTop="15.0dip"
             android:layout_marginBottom="15.0dip">
             <com.videoai.aivpcore.ui.view.RoundImageView
-                android:id="@id/draft_thumb"
+                android:id="@+id/draft_thumb"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerHorizontal="true"
@@ -45,7 +45,7 @@
                 android:layout_alignParentBottom="true"
                 android:background="@drawable/editor_shape_draft_cover_gradient" />
             <TextView
-                android:id="@id/tv_time_duration"
+                android:id="@+id/tv_time_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -57,7 +57,7 @@
                 android:textColor="@color/white"
                 android:textSize="12.0sp" />
             <TextView
-                android:id="@id/tv_slide_flag"
+                android:id="@+id/tv_slide_flag"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -76,7 +76,7 @@
                 android:visibility="gone" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/studio_layout_right"
+            android:id="@+id/studio_layout_right"
             android:layout_width="match_parent"
             android:layout_height="90.0dip"
             android:layout_gravity="center_vertical"
@@ -87,7 +87,7 @@
             android:layout_marginRight="16.0dip"
             android:layout_marginBottom="15.0dip">
             <TextView
-                android:id="@id/tv_create_time"
+                android:id="@+id/tv_create_time"
                 android:layout_width="wrap_content"
                 android:layout_height="24.0dip"
                 android:layout_alignParentStart="true"
@@ -97,7 +97,7 @@
                 android:textColor="@color/black"
                 android:textSize="16.0sp" />
             <TextView
-                android:id="@id/tv_exported"
+                android:id="@+id/tv_exported"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -116,7 +116,7 @@
                 android:textColor="@color/color_006bdf"
                 android:textSize="12.0sp" />
             <TextView
-                android:id="@id/textview_clip_count"
+                android:id="@+id/textview_clip_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@id/tv_exported"
@@ -130,7 +130,7 @@
                 android:textSize="11.0sp"
                 android:visibility="gone" />
             <com.videoai.aivpcore.common.ui.emoji.EmojiconTextView
-                android:id="@id/textview_video_des"
+                android:id="@+id/textview_video_des"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_above="@id/tv_exported"
@@ -143,7 +143,7 @@
                 android:textColor="@color/color_8E8E93"
                 android:textSize="14.0sp" />
             <ImageView
-                android:id="@id/draft_img_delete"
+                android:id="@+id/draft_img_delete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"

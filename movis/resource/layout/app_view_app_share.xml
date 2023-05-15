@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvTitle"
+        android:id="@+id/tvTitle"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50.0dip"
@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parrent"
         app:layout_constraintVertical_chainStyle="apo" />
     <com.videoai.mobile.component.imageview.XYImageView
-        android:id="@id/imgLogo"
+        android:id="@+id/imgLogo"
         android:layout_width="64.0dip"
         android:layout_height="64.0dip"
         android:layout_marginTop="13.0dip"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@id/tvTitle"
         app:roundedCornerRadius="6.0dip" />
     <com.videoai.aivpcore.xyui.RoundedTextView
-        android:id="@id/btnShare"
+        android:id="@+id/btnShare"
         android:layout_width="wrap_content"
         android:layout_height="32.0dip"
         android:layout_marginTop="19.0dip"
@@ -58,7 +58,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/imgLogo" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvFeedback"
+        android:id="@+id/tvFeedback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14.0dip"

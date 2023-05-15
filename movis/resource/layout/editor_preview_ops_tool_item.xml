@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/cover_layout"
+        android:id="@+id/cover_layout"
         android:layout_width="22.0dip"
         android:layout_height="22.0dip"
         android:layout_centerHorizontal="true"
@@ -13,7 +13,7 @@
         autofit:layout_constraintRight_toRightOf="parrent"
         autofit:layout_constraintTop_toTopOf="parrent">
         <ImageView
-            android:id="@id/tool_icon"
+            android:id="@+id/tool_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -21,19 +21,19 @@
             android:scaleType="centerCrop" />
     </RelativeLayout>
     <androidx.constraintlayout.widget.Guideline
-        android:id="@id/gl_ver_center"
+        android:id="@+id/gl_ver_center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         autofit:layout_constraintGuide_percent="0.5" />
     <View
-        android:id="@id/gl_hori_center"
+        android:id="@+id/gl_hori_center"
         android:layout_width="match_parent"
         android:layout_height="0.5px"
         autofit:layout_constraintLeft_toLeftOf="parrent"
         autofit:layout_constraintTop_toTopOf="@id/cover_layout" />
     <ImageView
-        android:id="@id/iv_tool_item_vip_flag"
+        android:id="@+id/iv_tool_item_vip_flag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/editor_icon_vip_16_n"
@@ -42,7 +42,7 @@
         autofit:layout_constraintLeft_toLeftOf="@id/gl_ver_center"
         autofit:layout_constraintTop_toTopOf="@id/gl_hori_center" />
     <ImageView
-        android:id="@id/iv_tool_item_new_flag"
+        android:id="@+id/iv_tool_item_new_flag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/editor_icon_clip_new_flag"
@@ -51,7 +51,7 @@
         autofit:layout_constraintLeft_toLeftOf="@id/gl_ver_center"
         autofit:layout_constraintTop_toTopOf="@id/gl_hori_center" />
     <ImageView
-        android:id="@id/iv_tool_item_free_limit_flag"
+        android:id="@+id/iv_tool_item_free_limit_flag"
         android:layout_width="wrap_content"
         android:layout_height="14.0dip"
         android:scaleType="centerInside"
@@ -60,7 +60,7 @@
         autofit:layout_constraintLeft_toLeftOf="@id/gl_ver_center"
         autofit:layout_constraintTop_toTopOf="@id/gl_hori_center" />
     <ImageView
-        android:id="@id/iv_tool_item_oval_flag"
+        android:id="@+id/iv_tool_item_oval_flag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5.5dip"
@@ -70,7 +70,7 @@
         autofit:layout_constraintRight_toLeftOf="@id/tool_title"
         autofit:layout_constraintTop_toTopOf="@id/tool_title" />
     <com.videoai.aivpcore.common.ui.widgets.autofittextview.AutofitTextView
-        android:id="@id/tool_title"
+        android:id="@+id/tool_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5.0dip"

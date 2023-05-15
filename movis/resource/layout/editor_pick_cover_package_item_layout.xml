@@ -4,29 +4,29 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/main_layout"
+        android:id="@+id/main_layout"
         android:layout_width="75.0dip"
         android:layout_height="75.0dip"
         android:layout_centerVertical="true">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/img_filter_thumb"
+            android:id="@+id/img_filter_thumb"
             android:layout_width="65.0dip"
             android:layout_height="65.0dip"
             android:layout_centerInParent="true"
             attr:actualImageScaleType="o2" />
         <ImageView
-            android:id="@id/img_filter_focus"
+            android:id="@+id/img_filter_focus"
             android:layout_width="70.0dip"
             android:layout_height="70.0dip"
             android:layout_centerInParent="true"
             android:src="@drawable/editor_shape_bubble_bg_filter_single_selected" />
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/download_progress"
+            android:id="@+id/download_progress"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:layout_centerInParent="true" />
         <ImageView
-            android:id="@id/img_new_flag"
+            android:id="@+id/img_new_flag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -36,7 +36,7 @@
             android:src="@drawable/xiaoying_camera_label_new"
             android:visibility="gone" />
         <ImageView
-            android:id="@id/img_download_flag"
+            android:id="@+id/img_download_flag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -47,7 +47,7 @@
             android:src="@drawable/xiaoying_camera_icon_downloadsticker"
             android:visibility="visible" />
         <ImageView
-            android:id="@id/img_lock_flag"
+            android:id="@+id/img_lock_flag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"

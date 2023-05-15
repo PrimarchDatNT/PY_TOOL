@@ -15,7 +15,7 @@
             android:src="@drawable/xiaoying_ve_pip_pop_tools_bg_line"
             android:visibility="gone" />
         <ImageButton
-            android:id="@id/xiaoying_ve_pip_popmenu_btn_pick"
+            android:id="@+id/xiaoying_ve_pip_popmenu_btn_pick"
             android:layout_width="46.0dip"
             android:layout_height="40.0dip"
             android:background="@drawable/editor_selector_pip_replace_tool" />
@@ -26,7 +26,7 @@
             android:src="@drawable/xiaoying_ve_pip_pop_tools_bg_line"
             android:visibility="gone" />
         <CheckBox
-            android:id="@id/xiaoying_ve_pip_popmenu_chkbox_mutevideo"
+            android:id="@+id/xiaoying_ve_pip_popmenu_chkbox_mutevideo"
             android:layout_width="46.0dip"
             android:layout_height="40.0dip"
             android:button="@drawable/editor_selector_pip_video_mute_tool_switch" />
@@ -37,7 +37,7 @@
             android:src="@drawable/xiaoying_ve_pip_pop_tools_bg_line"
             android:visibility="gone" />
         <ImageButton
-            android:id="@id/xiaoying_ve_pip_popmenu_btn_rotate"
+            android:id="@+id/xiaoying_ve_pip_popmenu_btn_rotate"
             android:layout_width="32.0dip"
             android:layout_height="32.0dip"
             android:visibility="gone" />
@@ -48,7 +48,7 @@
             android:src="@drawable/xiaoying_ve_pip_pop_tools_bg_line"
             android:visibility="gone" />
         <ImageButton
-            android:id="@id/xiaoying_ve_pip_popmenu_btn_flip"
+            android:id="@+id/xiaoying_ve_pip_popmenu_btn_flip"
             android:layout_width="32.0dip"
             android:layout_height="32.0dip"
             android:visibility="gone" />

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/surface_layout"
+        android:id="@+id/surface_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
     <LinearLayout
@@ -16,7 +16,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1.0" />
         <View
-            android:id="@id/termination"
+            android:id="@+id/termination"
             android:layout_width="0.0dip"
             android:layout_height="match_parent"
             android:layout_weight="1.0"

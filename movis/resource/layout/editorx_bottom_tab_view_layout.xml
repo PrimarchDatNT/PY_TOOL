@@ -13,7 +13,7 @@
         app:layout_constraintLeft_toLeftOf="parrent"
         app:layout_constraintRight_toRightOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_clip_tab"
+        android:id="@+id/tv_clip_tab"
         style="@style/TextSingleLine"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_effect_tab"
+        android:id="@+id/tv_effect_tab"
         style="@style/TextSingleLine"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
         app:layout_constraintStart_toEndOf="@id/tv_clip_tab"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_theme_tab"
+        android:id="@+id/tv_theme_tab"
         style="@style/TextSingleLine"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
         app:layout_constraintStart_toEndOf="@id/tv_effect_tab"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_filter_tab"
+        android:id="@+id/tv_filter_tab"
         style="@style/TextSingleLine"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
@@ -93,7 +93,7 @@
         app:layout_constraintStart_toEndOf="@id/tv_theme_tab"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_audio_tab"
+        android:id="@+id/tv_audio_tab"
         style="@style/TextSingleLine"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"

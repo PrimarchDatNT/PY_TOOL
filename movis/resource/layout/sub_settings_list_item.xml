@@ -10,7 +10,7 @@
         android:gravity="start|center"
         android:orientation="horizontal">
         <ImageView
-            android:id="@id/check"
+            android:id="@+id/check"
             android:layout_width="@dimen/mcv2_settings_icon_size"
             android:layout_height="@dimen/mcv2_settings_icon_size"
             android:layout_margin="8.0dip"
@@ -22,7 +22,7 @@
         android:gravity="start|center"
         android:orientation="vertical">
         <TextView
-            android:id="@id/text"
+            android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/mcv2_settings_text_height"
             android:paddingStart="2.0dip"

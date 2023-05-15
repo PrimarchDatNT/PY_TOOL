@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <com.videoai.aivpcore.common.ui.emoji.EmojiconTextView
-        android:id="@id/emojicon_icon"
+        android:id="@+id/emojicon_icon"
         android:layout_width="28.0dip"
         android:layout_height="28.0dip"
         android:layout_gravity="center"

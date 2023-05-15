@@ -8,7 +8,7 @@
         android:layout_height="320.0dip"
         android:layout_marginTop="48.0dip">
         <ImageView
-            android:id="@id/imgview_change_tip"
+            android:id="@+id/imgview_change_tip"
             android:layout_width="120.0dip"
             android:layout_height="120.0dip"
             android:layout_centerInParent="true"

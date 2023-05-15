@@ -9,7 +9,7 @@
         android:layout_height="0.5dip"
         app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/audio_bgm_back_btn"
+        android:id="@+id/audio_bgm_back_btn"
         android:layout_width="@dimen/px56"
         android:layout_height="@dimen/px56"
         android:background="@drawable/btn_dcolor_ripple"
@@ -32,14 +32,14 @@
             android:gravity="center"
             android:orientation="horizontal">
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_bgm_add"
+                android:id="@+id/audio_bgm_add"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 android:visibility="visible"
                 app:sitv_bottom_text="@string/xiaoying_str_edit_add_bgm_music_text"
                 app:sitv_top_drawable="@drawable/editorx_audio_bgm_add_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_bgm_volume"
+                android:id="@+id/audio_bgm_volume"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 app:sitv_bottom_text="@string/xiaoying_str_edit_audio_vloume_text"
@@ -47,32 +47,32 @@
                 app:sitv_top_text_color="@drawable/editorx_selector_sitv_text_color"
                 app:sitv_top_type="bac" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_bgm_trim"
+                android:id="@+id/audio_bgm_trim"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 android:visibility="visible"
                 app:sitv_bottom_text="@string/xiaoying_str_ve_basic_trim_title"
                 app:sitv_top_drawable="@drawable/editorx_audio_trim_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_bgm_weaken"
+                android:id="@+id/audio_bgm_weaken"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 app:sitv_bottom_text="@string/xiaoying_str_audio_weaken_text"
                 app:sitv_top_drawable="@drawable/editorx_volume_dialog_weaken_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_bgm_del"
+                android:id="@+id/audio_bgm_del"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 app:sitv_bottom_text="@string/xiaoying_str_com_delete_title"
                 app:sitv_top_drawable="@drawable/editorx_audio_bgm_del_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_bgm_replace"
+                android:id="@+id/audio_bgm_replace"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 app:sitv_bottom_text="@string/xiaoying_str_edit_replace_text"
                 app:sitv_top_drawable="@drawable/editorx_audio_bgm_replace_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_bgm_loop"
+                android:id="@+id/audio_bgm_loop"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 android:visibility="gone"

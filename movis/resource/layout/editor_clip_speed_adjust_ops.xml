@@ -6,7 +6,7 @@
     android:layout_alignParentBottom="true"
     android:background="@android:color/black">
     <include
-        android:id="@id/apply_all_layout"
+        android:id="@+id/apply_all_layout"
         layout="@layout/editor_clip_apply_all_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,7 +15,7 @@
         android:layout_marginTop="12.0dip"
         android:visibility="gone" />
     <TextView
-        android:id="@id/tv_speed_value"
+        android:id="@+id/tv_speed_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/txtseekbar_clip_speed"
@@ -24,13 +24,13 @@
         android:textColor="@android:color/white"
         android:textSize="18.0sp" />
     <com.videoai.aivpcore.ui.view.TextSeekBar
-        android:id="@id/txtseekbar_clip_speed"
+        android:id="@+id/txtseekbar_clip_speed"
         android:layout_width="match_parent"
         android:layout_height="54.0dip"
         android:layout_above="@id/keep_tone_layout"
         android:layout_marginBottom="2.0dip" />
     <LinearLayout
-        android:id="@id/keep_tone_layout"
+        android:id="@+id/keep_tone_layout"
         android:layout_width="wrap_content"
         android:layout_height="20.0dip"
         android:layout_alignParentBottom="true"
@@ -39,7 +39,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <ImageButton
-            android:id="@id/keep_tone_btn"
+            android:id="@+id/keep_tone_btn"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:layout_marginStart="15.0dip"
@@ -59,7 +59,7 @@
             android:textSize="12.0sp" />
     </LinearLayout>
     <com.videoai.aivpcore.editor.widget.terminator.Terminator
-        android:id="@id/teminator"
+        android:id="@+id/teminator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

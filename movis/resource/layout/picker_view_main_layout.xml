@@ -4,17 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.picker.view.CoordinatorContainer
-        android:id="@id/coordinator_root"
+        android:id="@+id/coordinator_root"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
         <FrameLayout
-            android:id="@id/picker_blank"
+            android:id="@+id/picker_blank"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent" />
         <androidx.viewpager.widget.ViewPager
-            android:id="@id/picker_viewpager"
+            android:id="@+id/picker_viewpager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/black"
@@ -27,7 +27,7 @@
         android:layout_centerHorizontal="true"
         android:background="@color/color_141414">
         <com.google.android.material.tabs.TabLayout
-            android:id="@id/picker_tablayout"
+            android:id="@+id/picker_tablayout"
             android:layout_width="wrap_content"
             android:layout_height="44.0dip"
             android:layout_centerHorizontal="true"

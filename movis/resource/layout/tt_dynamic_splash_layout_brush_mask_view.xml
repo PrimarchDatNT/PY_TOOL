@@ -3,17 +3,17 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <FrameLayout
-        android:id="@id/tt_interact_splash_brush_fl"
+        android:id="@+id/tt_interact_splash_brush_fl"
         android:layout_width="300.0dip"
         android:layout_height="60.0dip"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/tt_interact_round_rect">
         <com.bytedance.sdk.component.adexpress.widget.BrushMaskView
-            android:id="@id/tt_interact_splash_brush_mask_view"
+            android:id="@+id/tt_interact_splash_brush_mask_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
         <ImageView
-            android:id="@id/tt_interact_splash_first_step_image"
+            android:id="@+id/tt_interact_splash_first_step_image"
             android:layout_width="150.0dip"
             android:layout_height="30.0dip"
             android:layout_marginLeft="40.0dip"
@@ -34,7 +34,7 @@
                     android:textColor="#ffffffff"
                     android:textSize="20.0sp" />
                 <TextView
-                    android:id="@id/tt_interact_splash_brush_text"
+                    android:id="@+id/tt_interact_splash_brush_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -48,13 +48,13 @@
         </RelativeLayout>
     </FrameLayout>
     <RelativeLayout
-        android:id="@id/tt_interact_splash_brush_hand"
+        android:id="@+id/tt_interact_splash_brush_hand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40.0dip"
         android:layout_marginTop="30.0dip">
         <ImageView
-            android:id="@id/image_hand"
+            android:id="@+id/image_hand"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/tt_splash_hand3" />

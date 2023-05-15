@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/root"
+    android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="@dimen/editor_ops_board_normal_height"
     android:background="@android:color/black">
     <com.videoai.aivpcore.editor.preview.EditorViewPager
-        android:id="@id/vp_preview"
+        android:id="@+id/vp_preview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="20.0dip"
@@ -18,7 +18,7 @@
         android:layout_above="@id/editor_tab"
         android:background="#ff262626" />
     <com.google.android.material.tabs.TabLayout
-        android:id="@id/editor_tab"
+        android:id="@+id/editor_tab"
         android:layout_width="match_parent"
         android:layout_height="44.0dip"
         android:layout_alignParentBottom="true"

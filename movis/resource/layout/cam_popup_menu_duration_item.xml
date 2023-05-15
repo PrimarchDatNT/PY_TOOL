@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/item_layout"
+    android:id="@+id/item_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center">
     <ImageView
-        android:id="@id/popup_item_icon"
+        android:id="@+id/popup_item_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -15,7 +15,7 @@
         android:layout_toRightOf="@id/popup_item_title"
         android:src="@drawable/xiaoying_ve_gallery_title_choose_dot" />
     <TextView
-        android:id="@id/popup_item_title"
+        android:id="@+id/popup_item_title"
         android:layout_width="wrap_content"
         android:layout_height="40.0dip"
         android:layout_centerInParent="true"

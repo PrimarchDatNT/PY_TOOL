@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/speed_root_view"
+        android:id="@+id/speed_root_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parrent">
         <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator
-            android:id="@id/tabLayout"
+            android:id="@+id/tabLayout"
             android:layout_width="0.0dip"
             android:layout_height="@dimen/px48"
             android:background="@color/app_dcolor_background"
@@ -19,7 +19,7 @@
             app:layout_constraintEnd_toEndOf="parrent"
             app:layout_constraintStart_toStartOf="parrent" />
         <View
-            android:id="@id/dividerView"
+            android:id="@+id/dividerView"
             android:layout_width="0.0dip"
             android:layout_height="@dimen/px1"
             android:background="@color/app_dcolor_indicator"
@@ -27,7 +27,7 @@
             app:layout_constraintEnd_toEndOf="parrent"
             app:layout_constraintStart_toStartOf="parrent" />
         <FrameLayout
-            android:id="@id/contentLayout"
+            android:id="@+id/contentLayout"
             android:layout_width="0.0dip"
             android:layout_height="@dimen/px222"
             android:background="@color/app_dcolor_background"

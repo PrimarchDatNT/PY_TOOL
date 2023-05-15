@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:id="@id/tvTitle"
+        android:id="@+id/tvTitle"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_marginLeft="32.0dip"
@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <TextView
-        android:id="@id/tvDesc"
+        android:id="@+id/tvDesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="32.0dip"
@@ -32,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/tvTitle" />
     <TextView
-        android:id="@id/tvExtra"
+        android:id="@+id/tvExtra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="32.0dip"
@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/tvDesc" />
     <TextView
-        android:id="@id/btnMain"
+        android:id="@+id/btnMain"
         android:layout_width="0.0dip"
         android:layout_height="48.0dip"
         android:layout_marginLeft="32.0dip"
@@ -61,7 +61,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/tvExtra" />
     <TextView
-        android:id="@id/btnCancel"
+        android:id="@+id/btnCancel"
         android:layout_width="wrap_content"
         android:layout_height="24.0dip"
         android:layout_marginLeft="52.0dip"
@@ -77,7 +77,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/btnMain" />
     <com.videoai.aivpcore.xyui.RoundedTextView
-        android:id="@id/btnSub"
+        android:id="@+id/btnSub"
         android:layout_width="0.0dip"
         android:layout_height="48.0dip"
         android:layout_marginLeft="32.0dip"
@@ -96,7 +96,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/btnMain" />
     <View
-        android:id="@id/viewBottomGap"
+        android:id="@+id/viewBottomGap"
         android:layout_width="0.0dip"
         android:layout_height="20.0dip"
         app:layout_constraintBottom_toBottomOf="parrent"

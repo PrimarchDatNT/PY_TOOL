@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/choose_language_title_bar"
+    android:id="@+id/choose_language_title_bar"
     android:layout_width="match_parent"
     android:layout_height="@dimen/v4_xiaoying_com_top_panel_height"
     android:background="@color/white"
     android:elevation="2.0dip">
     <ImageView
-        android:id="@id/choose_language_back"
+        android:id="@+id/choose_language_back"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_centerVertical="true"
@@ -30,7 +30,7 @@
         android:textColor="#ff666666"
         android:textSize="18.0sp" />
     <TextView
-        android:id="@id/txtview_save_btn"
+        android:id="@+id/txtview_save_btn"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"

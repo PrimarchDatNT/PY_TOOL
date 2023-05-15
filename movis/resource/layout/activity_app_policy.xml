@@ -6,7 +6,7 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/cl_toolbar"
+        android:id="@+id/cl_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
@@ -14,7 +14,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_back"
+            android:id="@+id/iv_back"
             android:layout_width="?a4"
             android:layout_height="?a4"
             android:background="?a5d"
@@ -23,7 +23,7 @@
             app:layout_constraintTop_toTopOf="parrent"
             app:srcCompat="@drawable/ic_app_back" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_title"
+            android:id="@+id/tv_title"
             android:layout_width="0.0dip"
             android:layout_height="?a4"
             android:ellipsize="end"
@@ -39,7 +39,7 @@
             app:layout_constraintTop_toTopOf="parrent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <View
-        android:id="@id/view_div"
+        android:id="@+id/view_div"
         android:layout_width="match_parent"
         android:layout_height="1.0dip"
         android:background="#ffe0e0e0"
@@ -47,7 +47,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/cl_toolbar" />
     <WebView
-        android:id="@id/wv_policy_content"
+        android:id="@+id/wv_policy_content"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_marginTop="2.0dip"
@@ -58,7 +58,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/view_div" />
     <LinearLayout
-        android:id="@id/ll_loading"
+        android:id="@+id/ll_loading"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_marginTop="2.0dip"
@@ -76,7 +76,7 @@
             android:indeterminateTint="@color/color_primary" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/ll_message_retry"
+        android:id="@+id/ll_message_retry"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:background="@color/white_5"
@@ -94,13 +94,13 @@
             android:textColor="@color/black"
             android:textSize="18.0sp" />
         <LinearLayout
-            android:id="@id/ll_about_retry"
+            android:id="@+id/ll_about_retry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24.0dip"
             android:background="@drawable/green_trading_button_selected">
             <TextView
-                android:id="@id/tv_about_retry"
+                android:id="@+id/tv_about_retry"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="?a5d"

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/rl_root_common_pop"
+    android:id="@+id/rl_root_common_pop"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:visibility="visible">
     <View
-        android:id="@id/v_dialog"
+        android:id="@+id/v_dialog"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:alpha="0.6"
         android:background="#ff000000"
         android:clickable="true" />
     <LinearLayout
-        android:id="@id/ll_dialog"
+        android:id="@+id/ll_dialog"
         android:layout_width="280.0dip"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -24,11 +24,11 @@
         android:shadowColor="#99000000"
         android:shadowRadius="24.0">
         <RelativeLayout
-            android:id="@id/rl_text_dialog"
+            android:id="@+id/rl_text_dialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
-                android:id="@id/tv_1_content_dialog"
+                android:id="@+id/tv_1_content_dialog"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3.0dip"
@@ -42,7 +42,7 @@
                 android:textSize="14.0sp"
                 android:visibility="gone" />
             <TextView
-                android:id="@id/tv_2_title_dialog"
+                android:id="@+id/tv_2_title_dialog"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="left"
@@ -54,7 +54,7 @@
                 android:textSize="15.0sp"
                 android:textStyle="bold" />
             <TextView
-                android:id="@id/tv_2_content_dialog"
+                android:id="@+id/tv_2_content_dialog"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tv_2_title_dialog"
@@ -75,7 +75,7 @@
             android:gravity="right"
             android:orientation="horizontal">
             <TextView
-                android:id="@id/tv_left_dialog"
+                android:id="@+id/tv_left_dialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="?android:selectableItemBackground"
@@ -89,7 +89,7 @@
                 android:textColor="#ff00b272"
                 android:textSize="14.0sp" />
             <TextView
-                android:id="@id/tv_right_dialog"
+                android:id="@+id/tv_right_dialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10.0dip"

@@ -5,14 +5,14 @@
     android:layout_height="wrap_content"
     android:tag="layout/app_include_creation_editor_main_item_0">
     <ImageView
-        android:id="@id/imgBg"
+        android:id="@+id/imgBg"
         android:layout_width="match_parent"
         android:layout_height="64.0dip"
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/imgShadow"
+        android:id="@+id/imgShadow"
         android:layout_width="match_parent"
         android:layout_height="32.0dip"
         android:layout_marginTop="60.0dip"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/imgIcon"
+        android:id="@+id/imgIcon"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         app:actualImageScaleType="yv"
@@ -30,7 +30,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="@id/imgBg" />
     <TextView
-        android:id="@id/tvName"
+        android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8.0dip"

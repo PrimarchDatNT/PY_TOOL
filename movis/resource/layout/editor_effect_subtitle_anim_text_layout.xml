@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/relativelayout_theme_content"
+    android:id="@+id/relativelayout_theme_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rv_bubble_tab"
+        android:id="@+id/rv_bubble_tab"
         android:layout_width="match_parent"
         android:layout_height="40.0dip"
         android:background="@color/color_141414" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rv_anim_text"
+        android:id="@+id/rv_anim_text"
         android:layout_width="match_parent"
         android:layout_height="@dimen/v4_xiaoying_ve_title_addpanel_tab_contenta_height"
         android:layout_below="@id/rv_bubble_tab" />
     <include
-        android:id="@id/relative_layout_roll_download"
+        android:id="@+id/relative_layout_roll_download"
         layout="@layout/editor_effect_bubble_roll_download_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

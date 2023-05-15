@@ -4,11 +4,11 @@
     android:layout_height="match_parent"
     android:background="@android:color/white">
     <RelativeLayout
-        android:id="@id/slide_top_layout"
+        android:id="@+id/slide_top_layout"
         android:layout_width="match_parent"
         android:layout_height="44.0dip">
         <ImageButton
-            android:id="@id/btn_back"
+            android:id="@+id/btn_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -18,7 +18,7 @@
             android:padding="5.0dip"
             android:src="@drawable/app_default_back_black" />
         <TextView
-            android:id="@id/tv_title"
+            android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -39,7 +39,7 @@
         android:background="@android:color/white"
         android:scrollbars="none">
         <LinearLayout
-            android:id="@id/module_container"
+            android:id="@+id/module_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" />
@@ -55,7 +55,7 @@
             android:layout_alignParentTop="true"
             android:background="@color/color_eeeeee" />
         <TextView
-            android:id="@id/btn_preview"
+            android:id="@+id/btn_preview"
             android:layout_width="match_parent"
             android:layout_height="50.0dip"
             android:layout_centerVertical="true"

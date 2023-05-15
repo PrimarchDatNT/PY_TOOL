@@ -4,13 +4,13 @@
     android:layout_height="match_parent"
     android:layout_alignParentBottom="true">
     <RelativeLayout
-        android:id="@id/rlThemeMusicEditor"
+        android:id="@+id/rlThemeMusicEditor"
         android:layout_width="match_parent"
         android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
         android:background="#f2101010">
         <RelativeLayout
-            android:id="@id/layout_2lev_hide"
+            android:id="@+id/layout_2lev_hide"
             android:layout_width="match_parent"
             android:layout_height="44.0dip"
             android:layout_alignParentBottom="true"
@@ -28,7 +28,7 @@
                 android:clickable="false" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/layout_music_select"
+            android:id="@+id/layout_music_select"
             android:layout_width="match_parent"
             android:layout_height="50.0dip"
             android:layout_above="@id/layout_2lev_hide"
@@ -58,7 +58,7 @@
                 android:background="@color/transparent"
                 android:gravity="center">
                 <TextView
-                    android:id="@id/txtview_bgm_name"
+                    android:id="@+id/txtview_bgm_name"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_centerVertical="true"
@@ -79,7 +79,7 @@
                     android:textColor="@color/white"
                     android:textSize="13.0sp" />
                 <LinearLayout
-                    android:id="@id/llMusicEdit"
+                    android:id="@+id/llMusicEdit"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
@@ -91,7 +91,7 @@
                         android:layout_height="20.0dip"
                         android:background="@color/color_707070_p40" />
                     <ImageView
-                        android:id="@id/iv_reset_music"
+                        android:id="@+id/iv_reset_music"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
@@ -103,7 +103,7 @@
                         android:scaleType="centerInside"
                         android:src="@drawable/editor_selector_theme_bgm_recover_icon" />
                     <ImageView
-                        android:id="@id/iv_del_music"
+                        android:id="@+id/iv_del_music"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
@@ -118,20 +118,20 @@
             </RelativeLayout>
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/relativelayout_music_panel"
+            android:id="@+id/relativelayout_music_panel"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/layout_music_select"
             android:background="@color/transparent">
             <com.videoai.aivpcore.editor.effects.music.EditorVolumeSetView
-                android:id="@id/volume_view"
+                android:id="@+id/volume_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerVertical="true" />
         </RelativeLayout>
     </RelativeLayout>
     <FrameLayout
-        android:id="@id/music_container"
+        android:id="@+id/music_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </RelativeLayout>

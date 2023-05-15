@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/cover_photo_recyclerview"
+        android:id="@+id/cover_photo_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="14.0dip"
@@ -14,7 +14,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@id/cover_photo_loading"
+        android:id="@+id/cover_photo_loading"
         android:layout_width="54.0dip"
         android:layout_height="54.0dip"
         android:layout_gravity="center"

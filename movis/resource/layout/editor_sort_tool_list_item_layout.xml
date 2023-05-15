@@ -8,14 +8,14 @@
     android:paddingEnd="10.0dip"
     android:paddingRight="10.0dip">
     <ImageView
-        android:id="@id/item_icon"
+        android:id="@+id/item_icon"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_centerVertical="true"
         android:layout_marginStart="15.0dip"
         android:layout_marginLeft="15.0dip" />
     <TextView
-        android:id="@id/item_text"
+        android:id="@+id/item_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -27,7 +27,7 @@
         android:textColor="@color/white"
         android:textSize="16.0sp" />
     <RelativeLayout
-        android:id="@id/item_button"
+        android:id="@+id/item_button"
         android:layout_width="60.0dip"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"

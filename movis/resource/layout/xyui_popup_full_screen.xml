@@ -4,13 +4,13 @@
     android:layout_height="match_parent"
     android:background="@drawable/xyui_bg_full_screen_toast">
     <ImageView
-        android:id="@id/img_icon"
+        android:id="@+id/img_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:src="@drawable/xyui_icon_portrait_to_land" />
     <TextView
-        android:id="@id/tv_text_01"
+        android:id="@+id/tv_text_01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/img_icon"
@@ -26,14 +26,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12.0dip">
         <TextView
-            android:id="@id/tv_text_02"
+            android:id="@+id/tv_text_02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/xiaoying_str_cam_help_tip_04_02"
             android:textColor="#ffffffff"
             android:textSize="20.0sp" />
         <TextView
-            android:id="@id/tv_text_03"
+            android:id="@+id/tv_text_03"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/tv_text_02"

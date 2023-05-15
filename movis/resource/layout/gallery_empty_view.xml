@@ -4,19 +4,19 @@
     android:layout_height="match_parent"
     android:background="@color/veds_color_bg_black_1">
     <LinearLayout
-        android:id="@id/view_empty"
+        android:id="@+id/view_empty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_empty"
+            android:id="@+id/iv_empty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/editor_studio_draft_empty_bg" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_empty_title"
+            android:id="@+id/tv_empty_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="7.0dip"
@@ -28,20 +28,20 @@
             android:textSize="16.0sp" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/view_error"
+        android:id="@+id/view_error"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:visibility="gone">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_error"
+            android:id="@+id/iv_error"
             android:layout_width="48.0dip"
             android:layout_height="48.0dip"
             android:layout_marginTop="50.0dip"
             android:src="@drawable/gallery_icon_empty" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_error_title"
+            android:id="@+id/tv_error_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="7.0dip"
@@ -50,7 +50,7 @@
             android:textColor="@color/black_p75"
             android:textSize="20.0sp" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_error_desc"
+            android:id="@+id/tv_error_desc"
             style="@style/veds_latn_font_body_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
             android:text="@string/xy_module_gallery_template_emty_second_txt"
             android:textColor="@color/black_p75" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_error_retry"
+            android:id="@+id/tv_error_retry"
             style="@style/veds_latn_font_button_16"
             android:layout_width="match_parent"
             android:layout_height="40.0dip"
@@ -75,21 +75,21 @@
             android:textColor="@color/veds_color_fill_black_6" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/view_loading"
+        android:id="@+id/view_loading"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:visibility="gone">
         <ProgressBar
-            android:id="@id/progressBar"
+            android:id="@+id/progressBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="60.0dip"
             android:indeterminateDrawable="@drawable/gallery_com_progressbar_loading_img"
             android:indeterminateDuration="1000" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_loading"
+            android:id="@+id/tv_loading"
             style="@style/veds_latn_font_headline_20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

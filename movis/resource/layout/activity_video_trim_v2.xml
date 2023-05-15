@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/rl_root"
+    android:id="@+id/rl_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_fa101010">
     <RelativeLayout
-        android:id="@id/layout_preview_bg"
+        android:id="@+id/layout_preview_bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/video_trim_layout_operation"
         android:background="@color/black">
         <com.videoedit.gallery.widget.PlayerView
-            android:id="@id/video_trim_playerview"
+            android:id="@+id/video_trim_playerview"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
         <ImageView
-            android:id="@id/play_icon"
+            android:id="@+id/play_icon"
             android:layout_width="24.0dip"
             android:layout_height="24.0dip"
             android:layout_alignParentBottom="true"
@@ -27,7 +27,7 @@
             android:src="@drawable/editorx_trim_bg_player" />
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/layoutVer"
+        android:id="@+id/layoutVer"
         android:layout_width="64.0dip"
         android:layout_height="wrap_content"
         android:layout_above="@id/video_trim_layout_operation"
@@ -36,14 +36,14 @@
         android:orientation="vertical"
         android:visibility="gone">
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/sitv_reset"
+            android:id="@+id/sitv_reset"
             android:layout_width="64.0dip"
             android:layout_height="match_parent"
             android:layout_gravity="bottom"
             app:sitv_bottom_text="@string/xiaoying_str_edit_reset_text"
             app:sitv_top_drawable="@drawable/editorx_ico_pip_reset" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/sitv_rotate"
+            android:id="@+id/sitv_rotate"
             android:layout_width="64.0dip"
             android:layout_height="match_parent"
             android:layout_gravity="bottom"
@@ -52,7 +52,7 @@
             app:sitv_top_drawable="@drawable/editorx_ico_pip_rotate" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/layoutHor"
+        android:id="@+id/layoutHor"
         android:layout_width="wrap_content"
         android:layout_height="64.0dip"
         android:layout_above="@id/video_trim_layout_operation"
@@ -61,14 +61,14 @@
         android:orientation="horizontal"
         android:visibility="gone">
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/sitv_reset_h"
+            android:id="@+id/sitv_reset_h"
             android:layout_width="64.0dip"
             android:layout_height="match_parent"
             android:layout_gravity="bottom"
             app:sitv_bottom_text="@string/xiaoying_str_edit_reset_text"
             app:sitv_top_drawable="@drawable/editorx_ico_pip_reset" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/sitv_rotate_h"
+            android:id="@+id/sitv_rotate_h"
             android:layout_width="64.0dip"
             android:layout_height="match_parent"
             android:layout_gravity="bottom"
@@ -77,7 +77,7 @@
             app:sitv_top_drawable="@drawable/editorx_ico_pip_rotate" />
     </LinearLayout>
     <ImageView
-        android:id="@id/video_trim_btn_back"
+        android:id="@+id/video_trim_btn_back"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/gallery_title_height"
         android:layout_alignParentStart="true"
@@ -91,7 +91,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/gallery_cropper_back_icon" />
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/video_trim_layout_operation"
+        android:id="@+id/video_trim_layout_operation"
         android:layout_width="match_parent"
         android:layout_height="286.0dip"
         android:layout_alignParentBottom="true"
@@ -99,7 +99,7 @@
         android:clickable="true"
         android:orientation="vertical">
         <View
-            android:id="@id/v_line"
+            android:id="@+id/v_line"
             android:layout_width="match_parent"
             android:layout_height="0.5dip"
             android:layout_marginTop="48.0dip"
@@ -117,7 +117,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@id/cl_bar_pip_trim"
+            android:id="@+id/cl_bar_pip_trim"
             android:layout_width="match_parent"
             android:layout_height="44.0dip"
             android:background="#ff0a0a0a"
@@ -134,7 +134,7 @@
                 app:layout_constraintStart_toStartOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <ImageView
-                android:id="@id/iv_bar_done"
+                android:id="@+id/iv_bar_done"
                 android:layout_width="48.0dip"
                 android:layout_height="28.0dip"
                 android:layout_marginEnd="15.0dip"
@@ -146,20 +146,20 @@
                 app:layout_constraintTop_toTopOf="parrent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <com.videoai.aivpcore.supertimeline.trim.BaseSuperTimeLineForTrim
-            android:id="@id/timelinefortrim"
+            android:id="@+id/timelinefortrim"
             android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:visibility="gone"
             app:layout_constraintBottom_toTopOf="@id/cl_bar_pip_trim"
             app:layout_constraintTop_toBottomOf="@id/v_line" />
         <com.videoai.aivpcore.editorx.board.advancepip.PipTrimCoverView
-            android:id="@id/piptrimcover"
+            android:id="@+id/piptrimcover"
             android:layout_width="match_parent"
             android:layout_height="70.0dip"
             android:layout_marginTop="57.0dip"
             app:layout_constraintTop_toBottomOf="@id/v_line" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_length"
+            android:id="@+id/tv_length"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="37.0dip"
@@ -172,7 +172,7 @@
             app:layout_constraintBottom_toBottomOf="@id/piptrimcover"
             app:layout_constraintStart_toStartOf="parrent" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_flag"
+            android:id="@+id/iv_flag"
             android:layout_width="16.0dip"
             android:layout_height="16.0dip"
             android:layout_marginStart="27.0dip"
@@ -181,7 +181,7 @@
             app:layout_constraintBottom_toTopOf="@id/piptrimcover"
             app:layout_constraintStart_toStartOf="parrent" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_curtime"
+            android:id="@+id/tv_curtime"
             android:layout_width="100.0dip"
             android:layout_height="wrap_content"
             android:layout_marginStart="2.0dip"
@@ -193,7 +193,7 @@
             app:layout_constraintStart_toEndOf="@id/iv_flag"
             app:layout_constraintTop_toTopOf="@id/iv_flag" />
         <com.videoai.aivpcore.editorx.board.advancepip.PipTrimProgressView
-            android:id="@id/piptrimprogress"
+            android:id="@+id/piptrimprogress"
             android:layout_width="match_parent"
             android:layout_height="100.0dip"
             app:layout_constraintBottom_toBottomOf="@id/piptrimcover"

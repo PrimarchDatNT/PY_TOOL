@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center">
     <View
-        android:id="@id/dialog_bg"
+        android:id="@+id/dialog_bg"
         android:layout_width="match_parent"
         android:layout_height="190.0dip"
         android:layout_marginStart="40.0dip"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <com.videoedit.gallery.widget.RoundProgressBar
-        android:id="@id/round_progressBar"
+        android:id="@+id/round_progressBar"
         android:layout_width="48.0dip"
         android:layout_height="48.0dip"
         android:layout_gravity="center_horizontal"
@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="@id/dialog_bg"
         app:layout_constraintTop_toTopOf="@id/dialog_bg" />
     <TextView
-        android:id="@id/tv_progress"
+        android:id="@+id/tv_progress"
         style="@style/veds_latn_font_headline_20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
         app:layout_constraintStart_toStartOf="@id/dialog_bg"
         app:layout_constraintTop_toBottomOf="@id/tv_progress" />
     <ImageButton
-        android:id="@id/btn_close"
+        android:id="@+id/btn_close"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5.5dip"

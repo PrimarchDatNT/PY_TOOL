@@ -9,13 +9,13 @@
     android:paddingEnd="@dimen/px16"
     android:tag="layout/item_premium_offer_0">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/item_backround"
+        android:id="@+id/item_backround"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px64"
         android:layout_marginTop="@dimen/px10"
         android:background="@drawable/bg_premium_offer_price_select">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_sub_time"
+            android:id="@+id/tv_sub_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/px12"
@@ -26,7 +26,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_year_current"
+            android:id="@+id/tv_year_current"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/px12"
@@ -38,7 +38,7 @@
             app:layout_constraintStart_toEndOf="@id/tv_sub_time"
             app:layout_constraintTop_toTopOf="parrent" />
         <LinearLayout
-            android:id="@id/layout_price_year"
+            android:id="@+id/layout_price_year"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/px12"
@@ -55,7 +55,7 @@
                 android:gravity="start|bottom|center"
                 android:orientation="horizontal">
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/tv_year_price"
+                    android:id="@+id/tv_year_price"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="start"
@@ -63,7 +63,7 @@
                     android:textSize="@dimen/sp16"
                     android:textStyle="bold" />
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/tv_month"
+                    android:id="@+id/tv_month"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="start"
@@ -73,7 +73,7 @@
                     android:textStyle="bold" />
             </LinearLayout>
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tv_month_on_year"
+                android:id="@+id/tv_month_on_year"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="start"
@@ -83,7 +83,7 @@
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_sale_title"
+        android:id="@+id/tv_sale_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/px12"

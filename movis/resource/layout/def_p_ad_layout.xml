@@ -16,11 +16,11 @@
             android:layout_margin="5.0dip"
             android:orientation="vertical">
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@id/layout_media_view"
+                android:id="@+id/layout_media_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <FrameLayout
-                    android:id="@id/ad_media"
+                    android:id="@+id/ad_media"
                     android:layout_width="0.0dip"
                     android:layout_height="0.0dip"
                     android:background="#ffe0e0e0"
@@ -30,7 +30,7 @@
                     app:layout_constraintRight_toRightOf="parrent"
                     app:layout_constraintTop_toTopOf="parrent" />
                 <ImageView
-                    android:id="@id/ad_image"
+                    android:id="@+id/ad_image"
                     android:layout_width="0.0dip"
                     android:layout_height="0.0dip"
                     android:background="#ffe0e0e0"
@@ -40,7 +40,7 @@
                     app:layout_constraintRight_toRightOf="parrent"
                     app:layout_constraintTop_toTopOf="parrent" />
                 <ImageView
-                    android:id="@id/iv_listitem_dislike"
+                    android:id="@+id/iv_listitem_dislike"
                     android:layout_width="20.0dip"
                     android:layout_height="20.0dip"
                     android:clickable="true"
@@ -48,33 +48,33 @@
                     app:layout_constraintEnd_toEndOf="parrent"
                     app:layout_constraintTop_toTopOf="parrent" />
                 <RelativeLayout
-                    android:id="@id/rlLogo"
+                    android:id="@+id/rlLogo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintStart_toStartOf="parrent"
                     app:layout_constraintTop_toTopOf="parrent" />
                 <TextView
-                    android:id="@id/adView"
+                    android:id="@+id/adView"
                     style="@style/AdAttribution"
                     app:layout_constraintLeft_toLeftOf="parrent"
                     app:layout_constraintTop_toTopOf="parrent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
             <LinearLayout
-                android:id="@id/ad_des_layout"
+                android:id="@+id/ad_des_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10.0dip"
                 android:gravity="center"
                 android:orientation="horizontal">
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@id/ad_app_icon"
+                    android:id="@+id/ad_app_icon"
                     android:layout_width="45.0dip"
                     android:layout_height="45.0dip"
                     android:layout_centerVertical="true"
                     android:layout_gravity="center_vertical"
                     android:background="#ffe0e0e0" />
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/ad_headline"
+                    android:id="@+id/ad_headline"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5.0dip"
@@ -86,7 +86,7 @@
                     android:textColor="#de000000"
                     android:textSize="16.0sp" />
                 <TextView
-                    android:id="@id/ad_call_to_action"
+                    android:id="@+id/ad_call_to_action"
                     android:layout_width="100.0dip"
                     android:layout_height="35.0dip"
                     android:background="@drawable/ad_cta_button"
@@ -98,7 +98,7 @@
                     android:textSize="12.0sp" />
             </LinearLayout>
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/ad_body"
+                android:id="@+id/ad_body"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5.0dip"

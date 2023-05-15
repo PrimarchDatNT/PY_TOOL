@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <LinearLayout
-        android:id="@id/foot_view_layout"
+        android:id="@+id/foot_view_layout"
         android:layout_width="match_parent"
         android:layout_height="60.0dip"
         android:gravity="center"
         android:orientation="horizontal">
         <ProgressBar
-            android:id="@id/footer_loading"
+            android:id="@+id/footer_loading"
             style="@android:style/Widget.ProgressBar.Small.Inverse"
             android:layout_width="15.0dip"
             android:layout_height="15.0dip"
@@ -17,7 +17,7 @@
             android:indeterminateDrawable="@drawable/xiaoying_com_progressbar_loading_img_new_circle"
             android:indeterminateDuration="1000" />
         <TextView
-            android:id="@id/footview_text"
+            android:id="@+id/footview_text"
             android:layout_width="wrap_content"
             android:layout_height="50.0dip"
             android:layout_gravity="center"
@@ -27,7 +27,7 @@
             android:textColor="@color/color_919191"
             android:textSize="10.0sp" />
         <TextView
-            android:id="@id/footview_text2"
+            android:id="@+id/footview_text2"
             android:layout_width="wrap_content"
             android:layout_height="50.0dip"
             android:layout_gravity="center"
@@ -38,7 +38,7 @@
             android:textColor="@color/color_b3b3b3"
             android:textSize="10.0sp" />
         <TextView
-            android:id="@id/footview_text3"
+            android:id="@+id/footview_text3"
             android:layout_width="wrap_content"
             android:layout_height="50.0dip"
             android:layout_gravity="center"
@@ -49,7 +49,7 @@
             android:textColor="@color/color_b3b3b3"
             android:textSize="10.0sp" />
         <Button
-            android:id="@id/footview_button"
+            android:id="@+id/footview_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -59,7 +59,7 @@
             android:visibility="gone" />
     </LinearLayout>
     <View
-        android:id="@id/viewGap"
+        android:id="@+id/viewGap"
         android:layout_width="match_parent"
         android:layout_height="60.0dip"
         android:layout_below="@id/foot_view_layout"

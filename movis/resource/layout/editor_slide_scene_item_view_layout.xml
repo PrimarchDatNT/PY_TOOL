@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <com.videoai.aivpcore.xyui.RoundedTextView
-        android:id="@id/btn_text_edit"
+        android:id="@+id/btn_text_edit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -19,25 +19,25 @@
         app:VS_CornerRadius="14.0dip"
         app:VS_SolidColor="@color/color_212121" />
     <RelativeLayout
-        android:id="@id/content_layout"
+        android:id="@+id/content_layout"
         android:layout_width="76.0dip"
         android:layout_height="76.0dip"
         android:layout_below="@id/btn_text_edit"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15.0dip">
         <com.videoai.aivpcore.xyui.RoundCornerImageView
-            android:id="@id/iv_cover"
+            android:id="@+id/iv_cover"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
             android:src="@drawable/editor_slide_scene_cover_default"
             app:cornerRadius="2.0dip" />
         <RelativeLayout
-            android:id="@id/focus_layout"
+            android:id="@+id/focus_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <RelativeLayout
-                android:id="@id/edit_layout"
+                android:id="@+id/edit_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/black_p70"
@@ -49,20 +49,20 @@
                     android:src="@drawable/editor_slide_scene_edit_icon" />
             </RelativeLayout>
             <ImageView
-                android:id="@id/focus_mask"
+                android:id="@+id/focus_mask"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/editor_shape_stroke_ff5e13_selected" />
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/detail_layout"
+            android:id="@+id/detail_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:gravity="center_horizontal"
             android:orientation="vertical">
             <ImageButton
-                android:id="@id/btn_insert"
+                android:id="@+id/btn_insert"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
@@ -70,7 +70,7 @@
                 android:padding="7.0dip"
                 android:src="@drawable/editor_slide_scene_insert_icon" />
             <TextView
-                android:id="@id/tv_duration_limit"
+                android:id="@+id/tv_duration_limit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5.0dip"

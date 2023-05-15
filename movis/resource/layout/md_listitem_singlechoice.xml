@@ -12,7 +12,7 @@
     android:paddingEnd="@dimen/md_dialog_frame_margin"
     android:paddingRight="@dimen/md_dialog_frame_margin">
     <androidx.appcompat.widget.AppCompatRadioButton
-        android:id="@id/md_control"
+        android:id="@+id/md_control"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:background="@null"
@@ -20,7 +20,7 @@
         android:focusable="false"
         android:gravity="center_vertical" />
     <TextView
-        android:id="@id/md_title"
+        android:id="@+id/md_title"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:gravity="center_vertical"

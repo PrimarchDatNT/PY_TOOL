@@ -4,18 +4,18 @@
     android:layout_height="wrap_content"
     android:background="@drawable/xiaoying_gallery_list_item_bg_selector">
     <RelativeLayout
-        android:id="@id/item_layout"
+        android:id="@+id/item_layout"
         android:layout_width="match_parent"
         android:layout_height="60.0dip">
         <com.videoai.aivpcore.ui.view.SafeDrawImageView
-            android:id="@id/file_icon"
+            android:id="@+id/file_icon"
             android:layout_width="30.0dip"
             android:layout_height="30.0dip"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:layout_marginStart="15.0dip" />
         <TextView
-            android:id="@id/file_name"
+            android:id="@+id/file_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -27,13 +27,13 @@
             android:textColor="@color/white"
             android:textSize="15.0sp" />
         <RelativeLayout
-            android:id="@id/check_layout"
+            android:id="@+id/check_layout"
             android:layout_width="40.0dip"
             android:layout_height="40.0dip"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true">
             <CheckBox
-                android:id="@id/file_select"
+                android:id="@+id/file_select"
                 style="@style/Explorer_File_Style"
                 android:layout_width="@dimen/px24"
                 android:layout_height="@dimen/px24"
@@ -44,7 +44,7 @@
         </RelativeLayout>
     </RelativeLayout>
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/file_item_divider"
+        android:id="@+id/file_item_divider"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px1"
         android:layout_below="@id/item_layout"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/tt_root_view"
+    android:id="@+id/tt_root_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffffff"
@@ -10,7 +10,7 @@
         android:layout_height="44.0dip"
         android:gravity="center_vertical">
         <ImageView
-            android:id="@id/tt_titlebar_back"
+            android:id="@+id/tt_titlebar_back"
             android:layout_width="40.0dip"
             android:layout_height="44.0dip"
             android:layout_marginStart="8.0dip"
@@ -24,7 +24,7 @@
             android:paddingBottom="12.5dip"
             android:src="@drawable/tt_ad_arrow_backward" />
         <ImageView
-            android:id="@id/tt_titlebar_close"
+            android:id="@+id/tt_titlebar_close"
             android:layout_width="40.0dip"
             android:layout_height="44.0dip"
             android:layout_toEndOf="@id/tt_titlebar_back"
@@ -38,7 +38,7 @@
             android:paddingBottom="14.0dip"
             android:src="@drawable/tt_ad_xmark" />
         <TextView
-            android:id="@id/tt_titlebar_title"
+            android:id="@+id/tt_titlebar_title"
             android:layout_width="191.0dip"
             android:layout_height="24.0dip"
             android:layout_centerVertical="true"
@@ -54,7 +54,7 @@
             android:textColor="#ff222222"
             android:textSize="17.0sp" />
         <ImageView
-            android:id="@id/tt_titlebar_go_to_webview"
+            android:id="@+id/tt_titlebar_go_to_webview"
             android:layout_width="40.0dip"
             android:layout_height="44.0dip"
             android:layout_toStartOf="@id/tt_titlebar_debug_info"
@@ -66,7 +66,7 @@
             android:paddingBottom="12.0dip"
             android:src="@drawable/tt_ad_link" />
         <ImageView
-            android:id="@id/tt_titlebar_debug_info"
+            android:id="@+id/tt_titlebar_debug_info"
             android:layout_width="40.0dip"
             android:layout_height="44.0dip"
             android:layout_alignParentEnd="true"
@@ -80,7 +80,7 @@
             android:paddingBottom="20.0dip"
             android:src="@drawable/tt_ad_threedots" />
         <ProgressBar
-            android:id="@id/tt_titlebar_browser_progress"
+            android:id="@+id/tt_titlebar_browser_progress"
             style="@android:style/Widget.ProgressBar.Horizontal"
             android:layout_width="match_parent"
             android:layout_height="2.0dip"

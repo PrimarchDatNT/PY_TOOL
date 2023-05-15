@@ -4,32 +4,32 @@
     android:layout_height="match_parent"
     android:background="@color/transparent">
     <FrameLayout
-        android:id="@id/card_view"
+        android:id="@+id/card_view"
         android:layout_width="209.0dip"
         android:layout_height="371.0dip"
         android:layout_centerInParent="true"
         android:layout_gravity="center"
         android:background="@drawable/xiaoying_com_round_bg_black">
         <com.videoai.aivpcore.common.ui.video.XYSimpleVideoView
-            android:id="@id/view_video"
+            android:id="@+id/view_video"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/xiaoying_com_round_bg_black">
             <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-                android:id="@id/image_cover"
+                android:id="@+id/image_cover"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffcccccc"
                 android:scaleType="fitCenter" />
             <ImageView
-                android:id="@id/btn_play"
+                android:id="@+id/btn_play"
                 android:layout_width="48.0dip"
                 android:layout_height="48.0dip"
                 android:layout_gravity="center"
                 android:src="@drawable/level_template_icon" />
         </com.videoai.aivpcore.common.ui.video.XYSimpleVideoView>
         <LinearLayout
-            android:id="@id/rl_author"
+            android:id="@+id/rl_author"
             android:layout_width="wrap_content"
             android:layout_height="24.0dip"
             android:layout_gravity="bottom"
@@ -37,14 +37,14 @@
             android:orientation="horizontal"
             android:visibility="gone">
             <ImageView
-                android:id="@id/iv_author"
+                android:id="@+id/iv_author"
                 android:layout_width="16.0dip"
                 android:layout_height="16.0dip"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="8.0dip"
                 android:scaleType="centerCrop" />
             <TextView
-                android:id="@id/tv_author"
+                android:id="@+id/tv_author"
                 style="@style/veds_latn_font_caption_10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

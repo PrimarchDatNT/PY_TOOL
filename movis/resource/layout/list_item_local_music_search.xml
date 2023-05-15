@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/list_item_music_local_scan_layout"
+    android:id="@+id/list_item_music_local_scan_layout"
     android:layout_width="match_parent"
     android:layout_height="52.0dip"
     android:background="@color/color_0a0a0a"
     android:gravity="center"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/music_local_search_filter"
+        android:id="@+id/music_local_search_filter"
         android:layout_width="match_parent"
         android:layout_height="36.0dip"
         android:layout_marginLeft="15.0dip"

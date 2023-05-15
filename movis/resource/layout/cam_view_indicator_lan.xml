@@ -11,7 +11,7 @@
         android:gravity="center"
         android:orientation="horizontal">
         <com.videoai.aivpcore.ui.view.RotateImageView
-            android:id="@id/img_setting"
+            android:id="@+id/img_setting"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1.0"
@@ -19,7 +19,7 @@
             android:src="@drawable/v4_xiaoying_cam_indicator_more_selector"
             rotateView:rotation="270" />
         <com.videoai.aivpcore.ui.view.RotateImageView
-            android:id="@id/img_switch"
+            android:id="@+id/img_switch"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1.0"
@@ -27,14 +27,14 @@
             android:src="@drawable/v4_xiaoying_cam_indicator_switch_selector"
             rotateView:rotation="270" />
         <com.videoai.aivpcore.ui.view.RotateImageView
-            android:id="@id/img_mode"
+            android:id="@+id/img_mode"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1.0"
             android:gravity="center"
             rotateView:rotation="270" />
         <com.videoai.aivpcore.ui.view.RotateImageView
-            android:id="@id/img_effect"
+            android:id="@+id/img_effect"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1.0"
@@ -42,7 +42,7 @@
             android:src="@drawable/v4_xiaoying_cam_indicator_effect_selector"
             rotateView:rotation="270" />
         <ImageView
-            android:id="@id/cam_btn_cancel_capture"
+            android:id="@+id/cam_btn_cancel_capture"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1.0"

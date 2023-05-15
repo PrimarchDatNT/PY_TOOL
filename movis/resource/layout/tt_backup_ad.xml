@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/tt_ad_logo_layout"
+    android:id="@+id/tt_ad_logo_layout"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="horizontal"
     android:padding="1.0dip">
     <ImageView
-        android:id="@id/tt_insert_ad_logo"
+        android:id="@+id/tt_insert_ad_logo"
         android:layout_width="26.0dip"
         android:layout_height="11.0dip"
         android:background="@drawable/tt_ad_logo_new" />

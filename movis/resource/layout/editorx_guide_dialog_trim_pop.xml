@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/rl_content"
+    android:id="@+id/rl_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a6000000">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/v_right"
+        android:id="@+id/v_right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv"
+            android:id="@+id/tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6.0dip"
@@ -23,14 +23,14 @@
             app:layout_constraintLeft_toLeftOf="parrent"
             app:layout_constraintTop_toTopOf="@id/iv_arrow" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_right"
+            android:id="@+id/iv_right"
             android:layout_width="18.0dip"
             android:layout_height="36.0dip"
             android:src="@drawable/editorx_icon_guide_sticker_trim_right"
             app:layout_constraintLeft_toLeftOf="@id/iv_arrow"
             app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_arrow"
+            android:id="@+id/iv_arrow"
             android:layout_width="18.0dip"
             android:layout_height="18.0dip"
             android:layout_marginTop="4.0dip"
@@ -39,7 +39,7 @@
             app:layout_constraintTop_toBottomOf="@id/iv_right" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/v_left"
+        android:id="@+id/v_left"
         android:layout_width="18.0dip"
         android:layout_height="36.0dip"
         android:layout_alignParentLeft="true"

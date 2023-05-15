@@ -13,7 +13,7 @@
         android:layout_marginRight="25.0dip">
         <com.videoai.aivpcore.ui.dialog.MDRootLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@id/md_root_layout"
+            android:id="@+id/md_root_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/v4_xiaoying_com_dialog_bg"

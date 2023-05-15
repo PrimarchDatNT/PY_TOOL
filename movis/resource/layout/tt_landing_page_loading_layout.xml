@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/white">
     <TextView
-        android:id="@id/tt_ad_landing_page_loading_logo"
+        android:id="@+id/tt_ad_landing_page_loading_logo"
         android:layout_width="32.0dip"
         android:layout_height="14.0dip"
         android:layout_gravity="bottom"

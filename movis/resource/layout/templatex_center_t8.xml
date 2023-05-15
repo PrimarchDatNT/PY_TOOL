@@ -24,7 +24,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
-                android:id="@id/tv_title"
+                android:id="@+id/tv_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="19.0dip"
@@ -38,7 +38,7 @@
                 android:layout_marginStart="19.0dip"
                 android:layout_marginTop="8.0dip">
                 <ImageView
-                    android:id="@id/iv_all"
+                    android:id="@+id/iv_all"
                     android:layout_width="17.0dip"
                     android:layout_height="17.0dip"
                     android:layout_alignParentEnd="true"
@@ -46,7 +46,7 @@
                     android:layout_marginEnd="14.0dip"
                     android:src="@drawable/templatex_icon_home_all" />
                 <TextView
-                    android:id="@id/tv_all"
+                    android:id="@+id/tv_all"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
@@ -55,7 +55,7 @@
                     android:textColor="#ff2b9df7"
                     android:textSize="13.0sp" />
                 <TextView
-                    android:id="@id/tv_desc"
+                    android:id="@+id/tv_desc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
@@ -74,11 +74,11 @@
                 android:layout_marginTop="19.0dip"
                 android:orientation="horizontal">
                 <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL
-                    android:id="@id/rllft_8_1"
+                    android:id="@+id/rllft_8_1"
                     android:layout_width="86.0dip"
                     android:layout_height="86.0dip">
                     <ImageView
-                        android:id="@id/iv_8_1"
+                        android:id="@+id/iv_8_1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#fff2f2f2"
@@ -89,7 +89,7 @@
                         android:layout_alignParentBottom="true"
                         android:background="@drawable/templatex_shape_home_t8_shade" />
                     <TextView
-                        android:id="@id/tv_8_1"
+                        android:id="@+id/tv_8_1"
                         android:layout_width="match_parent"
                         android:layout_height="27.0dip"
                         android:layout_alignParentBottom="true"
@@ -97,7 +97,7 @@
                         android:textColor="#ffffffff"
                         android:textSize="12.0sp" />
                     <ImageView
-                        android:id="@id/imgVip1"
+                        android:id="@+id/imgVip1"
                         android:layout_width="wrap_content"
                         android:layout_height="17.0dip"
                         android:layout_alignParentEnd="true"
@@ -107,12 +107,12 @@
                         android:layout_marginRight="6.0dip" />
                 </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
                 <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL
-                    android:id="@id/rllft_8_2"
+                    android:id="@+id/rllft_8_2"
                     android:layout_width="86.0dip"
                     android:layout_height="86.0dip"
                     android:layout_marginStart="12.0dip">
                     <ImageView
-                        android:id="@id/iv_8_2"
+                        android:id="@+id/iv_8_2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#fff2f2f2"
@@ -123,7 +123,7 @@
                         android:layout_alignParentBottom="true"
                         android:background="@drawable/templatex_shape_home_t8_shade" />
                     <TextView
-                        android:id="@id/tv_8_2"
+                        android:id="@+id/tv_8_2"
                         android:layout_width="match_parent"
                         android:layout_height="27.0dip"
                         android:layout_alignParentBottom="true"
@@ -131,7 +131,7 @@
                         android:textColor="#ffffffff"
                         android:textSize="12.0sp" />
                     <ImageView
-                        android:id="@id/imgVip2"
+                        android:id="@+id/imgVip2"
                         android:layout_width="wrap_content"
                         android:layout_height="17.0dip"
                         android:layout_alignParentEnd="true"
@@ -141,12 +141,12 @@
                         android:layout_marginRight="6.0dip" />
                 </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
                 <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL
-                    android:id="@id/rllft_8_3"
+                    android:id="@+id/rllft_8_3"
                     android:layout_width="86.0dip"
                     android:layout_height="86.0dip"
                     android:layout_marginStart="12.0dip">
                     <ImageView
-                        android:id="@id/iv_8_3"
+                        android:id="@+id/iv_8_3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#fff2f2f2"
@@ -157,7 +157,7 @@
                         android:layout_alignParentBottom="true"
                         android:background="@drawable/templatex_shape_home_t8_shade" />
                     <TextView
-                        android:id="@id/tv_8_3"
+                        android:id="@+id/tv_8_3"
                         android:layout_width="match_parent"
                         android:layout_height="27.0dip"
                         android:layout_alignParentBottom="true"
@@ -165,7 +165,7 @@
                         android:textColor="#ffffffff"
                         android:textSize="12.0sp" />
                     <ImageView
-                        android:id="@id/imgVip3"
+                        android:id="@+id/imgVip3"
                         android:layout_width="wrap_content"
                         android:layout_height="17.0dip"
                         android:layout_alignParentEnd="true"
@@ -175,12 +175,12 @@
                         android:layout_marginRight="6.0dip" />
                 </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
                 <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL
-                    android:id="@id/rllft_8_4"
+                    android:id="@+id/rllft_8_4"
                     android:layout_width="86.0dip"
                     android:layout_height="86.0dip"
                     android:layout_marginStart="12.0dip">
                     <ImageView
-                        android:id="@id/iv_8_4"
+                        android:id="@+id/iv_8_4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#fff2f2f2"
@@ -191,7 +191,7 @@
                         android:layout_alignParentBottom="true"
                         android:background="@drawable/templatex_shape_home_t8_shade" />
                     <TextView
-                        android:id="@id/tv_8_4"
+                        android:id="@+id/tv_8_4"
                         android:layout_width="match_parent"
                         android:layout_height="27.0dip"
                         android:layout_alignParentBottom="true"
@@ -199,7 +199,7 @@
                         android:textColor="#ffffffff"
                         android:textSize="12.0sp" />
                     <ImageView
-                        android:id="@id/imgVip4"
+                        android:id="@+id/imgVip4"
                         android:layout_width="wrap_content"
                         android:layout_height="17.0dip"
                         android:layout_alignParentEnd="true"
@@ -216,11 +216,11 @@
                 android:layout_marginTop="12.0dip"
                 android:orientation="horizontal">
                 <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL
-                    android:id="@id/rllft_8_5"
+                    android:id="@+id/rllft_8_5"
                     android:layout_width="86.0dip"
                     android:layout_height="86.0dip">
                     <ImageView
-                        android:id="@id/iv_8_5"
+                        android:id="@+id/iv_8_5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#fff2f2f2"
@@ -231,7 +231,7 @@
                         android:layout_alignParentBottom="true"
                         android:background="@drawable/templatex_shape_home_t8_shade" />
                     <TextView
-                        android:id="@id/tv_8_5"
+                        android:id="@+id/tv_8_5"
                         android:layout_width="match_parent"
                         android:layout_height="27.0dip"
                         android:layout_alignParentBottom="true"
@@ -239,7 +239,7 @@
                         android:textColor="#ffffffff"
                         android:textSize="12.0sp" />
                     <ImageView
-                        android:id="@id/imgVip5"
+                        android:id="@+id/imgVip5"
                         android:layout_width="wrap_content"
                         android:layout_height="17.0dip"
                         android:layout_alignParentEnd="true"
@@ -249,12 +249,12 @@
                         android:layout_marginRight="6.0dip" />
                 </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
                 <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL
-                    android:id="@id/rllft_8_6"
+                    android:id="@+id/rllft_8_6"
                     android:layout_width="86.0dip"
                     android:layout_height="86.0dip"
                     android:layout_marginStart="12.0dip">
                     <ImageView
-                        android:id="@id/iv_8_6"
+                        android:id="@+id/iv_8_6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#fff2f2f2"
@@ -265,7 +265,7 @@
                         android:layout_alignParentBottom="true"
                         android:background="@drawable/templatex_shape_home_t8_shade" />
                     <TextView
-                        android:id="@id/tv_8_6"
+                        android:id="@+id/tv_8_6"
                         android:layout_width="match_parent"
                         android:layout_height="27.0dip"
                         android:layout_alignParentBottom="true"
@@ -273,7 +273,7 @@
                         android:textColor="#ffffffff"
                         android:textSize="12.0sp" />
                     <ImageView
-                        android:id="@id/imgVip6"
+                        android:id="@+id/imgVip6"
                         android:layout_width="wrap_content"
                         android:layout_height="17.0dip"
                         android:layout_alignParentEnd="true"
@@ -283,12 +283,12 @@
                         android:layout_marginRight="6.0dip" />
                 </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
                 <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL
-                    android:id="@id/rllft_8_7"
+                    android:id="@+id/rllft_8_7"
                     android:layout_width="86.0dip"
                     android:layout_height="86.0dip"
                     android:layout_marginStart="12.0dip">
                     <ImageView
-                        android:id="@id/iv_8_7"
+                        android:id="@+id/iv_8_7"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#fff2f2f2"
@@ -299,7 +299,7 @@
                         android:layout_alignParentBottom="true"
                         android:background="@drawable/templatex_shape_home_t8_shade" />
                     <TextView
-                        android:id="@id/tv_8_7"
+                        android:id="@+id/tv_8_7"
                         android:layout_width="match_parent"
                         android:layout_height="27.0dip"
                         android:layout_alignParentBottom="true"
@@ -307,7 +307,7 @@
                         android:textColor="#ffffffff"
                         android:textSize="12.0sp" />
                     <ImageView
-                        android:id="@id/imgVip7"
+                        android:id="@+id/imgVip7"
                         android:layout_width="wrap_content"
                         android:layout_height="17.0dip"
                         android:layout_alignParentEnd="true"
@@ -317,12 +317,12 @@
                         android:layout_marginRight="6.0dip" />
                 </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>
                 <com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL
-                    android:id="@id/rllft_8_8"
+                    android:id="@+id/rllft_8_8"
                     android:layout_width="86.0dip"
                     android:layout_height="86.0dip"
                     android:layout_marginStart="12.0dip">
                     <ImageView
-                        android:id="@id/iv_8_8"
+                        android:id="@+id/iv_8_8"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#fff2f2f2"
@@ -333,7 +333,7 @@
                         android:layout_alignParentBottom="true"
                         android:background="@drawable/templatex_shape_home_t8_shade" />
                     <TextView
-                        android:id="@id/tv_8_8"
+                        android:id="@+id/tv_8_8"
                         android:layout_width="match_parent"
                         android:layout_height="27.0dip"
                         android:layout_alignParentBottom="true"
@@ -341,7 +341,7 @@
                         android:textColor="#ffffffff"
                         android:textSize="12.0sp" />
                     <ImageView
-                        android:id="@id/imgVip8"
+                        android:id="@+id/imgVip8"
                         android:layout_width="wrap_content"
                         android:layout_height="17.0dip"
                         android:layout_alignParentEnd="true"

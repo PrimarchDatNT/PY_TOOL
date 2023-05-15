@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.editorx.widget.LoadingImageView
-        android:id="@id/wrl_icon"
+        android:id="@+id/wrl_icon"
         android:layout_width="@dimen/px24"
         android:layout_height="@dimen/px24"
         android:layout_centerInParent="true"

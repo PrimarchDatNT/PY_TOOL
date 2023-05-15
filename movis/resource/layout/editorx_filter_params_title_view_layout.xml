@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_title"
+        android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -21,7 +21,7 @@
         app:autoSizeMinTextSize="@dimen/editorx_template_group_tiny_textsize"
         app:autoSizeTextType="bjy" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/iv_params_vip"
+        android:id="@+id/iv_params_vip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/tv_title"

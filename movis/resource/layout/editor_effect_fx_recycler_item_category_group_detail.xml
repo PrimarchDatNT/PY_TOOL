@@ -5,14 +5,14 @@
     android:layout_marginEnd="6.0dip"
     android:layout_marginRight="6.0dip">
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/iv_thumb"
+        android:id="@+id/iv_thumb"
         android:layout_width="70.0dip"
         android:layout_height="70.0dip"
         android:layout_centerVertical="true"
         android:padding="5.0dip"
         android:scaleType="fitCenter" />
     <ImageView
-        android:id="@id/iv_vip_func"
+        android:id="@+id/iv_vip_func"
         android:layout_width="20.0dip"
         android:layout_height="20.0dip"
         android:layout_above="@id/iv_thumb"
@@ -24,7 +24,7 @@
         android:src="@drawable/editor_icon_vip_16_n"
         android:visibility="gone" />
     <ImageView
-        android:id="@id/iv_download_flag"
+        android:id="@+id/iv_download_flag"
         android:layout_width="15.0dip"
         android:layout_height="15.0dip"
         android:layout_alignBottom="@id/iv_thumb"
@@ -37,7 +37,7 @@
         android:src="@drawable/editor_icon_effect_fx_item_download"
         android:visibility="visible" />
     <TextView
-        android:id="@id/tv_download_process"
+        android:id="@+id/tv_download_process"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"

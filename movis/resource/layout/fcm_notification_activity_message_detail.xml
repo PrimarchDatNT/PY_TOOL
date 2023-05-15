@@ -6,27 +6,27 @@
     android:background="#ffffffff">
     <include layout="@layout/fcm_notification_view_toolbar" />
     <LinearLayout
-        android:id="@id/fcm_notification_detail_layout_controls"
+        android:id="@+id/fcm_notification_detail_layout_controls"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@id/fcm_notification_toolbar">
         <FrameLayout
-            android:id="@id/fcm_notification_detail_layout_controls_container"
+            android:id="@+id/fcm_notification_detail_layout_controls_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <include layout="@layout/fcm_notification_view_border" />
     </LinearLayout>
     <WebView
-        android:id="@id/fcm_notification_detail_wv_content"
+        android:id="@+id/fcm_notification_detail_wv_content"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_margin="8.0dip"
         app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/fcm_notification_detail_layout_controls" />
     <LinearLayout
-        android:id="@id/fcm_notification_detail_layout_empty"
+        android:id="@+id/fcm_notification_detail_layout_empty"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:background="@color/fcm_notification_detail_retry_background"
@@ -36,7 +36,7 @@
         app:layout_constraintBottom_toBottomOf="@id/fcm_notification_detail_wv_content"
         app:layout_constraintTop_toTopOf="@id/fcm_notification_detail_wv_content">
         <TextView
-            android:id="@id/fcm_notification_detail_tv_error"
+            android:id="@+id/fcm_notification_detail_tv_error"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fcm_notification_detail_retry_message"
@@ -44,7 +44,7 @@
             android:textSize="@dimen/fcm_notification_detail_textsize_retry_message" />
     </LinearLayout>
     <ProgressBar
-        android:id="@id/fcm_notification_detail_pb_loading"
+        android:id="@+id/fcm_notification_detail_pb_loading"
         android:layout_width="@dimen/dp28"
         android:layout_height="@dimen/dp28"
         android:theme="@style/NotificationProgressBar"

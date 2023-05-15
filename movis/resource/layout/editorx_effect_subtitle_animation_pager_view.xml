@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/anim_item_recyclerview"
+        android:id="@+id/anim_item_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/app_dcolor_background" />
     <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleAnimStateView
-        android:id="@id/anim_item_state_view"
+        android:id="@+id/anim_item_state_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone" />

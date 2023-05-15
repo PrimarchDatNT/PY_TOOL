@@ -8,11 +8,11 @@
     android:paddingEnd="5.0dip"
     android:paddingRight="5.0dip">
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/funny_template_img"
+        android:id="@+id/funny_template_img"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
     <TextView
-        android:id="@id/funny_template_tag_tv"
+        android:id="@+id/funny_template_tag_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -30,13 +30,13 @@
         android:textColor="@color/white"
         android:textSize="@dimen/font_size_12sp" />
     <RelativeLayout
-        android:id="@id/title_layout"
+        android:id="@+id/title_layout"
         android:layout_width="match_parent"
         android:layout_height="40.0dip"
         android:layout_alignParentBottom="true"
         android:background="@drawable/editor_shape_funny_template_seeklayout_bg">
         <TextView
-            android:id="@id/funny_template_name_tv"
+            android:id="@+id/funny_template_name_tv"
             android:layout_width="wrap_content"
             android:layout_height="20.0dip"
             android:layout_alignParentBottom="true"

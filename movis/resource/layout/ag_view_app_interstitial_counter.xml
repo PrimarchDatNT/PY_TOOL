@@ -5,12 +5,12 @@
     android:background="@android:color/white"
     android:orientation="vertical">
     <ImageView
-        android:id="@id/ag_campaign_banner"
+        android:id="@+id/ag_campaign_banner"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY" />
     <LinearLayout
-        android:id="@id/ag_iv_close"
+        android:id="@+id/ag_iv_close"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -22,7 +22,7 @@
         android:paddingStart="10.0dip"
         android:paddingEnd="10.0dip">
         <TextView
-            android:id="@id/ag_text_count"
+            android:id="@+id/ag_text_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5.0dip"
@@ -31,7 +31,7 @@
             android:textSize="12.0sp" />
     </LinearLayout>
     <Button
-        android:id="@id/ag_btn_cta"
+        android:id="@+id/ag_btn_cta"
         android:layout_width="match_parent"
         android:layout_height="50.0dip"
         android:layout_alignParentBottom="true"

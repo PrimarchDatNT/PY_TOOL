@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/tt_full_root"
+    android:id="@+id/tt_full_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.bytedance.sdk.openadsdk.component.reward.view.RatioImageView
-        android:id="@id/tt_ratio_image_view"
+        android:id="@+id/tt_ratio_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY" />
     <RelativeLayout
-        android:id="@id/tt_image_full_bar"
+        android:id="@+id/tt_image_full_bar"
         android:layout_width="match_parent"
         android:layout_height="100.0dip"
         android:layout_alignParentBottom="true"
@@ -18,7 +18,7 @@
         android:gravity="center_vertical"
         android:paddingLeft="15.0dip">
         <com.bytedance.sdk.openadsdk.core.widget.TTRoundRectImageView
-            android:id="@id/tt_full_ad_icon"
+            android:id="@+id/tt_full_ad_icon"
             android:layout_width="69.0dip"
             android:layout_height="69.0dip"
             android:layout_alignParentStart="true"
@@ -33,7 +33,7 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
             <TextView
-                android:id="@id/tt_full_ad_app_name"
+                android:id="@+id/tt_full_ad_app_name"
                 android:layout_width="130.0dip"
                 android:layout_height="27.0dip"
                 android:layout_marginStart="14.0dip"
@@ -46,7 +46,7 @@
                 android:textColor="@android:color/black"
                 android:textSize="15.0sp" />
             <TextView
-                android:id="@id/tt_full_desc"
+                android:id="@+id/tt_full_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="14.0dip"
@@ -59,7 +59,7 @@
                 android:textSize="14.0sp" />
         </LinearLayout>
         <TextView
-            android:id="@id/tt_full_ad_download"
+            android:id="@+id/tt_full_ad_download"
             android:layout_width="80.0dip"
             android:layout_height="36.0dip"
             android:layout_alignParentEnd="true"
@@ -73,7 +73,7 @@
             android:textSize="15.0sp" />
     </RelativeLayout>
     <TextView
-        android:id="@id/tt_ad_logo"
+        android:id="@+id/tt_ad_logo"
         android:layout_width="32.0dip"
         android:layout_height="14.0dip"
         android:layout_above="@id/tt_image_full_bar"

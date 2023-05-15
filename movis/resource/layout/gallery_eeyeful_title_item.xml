@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/tv"
+    android:id="@+id/tv"
     style="@style/veds_latn_font_subtitle_12"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

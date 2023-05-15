@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/app_dcolor_bg_1">
     <com.videoedit.widgetlib.magicindicator.MagicIndicator
-        android:id="@id/magicIndicator"
+        android:id="@+id/magicIndicator"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/px40"
         android:layout_gravity="center_horizontal" />

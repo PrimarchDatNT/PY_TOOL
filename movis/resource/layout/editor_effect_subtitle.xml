@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/rl_subtitle_root_layout"
+    android:id="@+id/rl_subtitle_root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.editor.effects.PlayerFakeView
-        android:id="@id/ve_subtitle_transparent_fake_view"
+        android:id="@+id/ve_subtitle_transparent_fake_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/rl_subtitle_op_view"
         android:orientation="vertical" />
     <RelativeLayout
-        android:id="@id/rl_subtitle_op_view"
+        android:id="@+id/rl_subtitle_op_view"
         android:layout_width="match_parent"
         android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
         android:background="@color/black">
         <com.videoai.aivpcore.editor.effects.VideoEditorSeekLayout
-            android:id="@id/ve_subtitle_seek_layout"
+            android:id="@+id/ve_subtitle_seek_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12.0dip" />
@@ -27,7 +27,7 @@
             android:layout_below="@id/ve_subtitle_seek_layout"
             android:layout_centerHorizontal="true">
             <TextView
-                android:id="@id/tv_subtitle_op_btn"
+                android:id="@+id/tv_subtitle_op_btn"
                 android:layout_width="113.0dip"
                 android:layout_height="35.0dip"
                 android:layout_centerInParent="true"
@@ -37,7 +37,7 @@
                 android:textColor="@color/white"
                 android:textSize="16.0sp" />
             <ImageView
-                android:id="@id/iv_subtitle_op_left_btn"
+                android:id="@+id/iv_subtitle_op_left_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -50,14 +50,14 @@
                 android:visibility="gone" />
         </RelativeLayout>
         <include
-            android:id="@id/rl_subtitle_root_bottom_layout"
+            android:id="@+id/rl_subtitle_root_bottom_layout"
             layout="@layout/editor_effect_subtitle_bottom_layout"
             android:layout_width="match_parent"
             android:layout_height="158.0dip"
             android:layout_above="@id/terminator"
             android:visibility="gone" />
         <com.videoai.aivpcore.editor.widget.terminator.Terminator
-            android:id="@id/terminator"
+            android:id="@+id/terminator"
             android:layout_width="match_parent"
             android:layout_height="@dimen/video_editor_terminator_height"
             android:layout_alignParentBottom="true" />

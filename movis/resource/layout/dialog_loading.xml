@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:indeterminateDrawable="@drawable/xy_loading" />
     <TextView
-        android:id="@id/text_loading"
+        android:id="@+id/text_loading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6.0dip"

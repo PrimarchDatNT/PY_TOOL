@@ -9,7 +9,7 @@
         android:background="@color/app_dcolor_bg_1"
         android:orientation="horizontal">
         <FrameLayout
-            android:id="@id/flCreate"
+            android:id="@+id/flCreate"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1.0">
@@ -35,7 +35,7 @@
             android:layout_gravity="center"
             android:background="@color/app_dcolor_indicator_2" />
         <FrameLayout
-            android:id="@id/flMaterial"
+            android:id="@+id/flMaterial"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1.0">

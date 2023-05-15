@@ -6,7 +6,7 @@
     android:paddingTop="@dimen/px20"
     android:paddingBottom="@dimen/px20">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvTitle"
+        android:id="@+id/tvTitle"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/px16"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <include
-        android:id="@id/item480"
+        android:id="@+id/item480"
         layout="@layout/editorx_dialog_export_choose_list_item"
         android:layout_width="0.0dip"
         android:layout_height="52.0dip"
@@ -31,7 +31,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/tvTitle" />
     <include
-        android:id="@id/item720"
+        android:id="@+id/item720"
         layout="@layout/editorx_dialog_export_choose_list_item"
         android:layout_width="0.0dip"
         android:layout_height="52.0dip"
@@ -42,7 +42,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/item480" />
     <include
-        android:id="@id/item1080"
+        android:id="@+id/item1080"
         layout="@layout/editorx_dialog_export_choose_list_item"
         android:layout_width="0.0dip"
         android:layout_height="52.0dip"
@@ -53,7 +53,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/item720" />
     <include
-        android:id="@id/item2K"
+        android:id="@+id/item2K"
         layout="@layout/editorx_dialog_export_choose_list_item"
         android:layout_width="0.0dip"
         android:layout_height="52.0dip"
@@ -64,7 +64,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/item1080" />
     <include
-        android:id="@id/item4K"
+        android:id="@+id/item4K"
         layout="@layout/editorx_dialog_export_choose_list_item"
         android:layout_width="0.0dip"
         android:layout_height="52.0dip"
@@ -75,7 +75,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/item2K" />
     <include
-        android:id="@id/itemGif"
+        android:id="@+id/itemGif"
         layout="@layout/editorx_dialog_export_choose_list_item"
         android:layout_width="0.0dip"
         android:layout_height="52.0dip"

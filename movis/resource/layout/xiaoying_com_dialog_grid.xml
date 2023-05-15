@@ -11,7 +11,7 @@
     android:paddingRight="@dimen/md_dialog_frame_margin"
     android:paddingBottom="@dimen/md_content_padding_top">
     <GridView
-        android:id="@id/gridview"
+        android:id="@+id/gridview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:cacheColorHint="@color/transparent"

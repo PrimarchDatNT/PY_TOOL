@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="44.0dip">
     <RelativeLayout
-        android:id="@id/layout_rotate"
+        android:id="@+id/layout_rotate"
         android:layout_width="70.0dip"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
@@ -11,7 +11,7 @@
         android:background="@color/transparent"
         android:visibility="visible">
         <ImageButton
-            android:id="@id/imgbtn_rotate"
+            android:id="@+id/imgbtn_rotate"
             android:layout_width="22.0dip"
             android:layout_height="22.0dip"
             android:layout_centerInParent="true"
@@ -20,7 +20,7 @@
             android:src="@drawable/editor_video_trim_rotate_btn" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/layout_crop"
+        android:id="@+id/layout_crop"
         android:layout_width="70.0dip"
         android:layout_height="match_parent"
         android:layout_toEndOf="@id/layout_rotate"
@@ -28,7 +28,7 @@
         android:background="@color/transparent"
         android:visibility="visible">
         <ImageButton
-            android:id="@id/imgbtn_crop"
+            android:id="@+id/imgbtn_crop"
             android:layout_width="22.0dip"
             android:layout_height="22.0dip"
             android:layout_centerInParent="true"
@@ -37,7 +37,7 @@
             android:src="@drawable/editor_selector_video_trim_crop" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/layout_trim"
+        android:id="@+id/layout_trim"
         android:layout_width="70.0dip"
         android:layout_height="match_parent"
         android:layout_toEndOf="@id/layout_crop"
@@ -45,7 +45,7 @@
         android:background="@color/transparent"
         android:visibility="visible">
         <ImageButton
-            android:id="@id/btn_start_trim"
+            android:id="@+id/btn_start_trim"
             android:layout_width="22.0dip"
             android:layout_height="22.0dip"
             android:layout_centerInParent="true"
@@ -56,7 +56,7 @@
             android:visibility="visible" />
     </RelativeLayout>
     <Button
-        android:id="@id/imgbtn_import"
+        android:id="@+id/imgbtn_import"
         android:layout_width="wrap_content"
         android:layout_height="27.0dip"
         android:layout_alignParentEnd="true"

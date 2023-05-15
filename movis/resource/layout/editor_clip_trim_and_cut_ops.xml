@@ -5,7 +5,7 @@
     android:background="@color/black"
     android:orientation="vertical">
     <RadioGroup
-        android:id="@id/radio_group"
+        android:id="@+id/radio_group"
         android:layout_width="153.0dip"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -13,7 +13,7 @@
         android:orientation="horizontal"
         android:visibility="visible">
         <RadioButton
-            android:id="@id/trim_button"
+            android:id="@+id/trim_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1.0"
@@ -27,7 +27,7 @@
             android:textColor="@drawable/editor_selector_check_black_white"
             android:textSize="14.0sp" />
         <RadioButton
-            android:id="@id/cut_button"
+            android:id="@+id/cut_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1.0"
@@ -41,20 +41,20 @@
             android:textSize="14.0sp" />
     </RadioGroup>
     <LinearLayout
-        android:id="@id/clip_trim_container"
+        android:id="@+id/clip_trim_container"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_above="@id/terminator"
         android:layout_below="@id/radio_group"
         android:gravity="center_vertical">
         <include
-            android:id="@id/layout_trim_relate"
+            android:id="@+id/layout_trim_relate"
             layout="@layout/editor_clip_trim_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
     <com.videoai.aivpcore.editor.widget.terminator.Terminator
-        android:id="@id/terminator"
+        android:id="@+id/terminator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true" />

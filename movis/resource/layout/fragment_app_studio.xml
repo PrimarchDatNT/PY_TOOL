@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rv_app_video"
+        android:id="@+id/rv_app_video"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipToPadding="false"
         android:paddingBottom="@dimen/px16" />
     <LinearLayout
-        android:id="@id/ll_empty"
+        android:id="@+id/ll_empty"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -21,13 +21,13 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_empty"
+            android:id="@+id/iv_empty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:src="@drawable/editor_studio_draft_empty_bg" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_cta_create_video"
+            android:id="@+id/tv_cta_create_video"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="64.0dip"
@@ -45,7 +45,7 @@
             android:textStyle="bold" />
     </LinearLayout>
     <ProgressBar
-        android:id="@id/loadingView"
+        android:id="@+id/loadingView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parrent"

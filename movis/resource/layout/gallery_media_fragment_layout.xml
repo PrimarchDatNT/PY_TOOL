@@ -3,26 +3,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoedit.gallery.widget.fastscrollview.views.FastScrollRecyclerView
-        android:id="@id/recycler_view"
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/px2"
         android:layout_marginEnd="@dimen/px2"
         android:overScrollMode="never" />
     <LinearLayout
-        android:id="@id/empty_layout"
+        android:id="@+id/empty_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_empty"
+            android:id="@+id/iv_empty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/editor_studio_draft_empty_bg" />
         <TextView
-            android:id="@id/tv_empty_title"
+            android:id="@+id/tv_empty_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/px8"

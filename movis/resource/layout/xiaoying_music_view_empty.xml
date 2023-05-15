@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvHint"
+        android:id="@+id/tvHint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64.0dip"
@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvHint2"
+        android:id="@+id/tvHint2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4.0dip"
@@ -31,7 +31,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/tvHint" />
     <LinearLayout
-        android:id="@id/btnExtractMusic"
+        android:id="@+id/btnExtractMusic"
         android:layout_width="267.0dip"
         android:layout_height="@dimen/px42"
         android:layout_marginTop="32.0dip"
@@ -55,7 +55,7 @@
             android:textSize="@dimen/sp14" />
     </LinearLayout>
     <Space
-        android:id="@id/spaceVip"
+        android:id="@+id/spaceVip"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:layout_marginEnd="14.0dip"
@@ -63,7 +63,7 @@
         app:layout_constraintBottom_toTopOf="@id/btnExtractMusic"
         app:layout_constraintEnd_toEndOf="@id/btnExtractMusic" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/imgVip"
+        android:id="@+id/imgVip"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:layout_marginStart="6.0dip"
@@ -73,7 +73,7 @@
         app:layout_constraintStart_toEndOf="@id/spaceVip"
         app:layout_constraintTop_toTopOf="@id/spaceVip" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/iv_free_of_time_limit"
+        android:id="@+id/iv_free_of_time_limit"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:scaleType="centerCrop"
@@ -81,7 +81,7 @@
         app:layout_constraintLeft_toLeftOf="@id/spaceVip"
         app:layout_constraintTop_toTopOf="@id/spaceVip" />
     <LinearLayout
-        android:id="@id/btnLocalMusic"
+        android:id="@+id/btnLocalMusic"
         android:layout_width="267.0dip"
         android:layout_height="@dimen/px42"
         android:layout_marginTop="32.0dip"

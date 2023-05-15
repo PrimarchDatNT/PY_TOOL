@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.editor.export.beaut.BeautExportComponent
-        android:id="@id/layoutTop"
+        android:id="@+id/layoutTop"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:background="@color/black"
@@ -13,7 +13,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <FrameLayout
-        android:id="@id/layoutBottom"
+        android:id="@+id/layoutBottom"
         android:layout_width="0.0dip"
         android:layout_height="256.0dip"
         android:visibility="gone"
@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/layoutTop" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/btnBack"
+        android:id="@+id/btnBack"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:background="@drawable/btn_dcolor_ripple"
@@ -31,7 +31,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/btnRight"
+        android:id="@+id/btnRight"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:scaleType="centerInside"
@@ -40,7 +40,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/btnCloud"
+        android:id="@+id/btnCloud"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_marginTop="10.0dip"

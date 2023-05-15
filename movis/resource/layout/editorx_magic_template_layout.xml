@@ -6,18 +6,18 @@
     android:layout_gravity="bottom"
     android:background="@color/app_dcolor_background">
     <RelativeLayout
-        android:id="@id/theme_category_layout"
+        android:id="@+id/theme_category_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px42"
         android:orientation="horizontal">
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@id/ops_layout"
+            android:id="@+id/ops_layout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
             android:orientation="horizontal">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tvStore"
+                android:id="@+id/tvStore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -38,7 +38,7 @@
                 app:layout_constraintStart_toStartOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <ImageButton
-                android:id="@id/btn_store"
+                android:id="@+id/btn_store"
                 android:layout_width="0.0dip"
                 android:layout_height="0.0dip"
                 android:background="@drawable/btn_record_view"
@@ -48,24 +48,24 @@
                 app:layout_constraintTop_toTopOf="@id/tvStore" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator
-            android:id="@id/magic_indicator"
+            android:id="@+id/magic_indicator"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_toEndOf="@id/ops_layout" />
     </RelativeLayout>
     <com.videoai.aivpcore.editorx.widget.magic.MagicRecyclerView
-        android:id="@id/magic_recyclerView"
+        android:id="@+id/magic_recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/theme_category_layout" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/recent_recyclerView"
+        android:id="@+id/recent_recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/theme_category_layout"
         android:visibility="gone" />
     <TextView
-        android:id="@id/recent_empty"
+        android:id="@+id/recent_empty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/theme_category_layout"

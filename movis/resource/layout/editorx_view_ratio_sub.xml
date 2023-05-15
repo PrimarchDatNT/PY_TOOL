@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/ratioListView"
+        android:id="@+id/ratioListView"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_marginTop="@dimen/px12"
@@ -13,7 +13,7 @@
         app:layout_constraintBottom_toTopOf="@id/actionBottomBar"
         app:layout_constraintTop_toTopOf="parrent" />
     <com.videoai.aivpcore.editorx.board.clip.widget.TextActionBottomBar
-        android:id="@id/actionBottomBar"
+        android:id="@+id/actionBottomBar"
         android:layout_width="0.0dip"
         android:layout_height="@dimen/px56"
         app:layout_constraintBottom_toBottomOf="parrent"

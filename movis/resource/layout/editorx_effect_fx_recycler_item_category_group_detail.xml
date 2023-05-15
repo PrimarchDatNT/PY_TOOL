@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/layout_main"
+    android:id="@+id/layout_main"
     android:layout_width="@dimen/px80"
     android:layout_height="@dimen/px80">
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@id/iv_thumb"
+        android:id="@+id/iv_thumb"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:scaleType="centerCrop"
         app:shapeAppearanceOverlay="@style/RoundedRect" />
     <ImageView
-        android:id="@id/iv_vip"
+        android:id="@+id/iv_vip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -20,12 +20,12 @@
         android:layout_margin="@dimen/px2"
         android:src="@drawable/ic_diamon_premium" />
     <ImageView
-        android:id="@id/iv_selected"
+        android:id="@+id/iv_selected"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone" />
     <ImageView
-        android:id="@id/iv_download"
+        android:id="@+id/iv_download"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -34,12 +34,12 @@
         android:src="@drawable/editorx_text_typeface_download_icon"
         android:visibility="invisible" />
     <View
-        android:id="@id/layout_choose"
+        android:id="@+id/layout_choose"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/editorx_shape_effect_item_bg_trans_unchoose" />
     <ProgressBar
-        android:id="@id/progress_bar"
+        android:id="@+id/progress_bar"
         style="?android:progressBarStyleHorizontal"
         android:layout_width="@dimen/px48"
         android:layout_height="@dimen/px2"

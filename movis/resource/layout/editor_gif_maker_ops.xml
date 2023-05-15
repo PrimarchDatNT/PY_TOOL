@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/root"
+    android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="@dimen/editor_ops_board_normal_height"
     android:layout_gravity="bottom"
     android:background="@android:color/black">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rc_gifmaker_tool"
+        android:id="@+id/rc_gifmaker_tool"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true" />

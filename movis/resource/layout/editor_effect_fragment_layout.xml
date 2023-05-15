@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/effect_tool_rcview"
+        android:id="@+id/effect_tool_rcview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:overScrollMode="never"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
     <com.videoai.aivpcore.editor.effects.ColorfulSeekLayout
-        android:id="@id/effect_tool_ve_seek"
+        android:id="@+id/effect_tool_ve_seek"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/effect_tool_rcview"

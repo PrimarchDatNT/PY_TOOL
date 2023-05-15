@@ -6,7 +6,7 @@
     android:background="@color/color_141414"
     android:orientation="vertical">
     <com.google.android.material.tabs.TabLayout
-        android:id="@id/tablayout_collage"
+        android:id="@+id/tablayout_collage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40.0dip"

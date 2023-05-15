@@ -3,19 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.editor.effects.PlayerFakeView
-        android:id="@id/watermark_player_faker_view"
+        android:id="@+id/watermark_player_faker_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/rl_watermark_op_view"
         android:orientation="vertical" />
     <RelativeLayout
-        android:id="@id/rl_watermark_op_view"
+        android:id="@+id/rl_watermark_op_view"
         android:layout_width="match_parent"
         android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
         android:background="@color/black">
         <LinearLayout
-            android:id="@id/watermark_title"
+            android:id="@+id/watermark_title"
             android:layout_width="match_parent"
             android:layout_height="40.0dip"
             android:layout_above="@id/terminator"
@@ -23,7 +23,7 @@
             android:background="@color/white_p08"
             android:orientation="horizontal">
             <RelativeLayout
-                android:id="@id/replace_watermark"
+                android:id="@+id/replace_watermark"
                 android:layout_width="50.0dip"
                 android:layout_height="match_parent"
                 android:gravity="center">
@@ -33,7 +33,7 @@
                     android:src="@drawable/editor_btn_effect_custom_watermark" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/watermark_basic"
+                android:id="@+id/watermark_basic"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:background="@color/white_p10"
@@ -45,7 +45,7 @@
                 android:paddingRight="15.0dip"
                 android:paddingBottom="11.0dip">
                 <TextView
-                    android:id="@id/basic_tv"
+                    android:id="@+id/basic_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/xiaoying_str_editor_custom_watermark_basic"
@@ -54,7 +54,7 @@
                     android:textStyle="bold" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/watermark_position"
+                android:id="@+id/watermark_position"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -65,7 +65,7 @@
                 android:paddingRight="15.0dip"
                 android:paddingBottom="11.0dip">
                 <TextView
-                    android:id="@id/pos_tv"
+                    android:id="@+id/pos_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/xiaoying_str_editor_custom_watermark_position"
@@ -75,7 +75,7 @@
             </RelativeLayout>
         </LinearLayout>
         <LinearLayout
-            android:id="@id/watermark_basic_content"
+            android:id="@+id/watermark_basic_content"
             android:layout_width="match_parent"
             android:layout_height="118.0dip"
             android:layout_above="@id/terminator"
@@ -95,7 +95,7 @@
                     android:textColor="@color/color_8E8E93"
                     android:textStyle="bold" />
                 <SeekBar
-                    android:id="@id/watermark_size_degree"
+                    android:id="@+id/watermark_size_degree"
                     android:layout_width="0.0dip"
                     android:layout_height="20.0dip"
                     android:layout_marginEnd="15.0dip"
@@ -126,7 +126,7 @@
                     android:textColor="@color/color_8E8E93"
                     android:textStyle="bold" />
                 <SeekBar
-                    android:id="@id/watermark_alpha_degree"
+                    android:id="@+id/watermark_alpha_degree"
                     android:layout_width="0.0dip"
                     android:layout_height="20.0dip"
                     android:layout_marginEnd="15.0dip"
@@ -145,7 +145,7 @@
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
-            android:id="@id/watermark_position_content"
+            android:id="@+id/watermark_position_content"
             android:layout_width="match_parent"
             android:layout_height="118.0dip"
             android:layout_above="@id/terminator"
@@ -162,7 +162,7 @@
                 android:layout_marginRight="30.0dip"
                 android:layout_weight="1.0">
                 <TextView
-                    android:id="@id/quick_position_title"
+                    android:id="@+id/quick_position_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5.0dip"
@@ -171,7 +171,7 @@
                     android:textSize="14.0sp"
                     android:textStyle="bold" />
                 <com.videoai.aivpcore.editor.effects.customwatermark.CustomWaterMarkQuickPositionView
-                    android:id="@id/quick_position"
+                    android:id="@+id/quick_position"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_below="@id/quick_position_title"
@@ -193,7 +193,7 @@
                     android:textSize="14.0sp"
                     android:textStyle="bold" />
                 <com.videoai.aivpcore.editor.effects.quickposition.PixelMoveControlView
-                    android:id="@id/pixel_move"
+                    android:id="@+id/pixel_move"
                     android:layout_width="102.0dip"
                     android:layout_height="100.0dip"
                     android:layout_alignParentEnd="true"
@@ -203,7 +203,7 @@
             </RelativeLayout>
         </LinearLayout>
         <RelativeLayout
-            android:id="@id/empty_layout"
+            android:id="@+id/empty_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/terminator"
@@ -211,7 +211,7 @@
             android:gravity="center"
             android:visibility="gone">
             <TextView
-                android:id="@id/add_watermark"
+                android:id="@+id/add_watermark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/editor_shape_watermark_add_bg"
@@ -226,7 +226,7 @@
                 android:textSize="16.0sp" />
         </RelativeLayout>
         <com.videoai.aivpcore.editor.widget.terminator.Terminator
-            android:id="@id/terminator"
+            android:id="@+id/terminator"
             android:layout_width="match_parent"
             android:layout_height="@dimen/video_editor_terminator_height"
             android:layout_alignParentBottom="true" />

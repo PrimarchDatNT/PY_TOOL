@@ -18,12 +18,12 @@
             android:layout_height="match_parent"
             app:layout_scrollFlags="azw|wm">
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@id/clTag"
+                android:id="@+id/clTag"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_collapseMode="aps">
                 <androidx.constraintlayout.helper.widget.Flow
-                    android:id="@id/flowLayout"
+                    android:id="@+id/flowLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/px16"
@@ -44,13 +44,13 @@
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rvContent"
+        android:id="@+id/rvContent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingTop="@dimen/px20"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
     <ProgressBar
-        android:id="@id/pbLoading"
+        android:id="@+id/pbLoading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center" />

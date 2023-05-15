@@ -11,7 +11,7 @@
         android:layout_weight="1.0"
         android:duplicateParentState="true">
         <TextView
-            android:id="@id/title"
+            android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -22,7 +22,7 @@
             android:singleLine="true"
             android:textAppearance="?aa6" />
         <TextView
-            android:id="@id/shortcut"
+            android:id="@+id/shortcut"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/title"

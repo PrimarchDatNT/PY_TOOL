@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12.0dip">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/item_cover"
+            android:id="@+id/item_cover"
             android:layout_width="72.0dip"
             android:layout_height="72.0dip"
             android:layout_marginStart="0.5dip"
@@ -17,13 +17,13 @@
             android:src="@color/transparent"
             fresco:placeholderImage="@color/black_p60" />
         <ImageView
-            android:id="@id/iv_focus"
+            android:id="@+id/iv_focus"
             android:layout_width="73.0dip"
             android:layout_height="73.0dip"
             android:src="@drawable/editor_shape_stroke_ff5e13_selected"
             android:visibility="gone" />
         <TextView
-            android:id="@id/item_title"
+            android:id="@+id/item_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignStart="@id/item_cover"

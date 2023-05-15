@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/anim_item_root_layout"
+    android:id="@+id/anim_item_root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/editorx_shape_effect_font_item_bg_unchoose"
     android:gravity="center">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/anim_item_layout"
+        android:id="@+id/anim_item_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parrent"
@@ -15,7 +15,7 @@
         app:layout_constraintRight_toRightOf="parrent"
         app:layout_constraintTop_toTopOf="parrent">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/anim_iv_item"
+            android:id="@+id/anim_iv_item"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="@dimen/px1"
@@ -27,7 +27,7 @@
             app:placeholderImageScaleType="o1"
             app:roundedCornerRadius="@dimen/px6" />
         <TextView
-            android:id="@id/anim_tv_item_name"
+            android:id="@+id/anim_tv_item_name"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -41,7 +41,7 @@
             app:layout_constraintRight_toRightOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <RelativeLayout
-            android:id="@id/rl_progress"
+            android:id="@+id/rl_progress"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/color_66121212"
@@ -51,7 +51,7 @@
             app:layout_constraintRight_toRightOf="parrent"
             app:layout_constraintTop_toTopOf="parrent">
             <ProgressBar
-                android:id="@id/progress_bar"
+                android:id="@+id/progress_bar"
                 style="?android:progressBarStyleHorizontal"
                 android:layout_width="48.0dip"
                 android:layout_height="2.0dip"
@@ -61,7 +61,7 @@
                 android:progressDrawable="@drawable/progress_horizontal_bg" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/anim_layout_refresh"
+            android:id="@+id/anim_layout_refresh"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/white_p20"
@@ -80,7 +80,7 @@
         </RelativeLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <ImageView
-        android:id="@id/anim_none_item"
+        android:id="@+id/anim_none_item"
         android:layout_width="@dimen/px24"
         android:layout_height="@dimen/px24"
         android:background="@drawable/btn_dcolor_ripple"
@@ -92,7 +92,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/anim_iv_download_flag"
+        android:id="@+id/anim_iv_download_flag"
         android:layout_width="@dimen/px16"
         android:layout_height="@dimen/px16"
         android:layout_margin="@dimen/px2"
@@ -104,7 +104,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone">
         <ImageView
-            android:id="@id/iv_tag"
+            android:id="@+id/iv_tag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"

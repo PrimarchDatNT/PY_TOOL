@@ -4,10 +4,10 @@
     android:layout_height="match_parent"
     android:clipChildren="false">
     <include
-        android:id="@id/music_empty_view"
+        android:id="@+id/music_empty_view"
         layout="@layout/template_music_empty_view" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/xiaoying_music_local_list"
+        android:id="@+id/xiaoying_music_local_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </RelativeLayout>

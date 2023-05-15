@@ -6,7 +6,7 @@
     android:background="@color/color_141414"
     android:clickable="true">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/tpc_view_top_layout"
+        android:id="@+id/tpc_view_top_layout"
         android:layout_width="wrap_content"
         android:layout_height="38.0dip"
         android:layout_marginTop="25.0dip"
@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent">
         <LinearLayout
-            android:id="@id/tpc_trim"
+            android:id="@+id/tpc_trim"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24.0dip"
@@ -27,12 +27,12 @@
             app:layout_constraintRight_toLeftOf="@id/tcp_first_function"
             app:layout_constraintTop_toTopOf="parrent">
             <ImageView
-                android:id="@id/tcp_iv_trim"
+                android:id="@+id/tcp_iv_trim"
                 android:layout_width="16.0dip"
                 android:layout_height="16.0dip"
                 android:src="@drawable/editorx_kit_clip_trim" />
             <TextView
-                android:id="@id/tcp_tv_trim"
+                android:id="@+id/tcp_tv_trim"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6.0dip"
@@ -41,7 +41,7 @@
                 android:textSize="16.0sp" />
         </LinearLayout>
         <View
-            android:id="@id/tcp_first_function"
+            android:id="@+id/tcp_first_function"
             android:layout_width="1.0dip"
             android:layout_height="12.0dip"
             android:layout_marginStart="16.0dip"
@@ -53,7 +53,7 @@
             app:layout_constraintRight_toLeftOf="@id/tcp_replace"
             app:layout_constraintTop_toTopOf="parrent" />
         <LinearLayout
-            android:id="@id/tcp_replace"
+            android:id="@+id/tcp_replace"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -64,12 +64,12 @@
             app:layout_constraintRight_toLeftOf="@id/tcp_second_function"
             app:layout_constraintTop_toTopOf="parrent">
             <ImageView
-                android:id="@id/tcp_iv_replace"
+                android:id="@+id/tcp_iv_replace"
                 android:layout_width="16.0dip"
                 android:layout_height="16.0dip"
                 android:src="@drawable/editorx_kit_clip_replace" />
             <TextView
-                android:id="@id/tcp_tv_replace"
+                android:id="@+id/tcp_tv_replace"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6.0dip"
@@ -78,7 +78,7 @@
                 android:textSize="16.0sp" />
         </LinearLayout>
         <View
-            android:id="@id/tcp_second_function"
+            android:id="@+id/tcp_second_function"
             android:layout_width="1.0dip"
             android:layout_height="12.0dip"
             android:layout_marginStart="16.0dip"
@@ -90,7 +90,7 @@
             app:layout_constraintRight_toLeftOf="@id/tcp_mute"
             app:layout_constraintTop_toTopOf="parrent" />
         <LinearLayout
-            android:id="@id/tcp_mute"
+            android:id="@+id/tcp_mute"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="24.0dip"
@@ -102,12 +102,12 @@
             app:layout_constraintRight_toRightOf="parrent"
             app:layout_constraintTop_toTopOf="parrent">
             <ImageView
-                android:id="@id/tcp_iv_mute"
+                android:id="@+id/tcp_iv_mute"
                 android:layout_width="16.0dip"
                 android:layout_height="16.0dip"
                 android:src="@drawable/super_timeline_audio_open_all" />
             <TextView
-                android:id="@id/tcp_tv_mute"
+                android:id="@+id/tcp_tv_mute"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6.0dip"
@@ -117,7 +117,7 @@
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <com.videoai.aivpcore.supertimeline.view.KitTimeLine
-        android:id="@id/tcp_kitTimeline"
+        android:id="@+id/tcp_kitTimeline"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

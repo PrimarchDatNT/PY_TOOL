@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/layout_selectmedia"
+    android:id="@+id/layout_selectmedia"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black_p80">
     <ImageView
-        android:id="@id/imgview_btn_cancel"
+        android:id="@+id/imgview_btn_cancel"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentEnd="true"
@@ -15,7 +15,7 @@
         android:layout_marginRight="10.0dip"
         android:background="@drawable/v4_xiaoying_cam_btn_cam_cancel_selector" />
     <TextView
-        android:id="@id/txtview_export_progress"
+        android:id="@+id/txtview_export_progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -26,7 +26,7 @@
         android:textColor="@color/white"
         android:textSize="18.0dip" />
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/dyimgview_export_animate"
+        android:id="@+id/dyimgview_export_animate"
         android:layout_width="163.0dip"
         android:layout_height="81.0dip"
         android:layout_alignStart="@id/txtview_export_progress"

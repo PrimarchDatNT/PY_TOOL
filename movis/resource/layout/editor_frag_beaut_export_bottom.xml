@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.editor.export.beaut.VideoDescEditorView
-        android:id="@id/layoutDesc"
+        android:id="@+id/layoutDesc"
         android:layout_width="0.0dip"
         android:layout_height="50.0dip"
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <View
-        android:id="@id/viewDivider"
+        android:id="@+id/viewDivider"
         android:layout_width="0.0dip"
         android:layout_height="0.5dip"
         android:background="@color/color_eeeeee"
@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/layoutDesc" />
     <com.videoai.aivpcore.editor.export.beaut.ExportTipsView
-        android:id="@id/layoutTips"
+        android:id="@+id/layoutTips"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         app:layout_constraintBottom_toBottomOf="parrent"
@@ -29,7 +29,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/viewDivider" />
     <com.videoai.aivpcore.editor.share.ExportShareView
-        android:id="@id/layoutShare"
+        android:id="@+id/layoutShare"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:visibility="invisible"

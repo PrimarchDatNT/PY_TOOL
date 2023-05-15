@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:tag="layout/activity_camerax_0">
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@id/btn_rec"
+        android:id="@+id/btn_rec"
         android:layout_width="@dimen/px80"
         android:layout_height="@dimen/px80"
         android:layout_alignParentBottom="true"

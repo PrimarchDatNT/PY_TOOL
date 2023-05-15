@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.videoedit.gallery.widget.CustomSizeFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/layout"
+    android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/iv_gif"
+        android:id="@+id/iv_gif"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/gallery_border_item"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <TextView
-        android:id="@id/tv_gif_tag"
+        android:id="@+id/tv_gif_tag"
         style="@style/veds_latn_font_caption_10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,20 +33,20 @@
         android:text="@string/xy_module_tag_gif"
         android:textColor="@color/veds_color_fill_white_1" />
     <ImageView
-        android:id="@id/iv_download"
+        android:id="@+id/iv_download"
         android:layout_width="16.0dip"
         android:layout_height="16.0dip"
         android:layout_gravity="center|left|top"
         android:src="@drawable/gallery_icon_giphy_download"
         android:visibility="gone" />
     <View
-        android:id="@id/select_bg"
+        android:id="@+id/select_bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/gallery_shape_item_hover"
         android:visibility="gone" />
     <ImageView
-        android:id="@id/preview_icon"
+        android:id="@+id/preview_icon"
         android:layout_width="20.0dip"
         android:layout_height="20.0dip"
         android:layout_gravity="end|bottom|center"
@@ -55,7 +55,7 @@
         android:src="@drawable/gallery_media_photo_preview_icon"
         android:visibility="gone" />
     <TextView
-        android:id="@id/tv_order"
+        android:id="@+id/tv_order"
         style="@style/veds_latn_font_headline_28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -4,13 +4,13 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <CheckBox
-        android:id="@id/test_checkbox_android_button_tint"
+        android:id="@+id/test_checkbox_android_button_tint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="?android:colorBackground"
         android:buttonTint="@color/checkbox_themeable_attribute_color" />
     <CheckBox
-        android:id="@id/test_checkbox_app_button_tint"
+        android:id="@+id/test_checkbox_app_button_tint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="?android:colorBackground"

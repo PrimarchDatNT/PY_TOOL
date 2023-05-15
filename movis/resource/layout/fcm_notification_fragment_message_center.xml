@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/fcm_notification_center_rv_message"
+        android:id="@+id/fcm_notification_center_rv_message"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:clipToPadding="false"
@@ -13,7 +13,7 @@
         android:scrollbars="vertical"
         app:layout_constraintTop_toTopOf="parrent" />
     <LinearLayout
-        android:id="@id/layout_empty"
+        android:id="@+id/layout_empty"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:gravity="center"
@@ -36,7 +36,7 @@
             android:textSize="@dimen/fcm_notification_center_textsize_empty" />
     </LinearLayout>
     <ProgressBar
-        android:id="@id/fcm_notification_pb_loading"
+        android:id="@+id/fcm_notification_pb_loading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:theme="@style/NotificationProgressBar"
@@ -45,7 +45,7 @@
         app:layout_constraintRight_toRightOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <FrameLayout
-        android:id="@id/fcm_notification_center_layout_ad"
+        android:id="@+id/fcm_notification_center_layout_ad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:focusableInTouchMode="true"

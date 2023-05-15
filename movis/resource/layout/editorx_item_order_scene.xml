@@ -4,14 +4,14 @@
     android:layout_width="@dimen/px68"
     android:layout_height="@dimen/px68">
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@id/iv_scene"
+        android:id="@+id/iv_scene"
         android:layout_width="@dimen/px68"
         android:layout_height="@dimen/px68"
         android:scaleType="centerCrop"
         android:src="@drawable/app_logon_2"
         app:shapeAppearanceOverlay="@style/RoundedRectItem" />
     <TextView
-        android:id="@id/tv_scene_num"
+        android:id="@+id/tv_scene_num"
         android:layout_width="@dimen/px20"
         android:layout_height="@dimen/px16"
         android:layout_marginStart="@dimen/px6"

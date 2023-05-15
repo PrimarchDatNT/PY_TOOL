@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/root_view"
+    android:id="@+id/root_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ProgressBar
-        android:id="@id/progressBar"
+        android:id="@+id/progressBar"
         style="?android:progressBarStyleHorizontal"
         android:layout_width="270.0dip"
         android:layout_height="3.0dip"
@@ -13,14 +13,14 @@
         android:progress="0"
         android:progressDrawable="@drawable/kwai_webview_loading_line" />
     <RelativeLayout
-        android:id="@id/webview_area"
+        android:id="@+id/webview_area"
         android:layout_width="291.0dip"
         android:layout_height="285.0dip"
         android:layout_centerInParent="true"
         android:background="@drawable/kwai_login_bg"
         android:padding="4.0dip">
         <WebView
-            android:id="@id/webview"
+            android:id="@+id/webview"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </RelativeLayout>

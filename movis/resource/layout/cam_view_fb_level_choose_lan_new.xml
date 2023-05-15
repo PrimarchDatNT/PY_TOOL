@@ -4,11 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.camera.ui.view.seekbar.DraggableSeekBar
-        android:id="@id/txtseekbar_fb_level"
+        android:id="@+id/txtseekbar_fb_level"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
     <com.videoai.aivpcore.ui.view.RotateTextView
-        android:id="@id/txt_title"
+        android:id="@+id/txt_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

@@ -3,21 +3,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/layout_search"
+        android:id="@+id/layout_search"
         android:layout_width="match_parent"
         android:layout_height="35.0dip"
         android:layout_marginStart="15.0dip"
         android:layout_marginEnd="15.0dip"
         android:background="@drawable/editorx_shape_galley_gif_search">
         <ImageView
-            android:id="@id/iv_search"
+            android:id="@+id/iv_search"
             android:layout_width="16.0dip"
             android:layout_height="16.0dip"
             android:layout_centerVertical="true"
             android:layout_marginStart="16.0dip"
             android:src="@drawable/editorx_icon_search" />
         <com.videoai.aivpcore.editorx.widget.UKeyBackEditText
-            android:id="@id/btn_search_gif"
+            android:id="@+id/btn_search_gif"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="8.0dip"
@@ -34,7 +34,7 @@
             android:textSize="14.0sp" />
     </RelativeLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/recycler_choose_gif"
+        android:id="@+id/recycler_choose_gif"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/layout_search"
@@ -44,7 +44,7 @@
         android:layout_marginEnd="15.0dip"
         android:visibility="visible" />
     <LinearLayout
-        android:id="@id/layout_loading"
+        android:id="@+id/layout_loading"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"

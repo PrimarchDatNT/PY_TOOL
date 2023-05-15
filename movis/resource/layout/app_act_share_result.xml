@@ -6,7 +6,7 @@
     android:background="@color/white"
     android:tag="layout/app_act_share_result_0">
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/imgCover"
+        android:id="@+id/imgCover"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:layout_marginTop="12.0dip"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parrent"
         app:roundedCornerRadius="8.0dip" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvShareTitle"
+        android:id="@+id/tvShareTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12.0dip"
@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <com.videoai.aivpcore.sns.ui.SnsShareListView
-        android:id="@id/layoutShare"
+        android:id="@+id/layoutShare"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:tag="binding_2"
@@ -41,7 +41,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <com.videoai.aivpcore.xyui.RoundedRelativeLayout
-        android:id="@id/layoutAds"
+        android:id="@+id/layoutAds"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15.0dip"
@@ -53,7 +53,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <TextView
-        android:id="@id/btnBack"
+        android:id="@+id/btnBack"
         android:layout_width="match_parent"
         android:layout_height="48.0dip"
         android:layout_marginLeft="36.0dip"

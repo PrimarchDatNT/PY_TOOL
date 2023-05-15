@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/nav_effect_item_layout"
+    android:id="@+id/nav_effect_item_layout"
     android:layout_width="@dimen/video_editor_terminator_height"
     android:layout_height="@dimen/video_editor_terminator_height"
     android:background="@drawable/com_md_ripple_transparent_bg_drawable"
     android:orientation="vertical">
     <ImageView
-        android:id="@id/nav_effect_item_iv"
+        android:id="@+id/nav_effect_item_iv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="8.0dip"
         android:scaleType="centerInside" />
     <TextView
-        android:id="@id/nav_effect_item_tv"
+        android:id="@+id/nav_effect_item_tv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="8.0dip"
@@ -21,7 +21,7 @@
         android:textColor="@color/color_8E8E93"
         android:textSize="16.0sp" />
     <ImageView
-        android:id="@id/nav_effect_item_iv_selected"
+        android:id="@+id/nav_effect_item_iv_selected"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

@@ -4,13 +4,13 @@
     android:layout_height="101.0dip"
     android:layout_marginTop="-2.0dip">
     <RelativeLayout
-        android:id="@id/video_editor_seek_time_layout"
+        android:id="@+id/video_editor_seek_time_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5.0dip"
         android:background="@color/transparent">
         <TextView
-            android:id="@id/video_editor_seek_current_time"
+            android:id="@+id/video_editor_seek_current_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -19,7 +19,7 @@
             android:textColor="@color/white"
             android:textSize="10.0sp" />
         <TextView
-            android:id="@id/video_editor_seek_duration"
+            android:id="@+id/video_editor_seek_duration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -33,7 +33,7 @@
             android:textSize="10.0sp" />
     </RelativeLayout>
     <com.videoai.aivpcore.editor.widget.timeline.VeGallery2
-        android:id="@id/video_editor_seek_gallery"
+        android:id="@+id/video_editor_seek_gallery"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/transparent"
@@ -42,7 +42,7 @@
         android:spacing="0.0dip"
         android:unselectedAlpha="1.0" />
     <ImageView
-        android:id="@id/video_editor_seek_play"
+        android:id="@+id/video_editor_seek_play"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
@@ -55,7 +55,7 @@
         android:scaleType="center"
         android:src="@drawable/v5_xiaoying_ve_preview_play_btn" />
     <ImageView
-        android:id="@id/bg_add_clip_btn"
+        android:id="@+id/bg_add_clip_btn"
         android:layout_width="75.0dip"
         android:layout_height="match_parent"
         android:layout_below="@id/video_editor_seek_time_layout"
@@ -63,7 +63,7 @@
         android:layout_alignParentRight="true"
         android:background="@drawable/editor_shape_clip_add_bg" />
     <ImageView
-        android:id="@id/video_editor_effect_add_clip"
+        android:id="@+id/video_editor_effect_add_clip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

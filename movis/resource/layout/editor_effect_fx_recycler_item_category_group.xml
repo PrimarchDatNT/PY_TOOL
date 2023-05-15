@@ -4,13 +4,13 @@
     android:layout_height="40.0dip"
     android:scaleType="centerInside">
     <ImageView
-        android:id="@id/iv_thumb"
+        android:id="@+id/iv_thumb"
         android:layout_width="50.0dip"
         android:layout_height="40.0dip"
         android:background="@color/transparent"
         android:scaleType="centerInside" />
     <TextView
-        android:id="@id/tv_title"
+        android:id="@+id/tv_title"
         android:layout_width="50.0dip"
         android:layout_height="40.0dip"
         android:background="@color/transparent"

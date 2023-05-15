@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <View
-        android:id="@id/viewContentBg"
+        android:id="@+id/viewContentBg"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px214"
         android:background="@color/app_dcolor_background"
@@ -12,7 +12,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <TextView
-        android:id="@id/tv_watermark_alpha"
+        android:id="@+id/tv_watermark_alpha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14.0dip"
@@ -22,14 +22,14 @@
         app:layout_constraintLeft_toLeftOf="parrent"
         app:layout_constraintTop_toTopOf="@id/viewContentBg" />
     <View
-        android:id="@id/v_anchor"
+        android:id="@+id/v_anchor"
         android:layout_width="1.0dip"
         android:layout_height="1.0dip"
         android:layout_marginTop="44.0dip"
         app:layout_constraintLeft_toLeftOf="parrent"
         app:layout_constraintTop_toTopOf="@id/viewContentBg" />
     <com.videoai.aivpcore.editorx.widget.seekbar.PopSeekBar
-        android:id="@id/pop_seek_bar"
+        android:id="@+id/pop_seek_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5.0dip"
@@ -48,7 +48,7 @@
         app:psb_top_text_color="@color/color_212121"
         app:psb_top_text_size="10.0dip" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rv_watermark"
+        android:id="@+id/rv_watermark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
@@ -58,7 +58,7 @@
         app:layout_constraintTop_toTopOf="@id/viewContentBg"
         app:spanCount="4" />
     <com.videoai.aivpcore.editorx.board.clip.widget.TextActionBottomBar
-        android:id="@id/actionBottomBar"
+        android:id="@+id/actionBottomBar"
         android:layout_width="0.0dip"
         android:layout_height="44.0dip"
         app:layout_constraintBottom_toBottomOf="parrent"

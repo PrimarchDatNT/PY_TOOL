@@ -5,7 +5,7 @@
     android:paddingStart="@dimen/px6"
     android:paddingEnd="@dimen/px6">
     <TextView
-        android:id="@id/tv"
+        android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -17,7 +17,7 @@
         android:paddingBottom="@dimen/px6"
         android:textColor="@color/text_selector_tab" />
     <View
-        android:id="@id/v_select"
+        android:id="@+id/v_select"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:background="@drawable/editorx_shape_template_title" />

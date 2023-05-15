@@ -24,7 +24,7 @@
         android:layout_marginTop="16.0dip"
         android:background="#1affffff" />
     <TextView
-        android:id="@id/record_rotate_tip_layout_ok"
+        android:id="@+id/record_rotate_tip_layout_ok"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6.0dip"

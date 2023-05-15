@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/material_clock_display"
+    android:id="@+id/material_clock_display"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="8.0dip"
@@ -13,10 +13,10 @@
     app:layout_constraintRight_toRightOf="parrent"
     app:layout_constraintTop_toTopOf="parrent">
     <include
-        android:id="@id/material_hour_tv"
+        android:id="@+id/material_hour_tv"
         layout="@layout/material_time_chip" />
     <include layout="@layout/material_clock_display_divider" />
     <include
-        android:id="@id/material_minute_tv"
+        android:id="@+id/material_minute_tv"
         layout="@layout/material_time_chip" />
 </LinearLayout>

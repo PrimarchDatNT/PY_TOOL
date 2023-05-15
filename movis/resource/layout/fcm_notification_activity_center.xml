@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/layout_toolbar"
+        android:id="@+id/layout_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parrent">
         <include layout="@layout/fcm_notification_view_toolbar" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/bt_message_delete"
+            android:id="@+id/bt_message_delete"
             android:layout_width="@dimen/dp48"
             android:layout_height="@dimen/dp48"
             android:layout_centerVertical="true"
@@ -21,7 +21,7 @@
             android:visibility="gone"
             app:srcCompat="@drawable/fcm_notification_ic_toolbar_delete_all" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/bt_message_read_all"
+            android:id="@+id/bt_message_read_all"
             android:layout_width="@dimen/dp48"
             android:layout_height="@dimen/dp48"
             android:layout_alignParentEnd="true"
@@ -33,19 +33,19 @@
             app:srcCompat="@drawable/fcm_notification_ic_toolbar_read_all" />
     </RelativeLayout>
     <FrameLayout
-        android:id="@id/fcm_notification_center_layout_fragment"
+        android:id="@+id/fcm_notification_center_layout_fragment"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         app:layout_constraintBottom_toTopOf="@id/ad_view"
         app:layout_constraintTop_toBottomOf="@id/layout_toolbar">
         <fragment
-            android:id="@id/fcm_notification_center_fragment_inbox"
+            android:id="@+id/fcm_notification_center_fragment_inbox"
             android:name="com.videoedit.framework.MessageBoxFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </FrameLayout>
     <com.videoapp.videomakermaster.ads.MessageBannerAdview
-        android:id="@id/ad_view"
+        android:id="@+id/ad_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffe0e0e0"

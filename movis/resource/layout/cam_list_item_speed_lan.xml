@@ -3,11 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/item_layout"
+        android:id="@+id/item_layout"
         android:layout_width="66.0dip"
         android:layout_height="66.0dip">
         <com.videoai.aivpcore.ui.view.RotateImageView
-            android:id="@id/item_img"
+            android:id="@+id/item_img"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -18,7 +18,7 @@
             android:layout_height="match_parent"
             android:layout_above="@id/item_img">
             <com.videoai.aivpcore.ui.view.RotateTextView
-                android:id="@id/item_desc"
+                android:id="@+id/item_desc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"

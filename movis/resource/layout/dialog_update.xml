@@ -9,7 +9,7 @@
         android:layout_margin="@dimen/px12"
         android:background="@drawable/app_shape_setting_permission_bg">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_banner_update"
+            android:id="@+id/iv_banner_update"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/px12"
@@ -18,7 +18,7 @@
             app:layout_constraintTop_toTopOf="parrent"
             app:srcCompat="@drawable/ic_update" />
         <TextView
-            android:id="@id/tv_title_update"
+            android:id="@+id/tv_title_update"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16.0dip"
@@ -31,7 +31,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/iv_banner_update" />
         <TextView
-            android:id="@id/tv_content_update"
+            android:id="@+id/tv_content_update"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/px32"
@@ -45,7 +45,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tv_title_update" />
         <TextView
-            android:id="@id/btn_update"
+            android:id="@+id/btn_update"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px42"
             android:layout_marginStart="@dimen/px16"
@@ -63,7 +63,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tv_content_update" />
         <TextView
-            android:id="@id/btn_later"
+            android:id="@+id/btn_later"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px42"
             android:layout_marginStart="@dimen/px16"

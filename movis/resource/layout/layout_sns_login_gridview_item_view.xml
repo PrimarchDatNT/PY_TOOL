@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageView
-        android:id="@id/iv_sns_login_griditem"
+        android:id="@+id/iv_sns_login_griditem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="5.0dip"

@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:background="@color/transparent">
     <TextView
-        android:id="@id/txtview_trimed_duration"
+        android:id="@+id/txtview_trimed_duration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20.0dip"
@@ -15,7 +15,7 @@
         android:textColor="@color/white"
         android:textSize="10.0sp" />
     <com.videoai.aivpcore.editor.videotrim.ui.VePIPGallery
-        android:id="@id/gallery_timeline"
+        android:id="@+id/gallery_timeline"
         android:layout_width="match_parent"
         android:layout_height="@dimen/v4_xiaoying_ve_framebar_item_show_width_dp"
         android:layout_centerVertical="true"
@@ -25,7 +25,7 @@
         android:spacing="0.0dip"
         android:unselectedAlpha="1.0" />
     <com.videoai.aivpcore.editor.videotrim.ui.TrimMaskView4Import xmlns:trimmaskview="http://schemas.android.com/apk/res-auto"
-        android:id="@id/xiaoying_ve_trimmaskview"
+        android:id="@+id/xiaoying_ve_trimmaskview"
         android:layout_width="match_parent"
         android:layout_height="130.0dip"
         android:visibility="visible"

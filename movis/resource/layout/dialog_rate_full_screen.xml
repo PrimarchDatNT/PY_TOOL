@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:background="#ffff6681">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_go_home"
+            android:id="@+id/iv_go_home"
             android:layout_width="?a4"
             android:layout_height="?a4"
             android:layout_alignParentTop="true"
@@ -64,7 +64,7 @@
         android:layout_marginTop="20.0dip"
         android:background="#ffe6e6e6" />
     <com.videoapp.videomakermaster.RateBannerView
-        android:id="@id/view_rate_banner"
+        android:id="@+id/view_rate_banner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <View

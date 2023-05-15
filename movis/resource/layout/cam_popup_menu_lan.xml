@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <com.videoai.aivpcore.camera.ui.view.HorizontalListView
-        android:id="@id/popup_items"
+        android:id="@+id/popup_items"
         android:layout_width="240.0dip"
         android:layout_height="match_parent"
         android:cacheColorHint="@color/transparent"

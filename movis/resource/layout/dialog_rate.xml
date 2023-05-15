@@ -5,11 +5,11 @@
     android:background="@color/app_dcolor_bg_dialog"
     android:orientation="vertical">
     <com.videoapp.videomakermaster.RateBannerView
-        android:id="@id/view_rate_banner"
+        android:id="@+id/view_rate_banner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/view_close"
+        android:id="@+id/view_close"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px42"
         android:layout_marginStart="@dimen/px16"

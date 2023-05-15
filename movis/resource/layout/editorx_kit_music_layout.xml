@@ -7,7 +7,7 @@
     android:paddingStart="15.0dip"
     android:paddingEnd="15.0dip">
     <LinearLayout
-        android:id="@id/layout_bgm_no_add"
+        android:id="@+id/layout_bgm_no_add"
         android:layout_width="match_parent"
         android:layout_height="60.0dip"
         android:layout_marginTop="24.0dip"
@@ -29,7 +29,7 @@
             android:layout_weight="1.0"
             android:orientation="horizontal">
             <com.videoai.aivpcore.xyui.MarqueeTextView
-                android:id="@id/bgm_add"
+                android:id="@+id/bgm_add"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -46,7 +46,7 @@
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
-        android:id="@id/layout_bgm_item"
+        android:id="@+id/layout_bgm_item"
         android:layout_width="match_parent"
         android:layout_height="60.0dip"
         android:layout_marginTop="24.0dip"
@@ -69,7 +69,7 @@
             android:layout_weight="1.0"
             android:orientation="horizontal">
             <com.videoai.aivpcore.xyui.MarqueeTextView
-                android:id="@id/bgm_title"
+                android:id="@+id/bgm_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -89,14 +89,14 @@
             android:layout_gravity="center_vertical"
             android:background="@color/color_363636" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/bgm_item_replace"
+            android:id="@+id/bgm_item_replace"
             android:layout_width="60.0dip"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             app:sitv_bottom_text="@string/xiaoying_str_edit_replace_text"
             app:sitv_top_drawable="@drawable/editorx_audio_bgm_replace_icon" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/bgm_volume"
+            android:id="@+id/bgm_volume"
             android:layout_width="60.0dip"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -107,7 +107,7 @@
             app:sitv_top_type="bac" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/layout_ori_item"
+        android:id="@+id/layout_ori_item"
         android:layout_width="match_parent"
         android:layout_height="60.0dip"
         android:layout_marginTop="20.0dip"
@@ -129,7 +129,7 @@
             android:layout_weight="1.0"
             android:orientation="horizontal">
             <TextView
-                android:id="@id/ori_title"
+                android:id="@+id/ori_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -144,14 +144,14 @@
             android:layout_gravity="center_vertical"
             android:background="@color/color_363636" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/ori_item_mute"
+            android:id="@+id/ori_item_mute"
             android:layout_width="60.0dip"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             app:sitv_bottom_text="@string/xiaoying_str_ve_basic_mute_title"
             app:sitv_top_drawable="@drawable/editorx_selector_audio_mute" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/ori_volume"
+            android:id="@+id/ori_volume"
             android:layout_width="60.0dip"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"

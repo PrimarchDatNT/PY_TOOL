@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/layout_second_view"
+    android:id="@+id/layout_second_view"
     android:layout_width="match_parent"
     android:layout_height="@dimen/px56"
     android:layout_alignParentBottom="true"
@@ -17,7 +17,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <RelativeLayout
-            android:id="@id/layout_back"
+            android:id="@+id/layout_back"
             android:layout_width="@dimen/px56"
             android:layout_height="@dimen/px56"
             android:background="@drawable/btn_dcolor_ripple"
@@ -39,14 +39,14 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/sitv_mix_model"
+                    android:id="@+id/sitv_mix_model"
                     android:layout_width="@dimen/px64"
                     android:layout_height="match_parent"
                     android:visibility="gone"
                     app:sitv_bottom_text="@string/xiaoying_str_pip_mixed_mode_title"
                     app:sitv_top_drawable="@drawable/editorx_effect_collage_pip_mix_model" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/sitv_alpha"
+                    android:id="@+id/sitv_alpha"
                     android:layout_width="@dimen/px64"
                     android:layout_height="match_parent"
                     android:visibility="gone"
@@ -55,7 +55,7 @@
                     app:sitv_top_text_color="@drawable/editorx_selector_sitv_text_color2"
                     app:sitv_top_type="bac" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/sitv_mix"
+                    android:id="@+id/sitv_mix"
                     android:layout_width="@dimen/px64"
                     android:layout_height="match_parent"
                     android:visibility="gone"
@@ -64,38 +64,38 @@
                     app:sitv_top_text_color="@drawable/editorx_selector_sitv_text_color2"
                     app:sitv_top_type="bac" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/sitv_add"
+                    android:id="@+id/sitv_add"
                     android:layout_width="@dimen/px64"
                     android:layout_height="match_parent"
                     android:visibility="gone" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/sitv_image_cut"
+                    android:id="@+id/sitv_image_cut"
                     android:layout_width="@dimen/px64"
                     android:layout_height="match_parent"
                     android:visibility="gone"
                     app:sitv_bottom_text="@string/xiaoying_str_effect_collage_image_cut"
                     app:sitv_top_drawable="@drawable/editorx_effect_collage_image_cut" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/sitv_add_text"
+                    android:id="@+id/sitv_add_text"
                     android:layout_width="@dimen/px64"
                     android:layout_height="match_parent"
                     android:visibility="gone"
                     app:sitv_bottom_text="@string/xiaoying_str_editor_text_tip_add_character"
                     app:sitv_top_drawable="@drawable/editorx_icon_effect_add_text" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/sitv_keyframe"
+                    android:id="@+id/sitv_keyframe"
                     android:layout_width="@dimen/px64"
                     android:layout_height="match_parent"
                     app:sitv_bottom_text="@string/xiaoying_str_template_key_frame"
                     app:sitv_top_drawable="@drawable/editorx_icon_effect_keyframe" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/sitv_copy"
+                    android:id="@+id/sitv_copy"
                     android:layout_width="@dimen/px64"
                     android:layout_height="match_parent"
                     app:sitv_bottom_text="@string/xiaoying_str_ve_basic_copy_tool_title"
                     app:sitv_top_drawable="@drawable/editorx_icon_effect_copy" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/sitv_volume"
+                    android:id="@+id/sitv_volume"
                     android:layout_width="@dimen/px64"
                     android:layout_height="match_parent"
                     android:visibility="gone"
@@ -104,13 +104,13 @@
                     app:sitv_top_text_color="@drawable/editorx_selector_sitv_text_color"
                     app:sitv_top_type="bac" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/sitv_edit"
+                    android:id="@+id/sitv_edit"
                     android:layout_width="@dimen/px64"
                     android:layout_height="match_parent"
                     app:sitv_bottom_text="@string/xiaoying_str_com_edit_title"
                     app:sitv_top_drawable="@drawable/editorx_ico_effect_replace" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/sitv_delete"
+                    android:id="@+id/sitv_delete"
                     android:layout_width="@dimen/px64"
                     android:layout_height="match_parent"
                     app:sitv_bottom_text="@string/xiaoying_str_com_delete_title"

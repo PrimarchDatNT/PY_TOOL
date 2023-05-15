@@ -6,7 +6,7 @@
     android:layout_centerHorizontal="true"
     android:layout_centerVertical="true">
     <com.videoai.aivpcore.common.ui.widgets.autofittextview.AutofitTextView
-        android:id="@id/text_count"
+        android:id="@+id/text_count"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_semibold"
@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/img_cursor_line"
+        android:id="@+id/img_cursor_line"
         android:layout_width="28.0dip"
         android:layout_height="4.0dip"
         android:src="@drawable/green_trading_button_selected"

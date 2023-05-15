@@ -3,13 +3,13 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/txt_layout"
+        android:id="@+id/txt_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/xyui_bg_help_pop_center_up"
         android:gravity="center">
         <TextView
-            android:id="@id/tv_text"
+            android:id="@+id/tv_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/xyui_icon_pupup_close_n"

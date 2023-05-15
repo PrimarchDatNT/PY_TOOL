@@ -9,17 +9,17 @@
         android:layout_height="match_parent"
         android:background="@android:color/transparent">
         <com.bytedance.sdk.openadsdk.core.widget.TTCornersWebView
-            android:id="@id/tt_privacy_webview"
+            android:id="@+id/tt_privacy_webview"
             android:layout_width="match_parent"
             android:layout_height="235.0dip"
             android:background="@drawable/tt_privacy_webview_bg" />
         <RelativeLayout
-            android:id="@id/tt_privacy_back_layout"
+            android:id="@+id/tt_privacy_back_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8.0dip">
             <ImageView
-                android:id="@id/tt_privacy_back"
+                android:id="@+id/tt_privacy_back"
                 android:layout_width="6.75dip"
                 android:layout_height="13.0dip"
                 android:layout_marginLeft="12.0dip"
@@ -28,7 +28,7 @@
         </RelativeLayout>
     </RelativeLayout>
     <Button
-        android:id="@id/tt_privacy_accept_btn"
+        android:id="@+id/tt_privacy_accept_btn"
         android:layout_width="match_parent"
         android:layout_height="43.0dip"
         android:layout_marginLeft="23.0dip"
@@ -40,7 +40,7 @@
         android:textColor="@android:color/white"
         android:textSize="17.0sp" />
     <TextView
-        android:id="@id/tt_privacy_reject_btn"
+        android:id="@+id/tt_privacy_reject_btn"
         android:layout_width="105.0dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -50,7 +50,7 @@
         android:textColor="#ff12a0f4"
         android:textSize="15.0sp" />
     <TextView
-        android:id="@id/tt_privacy_introduce_msg"
+        android:id="@+id/tt_privacy_introduce_msg"
         android:layout_width="263.0dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

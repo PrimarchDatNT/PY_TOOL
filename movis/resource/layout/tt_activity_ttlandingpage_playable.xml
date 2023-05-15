@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.bytedance.sdk.component.widget.SSWebView
-        android:id="@id/tt_browser_webview"
+        android:id="@+id/tt_browser_webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="invisible" />
     <ProgressBar
-        android:id="@id/tt_browser_progress"
+        android:id="@+id/tt_browser_progress"
         style="@android:style/Widget.ProgressBar.Horizontal"
         android:layout_width="match_parent"
         android:layout_height="3.0dip"
@@ -16,17 +16,17 @@
         android:progress="1"
         android:progressDrawable="@drawable/tt_browser_progress_style" />
     <com.bytedance.sdk.component.widget.SSWebView
-        android:id="@id/tt_browser_webview_loading"
+        android:id="@+id/tt_browser_webview_loading"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
     <com.bytedance.sdk.openadsdk.core.widget.PlayableLoadingView
-        android:id="@id/tt_playable_loading"
+        android:id="@+id/tt_playable_loading"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clickable="true"
         android:focusable="true" />
     <com.bytedance.sdk.openadsdk.core.widget.ShadowImageView
-        android:id="@id/tt_playable_ad_mute"
+        android:id="@+id/tt_playable_ad_mute"
         android:layout_width="28.0dip"
         android:layout_height="28.0dip"
         android:layout_marginStart="12.0dip"
@@ -36,7 +36,7 @@
         android:scaleType="center"
         android:src="@drawable/tt_unmute" />
     <com.bytedance.sdk.openadsdk.core.widget.ShadowTextView
-        android:id="@id/tt_playable_ad_dislike"
+        android:id="@+id/tt_playable_ad_dislike"
         android:layout_width="wrap_content"
         android:layout_height="28.0dip"
         android:layout_gravity="end|center|top"
@@ -48,7 +48,7 @@
         android:textColor="@color/tt_white"
         android:textSize="14.0sp" />
     <RelativeLayout
-        android:id="@id/tt_playable_ad_close_layout"
+        android:id="@+id/tt_playable_ad_close_layout"
         android:layout_width="28.0dip"
         android:layout_height="28.0dip"
         android:layout_gravity="end|center|top"
@@ -59,7 +59,7 @@
         android:gravity="center"
         android:visibility="gone">
         <ImageView
-            android:id="@id/tt_playable_ad_close"
+            android:id="@+id/tt_playable_ad_close"
             android:layout_width="12.0dip"
             android:layout_height="12.0dip"
             android:src="@drawable/tt_video_close_drawable"

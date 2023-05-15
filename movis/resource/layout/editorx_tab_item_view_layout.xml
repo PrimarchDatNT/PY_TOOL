@@ -7,7 +7,7 @@
     android:paddingTop="3.0dip"
     android:paddingBottom="3.0dip">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tab_tv"
+        android:id="@+id/tab_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ellipsize="end"

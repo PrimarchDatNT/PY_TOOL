@@ -9,7 +9,7 @@
         android:layout_height="@dimen/px1"
         app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/audio_record_back_btn"
+        android:id="@+id/audio_record_back_btn"
         android:layout_width="@dimen/px56"
         android:layout_height="@dimen/px56"
         android:layout_gravity="center_vertical"
@@ -33,13 +33,13 @@
             android:gravity="center"
             android:orientation="horizontal">
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_record_add"
+                android:id="@+id/audio_record_add"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 app:sitv_bottom_text="@string/xiaoying_str_edit_add_record_music_text"
                 app:sitv_top_drawable="@drawable/editorx_audio_record_add_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_record_volume"
+                android:id="@+id/audio_record_volume"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 app:sitv_bottom_text="@string/xiaoying_str_edit_audio_vloume_text"
@@ -47,39 +47,39 @@
                 app:sitv_top_text_color="@drawable/editorx_selector_sitv_text_color"
                 app:sitv_top_type="bac" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_record_change_voice"
+                android:id="@+id/audio_record_change_voice"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 app:sitv_bottom_text="@string/xiaoying_str_clip_func_magic_sound"
                 app:sitv_top_drawable="@drawable/editorx_audio_change_voice_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_record_del"
+                android:id="@+id/audio_record_del"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 app:sitv_bottom_text="@string/xiaoying_str_com_delete_title"
                 app:sitv_top_drawable="@drawable/editorx_audio_bgm_del_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_record_trim"
+                android:id="@+id/audio_record_trim"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 android:visibility="gone"
                 app:sitv_bottom_text="@string/xiaoying_str_ve_basic_trim_title"
                 app:sitv_top_drawable="@drawable/editorx_audio_trim_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_record_copy"
+                android:id="@+id/audio_record_copy"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 app:sitv_bottom_text="@string/xiaoying_str_ve_basic_copy_tool_title"
                 app:sitv_top_drawable="@drawable/editorx_audio_copy_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_record_change_speed"
+                android:id="@+id/audio_record_change_speed"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 android:visibility="gone"
                 app:sitv_bottom_text="@string/xiaoying_str_ve_basic_speed_tool_title"
                 app:sitv_top_drawable="@drawable/editorx_audio_change_speed_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/audio_record_weaken"
+                android:id="@+id/audio_record_weaken"
                 android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 android:visibility="gone"

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/folder_list_layout_root"
+    android:id="@+id/folder_list_layout_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/ll_panel"
+        android:id="@+id/ll_panel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="@drawable/gallery_border_item"
         android:orientation="vertical">
         <FrameLayout
-            android:id="@id/fl_fold_container"
+            android:id="@+id/fl_fold_container"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px36">
             <View
-                android:id="@id/view_fold_line"
+                android:id="@+id/view_fold_line"
                 android:layout_width="@dimen/px36"
                 android:layout_height="@dimen/px2"
                 android:layout_gravity="center"
@@ -28,7 +28,7 @@
                 android:background="@color/app_dcolor_indicator_2" />
         </FrameLayout>
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/folder_list_recyclerview"
+            android:id="@+id/folder_list_recyclerview"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>

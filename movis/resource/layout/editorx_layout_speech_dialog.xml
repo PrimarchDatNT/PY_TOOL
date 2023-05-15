@@ -7,7 +7,7 @@
     android:paddingEnd="15.0dip"
     android:paddingBottom="36.0dip">
     <ImageView
-        android:id="@id/iv_close"
+        android:id="@+id/iv_close"
         android:layout_width="32.0dip"
         android:layout_height="32.0dip"
         android:layout_marginStart="8.0dip"
@@ -39,21 +39,21 @@
             android:paddingEnd="24.0dip"
             android:paddingBottom="24.0dip">
             <TextView
-                android:id="@id/tvVipTip1"
+                android:id="@+id/tvVipTip1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24.0dip"
                 android:textColor="@color/color_666666"
                 android:textSize="14.0sp" />
             <TextView
-                android:id="@id/tvVipTip2"
+                android:id="@+id/tvVipTip2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14.0dip"
                 android:textColor="@color/color_666666"
                 android:textSize="14.0sp" />
             <TextView
-                android:id="@id/tvVipTip3"
+                android:id="@+id/tvVipTip3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14.0dip"
@@ -70,7 +70,7 @@
             android:textColor="@color/color_999999"
             android:textSize="12.0sp" />
         <Button
-            android:id="@id/btnTry"
+            android:id="@+id/btnTry"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
             android:layout_marginStart="32.0dip"

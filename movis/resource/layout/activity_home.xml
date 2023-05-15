@@ -6,37 +6,37 @@
     android:gravity="center"
     android:orientation="vertical">
     <Button
-        android:id="@id/video_maker"
+        android:id="@+id/video_maker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16.0dip"
         android:text="Video Maker" />
     <Button
-        android:id="@id/video_slide"
+        android:id="@+id/video_slide"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16.0dip"
         android:text="Video Slide" />
     <Button
-        android:id="@id/video_convert"
+        android:id="@+id/video_convert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16.0dip"
         android:text="Video Convert" />
     <Button
-        android:id="@id/video_effect"
+        android:id="@+id/video_effect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16.0dip"
         android:text="Video Store" />
     <Button
-        android:id="@id/video_camera"
+        android:id="@+id/video_camera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16.0dip"
         android:text="Video Camera" />
     <Button
-        android:id="@id/video_studio"
+        android:id="@+id/video_studio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16.0dip"

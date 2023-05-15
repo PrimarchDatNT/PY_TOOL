@@ -5,12 +5,12 @@
     android:layout_height="@dimen/px148"
     android:background="@drawable/gallery_board_bg">
     <LinearLayout
-        android:id="@id/title_layout"
+        android:id="@+id/title_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px48"
         android:gravity="center_vertical">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/board_all_duration"
+            android:id="@+id/board_all_duration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/px16"
@@ -20,7 +20,7 @@
             android:textSize="@dimen/sp12"
             android:visibility="gone" />
         <View
-            android:id="@id/board_normal_line"
+            android:id="@+id/board_normal_line"
             android:layout_width="@dimen/px1"
             android:layout_height="@dimen/px12"
             android:layout_gravity="center_vertical"
@@ -28,7 +28,7 @@
             android:background="@color/app_dcolor_indicator_2"
             android:visibility="gone" />
         <TextView
-            android:id="@id/txt_clip_count"
+            android:id="@+id/txt_clip_count"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/px16"
@@ -42,7 +42,7 @@
             android:textColor="@color/white"
             android:textSize="@dimen/sp12" />
         <TextView
-            android:id="@id/btn_next"
+            android:id="@+id/btn_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/px16"
@@ -52,13 +52,13 @@
             app:drawableStartCompat="@drawable/gallery_shape_next_ico_enable_false" />
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rc_view"
+        android:id="@+id/rc_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/title_layout"
         android:layout_centerVertical="true" />
     <TextView
-        android:id="@id/tv_move_tip"
+        android:id="@+id/tv_move_tip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"

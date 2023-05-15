@@ -5,45 +5,45 @@
     android:layout_height="match_parent"
     android:background="@color/black">
     <include
-        android:id="@id/rl_anim_text_layout"
+        android:id="@+id/rl_anim_text_layout"
         layout="@layout/editor_effect_subtitle_anim_text_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerVertical="true"
         android:visibility="gone" />
     <RelativeLayout
-        android:id="@id/rl_subtitle_layout"
+        android:id="@+id/rl_subtitle_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerVertical="true"
         android:visibility="invisible">
         <RelativeLayout
-            android:id="@id/tab_layout"
+            android:id="@+id/tab_layout"
             android:layout_width="match_parent"
             android:layout_height="40.0dip">
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@id/rv_bubble_tab_normal"
+                android:id="@+id/rv_bubble_tab_normal"
                 android:layout_width="match_parent"
                 android:layout_height="40.0dip"
                 android:layout_toStartOf="@id/rl_layout_downloaded"
                 android:layout_toLeftOf="@id/rl_layout_downloaded"
                 android:background="@color/color_141414" />
             <RelativeLayout
-                android:id="@id/rl_layout_downloaded"
+                android:id="@+id/rl_layout_downloaded"
                 android:layout_width="40.0dip"
                 android:layout_height="40.0dip"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:clickable="true">
                 <ImageView
-                    android:id="@id/ib_download"
+                    android:id="@+id/ib_download"
                     android:layout_width="40.0dip"
                     android:layout_height="40.0dip"
                     android:layout_centerInParent="true"
                     android:clickable="false"
                     android:src="@drawable/editor_icon_effect_sticker_download" />
                 <ImageView
-                    android:id="@id/iv_new_flag"
+                    android:id="@+id/iv_new_flag"
                     android:layout_width="14.0dip"
                     android:layout_height="14.0dip"
                     android:layout_alignTop="@id/ib_download"
@@ -55,12 +55,12 @@
             </RelativeLayout>
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/recycler_view_subtitle"
+            android:id="@+id/recycler_view_subtitle"
             android:layout_width="match_parent"
             android:layout_height="@dimen/v4_xiaoying_ve_title_addpanel_tab_contenta_height"
             android:layout_below="@id/tab_layout" />
         <include
-            android:id="@id/relative_layout_roll_download"
+            android:id="@+id/relative_layout_roll_download"
             layout="@layout/editor_effect_bubble_roll_download_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -68,30 +68,30 @@
             android:visibility="gone" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/rl_font_text_layout"
+        android:id="@+id/rl_font_text_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone">
         <LinearLayout
-            android:id="@id/font_tab"
+            android:id="@+id/font_tab"
             android:layout_width="match_parent"
             android:layout_height="40.0dip"
             android:background="@color/white_p08"
             android:gravity="center_vertical"
             android:orientation="horizontal">
             <RelativeLayout
-                android:id="@id/tab_font_style"
+                android:id="@+id/tab_font_style"
                 android:layout_width="50.0dip"
                 android:layout_height="40.0dip"
                 android:background="@color/color_1affffff"
                 android:gravity="center">
                 <ImageView
-                    android:id="@id/tab_font_style_image"
+                    android:id="@+id/tab_font_style_image"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/editor_btn_subtitle_font_tab_style" />
                 <TextView
-                    android:id="@id/tab_font_style_tv"
+                    android:id="@+id/tab_font_style_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/xiaoying_str_ve_font_title"
@@ -100,17 +100,17 @@
                     android:visibility="gone" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/tab_font_color"
+                android:id="@+id/tab_font_color"
                 android:layout_width="50.0dip"
                 android:layout_height="40.0dip"
                 android:gravity="center">
                 <ImageView
-                    android:id="@id/tab_font_color_image"
+                    android:id="@+id/tab_font_color_image"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/editor_btn_subtitle_font_tab_color" />
                 <TextView
-                    android:id="@id/tab_font_color_tv"
+                    android:id="@+id/tab_font_color_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/xiaoying_str_ve_color"
@@ -119,17 +119,17 @@
                     android:visibility="gone" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/tab_font_stroke"
+                android:id="@+id/tab_font_stroke"
                 android:layout_width="50.0dip"
                 android:layout_height="40.0dip"
                 android:gravity="center">
                 <ImageView
-                    android:id="@id/tab_font_stroke_image"
+                    android:id="@+id/tab_font_stroke_image"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/editor_btn_subtitle_font_tab_stroke" />
                 <TextView
-                    android:id="@id/tab_font_stroke_tv"
+                    android:id="@+id/tab_font_stroke_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/xiaoying_str_ve_stroke"
@@ -138,17 +138,17 @@
                     android:visibility="gone" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/tab_font_shadow"
+                android:id="@+id/tab_font_shadow"
                 android:layout_width="50.0dip"
                 android:layout_height="40.0dip"
                 android:gravity="center">
                 <ImageView
-                    android:id="@id/tab_font_shadow_image"
+                    android:id="@+id/tab_font_shadow_image"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/editor_btn_subtitle_font_tab_shadow" />
                 <TextView
-                    android:id="@id/tab_font_shadow_tv"
+                    android:id="@+id/tab_font_shadow_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/xiaoying_str_ve_subtitle_tool_shadow_title"
@@ -158,14 +158,14 @@
             </RelativeLayout>
         </LinearLayout>
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/recycler_view_font_text"
+            android:id="@+id/recycler_view_font_text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/font_tab"
             android:layout_marginBottom="10.0dip"
             android:scrollbars="none" />
         <LinearLayout
-            android:id="@id/layout_font_tab_color"
+            android:id="@+id/layout_font_tab_color"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/font_tab"
@@ -184,7 +184,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <ImageView
-                    android:id="@id/iv_color_reset"
+                    android:id="@+id/iv_color_reset"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="14.0dip"
@@ -193,7 +193,7 @@
                     android:scaleType="center"
                     android:src="@drawable/editor_selector_effect_sub_op_left_btn" />
                 <com.videoai.aivpcore.ui.view.MultiColorBar
-                    android:id="@id/multicolor_bar_subtitle"
+                    android:id="@+id/multicolor_bar_subtitle"
                     android:layout_width="match_parent"
                     android:layout_height="60.0dip"
                     android:layout_gravity="center"
@@ -208,7 +208,7 @@
             </RelativeLayout>
         </LinearLayout>
         <LinearLayout
-            android:id="@id/rl_stroke_layout"
+            android:id="@+id/rl_stroke_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/font_tab"
@@ -222,7 +222,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true">
                     <TextView
-                        android:id="@id/tv_stroke_width"
+                        android:id="@+id/tv_stroke_width"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
@@ -235,7 +235,7 @@
                         android:layout_below="@id/tv_stroke_width"
                         android:layout_centerHorizontal="true">
                         <ImageView
-                            android:id="@id/img_left"
+                            android:id="@+id/img_left"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
@@ -243,7 +243,7 @@
                             android:layout_marginLeft="12.0dip"
                             android:src="@drawable/editor_icon_effect_subtitle_stroke_min" />
                         <SeekBar
-                            android:id="@id/seekbar_stroke"
+                            android:id="@+id/seekbar_stroke"
                             android:layout_width="match_parent"
                             android:layout_height="18.0dip"
                             android:layout_centerInParent="true"
@@ -260,7 +260,7 @@
                             android:thumb="@drawable/editor_icon_clip_blur_point"
                             android:thumbOffset="9.0dip" />
                         <ImageView
-                            android:id="@id/img_right"
+                            android:id="@+id/img_right"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
@@ -276,7 +276,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <TextView
-                    android:id="@id/tv_stroke_color"
+                    android:id="@+id/tv_stroke_color"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -286,7 +286,7 @@
                     android:textColor="@color/color_8E8E93"
                     android:textSize="14.0sp" />
                 <com.videoai.aivpcore.ui.view.MultiColorBar
-                    android:id="@id/multicolor_bar_stroke"
+                    android:id="@+id/multicolor_bar_stroke"
                     android:layout_width="match_parent"
                     android:layout_height="60.0dip"
                     android:layout_gravity="center"
@@ -300,7 +300,7 @@
             </FrameLayout>
         </LinearLayout>
         <LinearLayout
-            android:id="@id/ll_adjust_more"
+            android:id="@+id/ll_adjust_more"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/font_tab"
@@ -325,7 +325,7 @@
                     android:textColor="@color/white"
                     android:textSize="14.0sp" />
                 <androidx.appcompat.widget.SwitchCompat
-                    android:id="@id/btn_import_finish"
+                    android:id="@+id/btn_import_finish"
                     style="@style/editor_switch_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -339,13 +339,13 @@
         </LinearLayout>
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/layout_adjust_control"
+        android:id="@+id/layout_adjust_control"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="13.0dip"
         android:orientation="horizontal">
         <RelativeLayout
-            android:id="@id/layout_align_control"
+            android:id="@+id/layout_align_control"
             android:layout_width="0.0dip"
             android:layout_height="match_parent"
             android:layout_marginStart="15.0dip"
@@ -353,14 +353,14 @@
             android:layout_weight="1.0"
             android:gravity="center_vertical">
             <TextView
-                android:id="@id/align_tv"
+                android:id="@+id/align_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/editor_effect_subtitle_tool_item_position"
                 android:textColor="@color/color_8E8E93"
                 android:textSize="14.0sp" />
             <RelativeLayout
-                android:id="@id/anim_switch_layout"
+                android:id="@+id/anim_switch_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="31.0dip"
                 android:layout_alignParentBottom="true"
@@ -368,7 +368,7 @@
                 android:gravity="center_vertical"
                 android:visibility="gone">
                 <TextView
-                    android:id="@id/anim_switch_tv"
+                    android:id="@+id/anim_switch_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
@@ -376,7 +376,7 @@
                     android:textColor="@color/white"
                     android:textSize="14.0sp" />
                 <androidx.appcompat.widget.SwitchCompat
-                    android:id="@id/anim_switch"
+                    android:id="@+id/anim_switch"
                     style="@style/editor_switch_style"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -388,7 +388,7 @@
                     android:checked="false" />
             </RelativeLayout>
             <RadioGroup
-                android:id="@id/align_radio_group"
+                android:id="@+id/align_radio_group"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_above="@id/anim_switch_layout"
@@ -427,7 +427,7 @@
             android:layout_marginLeft="15.0dip"
             android:layout_weight="1.0">
             <TextView
-                android:id="@id/move_control_tv"
+                android:id="@+id/move_control_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="35.0dip"
@@ -436,7 +436,7 @@
                 android:textColor="@color/color_8E8E93"
                 android:textSize="14.0sp" />
             <com.videoai.aivpcore.editor.effects.quickposition.PixelMoveControlView
-                android:id="@id/pixel_move"
+                android:id="@+id/pixel_move"
                 android:layout_width="102.0dip"
                 android:layout_height="102.0dip"
                 android:layout_alignParentEnd="true"

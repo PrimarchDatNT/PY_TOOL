@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
-        android:id="@id/indicator_container"
+        android:id="@+id/indicator_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal" />
     <LinearLayout
-        android:id="@id/title_container"
+        android:id="@+id/title_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal" />

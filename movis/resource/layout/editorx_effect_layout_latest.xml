@@ -4,14 +4,14 @@
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/px20">
     <RelativeLayout
-        android:id="@id/layout_empty"
+        android:id="@+id/layout_empty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="@dimen/px16"
         android:layout_marginEnd="@dimen/px16"
         android:layout_marginBottom="@dimen/px20">
         <LinearLayout
-            android:id="@id/layoutEmpty"
+            android:id="@+id/layoutEmpty"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/px42"
@@ -38,7 +38,7 @@
                 android:background="@drawable/editorx_shape_dash_bg_latest" />
         </LinearLayout>
         <TextView
-            android:id="@id/recent_empty"
+            android:id="@+id/recent_empty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/layoutEmpty"

@@ -13,7 +13,7 @@
         app:layout_constraintRight_toRightOf="parrent"
         app:layout_constraintTop_toTopOf="parrent">
         <RelativeLayout
-            android:id="@id/rl_tittle_text"
+            android:id="@+id/rl_tittle_text"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
             android:background="@color/color_141414"
@@ -21,13 +21,13 @@
             app:layout_constraintLeft_toLeftOf="parrent"
             app:layout_constraintRight_toRightOf="parrent">
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@id/ll_tittle_text"
+                android:id="@+id/ll_tittle_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerVertical="true"
                 android:orientation="horizontal">
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@id/cl_clip"
+                    android:id="@+id/cl_clip"
                     android:layout_width="100.0dip"
                     android:layout_height="match_parent"
                     android:layout_weight="1.0"
@@ -36,7 +36,7 @@
                     app:layout_constraintStart_toStartOf="parrent"
                     app:layout_constraintTop_toTopOf="parrent">
                     <TextView
-                        android:id="@id/tv_clip_title"
+                        android:id="@+id/tv_clip_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
@@ -51,7 +51,7 @@
                         app:layout_constraintStart_toStartOf="parrent"
                         app:layout_constraintTop_toTopOf="parrent" />
                     <ImageView
-                        android:id="@id/iv_clip_point"
+                        android:id="@+id/iv_clip_point"
                         android:layout_width="wrap_content"
                         android:layout_height="12.0dip"
                         app:layout_constraintBottom_toBottomOf="parrent"
@@ -60,7 +60,7 @@
                         app:layout_constraintTop_toTopOf="parrent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@id/cl_music"
+                    android:id="@+id/cl_music"
                     android:layout_width="100.0dip"
                     android:layout_height="match_parent"
                     android:layout_weight="1.0"
@@ -69,7 +69,7 @@
                     app:layout_constraintStart_toEndOf="@id/cl_clip"
                     app:layout_constraintTop_toTopOf="parrent">
                     <TextView
-                        android:id="@id/tv_music_title"
+                        android:id="@+id/tv_music_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
@@ -84,7 +84,7 @@
                         app:layout_constraintStart_toStartOf="parrent"
                         app:layout_constraintTop_toTopOf="parrent" />
                     <ImageView
-                        android:id="@id/iv_music_point"
+                        android:id="@+id/iv_music_point"
                         android:layout_width="wrap_content"
                         android:layout_height="12.0dip"
                         app:layout_constraintBottom_toBottomOf="parrent"
@@ -93,7 +93,7 @@
                         app:layout_constraintTop_toTopOf="parrent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@id/cl_text"
+                    android:id="@+id/cl_text"
                     android:layout_width="100.0dip"
                     android:layout_height="match_parent"
                     android:layout_weight="1.0"
@@ -102,7 +102,7 @@
                     app:layout_constraintStart_toEndOf="@id/cl_music"
                     app:layout_constraintTop_toTopOf="parrent">
                     <TextView
-                        android:id="@id/tv_text_title"
+                        android:id="@+id/tv_text_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
@@ -117,7 +117,7 @@
                         app:layout_constraintStart_toStartOf="parrent"
                         app:layout_constraintTop_toTopOf="parrent" />
                     <ImageView
-                        android:id="@id/iv_text_point"
+                        android:id="@+id/iv_text_point"
                         android:layout_width="wrap_content"
                         android:layout_height="12.0dip"
                         app:layout_constraintBottom_toBottomOf="parrent"
@@ -127,7 +127,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>
             <View
-                android:id="@id/v_three_tab_indicator"
+                android:id="@+id/v_three_tab_indicator"
                 android:layout_width="6.0dip"
                 android:layout_height="2.0dip"
                 android:layout_alignParentBottom="true"
@@ -140,7 +140,7 @@
                 android:background="@color/app_dcolor_indicator" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/rl_children"
+            android:id="@+id/rl_children"
             android:layout_width="match_parent"
             android:layout_height="174.0dip"
             android:background="@color/color_141414"
@@ -148,7 +148,7 @@
             app:layout_constraintLeft_toLeftOf="parrent"
             app:layout_constraintRight_toRightOf="parrent" />
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@id/cl_high_level"
+            android:id="@+id/cl_high_level"
             android:layout_width="match_parent"
             android:layout_height="64.0dip"
             android:background="@color/color_141414"
@@ -158,7 +158,7 @@
             app:layout_constraintLeft_toLeftOf="parrent"
             app:layout_constraintRight_toRightOf="parrent">
             <TextView
-                android:id="@id/tv_kit_publish"
+                android:id="@+id/tv_kit_publish"
                 android:layout_width="match_parent"
                 android:layout_height="48.0dip"
                 android:background="@drawable/editorx_shape_save_btn_bg"
@@ -179,7 +179,7 @@
             app:layout_constraintRight_toRightOf="parrent"
             app:layout_constraintTop_toTopOf="parrent">
             <ImageView
-                android:id="@id/iv_kit_back"
+                android:id="@+id/iv_kit_back"
                 android:layout_width="52.0dip"
                 android:layout_height="52.0dip"
                 android:layout_marginStart="1.0dip"
@@ -188,7 +188,7 @@
                 app:layout_constraintStart_toStartOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tv_high_level_edit"
+                android:id="@+id/tv_high_level_edit"
                 android:layout_width="wrap_content"
                 android:layout_height="28.0dip"
                 android:layout_marginTop="12.0dip"
@@ -209,7 +209,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <com.videoai.aivpcore.editorx.board.kit.text.KitTextKeyboardView
-        android:id="@id/kit_keyboard"
+        android:id="@+id/kit_keyboard"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone"

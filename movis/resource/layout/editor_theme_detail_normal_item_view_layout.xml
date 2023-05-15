@@ -4,12 +4,12 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/rlThemeItem"
+        android:id="@+id/rlThemeItem"
         android:layout_width="82.0dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="12.0dip">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/item_cover"
+            android:id="@+id/item_cover"
             android:layout_width="72.0dip"
             android:layout_height="72.0dip"
             android:layout_marginStart="0.5dip"
@@ -19,18 +19,18 @@
             android:src="@color/transparent"
             fresco:placeholderImage="@color/black_p60" />
         <ImageView
-            android:id="@id/bg_selected"
+            android:id="@+id/bg_selected"
             android:layout_width="73.0dip"
             android:layout_height="73.0dip"
             android:src="@drawable/editor_shape_stroke_ff5e13_selected"
             android:visibility="gone" />
         <RelativeLayout
-            android:id="@id/rl_download"
+            android:id="@+id/rl_download"
             android:layout_width="73.0dip"
             android:layout_height="73.0dip"
             android:visibility="gone">
             <ImageView
-                android:id="@id/icon_download"
+                android:id="@+id/icon_download"
                 android:layout_width="21.0dip"
                 android:layout_height="21.0dip"
                 android:layout_centerInParent="true"
@@ -41,13 +41,13 @@
                 android:src="@drawable/editor_icon_download_nrm" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/rl_edit"
+            android:id="@+id/rl_edit"
             android:layout_width="73.0dip"
             android:layout_height="73.0dip"
             android:background="@drawable/xiaoying_cam_bg_filter_download"
             android:visibility="gone">
             <ImageView
-                android:id="@id/icon_edit"
+                android:id="@+id/icon_edit"
                 android:layout_width="44.0dip"
                 android:layout_height="44.0dip"
                 android:layout_centerHorizontal="true"
@@ -56,7 +56,7 @@
                 android:src="@drawable/xiaoying_preview_theme_title_edit_icon" />
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/ll_progress"
+            android:id="@+id/ll_progress"
             android:layout_width="73.0dip"
             android:layout_height="73.0dip"
             android:background="@drawable/xiaoying_cam_bg_filter_download"
@@ -64,11 +64,11 @@
             android:orientation="vertical"
             android:visibility="gone">
             <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-                android:id="@id/bg_download_progress"
+                android:id="@+id/bg_download_progress"
                 android:layout_width="20.0dip"
                 android:layout_height="20.0dip" />
             <TextView
-                android:id="@id/text_download_progress"
+                android:id="@+id/text_download_progress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8.0dip"
@@ -77,14 +77,14 @@
                 android:textSize="12.0sp" />
         </LinearLayout>
         <RelativeLayout
-            android:id="@id/item_name_container"
+            android:id="@+id/item_name_container"
             android:layout_width="72.0dip"
             android:layout_height="24.0dip"
             android:layout_alignBottom="@id/item_cover"
             android:background="@drawable/editor_shape_theme_item_name_bg"
             android:gravity="center_horizontal">
             <TextView
-                android:id="@id/item_name"
+                android:id="@+id/item_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -95,7 +95,7 @@
                 android:textSize="11.0sp" />
         </RelativeLayout>
         <ImageView
-            android:id="@id/iv_theme_iap"
+            android:id="@+id/iv_theme_iap"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"

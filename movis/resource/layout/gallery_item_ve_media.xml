@@ -4,11 +4,11 @@
     android:layout_height="wrap_content"
     android:clickable="true">
     <RelativeLayout
-        android:id="@id/item_layout"
+        android:id="@+id/item_layout"
         android:layout_width="wrap_content"
         android:layout_height="100.0dip">
         <com.videoai.aivpcore.common.bitmapfun.util.RecyclingImageView
-            android:id="@id/img_icon"
+            android:id="@+id/img_icon"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
@@ -19,14 +19,14 @@
             android:layout_alignBottom="@id/img_icon"
             android:background="@drawable/vivavideo_tool_gallery_shadow" />
         <ImageView
-            android:id="@id/img_click_mask"
+            android:id="@+id/img_click_mask"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:scaleType="fitXY"
             android:src="@drawable/xiaoying_com_video_list_item_selector" />
         <RelativeLayout
-            android:id="@id/layout_video_mark"
+            android:id="@+id/layout_video_mark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -36,7 +36,7 @@
             android:background="@color/transparent"
             android:visibility="gone">
             <TextView
-                android:id="@id/txt_video_duration"
+                android:id="@+id/txt_video_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -47,7 +47,7 @@
                 android:textSize="13.0sp" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/xiaoying_gallery_preview_layout"
+            android:id="@+id/xiaoying_gallery_preview_layout"
             android:layout_width="32.0dip"
             android:layout_height="32.0dip"
             android:layout_alignParentEnd="true"
@@ -55,7 +55,7 @@
             android:layout_alignParentBottom="true"
             android:clickable="true">
             <ImageView
-                android:id="@id/gallery_preview_btn"
+                android:id="@+id/gallery_preview_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -69,7 +69,7 @@
                 android:src="@drawable/gallery_img_preview_icon" />
         </RelativeLayout>
         <ImageView
-            android:id="@id/xiaoying_item_gif_mark"
+            android:id="@+id/xiaoying_item_gif_mark"
             android:layout_width="32.0dip"
             android:layout_height="32.0dip"
             android:layout_alignParentEnd="true"

@@ -9,13 +9,13 @@
         android:layout_centerInParent="true"
         android:background="@color/black">
         <RelativeLayout
-            android:id="@id/edit_subtitle_font_dialog_top"
+            android:id="@+id/edit_subtitle_font_dialog_top"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:background="@drawable/v5_xiaoying_edit_subtitle_font_dialog_top_layout_bg">
             <TextView
-                android:id="@id/edit_subtitle_font_title"
+                android:id="@+id/edit_subtitle_font_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -24,7 +24,7 @@
                 android:textColor="@color/white"
                 android:textSize="17.0sp" />
             <ImageView
-                android:id="@id/edit_subtitle_font_icon"
+                android:id="@+id/edit_subtitle_font_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/edit_subtitle_font_title"
@@ -62,7 +62,7 @@
                     android:textSize="10.0sp" />
             </LinearLayout>
             <ImageView
-                android:id="@id/edit_subtitle_font_dialog_cancel_button"
+                android:id="@+id/edit_subtitle_font_dialog_cancel_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -78,7 +78,7 @@
             android:layout_below="@id/edit_subtitle_font_dialog_top"
             android:background="@drawable/v5_xiaoying_edit_subtitle_font_dialog_bottom_layout_bg">
             <TextView
-                android:id="@id/edit_subtitle_font_dialog_ok_button"
+                android:id="@+id/edit_subtitle_font_dialog_ok_button"
                 android:layout_width="210.0dip"
                 android:layout_height="34.0dip"
                 android:layout_centerInParent="true"

@@ -4,23 +4,23 @@
     android:layout_height="wrap_content"
     android:background="@color/transparent">
     <RelativeLayout
-        android:id="@id/item_layout"
+        android:id="@+id/item_layout"
         android:layout_width="75.0dip"
         android:layout_height="63.5dip">
         <RelativeLayout
-            android:id="@id/thumb_layout"
+            android:id="@+id/thumb_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true">
             <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-                android:id="@id/icon"
+                android:id="@+id/icon"
                 android:layout_width="47.0dip"
                 android:layout_height="47.0dip"
                 android:background="@color/transparent"
                 android:scaleType="fitXY" />
         </RelativeLayout>
         <ImageView
-            android:id="@id/img_lock_flag"
+            android:id="@+id/img_lock_flag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignTop="@id/thumb_layout"
@@ -34,7 +34,7 @@
             android:src="@drawable/v5_xiaoying_edit_template_download"
             android:visibility="visible" />
         <TextView
-            android:id="@id/txtview_cur_time"
+            android:id="@+id/txtview_cur_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignStart="@id/thumb_layout"
@@ -58,7 +58,7 @@
             android:progressDrawable="@drawable/v5_xiaoying_edit_sticker_download_progress_drawable"
             android:visibility="gone" />
         <ImageView
-            android:id="@id/img_focus"
+            android:id="@+id/img_focus"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
@@ -67,7 +67,7 @@
             android:src="@drawable/v5_xiaoying_ve_subtitle_bubble_select_bg"
             android:visibility="visible" />
         <ImageView
-            android:id="@id/imgview_item_focus_flag"
+            android:id="@+id/imgview_item_focus_flag"
             android:layout_width="13.0dip"
             android:layout_height="13.0dip"
             android:layout_alignTop="@id/img_focus"
@@ -80,7 +80,7 @@
             android:scaleType="fitXY"
             android:visibility="invisible" />
         <ImageView
-            android:id="@id/img_animlock_flag"
+            android:id="@+id/img_animlock_flag"
             android:layout_width="24.0dip"
             android:layout_height="24.0dip"
             android:layout_alignTop="@id/img_focus"

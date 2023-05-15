@@ -15,7 +15,7 @@
         android:paddingEnd="@dimen/mtrl_calendar_header_content_padding_fullscreen"
         android:paddingRight="@dimen/mtrl_calendar_header_content_padding_fullscreen">
         <com.google.android.material.button.MaterialButton
-            android:id="@id/cancel_button"
+            android:id="@+id/cancel_button"
             style="?w1"
             android:layout_width="@dimen/mtrl_min_touch_target_size"
             android:layout_height="@dimen/mtrl_min_touch_target_size"
@@ -28,14 +28,14 @@
             app:icon="@drawable/material_ic_clear_black_24dp"
             app:rippleColor="@color/mtrl_btn_ripple_color" />
         <FrameLayout
-            android:id="@id/mtrl_picker_header_title_and_selection"
+            android:id="@+id/mtrl_picker_header_title_and_selection"
             android:layout_width="0.0dip"
             android:layout_height="match_parent"
             android:layout_weight="1.0"
             android:paddingStart="@dimen/mtrl_calendar_header_text_padding"
             android:paddingLeft="@dimen/mtrl_calendar_header_text_padding">
             <TextView
-                android:id="@id/mtrl_picker_title_text"
+                android:id="@+id/mtrl_picker_title_text"
                 style="?w6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
                 android:gravity="start|bottom|center"
                 app:firstBaselineToTopHeight="@dimen/mtrl_calendar_title_baseline_to_top_fullscreen" />
             <TextView
-                android:id="@id/mtrl_picker_header_selection_text"
+                android:id="@+id/mtrl_picker_header_selection_text"
                 style="?w5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:orientation="@integer/mtrl_calendar_header_orientation">
             <com.google.android.material.button.MaterialButton
-                android:id="@id/confirm_button"
+                android:id="@+id/confirm_button"
                 style="?w2"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/mtrl_min_touch_target_size"

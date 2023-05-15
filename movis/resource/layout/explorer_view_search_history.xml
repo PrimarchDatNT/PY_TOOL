@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:id="@id/tvTitle"
+        android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15.0dip"
@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/btnHisClear"
+        android:id="@+id/btnHisClear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10.0dip"
@@ -24,7 +24,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintTop_toTopOf="@id/tvTitle" />
     <com.videoai.aivpcore.explorer.music.search.history.HistoryTagView
-        android:id="@id/viewHistoryTag"
+        android:id="@+id/viewHistoryTag"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="20.0dip"

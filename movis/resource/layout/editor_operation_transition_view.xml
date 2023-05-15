@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/relativelayout_storyboard_panel"
+    android:id="@+id/relativelayout_storyboard_panel"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/transparent"
@@ -13,7 +13,7 @@
         android:background="@color/black"
         android:orientation="vertical">
         <LinearLayout
-            android:id="@id/layout_filter_relate"
+            android:id="@+id/layout_filter_relate"
             android:layout_width="match_parent"
             android:layout_height="160.0dip"
             android:orientation="vertical"
@@ -24,14 +24,14 @@
                 android:paddingTop="10.0dip"
                 android:paddingBottom="10.0dip">
                 <include
-                    android:id="@id/apply_all_layout"
+                    android:id="@+id/apply_all_layout"
                     layout="@layout/editor_clip_apply_all_layout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10.0dip"
                     android:layout_marginLeft="10.0dip" />
                 <LinearLayout
-                    android:id="@id/random_apply_layout"
+                    android:id="@+id/random_apply_layout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -43,12 +43,12 @@
                     android:orientation="horizontal"
                     android:visibility="gone">
                     <ImageView
-                        android:id="@id/iv_random"
+                        android:id="@+id/iv_random"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/editor_random_icon" />
                     <TextView
-                        android:id="@id/tv_random"
+                        android:id="@+id/tv_random"
                         android:layout_width="wrap_content"
                         android:layout_height="20.0dip"
                         android:layout_marginStart="4.0dip"
@@ -61,12 +61,12 @@
                 </LinearLayout>
             </RelativeLayout>
             <com.videoai.aivpcore.editor.clipedit.transition.recycler.TransitionRecyclerView
-                android:id="@id/transition_recyclerview"
+                android:id="@+id/transition_recyclerview"
                 android:layout_width="match_parent"
                 android:layout_height="100.0dip" />
         </LinearLayout>
         <com.videoai.aivpcore.editor.widget.terminator.Terminator
-            android:id="@id/terminator"
+            android:id="@+id/terminator"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:terminatorText="@string/xiaoying_str_ve_transition_title" />

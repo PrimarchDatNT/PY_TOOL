@@ -5,7 +5,7 @@
     android:layout_height="@dimen/px56"
     android:background="@color/app_dcolor_bg_1">
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/btnDone"
+        android:id="@+id/btnDone"
         android:layout_width="@dimen/px56"
         android:layout_height="@dimen/px56"
         android:layout_centerHorizontal="true"
@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <FrameLayout
-        android:id="@id/layoutAction"
+        android:id="@+id/layoutAction"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         app:layout_constraintBottom_toBottomOf="parrent"

@@ -13,14 +13,14 @@
         android:orientation="vertical"
         android:padding="@dimen/px1">
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@id/iv_function_icon"
+            android:id="@+id/iv_function_icon"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px60"
             android:scaleType="fitXY"
             android:src="@drawable/bg_pro_filter"
             app:shapeAppearanceOverlay="@style/RoundedImageItem" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_function_name"
+            android:id="@+id/tv_function_name"
             style="@style/TextSingleLine"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px20"
@@ -31,7 +31,7 @@
             app:autoSizeMinTextSize="@dimen/sp8" />
     </LinearLayout>
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/iv_vip_icon"
+        android:id="@+id/iv_vip_icon"
         android:layout_width="@dimen/px16"
         android:layout_height="@dimen/px16"
         android:layout_alignParentEnd="true"

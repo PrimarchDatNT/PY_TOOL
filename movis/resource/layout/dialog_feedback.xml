@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/view_feedback"
+    android:id="@+id/view_feedback"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white">
@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_close"
+            android:id="@+id/iv_close"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8.0dip"
@@ -21,7 +21,7 @@
             app:layout_constraintTop_toTopOf="parrent"
             app:srcCompat="@drawable/app_default_close_black" />
         <TextView
-            android:id="@id/tv_title"
+            android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20.0dip"
@@ -33,7 +33,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <TextView
-            android:id="@id/tv_translate"
+            android:id="@+id/tv_translate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16.0dip"
@@ -48,7 +48,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tv_title" />
         <TextView
-            android:id="@id/tv_feature"
+            android:id="@+id/tv_feature"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="12.0dip"
@@ -62,7 +62,7 @@
             app:layout_constraintStart_toEndOf="@id/tv_translate"
             app:layout_constraintTop_toTopOf="@id/tv_translate" />
         <TextView
-            android:id="@id/tv_theme"
+            android:id="@+id/tv_theme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16.0dip"
@@ -77,7 +77,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tv_translate" />
         <TextView
-            android:id="@id/tv_design"
+            android:id="@+id/tv_design"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="12.0dip"
@@ -91,7 +91,7 @@
             app:layout_constraintStart_toEndOf="@id/tv_theme"
             app:layout_constraintTop_toTopOf="@id/tv_theme" />
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@id/edt_feedback"
+            android:id="@+id/edt_feedback"
             android:layout_width="0.0dip"
             android:layout_height="140.0dip"
             android:layout_marginStart="16.0dip"
@@ -105,7 +105,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tv_theme" />
         <TextView
-            android:id="@id/tv_warning"
+            android:id="@+id/tv_warning"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16.0dip"
@@ -116,7 +116,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/edt_feedback" />
         <TextView
-            android:id="@id/tv_count_char"
+            android:id="@+id/tv_count_char"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4.0dip"
@@ -125,7 +125,7 @@
             app:layout_constraintEnd_toEndOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/edt_feedback" />
         <TextView
-            android:id="@id/btn_send_feedback"
+            android:id="@+id/btn_send_feedback"
             android:layout_width="match_parent"
             android:layout_height="50.0dip"
             android:layout_marginStart="16.0dip"

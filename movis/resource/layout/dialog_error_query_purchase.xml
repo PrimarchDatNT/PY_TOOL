@@ -37,7 +37,7 @@
             android:textColor="@color/white"
             android:textSize="@dimen/sp16" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tvReload"
+            android:id="@+id/tvReload"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px42"
             android:layout_gravity="center"
@@ -54,7 +54,7 @@
             android:textSize="@dimen/sp16"
             android:textStyle="bold" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_back"
+            android:id="@+id/tv_back"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px42"
             android:layout_marginStart="@dimen/px16"

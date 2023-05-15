@@ -4,11 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/main_view"
+        android:id="@+id/main_view"
         android:layout_width="75.0dip"
         android:layout_height="90.0dip">
         <com.videoai.aivpcore.ui.view.RotateImageView
-            android:id="@id/wheel_img_rect_f"
+            android:id="@+id/wheel_img_rect_f"
             android:layout_width="2.0dip"
             android:layout_height="50.0dip"
             android:layout_centerVertical="true"
@@ -28,7 +28,7 @@
                 android:layout_centerInParent="true"
                 android:layout_margin="5.0dip">
                 <com.videoai.aivpcore.ui.view.RotateImageView
-                    android:id="@id/wheel_more"
+                    android:id="@+id/wheel_more"
                     android:layout_width="53.0dip"
                     android:layout_height="68.0dip"
                     android:layout_centerInParent="true"
@@ -36,13 +36,13 @@
                     android:src="@drawable/v4_xiaoying_cam_filter_download"
                     rotateView:rotation="270" />
                 <com.videoai.aivpcore.ui.view.RotateImageView
-                    android:id="@id/wheel_img_content"
+                    android:id="@+id/wheel_img_content"
                     android:layout_width="38.0dip"
                     android:layout_height="68.0dip"
                     android:layout_centerInParent="true"
                     android:scaleType="fitXY" />
                 <com.videoai.aivpcore.ui.view.RotateImageView
-                    android:id="@id/img_new_flag"
+                    android:id="@+id/img_new_flag"
                     android:layout_width="14.0dip"
                     android:layout_height="30.0dip"
                     android:layout_alignParentEnd="true"
@@ -53,7 +53,7 @@
                     android:src="@drawable/xiaoying_ve_template_new_flag_hor"
                     android:visibility="visible" />
                 <com.videoai.aivpcore.ui.view.RotateImageView
-                    android:id="@id/img_mission_bg_mark"
+                    android:id="@+id/img_mission_bg_mark"
                     android:layout_width="38.0dip"
                     android:layout_height="68.0dip"
                     android:background="@color/transparent"
@@ -62,7 +62,7 @@
                     android:visibility="invisible"
                     rotateView:rotation="270" />
                 <com.videoai.aivpcore.ui.view.RotateImageView
-                    android:id="@id/img_mission_flag"
+                    android:id="@+id/img_mission_flag"
                     android:layout_width="25.0dip"
                     android:layout_height="25.0dip"
                     android:layout_alignParentEnd="true"
@@ -74,7 +74,7 @@
                     android:visibility="invisible"
                     rotateView:rotation="270" />
                 <com.videoai.aivpcore.ui.view.RotateImageView
-                    android:id="@id/img_download_flag"
+                    android:id="@+id/img_download_flag"
                     android:layout_width="25.0dip"
                     android:layout_height="25.0dip"
                     android:background="@color/transparent"
@@ -83,7 +83,7 @@
                     android:visibility="invisible"
                     rotateView:rotation="270" />
                 <com.videoai.aivpcore.ui.view.RotateProgressBar
-                    android:id="@id/download_progress"
+                    android:id="@+id/download_progress"
                     style="@style/xiaoying_template_download_progressBar"
                     android:layout_width="5.0dip"
                     android:layout_height="68.0dip"
@@ -93,7 +93,7 @@
             </RelativeLayout>
         </RelativeLayout>
         <com.videoai.aivpcore.ui.view.RotateTextView
-            android:id="@id/wheel_txt"
+            android:id="@+id/wheel_txt"
             android:layout_width="15.0dip"
             android:layout_height="match_parent"
             android:textColor="@color/white"

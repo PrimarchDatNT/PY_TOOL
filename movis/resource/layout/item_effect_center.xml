@@ -7,14 +7,14 @@
     android:orientation="vertical"
     android:tag="layout/item_effect_center_0">
     <com.videoai.aivpcore.unit.view.PressImageView
-        android:id="@id/iv_effect_banner"
+        android:id="@+id/iv_effect_banner"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px116"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
         app:shapeAppearanceOverlay="@style/RoundedImageView" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_effect_title"
+        android:id="@+id/tv_effect_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_semibold"

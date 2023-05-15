@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/rl_vip_risk_layout"
+        android:id="@+id/rl_vip_risk_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white">
         <RelativeLayout
-            android:id="@id/rl_vip_tip_layout"
+            android:id="@+id/rl_vip_tip_layout"
             android:layout_width="match_parent"
             android:layout_height="54.0dip"
             android:layout_marginStart="15.0dip"
@@ -16,7 +16,7 @@
             android:layout_marginEnd="15.0dip"
             android:visibility="gone">
             <TextView
-                android:id="@id/iv_icon"
+                android:id="@+id/iv_icon"
                 android:layout_width="32.0dip"
                 android:layout_height="30.0dip"
                 android:layout_centerVertical="true"
@@ -34,7 +34,7 @@
                 android:layout_marginLeft="7.0dip"
                 android:layout_toRightOf="@id/iv_icon">
                 <TextView
-                    android:id="@id/tv_title"
+                    android:id="@+id/tv_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
@@ -58,18 +58,18 @@
         </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/layout_studio_view"
+        android:id="@+id/layout_studio_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/rl_vip_risk_layout"
         android:layout_marginBottom="10.0dip"
         android:background="@color/white">
         <RelativeLayout
-            android:id="@id/rl_studio_title"
+            android:id="@+id/rl_studio_title"
             android:layout_width="match_parent"
             android:layout_height="38.5dip">
             <TextView
-                android:id="@id/textview_title"
+                android:id="@+id/textview_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -81,7 +81,7 @@
                 android:textColor="@color/color_333333"
                 android:textSize="14.0sp" />
             <TextView
-                android:id="@id/btn_more"
+                android:id="@+id/btn_more"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -98,14 +98,14 @@
                 android:textSize="14.0sp" />
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/layout_draft_item"
+            android:id="@+id/layout_draft_item"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/rl_studio_title"
             android:orientation="horizontal" />
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/layout_studio_empty_hint"
+        android:id="@+id/layout_studio_empty_hint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/rl_vip_risk_layout"
@@ -115,7 +115,7 @@
         android:orientation="vertical"
         android:visibility="gone">
         <ImageView
-            android:id="@id/studio_empty_img"
+            android:id="@+id/studio_empty_img"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="centerInside"

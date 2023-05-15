@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.ui.view.RotateTextView
-        android:id="@id/timer_text1"
+        android:id="@+id/timer_text1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
@@ -13,7 +13,7 @@
         android:textSize="60.0sp"
         android:textStyle="bold" />
     <com.videoai.aivpcore.ui.view.RotateTextView
-        android:id="@id/timer_text2"
+        android:id="@+id/timer_text2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
@@ -23,7 +23,7 @@
         android:textSize="60.0sp"
         android:textStyle="bold" />
     <com.videoai.aivpcore.ui.view.RotateTextView
-        android:id="@id/timer_tip"
+        android:id="@+id/timer_tip"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"

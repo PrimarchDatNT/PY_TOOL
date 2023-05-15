@@ -7,7 +7,7 @@
     android:paddingStart="15.0dip"
     android:paddingEnd="15.0dip">
     <ImageView
-        android:id="@id/browser_actions_menu_item_icon"
+        android:id="@+id/browser_actions_menu_item_icon"
         android:layout_width="20.0dip"
         android:layout_height="match_parent"
         android:contentDescription="@null"
@@ -15,7 +15,7 @@
         android:paddingBottom="10.0dip"
         android:scaleType="centerInside" />
     <TextView
-        android:id="@id/browser_actions_menu_item_text"
+        android:id="@+id/browser_actions_menu_item_text"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"

@@ -10,14 +10,14 @@
         android:layout_alignParentBottom="true"
         android:background="@color/black">
         <RelativeLayout
-            android:id="@id/layout_music_select"
+            android:id="@+id/layout_music_select"
             android:layout_width="match_parent"
             android:layout_height="44.0dip"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="24.0dip"
             android:visibility="visible">
             <LinearLayout
-                android:id="@id/layout_editor_no_choose_music"
+                android:id="@+id/layout_editor_no_choose_music"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentBottom="true"
@@ -25,7 +25,7 @@
                 android:orientation="horizontal"
                 android:visibility="gone">
                 <TextView
-                    android:id="@id/txtview_add_music"
+                    android:id="@+id/txtview_add_music"
                     android:layout_width="136.0dip"
                     android:layout_height="36.0dip"
                     android:background="@drawable/editor_shape_preview_music_add_music"
@@ -36,12 +36,12 @@
                     android:text="@string/xiaoying_str_ve_bgm_add"
                     android:textColor="@color/white" />
                 <FrameLayout
-                    android:id="@id/layout_extrac_music"
+                    android:id="@+id/layout_extrac_music"
                     android:layout_width="wrap_content"
                     android:layout_height="44.0dip"
                     android:layout_marginLeft="24.0dip">
                     <TextView
-                        android:id="@id/txtview_extrac_music"
+                        android:id="@+id/txtview_extrac_music"
                         android:layout_width="wrap_content"
                         android:layout_height="36.0dip"
                         android:layout_gravity="bottom"
@@ -53,7 +53,7 @@
                         android:text="@string/xiaoying_str_extract_video_music_title"
                         android:textColor="@color/white" />
                     <ImageView
-                        android:id="@id/iv_vip_resource"
+                        android:id="@+id/iv_vip_resource"
                         android:layout_width="22.0dip"
                         android:layout_height="22.0dip"
                         android:layout_gravity="bottom|center|right"
@@ -61,7 +61,7 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/editorx_select_text_view_vip_icon" />
                     <ImageView
-                        android:id="@id/iv_free_for_time_limit_resource"
+                        android:id="@+id/iv_free_for_time_limit_resource"
                         android:layout_width="wrap_content"
                         android:layout_height="16.0dip"
                         android:layout_gravity="bottom|center|right"
@@ -70,7 +70,7 @@
                 </FrameLayout>
             </LinearLayout>
             <RelativeLayout
-                android:id="@id/layout_editor_choosed_music"
+                android:id="@+id/layout_editor_choosed_music"
                 android:layout_width="match_parent"
                 android:layout_height="36.0dip"
                 android:layout_alignWithParentIfMissing="true"
@@ -78,7 +78,7 @@
                 android:background="@color/transparent"
                 android:visibility="visible">
                 <TextView
-                    android:id="@id/txtview_bgm_name"
+                    android:id="@+id/txtview_bgm_name"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_centerVertical="true"
@@ -100,7 +100,7 @@
                     android:textColor="@color/white"
                     android:textSize="14.0sp" />
                 <LinearLayout
-                    android:id="@id/llMusicEdit"
+                    android:id="@+id/llMusicEdit"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
@@ -108,7 +108,7 @@
                     android:layout_marginLeft="14.0dip"
                     android:gravity="end|center">
                     <ImageView
-                        android:id="@id/iv_reset_music"
+                        android:id="@+id/iv_reset_music"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
@@ -120,7 +120,7 @@
                         android:scaleType="centerInside"
                         android:src="@drawable/editor_icon_theme_bgm_recover_new" />
                     <ImageView
-                        android:id="@id/iv_del_music"
+                        android:id="@+id/iv_del_music"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
@@ -135,7 +135,7 @@
             </RelativeLayout>
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/relativelayout_music_panel"
+            android:id="@+id/relativelayout_music_panel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@id/layout_music_select"
@@ -148,14 +148,14 @@
                 android:paddingLeft="12.0dip"
                 android:paddingRight="12.0dip">
                 <ImageView
-                    android:id="@id/editor_old_volume_left_icon"
+                    android:id="@+id/editor_old_volume_left_icon"
                     android:layout_width="16.0dip"
                     android:layout_height="16.0dip"
                     android:src="@drawable/editor_selector_seekbar_music_icon"
                     app:layout_constraintLeft_toLeftOf="parrent"
                     app:layout_constraintTop_toTopOf="parrent" />
                 <com.videoai.aivpcore.editor.widget.seekbar.IndicatorSeekBar
-                    android:id="@id/seekbar_old_volume"
+                    android:id="@+id/seekbar_old_volume"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16.0dip"
@@ -172,7 +172,7 @@
                     app:isb_track_progress_color="@color/white"
                     app:isb_track_rounded_corners="true" />
                 <TextView
-                    android:id="@id/seekbar_editor_old_volume_left_label_textview"
+                    android:id="@+id/seekbar_editor_old_volume_left_label_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2.0dip"
@@ -189,14 +189,14 @@
                 android:paddingLeft="12.0dip"
                 android:paddingRight="12.0dip">
                 <ImageView
-                    android:id="@id/editor_config_music_left_icon"
+                    android:id="@+id/editor_config_music_left_icon"
                     android:layout_width="16.0dip"
                     android:layout_height="16.0dip"
                     android:src="@drawable/editor_selector_replace_music_icon"
                     app:layout_constraintLeft_toLeftOf="parrent"
                     app:layout_constraintTop_toTopOf="parrent" />
                 <com.videoai.aivpcore.editor.widget.seekbar.IndicatorSeekBar
-                    android:id="@id/seekbar_config_music"
+                    android:id="@+id/seekbar_config_music"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16.0dip"
@@ -213,7 +213,7 @@
                     app:isb_track_progress_color="@color/white"
                     app:isb_track_rounded_corners="true" />
                 <TextView
-                    android:id="@id/editor_config_music_left_label_textview"
+                    android:id="@+id/editor_config_music_left_label_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2.0dip"
@@ -225,7 +225,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
         <RelativeLayout
-            android:id="@id/relativelayout_music_panel2"
+            android:id="@+id/relativelayout_music_panel2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -244,12 +244,12 @@
                 android:focusable="false"
                 android:visibility="gone" />
             <com.videoai.aivpcore.editor.preview.fragment.theme.widget.ThemeAudioTrackMixView
-                android:id="@id/mixview"
+                android:id="@+id/mixview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </RelativeLayout>
         <com.videoai.aivpcore.explorer.ui.RangeLogicSeekBar
-            android:id="@id/music_item_play_seek_bar"
+            android:id="@+id/music_item_play_seek_bar"
             android:layout_width="match_parent"
             android:layout_height="30.0dip"
             android:layout_above="@id/relativelayout_music_panel"

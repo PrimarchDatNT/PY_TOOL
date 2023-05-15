@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
-        android:id="@id/layout_click"
+        android:id="@+id/layout_click"
         android:layout_width="match_parent"
         android:layout_height="192.0dip"
         android:layout_gravity="bottom"
@@ -29,7 +29,7 @@
                 app:layout_constraintStart_toStartOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <com.videoai.aivpcore.editorx.widget.seekbar.VHSeekBar
-                android:id="@id/seek_font_size"
+                android:id="@+id/seek_font_size"
                 android:layout_width="match_parent"
                 android:layout_height="28.0dip"
                 android:layout_gravity="center_vertical"
@@ -71,12 +71,12 @@
                 android:layout_marginStart="24.0dip"
                 android:orientation="horizontal">
                 <RelativeLayout
-                    android:id="@id/layout_align_left"
+                    android:id="@+id/layout_align_left"
                     android:layout_width="0.0dip"
                     android:layout_height="28.0dip"
                     android:layout_weight="1.0">
                     <ImageView
-                        android:id="@id/iv_align_left"
+                        android:id="@+id/iv_align_left"
                         android:layout_width="52.0dip"
                         android:layout_height="28.0dip"
                         android:layout_centerInParent="true"
@@ -86,12 +86,12 @@
                         android:src="@drawable/editorx_icon_subtitle_font_align_left" />
                 </RelativeLayout>
                 <RelativeLayout
-                    android:id="@id/layout_align_center"
+                    android:id="@+id/layout_align_center"
                     android:layout_width="0.0dip"
                     android:layout_height="28.0dip"
                     android:layout_weight="1.0">
                     <ImageView
-                        android:id="@id/iv_align_center"
+                        android:id="@+id/iv_align_center"
                         android:layout_width="52.0dip"
                         android:layout_height="28.0dip"
                         android:layout_centerInParent="true"
@@ -100,12 +100,12 @@
                         android:src="@drawable/editorx_icon_subtitle_font_align_center" />
                 </RelativeLayout>
                 <RelativeLayout
-                    android:id="@id/layout_align_right"
+                    android:id="@+id/layout_align_right"
                     android:layout_width="0.0dip"
                     android:layout_height="28.0dip"
                     android:layout_weight="1.0">
                     <ImageView
-                        android:id="@id/iv_align_right"
+                        android:id="@+id/iv_align_right"
                         android:layout_width="52.0dip"
                         android:layout_height="28.0dip"
                         android:layout_centerInParent="true"
@@ -114,13 +114,13 @@
                         android:src="@drawable/editorx_icon_suntitle_font_align_right" />
                 </RelativeLayout>
                 <RelativeLayout
-                    android:id="@id/layout_align_normal"
+                    android:id="@+id/layout_align_normal"
                     android:layout_width="0.0dip"
                     android:layout_height="28.0dip"
                     android:layout_weight="1.0"
                     android:visibility="gone">
                     <ImageView
-                        android:id="@id/iv_align_normal"
+                        android:id="@+id/iv_align_normal"
                         android:layout_width="52.0dip"
                         android:layout_height="28.0dip"
                         android:layout_centerInParent="true"
@@ -152,7 +152,7 @@
                 android:background="@drawable/editorx_shape_subtitle_font_shadow"
                 android:orientation="horizontal">
                 <Button
-                    android:id="@id/btn_off"
+                    android:id="@+id/btn_off"
                     android:layout_width="0.0dip"
                     android:layout_height="match_parent"
                     android:layout_weight="1.0"
@@ -161,7 +161,7 @@
                     android:textColor="@color/color_363636"
                     android:textSize="12.0sp" />
                 <Button
-                    android:id="@id/btn_on"
+                    android:id="@+id/btn_on"
                     android:layout_width="0.0dip"
                     android:layout_height="match_parent"
                     android:layout_weight="1.0"
@@ -173,7 +173,7 @@
         </LinearLayout>
     </LinearLayout>
     <com.videoai.aivpcore.editorx.widget.seekbar.CircleShadowView
-        android:id="@id/seek_circle"
+        android:id="@+id/seek_circle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"

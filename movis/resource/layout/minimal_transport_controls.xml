@@ -5,6 +5,6 @@
     android:gravity="center"
     android:orientation="horizontal">
     <ImageButton
-        android:id="@id/pause"
+        android:id="@+id/pause"
         style="@style/MinimalTransportControlsButton" />
 </LinearLayout>

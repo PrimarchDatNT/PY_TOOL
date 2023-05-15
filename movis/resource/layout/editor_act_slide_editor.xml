@@ -3,43 +3,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/layout_preview_background"
+        android:id="@+id/layout_preview_background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="@dimen/editor_ops_board_normal_height"
         android:background="@color/color_101010">
         <RelativeLayout
-            android:id="@id/surface_layout"
+            android:id="@+id/surface_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:background="@color/transparent" />
     </RelativeLayout>
     <ViewStub
-        android:id="@id/player_seek_view_stub"
+        android:id="@+id/player_seek_view_stub"
         android:layout_width="match_parent"
         android:layout_height="40.0dip"
         android:layout_alignBottom="@id/layout_preview_background"
         android:layout_marginBottom="-20.0dip"
         android:layout="@layout/editor_preview_player_seek_layout" />
     <com.videoai.aivpcore.editor.widget.title.EditorTitle
-        android:id="@id/slide_title_view"
+        android:id="@+id/slide_title_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <RelativeLayout
-        android:id="@id/layout_scene"
+        android:id="@+id/layout_scene"
         android:layout_width="match_parent"
         android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
         android:background="@android:color/black">
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/rc_scene"
+            android:id="@+id/rc_scene"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:overScrollMode="never" />
         <TextView
-            android:id="@id/tv_drag_tip"
+            android:id="@+id/tv_drag_tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -55,7 +55,7 @@
             android:visibility="gone" />
     </RelativeLayout>
     <com.videoai.aivpcore.editor.slideshow.SlideSubTextView
-        android:id="@id/text_edit_view"
+        android:id="@+id/text_edit_view"
         android:layout_width="match_parent"
         android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"

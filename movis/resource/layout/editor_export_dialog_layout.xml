@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/black_p80">
     <include
-        android:id="@id/layout_export_fail_view"
+        android:id="@+id/layout_export_fail_view"
         layout="@layout/editor_export_dialog_fail_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -12,14 +12,14 @@
         android:layout_alignParentTop="true"
         android:visibility="invisible" />
     <RelativeLayout
-        android:id="@id/layout_exporting_view"
+        android:id="@+id/layout_exporting_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true">
         <TextView
-            android:id="@id/txtview_export_progress_tip"
+            android:id="@+id/txtview_export_progress_tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@id/txtview_progressview"
@@ -41,7 +41,7 @@
             android:textColor="@color/white"
             android:visibility="invisible" />
         <ProgressBar
-            android:id="@id/xiaoying_ve_basic_tool_progressbar"
+            android:id="@+id/xiaoying_ve_basic_tool_progressbar"
             style="@android:style/Widget.ProgressBar.Horizontal"
             android:layout_width="260.0dip"
             android:layout_height="3.0dip"
@@ -50,7 +50,7 @@
             android:progress="0"
             android:progressDrawable="@drawable/v4_xiaoying_ve_export_progress_bg_drawable" />
         <TextView
-            android:id="@id/txtview_remain_timeview"
+            android:id="@+id/txtview_remain_timeview"
             android:layout_width="wrap_content"
             android:layout_height="27.0dip"
             android:layout_below="@id/xiaoying_ve_basic_tool_progressbar"
@@ -58,7 +58,7 @@
             android:layout_marginTop="27.0dip"
             android:textColor="@color/white" />
         <TextView
-            android:id="@id/tv_tip_oppo_device"
+            android:id="@+id/tv_tip_oppo_device"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/txtview_remain_timeview"
@@ -69,7 +69,7 @@
             android:textSize="12.0sp"
             android:visibility="gone" />
         <TextView
-            android:id="@id/tv_tip_when_video_show"
+            android:id="@+id/tv_tip_when_video_show"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@id/fl_ad_container"
@@ -81,7 +81,7 @@
             android:textSize="9.0sp"
             android:visibility="gone" />
         <TextView
-            android:id="@id/tv_tip_keep_foreground"
+            android:id="@+id/tv_tip_keep_foreground"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@id/btn_view_newbie_tuial"
@@ -91,7 +91,7 @@
             android:textColor="@color/white"
             android:textSize="15.0dip" />
         <TextView
-            android:id="@id/tv_tip_4k_slow"
+            android:id="@+id/tv_tip_4k_slow"
             android:layout_width="300.0dip"
             android:layout_height="wrap_content"
             android:layout_below="@id/txtview_remain_timeview"
@@ -103,7 +103,7 @@
             android:textSize="15.0dip"
             android:visibility="invisible" />
         <Button
-            android:id="@id/btn_view_newbie_tuial"
+            android:id="@+id/btn_view_newbie_tuial"
             android:layout_width="wrap_content"
             android:layout_height="28.0dip"
             android:layout_alignParentBottom="true"
@@ -117,7 +117,7 @@
             android:textColor="@color/white_p50"
             android:textSize="12.0dip" />
         <TextView
-            android:id="@id/txtview_progressview"
+            android:id="@+id/txtview_progressview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@id/xiaoying_ve_basic_tool_progressbar"
@@ -136,7 +136,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="31.0dip" />
         <LinearLayout
-            android:id="@id/fl_ad_container"
+            android:id="@+id/fl_ad_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -144,7 +144,7 @@
             android:orientation="horizontal" />
     </RelativeLayout>
     <ImageButton
-        android:id="@id/imgbtn_cancel"
+        android:id="@+id/imgbtn_cancel"
         android:layout_width="48.0dip"
         android:layout_height="48.0dip"
         android:layout_alignParentTop="true"

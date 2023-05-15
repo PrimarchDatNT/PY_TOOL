@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
     <ImageView
-        android:id="@id/icon"
+        android:id="@+id/icon"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_gravity="center_horizontal"
@@ -10,7 +10,7 @@
         android:contentDescription="@null"
         android:duplicateParentState="true" />
     <com.google.android.material.internal.BaselineLayout
-        android:id="@id/labelGroup"
+        android:id="@+id/labelGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
@@ -19,7 +19,7 @@
         android:duplicateParentState="true"
         android:paddingBottom="@dimen/design_bottom_navigation_label_padding">
         <TextView
-            android:id="@id/smallLabel"
+            android:id="@+id/smallLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:duplicateParentState="true"
@@ -27,7 +27,7 @@
             android:maxLines="1"
             android:textSize="@dimen/design_bottom_navigation_text_size" />
         <TextView
-            android:id="@id/largeLabel"
+            android:id="@+id/largeLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:duplicateParentState="true"

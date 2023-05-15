@@ -4,7 +4,7 @@
     android:layout_height="48.0dip"
     android:background="@color/transparent">
     <ImageView
-        android:id="@id/cam_btn_cancel"
+        android:id="@+id/cam_btn_cancel"
         android:layout_width="44.0dip"
         android:layout_height="44.0dip"
         android:layout_centerVertical="true"
@@ -12,7 +12,7 @@
         android:layout_marginLeft="3.5dip"
         android:src="@drawable/xiaoying_cam_icon_cancel" />
     <com.videoai.aivpcore.camera.ui.view.CaptrueRatioImageView
-        android:id="@id/cam_btn_ratio"
+        android:id="@+id/cam_btn_ratio"
         android:layout_width="44.0dip"
         android:layout_height="44.0dip"
         android:layout_centerVertical="true"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
         <TextView
-            android:id="@id/cam_recording_total_time"
+            android:id="@+id/cam_recording_total_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="bottom"
@@ -38,7 +38,7 @@
             android:textSize="20.0sp"
             android:visibility="visible" />
         <TextView
-            android:id="@id/cam_clip_count"
+            android:id="@+id/cam_clip_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -58,7 +58,7 @@
             android:textSize="12.0sp" />
     </RelativeLayout>
     <ImageView
-        android:id="@id/img_switch"
+        android:id="@+id/img_switch"
         android:layout_width="44.0dip"
         android:layout_height="44.0dip"
         android:layout_alignParentEnd="true"
@@ -69,7 +69,7 @@
         android:scaleType="centerInside"
         android:src="@drawable/xiaoying_cam_icon_swap" />
     <ImageView
-        android:id="@id/cam_btn_setting"
+        android:id="@+id/cam_btn_setting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/viewRoot"
+    android:id="@+id/viewRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/center_view_background">
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@id/loadingview"
+        android:id="@+id/loadingview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -14,7 +14,7 @@
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/gallery_normal_loading" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/loading_dialog_tv"
+        android:id="@+id/loading_dialog_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/loadingview"

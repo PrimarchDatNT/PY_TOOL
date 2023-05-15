@@ -7,17 +7,17 @@
     android:clipChildren="false"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/ll_content_top"
+        android:id="@+id/ll_content_top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/black"
         android:gravity="center"
         android:orientation="vertical">
         <include
-            android:id="@id/title_bar"
+            android:id="@+id/title_bar"
             layout="@layout/xiaoying_music_extract_direct_title_bar_layout" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/extract_music_icon"
+            android:id="@+id/extract_music_icon"
             android:layout_width="@dimen/px64"
             android:layout_height="@dimen/px64"
             android:layout_marginTop="@dimen/px42"
@@ -25,14 +25,14 @@
             android:scaleType="centerCrop"
             android:src="@drawable/ic_extract_music_play" />
         <LinearLayout
-            android:id="@id/layout_seek_bar"
+            android:id="@+id/layout_seek_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40.0dip"
             android:layout_marginBottom="20.0dip"
             android:orientation="horizontal">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/play_pause_btn"
+                android:id="@+id/play_pause_btn"
                 android:layout_width="@dimen/px24"
                 android:layout_height="@dimen/px24"
                 android:layout_marginStart="@dimen/px16"
@@ -40,7 +40,7 @@
                 android:src="@drawable/xiaoying_music_extract_direct_selector_video_play_pause"
                 android:tint="@color/white" />
             <SeekBar
-                android:id="@id/seekbar_simple_music"
+                android:id="@+id/seekbar_simple_music"
                 android:layout_width="0.0dip"
                 android:layout_height="@dimen/px28"
                 android:layout_weight="1.0"
@@ -53,7 +53,7 @@
                 android:thumb="@drawable/xiaoying_music_extract_selector_video_seekbar"
                 android:visibility="visible" />
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/play_music_duration"
+                android:id="@+id/play_music_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -65,7 +65,7 @@
         </LinearLayout>
     </LinearLayout>
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_name_title"
+        android:id="@+id/tv_name_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/ll_content_top"
@@ -75,20 +75,20 @@
         android:textColor="@color/white"
         android:textSize="@dimen/sp14" />
     <LinearLayout
-        android:id="@id/layout_rename"
+        android:id="@+id/layout_rename"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_name_title"
         android:orientation="horizontal">
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@id/layout_rename2"
+            android:id="@+id/layout_rename2"
             android:layout_width="0.0dip"
             android:layout_height="38.0dip"
             android:layout_marginStart="12.0dip"
             android:layout_marginEnd="12.0dip"
             android:layout_weight="1.0">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/file_name_text"
+                android:id="@+id/file_name_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ellipsize="middle"
@@ -100,7 +100,7 @@
                 app:layout_constraintBottom_toBottomOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <androidx.appcompat.widget.AppCompatEditText
-                android:id="@id/file_name_edittext"
+                android:id="@+id/file_name_edittext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -114,7 +114,7 @@
                 app:layout_constraintBottom_toBottomOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <View
-                android:id="@id/edittext_line"
+                android:id="@+id/edittext_line"
                 android:layout_width="match_parent"
                 android:layout_height="1.0dip"
                 android:background="@color/color_eeeeee"
@@ -124,7 +124,7 @@
                 app:layout_constraintRight_toRightOf="parrent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/rename_btn"
+            android:id="@+id/rename_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -140,7 +140,7 @@
             android:textSize="@dimen/sp14" />
     </LinearLayout>
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/save_success_label"
+        android:id="@+id/save_success_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/layout_rename"
@@ -151,7 +151,7 @@
         android:textSize="@dimen/sp14"
         android:visibility="invisible" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/save_path_text"
+        android:id="@+id/save_path_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/save_success_label"
@@ -161,7 +161,7 @@
         android:textSize="12.0sp"
         android:visibility="invisible" />
     <RelativeLayout
-        android:id="@id/layout_save_btn"
+        android:id="@+id/layout_save_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/discard_and_quit_btn"
@@ -169,7 +169,7 @@
         android:layout_marginTop="5.0dip"
         android:layout_marginEnd="@dimen/px16">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_free_of_time_limit"
+            android:id="@+id/iv_free_of_time_limit"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/px16"
             android:layout_alignParentEnd="true"
@@ -177,7 +177,7 @@
             android:layout_marginEnd="8.0dip"
             android:visibility="gone" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/save_btn"
+            android:id="@+id/save_btn"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px48"
             android:layout_centerInParent="true"
@@ -188,7 +188,7 @@
             android:textColor="@color/white"
             android:textSize="@dimen/sp14" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_vip_func"
+            android:id="@+id/iv_vip_func"
             android:layout_width="@dimen/px16"
             android:layout_height="@dimen/px16"
             android:layout_centerVertical="true"
@@ -196,7 +196,7 @@
             android:visibility="gone" />
     </RelativeLayout>
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/discard_and_quit_btn"
+        android:id="@+id/discard_and_quit_btn"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px48"
         android:layout_alignParentBottom="true"

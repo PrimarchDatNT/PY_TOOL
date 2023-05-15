@@ -9,7 +9,7 @@
     app:cardBackgroundColor="@color/black"
     app:cardCornerRadius="12.0dip">
     <FrameLayout
-        android:id="@id/flVideoContainer"
+        android:id="@+id/flVideoContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </androidx.cardview.widget.CardView>

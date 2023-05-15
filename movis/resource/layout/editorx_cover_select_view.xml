@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/cover_layout_root"
+    android:id="@+id/cover_layout_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/app_dcolor_background">
@@ -16,12 +16,12 @@
         app:layout_constraintTop_toTopOf="parrent"
         app:layout_constraintVertical_bias="0.0">
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@id/cover_top"
+            android:id="@+id/cover_top"
             android:layout_width="match_parent"
             android:layout_height="?a4"
             android:orientation="horizontal">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/cover_cancel"
+                android:id="@+id/cover_cancel"
                 android:layout_width="?a4"
                 android:layout_height="?a4"
                 android:background="@drawable/btn_dcolor_ripple"
@@ -31,7 +31,7 @@
                 app:layout_constraintStart_toStartOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/cover_title"
+                android:id="@+id/cover_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_semibold"
@@ -45,7 +45,7 @@
                 app:layout_constraintStart_toStartOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/cover_done"
+                android:id="@+id/cover_done"
                 android:layout_width="?a4"
                 android:layout_height="?a4"
                 android:background="@drawable/btn_dcolor_ripple"
@@ -56,18 +56,18 @@
                 app:layout_constraintTop_toTopOf="parrent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <com.videoai.aivpcore.editorx.board.clip.cover.CoverVideoFrameView
-            android:id="@id/cover_video_frame_view"
+            android:id="@+id/cover_video_frame_view"
             android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:layout_weight="1.0" />
         <com.videoai.aivpcore.editorx.board.clip.cover.CoverPhotoView
-            android:id="@id/cover_photo_view"
+            android:id="@+id/cover_photo_view"
             android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:layout_weight="1.0"
             android:visibility="gone" />
         <com.videoai.aivpcore.editorx.board.clip.cover.CoverPhotoCutView
-            android:id="@id/cover_photo_cut"
+            android:id="@+id/cover_photo_cut"
             android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:layout_weight="1.0" />
@@ -80,7 +80,7 @@
             android:layout_height="@dimen/px56"
             android:background="@color/app_dcolor_bg_1">
             <LinearLayout
-                android:id="@id/cover_video_frame_btn"
+                android:id="@+id/cover_video_frame_btn"
                 android:layout_width="0.0dip"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn_dcolor_ripple"
@@ -91,13 +91,13 @@
                 app:layout_constraintTop_toTopOf="parrent"
                 app:layout_constraintWidth_percent="0.5">
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@id/cover_video_frame_img"
+                    android:id="@+id/cover_video_frame_img"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:scaleType="centerCrop"
                     android:src="@drawable/editorx_cover_video_frame_selector" />
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/cover_video_frame_text"
+                    android:id="@+id/cover_video_frame_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4.0dip"
@@ -108,7 +108,7 @@
                     android:textSize="@dimen/sp12" />
             </LinearLayout>
             <LinearLayout
-                android:id="@id/cover_photo_btn"
+                android:id="@+id/cover_photo_btn"
                 android:layout_width="0.0dip"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn_dcolor_ripple"
@@ -119,12 +119,12 @@
                 app:layout_constraintTop_toTopOf="parrent"
                 app:layout_constraintWidth_percent="0.5">
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@id/cover_photo_img"
+                    android:id="@+id/cover_photo_img"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/editorx_cover_photo_selector" />
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/cover_photo_text"
+                    android:id="@+id/cover_photo_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4.0dip"

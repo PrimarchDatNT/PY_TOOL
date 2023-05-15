@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoedit.widgetlib.magicindicator.MagicIndicator
-        android:id="@id/magicIndicator"
+        android:id="@+id/magicIndicator"
         android:layout_width="wrap_content"
         android:layout_height="24.0dip"
         android:layout_gravity="center_horizontal" />

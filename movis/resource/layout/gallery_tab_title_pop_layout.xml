@@ -6,7 +6,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
     <RelativeLayout
-        android:id="@id/xiaoying_gallery_video_tab"
+        android:id="@+id/xiaoying_gallery_video_tab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingStart="36.0dip"
@@ -32,7 +32,7 @@
         android:layout_marginRight="3.0dip"
         android:background="#1affffff" />
     <RelativeLayout
-        android:id="@id/xiaoying_gallery_photo_tab"
+        android:id="@+id/xiaoying_gallery_photo_tab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingStart="36.0dip"

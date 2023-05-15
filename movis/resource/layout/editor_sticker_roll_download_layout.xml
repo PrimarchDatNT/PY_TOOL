@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/black_p54">
     <ProgressBar
-        android:id="@id/progressbar_loading"
+        android:id="@+id/progressbar_loading"
         style="?android:progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="32.0dip"
@@ -17,7 +17,7 @@
         android:progress="30"
         android:progressDrawable="@drawable/v5_xiaoying_roll_progressbar_horizontal" />
     <TextView
-        android:id="@id/txtview_rolldownload_progress"
+        android:id="@+id/txtview_rolldownload_progress"
         android:layout_width="match_parent"
         android:layout_height="32.0dip"
         android:layout_alignStart="@id/btn_roll_download_state"
@@ -29,7 +29,7 @@
         android:textColor="@color/white"
         android:textSize="13.0dip" />
     <Button
-        android:id="@id/btn_roll_download_state"
+        android:id="@+id/btn_roll_download_state"
         android:layout_width="wrap_content"
         android:layout_height="32.0dip"
         android:layout_centerInParent="true"

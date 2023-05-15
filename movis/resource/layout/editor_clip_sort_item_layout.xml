@@ -4,23 +4,23 @@
     android:layout_width="77.0dip"
     android:layout_height="77.0dip">
     <RelativeLayout
-        android:id="@id/item_content"
+        android:id="@+id/item_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <com.videoai.aivpcore.xyui.RoundCornerImageView
-            android:id="@id/item_cover"
+            android:id="@+id/item_cover"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
             android:src="@drawable/xiaoying_com_no_clip_default_square"
             app:cornerRadius="1.5dip" />
         <RelativeLayout
-            android:id="@id/rl_item_info"
+            android:id="@+id/rl_item_info"
             android:layout_width="match_parent"
             android:layout_height="20.0dip"
             android:layout_alignParentBottom="true">
             <TextView
-                android:id="@id/item_duration"
+                android:id="@+id/item_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
@@ -34,7 +34,7 @@
                 android:textColor="@android:color/white"
                 android:textSize="11.0sp" />
             <ImageView
-                android:id="@id/iv_item_mask"
+                android:id="@+id/iv_item_mask"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -46,7 +46,7 @@
                 android:src="@drawable/editor_icon_clip_img_flag" />
         </RelativeLayout>
         <TextView
-            android:id="@id/item_order"
+            android:id="@+id/item_order"
             android:layout_width="15.0dip"
             android:layout_height="15.0dip"
             android:layout_marginStart="5.0dip"

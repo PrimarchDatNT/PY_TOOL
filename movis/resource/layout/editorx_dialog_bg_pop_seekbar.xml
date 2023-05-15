@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <View
-        android:id="@id/dialog_bg"
+        android:id="@+id/dialog_bg"
         android:layout_width="match_parent"
         android:layout_height="90.0dip"
         android:layout_marginLeft="15.0dip"
@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <com.videoai.aivpcore.editorx.widget.seekbar.PopSeekBar
-        android:id="@id/popSeekBar"
+        android:id="@+id/popSeekBar"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="@id/dialog_bg"
@@ -34,7 +34,7 @@
         app:psb_top_text_diam="44.0dip"
         app:psb_top_text_size="@dimen/sp16" />
     <TextView
-        android:id="@id/tvTitle"
+        android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12.0dip"

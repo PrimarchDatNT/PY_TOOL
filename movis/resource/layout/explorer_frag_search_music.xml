@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#f2101010">
     <EditText
-        android:id="@id/etKeywords"
+        android:id="@+id/etKeywords"
         android:layout_width="0.0dip"
         android:layout_height="40.0dip"
         android:layout_marginStart="15.0dip"
@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/imgSearch"
+        android:id="@+id/imgSearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12.0dip"
@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="@id/etKeywords"
         app:layout_constraintTop_toTopOf="@id/etKeywords" />
     <ImageView
-        android:id="@id/btnClear"
+        android:id="@+id/btnClear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="12.0dip"
@@ -44,7 +44,7 @@
         app:layout_constraintEnd_toStartOf="@id/btnCancel"
         app:layout_constraintTop_toTopOf="@id/etKeywords" />
     <TextView
-        android:id="@id/btnCancel"
+        android:id="@+id/btnCancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -56,7 +56,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintTop_toTopOf="@id/etKeywords" />
     <com.videoai.aivpcore.explorer.music.search.history.SearchHistoryView
-        android:id="@id/viewSearchHistory"
+        android:id="@+id/viewSearchHistory"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="48.0dip"
@@ -64,7 +64,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/etKeywords" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/music_recycle_view"
+        android:id="@+id/music_recycle_view"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:layout_marginTop="20.0dip"

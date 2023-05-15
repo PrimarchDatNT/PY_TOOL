@@ -4,26 +4,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageView
-        android:id="@id/view_bg"
+        android:id="@+id/view_bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/default_app_color"
         android:visibility="visible" />
     <ImageView
-        android:id="@id/center_baseline"
+        android:id="@+id/center_baseline"
         android:layout_width="match_parent"
         android:layout_height="1.0dip"
         android:layout_centerVertical="true"
         android:visibility="visible" />
     <RelativeLayout
-        android:id="@id/textview_hint_layout"
+        android:id="@+id/textview_hint_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/center_baseline"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="65.0dip">
         <TextView
-            android:id="@id/textview_hint"
+            android:id="@+id/textview_hint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -32,7 +32,7 @@
             android:textSize="15.0sp"
             android:visibility="invisible" />
         <TextView
-            android:id="@id/textview_hint2"
+            android:id="@+id/textview_hint2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -41,7 +41,7 @@
             android:textSize="15.0sp"
             android:visibility="invisible" />
         <TextView
-            android:id="@id/textview_hint3"
+            android:id="@+id/textview_hint3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -50,7 +50,7 @@
             android:textSize="15.0sp"
             android:visibility="invisible" />
         <TextView
-            android:id="@id/textview_hint4"
+            android:id="@+id/textview_hint4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -73,11 +73,11 @@
         android:layout_marginBottom="-35.0dip"
         android:gravity="center">
         <ImageView
-            android:id="@id/imgview_progress"
+            android:id="@+id/imgview_progress"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
         <TextView
-            android:id="@id/textview_progress"
+            android:id="@+id/textview_progress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -85,7 +85,7 @@
             android:visibility="invisible" />
     </RelativeLayout>
     <com.videoai.aivpcore.xyui.RoundedTextView
-        android:id="@id/btn_cancel"
+        android:id="@+id/btn_cancel"
         android:layout_width="match_parent"
         android:layout_height="44.0dip"
         android:layout_alignParentBottom="true"

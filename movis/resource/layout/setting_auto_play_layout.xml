@@ -4,12 +4,12 @@
     android:layout_height="match_parent"
     android:background="@color/color_f0f2f5">
     <RelativeLayout
-        android:id="@id/layout_title_bar"
+        android:id="@+id/layout_title_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/v4_xiaoying_com_top_panel_height"
         android:background="@color/white">
         <ImageView
-            android:id="@id/img_back"
+            android:id="@+id/img_back"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
@@ -20,7 +20,7 @@
             android:paddingRight="10.0dip"
             android:src="@drawable/app_default_close_black" />
         <TextView
-            android:id="@id/text_title"
+            android:id="@+id/text_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -57,7 +57,7 @@
             android:layout_height="0.5dip"
             android:background="@color/color_707070_p40" />
         <RelativeLayout
-            android:id="@id/check_autoplay_none_layout"
+            android:id="@+id/check_autoplay_none_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/com_md_ripple_light_bg_drawable"
@@ -72,7 +72,7 @@
                 android:text="@string/xiaoying_str_auto_play_setting_1"
                 android:textSize="15.0sp" />
             <ImageView
-                android:id="@id/img_check_autoplay_none"
+                android:id="@+id/img_check_autoplay_none"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -90,7 +90,7 @@
             android:paddingRight="15.0dip"
             android:src="@color/color_707070_p40" />
         <RelativeLayout
-            android:id="@id/check_autoplay_wifi_layout"
+            android:id="@+id/check_autoplay_wifi_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/com_md_ripple_light_bg_drawable"
@@ -105,7 +105,7 @@
                 android:text="@string/xiaoying_str_auto_play_setting_2"
                 android:textSize="15.0sp" />
             <ImageView
-                android:id="@id/img_check_autoplay_wifi"
+                android:id="@+id/img_check_autoplay_wifi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -124,7 +124,7 @@
             android:paddingRight="15.0dip"
             android:src="@color/color_707070_p40" />
         <RelativeLayout
-            android:id="@id/check_autoplay_mobile_layout"
+            android:id="@+id/check_autoplay_mobile_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/com_md_ripple_light_bg_drawable"
@@ -139,7 +139,7 @@
                 android:text="@string/xiaoying_str_auto_play_setting_3"
                 android:textSize="15.0sp" />
             <ImageView
-                android:id="@id/img_check_autoplay_mobile"
+                android:id="@+id/img_check_autoplay_mobile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/item_layout"
+    android:id="@+id/item_layout"
     android:layout_width="@dimen/px80"
     android:layout_height="@dimen/px80"
     android:background="@drawable/editorx_shape_effect_item_bg_unchoose">
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/div_roll_thumb"
+        android:id="@+id/div_roll_thumb"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
@@ -14,7 +14,7 @@
         android:background="@color/transparent"
         app:roundedCornerRadius="@dimen/px6" />
     <LinearLayout
-        android:id="@id/layout_choose"
+        android:id="@+id/layout_choose"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/editorx_shape_effect_bubble_selected"
@@ -22,14 +22,14 @@
         android:orientation="horizontal"
         android:padding="4.0dip" />
     <ImageView
-        android:id="@id/iv_download"
+        android:id="@+id/iv_download"
         android:layout_width="@dimen/px16"
         android:layout_height="@dimen/px16"
         android:layout_centerInParent="true"
         android:src="@drawable/editorx_text_typeface_download_icon"
         android:visibility="gone" />
     <ImageView
-        android:id="@id/iv_vip"
+        android:id="@+id/iv_vip"
         android:layout_width="@dimen/px16"
         android:layout_height="@dimen/px16"
         android:layout_alignParentEnd="true"
@@ -37,13 +37,13 @@
         android:layout_margin="@dimen/px2"
         android:src="@drawable/ic_diamon_premium" />
     <RelativeLayout
-        android:id="@id/rl_progress"
+        android:id="@+id/rl_progress"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white_p20"
         android:visibility="gone">
         <ProgressBar
-            android:id="@id/progress_bar"
+            android:id="@+id/progress_bar"
             style="?android:progressBarStyleHorizontal"
             android:layout_width="@dimen/px48"
             android:layout_height="@dimen/px2"
@@ -51,7 +51,7 @@
             android:progressDrawable="@drawable/progress_horizontal_bg" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/layoutRefresh"
+        android:id="@+id/layoutRefresh"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white_p20"

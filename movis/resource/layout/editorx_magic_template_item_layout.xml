@@ -6,11 +6,11 @@
     android:gravity="center"
     android:orientation="vertical">
     <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout
-        android:id="@id/normal_content_layout"
+        android:id="@+id/normal_content_layout"
         android:layout_width="@dimen/px68"
         android:layout_height="@dimen/px80">
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@id/item_cover"
+            android:id="@+id/item_cover"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px60"
             android:scaleType="centerCrop"
@@ -21,13 +21,13 @@
             android:layout_height="match_parent"
             android:background="@drawable/templatex_shape_item_bg" />
         <View
-            android:id="@id/focus_mask_view"
+            android:id="@+id/focus_mask_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/editorx_shape_focus_view_bg"
             android:visibility="gone" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_vip"
+            android:id="@+id/iv_vip"
             android:layout_width="@dimen/px16"
             android:layout_height="@dimen/px16"
             android:layout_alignParentEnd="true"
@@ -36,7 +36,7 @@
             android:layout_marginBottom="@dimen/px22"
             android:src="@drawable/ic_diamon_premium" />
         <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@id/btn_download"
+            android:id="@+id/btn_download"
             android:layout_width="@dimen/px16"
             android:layout_height="@dimen/px16"
             android:layout_alignParentEnd="true"
@@ -48,7 +48,7 @@
             android:clickable="false"
             android:src="@drawable/editorx_text_typeface_download_icon" />
         <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@id/title_edit_btn"
+            android:id="@+id/title_edit_btn"
             android:layout_width="@dimen/px16"
             android:layout_height="@dimen/px16"
             android:layout_alignParentStart="true"
@@ -65,7 +65,7 @@
             android:src="@drawable/editorx_theme_title_edit_icon"
             android:visibility="gone" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/item_title"
+            android:id="@+id/item_title"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px20"
             android:layout_alignParentBottom="true"
@@ -73,7 +73,7 @@
             android:textColor="@color/text_selector_tab"
             android:textSize="@dimen/sp10" />
         <ProgressBar
-            android:id="@id/progress_bar"
+            android:id="@+id/progress_bar"
             style="?android:progressBarStyleHorizontal"
             android:layout_width="@dimen/px28"
             android:layout_height="@dimen/px2"
@@ -83,13 +83,13 @@
             android:visibility="invisible" />
     </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
     <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout
-        android:id="@id/none_layout"
+        android:id="@+id/none_layout"
         android:layout_width="@dimen/px68"
         android:layout_height="@dimen/px80"
         android:background="@drawable/editorx_shape_none_template_item_bg"
         android:visibility="gone">
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@id/iv_none"
+            android:id="@+id/iv_none"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@id/tvNone"
@@ -103,13 +103,13 @@
             android:src="@drawable/editorx_none_template_icon"
             app:shapeAppearanceOverlay="@style/RoundedImageItem" />
         <View
-            android:id="@id/focus_mask_view_none"
+            android:id="@+id/focus_mask_view_none"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/editorx_shape_focus_view_bg"
             android:visibility="gone" />
         <TextView
-            android:id="@id/tvNone"
+            android:id="@+id/tvNone"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px20"
             android:layout_alignParentBottom="true"
@@ -119,7 +119,7 @@
             android:textSize="@dimen/sp10" />
     </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
     <include
-        android:id="@id/error_view"
+        android:id="@+id/error_view"
         layout="@layout/editorx_filter_normal_item_more"
         android:layout_width="@dimen/px68"
         android:layout_height="@dimen/px80"

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rc_folder"
+        android:id="@+id/rc_folder"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:cacheColorHint="@color/transparent"
@@ -14,7 +14,7 @@
         android:focusable="true"
         android:paddingBottom="180.0dip" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/gallery_detail_listview"
+        android:id="@+id/gallery_detail_listview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:cacheColorHint="@color/transparent"

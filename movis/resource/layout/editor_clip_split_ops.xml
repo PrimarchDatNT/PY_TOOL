@@ -4,13 +4,13 @@
     android:layout_height="match_parent"
     android:background="@color/black">
     <include
-        android:id="@id/layout_trim_relate"
+        android:id="@+id/layout_trim_relate"
         layout="@layout/editor_clip_trim_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/terminator" />
     <com.videoai.aivpcore.editor.widget.terminator.Terminator
-        android:id="@id/terminator"
+        android:id="@+id/terminator"
         android:layout_width="match_parent"
         android:layout_height="@dimen/video_editor_terminator_height"
         android:layout_alignParentBottom="true" />

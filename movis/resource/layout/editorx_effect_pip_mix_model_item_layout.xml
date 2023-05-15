@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <View
-        android:id="@id/pmm_top_view"
+        android:id="@+id/pmm_top_view"
         android:layout_width="11.0dip"
         android:layout_height="11.0dip"
         android:visibility="gone"
@@ -12,7 +12,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/pmm_item_icon"
+        android:id="@+id/pmm_item_icon"
         android:layout_width="60.0dip"
         android:layout_height="60.0dip"
         android:layout_marginStart="4.0dip"
@@ -26,7 +26,7 @@
         app:roundTopLeft="true"
         app:roundTopRight="true" />
     <View
-        android:id="@id/pmm_stoken"
+        android:id="@+id/pmm_stoken"
         android:layout_width="66.0dip"
         android:layout_height="66.0dip"
         android:background="@drawable/editorx_shape_effect_pip_mix_model_stoken"
@@ -36,7 +36,7 @@
         app:layout_constraintStart_toStartOf="@id/pmm_item_icon"
         app:layout_constraintTop_toTopOf="@id/pmm_item_icon" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/pmm_title"
+        android:id="@+id/pmm_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8.0dip"

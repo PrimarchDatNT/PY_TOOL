@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <TextView
-        android:id="@id/tv_editor_effect_audio_volume_tip"
+        android:id="@+id/tv_editor_effect_audio_volume_tip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/editor_bg_effect_audio_volume_tip"
@@ -34,7 +34,7 @@
             android:scaleType="centerInside"
             android:src="@drawable/editor_icon_tool_mute_on" />
         <SeekBar
-            android:id="@id/seekbar_editor_effect_audio_volume"
+            android:id="@+id/seekbar_editor_effect_audio_volume"
             android:layout_width="0.0dip"
             android:layout_height="16.0dip"
             android:layout_gravity="center_vertical"
@@ -52,7 +52,7 @@
             android:splitTrack="false"
             android:thumb="@drawable/editor_layer_seekbar_thumb_white_12" />
         <TextView
-            android:id="@id/tv_editor_effect_audio_volume"
+            android:id="@+id/tv_editor_effect_audio_volume"
             android:layout_width="40.0dip"
             android:layout_height="19.0dip"
             android:layout_gravity="end|center"

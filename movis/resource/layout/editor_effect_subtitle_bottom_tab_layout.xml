@@ -4,13 +4,13 @@
     android:layout_height="match_parent"
     android:background="@color/color_141414">
     <LinearLayout
-        android:id="@id/relativelayout_preview_btns"
+        android:id="@+id/relativelayout_preview_btns"
         android:layout_width="match_parent"
         android:layout_height="@dimen/v4_xiaoying_ve_title_addpanel_tab_height"
         android:layout_alignParentTop="true"
         android:orientation="horizontal">
         <RelativeLayout
-            android:id="@id/rl_tab_animtitle"
+            android:id="@+id/rl_tab_animtitle"
             android:layout_width="0.0dip"
             android:layout_height="match_parent"
             android:layout_weight="1.0">
@@ -29,7 +29,7 @@
                 android:visibility="visible" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/rl_tab_subtitle"
+            android:id="@+id/rl_tab_subtitle"
             android:layout_width="0.0dip"
             android:layout_height="match_parent"
             android:layout_weight="1.0">
@@ -48,7 +48,7 @@
                 android:visibility="visible" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/rl_tab_font"
+            android:id="@+id/rl_tab_font"
             android:layout_width="0.0dip"
             android:layout_height="match_parent"
             android:layout_weight="1.0">
@@ -67,7 +67,7 @@
                 android:visibility="visible" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/rl_tab_align"
+            android:id="@+id/rl_tab_align"
             android:layout_width="0.0dip"
             android:layout_height="match_parent"
             android:layout_weight="1.0">

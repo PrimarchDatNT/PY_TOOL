@@ -11,7 +11,7 @@
         android:text="@string/xiaoying_str_editor_sticker_added_tit"
         android:textColor="@color/color_8E8E93" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/video_editor_collage_category_recycler"
+        android:id="@+id/video_editor_collage_category_recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

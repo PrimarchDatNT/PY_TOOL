@@ -5,7 +5,7 @@
     android:background="@color/applovin_sdk_listViewBackground"
     android:orientation="vertical">
     <FrameLayout
-        android:id="@id/banner_ad_view_container"
+        android:id="@+id/banner_ad_view_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -15,18 +15,18 @@
         android:layout_height="0.0dip"
         android:layout_weight="1.0">
         <FrameLayout
-            android:id="@id/ad_view_container"
+            android:id="@+id/ad_view_container"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true">
             <FrameLayout
-                android:id="@id/native_ad_view_container"
+                android:id="@+id/native_ad_view_container"
                 android:layout_width="@dimen/applovin_sdk_mrec_width"
                 android:layout_height="@dimen/applovin_sdk_mrec_height"
                 android:layout_centerInParent="true"
                 android:background="@android:color/white" />
             <FrameLayout
-                android:id="@id/mrec_ad_view_container"
+                android:id="@+id/mrec_ad_view_container"
                 android:layout_width="@dimen/applovin_sdk_mrec_width"
                 android:layout_height="@dimen/applovin_sdk_mrec_height"
                 android:layout_centerInParent="true"
@@ -40,19 +40,19 @@
             android:gravity="center"
             android:orientation="horizontal">
             <Button
-                android:id="@id/show_mrec_button"
+                android:id="@+id/show_mrec_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="MREC" />
             <Button
-                android:id="@id/show_native_button"
+                android:id="@+id/show_native_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Native" />
         </LinearLayout>
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/ad_controls_view"
+        android:id="@+id/ad_controls_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
@@ -62,18 +62,18 @@
         android:paddingRight="8.0dip"
         android:paddingBottom="4.0dip">
         <RelativeLayout
-            android:id="@id/banner_control_view"
+            android:id="@+id/banner_control_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4.0dip"
             android:layout_marginBottom="4.0dip"
             android:orientation="horizontal">
             <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
-                android:id="@id/banner_control_button"
+                android:id="@+id/banner_control_button"
                 android:layout_width="@dimen/applovin_sdk_adControlButton_width"
                 android:layout_height="@dimen/applovin_sdk_adControlButton_height" />
             <TextView
-                android:id="@id/banner_label"
+                android:id="@+id/banner_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -84,14 +84,14 @@
                 android:text="Banner" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/mrec_control_view"
+            android:id="@+id/mrec_control_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4.0dip"
             android:layout_marginBottom="4.0dip"
             android:orientation="horizontal">
             <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
-                android:id="@id/mrec_control_button"
+                android:id="@+id/mrec_control_button"
                 android:layout_width="@dimen/applovin_sdk_adControlButton_width"
                 android:layout_height="@dimen/applovin_sdk_adControlButton_height" />
             <TextView
@@ -105,14 +105,14 @@
                 android:text="MREC" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/interstitial_control_view"
+            android:id="@+id/interstitial_control_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4.0dip"
             android:layout_marginBottom="4.0dip"
             android:orientation="horizontal">
             <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
-                android:id="@id/interstitial_control_button"
+                android:id="@+id/interstitial_control_button"
                 android:layout_width="@dimen/applovin_sdk_adControlButton_width"
                 android:layout_height="@dimen/applovin_sdk_adControlButton_height" />
             <TextView
@@ -126,14 +126,14 @@
                 android:text="Interstitial" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/app_open_ad_control_view"
+            android:id="@+id/app_open_ad_control_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4.0dip"
             android:layout_marginBottom="4.0dip"
             android:orientation="horizontal">
             <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
-                android:id="@id/app_open_ad_control_button"
+                android:id="@+id/app_open_ad_control_button"
                 android:layout_width="@dimen/applovin_sdk_adControlButton_width"
                 android:layout_height="@dimen/applovin_sdk_adControlButton_height" />
             <TextView
@@ -147,14 +147,14 @@
                 android:text="App Open" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/rewarded_interstitial_control_view"
+            android:id="@+id/rewarded_interstitial_control_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4.0dip"
             android:layout_marginBottom="4.0dip"
             android:orientation="horizontal">
             <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
-                android:id="@id/rewarded_interstitial_control_button"
+                android:id="@+id/rewarded_interstitial_control_button"
                 android:layout_width="@dimen/applovin_sdk_adControlButton_width"
                 android:layout_height="@dimen/applovin_sdk_adControlButton_height" />
             <TextView
@@ -168,14 +168,14 @@
                 android:text="Rewarded Interstitial" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/rewarded_control_view"
+            android:id="@+id/rewarded_control_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4.0dip"
             android:layout_marginBottom="4.0dip"
             android:orientation="horizontal">
             <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
-                android:id="@id/rewarded_control_button"
+                android:id="@+id/rewarded_control_button"
                 android:layout_width="@dimen/applovin_sdk_adControlButton_width"
                 android:layout_height="@dimen/applovin_sdk_adControlButton_height" />
             <TextView
@@ -189,14 +189,14 @@
                 android:text="Rewarded" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/native_control_view"
+            android:id="@+id/native_control_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4.0dip"
             android:layout_marginBottom="4.0dip"
             android:orientation="horizontal">
             <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
-                android:id="@id/native_control_button"
+                android:id="@+id/native_control_button"
                 android:layout_width="@dimen/applovin_sdk_adControlButton_width"
                 android:layout_height="@dimen/applovin_sdk_adControlButton_height" />
             <TextView

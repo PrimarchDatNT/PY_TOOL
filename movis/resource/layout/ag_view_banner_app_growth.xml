@@ -18,14 +18,14 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="12.0dip">
         <com.makeuppub.ads.yu.view.RoundedImageView
-            android:id="@id/ag_iv_app_icon"
+            android:id="@+id/ag_iv_app_icon"
             android:layout_width="55.0dip"
             android:layout_height="55.0dip"
             android:layout_marginStart="12.0dip"
             android:adjustViewBounds="true"
             android:src="@drawable/ag_place_holder" />
         <TextView
-            android:id="@id/ag_tv_app_name"
+            android:id="@+id/ag_tv_app_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -36,7 +36,7 @@
             android:textSize="16.0sp"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/ag_tv_app_content"
+            android:id="@+id/ag_tv_app_content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/ag_tv_app_name"
@@ -51,7 +51,7 @@
             android:textColor="#ff757575"
             android:textSize="12.0sp" />
         <Button
-            android:id="@id/ag_btn_cta"
+            android:id="@+id/ag_btn_cta"
             android:layout_width="wrap_content"
             android:layout_height="34.0dip"
             android:layout_alignParentEnd="true"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/layout_move_control"
+    android:id="@+id/layout_move_control"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
@@ -12,7 +12,7 @@
         android:layoutDirection="ltr"
         android:orientation="vertical">
         <com.videoai.aivpcore.editor.effects.quickposition.PixelMoveView
-            android:id="@id/top_move"
+            android:id="@+id/top_move"
             android:layout_width="50.0dip"
             android:layout_height="30.0dip"
             android:layout_gravity="center"
@@ -22,14 +22,14 @@
             android:layout_height="0.0dip"
             android:layout_weight="1.0">
             <com.videoai.aivpcore.editor.effects.quickposition.PixelMoveView
-                android:id="@id/left_move"
+                android:id="@+id/left_move"
                 android:layout_width="30.0dip"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:gravity="start"
                 android:rotation="270.0" />
             <com.videoai.aivpcore.editor.effects.quickposition.PixelMoveView
-                android:id="@id/right_move"
+                android:id="@+id/right_move"
                 android:layout_width="30.0dip"
                 android:layout_height="match_parent"
                 android:layout_alignParentEnd="true"
@@ -39,7 +39,7 @@
                 android:rotation="90.0" />
         </RelativeLayout>
         <com.videoai.aivpcore.editor.effects.quickposition.PixelMoveView
-            android:id="@id/bottom_move"
+            android:id="@+id/bottom_move"
             android:layout_width="50.0dip"
             android:layout_height="30.0dip"
             android:layout_gravity="center"

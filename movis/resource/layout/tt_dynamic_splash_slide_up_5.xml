@@ -6,7 +6,7 @@
     android:clipToPadding="false"
     android:gravity="center_vertical">
     <RelativeLayout
-        android:id="@id/tt_splash_slide_up_contain"
+        android:id="@+id/tt_splash_slide_up_contain"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
@@ -14,7 +14,7 @@
         android:clipToPadding="false"
         android:paddingLeft="60.0dip">
         <ImageView
-            android:id="@id/tt_splash_slide_up_circle"
+            android:id="@+id/tt_splash_slide_up_circle"
             android:layout_width="80.0dip"
             android:layout_height="80.0dip"
             android:layout_alignParentLeft="true"
@@ -23,7 +23,7 @@
             android:alpha="0.0"
             android:background="@drawable/tt_splash_slide_up_circle" />
         <ImageView
-            android:id="@id/tt_splash_slide_up_bg"
+            android:id="@+id/tt_splash_slide_up_bg"
             android:layout_width="16.0dip"
             android:layout_height="0.0dip"
             android:layout_alignParentLeft="true"
@@ -31,7 +31,7 @@
             android:layout_marginLeft="36.0dip"
             android:background="@drawable/tt_splash_slide_up_bg" />
         <ImageView
-            android:id="@id/tt_splash_slide_up_finger"
+            android:id="@+id/tt_splash_slide_up_finger"
             android:layout_width="160.0dip"
             android:layout_height="120.0dip"
             android:layout_alignParentBottom="true"
@@ -41,7 +41,7 @@
             android:background="@drawable/tt_splash_slide_up_finger" />
     </RelativeLayout>
     <TextView
-        android:id="@id/slide_guide_text"
+        android:id="@+id/slide_guide_text"
         android:layout_width="match_parent"
         android:layout_height="20.0dip"
         android:layout_alignParentBottom="true"

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <View
-        android:id="@id/record_bg_view"
+        android:id="@+id/record_bg_view"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px100"
         android:background="@drawable/editorx_audio_record_bottom_bg_shape"
@@ -12,7 +12,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <View
-        android:id="@id/record_top_bg"
+        android:id="@+id/record_top_bg"
         android:layout_width="match_parent"
         android:layout_height="50.0dip"
         android:layout_marginStart="15.0dip"
@@ -24,7 +24,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <LinearLayout
-        android:id="@id/record_top_recording_text_layout"
+        android:id="@+id/record_top_recording_text_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -34,12 +34,12 @@
         app:layout_constraintStart_toStartOf="@id/record_top_bg"
         app:layout_constraintTop_toTopOf="@id/record_top_bg">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/record_top_recording_img"
+            android:id="@+id/record_top_recording_img"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:scaleType="centerCrop" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/record_top_recording_text"
+            android:id="@+id/record_top_recording_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="6.0dip"
@@ -49,7 +49,7 @@
             android:textSize="14.0sp" />
     </LinearLayout>
     <com.videoai.aivpcore.editorx.board.audio.base.RecordButtonView
-        android:id="@id/record_button_view"
+        android:id="@+id/record_button_view"
         android:layout_width="@dimen/px172"
         android:layout_height="@dimen/px42"
         android:layout_marginBottom="@dimen/px12"
@@ -58,7 +58,7 @@
         app:layout_constraintEnd_toEndOf="@id/record_bg_view"
         app:layout_constraintStart_toStartOf="@id/record_bg_view" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/record_delete_btn"
+        android:id="@+id/record_delete_btn"
         android:layout_width="@dimen/px24"
         android:layout_height="@dimen/px24"
         android:layout_marginStart="32.0dip"
@@ -68,7 +68,7 @@
         app:layout_constraintStart_toStartOf="@id/record_bg_view"
         app:layout_constraintTop_toTopOf="@id/record_button_view" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/record_time_text"
+        android:id="@+id/record_time_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/px16"
@@ -79,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="@id/record_bg_view"
         app:layout_constraintStart_toStartOf="@id/record_bg_view" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/record_label_text"
+        android:id="@+id/record_label_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/px16"
@@ -91,7 +91,7 @@
         app:layout_constraintEnd_toEndOf="@id/record_bg_view"
         app:layout_constraintStart_toStartOf="@id/record_bg_view" />
     <View
-        android:id="@id/record_complete_btn"
+        android:id="@+id/record_complete_btn"
         android:layout_width="@dimen/px48"
         android:layout_height="@dimen/px32"
         android:background="@drawable/btn_dcolor_ripple"
@@ -100,7 +100,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintTop_toTopOf="@id/record_button_view" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/record_complete_img"
+        android:id="@+id/record_complete_img"
         android:layout_width="@dimen/px24"
         android:layout_height="@dimen/px24"
         android:src="@drawable/editor_selector_btn_ok"

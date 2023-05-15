@@ -6,7 +6,7 @@
     android:layout_gravity="bottom"
     android:theme="@style/ThemeOverlay_AppCompat_Dark">
     <TextView
-        android:id="@id/snackbar_text"
+        android:id="@+id/snackbar_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start|center"
@@ -20,7 +20,7 @@
         android:textAlignment="viewStart"
         android:textAppearance="?a_t" />
     <Button
-        android:id="@id/snackbar_action"
+        android:id="@+id/snackbar_action"
         style="?a6c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

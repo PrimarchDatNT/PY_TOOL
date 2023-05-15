@@ -7,7 +7,7 @@
         android:layout_margin="0.0dip"
         android:addStatesFromChildren="true">
         <Button
-            android:id="@id/al_exo_ffwd_with_amount"
+            android:id="@+id/al_exo_ffwd_with_amount"
             style="@style/AppLovinExoStyledControls_Button_Center_FfwdWithAmount"
             android:layout_marginLeft="0.0dip"
             android:layout_marginRight="0.0dip"

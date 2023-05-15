@@ -9,7 +9,7 @@
     android:paddingRight="12.0dip"
     android:paddingBottom="4.0dip">
     <TextView
-        android:id="@id/tv"
+        android:id="@+id/tv"
         style="@style/veds_latn_font_body_14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

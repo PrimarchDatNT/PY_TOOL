@@ -6,7 +6,7 @@
     android:background="@drawable/templatex_shape_item_bg"
     android:tag="layout/templatex_view_list_item_l_0">
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@id/imgCover"
+        android:id="@+id/imgCover"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px158"
         android:layout_margin="@dimen/px1"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parrent"
         app:shapeAppearanceOverlay="@style/RoundedImageItem" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/imgNew"
+        android:id="@+id/imgNew"
         android:layout_width="30.0dip"
         android:layout_height="18.0dip"
         android:layout_marginTop="8.0dip"
@@ -28,7 +28,7 @@
         app:layout_constraintEnd_toEndOf="@id/imgCover"
         app:layout_constraintTop_toTopOf="@id/imgCover" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/imgVip"
+        android:id="@+id/imgVip"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_marginTop="8.0dip"
@@ -37,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="@id/imgCover"
         app:layout_constraintTop_toTopOf="@id/imgCover" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/imgLock"
+        android:id="@+id/imgLock"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_marginTop="8.0dip"
@@ -54,7 +54,7 @@
         app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/imgCover">
         <LinearLayout
-            android:id="@id/ll_package_des"
+            android:id="@+id/ll_package_des"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -62,7 +62,7 @@
             android:layout_marginEnd="@dimen/px40"
             android:orientation="vertical">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tvTitle"
+                android:id="@+id/tvTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
@@ -70,7 +70,7 @@
                 android:textColor="@color/white"
                 android:textSize="@dimen/sp12" />
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tvDesc"
+                android:id="@+id/tvDesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
@@ -80,7 +80,7 @@
                 android:visibility="gone" />
         </LinearLayout>
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_use_package_cta"
+            android:id="@+id/iv_use_package_cta"
             android:layout_width="@dimen/px24"
             android:layout_height="@dimen/px24"
             android:layout_gravity="end|center"

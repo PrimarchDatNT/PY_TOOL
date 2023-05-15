@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/relativelayout_seekbar"
+    android:id="@+id/relativelayout_seekbar"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageButton
-        android:id="@id/seekbar_play"
+        android:id="@+id/seekbar_play"
         android:layout_width="38.0dip"
         android:layout_height="38.0dip"
         android:layout_centerVertical="true"
@@ -16,7 +16,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/editor_selector_video_play_icon" />
     <TextView
-        android:id="@id/txtview_cur_time"
+        android:id="@+id/txtview_cur_time"
         android:layout_width="wrap_content"
         android:layout_height="30.0dip"
         android:layout_alignParentStart="true"
@@ -35,7 +35,7 @@
         android:textColor="@color/white_p50"
         android:textSize="12.0sp" />
     <SeekBar
-        android:id="@id/seekbar_simple_edit"
+        android:id="@+id/seekbar_simple_edit"
         android:layout_width="match_parent"
         android:layout_height="30.0dip"
         android:layout_centerVertical="true"
@@ -61,7 +61,7 @@
         android:thumbOffset="4.0dip"
         android:visibility="visible" />
     <TextView
-        android:id="@id/txtview_duration"
+        android:id="@+id/txtview_duration"
         android:layout_width="wrap_content"
         android:layout_height="30.0dip"
         android:layout_alignParentEnd="true"

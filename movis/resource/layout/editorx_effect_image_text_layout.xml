@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <View
-        android:id="@id/itv_top_circle_view"
+        android:id="@+id/itv_top_circle_view"
         android:layout_width="48.0dip"
         android:layout_height="48.0dip"
         android:background="@drawable/editorx_shape_imgae_text_view"
@@ -12,7 +12,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/itv_top_iv"
+        android:id="@+id/itv_top_iv"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:scaleType="fitXY"
@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="@id/itv_top_circle_view"
         app:layout_constraintTop_toTopOf="@id/itv_top_circle_view" />
     <TextView
-        android:id="@id/itv_textview"
+        android:id="@+id/itv_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6.0dip"

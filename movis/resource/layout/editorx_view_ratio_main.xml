@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator
-        android:id="@id/tabLayout"
+        android:id="@+id/tabLayout"
         android:layout_width="0.0dip"
         android:layout_height="@dimen/px48"
         android:background="@color/app_dcolor_background"
@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <View
-        android:id="@id/dividerView"
+        android:id="@+id/dividerView"
         android:layout_width="0.0dip"
         android:layout_height="@dimen/px1"
         android:background="@color/app_dcolor_indicator"
@@ -22,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <FrameLayout
-        android:id="@id/contentLayout"
+        android:id="@+id/contentLayout"
         android:layout_width="0.0dip"
         android:layout_height="@dimen/px222"
         android:background="@color/app_dcolor_background"
@@ -32,7 +32,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/btnReset"
+        android:id="@+id/btnReset"
         android:layout_width="@dimen/px64"
         android:layout_height="@dimen/px64"
         android:layout_marginBottom="@dimen/px2"
@@ -42,7 +42,7 @@
         app:sitv_bottom_text="@string/xiaoying_str_edit_reset_text"
         app:sitv_top_drawable="@drawable/editorx_btn_clip_reset" />
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/btnMirror"
+        android:id="@+id/btnMirror"
         android:layout_width="@dimen/px64"
         android:layout_height="@dimen/px64"
         android:layout_marginBottom="@dimen/px2"
@@ -52,7 +52,7 @@
         app:sitv_bottom_text="@string/xiaoying_str_ve_basic_mirror_title"
         app:sitv_top_drawable="@drawable/editorx_btn_clip_mirror" />
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/btnScale"
+        android:id="@+id/btnScale"
         android:layout_width="@dimen/px64"
         android:layout_height="@dimen/px64"
         android:layout_marginBottom="@dimen/px2"
@@ -61,7 +61,7 @@
         app:sitv_bottom_text="@string/xiaoying_str_ve_basic__enlarge_title"
         app:sitv_top_drawable="@drawable/editorx_btn_clip_scale" />
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/btnRotate"
+        android:id="@+id/btnRotate"
         android:layout_width="@dimen/px64"
         android:layout_height="@dimen/px64"
         android:layout_marginBottom="@dimen/px2"
@@ -71,7 +71,7 @@
         app:sitv_bottom_text="@string/xiaoying_str_ve_basic_rotate_title"
         app:sitv_top_drawable="@drawable/editorx_btn_clip_rotate" />
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/btnRotateL"
+        android:id="@+id/btnRotateL"
         android:layout_width="@dimen/px64"
         android:layout_height="@dimen/px64"
         android:visibility="invisible"
@@ -80,7 +80,7 @@
         app:sitv_bottom_text="@string/xiaoying_str_ve_basic_rotate_title"
         app:sitv_top_drawable="@drawable/editorx_btn_clip_rotate" />
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/btnResetL"
+        android:id="@+id/btnResetL"
         android:layout_width="@dimen/px64"
         android:layout_height="@dimen/px64"
         android:layout_marginBottom="@dimen/px2"
@@ -90,7 +90,7 @@
         app:sitv_bottom_text="@string/xiaoying_str_edit_reset_text"
         app:sitv_top_drawable="@drawable/editorx_btn_clip_reset" />
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/btnMirrorL"
+        android:id="@+id/btnMirrorL"
         android:layout_width="@dimen/px64"
         android:layout_height="@dimen/px64"
         android:layout_marginBottom="@dimen/px2"

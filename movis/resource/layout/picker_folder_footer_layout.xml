@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:background="@color/color_1a1a1a">
     <LinearLayout
-        android:id="@id/picker_folder_footer_layout"
+        android:id="@+id/picker_folder_footer_layout"
         android:layout_width="105.0dip"
         android:layout_height="105.0dip"
         android:background="@color/color_1a1a1a"
@@ -21,7 +21,7 @@
             android:gravity="center"
             android:orientation="vertical">
             <TextView
-                android:id="@id/footer_scan_text"
+                android:id="@+id/footer_scan_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"

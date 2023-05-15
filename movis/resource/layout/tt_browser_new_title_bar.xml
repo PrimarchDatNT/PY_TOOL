@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/tt_title_bar"
+    android:id="@+id/tt_title_bar"
     android:layout_width="match_parent"
     android:layout_height="44.0dip"
     android:background="#ffffffff"
     android:gravity="center_vertical">
     <ImageView
-        android:id="@id/tt_title_bar_close"
+        android:id="@+id/tt_title_bar_close"
         android:layout_width="40.0dip"
         android:layout_height="44.0dip"
         android:clickable="true"
@@ -17,7 +17,7 @@
         android:paddingBottom="14.0dip"
         android:src="@drawable/tt_ad_xmark" />
     <TextView
-        android:id="@id/tt_title_bar_title"
+        android:id="@+id/tt_title_bar_title"
         android:layout_width="191.0dip"
         android:layout_height="24.0dip"
         android:layout_centerVertical="true"
@@ -35,7 +35,7 @@
         android:textColor="#ff222222"
         android:textSize="17.0sp" />
     <ImageView
-        android:id="@id/tt_title_bar_feedback"
+        android:id="@+id/tt_title_bar_feedback"
         android:layout_width="40.0dip"
         android:layout_height="44.0dip"
         android:layout_alignParentEnd="true"
@@ -46,7 +46,7 @@
         android:paddingBottom="10.0dip"
         android:src="@drawable/tt_ad_feedback" />
     <ProgressBar
-        android:id="@id/tt_title_bar_browser_progress"
+        android:id="@+id/tt_title_bar_browser_progress"
         style="@android:style/Widget.ProgressBar.Horizontal"
         android:layout_width="match_parent"
         android:layout_height="2.0dip"

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/rl_font_item_layout"
+    android:id="@+id/rl_font_item_layout"
     android:layout_width="match_parent"
     android:layout_height="@dimen/px48"
     android:background="@drawable/editorx_shape_effect_font_item_bg_unchoose"
     android:gravity="center">
     <LinearLayout
-        android:id="@id/layout_local"
+        android:id="@+id/layout_local"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="horizontal"
         android:visibility="gone">
         <ImageView
-            android:id="@id/iv_add"
+            android:id="@+id/iv_add"
             android:layout_width="@dimen/px24"
             android:layout_height="@dimen/px24"
             android:scaleType="centerInside"
             android:src="@drawable/editorx_icon_subtitle_font_add" />
         <TextView
-            android:id="@id/tv_add"
+            android:id="@+id/tv_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4.0dip"
@@ -30,13 +30,13 @@
             android:textStyle="bold" />
     </LinearLayout>
     <RelativeLayout
-        android:id="@id/rl_subtitle_font_item_layout"
+        android:id="@+id/rl_subtitle_font_item_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:minWidth="120.0dip">
         <TextView
-            android:id="@id/tv_font_item_name"
+            android:id="@+id/tv_font_item_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -47,7 +47,7 @@
             android:textColor="@color/white"
             android:textSize="17.0sp" />
         <ImageView
-            android:id="@id/iv_font_item"
+            android:id="@+id/iv_font_item"
             android:layout_width="99.0dip"
             android:layout_height="20.0dip"
             android:layout_centerInParent="true"
@@ -55,7 +55,7 @@
             android:layout_marginStart="5.0dip"
             android:alpha="20.0" />
         <ImageView
-            android:id="@id/iv_font_download_flag"
+            android:id="@+id/iv_font_download_flag"
             android:layout_width="@dimen/px16"
             android:layout_height="@dimen/px16"
             android:layout_alignParentTop="true"
@@ -65,7 +65,7 @@
             android:src="@drawable/editorx_text_typeface_download_icon"
             android:visibility="gone" />
         <ImageView
-            android:id="@id/iv_vip"
+            android:id="@+id/iv_vip"
             android:layout_width="@dimen/px16"
             android:layout_height="@dimen/px16"
             android:layout_alignParentEnd="true"
@@ -76,7 +76,7 @@
             android:visibility="gone" />
     </RelativeLayout>
     <com.videoai.aivpcore.editorx.widget.magic.RoundProgressView
-        android:id="@id/progress_download"
+        android:id="@+id/progress_download"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone"
@@ -86,7 +86,7 @@
         app:circleRadius="90.0dip"
         app:startAngle="270" />
     <RelativeLayout
-        android:id="@id/layoutRefresh"
+        android:id="@+id/layoutRefresh"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white_p20"

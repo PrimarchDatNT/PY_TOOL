@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/transparent">
     <LinearLayout
-        android:id="@id/clip_param_value_layout"
+        android:id="@+id/clip_param_value_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/clip_param_layout"
@@ -14,26 +14,26 @@
         android:orientation="vertical"
         android:visibility="gone">
         <TextView
-            android:id="@id/clip_param_title"
+            android:id="@+id/clip_param_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#80ffffff"
             android:textSize="14.0sp" />
         <TextView
-            android:id="@id/clip_param_value"
+            android:id="@+id/clip_param_value"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
             android:textSize="14.0sp" />
     </LinearLayout>
     <RelativeLayout
-        android:id="@id/clip_param_layout"
+        android:id="@+id/clip_param_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
         android:background="@android:color/black">
         <include
-            android:id="@id/apply_all_layout"
+            android:id="@+id/apply_all_layout"
             layout="@layout/editor_clip_apply_all_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
             android:layout_marginTop="12.0dip"
             android:visibility="gone" />
         <com.videoai.aivpcore.editor.common.view.ControllableScrollView
-            android:id="@id/clipparam_adjust_layout"
+            android:id="@+id/clipparam_adjust_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@id/teminator"
@@ -64,31 +64,31 @@
                     android:layout_weight="1.0"
                     android:orientation="vertical">
                     <com.videoai.aivpcore.editor.clipedit.paramadjust.view.ParamAdjustView
-                        android:id="@id/clipparam_adjust_brightness"
+                        android:id="@+id/clipparam_adjust_brightness"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/xiaoying_str_ve_video_param_brightness"
                         app:referenceFValue="50" />
                     <com.videoai.aivpcore.editor.clipedit.paramadjust.view.ParamAdjustView
-                        android:id="@id/clipparam_adjust_saturation"
+                        android:id="@+id/clipparam_adjust_saturation"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/xiaoying_str_ve_video_param_saturation"
                         app:referenceFValue="50" />
                     <com.videoai.aivpcore.editor.clipedit.paramadjust.view.ParamAdjustView
-                        android:id="@id/clipparam_adjust_temperature"
+                        android:id="@+id/clipparam_adjust_temperature"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/xiaoying_str_ve_video_param_temperature"
                         app:referenceFValue="50" />
                     <com.videoai.aivpcore.editor.clipedit.paramadjust.view.ParamAdjustView
-                        android:id="@id/clipparam_adjust_tone"
+                        android:id="@+id/clipparam_adjust_tone"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/xiaoying_str_ve_video_param_hue"
                         app:referenceFValue="50" />
                     <com.videoai.aivpcore.editor.clipedit.paramadjust.view.ParamAdjustView
-                        android:id="@id/clipparam_adjust_hightlight"
+                        android:id="@+id/clipparam_adjust_hightlight"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/xiaoying_str_ve_video_param_highlight" />
@@ -99,31 +99,31 @@
                     android:layout_weight="1.0"
                     android:orientation="vertical">
                     <com.videoai.aivpcore.editor.clipedit.paramadjust.view.ParamAdjustView
-                        android:id="@id/clipparam_adjust_contrast"
+                        android:id="@+id/clipparam_adjust_contrast"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/xiaoying_str_ve_video_param_contrast"
                         app:referenceFValue="50" />
                     <com.videoai.aivpcore.editor.clipedit.paramadjust.view.ParamAdjustView
-                        android:id="@id/clipparam_adjust_sharpen"
+                        android:id="@+id/clipparam_adjust_sharpen"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/xiaoying_str_ve_video_param_sharpen"
                         app:referenceFValue="50" />
                     <com.videoai.aivpcore.editor.clipedit.paramadjust.view.ParamAdjustView
-                        android:id="@id/clipparam_adjust_vignette"
+                        android:id="@+id/clipparam_adjust_vignette"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/xiaoying_str_ve_video_param_vignette"
                         app:referenceFValue="50" />
                     <com.videoai.aivpcore.editor.clipedit.paramadjust.view.ParamAdjustView
-                        android:id="@id/clipparam_adjust_shadow"
+                        android:id="@+id/clipparam_adjust_shadow"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/xiaoying_str_ve_video_param_shadow"
                         app:referenceFValue="50" />
                     <com.videoai.aivpcore.editor.clipedit.paramadjust.view.ParamAdjustView
-                        android:id="@id/clipparam_adjust_fade"
+                        android:id="@+id/clipparam_adjust_fade"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/xiaoying_str_ve_video_param_fade"
@@ -132,7 +132,7 @@
             </LinearLayout>
         </com.videoai.aivpcore.editor.common.view.ControllableScrollView>
         <com.videoai.aivpcore.editor.widget.terminator.Terminator
-            android:id="@id/teminator"
+            android:id="@+id/teminator"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

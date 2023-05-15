@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/sns_title_layout"
+        android:id="@+id/sns_title_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15.0dip">
@@ -22,7 +22,7 @@
             android:layout_toLeftOf="@id/show_txt_info"
             android:background="#ffeeeeee" />
         <TextView
-            android:id="@id/show_txt_info"
+            android:id="@+id/show_txt_info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/sns_title_layout">
         <com.videoai.aivpcore.ui.view.HotFixRecyclerView
-            android:id="@id/share_list_layout"
+            android:id="@+id/share_list_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"

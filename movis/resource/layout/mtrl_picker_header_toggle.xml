@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.internal.CheckableImageButton xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/mtrl_picker_header_toggle"
+    android:id="@+id/mtrl_picker_header_toggle"
     style="?w7"
     android:layout_width="@dimen/mtrl_min_touch_target_size"
     android:layout_height="@dimen/mtrl_min_touch_target_size"

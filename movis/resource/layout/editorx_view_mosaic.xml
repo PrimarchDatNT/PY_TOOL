@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/sitv_reset"
+        android:id="@+id/sitv_reset"
         android:layout_width="@dimen/px64"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
@@ -15,14 +15,14 @@
         app:sitv_bottom_text="@string/xiaoying_str_edit_reset_text"
         app:sitv_top_drawable="@drawable/editorx_ico_effect_reset" />
     <com.videoai.aivpcore.editorx.widget.trimBar.TrimBarView
-        android:id="@id/trim_bar_view"
+        android:id="@+id/trim_bar_view"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px32"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/px68"
         android:visibility="gone" />
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/board_mosaic"
+        android:id="@+id/board_mosaic"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px270"
         android:layout_alignParentBottom="true"
@@ -30,7 +30,7 @@
         android:clickable="true"
         android:focusable="true">
         <TextView
-            android:id="@id/tv_mosaic_power"
+            android:id="@+id/tv_mosaic_power"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/px16"
@@ -41,14 +41,14 @@
             app:layout_constraintLeft_toLeftOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <View
-            android:id="@id/v_anchor"
+            android:id="@+id/v_anchor"
             android:layout_width="1.0dip"
             android:layout_height="1.0dip"
             android:layout_marginBottom="@dimen/px68"
             app:layout_constraintBottom_toBottomOf="parrent"
             app:layout_constraintStart_toStartOf="parrent" />
         <TextView
-            android:id="@id/tv_title"
+            android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px42"
             android:fontFamily="@font/poppins_semibold"
@@ -58,7 +58,7 @@
             android:textSize="@dimen/sp14"
             app:layout_constraintTop_toTopOf="parrent" />
         <View
-            android:id="@id/v_title"
+            android:id="@+id/v_title"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px1"
             android:layout_marginTop="@dimen/px42"
@@ -66,7 +66,7 @@
             app:layout_constraintLeft_toLeftOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <FrameLayout
-            android:id="@id/group_blur"
+            android:id="@+id/group_blur"
             android:layout_width="@dimen/px80"
             android:layout_height="@dimen/px80"
             android:layout_marginStart="@dimen/px16"
@@ -81,20 +81,20 @@
                 android:src="@drawable/editorx_effect_mosaic_gaussian"
                 app:roundedCornerRadius="@dimen/px6" />
             <ImageView
-                android:id="@id/iv_vip_gaussian"
+                android:id="@+id/iv_vip_gaussian"
                 android:layout_width="wrap_content"
                 android:layout_height="12.0dip"
                 android:layout_gravity="end"
                 android:layout_marginTop="4.0dip"
                 android:layout_marginEnd="4.0dip" />
             <ImageView
-                android:id="@id/iv_blur_selected"
+                android:id="@+id/iv_blur_selected"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:visibility="invisible" />
         </FrameLayout>
         <FrameLayout
-            android:id="@id/group_pixel"
+            android:id="@+id/group_pixel"
             android:layout_width="@dimen/px80"
             android:layout_height="@dimen/px80"
             android:layout_marginStart="@dimen/px110"
@@ -109,19 +109,19 @@
                 android:src="@drawable/editorx_effect_mosaic_pixel"
                 app:roundedCornerRadius="@dimen/px6" />
             <ImageView
-                android:id="@id/iv_vip_pixel"
+                android:id="@+id/iv_vip_pixel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
                 android:layout_margin="@dimen/px2" />
             <ImageView
-                android:id="@id/iv_pixel_selected"
+                android:id="@+id/iv_pixel_selected"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:visibility="invisible" />
         </FrameLayout>
         <com.videoai.aivpcore.editorx.widget.seekbar.PopSeekBar
-            android:id="@id/pop_seek_bar"
+            android:id="@+id/pop_seek_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/px8"
@@ -140,7 +140,7 @@
             app:psb_top_text_color="@color/color_212121"
             app:psb_top_text_size="@dimen/sp12" />
         <com.videoai.aivpcore.editorx.board.clip.widget.TextActionBottomBar
-            android:id="@id/actionBottomBar"
+            android:id="@+id/actionBottomBar"
             android:layout_width="0.0dip"
             android:layout_height="@dimen/px56"
             app:layout_constraintBottom_toBottomOf="parrent"
@@ -148,7 +148,7 @@
             app:layout_constraintStart_toStartOf="parrent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <include
-        android:id="@id/layout_second"
+        android:id="@+id/layout_second"
         layout="@layout/editorx_effect_layout_second"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px56"

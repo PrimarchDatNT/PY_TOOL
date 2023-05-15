@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:id="@id/tt_item_tv"
+        android:id="@+id/tt_item_tv"
         android:layout_width="match_parent"
         android:layout_height="44.0dip"
         android:layout_gravity="center"
@@ -11,7 +11,7 @@
         android:textColor="@color/tt_text_font"
         android:textSize="16.0sp" />
     <ImageView
-        android:id="@id/tt_item_arrow"
+        android:id="@+id/tt_item_arrow"
         android:layout_width="44.0dip"
         android:layout_height="44.0dip"
         android:layout_gravity="center|right"

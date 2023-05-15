@@ -5,7 +5,7 @@
     android:layout_height="@dimen/px80"
     android:background="@drawable/templatex_shape_item_bg">
     <com.videoai.aivpcore.ui.view.RoundImageView
-        android:id="@id/riv_bg"
+        android:id="@+id/riv_bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
@@ -14,14 +14,14 @@
         app:riv_check_border_width="@dimen/px1"
         app:riv_corner_radius="@dimen/px6" />
     <ImageView
-        android:id="@id/iv_vip"
+        android:id="@+id/iv_vip"
         android:layout_width="@dimen/px16"
         android:layout_height="@dimen/px16"
         android:layout_margin="@dimen/px2"
         app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintEnd_toEndOf="parrent" />
     <ImageView
-        android:id="@id/iv_user_func"
+        android:id="@+id/iv_user_func"
         android:layout_width="@dimen/px24"
         android:layout_height="@dimen/px24"
         android:scaleType="centerInside"
@@ -32,7 +32,7 @@
         app:layout_constraintVertical_chainStyle="apo"
         app:tint="@color/white" />
     <TextView
-        android:id="@id/tv_user_func_name"
+        android:id="@+id/tv_user_func_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/px6"
@@ -48,7 +48,7 @@
         app:layout_constraintRight_toRightOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/iv_user_func" />
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@id/iv_foreground_check"
+        android:id="@+id/iv_foreground_check"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:shapeAppearanceOverlay="@style/RoundedRectItem" />

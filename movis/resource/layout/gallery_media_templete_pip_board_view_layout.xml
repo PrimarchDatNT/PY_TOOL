@@ -4,13 +4,13 @@
     android:layout_height="150.0dip"
     android:background="@drawable/gallery_board_bg">
     <LinearLayout
-        android:id="@id/title_layout"
+        android:id="@+id/title_layout"
         android:layout_width="match_parent"
         android:layout_height="36.0dip"
         android:layout_marginTop="12.0dip"
         android:gravity="center_vertical">
         <TextView
-            android:id="@id/txt_clip_count"
+            android:id="@+id/txt_clip_count"
             style="@style/veds_latn_font_body_14"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
             android:text="@string/xy_module_album_template_selected_count_description"
             android:textColor="#ff2e3238" />
         <TextView
-            android:id="@id/btn_next"
+            android:id="@+id/btn_next"
             style="@style/veds_latn_font_button_14"
             android:layout_width="28.0dip"
             android:layout_height="28.0dip"
@@ -42,12 +42,12 @@
             android:textColor="@drawable/gallery_selector_templete_next_text_color" />
     </LinearLayout>
     <com.videoedit.gallery.widget.kit.supertimeline.view.KitTimeLine
-        android:id="@id/kit_timeline"
+        android:id="@+id/kit_timeline"
         android:layout_width="match_parent"
         android:layout_height="150.0dip"
         android:layout_alignParentBottom="true" />
     <TextView
-        android:id="@id/tv_move_tip"
+        android:id="@+id/tv_move_tip"
         style="@style/veds_latn_font_caption_10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

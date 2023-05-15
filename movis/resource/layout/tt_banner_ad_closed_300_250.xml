@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/tt_ad_closed_background_300_250">
         <ImageView
-            android:id="@id/tt_ad_closed_page_logo"
+            android:id="@+id/tt_ad_closed_page_logo"
             android:layout_width="77.0dip"
             android:layout_height="14.0dip"
             android:layout_marginStart="16.0dip"
@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
-                android:id="@id/tt_ad_closed_text"
+                android:id="@+id/tt_ad_closed_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"

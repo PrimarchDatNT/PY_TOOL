@@ -4,7 +4,7 @@
     android:layout_width="@dimen/px64"
     android:layout_height="match_parent">
     <ImageView
-        android:id="@id/fsb_top_img"
+        android:id="@+id/fsb_top_img"
         android:layout_width="@dimen/px24"
         android:layout_height="@dimen/px24"
         android:layout_gravity="center_horizontal"
@@ -12,20 +12,20 @@
         android:layout_marginBottom="@dimen/px12"
         android:scaleType="centerInside" />
     <LinearLayout
-        android:id="@id/fsb_top_text_layout"
+        android:id="@+id/fsb_top_text_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px48"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone">
         <TextView
-            android:id="@id/fsb_top_name_text"
+            android:id="@+id/fsb_top_name_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/app_dcolor_indicator_2"
             android:textSize="@dimen/sp10" />
         <TextView
-            android:id="@id/fsb_top_value_text"
+            android:id="@+id/fsb_top_value_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/px2"
@@ -33,7 +33,7 @@
             android:textSize="@dimen/sp10" />
     </LinearLayout>
     <com.videoai.aivpcore.editorx.widget.seekbar.ReverseSeekBar
-        android:id="@id/fsb_reverse_ver_seek_bar"
+        android:id="@+id/fsb_reverse_ver_seek_bar"
         android:layout_width="@dimen/px42"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
@@ -52,7 +52,7 @@
         app:rsb_progress_color="@color/colorPrimary"
         app:rsb_progress_radius="@dimen/px12" />
     <com.videoai.aivpcore.editorx.widget.seekbar.VHSeekBar
-        android:id="@id/fsb_vsb_ver_seek_bar"
+        android:id="@+id/fsb_vsb_ver_seek_bar"
         android:layout_width="@dimen/px42"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"

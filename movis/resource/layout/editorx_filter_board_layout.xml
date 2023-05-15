@@ -8,7 +8,7 @@
         android:layout_height="@dimen/px270"
         android:layout_gravity="bottom">
         <RelativeLayout
-            android:id="@id/rl_bar"
+            android:id="@+id/rl_bar"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px56"
             android:layout_alignParentBottom="true"
@@ -17,7 +17,7 @@
             android:focusable="true"
             android:visibility="gone">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tv_bar_title"
+                android:id="@+id/tv_bar_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -28,13 +28,13 @@
                 android:textSize="@dimen/sp12"
                 android:textStyle="bold" />
             <RelativeLayout
-                android:id="@id/rl_bar_current"
+                android:id="@+id/rl_bar_current"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="@dimen/px16"
                 android:layout_toEndOf="@id/tv_bar_title">
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/tv_current_clip"
+                    android:id="@+id/tv_current_clip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
@@ -49,13 +49,13 @@
                     android:textSize="@dimen/sp12" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/rl_bar_all"
+                android:id="@+id/rl_bar_all"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="@dimen/px12"
                 android:layout_toEndOf="@id/rl_bar_current">
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/tv_all_clip"
+                    android:id="@+id/tv_all_clip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
@@ -70,7 +70,7 @@
                     android:textSize="@dimen/sp12" />
             </RelativeLayout>
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/iv_bar_done"
+                android:id="@+id/iv_bar_done"
                 android:layout_width="@dimen/px56"
                 android:layout_height="@dimen/px56"
                 android:layout_alignParentEnd="true"
@@ -80,25 +80,25 @@
                 android:src="@drawable/editor_selector_btn_ok" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/rl_children"
+            android:id="@+id/rl_children"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/px40"
             android:layout_marginBottom="@dimen/px56"
             android:background="@color/app_dcolor_background" />
         <RelativeLayout
-            android:id="@id/rl_tittle_text"
+            android:id="@+id/rl_tittle_text"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px40"
             android:background="@color/app_dcolor_background">
             <LinearLayout
-                android:id="@id/ll_tittle_text"
+                android:id="@+id/ll_tittle_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerVertical="true"
                 android:orientation="horizontal">
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/tv_normal_filter"
+                    android:id="@+id/tv_normal_filter"
                     android:layout_width="0.0dip"
                     android:layout_height="match_parent"
                     android:layout_weight="1.0"
@@ -108,7 +108,7 @@
                     android:textColor="@drawable/editorx_selector_filter_tab_title"
                     android:textSize="@dimen/sp14" />
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/tv_specific_filter"
+                    android:id="@+id/tv_specific_filter"
                     android:layout_width="0.0dip"
                     android:layout_height="match_parent"
                     android:layout_weight="1.0"
@@ -118,7 +118,7 @@
                     android:textColor="@drawable/editorx_selector_filter_tab_title"
                     android:textSize="@dimen/sp14" />
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/tv_param_adjust"
+                    android:id="@+id/tv_param_adjust"
                     android:layout_width="0.0dip"
                     android:layout_height="match_parent"
                     android:layout_weight="1.0"
@@ -133,7 +133,7 @@
                     android:layout_weight="1.0"
                     android:visibility="gone">
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:id="@id/iv_vip_icon"
+                        android:id="@+id/iv_vip_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="12.0dip"
                         android:layout_marginTop="-6.0dip"
@@ -141,7 +141,7 @@
                 </RelativeLayout>
             </LinearLayout>
             <View
-                android:id="@id/v_three_tab_indicator"
+                android:id="@+id/v_three_tab_indicator"
                 android:layout_width="0.0dip"
                 android:layout_height="0.0dip"
                 android:layout_alignParentBottom="true"

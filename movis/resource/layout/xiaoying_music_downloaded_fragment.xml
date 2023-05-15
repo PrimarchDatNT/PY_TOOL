@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/music_rootLayout"
+    android:id="@+id/music_rootLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator
-        android:id="@id/music_tablayout"
+        android:id="@+id/music_tablayout"
         android:layout_width="match_parent"
         android:layout_height="48.0dip"
         android:layout_marginLeft="3.0dip"
         android:layout_marginRight="3.0dip" />
     <com.videoai.aivpcore.common.ui.XYViewPager
-        android:id="@id/music_viewpager"
+        android:id="@+id/music_viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/music_tablayout" />
     <include
-        android:id="@id/music_empty_view"
+        android:id="@+id/music_empty_view"
         layout="@layout/template_music_empty_view" />
 </RelativeLayout>

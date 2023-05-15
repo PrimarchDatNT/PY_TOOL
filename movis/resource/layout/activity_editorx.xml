@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.videoapp.videomakermaster.EditorWrapper xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/content_layout"
+    android:id="@+id/content_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/app_dcolor_background">
     <FrameLayout
-        android:id="@id/flPlayerContainer"
+        android:id="@+id/flPlayerContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="@dimen/px270">
         <com.videoai.aivpcore.editorx.player.EditorPlayerView
-            android:id="@id/epv"
+            android:id="@+id/epv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="top">
             <com.videoai.aivpcore.editorx.controller.vip.InTrialView
-                android:id="@id/try2"
+                android:id="@+id/try2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentEnd="true"
@@ -27,13 +27,13 @@
                 android:visibility="invisible" />
         </com.videoai.aivpcore.editorx.player.EditorPlayerView>
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/shot_thumbnail"
+            android:id="@+id/shot_thumbnail"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerInside"
             android:visibility="gone" />
         <com.videoai.aivpcore.editorx.widget.SmallProgressView
-            android:id="@id/small_progress_view"
+            android:id="@+id/small_progress_view"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px8"
             android:layout_gravity="bottom"
@@ -41,21 +41,21 @@
             android:layout_marginRight="@dimen/px16" />
     </FrameLayout>
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/shot_timeline"
+        android:id="@+id/shot_timeline"
         android:layout_width="match_parent"
         android:layout_height="@dimen/super_timeline_height"
         android:layout_alignParentBottom="true"
         android:visibility="gone" />
     <RelativeLayout
-        android:id="@id/board_container"
+        android:id="@+id/board_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
     <RelativeLayout
-        android:id="@id/title_container"
+        android:id="@+id/title_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <LinearLayout
-        android:id="@id/ll_vip_bottom"
+        android:id="@+id/ll_vip_bottom"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_alignParentBottom="true"
@@ -66,7 +66,7 @@
         android:orientation="horizontal"
         android:visibility="gone">
         <TextView
-            android:id="@id/tv_vip_bottom_cancel"
+            android:id="@+id/tv_vip_bottom_cancel"
             android:layout_width="0.0dip"
             android:layout_height="match_parent"
             android:layout_weight="124.0"
@@ -78,7 +78,7 @@
             android:textColor="@color/white"
             android:textSize="@dimen/sp14" />
         <FrameLayout
-            android:id="@id/fl_vip_bottom_sure"
+            android:id="@+id/fl_vip_bottom_sure"
             android:layout_width="0.0dip"
             android:layout_height="match_parent"
             android:layout_weight="251.0"
@@ -96,25 +96,25 @@
         </FrameLayout>
     </LinearLayout>
     <RelativeLayout
-        android:id="@id/rlFakePlayProgress"
+        android:id="@+id/rlFakePlayProgress"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="@dimen/px270">
         <View
-            android:id="@id/v_fake_touch_play"
+            android:id="@+id/v_fake_touch_play"
             android:layout_width="48.0dip"
             android:layout_height="50.0dip"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="8.0dip" />
         <com.videoai.aivpcore.editorx.player.SmallProgressTouchView
-            android:id="@id/sptv_fake_touch_progress"
+            android:id="@+id/sptv_fake_touch_progress"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px20"
             android:layout_alignParentBottom="true" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/rl_exit_menu"
+        android:id="@+id/rl_exit_menu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
@@ -124,7 +124,7 @@
         android:focusable="true"
         android:visibility="gone">
         <RelativeLayout
-            android:id="@id/rl_button_root"
+            android:id="@+id/rl_button_root"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -134,7 +134,7 @@
             android:background="@drawable/app_res_sample_3"
             android:paddingBottom="@dimen/px20">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tv_exit_message"
+                android:id="@+id/tv_exit_message"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -150,7 +150,7 @@
                 android:layout_marginStart="@dimen/px16"
                 android:layout_marginEnd="@dimen/px16">
                 <LinearLayout
-                    android:id="@id/ll_save_exit"
+                    android:id="@+id/ll_save_exit"
                     android:layout_width="0.0dip"
                     android:layout_height="@dimen/px40"
                     android:layout_alignParentStart="true"
@@ -171,7 +171,7 @@
                         android:textSize="@dimen/sp14" />
                 </LinearLayout>
                 <LinearLayout
-                    android:id="@id/ll_just_exit"
+                    android:id="@+id/ll_just_exit"
                     android:layout_width="0.0dip"
                     android:layout_height="@dimen/px40"
                     android:layout_alignParentEnd="true"
@@ -196,17 +196,17 @@
         </RelativeLayout>
     </RelativeLayout>
     <ViewStub
-        android:id="@id/vs_forced_guide"
+        android:id="@+id/vs_forced_guide"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout="@layout/editor_x_forced_guide" />
     <ViewStub
-        android:id="@id/vs_tools"
+        android:id="@+id/vs_tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout="@layout/editorx_kit_tool_layout" />
     <FrameLayout
-        android:id="@id/fragment_music_continer"
+        android:id="@+id/fragment_music_continer"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </com.videoapp.videomakermaster.EditorWrapper>

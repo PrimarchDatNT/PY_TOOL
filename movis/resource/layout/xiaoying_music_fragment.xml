@@ -7,19 +7,19 @@
     android:clipChildren="false"
     android:orientation="vertical">
     <RelativeLayout
-        android:id="@id/music_title_layout"
+        android:id="@+id/music_title_layout"
         android:layout_width="match_parent"
         android:layout_height="?a4"
         android:background="@color/app_dcolor_bg_1">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/music_back_icon"
+            android:id="@+id/music_back_icon"
             android:layout_width="?a4"
             android:layout_height="?a4"
             android:adjustViewBounds="true"
             android:scaleType="centerInside"
             android:src="@drawable/ic_back" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/music_rubbish_icon"
+            android:id="@+id/music_rubbish_icon"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
@@ -30,7 +30,7 @@
             android:src="@drawable/xiaoying_music_rubbish_selector"
             android:visibility="gone" />
         <LinearLayout
-            android:id="@id/search_container"
+            android:id="@+id/search_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="19.0dip"
@@ -44,7 +44,7 @@
             android:orientation="horizontal"
             android:visibility="gone">
             <androidx.appcompat.widget.AppCompatEditText
-                android:id="@id/music_search_edt"
+                android:id="@+id/music_search_edt"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8.0dip"
@@ -58,13 +58,13 @@
                 android:textColorHint="@color/color_8E8E93"
                 android:textSize="14.0sp" />
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/music_search_btn"
+                android:id="@+id/music_search_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="13.0dip"
                 android:src="@drawable/editor_btn_music_search" />
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/music_filter_clear"
+                android:id="@+id/music_filter_clear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10.0dip"
@@ -73,7 +73,7 @@
                 android:visibility="gone" />
         </LinearLayout>
         <com.google.android.material.tabs.TabLayout
-            android:id="@id/music_tablayout_old"
+            android:id="@+id/music_tablayout_old"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
@@ -100,14 +100,14 @@
             android:textColor="@color/white"
             android:textSize="@dimen/sp16" />
         <com.videoai.aivpcore.explorer.ui.TopTabLayout
-            android:id="@id/music_tablayout"
+            android:id="@+id/music_tablayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:visibility="gone" />
     </RelativeLayout>
     <com.videoai.aivpcore.common.ui.XYViewPager
-        android:id="@id/music_viewpager"
+        android:id="@+id/music_viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/music_title_layout" />

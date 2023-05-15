@@ -4,12 +4,12 @@
     android:layout_height="wrap_content"
     android:layoutDirection="ltr">
     <RelativeLayout
-        android:id="@id/video_editor_seek_time_layout"
+        android:id="@+id/video_editor_seek_time_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/transparent">
         <TextView
-            android:id="@id/video_editor_seek_current_time"
+            android:id="@+id/video_editor_seek_current_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -18,7 +18,7 @@
             android:textColor="@color/white"
             android:textSize="12.0sp" />
         <TextView
-            android:id="@id/video_editor_seek_duration"
+            android:id="@+id/video_editor_seek_duration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -32,7 +32,7 @@
             android:textSize="12.0sp" />
     </RelativeLayout>
     <com.videoai.aivpcore.editor.widget.timeline.VeGallery2
-        android:id="@id/video_editor_seek_gallery"
+        android:id="@+id/video_editor_seek_gallery"
         android:layout_width="match_parent"
         android:layout_height="68.0dip"
         android:layout_below="@id/video_editor_seek_time_layout"
@@ -42,7 +42,7 @@
         android:spacing="0.0dip"
         android:unselectedAlpha="1.0" />
     <ImageView
-        android:id="@id/video_editor_seek_play"
+        android:id="@+id/video_editor_seek_play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/video_editor_seek_time_layout"

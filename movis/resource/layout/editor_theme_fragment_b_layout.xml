@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/theme_category_layout"
+        android:id="@+id/theme_category_layout"
         android:layout_width="match_parent"
         android:layout_height="40.0dip"
         android:orientation="horizontal">
         <ImageButton
-            android:id="@id/btn_recent"
+            android:id="@+id/btn_recent"
             android:layout_width="54.0dip"
             android:layout_height="match_parent"
             android:background="@drawable/editor_selector_theme_recent_btn"
@@ -22,7 +22,7 @@
             android:layout_centerVertical="true"
             android:background="@color/color_141414" />
         <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator
-            android:id="@id/magic_indicator"
+            android:id="@+id/magic_indicator"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_toEndOf="@id/btn_recent"
@@ -39,12 +39,12 @@
         android:layout_alignBottom="@id/theme_category_layout"
         android:background="@color/color_141414" />
     <com.videoai.aivpcore.common.ui.XYViewPager
-        android:id="@id/theme_viewpager"
+        android:id="@+id/theme_viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/theme_category_layout" />
     <FrameLayout
-        android:id="@id/theme_recent_fragment_container"
+        android:id="@+id/theme_recent_fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/theme_category_layout"

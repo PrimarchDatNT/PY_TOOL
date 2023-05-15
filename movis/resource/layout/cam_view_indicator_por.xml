@@ -5,19 +5,19 @@
     android:baselineAligned="false"
     android:gravity="center">
     <RelativeLayout
-        android:id="@id/effect_layout"
+        android:id="@+id/effect_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.0">
         <ImageView
-            android:id="@id/img_effect"
+            android:id="@+id/img_effect"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:scaleType="centerInside"
             android:src="@drawable/v4_xiaoying_cam_indicator_effect_selector" />
         <ImageView
-            android:id="@id/img_effect_tab"
+            android:id="@+id/img_effect_tab"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -25,18 +25,18 @@
             android:visibility="invisible" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/mode_layout"
+        android:id="@+id/mode_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.0">
         <ImageView
-            android:id="@id/img_mode"
+            android:id="@+id/img_mode"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:scaleType="centerInside" />
         <ImageView
-            android:id="@id/img_mode_tab"
+            android:id="@+id/img_mode_tab"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -44,19 +44,19 @@
             android:visibility="invisible" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/switch_layout"
+        android:id="@+id/switch_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.0">
         <ImageView
-            android:id="@id/img_switch"
+            android:id="@+id/img_switch"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:scaleType="centerInside"
             android:src="@drawable/v4_xiaoying_cam_indicator_switch_selector" />
         <ImageView
-            android:id="@id/img_switch_tab"
+            android:id="@+id/img_switch_tab"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -64,19 +64,19 @@
             android:visibility="invisible" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/setting_layout"
+        android:id="@+id/setting_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.0">
         <ImageView
-            android:id="@id/img_setting"
+            android:id="@+id/img_setting"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:scaleType="centerInside"
             android:src="@drawable/v4_xiaoying_cam_indicator_more_selector" />
         <ImageView
-            android:id="@id/img_setting_tab"
+            android:id="@+id/img_setting_tab"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

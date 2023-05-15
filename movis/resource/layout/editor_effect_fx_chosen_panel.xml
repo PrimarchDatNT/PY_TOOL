@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:background="@color/black">
     <ImageView
-        android:id="@id/iv_download_more"
+        android:id="@+id/iv_download_more"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentEnd="true"
@@ -12,14 +12,14 @@
         android:background="@color/transparent"
         android:src="@drawable/editor_icon_effect_sticker_download" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/recycler_category_group"
+        android:id="@+id/recycler_category_group"
         android:layout_width="match_parent"
         android:layout_height="40.0dip"
         android:layout_toStartOf="@id/iv_download_more"
         android:layout_toLeftOf="@id/iv_download_more"
         android:background="@color/white_p08" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/recycler_category_group_detail"
+        android:id="@+id/recycler_category_group_detail"
         android:layout_width="match_parent"
         android:layout_height="118.0dip"
         android:layout_below="@id/recycler_category_group" />

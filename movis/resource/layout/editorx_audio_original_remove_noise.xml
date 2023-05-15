@@ -22,7 +22,7 @@
             android:textColor="@color/white"
             android:textSize="@dimen/sp12" />
         <CheckBox
-            android:id="@id/checkbox_remove_noise"
+            android:id="@+id/checkbox_remove_noise"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/transparent"

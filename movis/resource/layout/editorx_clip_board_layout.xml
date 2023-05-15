@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <com.videoai.aivpcore.editorx.board.clip.main.FuncListView
-        android:id="@id/recyclerView"
+        android:id="@+id/recyclerView"
         android:layout_width="0.0dip"
         android:layout_height="@dimen/px48"
         android:layout_marginBottom="@dimen/px60"
@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <LinearLayout
-        android:id="@id/layoutThemeEdit"
+        android:id="@+id/layoutThemeEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/px60"
@@ -24,14 +24,14 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent">
         <TextView
-            android:id="@id/tvThemeTitle"
+            android:id="@+id/tvThemeTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/xiaoying_clip_from_theme"
             android:textColor="@color/color_525252"
             android:textSize="@dimen/sp10" />
         <com.videoai.aivpcore.xyui.RoundedTextView
-            android:id="@id/tv_edit_theme"
+            android:id="@+id/tv_edit_theme"
             android:layout_width="wrap_content"
             android:layout_height="32.0dip"
             android:layout_marginTop="10.0dip"

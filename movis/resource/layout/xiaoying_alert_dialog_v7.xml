@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:paddingBottom="13.0dip">
     <TextView
-        android:id="@id/xiaoying_alert_dialog_title"
+        android:id="@+id/xiaoying_alert_dialog_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="23.0dip"
@@ -17,7 +17,7 @@
         android:textSize="18.0dip"
         android:textStyle="bold" />
     <TextView
-        android:id="@id/xiaoying_alert_dialog_content"
+        android:id="@+id/xiaoying_alert_dialog_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="23.0dip"
@@ -31,7 +31,7 @@
         android:layout_height="match_parent"
         android:layout_marginTop="39.0dip">
         <TextView
-            android:id="@id/xiaoying_alert_dialog_neutral"
+            android:id="@+id/xiaoying_alert_dialog_neutral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="13.0dip"
@@ -42,7 +42,7 @@
             android:textSize="16.0dip"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/xiaoying_alert_dialog_positive"
+            android:id="@+id/xiaoying_alert_dialog_positive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -55,7 +55,7 @@
             android:textSize="16.0dip"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/xiaoying_alert_dialog_negative"
+            android:id="@+id/xiaoying_alert_dialog_negative"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="12.0dip"

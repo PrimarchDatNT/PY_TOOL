@@ -20,14 +20,14 @@
             android:gravity="center"
             android:orientation="horizontal">
             <ProgressBar
-                android:id="@id/tt_playable_pb_view"
+                android:id="@+id/tt_playable_pb_view"
                 style="@android:style/Widget.ProgressBar.Horizontal"
                 android:layout_width="80.0dip"
                 android:layout_height="3.0dip"
                 android:progress="1"
                 android:progressDrawable="@drawable/tt_playable_progress_style" />
             <TextView
-                android:id="@id/tt_playable_progress_tip"
+                android:id="@+id/tt_playable_progress_tip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10.0dip"
@@ -35,7 +35,7 @@
                 android:textSize="12.0sp" />
         </LinearLayout>
         <TextView
-            android:id="@id/tt_playable_play"
+            android:id="@+id/tt_playable_play"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="72.0dip"

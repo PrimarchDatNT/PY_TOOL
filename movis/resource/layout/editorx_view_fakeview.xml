@@ -4,23 +4,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <RelativeLayout
-        android:id="@id/editor_fake_layout"
+        android:id="@+id/editor_fake_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true">
         <com.videoai.aivpcore.editorx.board.effect.fake.HighLView
-            android:id="@id/editor_fake_highlight"
+            android:id="@+id/editor_fake_highlight"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/transparent"
             android:visibility="invisible" />
         <com.videoai.aivpcore.editorx.board.effect.fake.QuickPositionPanel
-            android:id="@id/text_quick_position"
+            android:id="@+id/text_quick_position"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone" />
         <RelativeLayout
-            android:id="@id/auxiliary_line"
+            android:id="@+id/auxiliary_line"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone">

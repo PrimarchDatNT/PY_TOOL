@@ -5,7 +5,7 @@
     android:gravity="bottom"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/layout_click"
+        android:id="@+id/layout_click"
         android:layout_width="match_parent"
         android:layout_height="192.0dip"
         android:background="@color/app_dcolor_background"
@@ -28,7 +28,7 @@
             android:background="@drawable/editorx_shape_subtitle_font_shadow"
             android:orientation="horizontal">
             <Button
-                android:id="@id/btn_off"
+                android:id="@+id/btn_off"
                 android:layout_width="0.0dip"
                 android:layout_height="match_parent"
                 android:layout_weight="1.0"
@@ -37,7 +37,7 @@
                 android:textColor="@color/color_363636"
                 android:textSize="12.0sp" />
             <Button
-                android:id="@id/btn_on"
+                android:id="@+id/btn_on"
                 android:layout_width="0.0dip"
                 android:layout_height="match_parent"
                 android:layout_weight="1.0"

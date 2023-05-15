@@ -9,12 +9,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <FrameLayout
-        android:id="@id/flContent"
+        android:id="@+id/flContent"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_weight="1.0" />
     <com.videoai.aivpcore.unit.view.HomeBottomNav
-        android:id="@id/nav"
+        android:id="@+id/nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

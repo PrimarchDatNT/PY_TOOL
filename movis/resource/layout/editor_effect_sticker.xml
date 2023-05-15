@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/rl_sticker_root_layout"
+    android:id="@+id/rl_sticker_root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.editor.effects.PlayerFakeView
-        android:id="@id/ve_sticker_transparent_fake_view"
+        android:id="@+id/ve_sticker_transparent_fake_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/rl_sticker_op_view"
         android:orientation="vertical" />
     <com.videoai.aivpcore.editor.effects.music.EditorVolumeSetView
-        android:id="@id/view_effect_volume_set"
+        android:id="@+id/view_effect_volume_set"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/rl_sticker_op_view"
         android:layout_marginBottom="5.0dip"
         android:visibility="gone" />
     <RelativeLayout
-        android:id="@id/rl_sticker_op_view"
+        android:id="@+id/rl_sticker_op_view"
         android:layout_width="match_parent"
         android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
         android:background="@color/black">
         <com.videoai.aivpcore.editor.effects.VideoEditorSeekLayout
-            android:id="@id/ve_sticker_seek_layout"
+            android:id="@+id/ve_sticker_seek_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12.0dip" />
@@ -35,7 +35,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="4.0dip">
             <TextView
-                android:id="@id/tv_sticker_op_btn"
+                android:id="@+id/tv_sticker_op_btn"
                 android:layout_width="113.0dip"
                 android:layout_height="35.0dip"
                 android:layout_centerInParent="true"
@@ -47,25 +47,25 @@
                 android:visibility="gone" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/rl_sticker_list"
+            android:id="@+id/rl_sticker_list"
             android:layout_width="match_parent"
             android:layout_height="@dimen/editor_ops_board_normal_height"
             android:layout_above="@id/terminator"
             android:background="@color/black"
             android:visibility="gone">
             <include
-                android:id="@id/layout_scenesview"
+                android:id="@+id/layout_scenesview"
                 layout="@layout/editor_effect_bubble_tab_layout"
                 android:layout_width="match_parent"
                 android:layout_height="40.0dip" />
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@id/recycler_view_package"
+                android:id="@+id/recycler_view_package"
                 android:layout_width="match_parent"
                 android:layout_height="118.0dip"
                 android:layout_below="@id/layout_scenesview"
                 android:scrollbars="none" />
             <include
-                android:id="@id/relative_layout_roll_download"
+                android:id="@+id/relative_layout_roll_download"
                 layout="@layout/editor_effect_bubble_roll_download_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -73,7 +73,7 @@
                 android:visibility="gone" />
         </RelativeLayout>
         <com.videoai.aivpcore.editor.widget.terminator.Terminator
-            android:id="@id/terminator"
+            android:id="@+id/terminator"
             android:layout_width="match_parent"
             android:layout_height="@dimen/video_editor_terminator_height"
             android:layout_alignParentBottom="true" />

@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
     <FrameLayout
-        android:id="@id/center_view"
+        android:id="@+id/center_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layoutDirection="ltr">
         <View
-            android:id="@id/center_view_background"
+            android:id="@+id/center_view_background"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/center_view_background" />
         <include
-            android:id="@id/embedded_transport_controls"
+            android:id="@+id/embedded_transport_controls"
             layout="@layout/embedded_transport_controls"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
         <include
-            android:id="@id/minimal_transport_controls"
+            android:id="@+id/minimal_transport_controls"
             layout="@layout/minimal_transport_controls"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
     </FrameLayout>
     <LinearLayout
-        android:id="@id/title_bar"
+        android:id="@+id/title_bar"
         style="@style/TitleBar"
         android:background="@drawable/title_bar_gradient"
         android:baselineAligned="false">
         <LinearLayout
-            android:id="@id/title_bar_left"
+            android:id="@+id/title_bar_left"
             android:layout_width="0.0dip"
             android:layout_height="match_parent"
             android:layout_weight="1.0"
             android:gravity="center_vertical"
             android:orientation="horizontal">
             <TextView
-                android:id="@id/title_text"
+                android:id="@+id/title_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ellipsize="middle"
@@ -48,12 +48,12 @@
                 android:textSize="15.0sp" />
         </LinearLayout>
         <LinearLayout
-            android:id="@id/title_bar_right"
+            android:id="@+id/title_bar_right"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <LinearLayout
-                android:id="@id/ad_external_link"
+                android:id="@+id/ad_external_link"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
@@ -62,7 +62,7 @@
                 android:paddingEnd="10.0dip"
                 android:visibility="gone">
                 <TextView
-                    android:id="@id/ad_text"
+                    android:id="@+id/ad_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -71,7 +71,7 @@
                     android:textColor="#ffffffff"
                     android:textSize="10.0sp" />
                 <ImageButton
-                    android:id="@id/ad_launch"
+                    android:id="@+id/ad_launch"
                     style="@style/TitleBarButton_Launch"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -79,31 +79,31 @@
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
-        android:id="@id/minimal_fullscreen_view"
+        android:id="@+id/minimal_fullscreen_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
         android:layoutDirection="ltr">
         <ImageButton
-            android:id="@id/minimal_fullscreen"
+            android:id="@+id/minimal_fullscreen"
             style="@style/BottomBarButton_FullScreen" />
     </LinearLayout>
     <View
-        android:id="@id/bottom_bar_background"
+        android:id="@+id/bottom_bar_background"
         android:layout_width="match_parent"
         android:layout_height="@dimen/mcv2_bottom_bar_height"
         android:background="@color/bottom_bar_background"
         android:layoutDirection="ltr" />
     <LinearLayout
-        android:id="@id/bottom_bar_left"
+        android:id="@+id/bottom_bar_left"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/mcv2_bottom_bar_height"
         android:layoutDirection="ltr">
         <include
-            android:id="@id/full_transport_controls"
+            android:id="@+id/full_transport_controls"
             layout="@layout/full_transport_controls" />
         <TextView
-            android:id="@id/ad_skip_time"
+            android:id="@+id/ad_skip_time"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="4.0dip"
@@ -113,30 +113,30 @@
             android:visibility="gone" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/time"
+        android:id="@+id/time"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/mcv2_bottom_bar_height"
         android:layoutDirection="ltr"
         android:paddingStart="10.0dip"
         android:paddingEnd="10.0dip">
         <TextView
-            android:id="@id/time_current"
+            android:id="@+id/time_current"
             style="@style/TimeText_Current" />
         <TextView
-            android:id="@id/time_interpunct"
+            android:id="@+id/time_interpunct"
             style="@style/TimeText_Interpunct" />
         <TextView
-            android:id="@id/time_end"
+            android:id="@+id/time_end"
             style="@style/TimeText_End" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/basic_controls"
+        android:id="@+id/basic_controls"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layoutDirection="ltr"
         android:orientation="horizontal">
         <TextView
-            android:id="@id/ad_remaining"
+            android:id="@+id/ad_remaining"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -144,40 +144,40 @@
             android:textSize="12.0sp"
             android:visibility="gone" />
         <ImageButton
-            android:id="@id/subtitle"
+            android:id="@+id/subtitle"
             style="@style/BottomBarButton_CC"
             android:alpha="0.5"
             android:scaleType="fitCenter"
             android:visibility="gone" />
         <ImageButton
-            android:id="@id/fullscreen"
+            android:id="@+id/fullscreen"
             style="@style/BottomBarButton_FullScreen"
             android:visibility="gone" />
         <ImageButton
-            android:id="@id/overflow_show"
+            android:id="@+id/overflow_show"
             style="@style/BottomBarButton_OverflowShow" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/extra_controls"
+        android:id="@+id/extra_controls"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layoutDirection="ltr"
         android:orientation="horizontal"
         android:visibility="gone">
         <ImageButton
-            android:id="@id/settings"
+            android:id="@+id/settings"
             style="@style/BottomBarButton_Settings" />
         <ImageButton
-            android:id="@id/overflow_hide"
+            android:id="@+id/overflow_hide"
             style="@style/BottomBarButton_OverflowHide" />
     </LinearLayout>
     <FrameLayout
-        android:id="@id/progress_bar"
+        android:id="@+id/progress_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/mcv2_custom_progress_thumb_size"
         android:layoutDirection="ltr">
         <SeekBar
-            android:id="@id/progress"
+            android:id="@+id/progress"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:contentDescription="@string/mcv2_seek_bar_desc"

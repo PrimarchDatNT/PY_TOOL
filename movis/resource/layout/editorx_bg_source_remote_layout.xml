@@ -6,17 +6,17 @@
     android:gravity="center"
     android:orientation="vertical">
     <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout
-        android:id="@id/content_layout"
+        android:id="@+id/content_layout"
         android:layout_width="@dimen/px68"
         android:layout_height="@dimen/px80">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/item_cover"
+            android:id="@+id/item_cover"
             android:layout_width="@dimen/px68"
             android:layout_height="@dimen/px60"
             android:scaleType="centerCrop"
             android:src="@drawable/editorx_template_default_cover" />
         <com.videoai.aivpcore.editorx.widget.magic.RoundProgressView
-            android:id="@id/round_Progress"
+            android:id="@+id/round_Progress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignStart="@id/item_cover"
@@ -34,7 +34,7 @@
             android:layout_height="match_parent"
             android:background="@drawable/templatex_shape_item_bg" />
         <View
-            android:id="@id/focus_mask_view"
+            android:id="@+id/focus_mask_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/editorx_shape_focus_view_bg"
@@ -49,7 +49,7 @@
             android:layout_alignBottom="@id/item_cover"
             android:visibility="gone" />
         <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@id/btn_download"
+            android:id="@+id/btn_download"
             android:layout_width="@dimen/px16"
             android:layout_height="@dimen/px16"
             android:layout_alignParentTop="true"
@@ -59,7 +59,7 @@
             android:clickable="false"
             android:src="@drawable/editorx_text_typeface_download_icon" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_vip_icon"
+            android:id="@+id/iv_vip_icon"
             android:layout_width="@dimen/px16"
             android:layout_height="@dimen/px16"
             android:layout_above="@id/item_title"
@@ -67,7 +67,7 @@
             android:layout_margin="@dimen/px2"
             android:src="@drawable/ic_diamon_premium" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/item_title"
+            android:id="@+id/item_title"
             style="@style/TextSingleLine"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px20"

@@ -4,7 +4,7 @@
     android:layout_height="32.0dip"
     android:background="@color/color_363636">
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/image_view"
+        android:id="@+id/image_view"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_centerInParent="true"

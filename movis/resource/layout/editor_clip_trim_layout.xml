@@ -10,7 +10,7 @@
         android:layout_marginTop="13.0dip"
         android:background="@color/transparent">
         <TextView
-            android:id="@id/ve_split_left_time"
+            android:id="@+id/ve_split_left_time"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
@@ -25,7 +25,7 @@
             android:textSize="12.0sp"
             android:visibility="invisible" />
         <TextView
-            android:id="@id/ve_split_right_time"
+            android:id="@+id/ve_split_right_time"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
@@ -41,7 +41,7 @@
             android:textSize="12.0sp" />
     </RelativeLayout>
     <com.videoai.aivpcore.editor.widget.timeline.VeAdvanceTrimGallery
-        android:id="@id/ve_gallery"
+        android:id="@+id/ve_gallery"
         android:layout_width="match_parent"
         android:layout_height="126.0dip"
         android:layout_alignParentBottom="true"

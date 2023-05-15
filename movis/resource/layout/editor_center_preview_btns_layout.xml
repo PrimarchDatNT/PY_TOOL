@@ -4,7 +4,7 @@
     android:layout_height="67.0dip"
     android:background="@color/transparent">
     <ImageButton
-        android:id="@id/imgbtn_play"
+        android:id="@+id/imgbtn_play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -12,7 +12,7 @@
         android:contentDescription="@null"
         android:src="@drawable/xiaoying_com_preview_play_btn" />
     <ImageButton
-        android:id="@id/imgbtn_pause"
+        android:id="@+id/imgbtn_pause"
         android:layout_width="67.0dip"
         android:layout_height="67.0dip"
         android:layout_centerVertical="true"

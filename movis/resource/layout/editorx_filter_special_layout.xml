@@ -6,12 +6,12 @@
     android:clickable="true"
     android:focusable="true">
     <LinearLayout
-        android:id="@id/ll_filter_filter_indicator"
+        android:id="@+id/ll_filter_filter_indicator"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px40"
         android:orientation="horizontal">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/iv_filter_special_template_store"
+            android:id="@+id/iv_filter_special_template_store"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -27,26 +27,26 @@
             android:textColor="@color/white"
             android:textSize="@dimen/sp12" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/rv_filter_special_title"
+            android:id="@+id/rv_filter_special_title"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="@dimen/px12" />
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rv_filter_special_filter"
+        android:id="@+id/rv_filter_special_filter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/ll_filter_filter_indicator"
         android:layout_alignParentBottom="true" />
     <FrameLayout
-        android:id="@id/fl_recent"
+        android:id="@+id/fl_recent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/ll_filter_filter_indicator"
         android:layout_alignParentBottom="true"
         android:visibility="gone">
         <TextView
-            android:id="@id/tv_recent_empty"
+            android:id="@+id/tv_recent_empty"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px80"
             android:layout_gravity="center"
@@ -58,7 +58,7 @@
             android:textColor="@color/app_dcolor_indicator_2"
             android:textSize="@dimen/sp14" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/rv_filter_special_recent"
+            android:id="@+id/rv_filter_special_recent"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </FrameLayout>

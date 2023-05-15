@@ -7,7 +7,7 @@
     android:background="@color/black"
     android:visibility="visible">
     <RelativeLayout
-        android:id="@id/layout_2lev_hide"
+        android:id="@+id/layout_2lev_hide"
         android:layout_width="match_parent"
         android:layout_height="44.0dip"
         android:layout_alignParentBottom="true"
@@ -25,13 +25,13 @@
             android:clickable="false" />
     </RelativeLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rv_editor_theme_title_list"
+        android:id="@+id/rv_editor_theme_title_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/layout_2lev_hide"
         android:paddingTop="7.0dip" />
     <TextView
-        android:id="@id/txtview_empty_titles_tip"
+        android:id="@+id/txtview_empty_titles_tip"
         android:layout_width="wrap_content"
         android:layout_height="40.0dip"
         android:layout_centerInParent="true"

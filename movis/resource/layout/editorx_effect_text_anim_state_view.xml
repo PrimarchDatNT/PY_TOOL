@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/app_dcolor_background">
     <ImageView
-        android:id="@id/anim_state_loading"
+        android:id="@+id/anim_state_loading"
         android:layout_width="@dimen/px24"
         android:layout_height="@dimen/px24"
         android:scaleType="centerCrop"
@@ -16,21 +16,21 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <LinearLayout
-        android:id="@id/anim_state_fail"
+        android:id="@+id/anim_state_fail"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone">
         <TextView
-            android:id="@id/annim_state_title"
+            android:id="@+id/annim_state_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/xiao_str_text_network_title"
             android:textColor="@color/color_edeff5"
             android:textSize="18.0sp" />
         <TextView
-            android:id="@id/annim_state_desc"
+            android:id="@+id/annim_state_desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8.0dip"
@@ -38,7 +38,7 @@
             android:textColor="@color/color_525252"
             android:textSize="12.0sp" />
         <TextView
-            android:id="@id/annim_state_retry"
+            android:id="@+id/annim_state_retry"
             android:layout_width="wrap_content"
             android:layout_height="32.0dip"
             android:layout_marginTop="@dimen/px24"

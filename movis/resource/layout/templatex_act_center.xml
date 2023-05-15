@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/rlContainer"
+    android:id="@+id/rlContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.templatex.view.TitleView
-        android:id="@id/title_view"
+        android:id="@+id/title_view"
         android:layout_width="match_parent"
         android:layout_height="56.0dip" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/recyclerView"
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/title_view" />

@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent">
     <com.videoai.mobile.component.imageview.XYImageView
-        android:id="@id/viewBg"
+        android:id="@+id/viewBg"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:background="@color/color_363636"
@@ -13,7 +13,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:roundedCornerRadius="4.0dip" />
     <TextView
-        android:id="@id/tvRatio"
+        android:id="@+id/tvRatio"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8.0dip"
@@ -27,7 +27,7 @@
         app:layout_constraintStart_toStartOf="@id/viewBg"
         app:layout_constraintTop_toTopOf="@id/viewBg" />
     <com.videoai.aivpcore.xyui.RoundedRelativeLayout
-        android:id="@id/ivFoucs"
+        android:id="@+id/ivFoucs"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:visibility="gone"

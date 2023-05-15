@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/layout_filter_normal_value_root"
+    android:id="@+id/layout_filter_normal_value_root"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/transparent"
     android:orientation="vertical">
     <View
-        android:id="@id/filter_normal_bg"
+        android:id="@+id/filter_normal_bg"
         android:layout_width="match_parent"
         android:layout_height="90.0dip"
         android:layout_marginTop="38.0dip"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <com.videoai.aivpcore.editorx.widget.seekbar.PopSeekBar
-        android:id="@id/filter_normal_seek_bar"
+        android:id="@+id/filter_normal_seek_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parrent"

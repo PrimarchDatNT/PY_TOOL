@@ -7,12 +7,12 @@
     android:paddingStart="@dimen/px16"
     android:paddingEnd="@dimen/px16">
     <RelativeLayout
-        android:id="@id/rl_rate_title"
+        android:id="@+id/rl_rate_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/px20">
         <TextView
-            android:id="@id/tv_rate_title"
+            android:id="@+id/tv_rate_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -24,7 +24,7 @@
             android:textColor="@color/white"
             android:textSize="@dimen/sp14" />
         <TextView
-            android:id="@id/tv_rate_message"
+            android:id="@+id/tv_rate_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_rate_title"
@@ -36,7 +36,7 @@
             android:textColor="@color/white"
             android:textSize="@dimen/sp12" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_rate_sticker"
+            android:id="@+id/iv_rate_sticker"
             android:layout_width="@dimen/px104"
             android:layout_height="@dimen/px104"
             android:layout_alignParentTop="true"
@@ -45,7 +45,7 @@
             android:src="@drawable/rate_sticker_start" />
     </RelativeLayout>
     <FrameLayout
-        android:id="@id/fl_start_bar"
+        android:id="@+id/fl_start_bar"
         android:layout_width="match_parent"
         android:layout_height="60.0dip"
         android:layout_gravity="center"
@@ -56,35 +56,35 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@id/iv_start_1"
+                android:id="@+id/iv_start_1"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
                 android:adjustViewBounds="true"
                 android:src="@drawable/selector_normal_star" />
             <ImageView
-                android:id="@id/iv_start_2"
+                android:id="@+id/iv_start_2"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
                 android:adjustViewBounds="true"
                 android:src="@drawable/selector_normal_star" />
             <ImageView
-                android:id="@id/iv_start_3"
+                android:id="@+id/iv_start_3"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
                 android:adjustViewBounds="true"
                 android:src="@drawable/selector_normal_star" />
             <ImageView
-                android:id="@id/iv_start_4"
+                android:id="@+id/iv_start_4"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
                 android:adjustViewBounds="true"
                 android:src="@drawable/selector_normal_star" />
             <ImageView
-                android:id="@id/iv_start_5"
+                android:id="@+id/iv_start_5"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
@@ -92,14 +92,14 @@
                 android:src="@drawable/selector_effect_star" />
         </LinearLayout>
         <SeekBar
-            android:id="@id/sb_start_select"
+            android:id="@+id/sb_start_select"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:alpha="0.0"
             android:progress="0" />
     </FrameLayout>
     <TextView
-        android:id="@id/tv_star_bar_message"
+        android:id="@+id/tv_star_bar_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -108,7 +108,7 @@
         android:textColor="@color/white"
         android:textSize="@dimen/sp12" />
     <TextView
-        android:id="@id/tv_rate_cta"
+        android:id="@+id/tv_rate_cta"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px42"
         android:layout_marginTop="@dimen/px20"

@@ -6,7 +6,7 @@
     android:background="@color/black"
     android:clipChildren="false">
     <FrameLayout
-        android:id="@id/layoutSurface"
+        android:id="@+id/layoutSurface"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         app:layout_constraintBottom_toBottomOf="parrent"
@@ -14,18 +14,18 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent">
         <SurfaceView
-            android:id="@id/surfaceView"
+            android:id="@+id/surfaceView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center" />
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/imgCover"
+            android:id="@+id/imgCover"
             android:layout_width="0.0dip"
             android:layout_height="0.0dip"
             android:layout_gravity="center" />
     </FrameLayout>
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/btnPlayState"
+        android:id="@+id/btnPlayState"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_marginStart="15.0dip"
@@ -35,7 +35,7 @@
         app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <View
-        android:id="@id/bgSeekProgress"
+        android:id="@+id/bgSeekProgress"
         android:layout_width="0.0dip"
         android:layout_height="100.0dip"
         android:layout_marginBottom="2.0dip"
@@ -45,7 +45,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <LinearLayout
-        android:id="@id/layoutSeekProgress"
+        android:id="@+id/layoutSeekProgress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
@@ -56,7 +56,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="@id/bgSeekProgress">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tvCurProgress"
+            android:id="@+id/tvCurProgress"
             android:layout_width="52.0dip"
             android:layout_height="30.0dip"
             android:fontFamily="@font/oswald_n"
@@ -88,7 +88,7 @@
             app:autoSizeStepGranularity="1.0sp"
             app:autoSizeTextType="bjy" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tvTotalProgress"
+            android:id="@+id/tvTotalProgress"
             android:layout_width="52.0dip"
             android:layout_height="30.0dip"
             android:layout_marginStart="4.0dip"
@@ -102,7 +102,7 @@
             android:textSize="24.0sp" />
     </LinearLayout>
     <SeekBar
-        android:id="@id/seekBar"
+        android:id="@+id/seekBar"
         android:layout_width="0.0dip"
         android:layout_height="12.0dip"
         android:max="100"

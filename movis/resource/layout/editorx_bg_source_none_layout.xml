@@ -6,11 +6,11 @@
     android:gravity="center"
     android:orientation="vertical">
     <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout
-        android:id="@id/content_layout"
+        android:id="@+id/content_layout"
         android:layout_width="@dimen/px68"
         android:layout_height="@dimen/px80">
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@id/iv_none"
+            android:id="@+id/iv_none"
             android:layout_width="@dimen/px68"
             android:layout_height="@dimen/px60"
             android:layout_centerHorizontal="true"
@@ -23,7 +23,7 @@
             android:layout_height="match_parent"
             android:background="@drawable/templatex_shape_item_bg" />
         <View
-            android:id="@id/focus_mask_view_none"
+            android:id="@+id/focus_mask_view_none"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/editorx_shape_focus_view_bg"

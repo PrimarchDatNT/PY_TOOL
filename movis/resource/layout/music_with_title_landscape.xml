@@ -6,7 +6,7 @@
     android:background="@color/music_view_default_background"
     android:padding="@dimen/MusicView_full_padding">
     <ImageView
-        android:id="@id/album"
+        android:id="@+id/album"
         android:layout_width="@dimen/MusicView_full_image_size"
         android:layout_height="@dimen/MusicView_full_image_size"
         android:layout_gravity="center_vertical"
@@ -19,7 +19,7 @@
         android:minWidth="@dimen/MusicView_landscape_text_minimum_width"
         android:orientation="vertical">
         <TextView
-            android:id="@id/title"
+            android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mcv2_music_title_unknown_text"
@@ -27,7 +27,7 @@
             android:textSize="@dimen/MusicView_title_text_size"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/artist"
+            android:id="@+id/artist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mcv2_music_artist_unknown_text"

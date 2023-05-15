@@ -11,22 +11,22 @@
         android:layout_height="@dimen/px42"
         android:gravity="center">
         <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabIndicatorView
-            android:id="@id/tv_typeface"
+            android:id="@+id/tv_typeface"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             app:tab_title="@string/xiaoying_str_ve_font_title" />
         <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabIndicatorView
-            android:id="@id/tv_text"
+            android:id="@+id/tv_text"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             app:tab_title="@string/xiaoying_effect_subtitle_text" />
         <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabIndicatorView
-            android:id="@id/tv_stroke"
+            android:id="@+id/tv_stroke"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             app:tab_title="@string/xiaoying_str_ve_stroke" />
         <com.videoai.aivpcore.editorx.board.effect.subtitle2.widget.TabIndicatorView
-            android:id="@id/tv_shadow"
+            android:id="@+id/tv_shadow"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             app:tab_title="@string/xiaoying_str_ve_video_param_shadow" />
@@ -44,11 +44,11 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@id/cl_inner_text"
+                    android:id="@+id/cl_inner_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <TextView
-                        android:id="@id/tv_color_title"
+                        android:id="@+id/tv_color_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/px20"
@@ -62,7 +62,7 @@
                         app:layout_constraintStart_toStartOf="parrent"
                         app:layout_constraintTop_toTopOf="parrent" />
                     <TextView
-                        android:id="@id/tv_color"
+                        android:id="@+id/tv_color"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/px12"
@@ -73,7 +73,7 @@
                         app:layout_constraintEnd_toEndOf="parrent"
                         app:layout_constraintTop_toTopOf="parrent" />
                     <com.videoai.aivpcore.editorx.widget.seekbar.ColorBarBgView
-                        android:id="@id/colorbar_text_color"
+                        android:id="@+id/colorbar_text_color"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/px12"
@@ -89,7 +89,7 @@
                         app:layout_constraintRight_toRightOf="parrent"
                         app:layout_constraintTop_toBottomOf="@id/tv_color_title" />
                     <TextView
-                        android:id="@id/tv_alpha_title"
+                        android:id="@+id/tv_alpha_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/px20"
@@ -103,7 +103,7 @@
                         app:layout_constraintStart_toStartOf="parrent"
                         app:layout_constraintTop_toBottomOf="@id/colorbar_text_color" />
                     <TextView
-                        android:id="@id/tv_alpha_progress"
+                        android:id="@+id/tv_alpha_progress"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/px20"
@@ -113,7 +113,7 @@
                         app:layout_constraintEnd_toEndOf="parrent"
                         app:layout_constraintTop_toTopOf="@id/tv_alpha_title" />
                     <com.videoai.aivpcore.editorx.widget.seekbar.VHSeekBar
-                        android:id="@id/seek_font_alpha"
+                        android:id="@+id/seek_font_alpha"
                         android:layout_width="0.0dip"
                         android:layout_height="@dimen/px20"
                         android:layout_marginTop="@dimen/px12"
@@ -135,7 +135,7 @@
                         app:vh_progress_radius="20.0dip"
                         app:vh_top_bg_space="@dimen/px20" />
                     <TextView
-                        android:id="@id/tv_align_title"
+                        android:id="@+id/tv_align_title"
                         android:layout_width="@dimen/px48"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/px20"
@@ -148,7 +148,7 @@
                         app:layout_constraintStart_toStartOf="parrent"
                         app:layout_constraintTop_toTopOf="@id/iv_align_left" />
                     <ImageView
-                        android:id="@id/iv_align_left"
+                        android:id="@+id/iv_align_left"
                         android:layout_width="@dimen/px48"
                         android:layout_height="@dimen/px24"
                         android:layout_marginStart="@dimen/px12"
@@ -160,7 +160,7 @@
                         app:layout_constraintStart_toEndOf="@id/tv_align_title"
                         app:layout_constraintTop_toBottomOf="@id/seek_font_alpha" />
                     <ImageView
-                        android:id="@id/iv_align_center"
+                        android:id="@+id/iv_align_center"
                         android:layout_width="@dimen/px48"
                         android:layout_height="@dimen/px24"
                         android:layout_marginStart="@dimen/px8"
@@ -172,7 +172,7 @@
                         app:layout_constraintStart_toEndOf="@id/iv_align_left"
                         app:layout_constraintTop_toTopOf="@id/iv_align_left" />
                     <ImageView
-                        android:id="@id/iv_align_right"
+                        android:id="@+id/iv_align_right"
                         android:layout_width="@dimen/px48"
                         android:layout_height="@dimen/px24"
                         android:layout_marginStart="@dimen/px8"
@@ -184,7 +184,7 @@
                         app:layout_constraintStart_toEndOf="@id/iv_align_center"
                         app:layout_constraintTop_toTopOf="@id/iv_align_left" />
                     <ImageView
-                        android:id="@id/iv_align_top"
+                        android:id="@+id/iv_align_top"
                         android:layout_width="@dimen/px48"
                         android:layout_height="@dimen/px24"
                         android:layout_marginStart="@dimen/px8"
@@ -198,11 +198,11 @@
                         app:layout_constraintTop_toTopOf="@id/iv_align_left" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@id/cl_inner_stroke"
+                    android:id="@+id/cl_inner_stroke"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <TextView
-                        android:id="@id/stroke_color_title"
+                        android:id="@+id/stroke_color_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/px20"
@@ -216,7 +216,7 @@
                         app:layout_constraintStart_toStartOf="parrent"
                         app:layout_constraintTop_toTopOf="parrent" />
                     <TextView
-                        android:id="@id/stroke_color"
+                        android:id="@+id/stroke_color"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/px12"
@@ -228,7 +228,7 @@
                         app:layout_constraintEnd_toEndOf="parrent"
                         app:layout_constraintTop_toTopOf="parrent" />
                     <ImageView
-                        android:id="@id/stroke_color_none"
+                        android:id="@+id/stroke_color_none"
                         android:layout_width="@dimen/px16"
                         android:layout_height="@dimen/px20"
                         android:layout_marginStart="@dimen/px20"
@@ -237,7 +237,7 @@
                         app:layout_constraintStart_toStartOf="parrent"
                         app:layout_constraintTop_toTopOf="@id/colorbar_stroke_color" />
                     <com.videoai.aivpcore.editorx.widget.seekbar.ColorBarBgView
-                        android:id="@id/colorbar_stroke_color"
+                        android:id="@+id/colorbar_stroke_color"
                         android:layout_width="0.0dip"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/px12"
@@ -253,7 +253,7 @@
                         app:layout_constraintStart_toEndOf="@id/stroke_color_none"
                         app:layout_constraintTop_toBottomOf="@id/stroke_color_title" />
                     <TextView
-                        android:id="@id/tv_stroke_title"
+                        android:id="@+id/tv_stroke_title"
                         android:layout_width="@dimen/px48"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/px20"
@@ -266,7 +266,7 @@
                         app:layout_constraintStart_toStartOf="parrent"
                         app:layout_constraintTop_toBottomOf="@id/colorbar_stroke_color" />
                     <TextView
-                        android:id="@id/tv_stroke_progress"
+                        android:id="@+id/tv_stroke_progress"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/px20"
@@ -276,7 +276,7 @@
                         app:layout_constraintEnd_toEndOf="parrent"
                         app:layout_constraintTop_toTopOf="@id/tv_stroke_title" />
                     <com.videoai.aivpcore.editorx.widget.seekbar.VHSeekBar
-                        android:id="@id/seek_font_stroke"
+                        android:id="@+id/seek_font_stroke"
                         android:layout_width="0.0dip"
                         android:layout_height="@dimen/px20"
                         android:layout_marginTop="@dimen/px12"
@@ -297,11 +297,11 @@
                         app:vh_top_bg_space="@dimen/px20" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@id/cl_inner_shadow"
+                    android:id="@+id/cl_inner_shadow"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <TextView
-                        android:id="@id/shadow_color_title"
+                        android:id="@+id/shadow_color_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/px20"
@@ -315,7 +315,7 @@
                         app:layout_constraintStart_toStartOf="parrent"
                         app:layout_constraintTop_toTopOf="parrent" />
                     <TextView
-                        android:id="@id/shadow_color"
+                        android:id="@+id/shadow_color"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/px12"
@@ -327,7 +327,7 @@
                         app:layout_constraintEnd_toEndOf="parrent"
                         app:layout_constraintTop_toTopOf="parrent" />
                     <ImageView
-                        android:id="@id/shadow_color_none"
+                        android:id="@+id/shadow_color_none"
                         android:layout_width="@dimen/px16"
                         android:layout_height="@dimen/px20"
                         android:layout_marginStart="@dimen/px20"
@@ -336,7 +336,7 @@
                         app:layout_constraintStart_toStartOf="parrent"
                         app:layout_constraintTop_toTopOf="@id/colorbar_shadow_color" />
                     <com.videoai.aivpcore.editorx.widget.seekbar.ColorBarBgView
-                        android:id="@id/colorbar_shadow_color"
+                        android:id="@+id/colorbar_shadow_color"
                         android:layout_width="0.0dip"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/px12"
@@ -352,7 +352,7 @@
                         app:layout_constraintStart_toEndOf="@id/shadow_color_none"
                         app:layout_constraintTop_toBottomOf="@id/shadow_color_title" />
                     <TextView
-                        android:id="@id/tv_shadow_title"
+                        android:id="@+id/tv_shadow_title"
                         android:layout_width="@dimen/px48"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/px20"
@@ -365,7 +365,7 @@
                         app:layout_constraintStart_toStartOf="parrent"
                         app:layout_constraintTop_toBottomOf="@id/colorbar_shadow_color" />
                     <TextView
-                        android:id="@id/tv_shadow_progress"
+                        android:id="@+id/tv_shadow_progress"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/px20"
@@ -375,7 +375,7 @@
                         app:layout_constraintEnd_toEndOf="parrent"
                         app:layout_constraintTop_toTopOf="@id/tv_shadow_title" />
                     <com.videoai.aivpcore.editorx.widget.seekbar.VHSeekBar
-                        android:id="@id/seek_font_shadow"
+                        android:id="@+id/seek_font_shadow"
                         android:layout_width="0.0dip"
                         android:layout_height="@dimen/px20"
                         android:layout_marginTop="@dimen/px12"
@@ -398,7 +398,7 @@
             </LinearLayout>
         </ScrollView>
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/rv_font"
+            android:id="@+id/rv_font"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </FrameLayout>

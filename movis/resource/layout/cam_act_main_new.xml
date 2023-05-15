@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/cam_layout_main"
+    android:id="@+id/cam_layout_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/cam_layout_surfaceview"
+        android:id="@+id/cam_layout_surfaceview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
     <RelativeLayout
-        android:id="@id/cam_layout_preview"
+        android:id="@+id/cam_layout_preview"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <include
-            android:id="@id/guideline_layout"
+            android:id="@+id/guideline_layout"
             layout="@layout/cam_include_guide_line"
             android:visibility="gone" />
         <include layout="@layout/cam_include_focus_indicator" />
         <include layout="@layout/cam_include_timer_layout" />
         <include layout="@layout/cam_include_no_face_detect_hint" />
         <TextView
-            android:id="@id/expression_action_hint"
+            android:id="@+id/expression_action_hint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -28,7 +28,7 @@
             android:textSize="25.0sp" />
     </RelativeLayout>
     <com.videoai.aivpcore.camera.ui.view.CameraRotateTipView
-        android:id="@id/camera_rotate_tip_view"
+        android:id="@+id/camera_rotate_tip_view"
         android:layout_width="match_parent"
         android:layout_height="240.0dip"
         android:layout_marginStart="80.0dip"
@@ -42,11 +42,11 @@
         android:layout_height="match_parent"
         android:fitsSystemWindows="true">
         <RelativeLayout
-            android:id="@id/camera_view_layout"
+            android:id="@+id/camera_view_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
         <com.videoai.aivpcore.camera.ui.view.SegProgressbar
-            android:id="@id/cam_seg_progressbar"
+            android:id="@+id/cam_seg_progressbar"
             android:layout_width="match_parent"
             android:layout_height="5.0dip"
             android:visibility="gone"
@@ -59,7 +59,7 @@
             app:p_showProgressSegment="false"
             app:p_showText="false" />
         <FrameLayout
-            android:id="@id/music_container"
+            android:id="@+id/music_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </RelativeLayout>

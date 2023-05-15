@@ -22,7 +22,7 @@
             android:textColor="@color/black"
             android:textSize="@dimen/sp10" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tvHour"
+            android:id="@+id/tvHour"
             style="@style/TextSingleLine"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
             android:textColor="@color/black"
             android:textSize="@dimen/sp10" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tvMin"
+            android:id="@+id/tvMin"
             style="@style/TextSingleLine"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
             android:textColor="@color/black"
             android:textSize="@dimen/sp10" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tvSec"
+            android:id="@+id/tvSec"
             style="@style/TextSingleLine"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

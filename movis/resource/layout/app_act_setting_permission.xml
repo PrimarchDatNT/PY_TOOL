@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#fff5f4f4">
     <View
-        android:id="@id/layoutTitle"
+        android:id="@+id/layoutTitle"
         android:layout_width="0.0dip"
         android:layout_height="44.0dip"
         android:background="@color/white"
@@ -13,7 +13,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/btnBack"
+        android:id="@+id/btnBack"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_marginStart="15.0dip"
@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="@id/layoutTitle" />
     <include
-        android:id="@id/layoutPermission1"
+        android:id="@+id/layoutPermission1"
         layout="@layout/app_include_setting_permission_item"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/layoutTitle" />
     <include
-        android:id="@id/layoutPermission2"
+        android:id="@+id/layoutPermission2"
         layout="@layout/app_include_setting_permission_item"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"

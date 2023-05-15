@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/rl_ratio_layout"
+    android:id="@+id/rl_ratio_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/rl_preview_layout_fake"
+        android:id="@+id/rl_preview_layout_fake"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/rl_ratio_ops_layout"
@@ -17,7 +17,7 @@
         android:layout_marginBottom="10.0dip"
         android:layoutDirection="ltr">
         <ImageButton
-            android:id="@id/ib_play"
+            android:id="@+id/ib_play"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -36,7 +36,7 @@
             android:layout_marginEnd="15.0dip"
             android:layout_marginRight="15.0dip">
             <ImageView
-                android:id="@id/iv_btn_fit"
+                android:id="@+id/iv_btn_fit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -45,7 +45,7 @@
                 android:src="@drawable/editor_selector_clip_btn_fit"
                 android:visibility="gone" />
             <RelativeLayout
-                android:id="@id/layout_pic_seekbar"
+                android:id="@+id/layout_pic_seekbar"
                 android:layout_width="172.0dip"
                 android:layout_height="48.0dip"
                 android:layout_centerVertical="true"
@@ -56,7 +56,7 @@
                 android:layoutDirection="locale"
                 android:visibility="gone">
                 <ImageView
-                    android:id="@id/img_left_pic"
+                    android:id="@+id/img_left_pic"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
@@ -64,7 +64,7 @@
                     android:layout_marginLeft="4.0dip"
                     android:src="@drawable/editor_icon_clip_blur_small" />
                 <SeekBar
-                    android:id="@id/pic_seekbar_blur"
+                    android:id="@+id/pic_seekbar_blur"
                     android:layout_width="match_parent"
                     android:layout_height="18.0dip"
                     android:layout_centerInParent="true"
@@ -81,7 +81,7 @@
                     android:thumb="@drawable/editor_icon_clip_blur_point"
                     android:thumbOffset="9.0dip" />
                 <ImageView
-                    android:id="@id/img_right_pic"
+                    android:id="@+id/img_right_pic"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -94,13 +94,13 @@
         </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/rl_ratio_ops_layout"
+        android:id="@+id/rl_ratio_ops_layout"
         android:layout_width="match_parent"
         android:layout_height="158.0dip"
         android:layout_above="@id/teminator"
         android:background="@color/black">
         <include
-            android:id="@id/apply_all_layout"
+            android:id="@+id/apply_all_layout"
             layout="@layout/editor_clip_apply_all_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -109,7 +109,7 @@
             android:layout_marginTop="10.0dip"
             android:visibility="gone" />
         <TextView
-            android:id="@id/tv_ratio_custom_bg"
+            android:id="@+id/tv_ratio_custom_bg"
             android:layout_width="wrap_content"
             android:layout_height="20.0dip"
             android:layout_alignParentEnd="true"
@@ -127,7 +127,7 @@
             android:layout_alignParentBottom="true"
             android:orientation="vertical">
             <HorizontalScrollView
-                android:id="@id/hs_clip_ratios"
+                android:id="@+id/hs_clip_ratios"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="28.0dip"
@@ -138,49 +138,49 @@
                     android:layout_gravity="center_vertical"
                     android:orientation="horizontal">
                     <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
-                        android:id="@id/ratio_view_original"
+                        android:id="@+id/ratio_view_original"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10.0dip"
                         android:layout_marginLeft="10.0dip" />
                     <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
-                        android:id="@id/ratio_view_1_1"
+                        android:id="@+id/ratio_view_1_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="30.0dip"
                         android:layout_marginLeft="30.0dip" />
                     <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
-                        android:id="@id/ratio_view_4_5"
+                        android:id="@+id/ratio_view_4_5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="30.0dip"
                         android:layout_marginLeft="30.0dip" />
                     <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
-                        android:id="@id/ratio_view_16_9"
+                        android:id="@+id/ratio_view_16_9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="30.0dip"
                         android:layout_marginLeft="30.0dip" />
                     <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
-                        android:id="@id/ratio_view_9_16"
+                        android:id="@+id/ratio_view_9_16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="30.0dip"
                         android:layout_marginLeft="30.0dip" />
                     <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
-                        android:id="@id/ratio_view_3_4"
+                        android:id="@+id/ratio_view_3_4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="30.0dip"
                         android:layout_marginLeft="30.0dip" />
                     <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
-                        android:id="@id/ratio_view_4_3"
+                        android:id="@+id/ratio_view_4_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="30.0dip"
                         android:layout_marginLeft="30.0dip" />
                     <com.videoai.aivpcore.editor.clipedit.ratioadjust.RatioAdjustView
-                        android:id="@id/ratio_view_12_5"
+                        android:id="@+id/ratio_view_12_5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="30.0dip"
@@ -188,12 +188,12 @@
                 </LinearLayout>
             </HorizontalScrollView>
             <RelativeLayout
-                android:id="@id/rl_layout_color_bar"
+                android:id="@+id/rl_layout_color_bar"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:visibility="gone">
                 <com.videoai.aivpcore.ui.view.MultiColorBar
-                    android:id="@id/multicolor_bar"
+                    android:id="@+id/multicolor_bar"
                     android:layout_width="match_parent"
                     android:layout_height="60.0dip"
                     android:layout_alignParentBottom="true"
@@ -206,7 +206,7 @@
                     app:color_bar_height="10.0dip" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/rl_layout_adjust_blur"
+                android:id="@+id/rl_layout_adjust_blur"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:visibility="gone">
@@ -216,7 +216,7 @@
                     android:layout_alignParentBottom="true"
                     android:layout_marginBottom="20.0dip">
                     <ImageView
-                        android:id="@id/img_left"
+                        android:id="@+id/img_left"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -224,7 +224,7 @@
                         android:layout_marginLeft="15.0dip"
                         android:src="@drawable/editor_icon_clip_blur_small" />
                     <SeekBar
-                        android:id="@id/seekbar_blur"
+                        android:id="@+id/seekbar_blur"
                         android:layout_width="match_parent"
                         android:layout_height="18.0dip"
                         android:layout_centerInParent="true"
@@ -241,7 +241,7 @@
                         android:thumb="@drawable/editor_icon_clip_blur_point"
                         android:thumbOffset="9.0dip" />
                     <ImageView
-                        android:id="@id/img_right"
+                        android:id="@+id/img_right"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
@@ -255,7 +255,7 @@
         </FrameLayout>
     </RelativeLayout>
     <com.videoai.aivpcore.editor.widget.picker.EditorGalleryBoard
-        android:id="@id/clip_ratio_effect_board"
+        android:id="@+id/clip_ratio_effect_board"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/teminator"
@@ -264,7 +264,7 @@
         app:picNoneItem="true"
         app:topTransparent="true" />
     <com.videoai.aivpcore.editor.widget.terminator.Terminator
-        android:id="@id/teminator"
+        android:id="@+id/teminator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

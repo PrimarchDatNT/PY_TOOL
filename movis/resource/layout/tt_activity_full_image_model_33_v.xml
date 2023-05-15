@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/tt_full_root"
+    android:id="@+id/tt_full_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/tt_full_image_full_bar"
+        android:id="@+id/tt_full_image_full_bar"
         android:layout_width="match_parent"
         android:layout_height="70.0dip"
         android:layout_marginLeft="20.0dip"
         android:layout_marginTop="45.0dip"
         android:layout_marginRight="20.0dip">
         <com.bytedance.sdk.openadsdk.core.widget.TTRoundRectImageView
-            android:id="@id/tt_full_ad_icon"
+            android:id="@+id/tt_full_ad_icon"
             android:layout_width="65.0dip"
             android:layout_height="65.0dip"
             android:layout_alignParentStart="true"
@@ -26,7 +26,7 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
             <TextView
-                android:id="@id/tt_full_ad_app_name"
+                android:id="@+id/tt_full_ad_app_name"
                 android:layout_width="wrap_content"
                 android:layout_height="27.0dip"
                 android:layout_marginStart="14.0dip"
@@ -45,14 +45,14 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
                 <com.bytedance.sdk.openadsdk.core.widget.TTRatingBar2
-                    android:id="@id/tt_full_rb_score"
+                    android:id="@+id/tt_full_rb_score"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginStart="14.0dip"
                     android:layout_marginLeft="14.0dip" />
                 <TextView
-                    android:id="@id/tt_full_comment"
+                    android:id="@+id/tt_full_comment"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10.0dip"
@@ -65,14 +65,14 @@
         </LinearLayout>
     </RelativeLayout>
     <com.bytedance.sdk.openadsdk.component.reward.view.RatioImageView
-        android:id="@id/tt_ratio_image_view"
+        android:id="@+id/tt_ratio_image_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tt_full_image_full_bar"
         android:layout_marginTop="31.0dip"
         android:scaleType="fitXY" />
     <TextView
-        android:id="@id/tt_ad_logo"
+        android:id="@+id/tt_ad_logo"
         android:layout_width="32.0dip"
         android:layout_height="14.0dip"
         android:layout_alignBottom="@id/tt_ratio_image_view"
@@ -83,7 +83,7 @@
         android:paddingStart="2.0dip"
         android:paddingLeft="2.0dip" />
     <TextView
-        android:id="@id/tt_full_desc"
+        android:id="@+id/tt_full_desc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tt_ratio_image_view"
@@ -95,7 +95,7 @@
         android:textColor="@color/tt_white"
         android:textSize="17.0sp" />
     <TextView
-        android:id="@id/tt_full_ad_download"
+        android:id="@+id/tt_full_ad_download"
         android:layout_width="match_parent"
         android:layout_height="40.0dip"
         android:layout_below="@id/tt_full_desc"

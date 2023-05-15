@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <View
-        android:id="@id/root_layout_bg"
+        android:id="@+id/root_layout_bg"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px214"
         android:layout_marginBottom="@dimen/px56"
@@ -13,14 +13,14 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent" />
     <View
-        android:id="@id/top_layout_bg"
+        android:id="@+id/top_layout_bg"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px42"
         app:layout_constraintEnd_toEndOf="@id/root_layout_bg"
         app:layout_constraintStart_toStartOf="@id/root_layout_bg"
         app:layout_constraintTop_toTopOf="@id/root_layout_bg" />
     <TextView
-        android:id="@id/top_replace_music_btn"
+        android:id="@+id/top_replace_music_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/slt_item_tag"
@@ -40,7 +40,7 @@
         app:layout_constraintStart_toStartOf="@id/top_layout_bg"
         app:layout_constraintTop_toTopOf="@id/top_layout_bg" />
     <TextView
-        android:id="@id/top_title_view"
+        android:id="@+id/top_title_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_semibold"
@@ -68,7 +68,7 @@
         app:layout_constraintLeft_toLeftOf="parrent"
         app:layout_constraintRight_toRightOf="parrent" />
     <com.videoai.aivpcore.editorx.widget.magic.MagicTemplateLayout
-        android:id="@id/magic_layout"
+        android:id="@+id/magic_layout"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         app:layout_constraintBottom_toBottomOf="@id/root_layout_bg"

@@ -9,7 +9,7 @@
         android:layout_above="@id/ve_music_op_view"
         android:orientation="vertical">
         <com.videoai.aivpcore.editor.effects.music.EditorVolumeSetView
-            android:id="@id/view_effect_volume_set"
+            android:id="@+id/view_effect_volume_set"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -17,14 +17,14 @@
             android:visibility="gone" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/ve_music_op_view"
+        android:id="@+id/ve_music_op_view"
         android:layout_width="match_parent"
         android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
         android:background="@color/black"
         android:paddingTop="12.0dip">
         <com.videoai.aivpcore.editor.effects.VideoEditorSeekLayout
-            android:id="@id/ve_music_seek_layout"
+            android:id="@+id/ve_music_seek_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent" />
@@ -36,7 +36,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="6.0dip">
             <TextView
-                android:id="@id/ve_music_op_btn"
+                android:id="@+id/ve_music_op_btn"
                 android:layout_width="113.0dip"
                 android:layout_height="35.0dip"
                 android:layout_centerHorizontal="true"
@@ -59,14 +59,14 @@
                 android:visibility="gone" />
         </RelativeLayout>
         <com.videoai.aivpcore.editor.widget.terminator.Terminator
-            android:id="@id/terminator"
+            android:id="@+id/terminator"
             android:layout_width="match_parent"
             android:layout_height="@dimen/video_editor_terminator_height"
             android:layout_alignParentBottom="true"
             app:terminatorText="@string/xiaoying_str_ve_animate_frame_title" />
     </RelativeLayout>
     <include
-        android:id="@id/include_fx_chosen_panel"
+        android:id="@+id/include_fx_chosen_panel"
         layout="@layout/editor_effect_fx_chosen_panel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

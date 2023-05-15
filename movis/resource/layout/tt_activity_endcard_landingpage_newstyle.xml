@@ -5,7 +5,7 @@
     android:background="#ffffffff">
     <include layout="@layout/tt_browser_new_title_bar" />
     <com.bytedance.sdk.component.widget.SSWebView
-        android:id="@id/tt_browser_webview"
+        android:id="@+id/tt_browser_webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/tt_title_bar"

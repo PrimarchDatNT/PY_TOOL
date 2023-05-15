@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/cam_layout_command"
+    android:id="@+id/cam_layout_command"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/transparent"
@@ -15,13 +15,13 @@
             android:layout_toStartOf="@id/cam_layout_shutter"
             android:layout_toLeftOf="@id/cam_layout_shutter">
             <ImageView
-                android:id="@id/cam_btn_filter_effect"
+                android:id="@+id/cam_btn_filter_effect"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:src="@drawable/v4_xiaoying_cam_indicator_effect" />
             <ImageView
-                android:id="@id/cam_btn_fb_effect"
+                android:id="@+id/cam_btn_fb_effect"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -29,12 +29,12 @@
                 android:visibility="invisible" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/cam_layout_shutter"
+            android:id="@+id/cam_layout_shutter"
             android:layout_width="108.0dip"
             android:layout_height="108.0dip"
             android:layout_centerInParent="true">
             <com.videoai.aivpcore.camera.ui.view.CamRecordView xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:id="@id/btn_rec"
+                android:id="@+id/btn_rec"
                 android:layout_width="102.0dip"
                 android:layout_height="102.0dip"
                 android:layout_centerInParent="true"
@@ -42,7 +42,7 @@
                 app:indicator_color="#ffff774e" />
         </RelativeLayout>
         <ImageView
-            android:id="@id/cam_btn_next"
+            android:id="@+id/cam_btn_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -53,7 +53,7 @@
             android:src="@drawable/v6_xiaoying_cam_early_finish_icon" />
     </RelativeLayout>
     <com.videoai.aivpcore.ui.view.HotFixRecyclerView
-        android:id="@id/recyclerview_cam_modes"
+        android:id="@+id/recyclerview_cam_modes"
         android:layout_width="match_parent"
         android:layout_height="25.0dip"
         android:layout_gravity="center"

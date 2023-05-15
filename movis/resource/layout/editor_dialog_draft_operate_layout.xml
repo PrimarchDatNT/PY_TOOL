@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/draft_operate_root"
+    android:id="@+id/draft_operate_root"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@drawable/bg_app_setting_dialog"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/draft_operate_delete"
+        android:id="@+id/draft_operate_delete"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px48"
         android:background="@drawable/btn_dcolor_ripple"
@@ -27,7 +27,7 @@
         android:layout_height="@dimen/px1"
         android:layout_gravity="center" />
     <LinearLayout
-        android:id="@id/draft_operate_copy"
+        android:id="@+id/draft_operate_copy"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px48"
         android:background="@drawable/btn_dcolor_ripple"

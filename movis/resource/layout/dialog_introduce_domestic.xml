@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/dg_big_img"
+            android:id="@+id/dg_big_img"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35.0dip"
@@ -22,7 +22,7 @@
             app:aspectRatio="0.75"
             app:roundedCornerRadius="8.0dip" />
         <ImageView
-            android:id="@id/dg_close"
+            android:id="@+id/dg_close"
             android:layout_width="32.0dip"
             android:layout_height="32.0dip"
             android:layout_alignTop="@id/dg_big_img"

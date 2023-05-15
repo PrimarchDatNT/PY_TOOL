@@ -6,7 +6,7 @@
     android:background="#66000000"
     android:clickable="true">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/cl_speech_board"
+        android:id="@+id/cl_speech_board"
         android:layout_width="match_parent"
         android:layout_height="375.0dip"
         android:background="@drawable/editorx_speech_shape_bg"
@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent">
         <View
-            android:id="@id/v_title_line"
+            android:id="@+id/v_title_line"
             android:layout_width="match_parent"
             android:layout_height="0.5dip"
             android:layout_marginTop="54.0dip"
@@ -31,7 +31,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_speech_close"
+            android:id="@+id/iv_speech_close"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10.0dip"
@@ -41,7 +41,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_speech_title2"
+            android:id="@+id/tv_speech_title2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15.0dip"
@@ -51,7 +51,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/v_title_line" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_speech_select_video"
+            android:id="@+id/tv_speech_select_video"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
             android:layout_marginStart="15.0dip"
@@ -66,7 +66,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tv_speech_title2" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_speech_select_video"
+            android:id="@+id/iv_speech_select_video"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:layout_marginEnd="16.0dip"
@@ -75,7 +75,7 @@
             app:layout_constraintEnd_toEndOf="@id/tv_speech_select_video"
             app:layout_constraintTop_toTopOf="@id/tv_speech_select_video" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_speech_select_record"
+            android:id="@+id/tv_speech_select_record"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
             android:layout_marginStart="15.0dip"
@@ -91,7 +91,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tv_speech_select_video" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_speech_select_record"
+            android:id="@+id/iv_speech_select_record"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:layout_marginEnd="16.0dip"
@@ -100,7 +100,7 @@
             app:layout_constraintEnd_toEndOf="@id/tv_speech_select_record"
             app:layout_constraintTop_toTopOf="@id/tv_speech_select_record" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_speech_select_record_empty"
+            android:id="@+id/tv_speech_select_record_empty"
             android:layout_width="wrap_content"
             android:layout_height="48.0dip"
             android:layout_marginEnd="15.0dip"
@@ -112,7 +112,7 @@
             app:layout_constraintEnd_toEndOf="@id/tv_speech_select_record"
             app:layout_constraintTop_toTopOf="@id/tv_speech_select_record" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_speech_start"
+            android:id="@+id/tv_speech_start"
             android:layout_width="match_parent"
             android:layout_height="48.0dip"
             android:layout_marginStart="32.0dip"
@@ -134,7 +134,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tv_speech_start">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/ivDelete"
+                android:id="@+id/ivDelete"
                 android:layout_width="24.0dip"
                 android:layout_height="24.0dip"
                 android:padding="4.0dip"
@@ -147,7 +147,7 @@
                 android:textSize="14.0sp" />
         </LinearLayout>
         <View
-            android:id="@id/v_speech_bg"
+            android:id="@+id/v_speech_bg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#99000000"

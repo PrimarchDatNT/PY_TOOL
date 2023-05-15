@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/rl_theme_duration_time"
+        android:id="@+id/rl_theme_duration_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5.0dip">
         <TextView
-            android:id="@id/tvThemeDurationTime"
+            android:id="@+id/tvThemeDurationTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3"
@@ -46,7 +46,7 @@
             android:textColor="@color/color_8E8E93"
             android:textSize="11.0sp" />
         <SeekBar
-            android:id="@id/seekbar_theme_duration"
+            android:id="@+id/seekbar_theme_duration"
             android:layout_width="0.0dip"
             android:layout_height="20.0dip"
             android:layout_gravity="center"
@@ -62,7 +62,7 @@
             android:thumb="@drawable/editor_layer_seekbar_thumb_white_18"
             android:thumbOffset="9.0dip" />
         <TextView
-            android:id="@id/maxTv"
+            android:id="@+id/maxTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

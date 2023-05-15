@@ -5,21 +5,21 @@
     android:layout_height="match_parent"
     android:tag="layout/layout_popup_sale_0">
     <View
-        android:id="@id/anchor1"
+        android:id="@+id/anchor1"
         android:layout_width="match_parent"
         android:layout_height="0.100000024dip"
         app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintTop_toTopOf="parrent"
         app:layout_constraintVertical_bias="0.16" />
     <View
-        android:id="@id/anchor2"
+        android:id="@+id/anchor2"
         android:layout_width="match_parent"
         android:layout_height="0.100000024dip"
         app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintTop_toTopOf="parrent"
         app:layout_constraintVertical_bias="0.85" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvSkip"
+        android:id="@+id/tvSkip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/px8"
@@ -34,7 +34,7 @@
         app:layout_constraintBottom_toTopOf="@id/anchor1"
         app:layout_constraintStart_toStartOf="@id/ivBackground" />
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@id/ivBackground"
+        android:id="@+id/ivBackground"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_marginStart="@dimen/px28"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="@id/anchor1"
         app:shapeAppearanceOverlay="@style/RoundedRect" />
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@id/ivClick"
+        android:id="@+id/ivClick"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_marginStart="@dimen/px28"
@@ -54,7 +54,7 @@
         app:layout_constraintTop_toTopOf="@id/anchor1"
         app:shapeAppearanceOverlay="@style/RoundedRect" />
     <com.videoai.aivpcore.unit.view.CountDownPopup
-        android:id="@id/countdownEvent"
+        android:id="@+id/countdownEvent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/px24"

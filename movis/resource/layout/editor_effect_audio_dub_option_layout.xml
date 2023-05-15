@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
-        android:id="@id/ll_editor_audio_record_touch"
+        android:id="@+id/ll_editor_audio_record_touch"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
@@ -16,7 +16,7 @@
             android:layout_gravity="center_vertical"
             android:layout_weight="1.0">
             <ImageView
-                android:id="@id/iv_editor_audio_operation_cancel"
+                android:id="@+id/iv_editor_audio_operation_cancel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -28,7 +28,7 @@
                 android:visibility="gone" />
         </RelativeLayout>
         <TextView
-            android:id="@id/tv_editor_audio_operation"
+            android:id="@+id/tv_editor_audio_operation"
             android:layout_width="113.0dip"
             android:layout_height="35.0dip"
             android:background="@drawable/editor_selector_effect_sub_op_btn"
@@ -38,7 +38,7 @@
             android:textSize="16.0sp"
             android:visibility="gone" />
         <com.videoai.aivpcore.editor.effects.dub.recordview.RecordView
-            android:id="@id/view_editor_audio_record"
+            android:id="@+id/view_editor_audio_record"
             android:layout_width="50.0dip"
             android:layout_height="50.0dip"
             android:visibility="gone" />

@@ -8,12 +8,12 @@
     android:paddingRight="15.0dip"
     android:paddingBottom="32.0dip">
     <ImageView
-        android:id="@id/iv_close"
+        android:id="@+id/iv_close"
         android:layout_width="28.0dip"
         android:layout_height="28.0dip"
         android:src="@drawable/app_default_close_black" />
     <LinearLayout
-        android:id="@id/layoutContent"
+        android:id="@+id/layoutContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20.0dip"
@@ -31,7 +31,7 @@
             android:textColor="@color/color_999999"
             android:textSize="14.0dip" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/rv_vip_func"
+            android:id="@+id/rv_vip_func"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="28.0dip"
@@ -39,7 +39,7 @@
             android:layout_marginTop="12.0dip"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
         <TextView
-            android:id="@id/tv_pay_func"
+            android:id="@+id/tv_pay_func"
             android:layout_width="281.0dip"
             android:layout_height="@dimen/px42"
             android:layout_gravity="center_horizontal"

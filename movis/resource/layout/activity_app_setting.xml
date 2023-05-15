@@ -6,21 +6,21 @@
     android:background="@color/app_dcolor_background"
     android:orientation="vertical">
     <FrameLayout
-        android:id="@id/cl_toolbar"
+        android:id="@+id/cl_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_back"
+            android:id="@+id/iv_back"
             android:layout_width="?a4"
             android:layout_height="?a4"
             android:background="@drawable/btn_dcolor_ripple"
             android:scaleType="centerInside"
             app:srcCompat="@drawable/ic_back" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_title"
+            android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="?a4"
             android:layout_marginStart="?a4"
@@ -34,7 +34,7 @@
             android:textStyle="bold" />
     </FrameLayout>
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/iv_logo"
+        android:id="@+id/iv_logo"
         android:layout_width="@dimen/px86"
         android:layout_height="@dimen/px28"
         android:layout_gravity="center"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@id/layout_actionbar"
         app:srcCompat="@drawable/app_logo" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_version_app"
+        android:id="@+id/tv_version_app"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -64,12 +64,12 @@
         android:background="@drawable/bg_app_setting_dialog"
         android:orientation="vertical">
         <FrameLayout
-            android:id="@id/cl_app_about"
+            android:id="@+id/cl_app_about"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_dcolor_ripple">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tv_app_about"
+                android:id="@+id/tv_app_about"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_semibold"
@@ -88,12 +88,12 @@
             android:layout_marginEnd="@dimen/px16"
             android:background="@color/app_dcolor_indicator_2" />
         <FrameLayout
-            android:id="@id/cl_app_feedback"
+            android:id="@+id/cl_app_feedback"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_dcolor_ripple">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tv_app_feedback"
+                android:id="@+id/tv_app_feedback"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_semibold"
@@ -112,12 +112,12 @@
             android:layout_marginEnd="@dimen/px16"
             android:background="@color/app_dcolor_indicator_2" />
         <FrameLayout
-            android:id="@id/cl_app_rate"
+            android:id="@+id/cl_app_rate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_dcolor_ripple">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tv_app_rate"
+                android:id="@+id/tv_app_rate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_semibold"

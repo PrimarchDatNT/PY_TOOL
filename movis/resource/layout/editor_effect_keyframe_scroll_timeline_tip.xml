@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/txt_layout"
+        android:id="@+id/txt_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/xyui_bg_help_pop_left_up"
         android:gravity="center">
         <TextView
-            android:id="@id/tv_text"
+            android:id="@+id/tv_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/editor_btn_hide_keyframe_move_to_add_tip"

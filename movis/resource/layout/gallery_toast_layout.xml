@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <TextView
-        android:id="@id/toast_content"
+        android:id="@+id/toast_content"
         android:layout_width="wrap_content"
         android:layout_height="42.0dip"
         android:background="@drawable/gallery_shape_toast_bg"

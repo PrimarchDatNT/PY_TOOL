@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/rlSubtitle"
+    android:id="@+id/rlSubtitle"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="120.0dip">
     <LinearLayout
-        android:id="@id/move_view"
+        android:id="@+id/move_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -14,13 +14,13 @@
         android:background="@color/color_141414"
         android:orientation="vertical">
         <RelativeLayout
-            android:id="@id/layout_input"
+            android:id="@+id/layout_input"
             android:layout_width="match_parent"
             android:layout_height="50.0dip"
             android:background="@color/color_212121"
             android:paddingTop="8.0dip">
             <androidx.appcompat.widget.AppCompatEditText
-                android:id="@id/subtitle_edittext"
+                android:id="@+id/subtitle_edittext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12.0dip"
@@ -39,14 +39,14 @@
                 android:textColorHint="@color/opacity_3_white"
                 android:textSize="14.0sp" />
             <View
-                android:id="@id/view_edit"
+                android:id="@+id/view_edit"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="12.0dip"
                 android:layout_marginEnd="12.0dip"
                 android:layout_toStartOf="@id/layout_choose_finish" />
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/text_delete"
+                android:id="@+id/text_delete"
                 android:layout_width="20.0dip"
                 android:layout_height="20.0dip"
                 android:layout_centerVertical="true"
@@ -56,7 +56,7 @@
                 android:src="@drawable/editorx_icon_text_delete"
                 android:visibility="gone" />
             <RelativeLayout
-                android:id="@id/layout_choose_finish"
+                android:id="@+id/layout_choose_finish"
                 android:layout_width="48.0dip"
                 android:layout_height="28.0dip"
                 android:layout_alignParentEnd="true"
@@ -64,7 +64,7 @@
                 android:layout_marginEnd="16.0dip"
                 android:background="@drawable/editorx_shape_button_red">
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@id/iv_choose_finish"
+                    android:id="@+id/iv_choose_finish"
                     android:layout_width="24.0dip"
                     android:layout_height="24.0dip"
                     android:layout_centerInParent="true"
@@ -79,13 +79,13 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconView
-                android:id="@id/siv_store"
+                android:id="@+id/siv_store"
                 android:layout_width="48.0dip"
                 android:layout_height="32.0dip"
                 android:layout_marginStart="3.0dip"
                 app:simple_drawable="@drawable/editorx_icon_subtitle_tab_store" />
             <View
-                android:id="@id/view_line"
+                android:id="@+id/view_line"
                 android:layout_width="1.0dip"
                 android:layout_height="16.0dip"
                 android:layout_marginStart="16.0dip"
@@ -103,7 +103,7 @@
                     android:layout_weight="1.0"
                     android:visibility="gone">
                     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconView
-                        android:id="@id/siv_keyboard"
+                        android:id="@+id/siv_keyboard"
                         android:layout_width="48.0dip"
                         android:layout_height="32.0dip"
                         android:layout_centerInParent="true"
@@ -117,7 +117,7 @@
                     android:layout_height="32.0dip"
                     android:layout_weight="1.0">
                     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconView
-                        android:id="@id/siv_color"
+                        android:id="@+id/siv_color"
                         android:layout_width="48.0dip"
                         android:layout_height="32.0dip"
                         android:layout_centerInParent="true"
@@ -130,7 +130,7 @@
                     android:layout_height="32.0dip"
                     android:layout_weight="1.0">
                     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconView
-                        android:id="@id/siv_font"
+                        android:id="@+id/siv_font"
                         android:layout_width="48.0dip"
                         android:layout_height="32.0dip"
                         android:layout_centerInParent="true"
@@ -143,7 +143,7 @@
                     android:layout_height="32.0dip"
                     android:layout_weight="1.0">
                     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconView
-                        android:id="@id/siv_animation"
+                        android:id="@+id/siv_animation"
                         android:layout_width="48.0dip"
                         android:layout_height="32.0dip"
                         android:layout_centerInParent="true"
@@ -156,7 +156,7 @@
                     android:layout_height="32.0dip"
                     android:layout_weight="1.0">
                     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconView
-                        android:id="@id/siv_other"
+                        android:id="@+id/siv_other"
                         android:layout_width="48.0dip"
                         android:layout_height="32.0dip"
                         android:layout_centerInParent="true"
@@ -168,27 +168,27 @@
         </LinearLayout>
     </LinearLayout>
     <RelativeLayout
-        android:id="@id/layout_style_board"
+        android:id="@+id/layout_style_board"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true">
         <com.videoai.aivpcore.editorx.board.effect.subtitle.tabview.color.SubtitleColorEditView
-            android:id="@id/color_view"
+            android:id="@+id/color_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone" />
         <com.videoai.aivpcore.editorx.board.effect.subtitle.tabview.font.FontView
-            android:id="@id/font_view"
+            android:id="@+id/font_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone" />
         <com.videoai.aivpcore.editorx.board.effect.subtitle.tabview.animation.AnimationView
-            android:id="@id/animation_view"
+            android:id="@+id/animation_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone" />
         <com.videoai.aivpcore.editorx.board.effect.subtitle.tabview.more.MoreView
-            android:id="@id/more_view"
+            android:id="@+id/more_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone" />

@@ -4,12 +4,12 @@
     android:layout_width="87.0dip"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/item_root_view"
+        android:id="@+id/item_root_view"
         android:layout_width="77.0dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="15.0dip">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/item_cover"
+            android:id="@+id/item_cover"
             android:layout_width="76.0dip"
             android:layout_height="76.0dip"
             android:layout_marginStart="0.5dip"
@@ -19,7 +19,7 @@
             android:src="@color/transparent"
             app:cornerRadius="2.0dip" />
         <ImageView
-            android:id="@id/icon_new"
+            android:id="@+id/icon_new"
             android:layout_width="25.0dip"
             android:layout_height="15.0dip"
             android:layout_alignTop="@id/item_cover"

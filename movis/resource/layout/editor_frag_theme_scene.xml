@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="70.0dip">
     <RelativeLayout
-        android:id="@id/theme_scene_container"
+        android:id="@+id/theme_scene_container"
         android:layout_width="match_parent"
         android:layout_height="26.0dip"
         android:layout_above="@id/layout_2lev_hide"
@@ -11,7 +11,7 @@
         android:gravity="center"
         android:paddingBottom="10.0dip">
         <TextView
-            android:id="@id/theme_scene_tag"
+            android:id="@+id/theme_scene_tag"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
@@ -19,7 +19,7 @@
             android:textColor="@color/color_8E8E93"
             android:textSize="10.0sp" />
         <TextView
-            android:id="@id/theme_scene_name"
+            android:id="@+id/theme_scene_name"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="10.0dip"
@@ -37,7 +37,7 @@
             android:textSize="10.0sp" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/layout_2lev_hide"
+        android:id="@+id/layout_2lev_hide"
         android:layout_width="match_parent"
         android:layout_height="44.0dip"
         android:layout_alignParentBottom="true"

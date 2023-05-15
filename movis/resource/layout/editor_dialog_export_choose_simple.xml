@@ -7,7 +7,7 @@
     android:paddingTop="22.0dip"
     android:paddingBottom="24.0dip">
     <View
-        android:id="@id/viewItem1"
+        android:id="@+id/viewItem1"
         android:layout_width="0.0dip"
         android:layout_height="40.0dip"
         android:layout_marginStart="24.0dip"
@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <TextView
-        android:id="@id/tvItem1"
+        android:id="@+id/tvItem1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8.0dip"
@@ -30,7 +30,7 @@
         app:layout_constraintStart_toStartOf="@id/viewItem1"
         app:layout_constraintTop_toTopOf="@id/viewItem1" />
     <TextView
-        android:id="@id/tvFlag"
+        android:id="@+id/tvFlag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -47,7 +47,7 @@
         app:layout_constraintStart_toEndOf="@id/tvItem1"
         app:layout_constraintTop_toTopOf="@id/viewItem1" />
     <CheckBox
-        android:id="@id/chb1"
+        android:id="@+id/chb1"
         android:layout_width="16.0dip"
         android:layout_height="16.0dip"
         android:button="@drawable/editor_chb_export_choose"
@@ -56,7 +56,7 @@
         app:layout_constraintEnd_toEndOf="@id/viewItem1"
         app:layout_constraintTop_toTopOf="@id/viewItem1" />
     <View
-        android:id="@id/viewItem2"
+        android:id="@+id/viewItem2"
         android:layout_width="0.0dip"
         android:layout_height="40.0dip"
         android:layout_marginStart="24.0dip"
@@ -68,7 +68,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/viewItem1" />
     <TextView
-        android:id="@id/tvItem2"
+        android:id="@+id/tvItem2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8.0dip"
@@ -80,7 +80,7 @@
         app:layout_constraintStart_toStartOf="@id/viewItem2"
         app:layout_constraintTop_toTopOf="@id/viewItem2" />
     <CheckBox
-        android:id="@id/chb2"
+        android:id="@+id/chb2"
         android:layout_width="16.0dip"
         android:layout_height="16.0dip"
         android:button="@drawable/editor_chb_export_choose"
@@ -89,7 +89,7 @@
         app:layout_constraintEnd_toEndOf="@id/viewItem2"
         app:layout_constraintTop_toTopOf="@id/viewItem2" />
     <com.videoai.aivpcore.xyui.RoundedTextView
-        android:id="@id/btnOk"
+        android:id="@+id/btnOk"
         android:layout_width="0.0dip"
         android:layout_height="44.0dip"
         android:layout_marginStart="24.0dip"

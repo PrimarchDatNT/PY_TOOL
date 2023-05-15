@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <RelativeLayout
-        android:id="@id/tt_video_reward_bar"
+        android:id="@+id/tt_video_reward_bar"
         android:layout_width="0.0dip"
         android:layout_height="90.0dip"
         android:layout_gravity="bottom"
@@ -14,7 +14,7 @@
         android:paddingLeft="15.0dip"
         android:visibility="gone">
         <com.bytedance.sdk.openadsdk.core.widget.TTRoundRectImageView
-            android:id="@id/tt_reward_ad_icon"
+            android:id="@+id/tt_reward_ad_icon"
             android:layout_width="69.0dip"
             android:layout_height="69.0dip"
             android:layout_alignParentStart="true"
@@ -31,7 +31,7 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
             <TextView
-                android:id="@id/tt_reward_ad_appname"
+                android:id="@+id/tt_reward_ad_appname"
                 android:layout_width="wrap_content"
                 android:layout_height="27.0dip"
                 android:layout_marginStart="14.0dip"
@@ -50,12 +50,12 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
                 <com.bytedance.sdk.openadsdk.core.widget.TTRatingBar2
-                    android:id="@id/tt_rb_score"
+                    android:id="@+id/tt_rb_score"
                     android:layout_width="wrap_content"
                     android:layout_height="14.0dip"
                     android:layout_gravity="center" />
                 <TextView
-                    android:id="@id/tt_comment_vertical"
+                    android:id="@+id/tt_comment_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10.0dip"
@@ -67,7 +67,7 @@
             </LinearLayout>
         </LinearLayout>
         <TextView
-            android:id="@id/tt_reward_ad_download"
+            android:id="@+id/tt_reward_ad_download"
             android:layout_width="wrap_content"
             android:layout_height="36.0dip"
             android:layout_alignParentEnd="true"
@@ -87,20 +87,20 @@
             android:textSize="17.0sp" />
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/tt_lp_new_style_container"
+        android:id="@+id/tt_lp_new_style_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:visibility="gone" />
     <com.bytedance.sdk.component.widget.SSWebView
-        android:id="@id/tt_reward_browser_webview"
+        android:id="@+id/tt_reward_browser_webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layerType="hardware"
         android:visibility="invisible"
         pangle:tt_delay_init="true" />
     <com.bytedance.sdk.component.widget.SSWebView
-        android:id="@id/tt_browser_webview_loading"
+        android:id="@+id/tt_browser_webview_loading"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone"

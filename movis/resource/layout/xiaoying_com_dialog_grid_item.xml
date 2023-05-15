@@ -7,13 +7,13 @@
         android:layout_height="match_parent"
         android:background="@drawable/xiaoying_com_bg_grid_dialog_icon_selector">
         <ImageView
-            android:id="@id/img_icon"
+            android:id="@+id/img_icon"
             android:layout_width="46.0dip"
             android:layout_height="46.0dip"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="14.0dip" />
         <TextView
-            android:id="@id/txt_name"
+            android:id="@+id/txt_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_icon"

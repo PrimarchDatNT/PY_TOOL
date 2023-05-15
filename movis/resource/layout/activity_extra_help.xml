@@ -21,16 +21,16 @@
                 android:layout_height="50.0dip"
                 android:orientation="horizontal">
                 <EditText
-                    android:id="@id/edittext_snsflag"
+                    android:id="@+id/edittext_snsflag"
                     android:layout_width="100.0dip"
                     android:layout_height="50.0dip" />
                 <Button
-                    android:id="@id/btn_snsflag_apply"
+                    android:id="@+id/btn_snsflag_apply"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Apply Sns Flag" />
                 <Button
-                    android:id="@id/device_deactive"
+                    android:id="@+id/device_deactive"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="设备注销" />
@@ -40,14 +40,14 @@
                 android:layout_height="50.0dip"
                 android:visibility="visible">
                 <EditText
-                    android:id="@id/edittext_appkey"
+                    android:id="@+id/edittext_appkey"
                     android:layout_width="200.0dip"
                     android:layout_height="50.0dip"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
                     android:hint="enter appkey" />
                 <Button
-                    android:id="@id/btn_apply_appkey"
+                    android:id="@+id/btn_apply_appkey"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -59,17 +59,17 @@
                 android:layout_height="50.0dip"
                 android:orientation="horizontal">
                 <Button
-                    android:id="@id/btn_cursp"
+                    android:id="@+id/btn_cursp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Cur Splash Info" />
                 <Button
-                    android:id="@id/btn_getsp"
+                    android:id="@+id/btn_getsp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Get Splash" />
                 <Button
-                    android:id="@id/btn_mediacheck"
+                    android:id="@+id/btn_mediacheck"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Media Check"
@@ -80,14 +80,14 @@
                 android:layout_height="50.0dip"
                 android:visibility="visible">
                 <Button
-                    android:id="@id/btn_apply_abtest_value"
+                    android:id="@+id/btn_apply_abtest_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
                     android:text="Apply ABTest" />
                 <EditText
-                    android:id="@id/editTextABTest"
+                    android:id="@+id/editTextABTest"
                     android:layout_width="200.0dip"
                     android:layout_height="50.0dip"
                     android:layout_alignParentStart="true"
@@ -100,17 +100,17 @@
                 android:gravity="center"
                 android:orientation="horizontal">
                 <Button
-                    android:id="@id/btn_apk_info"
+                    android:id="@+id/btn_apk_info"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="APK INFO" />
                 <Button
-                    android:id="@id/btn_update_quality_param"
+                    android:id="@+id/btn_update_quality_param"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="set视频质量参数" />
                 <Button
-                    android:id="@id/setConfigParam"
+                    android:id="@+id/setConfigParam"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="设置config值" />
@@ -120,18 +120,18 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <Button
-                    android:id="@id/btn_export_key_path"
+                    android:id="@+id/btn_export_key_path"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Export KeyPathFile" />
                 <Button
-                    android:id="@id/btn_monitor_setting"
+                    android:id="@+id/btn_monitor_setting"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Monitor Setting" />
             </LinearLayout>
             <Button
-                android:id="@id/btn_copy_db"
+                android:id="@+id/btn_copy_db"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -141,49 +141,49 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <EditText
-                    android:id="@id/et_set_younger_time"
+                    android:id="@+id/et_set_younger_time"
                     android:layout_width="0.0dip"
                     android:layout_height="wrap_content"
                     android:layout_weight="1.0"
                     android:hint="设置青少年模式时间(单位秒)" />
                 <Button
-                    android:id="@id/btn_set_younger_time"
+                    android:id="@+id/btn_set_younger_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="设置" />
             </LinearLayout>
             <CheckBox
-                android:id="@id/logger_event_to_web"
+                android:id="@+id/logger_event_to_web"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Logger event to web: ip:9988 测试包才有"
                 android:textColor="#ff000000" />
             <TextView
-                android:id="@id/logger_event_to_web_hint"
+                android:id="@+id/logger_event_to_web_hint"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="在浏览器打开: http://手机ip:9988"
                 android:textColor="#ff000000" />
             <CheckBox
-                android:id="@id/ad_log_cb"
+                android:id="@+id/ad_log_cb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="AdLog"
                 android:textColor="#ff000000" />
             <CheckBox
-                android:id="@id/faker_google_channel_cb"
+                android:id="@+id/faker_google_channel_cb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Faker Google Channel"
                 android:textColor="#ff000000" />
             <CheckBox
-                android:id="@id/force_show_logo_watermark_cb"
+                android:id="@+id/force_show_logo_watermark_cb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Force Show Logo WaterMark"
                 android:textColor="#ff000000" />
             <TextView
-                android:id="@id/txtview_appstate"
+                android:id="@+id/txtview_appstate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="appstate" />

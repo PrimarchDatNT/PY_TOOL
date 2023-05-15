@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/black_p54">
     <Button
-        android:id="@id/btn_roll_bubble_download_state"
+        android:id="@+id/btn_roll_bubble_download_state"
         android:layout_width="wrap_content"
         android:layout_height="35.0dip"
         android:layout_alignParentBottom="true"
@@ -23,7 +23,7 @@
         android:textColor="@color/white"
         android:textSize="16.0sp" />
     <ProgressBar
-        android:id="@id/progressbar_bubble_loading"
+        android:id="@+id/progressbar_bubble_loading"
         style="?android:progressBarStyleHorizontal"
         android:layout_width="wrap_content"
         android:layout_height="35.0dip"
@@ -37,7 +37,7 @@
         android:progress="10"
         android:progressDrawable="@drawable/editor_layer_bubble_roll_progressbar_horizontal" />
     <TextView
-        android:id="@id/tv_roll_bubble_download_progress"
+        android:id="@+id/tv_roll_bubble_download_progress"
         android:layout_width="wrap_content"
         android:layout_height="35.0dip"
         android:layout_alignStart="@id/btn_roll_bubble_download_state"

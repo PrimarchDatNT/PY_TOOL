@@ -9,7 +9,7 @@
         android:scaleType="fitXY"
         android:src="@drawable/templatex_banner_shadow" />
     <androidx.cardview.widget.CardView
-        android:id="@id/cv"
+        android:id="@+id/cv"
         android:layout_width="match_parent"
         android:layout_height="115.0dip"
         android:layout_centerHorizontal="true"
@@ -19,7 +19,7 @@
         app:cardCornerRadius="15.0dip"
         app:cardElevation="0.0dip">
         <ImageView
-            android:id="@id/iv"
+            android:id="@+id/iv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop" />

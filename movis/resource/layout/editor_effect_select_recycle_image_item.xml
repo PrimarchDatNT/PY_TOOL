@@ -4,7 +4,7 @@
     android:layout_height="90.0dip"
     android:orientation="horizontal">
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/select_item"
+        android:id="@+id/select_item"
         android:layout_width="70.0dip"
         android:layout_height="70.0dip"
         android:layout_marginStart="25.0dip"

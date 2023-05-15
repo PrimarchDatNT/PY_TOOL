@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/load_more_refresh_layout"
+    android:id="@+id/load_more_refresh_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/white"
     android:orientation="vertical">
     <FrameLayout
-        android:id="@id/template_load_more_loadding_view"
+        android:id="@+id/template_load_more_loadding_view"
         android:layout_width="match_parent"
         android:layout_height="50.0dip"
         android:background="@color/white"
@@ -19,7 +19,7 @@
             android:textColor="@color/color_b3b3b3" />
     </FrameLayout>
     <FrameLayout
-        android:id="@id/template_load_more_load_fail_view"
+        android:id="@+id/template_load_more_load_fail_view"
         android:layout_width="match_parent"
         android:layout_height="50.0dip"
         android:background="@color/white"
@@ -32,7 +32,7 @@
             android:textColor="@color/color_b3b3b3" />
     </FrameLayout>
     <FrameLayout
-        android:id="@id/template_load_more_load_end_view"
+        android:id="@+id/template_load_more_load_end_view"
         android:layout_width="match_parent"
         android:layout_height="50.0dip"
         android:background="@color/white"
@@ -46,7 +46,7 @@
             android:textColor="@color/color_b3b3b3" />
     </FrameLayout>
     <TextView
-        android:id="@id/template_footer_feedback_textview"
+        android:id="@+id/template_footer_feedback_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

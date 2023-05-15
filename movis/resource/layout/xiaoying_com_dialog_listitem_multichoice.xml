@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/md_dialog_frame_margin"
     android:paddingEnd="@dimen/md_dialog_frame_margin">android:paddingRight="@dimen/md_dialog_frame_margin">
     <CheckBox
-        android:id="@id/control"
+        android:id="@+id/control"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="false"
@@ -17,7 +17,7 @@
         android:gravity="center_vertical"
         android:minHeight="@dimen/md_listitem_height" />
     <TextView
-        android:id="@id/title"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"

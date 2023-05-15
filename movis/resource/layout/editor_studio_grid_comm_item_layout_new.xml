@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:autofit="http://schemas.android.com/apk/res-auto"
-    android:id="@id/rl_studio_draft_item"
+    android:id="@+id/rl_studio_draft_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <com.videoai.aivpcore.xyui.RoundCornerImageView
-        android:id="@id/studio_img_project_thumb"
+        android:id="@+id/studio_img_project_thumb"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:scaleType="centerCrop"
         autofit:layout_constraintDimensionRatio="1:1"
         autofit:layout_constraintTop_toTopOf="parrent" />
     <com.videoai.aivpcore.common.ui.widgets.autofittextview.AutofitTextView
-        android:id="@id/studio_item_time_duration"
+        android:id="@+id/studio_item_time_duration"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|center|top"
@@ -32,7 +32,7 @@
         autofit:layout_constraintTop_toTopOf="parrent"
         autofit:minTextSize="8.0sp" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/studio_item_copy"
+        android:id="@+id/studio_item_copy"
         android:layout_width="@dimen/px16"
         android:layout_height="@dimen/px16"
         android:layout_gravity="start|center|top"
@@ -49,7 +49,7 @@
         autofit:layout_constraintDimensionRatio="1:1"
         autofit:layout_constraintTop_toTopOf="parrent" />
     <com.videoai.aivpcore.unit.view.PressImageView
-        android:id="@id/studio_img_operate"
+        android:id="@+id/studio_img_operate"
         android:layout_width="@dimen/px32"
         android:layout_height="@dimen/px32"
         android:layout_alignParentEnd="true"
@@ -61,7 +61,7 @@
         autofit:layout_constraintBottom_toBottomOf="@id/studio_img_project_thumb"
         autofit:layout_constraintEnd_toEndOf="parrent" />
     <FrameLayout
-        android:id="@id/studio_del_select"
+        android:id="@+id/studio_del_select"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:background="@drawable/editor_shape_studio_multi_draft_select"

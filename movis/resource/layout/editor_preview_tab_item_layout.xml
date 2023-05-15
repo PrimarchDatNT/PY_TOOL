@@ -7,14 +7,14 @@
     android:paddingTop="3.0dip"
     android:paddingBottom="3.0dip">
     <ImageView
-        android:id="@id/tab_iv"
+        android:id="@+id/tab_iv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="2.5dip"
         android:src="@drawable/editor_icon_theme_tab_normal"
         android:visibility="gone" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tab_tv"
+        android:id="@+id/tab_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ellipsize="end"

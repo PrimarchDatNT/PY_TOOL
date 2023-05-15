@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/content_layout"
+        android:id="@+id/content_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="10.0dip"
@@ -11,11 +11,11 @@
         android:layout_marginRight="10.0dip"
         android:background="@color/color_eeeeee">
         <ImageView
-            android:id="@id/material_cover"
+            android:id="@+id/material_cover"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
         <ImageButton
-            android:id="@id/btn_add"
+            android:id="@+id/btn_add"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
@@ -26,13 +26,13 @@
             android:background="@null"
             android:src="@drawable/editor_btn_slideshow_material_add" />
         <RelativeLayout
-            android:id="@id/layout_video_info"
+            android:id="@+id/layout_video_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:visibility="gone">
             <TextView
-                android:id="@id/video_duration"
+                android:id="@+id/video_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -55,7 +55,7 @@
         </RelativeLayout>
     </RelativeLayout>
     <ImageButton
-        android:id="@id/btn_delete"
+        android:id="@+id/btn_delete"
         android:layout_width="20.0dip"
         android:layout_height="20.0dip"
         android:layout_alignParentEnd="true"

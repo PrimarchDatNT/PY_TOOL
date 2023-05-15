@@ -3,19 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoai.aivpcore.editor.effects.PlayerFakeView
-        android:id="@id/ve_mosaic_transparent_fake_view"
+        android:id="@+id/ve_mosaic_transparent_fake_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/rl_mosaic_op_view"
         android:orientation="vertical" />
     <RelativeLayout
-        android:id="@id/rl_mosaic_op_view"
+        android:id="@+id/rl_mosaic_op_view"
         android:layout_width="match_parent"
         android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
         android:background="@color/black">
         <com.videoai.aivpcore.editor.effects.VideoEditorSeekLayout
-            android:id="@id/ve_mosaic_seek_layout"
+            android:id="@+id/ve_mosaic_seek_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12.0dip"
@@ -29,7 +29,7 @@
             android:layout_marginBottom="4.0dip"
             android:visibility="visible">
             <TextView
-                android:id="@id/tv_mosaic_op_btn"
+                android:id="@+id/tv_mosaic_op_btn"
                 android:layout_width="113.0dip"
                 android:layout_height="35.0dip"
                 android:layout_centerInParent="true"
@@ -40,20 +40,20 @@
                 android:textSize="16.0sp" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/mosaic_first_panel"
+            android:id="@+id/mosaic_first_panel"
             android:layout_width="match_parent"
             android:layout_height="158.0dip"
             android:layout_above="@id/terminator"
             android:background="@color/black"
             android:visibility="visible">
             <RelativeLayout
-                android:id="@id/mosaic_button_layout"
+                android:id="@+id/mosaic_button_layout"
                 android:layout_width="match_parent"
                 android:layout_height="42.0dip"
                 android:layout_marginTop="32.0dip"
                 android:gravity="center_vertical">
                 <LinearLayout
-                    android:id="@id/gaussian_blur_layout"
+                    android:id="@+id/gaussian_blur_layout"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="15.0dip"
@@ -66,12 +66,12 @@
                     android:paddingEnd="30.0dip"
                     android:paddingRight="30.0dip">
                     <ImageView
-                        android:id="@id/gaussian_image"
+                        android:id="@+id/gaussian_image"
                         android:layout_width="20.0dip"
                         android:layout_height="20.0dip"
                         android:src="@drawable/editor_btn_effect_mosaic_gaussian" />
                     <TextView
-                        android:id="@id/gaussian_text"
+                        android:id="@+id/gaussian_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10.0dip"
@@ -81,7 +81,7 @@
                         android:textSize="14.0sp" />
                 </LinearLayout>
                 <LinearLayout
-                    android:id="@id/pixel_layout"
+                    android:id="@+id/pixel_layout"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
@@ -96,12 +96,12 @@
                     android:paddingEnd="30.0dip"
                     android:paddingRight="30.0dip">
                     <ImageView
-                        android:id="@id/pixel_image"
+                        android:id="@+id/pixel_image"
                         android:layout_width="20.0dip"
                         android:layout_height="20.0dip"
                         android:src="@drawable/editor_btn_effect_mosaic_pixel" />
                     <TextView
-                        android:id="@id/pixel_text"
+                        android:id="@+id/pixel_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10.0dip"
@@ -127,7 +127,7 @@
                     android:textColor="@color/white"
                     android:textSize="14.0sp" />
                 <SeekBar
-                    android:id="@id/mosaic_degree"
+                    android:id="@+id/mosaic_degree"
                     android:layout_width="0.0dip"
                     android:layout_height="20.0dip"
                     android:layout_marginStart="15.0dip"
@@ -148,7 +148,7 @@
             </LinearLayout>
         </RelativeLayout>
         <com.videoai.aivpcore.editor.widget.terminator.Terminator
-            android:id="@id/terminator"
+            android:id="@+id/terminator"
             android:layout_width="match_parent"
             android:layout_height="@dimen/video_editor_terminator_height"
             android:layout_alignParentBottom="true" />

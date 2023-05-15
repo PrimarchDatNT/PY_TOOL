@@ -4,20 +4,20 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/tt_hand_container"
+        android:id="@+id/tt_hand_container"
         android:layout_width="80.0dip"
         android:layout_height="80.0dip"
         android:layout_gravity="center"
         android:gravity="center"
         android:orientation="vertical">
         <ImageView
-            android:id="@id/tt_splash_rock_img"
+            android:id="@+id/tt_splash_rock_img"
             android:layout_width="60.0dip"
             android:layout_height="60.0dip"
             android:src="@drawable/tt_splash_rock" />
     </LinearLayout>
     <TextView
-        android:id="@id/tt_splash_rock_top_text"
+        android:id="@+id/tt_splash_rock_top_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -31,7 +31,7 @@
         android:textColor="@android:color/white"
         android:textSize="18.0dip" />
     <TextView
-        android:id="@id/tt_splash_rock_text"
+        android:id="@+id/tt_splash_rock_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

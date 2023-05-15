@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageView
-        android:id="@id/xiaoying_cam_img_pip_add"
+        android:id="@+id/xiaoying_cam_img_pip_add"
         android:layout_width="37.0dip"
         android:layout_height="37.0dip"
         android:src="@drawable/xiaoying_com_btn_pip_add_clip_selector" />

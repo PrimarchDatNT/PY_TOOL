@@ -12,7 +12,7 @@
         android:layout_marginRight="10.0dip"
         android:clipToPadding="false">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/item_cover"
+            android:id="@+id/item_cover"
             android:layout_width="71.0dip"
             android:layout_height="71.0dip"
             android:layout_marginStart="0.5dip"
@@ -23,7 +23,7 @@
             fresco:placeholderImage="@color/color_141414"
             fresco:roundedCornerRadius="2.0dip" />
         <ImageView
-            android:id="@id/icon_new"
+            android:id="@+id/icon_new"
             android:layout_width="25.0dip"
             android:layout_height="15.0dip"
             android:layout_alignTop="@id/item_cover"
@@ -35,13 +35,13 @@
             android:src="@drawable/xiaoying_cam_icon_filter_new"
             android:visibility="gone" />
         <ImageView
-            android:id="@id/bg_selected"
+            android:id="@+id/bg_selected"
             android:layout_width="72.0dip"
             android:layout_height="72.0dip"
             android:src="@drawable/editor_shape_stroke_ff5e13_selected"
             android:visibility="gone" />
         <ImageView
-            android:id="@id/icon_lock"
+            android:id="@+id/icon_lock"
             android:layout_width="15.0dip"
             android:layout_height="15.0dip"
             android:layout_alignEnd="@id/item_cover"
@@ -53,7 +53,7 @@
             android:src="@drawable/editor_effect_download_tiny_icon"
             android:visibility="gone" />
         <LinearLayout
-            android:id="@id/ll_progress"
+            android:id="@+id/ll_progress"
             android:layout_width="72.0dip"
             android:layout_height="72.0dip"
             android:background="@drawable/xiaoying_cam_bg_filter_download"
@@ -61,11 +61,11 @@
             android:orientation="vertical"
             android:visibility="gone">
             <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-                android:id="@id/bg_download_progress"
+                android:id="@+id/bg_download_progress"
                 android:layout_width="20.0dip"
                 android:layout_height="20.0dip" />
             <TextView
-                android:id="@id/text_download_progress"
+                android:id="@+id/text_download_progress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8.0dip"
@@ -74,7 +74,7 @@
                 android:textSize="12.0sp" />
         </LinearLayout>
         <TextView
-            android:id="@id/item_name"
+            android:id="@+id/item_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/item_cover"
@@ -83,7 +83,7 @@
             android:textColor="#80ffffff"
             android:textSize="12.0sp" />
         <ImageView
-            android:id="@id/iv_vip_func"
+            android:id="@+id/iv_vip_func"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:layout_alignParentRight="true"

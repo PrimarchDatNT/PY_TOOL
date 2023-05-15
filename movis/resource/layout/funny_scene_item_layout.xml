@@ -3,16 +3,16 @@
     android:layout_width="60.0dip"
     android:layout_height="60.0dip">
     <ImageView
-        android:id="@id/scene_thumb"
+        android:id="@+id/scene_thumb"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
     <View
-        android:id="@id/scene_focus_bg"
+        android:id="@+id/scene_focus_bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/editor_shape_funny_scene_item_focus" />
     <TextView
-        android:id="@id/scene_item_order"
+        android:id="@+id/scene_item_order"
         android:layout_width="15.0dip"
         android:layout_height="15.0dip"
         android:layout_marginStart="5.0dip"

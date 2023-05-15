@@ -5,17 +5,17 @@
     android:gravity="center"
     android:orientation="vertical">
     <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout
-        android:id="@id/normal_content_layout"
+        android:id="@+id/normal_content_layout"
         android:layout_width="@dimen/px68"
         android:layout_height="@dimen/px80">
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@id/item_cover"
+            android:id="@+id/item_cover"
             android:layout_width="@dimen/px68"
             android:layout_height="@dimen/px60"
             android:scaleType="centerCrop"
             android:src="@drawable/editorx_template_default_cover" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/item_title"
+            android:id="@+id/item_title"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px20"
             android:layout_alignParentBottom="true"
@@ -24,7 +24,7 @@
             android:textColor="@color/text_selector_tab"
             android:textSize="@dimen/sp10" />
         <View
-            android:id="@id/viewBorder"
+            android:id="@+id/viewBorder"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/slt_item_templatex_border" />

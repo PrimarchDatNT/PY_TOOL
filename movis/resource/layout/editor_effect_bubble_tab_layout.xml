@@ -3,21 +3,21 @@
     android:layout_width="match_parent"
     android:layout_height="40.0dip">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rv_bubble_tab"
+        android:id="@+id/rv_bubble_tab"
         android:layout_width="match_parent"
         android:layout_height="40.0dip"
         android:layout_toStartOf="@id/rl_layout_giphy"
         android:layout_toLeftOf="@id/rl_layout_giphy"
         android:background="@color/color_141414" />
     <RelativeLayout
-        android:id="@id/rl_layout_giphy"
+        android:id="@+id/rl_layout_giphy"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignWithParentIfMissing="true"
         android:layout_toStartOf="@id/rl_layout_downloaded"
         android:layout_toLeftOf="@id/rl_layout_downloaded">
         <TextView
-            android:id="@id/ib_giphy_download"
+            android:id="@+id/ib_giphy_download"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
@@ -28,21 +28,21 @@
             android:textSize="16.0sp" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/rl_layout_downloaded"
+        android:id="@+id/rl_layout_downloaded"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:clickable="true">
         <ImageView
-            android:id="@id/ib_download"
+            android:id="@+id/ib_download"
             android:layout_width="40.0dip"
             android:layout_height="40.0dip"
             android:layout_centerInParent="true"
             android:clickable="false"
             android:src="@drawable/editor_icon_effect_sticker_download" />
         <ImageView
-            android:id="@id/iv_new_flag"
+            android:id="@+id/iv_new_flag"
             android:layout_width="14.0dip"
             android:layout_height="14.0dip"
             android:layout_alignTop="@id/ib_download"

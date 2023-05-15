@@ -13,7 +13,7 @@
         android:textColor="#ff333333"
         android:textSize="18.0sp" />
     <TextView
-        android:id="@id/text_error_content"
+        android:id="@+id/text_error_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16.0dip"
@@ -34,7 +34,7 @@
         android:orientation="horizontal"
         android:showDividers="middle">
         <TextView
-            android:id="@id/text_cancel"
+            android:id="@+id/text_cancel"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
@@ -45,7 +45,7 @@
             android:textColor="#ff999999"
             android:textSize="18.0sp" />
         <TextView
-            android:id="@id/text_reselect"
+            android:id="@+id/text_reselect"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1.0"

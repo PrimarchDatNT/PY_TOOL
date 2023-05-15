@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/folder_item_layout_root"
+    android:id="@+id/folder_item_layout_root"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/btn_dcolor_ripple"
@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/px12"
     android:paddingBottom="@dimen/px12">
     <com.videoedit.gallery.widget.RoundImageView
-        android:id="@id/folder_item_cover_img"
+        android:id="@+id/folder_item_cover_img"
         android:layout_width="@dimen/px52"
         android:layout_height="@dimen/px52"
         android:layout_gravity="center_vertical"
@@ -26,7 +26,7 @@
         android:layout_weight="1.0"
         android:orientation="vertical">
         <TextView
-            android:id="@id/folder_item_name"
+            android:id="@+id/folder_item_name"
             style="@style/veds_latn_font_subtitle_16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
             android:singleLine="true"
             android:textColor="@color/white" />
         <TextView
-            android:id="@id/folder_item_number"
+            android:id="@+id/folder_item_number"
             style="@style/veds_latn_font_caption_12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
             android:textColor="@color/white_p90" />
     </LinearLayout>
     <ImageView
-        android:id="@id/folder_item_checkbox"
+        android:id="@+id/folder_item_checkbox"
         android:layout_width="20.0dip"
         android:layout_height="20.0dip"
         android:layout_gravity="center_vertical"

@@ -5,11 +5,11 @@
     android:layout_height="match_parent"
     android:background="@color/app_dcolor_background">
     <FrameLayout
-        android:id="@id/rl_studio_toolbar"
+        android:id="@+id/rl_studio_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?a4">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_studio_back"
+            android:id="@+id/iv_studio_back"
             android:layout_width="?a4"
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
@@ -26,7 +26,7 @@
             android:textSize="@dimen/sp16"
             android:textStyle="bold" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_studio_delete_video"
+            android:id="@+id/iv_studio_delete_video"
             android:layout_width="?a4"
             android:layout_height="?a4"
             android:layout_gravity="end"
@@ -37,7 +37,7 @@
             android:visibility="gone" />
     </FrameLayout>
     <com.google.android.material.tabs.TabLayout
-        android:id="@id/tab_studio"
+        android:id="@+id/tab_studio"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px48"
         android:layout_below="@id/rl_studio_toolbar"
@@ -49,19 +49,19 @@
         app:tabTextAppearance="@style/TabTextAppperance"
         app:tabTextColor="@color/text_selector_tab" />
     <View
-        android:id="@id/hr_ss"
+        android:id="@+id/hr_ss"
         android:layout_width="match_parent"
         android:layout_height="1.0dip"
         android:layout_below="@id/rl_studio_toolbar" />
     <androidx.viewpager.widget.ViewPager
-        android:id="@id/vp_studio"
+        android:id="@+id/vp_studio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/ad_view"
         android:layout_below="@id/tab_studio"
         android:layout_centerHorizontal="true" />
     <com.videoapp.videomakermaster.ads.StudioBannerAdview
-        android:id="@id/ad_view"
+        android:id="@+id/ad_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

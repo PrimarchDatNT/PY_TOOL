@@ -4,7 +4,7 @@
     android:layout_height="?a4"
     android:background="@drawable/editorx_shape_preview_title_bg">
     <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@id/editor_back_btn"
+        android:id="@+id/editor_back_btn"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:layout_centerVertical="true"
@@ -12,7 +12,7 @@
         android:scaleType="centerInside"
         android:src="@drawable/ic_close" />
     <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@id/ib_second_back"
+        android:id="@+id/ib_second_back"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:layout_centerVertical="true"
@@ -22,13 +22,13 @@
         android:src="@drawable/editorx_main_second_back"
         android:visibility="gone" />
     <View
-        android:id="@id/v_line"
+        android:id="@+id/v_line"
         android:layout_width="@dimen/px1"
         android:layout_height="@dimen/px12"
         android:layout_centerVertical="true"
         android:layout_toEndOf="@id/editor_back_btn" />
     <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@id/editor_undo_btn"
+        android:id="@+id/editor_undo_btn"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:layout_centerVertical="true"
@@ -39,7 +39,7 @@
         android:src="@drawable/editorx_perform_undo_icon"
         android:visibility="gone" />
     <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@id/editor_redo_btn"
+        android:id="@+id/editor_redo_btn"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:layout_centerVertical="true"
@@ -48,12 +48,12 @@
         android:src="@drawable/editorx_perform_redo_icon"
         android:visibility="gone" />
     <ImageView
-        android:id="@id/iv_editor_lesson"
+        android:id="@+id/iv_editor_lesson"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:visibility="gone" />
     <LinearLayout
-        android:id="@id/llDraftSave"
+        android:id="@+id/llDraftSave"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
@@ -61,7 +61,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/editor_draft"
+            android:id="@+id/editor_draft"
             style="@style/TextSingleLine"
             android:layout_width="@dimen/px72"
             android:layout_height="@dimen/px32"
@@ -73,7 +73,7 @@
             android:textColor="@color/colorPrimary"
             android:textSize="@dimen/sp14" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/editor_publish"
+            android:id="@+id/editor_publish"
             style="@style/TextSingleLine"
             android:layout_width="@dimen/px72"
             android:layout_height="@dimen/px32"

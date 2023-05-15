@@ -8,14 +8,14 @@
     android:paddingLeft="10.0dip"
     android:paddingRight="10.0dip">
     <ImageView
-        android:id="@id/music_child_tab_icon"
+        android:id="@+id/music_child_tab_icon"
         android:layout_width="16.0dip"
         android:layout_height="16.0dip"
         android:layout_marginEnd="4.5dip"
         android:layout_marginRight="4.5dip"
         android:visibility="gone" />
     <TextView
-        android:id="@id/music_child_tab_title"
+        android:id="@+id/music_child_tab_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@drawable/explorer_selector_music_child_tab_title"

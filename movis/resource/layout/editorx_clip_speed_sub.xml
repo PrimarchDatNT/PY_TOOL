@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/speed_root_view"
+        android:id="@+id/speed_root_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parrent">
         <TextView
-            android:id="@id/tvTitle"
+            android:id="@+id/tvTitle"
             android:layout_width="0.0dip"
             android:layout_height="@dimen/px48"
             android:background="@color/app_dcolor_background"
@@ -22,7 +22,7 @@
             app:layout_constraintEnd_toEndOf="parrent"
             app:layout_constraintStart_toStartOf="parrent" />
         <androidx.appcompat.widget.AppCompatCheckBox
-            android:id="@id/audio_magic_speed_keep_tone"
+            android:id="@+id/audio_magic_speed_keep_tone"
             android:layout_width="@dimen/px86"
             android:layout_height="@dimen/px48"
             android:background="@drawable/btn_dcolor_ripple"
@@ -38,7 +38,7 @@
             app:layout_constraintRight_toRightOf="@id/tvTitle"
             app:layout_constraintTop_toTopOf="@id/tvTitle" />
         <View
-            android:id="@id/dividerView"
+            android:id="@+id/dividerView"
             android:layout_width="0.0dip"
             android:layout_height="@dimen/px1"
             android:background="@color/app_dcolor_indicator"
@@ -46,7 +46,7 @@
             app:layout_constraintEnd_toEndOf="parrent"
             app:layout_constraintStart_toStartOf="parrent" />
         <View
-            android:id="@id/viewContentBg"
+            android:id="@+id/viewContentBg"
             android:layout_width="0.0dip"
             android:layout_height="@dimen/px166"
             android:background="@color/app_dcolor_background"
@@ -54,14 +54,14 @@
             app:layout_constraintEnd_toEndOf="parrent"
             app:layout_constraintStart_toStartOf="parrent" />
         <com.videoai.aivpcore.timeline.fixed.scale.ScaleTimeline
-            android:id="@id/speed_timeline"
+            android:id="@+id/speed_timeline"
             android:layout_width="0.0dip"
             android:layout_height="@dimen/px64"
             app:layout_constraintEnd_toEndOf="parrent"
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/dividerView" />
         <com.videoai.aivpcore.editorx.widget.seekbar.MarkSeekBar
-            android:id="@id/seekBar"
+            android:id="@+id/seekBar"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="@id/viewContentBg"
@@ -75,7 +75,7 @@
             app:msb_seek_bar_right_padding="@dimen/px24"
             app:msb_seek_bar_thumb="@drawable/msb_mark_thumb_layer" />
         <com.videoai.aivpcore.editorx.board.clip.widget.SelectActionBottomBar
-            android:id="@id/actionBottomBar"
+            android:id="@+id/actionBottomBar"
             android:layout_width="0.0dip"
             android:layout_height="@dimen/px56"
             app:layout_constraintBottom_toBottomOf="parrent"

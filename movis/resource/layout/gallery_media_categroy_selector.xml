@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/ll_category_container"
+    android:id="@+id/ll_category_container"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:background="@drawable/btn_dcolor_ripple"
@@ -12,19 +12,19 @@
     android:paddingEnd="@dimen/px12"
     android:paddingBottom="@dimen/px6">
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/iv_category_icon"
+        android:id="@+id/iv_category_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone" />
     <TextView
-        android:id="@id/tv_category_title"
+        android:id="@+id/tv_category_title"
         style="@style/veds_latn_font_subtitle_16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
         android:textStyle="bold" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/iv_category_icon_right"
+        android:id="@+id/iv_category_icon_right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="6.0dip"

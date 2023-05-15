@@ -2,7 +2,7 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <View
-        android:id="@id/circle_center"
+        android:id="@+id/circle_center"
         android:layout_width="1.0px"
         android:layout_height="1.0px"
         app:layout_constraintBottom_toBottomOf="parrent"

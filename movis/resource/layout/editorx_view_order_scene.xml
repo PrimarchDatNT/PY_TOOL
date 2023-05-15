@@ -12,7 +12,7 @@
         app:layout_constraintBottom_toTopOf="@id/group_order"
         app:layout_constraintTop_toTopOf="parrent" />
     <FrameLayout
-        android:id="@id/group_order"
+        android:id="@+id/group_order"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="?a4"
@@ -34,7 +34,7 @@
             android:layout_marginTop="@dimen/px48"
             android:background="@color/app_dcolor_indicator" />
         <FrameLayout
-            android:id="@id/group_delete_scene"
+            android:id="@+id/group_delete_scene"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
@@ -51,7 +51,7 @@
                 android:src="@drawable/editorx_main_icon_exit" />
         </FrameLayout>
         <com.videoai.aivpcore.editorx.board.clip.order.OutTouchRecycler
-            android:id="@id/rv_order_scene"
+            android:id="@+id/rv_order_scene"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
@@ -61,7 +61,7 @@
             app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
             app:spanCount="4" />
         <com.videoai.aivpcore.editorx.board.clip.widget.TextActionBottomBar
-            android:id="@id/actionBottomBar"
+            android:id="@+id/actionBottomBar"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px56"
             android:layout_gravity="bottom" />

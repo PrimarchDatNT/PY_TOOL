@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/indicator_layout"
+        android:id="@+id/indicator_layout"
         android:layout_width="match_parent"
         android:layout_height="64.0dip"
         android:layout_above="@id/content"
@@ -13,7 +13,7 @@
         android:layout_marginBottom="10.0dip"
         android:visibility="gone">
         <TextView
-            android:id="@id/filter_alpha_title"
+            android:id="@+id/filter_alpha_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -27,7 +27,7 @@
             android:textColor="@color/white_p50"
             android:textSize="14.0sp" />
         <com.videoai.aivpcore.editor.widget.seekbar.IndicatorSeekBar
-            android:id="@id/indicatorSeekBar"
+            android:id="@+id/indicatorSeekBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -45,13 +45,13 @@
             app:isb_track_progress_color="@android:color/white" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/content"
+        android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="208.0dip"
         android:layout_alignParentBottom="true"
         android:background="@android:color/black">
         <include
-            android:id="@id/apply_all_layout"
+            android:id="@+id/apply_all_layout"
             layout="@layout/editor_clip_apply_all_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,14 +59,14 @@
             android:layout_marginLeft="10.0dip"
             android:layout_marginTop="10.0dip" />
         <com.videoai.aivpcore.editor.clipedit.filter.AdvanceFilterPanel
-            android:id="@id/advance_filter_panel"
+            android:id="@+id/advance_filter_panel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginTop="25.0dip"
             android:layout_marginBottom="48.0dip" />
         <com.videoai.aivpcore.editor.widget.terminator.Terminator
-            android:id="@id/terminator"
+            android:id="@+id/terminator"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <Button
-        android:id="@id/dialog_button"
+        android:id="@+id/dialog_button"
         android:layout_width="100.0px"
         android:layout_height="wrap_content"
         android:layout_marginTop="5.0dip"

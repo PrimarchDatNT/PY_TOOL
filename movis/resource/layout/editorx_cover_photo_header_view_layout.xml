@@ -4,7 +4,7 @@
     android:layout_height="@dimen/px48"
     android:background="@color/app_dcolor_background">
     <TextView
-        android:id="@id/tv_header_title"
+        android:id="@+id/tv_header_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"

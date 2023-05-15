@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/relativelayout_music_panel"
+    android:id="@+id/relativelayout_music_panel"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/app_dcolor_background">
     <RelativeLayout
-        android:id="@id/layout_pick_cover_preview_layout"
+        android:id="@+id/layout_pick_cover_preview_layout"
         android:layout_width="match_parent"
         android:layout_height="320.0dip"
         android:layout_below="@id/layout_top_bars">
         <RelativeLayout
-            android:id="@id/layout_preview_background"
+            android:id="@+id/layout_preview_background"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <RelativeLayout
-                android:id="@id/preview_layout"
+                android:id="@+id/preview_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerInParent="true"
                 android:background="@color/transparent">
                 <SurfaceView
-                    android:id="@id/previewview"
+                    android:id="@+id/previewview"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
                 <Button
-                    android:id="@id/btn_vip"
+                    android:id="@+id/btn_vip"
                     style="?android:borderlessButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="30.0dip"
@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true" />
             <RelativeLayout
-                android:id="@id/txtview_gif_size"
+                android:id="@+id/txtview_gif_size"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignTop="@id/preview_layout"
@@ -73,7 +73,7 @@
                     app:drawableEndCompat="@drawable/xiaoying_gif_more_choose_icon" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/txtview_gif_fps"
+                android:id="@+id/txtview_gif_fps"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignTop="@id/preview_layout"
@@ -94,7 +94,7 @@
         </RelativeLayout>
     </RelativeLayout>
     <include
-        android:id="@id/layout_top_bars"
+        android:id="@+id/layout_top_bars"
         layout="@layout/advance_editor_title_bar" />
     <RelativeLayout
         android:layout_width="match_parent"
@@ -103,7 +103,7 @@
         android:layout_below="@id/layout_pick_cover_preview_layout"
         android:background="@color/transparent">
         <RelativeLayout
-            android:id="@id/relativelayout_trimgallery_content_area"
+            android:id="@+id/relativelayout_trimgallery_content_area"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -112,7 +112,7 @@
         </RelativeLayout>
     </RelativeLayout>
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@id/share_btn_share"
+        android:id="@+id/share_btn_share"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px42"
         android:layout_alignParentBottom="true"

@@ -17,7 +17,7 @@
             android:layout_marginTop="85.0dip"
             android:background="@drawable/v4_xiaoying_new_feature_top_bg_shape">
             <TextView
-                android:id="@id/new_feature_version"
+                android:id="@+id/new_feature_version"
                 android:layout_width="match_parent"
                 android:layout_height="106.0dip"
                 android:gravity="bottom|center"
@@ -37,14 +37,14 @@
                 android:paddingEnd="20.0dip"
                 android:paddingRight="20.0dip">
                 <TextView
-                    android:id="@id/new_feature_text"
+                    android:id="@+id/new_feature_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:lineSpacingExtra="8.0dip"
                     android:textColor="@color/color_919191"
                     android:textSize="13.0dip" />
                 <TextView
-                    android:id="@id/btn_confirm"
+                    android:id="@+id/btn_confirm"
                     android:layout_width="wrap_content"
                     android:layout_height="35.0dip"
                     android:layout_gravity="end"
@@ -59,7 +59,7 @@
             </LinearLayout>
         </RelativeLayout>
         <ImageView
-            android:id="@id/imgview_icon"
+            android:id="@+id/imgview_icon"
             android:layout_width="115.0dip"
             android:layout_height="139.0dip"
             android:layout_centerHorizontal="true"

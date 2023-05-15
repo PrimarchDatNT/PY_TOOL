@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <com.bytedance.sdk.openadsdk.core.widget.ShadowImageView
-        android:id="@id/tt_top_mute"
+        android:id="@+id/tt_top_mute"
         android:layout_width="28.0dip"
         android:layout_height="28.0dip"
         android:layout_marginStart="12.0dip"
@@ -17,7 +17,7 @@
         android:layout_height="0.0dip"
         android:layout_weight="1.0" />
     <com.bytedance.sdk.openadsdk.core.widget.ShadowTextView
-        android:id="@id/tt_top_dislike"
+        android:id="@+id/tt_top_dislike"
         android:layout_width="wrap_content"
         android:layout_height="28.0dip"
         android:layout_marginLeft="16.0dip"
@@ -28,7 +28,7 @@
         android:textColor="@color/tt_white"
         android:textSize="14.0sp" />
     <TextView
-        android:id="@id/tt_top_countdown"
+        android:id="@+id/tt_top_countdown"
         android:layout_width="wrap_content"
         android:layout_height="28.0dip"
         android:layout_marginTop="20.0dip"

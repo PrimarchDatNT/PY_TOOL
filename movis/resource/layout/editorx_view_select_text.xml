@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/text_view"
+        android:id="@+id/text_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/editorx_selector_select_text_view"
@@ -11,12 +11,12 @@
         android:textColor="@color/white"
         android:textSize="@dimen/sp12" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/image_view"
+        android:id="@+id/image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/px6" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/equity_img"
+        android:id="@+id/equity_img"
         android:layout_width="26.0dip"
         android:layout_height="12.0dip"
         android:layout_gravity="center|right|top"

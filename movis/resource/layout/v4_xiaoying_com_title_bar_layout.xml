@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="48.0dip">
     <ImageView
-        android:id="@id/xiaoying_com_btn_left"
+        android:id="@+id/xiaoying_com_btn_left"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
@@ -14,7 +14,7 @@
         android:scaleType="centerInside"
         android:src="@drawable/v4_xiaoying_cam_btn_cam_cancel_selector" />
     <ImageView
-        android:id="@id/xiaoying_com_btn_right"
+        android:id="@+id/xiaoying_com_btn_right"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
@@ -25,7 +25,7 @@
         android:scaleType="centerInside"
         android:src="@drawable/v4_xiaoying_com_btn_next_selector" />
     <LinearLayout
-        android:id="@id/xiaoying_com_layout_title"
+        android:id="@+id/xiaoying_com_layout_title"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_centerVertical="true"
@@ -36,7 +36,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <TextView
-            android:id="@id/xiaoying_com_textview_title"
+            android:id="@+id/xiaoying_com_textview_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start|center"
@@ -46,13 +46,13 @@
             android:textSize="18.0sp"
             android:textStyle="bold" />
         <ImageView
-            android:id="@id/xiaoying_com_img_title"
+            android:id="@+id/xiaoying_com_img_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5.0dip"
             android:layout_marginLeft="5.0dip" />
         <TextView
-            android:id="@id/xiaoying_com_textview_sub_title"
+            android:id="@+id/xiaoying_com_textview_sub_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start|center"

@@ -10,7 +10,7 @@
         android:background="@drawable/app_shape_setting_permission_bg"
         app:layout_constraintBottom_toBottomOf="parrent" />
     <LinearLayout
-        android:id="@id/layoutContent"
+        android:id="@+id/layoutContent"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15.0dip"
@@ -36,7 +36,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toTopOf="@id/layoutContent" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/rating_dialog_title"
+            android:id="@+id/rating_dialog_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50.0dip"
@@ -47,7 +47,7 @@
             android:textSize="16.0sp"
             android:textStyle="bold" />
         <com.videoai.aivpcore.common.ui.custom.RatingBarView
-            android:id="@id/ratingbarview"
+            android:id="@+id/ratingbarview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -57,7 +57,7 @@
             app:starRating="5.0"
             app:stepSize="1.0" />
         <TextView
-            android:id="@id/rating_dialog_positive"
+            android:id="@+id/rating_dialog_positive"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="24.0dip"
@@ -73,7 +73,7 @@
             android:textStyle="bold" />
     </LinearLayout>
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/btnCancel"
+        android:id="@+id/btnCancel"
         android:layout_width="28.0dip"
         android:layout_height="28.0dip"
         android:layout_marginStart="8.0dip"

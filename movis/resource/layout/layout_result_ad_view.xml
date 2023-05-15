@@ -11,7 +11,7 @@
         app:cardCornerRadius="5.0dip"
         app:cardElevation="5.0dip">
         <com.google.android.gms.ads.nativead.NativeAdView
-            android:id="@id/native_ad_view"
+            android:id="@+id/native_ad_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5.0dip">
@@ -20,11 +20,11 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@id/layout_media_view"
+                    android:id="@+id/layout_media_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <com.google.android.gms.ads.nativead.MediaView
-                        android:id="@id/ad_media"
+                        android:id="@+id/ad_media"
                         android:layout_width="0.0dip"
                         android:layout_height="0.0dip"
                         android:background="#ffe0e0e0"
@@ -39,21 +39,21 @@
                         app:layout_constraintTop_toTopOf="parrent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
                 <LinearLayout
-                    android:id="@id/ad_des_layout"
+                    android:id="@+id/ad_des_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6.0dip"
                     android:gravity="center"
                     android:orientation="horizontal">
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:id="@id/ad_app_icon"
+                        android:id="@+id/ad_app_icon"
                         android:layout_width="45.0dip"
                         android:layout_height="45.0dip"
                         android:layout_centerVertical="true"
                         android:layout_gravity="center_vertical"
                         android:background="#ffe0e0e0" />
                     <androidx.appcompat.widget.AppCompatTextView
-                        android:id="@id/ad_headline"
+                        android:id="@+id/ad_headline"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="5.0dip"
@@ -65,7 +65,7 @@
                         android:textColor="#de000000"
                         android:textSize="16.0sp" />
                     <androidx.appcompat.widget.AppCompatTextView
-                        android:id="@id/ad_call_to_action"
+                        android:id="@+id/ad_call_to_action"
                         android:layout_width="110.0dip"
                         android:layout_height="35.0dip"
                         android:background="@drawable/ad_cta_button"
@@ -80,7 +80,7 @@
                         app:autoSizeMinTextSize="10.0sp" />
                 </LinearLayout>
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/ad_body"
+                    android:id="@+id/ad_body"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/px6"

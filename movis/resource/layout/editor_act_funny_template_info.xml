@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/layout_title"
+        android:id="@+id/layout_title"
         android:layout_width="match_parent"
         android:layout_height="@dimen/v4_xiaoying_com_top_panel_height"
         android:background="@color/white">
         <ImageView
-            android:id="@id/img_back"
+            android:id="@+id/img_back"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentStart="true"
@@ -20,7 +20,7 @@
             android:scaleType="centerInside"
             android:src="@drawable/app_default_back_black" />
         <TextView
-            android:id="@id/title"
+            android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -31,7 +31,7 @@
             android:textStyle="bold" />
     </RelativeLayout>
     <com.google.android.material.tabs.TabLayout
-        android:id="@id/funny_tablayout"
+        android:id="@+id/funny_tablayout"
         android:layout_width="wrap_content"
         android:layout_height="36.0dip"
         android:layout_below="@id/layout_title"
@@ -48,7 +48,7 @@
         app:tabSelectedTextColor="@android:color/black"
         app:tabTextColor="#ffa0a0aa" />
     <com.videoai.aivpcore.common.ui.XYViewPager
-        android:id="@id/funny_viewpager"
+        android:id="@+id/funny_viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/funny_tablayout" />

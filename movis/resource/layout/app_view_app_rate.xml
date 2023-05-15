@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvTitle"
+        android:id="@+id/tvTitle"
         android:layout_width="0.0dip"
         android:layout_height="18.0dip"
         android:layout_marginStart="15.0dip"
@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parrent"
         app:layout_constraintVertical_chainStyle="apo" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvHint"
+        android:id="@+id/tvHint"
         android:layout_width="0.0dip"
         android:layout_height="16.0dip"
         android:layout_marginLeft="20.0dip"
@@ -44,7 +44,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/tvTitle" />
     <com.videoai.aivpcore.common.ui.custom.RatingBarView
-        android:id="@id/ratingBar"
+        android:id="@+id/ratingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -58,7 +58,7 @@
         app:starRating="0.0"
         app:stepSize="1.0" />
     <com.videoai.aivpcore.xyui.RoundedTextView
-        android:id="@id/btnSubmit"
+        android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
         android:layout_height="32.0dip"
         android:layout_marginTop="30.0dip"
@@ -78,7 +78,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toBottomOf="@id/ratingBar" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvFeedback"
+        android:id="@+id/tvFeedback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14.0dip"

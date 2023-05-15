@@ -5,11 +5,11 @@
     android:gravity="center"
     android:orientation="vertical">
     <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout
-        android:id="@id/content_layout"
+        android:id="@+id/content_layout"
         android:layout_width="@dimen/px68"
         android:layout_height="@dimen/px80">
         <View
-            android:id="@id/background_view"
+            android:id="@+id/background_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/colorPrimaryDark" />
@@ -18,7 +18,7 @@
             android:layout_height="match_parent"
             android:background="@drawable/templatex_shape_item_bg" />
         <View
-            android:id="@id/focus_mask_view"
+            android:id="@+id/focus_mask_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/editorx_shape_focus_view_bg"

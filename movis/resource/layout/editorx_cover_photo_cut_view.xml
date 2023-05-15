@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/cover_cut_root_layout"
+    android:id="@+id/cover_cut_root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
     <com.videoai.aivpcore.editorx.board.clip.cover.CropImageView
-        android:id="@id/cover_crop_image_view"
+        android:id="@+id/cover_crop_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:civ_drop_text="@string/xiaoying_str_select_cover_swipe_desc"
@@ -18,7 +18,7 @@
         app:civ_stroke_width="2.0dip"
         app:civ_trans_color="@color/app_dcolor_background" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/cover_replace_btn"
+        android:id="@+id/cover_replace_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/px12"

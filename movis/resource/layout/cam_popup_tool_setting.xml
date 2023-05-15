@@ -12,19 +12,19 @@
         android:layout_marginRight="15.0dip"
         android:background="@drawable/xiaoying_cam_bg_tool_setting_window">
         <LinearLayout
-            android:id="@id/layout_setting_tools"
+            android:id="@+id/layout_setting_tools"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20.0dip"
             android:gravity="center_horizontal"
             android:orientation="horizontal">
             <RelativeLayout
-                android:id="@id/layout_tool_flashlight"
+                android:id="@+id/layout_tool_flashlight"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0">
                 <ImageView
-                    android:id="@id/icon_tool_flashlight"
+                    android:id="@+id/icon_tool_flashlight"
                     android:layout_width="44.0dip"
                     android:layout_height="44.0dip"
                     android:layout_centerInParent="true"
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0">
                 <ImageView
-                    android:id="@id/icon_tool_grid"
+                    android:id="@+id/icon_tool_grid"
                     android:layout_width="44.0dip"
                     android:layout_height="44.0dip"
                     android:layout_centerInParent="true"
@@ -46,19 +46,19 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0">
                 <ImageView
-                    android:id="@id/icon_tool_time"
+                    android:id="@+id/icon_tool_time"
                     android:layout_width="44.0dip"
                     android:layout_height="44.0dip"
                     android:layout_centerInParent="true"
                     android:src="@drawable/xiaoying_cam_icon_tool_timer_nrm" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/layout_tool_aelock"
+                android:id="@+id/layout_tool_aelock"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0">
                 <ImageView
-                    android:id="@id/icon_tool_aelock"
+                    android:id="@+id/icon_tool_aelock"
                     android:layout_width="44.0dip"
                     android:layout_height="44.0dip"
                     android:layout_centerInParent="true"
@@ -66,7 +66,7 @@
             </RelativeLayout>
         </LinearLayout>
         <LinearLayout
-            android:id="@id/line"
+            android:id="@+id/line"
             android:layout_width="match_parent"
             android:layout_height="0.5dip"
             android:layout_below="@id/layout_setting_tools"
@@ -78,7 +78,7 @@
             android:background="#0dffffff"
             android:orientation="horizontal" />
         <LinearLayout
-            android:id="@id/layout_speed"
+            android:id="@+id/layout_speed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/line"
@@ -95,7 +95,7 @@
                 android:textColor="#80ffffff"
                 android:textSize="14.0sp" />
             <com.videoai.aivpcore.camera.ui.view.seekbar.DraggableSeekBar
-                android:id="@id/speed_bar"
+                android:id="@+id/speed_bar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end" />

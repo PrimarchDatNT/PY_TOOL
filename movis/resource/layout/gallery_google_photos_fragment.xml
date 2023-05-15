@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/recyclerview"
+        android:id="@+id/recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="12.0dip"
@@ -12,7 +12,7 @@
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:spanCount="3" />
     <LinearLayout
-        android:id="@id/login_btn_layout"
+        android:id="@+id/login_btn_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent">
         <TextView
-            android:id="@id/tv_login_title"
+            android:id="@+id/tv_login_title"
             style="@style/veds_latn_font_headline_20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <TextView
-            android:id="@id/tv_login_content"
+            android:id="@+id/tv_login_content"
             style="@style/veds_latn_font_body_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tv_login_title" />
         <LinearLayout
-            android:id="@id/btn_login"
+            android:id="@+id/btn_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -67,7 +67,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tv_login_content">
             <ImageView
-                android:id="@id/iv_login_btn"
+                android:id="@+id/iv_login_btn"
                 android:layout_width="24.0dip"
                 android:layout_height="24.0dip"
                 android:layout_gravity="center_vertical"
@@ -76,7 +76,7 @@
                 android:layout_marginBottom="8.0dip"
                 android:src="@drawable/gallery_google_photo_logo" />
             <TextView
-                android:id="@id/tv_login_btn"
+                android:id="@+id/tv_login_btn"
                 style="@style/veds_latn_font_subtitle_16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
         </LinearLayout>
     </LinearLayout>
     <com.videoedit.gallery.widget.GalleryEmptyView
-        android:id="@id/gallery_template_item_empty"
+        android:id="@+id/gallery_template_item_empty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone" />

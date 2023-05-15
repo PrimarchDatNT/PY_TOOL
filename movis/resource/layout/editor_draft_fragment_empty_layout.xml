@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/app_dcolor_background">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/studio_no_video_hint_view"
+        android:id="@+id/studio_no_video_hint_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
@@ -19,12 +19,12 @@
             app:layout_constraintTop_toTopOf="parrent"
             app:layout_constraintVertical_bias="0.38">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/studio_no_video_icon"
+                android:id="@+id/studio_no_video_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/editor_studio_draft_empty_bg" />
             <TextView
-                android:id="@id/studio_no_video_label"
+                android:id="@+id/studio_no_video_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4.0dip"
@@ -33,7 +33,7 @@
                 android:textSize="@dimen/sp14"
                 android:visibility="visible" />
             <TextView
-                android:id="@id/studio_no_video_to_create_btn"
+                android:id="@+id/studio_no_video_to_create_btn"
                 android:layout_width="136.0dip"
                 android:layout_height="40.0dip"
                 android:background="@drawable/editor_shape_studio_no_video_create_btn_bg"
@@ -43,7 +43,7 @@
                 android:textSize="14.0sp"
                 android:visibility="gone" />
             <com.videoapp.videomakermaster.ViewCreatDraft
-                android:id="@id/tv_cta_create_video"
+                android:id="@+id/tv_cta_create_video"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/px42"
                 android:layout_marginStart="@dimen/px16"

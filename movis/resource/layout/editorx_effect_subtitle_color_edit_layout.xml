@@ -5,14 +5,14 @@
     android:layout_height="match_parent"
     android:background="@color/transparent">
     <ScrollView
-        android:id="@id/svColorLayout"
+        android:id="@+id/svColorLayout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px214"
         android:layout_gravity="bottom"
         android:background="@color/app_dcolor_background"
         android:orientation="vertical">
         <FrameLayout
-            android:id="@id/layout_click"
+            android:id="@+id/layout_click"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -34,7 +34,7 @@
                     app:layout_constraintStart_toStartOf="parrent"
                     app:layout_constraintTop_toTopOf="parrent" />
                 <com.videoai.aivpcore.editorx.widget.seekbar.ColorBarBgView
-                    android:id="@id/colorbar_text_color"
+                    android:id="@+id/colorbar_text_color"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:csb_bg_height="24.0dip"
@@ -69,7 +69,7 @@
                     app:layout_constraintStart_toStartOf="parrent"
                     app:layout_constraintTop_toTopOf="parrent" />
                 <com.videoai.aivpcore.editorx.widget.seekbar.ColorBarBgView
-                    android:id="@id/subtitle_stroke_csb_seek_bar"
+                    android:id="@+id/subtitle_stroke_csb_seek_bar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:csb_bg_height="24.0dip"
@@ -104,7 +104,7 @@
                     app:layout_constraintStart_toStartOf="parrent"
                     app:layout_constraintTop_toTopOf="parrent" />
                 <com.videoai.aivpcore.editorx.widget.seekbar.VHSeekBar
-                    android:id="@id/subtitle_stroke_vh_seek_bar"
+                    android:id="@+id/subtitle_stroke_vh_seek_bar"
                     android:layout_width="match_parent"
                     android:layout_height="28.0dip"
                     android:layout_gravity="center_horizontal"
@@ -145,7 +145,7 @@
                     app:layout_constraintStart_toStartOf="parrent"
                     app:layout_constraintTop_toTopOf="parrent" />
                 <com.videoai.aivpcore.editorx.widget.seekbar.VHSeekBar
-                    android:id="@id/subtitle_alpha_vh_seek_bar"
+                    android:id="@+id/subtitle_alpha_vh_seek_bar"
                     android:layout_width="match_parent"
                     android:layout_height="28.0dip"
                     android:layout_gravity="center_horizontal"
@@ -169,7 +169,7 @@
         </FrameLayout>
     </ScrollView>
     <com.videoai.aivpcore.editorx.widget.seekbar.CircleShadowView
-        android:id="@id/subtitle_csv_shadow_text_view"
+        android:id="@+id/subtitle_csv_shadow_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"

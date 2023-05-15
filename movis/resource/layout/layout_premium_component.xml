@@ -9,7 +9,7 @@
     android:paddingEnd="@dimen/px16"
     android:tag="layout/layout_premium_component_0">
     <com.videoai.aivpcore.unit.view.PressImageView
-        android:id="@id/ivBanner"
+        android:id="@+id/ivBanner"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:adjustViewBounds="true"
@@ -17,7 +17,7 @@
         app:shapeAppearanceOverlay="@style/RoundedRect"
         app:srcCompat="@drawable/banner_premium_component" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvTitle"
+        android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"

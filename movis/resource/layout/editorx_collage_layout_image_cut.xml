@@ -19,7 +19,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <RelativeLayout
-            android:id="@id/layout_double_back"
+            android:id="@+id/layout_double_back"
             android:layout_width="@dimen/px56"
             android:layout_height="@dimen/px56"
             android:background="@drawable/btn_dcolor_ripple"
@@ -31,14 +31,14 @@
                 android:src="@drawable/editorx_ico_second_double_back" />
         </RelativeLayout>
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/sitv_color"
+            android:id="@+id/sitv_color"
             android:layout_width="@dimen/px64"
             android:layout_height="wrap_content"
             android:visibility="visible"
             app:sitv_bottom_text="Picker"
             app:sitv_top_drawable="@drawable/editorx_image_cut_color_unchoose" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/sitv_precision"
+            android:id="@+id/sitv_precision"
             android:layout_width="@dimen/px64"
             android:layout_height="wrap_content"
             app:sitv_bottom_text="Acc"
@@ -46,7 +46,7 @@
             app:sitv_top_text_color="@drawable/editorx_selector_sitv_text_color"
             app:sitv_top_type="bac" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/sitv_reset_image"
+            android:id="@+id/sitv_reset_image"
             android:layout_width="@dimen/px64"
             android:layout_height="wrap_content"
             app:sitv_bottom_text="@string/xiaoying_str_edit_reset_text"

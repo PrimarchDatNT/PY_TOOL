@@ -11,7 +11,7 @@
         android:gravity="center"
         android:orientation="vertical">
         <com.videoapp.videomakermaster.ads.ExportAdView
-            android:id="@id/ad_view"
+            android:id="@+id/ad_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/px16" />
@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <com.videoai.aivpcore.editor.export.beaut.ExportProgressBar
-                android:id="@id/layoutProgressBar"
+                android:id="@+id/layoutProgressBar"
                 style="?android:progressBarStyleHorizontal"
                 android:layout_width="@dimen/px230"
                 android:layout_height="@dimen/px230"
@@ -30,7 +30,7 @@
                 android:progressDrawable="@drawable/circular_progress_bar"
                 android:secondaryProgressTint="@color/default_app_color" />
             <TextView
-                android:id="@id/tvProgress"
+                android:id="@+id/tvProgress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -40,7 +40,7 @@
                 android:textStyle="bold" />
         </FrameLayout>
         <TextView
-            android:id="@id/tvDuration"
+            android:id="@+id/tvDuration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -49,7 +49,7 @@
             android:textColor="@color/white"
             android:textSize="@dimen/sp12" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tvBottomHint"
+            android:id="@+id/tvBottomHint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -63,7 +63,7 @@
             app:autoSizeTextType="bjy" />
     </LinearLayout>
     <com.videoapp.videomakermaster.ads.ExportBannerAdview
-        android:id="@id/ad_View"
+        android:id="@+id/ad_View"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

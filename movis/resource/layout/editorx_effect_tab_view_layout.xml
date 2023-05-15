@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tvStore"
+                android:id="@+id/tvStore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -35,7 +35,7 @@
                 app:layout_constraintStart_toStartOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/iv_store"
+                android:id="@+id/iv_store"
                 android:layout_width="0.0dip"
                 android:layout_height="0.0dip"
                 android:background="@drawable/btn_record_view"
@@ -45,30 +45,30 @@
                 app:layout_constraintTop_toTopOf="@id/tvStore" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <View
-            android:id="@id/view_line"
+            android:id="@+id/view_line"
             android:layout_width="@dimen/px1"
             android:layout_height="@dimen/px20"
             android:background="@color/app_dcolor_indicator_2" />
         <com.videoai.aivpcore.editorx.widget.viewpager.RecyclerIndicatorView
-            android:id="@id/rlv_indicator"
+            android:id="@+id/rlv_indicator"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
     <RelativeLayout
-        android:id="@id/layout_choose_bg"
+        android:id="@+id/layout_choose_bg"
         android:layout_width="@dimen/px56"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true">
         <RelativeLayout
-            android:id="@id/layout_choose_finish"
+            android:id="@+id/layout_choose_finish"
             android:layout_width="@dimen/px56"
             android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:background="@drawable/btn_dcolor_ripple">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/iv_choose_finish"
+                android:id="@+id/iv_choose_finish"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerInParent="true"

@@ -8,11 +8,11 @@
         android:layout_height="0.0dip"
         android:layout_weight="337.0">
         <FrameLayout
-            android:id="@id/tt_ad_container"
+            android:id="@+id/tt_ad_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
         <ImageView
-            android:id="@id/tt_full_img"
+            android:id="@+id/tt_full_img"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitCenter" />
@@ -35,14 +35,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <com.bytedance.sdk.openadsdk.core.widget.TTRoundRectImageView
-                android:id="@id/tt_full_ad_icon"
+                android:id="@+id/tt_full_ad_icon"
                 android:layout_width="45.0dip"
                 android:layout_height="45.0dip"
                 android:layout_marginRight="10.0dip"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY" />
             <TextView
-                android:id="@id/tt_full_ad_app_name"
+                android:id="@+id/tt_full_ad_app_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/tt_full_ad_icon"
@@ -51,7 +51,7 @@
                 android:textColor="#ff999999"
                 android:textSize="16.0sp" />
             <TextView
-                android:id="@id/tt_full_ad_desc"
+                android:id="@+id/tt_full_ad_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tt_full_ad_app_name"
@@ -62,7 +62,7 @@
                 android:textSize="12.0sp" />
         </RelativeLayout>
         <TextView
-            android:id="@id/tt_full_ad_download"
+            android:id="@+id/tt_full_ad_download"
             android:layout_width="match_parent"
             android:layout_height="32.0dip"
             android:layout_marginTop="16.0dip"

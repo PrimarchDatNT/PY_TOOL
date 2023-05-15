@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rlv_font"
+        android:id="@+id/rlv_font"
         android:layout_width="match_parent"
         android:layout_height="192.0dip"
         android:layout_alignParentBottom="true"

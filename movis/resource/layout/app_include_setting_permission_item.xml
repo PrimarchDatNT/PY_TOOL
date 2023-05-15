@@ -9,7 +9,7 @@
     android:paddingRight="16.0dip"
     android:paddingBottom="18.0dip">
     <TextView
-        android:id="@id/tvState"
+        android:id="@+id/tvState"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/app_icon_setting_arrow_r"
@@ -22,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvTitle"
+        android:id="@+id/tvTitle"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10.0dip"
@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <TextView
-        android:id="@id/tvContent"
+        android:id="@+id/tvContent"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="8.0dip"

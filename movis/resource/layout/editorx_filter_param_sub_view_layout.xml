@@ -10,7 +10,7 @@
         android:layout_height="0.5dip"
         android:background="@color/app_dcolor_indicator" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/filter_def_recyclerview"
+        android:id="@+id/filter_def_recyclerview"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -24,7 +24,7 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
             <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView
-                android:id="@id/filter_param_brightness"
+                android:id="@+id/filter_param_brightness"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:tag="brightness"
@@ -33,7 +33,7 @@
                 app:fsb_top_name_text="@string/xiaoying_str_ve_video_param_brightness"
                 app:fsb_type="avi" />
             <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView
-                android:id="@id/filter_param_contrast"
+                android:id="@+id/filter_param_contrast"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:tag="contrast"
@@ -42,7 +42,7 @@
                 app:fsb_top_name_text="@string/xiaoying_str_ve_video_param_contrast"
                 app:fsb_type="avi" />
             <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView
-                android:id="@id/filter_param_saturation"
+                android:id="@+id/filter_param_saturation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:tag="saturation"
@@ -51,7 +51,7 @@
                 app:fsb_top_name_text="@string/xiaoying_str_ve_video_param_saturation"
                 app:fsb_type="avi" />
             <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView
-                android:id="@id/filter_param_sharpen"
+                android:id="@+id/filter_param_sharpen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:tag="sharpen"
@@ -60,7 +60,7 @@
                 app:fsb_top_name_text="@string/xiaoying_str_ve_video_param_sharpen"
                 app:fsb_type="avi" />
             <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView
-                android:id="@id/filter_param_temperature"
+                android:id="@+id/filter_param_temperature"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:tag="temperature"
@@ -69,7 +69,7 @@
                 app:fsb_top_name_text="@string/xiaoying_str_ve_video_param_temperature"
                 app:fsb_type="avi" />
             <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView
-                android:id="@id/filter_param_vignette"
+                android:id="@+id/filter_param_vignette"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:tag="vignette"
@@ -78,7 +78,7 @@
                 app:fsb_top_name_text="@string/xiaoying_str_ve_video_param_vignette"
                 app:fsb_type="avi" />
             <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView
-                android:id="@id/filter_param_hue"
+                android:id="@+id/filter_param_hue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:tag="hue"
@@ -87,7 +87,7 @@
                 app:fsb_top_name_text="@string/xiaoying_str_ve_video_param_hue"
                 app:fsb_type="avi" />
             <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView
-                android:id="@id/filter_param_shadow"
+                android:id="@+id/filter_param_shadow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:tag="shadow"
@@ -96,7 +96,7 @@
                 app:fsb_top_name_text="@string/xiaoying_str_ve_video_param_shadow"
                 app:fsb_type="avi" />
             <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView
-                android:id="@id/filter_param_highlight"
+                android:id="@+id/filter_param_highlight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:tag="highlight"
@@ -105,7 +105,7 @@
                 app:fsb_top_name_text="@string/xiaoying_str_ve_video_param_highlight"
                 app:fsb_type="avi" />
             <com.videoai.aivpcore.editorx.board.filter.FilterReverseSeekBarView
-                android:id="@id/filter_param_fade"
+                android:id="@+id/filter_param_fade"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:tag="fade"

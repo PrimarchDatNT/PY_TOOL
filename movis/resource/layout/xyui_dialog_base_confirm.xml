@@ -10,7 +10,7 @@
     android:paddingRight="24.0dip"
     android:paddingBottom="24.0dip">
     <TextView
-        android:id="@id/tv_title"
+        android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/color_333333"
@@ -18,7 +18,7 @@
         app:layout_constraintLeft_toLeftOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <TextView
-        android:id="@id/tv_confirm"
+        android:id="@+id/tv_confirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/color_ff4e18"
@@ -26,7 +26,7 @@
         app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintRight_toRightOf="parrent" />
     <TextView
-        android:id="@id/tv_cancel"
+        android:id="@+id/tv_cancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="39.0dip"

@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <com.google.android.material.tabs.TabLayout
-        android:id="@id/tabLayout"
+        android:id="@+id/tabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/px16"
@@ -23,7 +23,7 @@
         app:tabTextAppearance="@style/TabTextAppperance"
         app:tabTextColor="@color/white" />
     <androidx.viewpager.widget.ViewPager
-        android:id="@id/vpPage"
+        android:id="@+id/vpPage"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

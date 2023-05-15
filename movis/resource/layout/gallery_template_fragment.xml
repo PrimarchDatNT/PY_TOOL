@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.videoedit.widgetlib.viewpager.NoScrollViewPager
-        android:id="@id/gallery_template_view_pager"
+        android:id="@+id/gallery_template_view_pager"
         android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_marginTop="12.0dip"
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <com.videoedit.gallery.widget.GalleryEmptyView
-        android:id="@id/gallery_template_item_empty"
+        android:id="@+id/gallery_template_item_empty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="12.0dip"

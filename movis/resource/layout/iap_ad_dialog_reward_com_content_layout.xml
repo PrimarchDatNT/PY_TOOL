@@ -15,7 +15,7 @@
         android:gravity="center"
         android:orientation="vertical">
         <TextView
-            android:id="@id/reward_com_video_ad_description"
+            android:id="@+id/reward_com_video_ad_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -29,7 +29,7 @@
             android:layout_height="1.0px"
             android:background="@color/color_e5e5e5" />
         <TextView
-            android:id="@id/reward_com_video_ad_fun_button"
+            android:id="@+id/reward_com_video_ad_fun_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/iap_ad_selector_btn_reward_video_ad_bg"
@@ -43,7 +43,7 @@
             android:layout_height="1.0px"
             android:background="@color/color_e5e5e5" />
         <TextView
-            android:id="@id/reward_com_video_ad_cancel_button"
+            android:id="@+id/reward_com_video_ad_cancel_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/iap_ad_selector_btn_reward_video_ad_bg"

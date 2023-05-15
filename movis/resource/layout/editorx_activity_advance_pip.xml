@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageView
-        android:id="@id/ivBack"
+        android:id="@+id/ivBack"
         android:layout_width="52.0dip"
         android:layout_height="52.0dip"
         android:padding="14.0dip"
@@ -12,7 +12,7 @@
         app:layout_constraintLeft_toLeftOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tvAdvanceEdit"
+        android:id="@+id/tvAdvanceEdit"
         android:layout_width="wrap_content"
         android:layout_height="28.0dip"
         android:layout_marginTop="12.0dip"

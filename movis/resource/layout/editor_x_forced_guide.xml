@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/cl_forced_guide"
+    android:id="@+id/cl_forced_guide"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/app_dcolor_background"
     android:clickable="true"
     android:focusable="true">
     <View
-        android:id="@id/v_null_guide"
+        android:id="@+id/v_null_guide"
         android:layout_width="match_parent"
         android:layout_height="44.0dip"
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <TextView
-        android:id="@id/tv_export_guide"
+        android:id="@+id/tv_export_guide"
         android:layout_width="wrap_content"
         android:layout_height="28.0dip"
         android:layout_marginEnd="15.0dip"
@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintTop_toTopOf="@id/v_null_guide" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/tv_export_guide_point"
+        android:id="@+id/tv_export_guide_point"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6.0dip"
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="@id/tv_filter_tab_guide"
         app:layout_constraintTop_toBottomOf="@id/tv_export_guide" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_export_guide_pop"
+        android:id="@+id/tv_export_guide_pop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6.0dip"
@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="@id/tv_export_guide"
         app:layout_constraintTop_toBottomOf="@id/tv_export_guide_point" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_theme_tab_guide"
+        android:id="@+id/tv_theme_tab_guide"
         android:layout_width="0.0dip"
         android:layout_height="44.0dip"
         android:ellipsize="end"
@@ -83,7 +83,7 @@
         app:layout_constraintHorizontal_weight="1.0"
         app:layout_constraintStart_toStartOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_audio_tab_guide"
+        android:id="@+id/tv_audio_tab_guide"
         android:layout_width="0.0dip"
         android:layout_height="44.0dip"
         android:ellipsize="end"
@@ -101,7 +101,7 @@
         app:layout_constraintHorizontal_weight="1.0"
         app:layout_constraintStart_toEndOf="@id/tv_theme_tab_guide" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_clip_tab_guide"
+        android:id="@+id/tv_clip_tab_guide"
         android:layout_width="0.0dip"
         android:layout_height="44.0dip"
         android:ellipsize="end"
@@ -119,7 +119,7 @@
         app:layout_constraintHorizontal_weight="1.0"
         app:layout_constraintStart_toEndOf="@id/tv_audio_tab_guide" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_effect_tab_guide"
+        android:id="@+id/tv_effect_tab_guide"
         android:layout_width="0.0dip"
         android:layout_height="44.0dip"
         android:ellipsize="end"
@@ -137,7 +137,7 @@
         app:layout_constraintHorizontal_weight="1.0"
         app:layout_constraintStart_toEndOf="@id/tv_clip_tab_guide" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_filter_tab_guide"
+        android:id="@+id/tv_filter_tab_guide"
         android:layout_width="0.0dip"
         android:layout_height="44.0dip"
         android:ellipsize="end"
@@ -155,7 +155,7 @@
         app:layout_constraintHorizontal_weight="1.0"
         app:layout_constraintStart_toEndOf="@id/tv_effect_tab_guide" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/tv_theme_guide_point"
+        android:id="@+id/tv_theme_guide_point"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="43.0dip"
@@ -164,7 +164,7 @@
         app:layout_constraintBottom_toTopOf="@id/tv_theme_tab_guide"
         app:layout_constraintStart_toStartOf="@id/tv_theme_tab_guide" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_theme_guide_pop"
+        android:id="@+id/tv_theme_guide_pop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15.0dip"
@@ -185,7 +185,7 @@
         app:layout_constraintBottom_toTopOf="@id/tv_theme_guide_point"
         app:layout_constraintStart_toStartOf="@id/tv_theme_tab_guide" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/tv_music_guide_point"
+        android:id="@+id/tv_music_guide_point"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="43.0dip"
@@ -194,7 +194,7 @@
         app:layout_constraintBottom_toTopOf="@id/tv_audio_tab_guide"
         app:layout_constraintStart_toStartOf="@id/tv_audio_tab_guide" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_music_guide_pop"
+        android:id="@+id/tv_music_guide_pop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15.0dip"
@@ -215,7 +215,7 @@
         app:layout_constraintBottom_toTopOf="@id/tv_theme_guide_point"
         app:layout_constraintStart_toStartOf="@id/tv_audio_tab_guide" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/tv_clip_guide_point"
+        android:id="@+id/tv_clip_guide_point"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="43.0dip"
@@ -224,7 +224,7 @@
         app:layout_constraintBottom_toTopOf="@id/tv_clip_tab_guide"
         app:layout_constraintStart_toStartOf="@id/tv_clip_tab_guide" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_clip_guide_pop"
+        android:id="@+id/tv_clip_guide_pop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15.0dip"
@@ -245,7 +245,7 @@
         app:layout_constraintBottom_toTopOf="@id/tv_theme_guide_point"
         app:layout_constraintStart_toStartOf="@id/tv_clip_tab_guide" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/tv_effect_guide_point"
+        android:id="@+id/tv_effect_guide_point"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="43.0dip"
@@ -255,7 +255,7 @@
         app:layout_constraintBottom_toTopOf="@id/tv_effect_tab_guide"
         app:layout_constraintEnd_toEndOf="@id/tv_effect_tab_guide" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_effect_guide_pop"
+        android:id="@+id/tv_effect_guide_pop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="15.0dip"
@@ -276,7 +276,7 @@
         app:layout_constraintBottom_toTopOf="@id/tv_theme_guide_point"
         app:layout_constraintEnd_toEndOf="@id/tv_effect_tab_guide" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/tv_filter_guide_point"
+        android:id="@+id/tv_filter_guide_point"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="43.0dip"
@@ -286,7 +286,7 @@
         app:layout_constraintBottom_toTopOf="@id/tv_filter_tab_guide"
         app:layout_constraintEnd_toEndOf="@id/tv_filter_tab_guide" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_filter_guide_pop"
+        android:id="@+id/tv_filter_guide_pop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="15.0dip"
@@ -307,7 +307,7 @@
         app:layout_constraintBottom_toTopOf="@id/tv_theme_guide_point"
         app:layout_constraintEnd_toEndOf="@id/tv_filter_tab_guide" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_skip_1"
+        android:id="@+id/tv_skip_1"
         android:layout_width="wrap_content"
         android:layout_height="28.0dip"
         android:layout_marginTop="70.0dip"
@@ -324,7 +324,7 @@
         app:layout_constraintEnd_toEndOf="parrent"
         app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/tv_skip_2"
+        android:id="@+id/tv_skip_2"
         android:layout_width="wrap_content"
         android:layout_height="28.0dip"
         android:layout_marginEnd="20.0dip"

@@ -16,7 +16,7 @@
             android:textColor="#ff161823"
             android:textSize="17.0dip" />
         <ImageView
-            android:id="@id/tt_ad_report_close_button"
+            android:id="@+id/tt_ad_report_close_button"
             android:layout_width="40.0dip"
             android:layout_height="44.0dip"
             android:layout_alignParentEnd="true"
@@ -60,7 +60,7 @@
                     android:textSize="16.0dip"
                     android:textStyle="bold" />
                 <TextView
-                    android:id="@id/tt_ad_report_sdk_version"
+                    android:id="@+id/tt_ad_report_sdk_version"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:includeFontPadding="false"
@@ -83,7 +83,7 @@
                     android:textSize="16.0dip"
                     android:textStyle="bold" />
                 <TextView
-                    android:id="@id/tt_ad_report_app_package_name"
+                    android:id="@+id/tt_ad_report_app_package_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:includeFontPadding="false"
@@ -106,7 +106,7 @@
                     android:textSize="16.0dip"
                     android:textStyle="bold" />
                 <TextView
-                    android:id="@id/tt_ad_report_app_version"
+                    android:id="@+id/tt_ad_report_app_version"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:includeFontPadding="false"
@@ -129,7 +129,7 @@
                     android:textSize="16.0dip"
                     android:textStyle="bold" />
                 <TextView
-                    android:id="@id/tt_ad_report_os"
+                    android:id="@+id/tt_ad_report_os"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:includeFontPadding="false"
@@ -152,7 +152,7 @@
                     android:textSize="16.0dip"
                     android:textStyle="bold" />
                 <TextView
-                    android:id="@id/tt_ad_report_device"
+                    android:id="@+id/tt_ad_report_device"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:includeFontPadding="false"
@@ -175,7 +175,7 @@
                     android:textSize="16.0dip"
                     android:textStyle="bold" />
                 <TextView
-                    android:id="@id/tt_ad_report_creative_info"
+                    android:id="@+id/tt_ad_report_creative_info"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:includeFontPadding="false"
@@ -189,7 +189,7 @@
         android:layout_height="76.0dip"
         android:background="#ffffffff">
         <Button
-            android:id="@id/tt_ad_report_copy_button"
+            android:id="@+id/tt_ad_report_copy_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="16.0dip"

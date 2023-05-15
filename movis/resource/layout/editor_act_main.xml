@@ -4,19 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/editor_content_layout"
+        android:id="@+id/editor_content_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@android:color/black">
         <com.videoai.aivpcore.editor.player.EditorPlayerView
-            android:id="@id/editor_player"
+            android:id="@+id/editor_player"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:display_mode="0"
             app:seek_enable="true" />
     </RelativeLayout>
     <FrameLayout
-        android:id="@id/fragment_container"
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </RelativeLayout>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/tt_full_reward_video_landing_loading"
+    android:id="@+id/tt_full_reward_video_landing_loading"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff8f8f8"
     android:orientation="vertical">
     <com.bytedance.sdk.openadsdk.common.LandingPageLoadingLayout
-        android:id="@id/tt_loading_layout"
+        android:id="@+id/tt_loading_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
     <LinearLayout
-        android:id="@id/tt_back_container"
+        android:id="@+id/tt_back_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:orientation="vertical"
         android:visibility="gone">
         <com.bytedance.sdk.openadsdk.core.widget.TTRoundRectImageView
-            android:id="@id/tt_back_container_icon"
+            android:id="@+id/tt_back_container_icon"
             android:layout_width="80.0dip"
             android:layout_height="80.0dip"
             android:layout_gravity="center" />
         <TextView
-            android:id="@id/tt_back_container_title"
+            android:id="@+id/tt_back_container_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -31,7 +31,7 @@
             android:textColor="#ff161823"
             android:textSize="24.0dip" />
         <TextView
-            android:id="@id/tt_back_container_des"
+            android:id="@+id/tt_back_container_des"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -44,7 +44,7 @@
             android:textColor="#80161823"
             android:textSize="16.0dip" />
         <TextView
-            android:id="@id/tt_back_container_download"
+            android:id="@+id/tt_back_container_download"
             android:layout_width="255.0dip"
             android:layout_height="44.0dip"
             android:layout_gravity="center"
@@ -55,7 +55,7 @@
             android:textColor="@color/tt_white" />
     </LinearLayout>
     <TextView
-        android:id="@id/tt_ad_loading_logo"
+        android:id="@+id/tt_ad_loading_logo"
         android:layout_width="32.0dip"
         android:layout_height="14.0dip"
         android:layout_alignParentBottom="true"

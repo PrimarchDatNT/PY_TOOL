@@ -4,17 +4,17 @@
     android:layout_height="match_parent"
     android:background="@color/transparent">
     <RelativeLayout
-        android:id="@id/layout_expand"
+        android:id="@+id/layout_expand"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px214"
         android:layout_above="@id/etv_tab"
         android:background="@color/app_dcolor_background">
         <RelativeLayout
-            android:id="@id/board_top"
+            android:id="@+id/board_top"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px32">
             <ImageButton
-                android:id="@id/btn_expand"
+                android:id="@+id/btn_expand"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -26,41 +26,41 @@
                 android:src="@drawable/editorx_selector_gallery_board_arrow" />
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/recycler_choose_item"
+            android:id="@+id/recycler_choose_item"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/board_top"
             android:layout_gravity="center_horizontal"
             android:visibility="visible" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/recycler_choose_video"
+            android:id="@+id/recycler_choose_video"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/board_top"
             android:layout_gravity="center_horizontal"
             android:visibility="gone" />
         <RelativeLayout
-            android:id="@id/layout_gif"
+            android:id="@+id/layout_gif"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/board_top"
             android:visibility="gone">
             <RelativeLayout
-                android:id="@id/layout_search"
+                android:id="@+id/layout_search"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/px36"
                 android:layout_marginStart="@dimen/px16"
                 android:layout_marginEnd="@dimen/px16"
                 android:background="@drawable/editorx_shape_galley_gif_search">
                 <ImageView
-                    android:id="@id/iv_search"
+                    android:id="@+id/iv_search"
                     android:layout_width="16.0dip"
                     android:layout_height="16.0dip"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="16.0dip"
                     android:src="@drawable/editorx_icon_search" />
                 <com.videoai.aivpcore.editorx.widget.UKeyBackEditText
-                    android:id="@id/btn_search_gif"
+                    android:id="@+id/btn_search_gif"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginStart="8.0dip"
@@ -77,7 +77,7 @@
                     android:textSize="14.0sp" />
             </RelativeLayout>
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@id/recycler_choose_gif"
+                android:id="@+id/recycler_choose_gif"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/layout_search"
@@ -88,7 +88,7 @@
                 android:visibility="visible" />
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/layout_loading"
+            android:id="@+id/layout_loading"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -113,7 +113,7 @@
         </LinearLayout>
     </RelativeLayout>
     <com.videoai.aivpcore.editorx.board.effect.ui.effectTab.EffectTabView
-        android:id="@id/etv_tab"
+        android:id="@+id/etv_tab"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px56"
         android:layout_alignParentBottom="true" />

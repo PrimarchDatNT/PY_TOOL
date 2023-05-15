@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/layout_root"
+    android:id="@+id/layout_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
     <FrameLayout
-        android:id="@id/psb_bg_container"
+        android:id="@+id/psb_bg_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <SeekBar
-            android:id="@id/psb_seek_bar"
+            android:id="@+id/psb_seek_bar"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px20"
             android:layout_gravity="center_vertical"

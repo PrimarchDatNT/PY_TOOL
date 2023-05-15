@@ -12,7 +12,7 @@
         app:layout_constraintStart_toStartOf="parrent"
         app:layout_constraintTop_toTopOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_studio_back"
+            android:id="@+id/iv_studio_back"
             android:layout_width="?a4"
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
@@ -29,7 +29,7 @@
             android:textColor="@color/white"
             android:textSize="@dimen/sp16" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/iv_back_to_home"
+            android:id="@+id/iv_back_to_home"
             android:layout_width="?a4"
             android:layout_height="match_parent"
             android:layout_gravity="end"
@@ -51,20 +51,20 @@
                 android:background="@color/black"
                 android:orientation="vertical">
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@id/imageVideoView"
+                    android:id="@+id/imageVideoView"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/px196"
                     android:layout_marginStart="@dimen/px68"
                     android:layout_marginEnd="@dimen/px68" />
                 <com.videoai.aivpcore.unit.view.PressImageView
-                    android:id="@id/imageVideoplay"
+                    android:id="@+id/imageVideoplay"
                     android:layout_width="@dimen/px48"
                     android:layout_height="@dimen/px48"
                     android:layout_gravity="center"
                     android:src="@drawable/ic_result_play" />
             </FrameLayout>
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/save_path"
+                android:id="@+id/save_path"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/px16"
@@ -76,7 +76,7 @@
                 android:textColor="@color/white"
                 android:textSize="@dimen/sp12" />
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/buttonShare"
+                android:id="@+id/buttonShare"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/px42"
                 android:layout_gravity="center"
@@ -92,22 +92,22 @@
                 android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/sp14" />
             <com.videoai.aivpcore.ViewPremium
-                android:id="@id/view_premium"
+                android:id="@+id/view_premium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <RelativeLayout
-                android:id="@id/ad_view"
+                android:id="@+id/ad_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/px12" />
             <FrameLayout
-                android:id="@id/ll_rate"
+                android:id="@+id/ll_rate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:visibility="gone">
                 <com.videoapp.videomakermaster.RateBannerView
-                    android:id="@id/view_rate_banner"
+                    android:id="@+id/view_rate_banner"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </FrameLayout>

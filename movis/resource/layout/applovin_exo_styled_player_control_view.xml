@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
     <View
-        android:id="@id/al_exo_controls_background"
+        android:id="@+id/al_exo_controls_background"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:background="@color/al_exo_black_opacity_60" />
     <FrameLayout
-        android:id="@id/al_exo_bottom_bar"
+        android:id="@+id/al_exo_bottom_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/al_exo_styled_bottom_bar_height"
         android:layout_gravity="bottom"
@@ -14,7 +14,7 @@
         android:background="@color/al_exo_bottom_bar_background"
         android:layoutDirection="ltr">
         <LinearLayout
-            android:id="@id/al_exo_time"
+            android:id="@+id/al_exo_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start|center"
@@ -24,66 +24,66 @@
             android:paddingEnd="@dimen/al_exo_styled_bottom_bar_time_padding"
             android:paddingRight="@dimen/al_exo_styled_bottom_bar_time_padding">
             <TextView
-                android:id="@id/al_exo_position"
+                android:id="@+id/al_exo_position"
                 style="@style/AppLovinExoStyledControls_TimeText_Position" />
             <TextView style="@style/AppLovinExoStyledControls_TimeText_Separator" />
             <TextView
-                android:id="@id/al_exo_duration"
+                android:id="@+id/al_exo_duration"
                 style="@style/AppLovinExoStyledControls_TimeText_Duration" />
         </LinearLayout>
         <LinearLayout
-            android:id="@id/al_exo_basic_controls"
+            android:id="@+id/al_exo_basic_controls"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|center"
             android:layoutDirection="ltr">
             <ImageButton
-                android:id="@id/al_exo_vr"
+                android:id="@+id/al_exo_vr"
                 style="@style/AppLovinExoStyledControls_Button_Bottom_VR" />
             <ImageButton
-                android:id="@id/al_exo_shuffle"
+                android:id="@+id/al_exo_shuffle"
                 style="@style/AppLovinExoStyledControls_Button_Bottom_Shuffle" />
             <ImageButton
-                android:id="@id/al_exo_repeat_toggle"
+                android:id="@+id/al_exo_repeat_toggle"
                 style="@style/AppLovinExoStyledControls_Button_Bottom_RepeatToggle" />
             <ImageButton
-                android:id="@id/al_exo_subtitle"
+                android:id="@+id/al_exo_subtitle"
                 style="@style/AppLovinExoStyledControls_Button_Bottom_CC" />
             <ImageButton
-                android:id="@id/al_exo_settings"
+                android:id="@+id/al_exo_settings"
                 style="@style/AppLovinExoStyledControls_Button_Bottom_Settings" />
             <ImageButton
-                android:id="@id/al_exo_fullscreen"
+                android:id="@+id/al_exo_fullscreen"
                 style="@style/AppLovinExoStyledControls_Button_Bottom_FullScreen" />
             <ImageButton
-                android:id="@id/al_exo_overflow_show"
+                android:id="@+id/al_exo_overflow_show"
                 style="@style/AppLovinExoStyledControls_Button_Bottom_OverflowShow" />
         </LinearLayout>
         <HorizontalScrollView
-            android:id="@id/al_exo_extra_controls_scroll_view"
+            android:id="@+id/al_exo_extra_controls_scroll_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|center"
             android:visibility="invisible">
             <LinearLayout
-                android:id="@id/al_exo_extra_controls"
+                android:id="@+id/al_exo_extra_controls"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layoutDirection="ltr">
                 <ImageButton
-                    android:id="@id/al_exo_overflow_hide"
+                    android:id="@+id/al_exo_overflow_hide"
                     style="@style/AppLovinExoStyledControls_Button_Bottom_OverflowHide" />
             </LinearLayout>
         </HorizontalScrollView>
     </FrameLayout>
     <View
-        android:id="@id/al_exo_progress_placeholder"
+        android:id="@+id/al_exo_progress_placeholder"
         android:layout_width="match_parent"
         android:layout_height="@dimen/al_exo_styled_progress_layout_height"
         android:layout_gravity="bottom"
         android:layout_marginBottom="@dimen/al_exo_styled_progress_margin_bottom" />
     <LinearLayout
-        android:id="@id/al_exo_minimal_controls"
+        android:id="@+id/al_exo_minimal_controls"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom|center"
@@ -92,11 +92,11 @@
         android:layoutDirection="ltr"
         android:orientation="horizontal">
         <ImageButton
-            android:id="@id/al_exo_minimal_fullscreen"
+            android:id="@+id/al_exo_minimal_fullscreen"
             style="@style/AppLovinExoStyledControls_Button_Bottom_FullScreen" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/al_exo_center_controls"
+        android:id="@+id/al_exo_center_controls"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -105,15 +105,15 @@
         android:gravity="center"
         android:padding="@dimen/al_exo_styled_controls_padding">
         <ImageButton
-            android:id="@id/al_exo_prev"
+            android:id="@+id/al_exo_prev"
             style="@style/AppLovinExoStyledControls_Button_Center_Previous" />
         <include layout="@layout/applovin_exo_styled_player_control_rewind_button" />
         <ImageButton
-            android:id="@id/al_exo_play_pause"
+            android:id="@+id/al_exo_play_pause"
             style="@style/AppLovinExoStyledControls_Button_Center_PlayPause" />
         <include layout="@layout/applovin_exo_styled_player_control_ffwd_button" />
         <ImageButton
-            android:id="@id/al_exo_next"
+            android:id="@+id/al_exo_next"
             style="@style/AppLovinExoStyledControls_Button_Center_Next" />
     </LinearLayout>
 </merge>

@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/move_layout"
+        android:id="@+id/move_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px56"
         android:layout_gravity="bottom"
         android:background="@color/app_dcolor_background">
         <ImageView
-            android:id="@id/btn_title_ok"
+            android:id="@+id/btn_title_ok"
             android:layout_width="@dimen/px56"
             android:layout_height="@dimen/px56"
             android:layout_alignParentEnd="true"
@@ -19,7 +19,7 @@
             android:scaleType="centerInside"
             android:src="@drawable/gallery_shape_next_ico_enable_true" />
         <EditText
-            android:id="@id/title_input"
+            android:id="@+id/title_input"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"

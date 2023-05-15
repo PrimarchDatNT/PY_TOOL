@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/black">
     <TextView
-        android:id="@id/tv_title"
+        android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -14,7 +14,7 @@
         android:textSize="14.0dip"
         android:textStyle="bold" />
     <ImageView
-        android:id="@id/iv_vip"
+        android:id="@+id/iv_vip"
         android:layout_width="20.0dip"
         android:layout_height="20.0dip"
         android:layout_alignTop="@id/tv_title"
@@ -24,7 +24,7 @@
         android:layout_toEndOf="@id/tv_title"
         android:layout_toRightOf="@id/tv_title" />
     <ImageView
-        android:id="@id/iv_vip_free_of_time_limit"
+        android:id="@+id/iv_vip_free_of_time_limit"
         android:layout_width="36.0dip"
         android:layout_height="16.0dip"
         android:layout_alignTop="@id/tv_title"
@@ -34,7 +34,7 @@
         android:layout_toEndOf="@id/tv_title"
         android:layout_toRightOf="@id/tv_title" />
     <TextView
-        android:id="@id/tv_low"
+        android:id="@+id/tv_low"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_title"
@@ -47,7 +47,7 @@
         android:textColor="@color/white"
         android:textSize="14.0dip" />
     <TextView
-        android:id="@id/tv_high"
+        android:id="@+id/tv_high"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_title"
@@ -60,7 +60,7 @@
         android:textColor="@color/white"
         android:textSize="14.0dip" />
     <SeekBar
-        android:id="@id/sb_volume"
+        android:id="@+id/sb_volume"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_title"

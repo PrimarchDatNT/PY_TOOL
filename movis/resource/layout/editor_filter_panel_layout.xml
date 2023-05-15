@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/rc_editor_filter"
+        android:id="@+id/rc_editor_filter"
         android:layout_width="match_parent"
         android:layout_height="100.0dip"
         android:layout_marginTop="10.0dip"

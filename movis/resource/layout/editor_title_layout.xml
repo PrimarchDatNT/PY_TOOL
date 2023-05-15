@@ -4,7 +4,7 @@
     android:layout_height="44.0dip"
     android:background="@drawable/editor_shape_preview_title">
     <ImageButton
-        android:id="@id/editor_back_btn"
+        android:id="@+id/editor_back_btn"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_centerVertical="true"
@@ -14,7 +14,7 @@
         android:paddingRight="5.0dip"
         android:src="@drawable/v4_xiaoying_cam_btn_cam_cancel" />
     <ImageButton
-        android:id="@id/editor_undo_btn"
+        android:id="@+id/editor_undo_btn"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_centerVertical="true"
@@ -27,7 +27,7 @@
         android:src="@drawable/editor_perform_undo_icon"
         android:visibility="gone" />
     <ImageButton
-        android:id="@id/editor_redo_btn"
+        android:id="@+id/editor_redo_btn"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_centerVertical="true"
@@ -48,7 +48,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/editor_edit_lesson"
+            android:id="@+id/editor_edit_lesson"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -62,7 +62,7 @@
             android:src="@drawable/editor_btn_edit_lesson"
             android:visibility="gone" />
         <TextView
-            android:id="@id/editor_draft"
+            android:id="@+id/editor_draft"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -78,7 +78,7 @@
             android:textSize="16.0sp"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/editor_publish"
+            android:id="@+id/editor_publish"
             android:layout_width="wrap_content"
             android:layout_height="28.0dip"
             android:layout_marginStart="5.0dip"

@@ -4,13 +4,13 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <RelativeLayout
-        android:id="@id/tt_dislike_title_content"
+        android:id="@+id/tt_dislike_title_content"
         android:layout_width="match_parent"
         android:layout_height="44.0dip"
         android:background="@drawable/tt_dislike_top_bg"
         android:visibility="gone">
         <TextView
-            android:id="@id/tt_dislike_header_back"
+            android:id="@+id/tt_dislike_header_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -21,7 +21,7 @@
             android:textColor="@color/tt_header_font"
             android:textSize="14.0sp" />
         <TextView
-            android:id="@id/tt_dislike_header_tv"
+            android:id="@+id/tt_dislike_header_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -31,7 +31,7 @@
             android:textSize="15.0sp" />
     </RelativeLayout>
     <View
-        android:id="@id/tt_dislike_line1"
+        android:id="@+id/tt_dislike_line1"
         android:layout_width="match_parent"
         android:layout_height="1.0dip"
         android:background="@color/tt_divider" />
@@ -39,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <com.bytedance.sdk.openadsdk.dislike.TTDislikeListView
-            android:id="@id/tt_filer_words_lv"
+            android:id="@+id/tt_filer_words_lv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:divider="@color/tt_divider"
@@ -47,7 +47,7 @@
             android:listSelector="@color/tt_transparent"
             android:scrollbars="none" />
         <com.bytedance.sdk.openadsdk.dislike.TTDislikeListView
-            android:id="@id/tt_filer_words_lv_second"
+            android:id="@+id/tt_filer_words_lv_second"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:divider="@color/tt_divider"

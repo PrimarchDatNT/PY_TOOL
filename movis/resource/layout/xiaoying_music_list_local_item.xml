@@ -7,7 +7,7 @@
     android:gravity="center_vertical"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/music_item_title_layout"
+        android:id="@+id/music_item_title_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px64"
         android:background="@drawable/btn_dcolor_ripple"
@@ -27,7 +27,7 @@
             android:layout_weight="1.0"
             android:orientation="vertical">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/music_item_title"
+                android:id="@+id/music_item_title"
                 android:layout_width="match_parent"
                 android:layout_height="0.0dip"
                 android:layout_weight="1.0"
@@ -42,7 +42,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/music_item_subtitle"
+                    android:id="@+id/music_item_subtitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
@@ -54,7 +54,7 @@
                     app:layout_constraintRight_toLeftOf="@id/music_item_space_line"
                     app:layout_constraintTop_toTopOf="parrent" />
                 <View
-                    android:id="@id/music_item_space_line"
+                    android:id="@+id/music_item_space_line"
                     android:layout_width="1.0dip"
                     android:layout_height="8.0dip"
                     android:layout_marginStart="12.0dip"
@@ -64,7 +64,7 @@
                     app:layout_constraintRight_toLeftOf="@id/music_item_duration"
                     app:layout_constraintTop_toTopOf="parrent" />
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/music_item_duration"
+                    android:id="@+id/music_item_duration"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
@@ -78,7 +78,7 @@
             </LinearLayout>
         </LinearLayout>
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/music_item_use_btn"
+            android:id="@+id/music_item_use_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/px16"
@@ -94,7 +94,7 @@
             android:visibility="visible" />
     </LinearLayout>
     <ViewStub
-        android:id="@id/music_item_player"
+        android:id="@+id/music_item_player"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px96"
         android:layout="@layout/list_item_music_player" />

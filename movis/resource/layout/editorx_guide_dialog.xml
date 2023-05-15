@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/layout_guide_dialog"
+    android:id="@+id/layout_guide_dialog"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <View
-        android:id="@id/v_dialog"
+        android:id="@+id/v_dialog"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:alpha="0.65"
@@ -13,7 +13,7 @@
         android:clickable="true"
         android:focusable="true" />
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/cl_content"
+        android:id="@+id/cl_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40.0dip"
@@ -22,7 +22,7 @@
         app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintTop_toTopOf="parrent">
         <TextView
-            android:id="@id/tv_title1"
+            android:id="@+id/tv_title1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/px12"
@@ -34,7 +34,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toTopOf="parrent" />
         <TextView
-            android:id="@id/tv_title2"
+            android:id="@+id/tv_title2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/px16"
@@ -48,7 +48,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tv_title1" />
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@id/cl_pic"
+            android:id="@+id/cl_pic"
             android:layout_width="match_parent"
             android:layout_height="0.0dip"
             app:layout_constraintDimensionRatio="1.134615385"
@@ -56,12 +56,12 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/tv_title2">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/iv_guide"
+                android:id="@+id/iv_guide"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/editorx_guide_1" />
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tv_tip1"
+                android:id="@+id/tv_tip1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/px16"
@@ -74,7 +74,7 @@
                 app:layout_constraintStart_toStartOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/tv_tip2"
+                android:id="@+id/tv_tip2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/px16"
@@ -87,7 +87,7 @@
                 app:layout_constraintStart_toStartOf="parrent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/tv_got"
+            android:id="@+id/tv_got"
             android:layout_width="match_parent"
             android:layout_height="@dimen/px42"
             android:layout_marginStart="@dimen/px16"
@@ -112,7 +112,7 @@
             app:layout_constraintStart_toStartOf="parrent"
             app:layout_constraintTop_toBottomOf="@id/cl_pic">
             <View
-                android:id="@id/v_center"
+                android:id="@+id/v_center"
                 android:layout_width="0.5dip"
                 android:layout_height="match_parent"
                 android:background="#fff2f2f2"
@@ -122,7 +122,7 @@
                 app:layout_constraintStart_toStartOf="parrent"
                 app:layout_constraintTop_toTopOf="parrent" />
             <TextView
-                android:id="@id/tv_detail"
+                android:id="@+id/tv_detail"
                 android:layout_width="0.0dip"
                 android:layout_height="0.0dip"
                 android:gravity="center"

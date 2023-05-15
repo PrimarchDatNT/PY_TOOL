@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/layout_main"
+        android:id="@+id/layout_main"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px214"
         android:layout_gravity="bottom"
         android:layout_marginBottom="@dimen/px56"
         android:background="@color/app_dcolor_background">
         <RelativeLayout
-            android:id="@id/top_layout"
+            android:id="@+id/top_layout"
             android:layout_width="match_parent"
             android:layout_height="48.0dip">
             <TextView
@@ -29,21 +29,21 @@
                 android:background="@color/app_dcolor_indicator" />
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/theme_subtitle_list"
+            android:id="@+id/theme_subtitle_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/top_layout"
             android:paddingTop="@dimen/px12" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/theme_bottom_bar"
+        android:id="@+id/theme_bottom_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px56"
         android:layout_gravity="bottom"
         android:background="@color/app_dcolor_bg_1"
         app:layout_constraintBottom_toBottomOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/btnDone"
+            android:id="@+id/btnDone"
             android:layout_width="@dimen/px56"
             android:layout_height="@dimen/px56"
             android:layout_alignParentEnd="true"
@@ -53,14 +53,14 @@
             android:src="@drawable/gallery_checked_select_item" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/move_layout"
+        android:id="@+id/move_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="@color/app_dcolor_background"
         android:visibility="gone">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/btn_title_ok"
+            android:id="@+id/btn_title_ok"
             android:layout_width="@dimen/px56"
             android:layout_height="@dimen/px56"
             android:layout_alignParentEnd="true"
@@ -70,7 +70,7 @@
             android:scaleType="centerInside"
             android:src="@drawable/gallery_checked_select_item" />
         <EditText
-            android:id="@id/title_input"
+            android:id="@+id/title_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
