@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <ProgressBar
-            android:id="@id/nk"
-            style="@style/xv"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/cam_music_progressbar"
+            style="@style/xiaoying_music_progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:max="1000"
             android:visibility="invisible" />
     </RelativeLayout>
     <ImageView
-        android:id="@id/a53"
+        android:id="@id/img_back"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:layout_marginStart="8.0dip"
         android:layout_marginLeft="8.0dip"
         android:scaleType="centerInside"
-        android:src="@drawable/asm" />
+        android:src="@drawable/v4_xiaoying_cam_btn_cam_cancel_selector" />
     <TextView
-        android:id="@id/mz"
+        android:id="@id/cam_btn_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -34,55 +34,55 @@
         android:layout_marginEnd="8.0dip"
         android:layout_marginRight="8.0dip"
         android:fontFamily="sans-serif"
-        android:text="@string/w7"
-        android:textColor="@color/l3"
+        android:text="@string/xiaoying_str_com_next_step_title"
+        android:textColor="@color/color_ff774e"
         android:textSize="17.0sp" />
     <RelativeLayout
-        android:id="@id/uk"
+        android:id="@id/duration_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
         <RelativeLayout
-            android:id="@id/b9y"
+            android:id="@id/time_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true">
             <TextView
-                android:id="@id/bj0"
+                android:id="@id/txt_record_mode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:gravity="center"
                 android:singleLine="true"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="17.0sp"
                 android:visibility="invisible" />
             <TextView
-                android:id="@id/nn"
+                android:id="@id/cam_recording_total_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:gravity="center"
                 android:singleLine="true"
                 android:text="12.1"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="17.0sp"
                 android:visibility="visible" />
             <LinearLayout
-                android:id="@id/nm"
+                android:id="@id/cam_pip_duration_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:gravity="center"
                 android:visibility="gone">
                 <TextView
-                    android:id="@id/biu"
+                    android:id="@id/txt_current_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="end"
                     android:singleLine="true"
                     android:text="0.0"
-                    android:textColor="@color/zo"
+                    android:textColor="@color/white"
                     android:textSize="24.0sp" />
                 <ImageView
                     android:layout_width="wrap_content"
@@ -91,9 +91,9 @@
                     android:layout_marginLeft="5.0dip"
                     android:layout_marginEnd="5.0dip"
                     android:layout_marginRight="5.0dip"
-                    android:src="@drawable/b0t" />
+                    android:src="@drawable/xiaoying_cam_time_line" />
                 <TextView
-                    android:id="@id/bj3"
+                    android:id="@id/txt_total_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:singleLine="true"
@@ -106,16 +106,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_toEndOf="@id/b9y"
-            android:layout_toRightOf="@id/b9y">
+            android:layout_toEndOf="@id/time_layout"
+            android:layout_toRightOf="@id/time_layout">
             <TextView
-                android:id="@id/n3"
+                android:id="@id/cam_clip_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="2.0dip"
                 android:layout_marginLeft="2.0dip"
-                android:background="@drawable/avs"
+                android:background="@drawable/v5_xiaoying_cam_clipcount_text_bg_shape"
                 android:gravity="center"
                 android:minWidth="20.0dip"
                 android:paddingStart="1.0dip"
@@ -125,16 +125,16 @@
                 android:paddingRight="1.0dip"
                 android:paddingBottom="2.0dip"
                 android:text="000"
-                android:textColor="@color/l3"
+                android:textColor="@color/color_ff774e"
                 android:textSize="12.0sp" />
         </RelativeLayout>
     </RelativeLayout>
     <ImageView
-        android:id="@id/a50"
+        android:id="@id/img_arrow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5.0dip"
-        android:src="@drawable/au7" />
+        android:src="@drawable/v4_xiaoying_cam_time_arrow" />
 </RelativeLayout>

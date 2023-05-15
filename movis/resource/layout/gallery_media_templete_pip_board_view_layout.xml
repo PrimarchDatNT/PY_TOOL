@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="150.0dip"
-    android:background="@drawable/adx">
+    android:background="@drawable/gallery_board_bg">
     <LinearLayout
-        android:id="@id/b_g"
-        android:layout_width="fill_parent"
+        android:id="@id/title_layout"
+        android:layout_width="match_parent"
         android:layout_height="36.0dip"
         android:layout_marginTop="12.0dip"
         android:gravity="center_vertical">
         <TextView
-            android:id="@id/bit"
-            style="@style/x3"
+            android:id="@id/txt_clip_count"
+            style="@style/veds_latn_font_body_14"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_marginStart="16.0dip"
@@ -21,11 +21,11 @@
             android:gravity="center_vertical"
             android:includeFontPadding="false"
             android:maxLines="1"
-            android:text="@string/awu"
+            android:text="@string/xy_module_album_template_selected_count_description"
             android:textColor="#ff2e3238" />
         <TextView
-            android:id="@id/l6"
-            style="@style/x5"
+            android:id="@id/btn_next"
+            style="@style/veds_latn_font_button_14"
             android:layout_width="28.0dip"
             android:layout_height="28.0dip"
             android:layout_alignParentEnd="true"
@@ -33,22 +33,22 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="16.0dip"
             android:layout_marginRight="16.0dip"
-            android:background="@drawable/ae0"
+            android:background="@drawable/gallery_board_next_btn_selector"
             android:gravity="center"
             android:includeFontPadding="false"
             android:minWidth="36.0dip"
             android:paddingLeft="12.0dip"
             android:paddingRight="12.0dip"
-            android:textColor="@drawable/ah0" />
+            android:textColor="@drawable/gallery_selector_templete_next_text_color" />
     </LinearLayout>
     <com.videoedit.gallery.widget.kit.supertimeline.view.KitTimeLine
-        android:id="@id/ac8"
-        android:layout_width="fill_parent"
+        android:id="@id/kit_timeline"
+        android:layout_width="match_parent"
         android:layout_height="150.0dip"
         android:layout_alignParentBottom="true" />
     <TextView
-        android:id="@id/bg4"
-        style="@style/x7"
+        android:id="@id/tv_move_tip"
+        style="@style/veds_latn_font_caption_10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -57,6 +57,6 @@
         android:layout_marginBottom="12.0dip"
         android:drawablePadding="4.0dip"
         android:gravity="center_vertical"
-        android:text="@string/aws"
-        android:textColor="@color/zl" />
+        android:text="@string/xy_module_album_template_selected_change_position_tip"
+        android:textColor="@color/veds_color_fill_white_4" />
 </RelativeLayout>

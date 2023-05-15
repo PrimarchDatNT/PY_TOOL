@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/av4"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:id="@id/relativelayout_seekbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <ImageButton
-        android:id="@id/b0t"
+        android:id="@id/seekbar_play"
         android:layout_width="38.0dip"
         android:layout_height="38.0dip"
         android:layout_centerVertical="true"
@@ -14,9 +14,9 @@
         android:contentDescription="@null"
         android:padding="6.0dip"
         android:scaleType="centerCrop"
-        android:src="@drawable/uz" />
+        android:src="@drawable/editor_selector_video_play_icon" />
     <TextView
-        android:id="@id/bjc"
+        android:id="@id/txtview_cur_time"
         android:layout_width="wrap_content"
         android:layout_height="30.0dip"
         android:layout_alignParentStart="true"
@@ -32,21 +32,21 @@
         android:shadowRadius="1.0"
         android:singleLine="true"
         android:text=""
-        android:textColor="@color/zz"
+        android:textColor="@color/white_p50"
         android:textSize="12.0sp" />
     <SeekBar
-        android:id="@id/b0u"
-        android:layout_width="fill_parent"
+        android:id="@id/seekbar_simple_edit"
+        android:layout_width="match_parent"
         android:layout_height="30.0dip"
         android:layout_centerVertical="true"
         android:layout_marginStart="-4.0dip"
         android:layout_marginLeft="-4.0dip"
         android:layout_marginEnd="-4.0dip"
         android:layout_marginRight="-4.0dip"
-        android:layout_toStartOf="@id/bjf"
-        android:layout_toLeftOf="@id/bjf"
-        android:layout_toEndOf="@id/bjc"
-        android:layout_toRightOf="@id/bjc"
+        android:layout_toStartOf="@id/txtview_duration"
+        android:layout_toLeftOf="@id/txtview_duration"
+        android:layout_toEndOf="@id/txtview_cur_time"
+        android:layout_toRightOf="@id/txtview_cur_time"
         android:focusable="true"
         android:max="100"
         android:maxHeight="2.0dip"
@@ -55,13 +55,13 @@
         android:paddingEnd="4.0dip"
         android:paddingRight="4.0dip"
         android:progress="0"
-        android:progressDrawable="@drawable/b4r"
+        android:progressDrawable="@drawable/xiaoying_music_extarct_direct_layer_preview_seekbar_progress"
         android:splitTrack="false"
-        android:thumb="@drawable/b50"
+        android:thumb="@drawable/xiaoying_music_extract_selector_video_seekbar"
         android:thumbOffset="4.0dip"
         android:visibility="visible" />
     <TextView
-        android:id="@id/bjf"
+        android:id="@id/txtview_duration"
         android:layout_width="wrap_content"
         android:layout_height="30.0dip"
         android:layout_alignParentEnd="true"
@@ -77,6 +77,6 @@
         android:shadowRadius="1.0"
         android:singleLine="true"
         android:text=""
-        android:textColor="@color/zz"
+        android:textColor="@color/white_p50"
         android:textSize="12.0sp" />
 </RelativeLayout>

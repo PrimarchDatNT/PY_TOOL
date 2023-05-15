@@ -7,6 +7,6 @@
         </shape>
     </item>
     <item>
-        <bitmap android:src="@drawable/aod" />
+        <bitmap android:src="@drawable/privilege_user_top_bg" />
     </item>
 </layer-list>

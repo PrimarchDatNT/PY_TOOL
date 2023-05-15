@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="40.0dip"
-    android:background="@color/jf">
+    android:background="@color/color_f2f2f2">
     <RelativeLayout
-        android:id="@id/a7u"
-        android:layout_width="fill_parent"
+        android:id="@id/item_layout"
+        android:layout_width="match_parent"
         android:layout_height="20.0dip"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="6.0dip"
-        android:background="@color/xz"
+        android:background="@color/transparent"
         android:paddingStart="16.0dip"
         android:paddingLeft="16.0dip"
         android:paddingEnd="16.0dip"
         android:paddingRight="16.0dip">
         <TextView
-            android:id="@id/b_5"
+            android:id="@id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -24,32 +24,32 @@
             android:focusable="true"
             android:fontFamily="sans-serif"
             android:text="Theme"
-            android:textColor="@color/g9"
+            android:textColor="@color/color_8E8E93"
             android:textSize="12.0sp" />
         <TextView
-            android:id="@id/b_l"
+            android:id="@id/titlecount"
             android:layout_width="16.0dip"
             android:layout_height="16.0dip"
             android:layout_centerVertical="true"
             android:layout_marginStart="5.0dip"
             android:layout_marginLeft="5.0dip"
-            android:layout_toEndOf="@id/b_5"
-            android:layout_toRightOf="@id/b_5"
-            android:background="@drawable/arj"
+            android:layout_toEndOf="@id/title"
+            android:layout_toRightOf="@id/title"
+            android:background="@drawable/template_materials_news_bg"
             android:gravity="center"
             android:text="0"
-            android:textColor="@color/n_"
+            android:textColor="@color/default_app_color"
             android:textSize="9.0sp" />
         <Button
-            android:id="@id/kq"
+            android:id="@id/btn_download"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/b4d"
-            android:text="@string/td"
-            android:textColor="@color/fp"
+            android:background="@drawable/xiaoying_com_trans_bg"
+            android:text="@string/xiaoying_str_com_download_all"
+            android:textColor="@color/color_666666"
             android:textSize="12.0sp" />
     </RelativeLayout>
 </RelativeLayout>

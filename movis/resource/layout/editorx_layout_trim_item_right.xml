@@ -2,22 +2,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="134.0dip"
     android:layout_height="40.0dip"
-    android:background="@drawable/a90"
+    android:background="@drawable/editorx_shape_trim_item"
     android:gravity="end|center"
     android:orientation="horizontal">
     <TextView
-        android:id="@id/b8b"
+        android:id="@id/textView"
         android:layout_width="100.0dip"
         android:layout_height="wrap_content"
         android:layout_marginEnd="6.0dip"
         android:ellipsize="end"
         android:gravity="end"
         android:maxLines="2"
-        android:textColor="@color/eq"
+        android:textColor="@color/color_333333"
         android:textSize="14.0sp"
         android:textStyle="bold" />
     <ImageView
-        android:id="@id/a40"
+        android:id="@id/imageView"
         android:layout_width="16.0dip"
         android:layout_height="16.0dip"
         android:layout_marginEnd="12.0dip" />

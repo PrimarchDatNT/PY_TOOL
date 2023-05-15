@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/ax0"
+    android:id="@id/rl_regulator"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <ImageButton
-        android:id="@id/aay"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/iv_regulator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:background="@null"
-        android:src="@drawable/yv"
+        android:src="@drawable/editorx_bg_regulator_icon"
         android:visibility="gone" />
     <ImageButton
-        android:id="@id/a_6"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/iv_collapse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:background="@null"
-        android:src="@drawable/yt"
+        android:src="@drawable/editorx_bg_collapse_icon"
         android:visibility="gone" />
 </RelativeLayout>

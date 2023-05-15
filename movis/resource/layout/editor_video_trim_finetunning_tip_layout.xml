@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/bqo"
-    android:layout_width="fill_parent"
+    android:id="@id/xiaoying_relativelayout_finetunning_help"
+    android:layout_width="match_parent"
     android:layout_height="30.0dip"
-    android:background="@color/l8">
+    android:background="@color/color_ff774e_p80">
     <TextView
-        android:id="@id/br7"
-        android:layout_width="fill_parent"
+        android:id="@id/xiaoying_txtview_help_tip"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="10.0dip"
         android:layout_marginLeft="10.0dip"
-        android:layout_toStartOf="@id/bpf"
-        android:layout_toLeftOf="@id/bpf"
+        android:layout_toStartOf="@id/xiaoying_btn_hide"
+        android:layout_toLeftOf="@id/xiaoying_btn_hide"
         android:gravity="start"
         android:padding="5.0dip"
-        android:text="@string/am4"
-        android:textColor="@color/zo"
+        android:text="@string/xiaoying_str_ve_import_fine_tunning_help_tip"
+        android:textColor="@color/white"
         android:textSize="14.0sp" />
     <Button
-        android:id="@id/bpf"
+        android:id="@id/xiaoying_btn_hide"
         android:layout_width="30.0dip"
         android:layout_height="30.0dip"
         android:layout_alignParentEnd="true"
@@ -27,5 +27,5 @@
         android:layout_centerVertical="true"
         android:layout_marginEnd="10.0dip"
         android:layout_marginRight="10.0dip"
-        android:background="@drawable/e0" />
+        android:background="@drawable/app_default_close_white" />
 </RelativeLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@dimen/cl" android:insetTop="@dimen/cl" android:insetRight="@dimen/cl" android:insetBottom="@dimen/cl">
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@dimen/appcompat_dialog_background_inset" android:insetTop="@dimen/appcompat_dialog_background_inset" android:insetRight="@dimen/appcompat_dialog_background_inset" android:insetBottom="@dimen/appcompat_dialog_background_inset">
     <shape android:shape="rectangle">
-        <corners android:radius="@dimen/r_" />
+        <corners android:radius="@dimen/mtrl_shape_corner_size_medium_component" />
         <solid android:color="?hw" />
     </shape>
 </inset>

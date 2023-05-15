@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/bs"
-        android:background="@color/ag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ad_View"
+        android:background="@color/app_dcolor_background"
         android:gravity="center"
         android:orientation="vertical">
         <com.videoapp.videomakermaster.ads.ExportAdView
-            android:id="@id/c_"
-            android:layout_width="fill_parent"
+            android:id="@id/ad_view"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/tz" />
+            android:layout_marginBottom="@dimen/px16" />
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <com.videoai.aivpcore.editor.export.beaut.ExportProgressBar
-                android:id="@id/act"
+                android:id="@id/layoutProgressBar"
                 style="?android:progressBarStyleHorizontal"
-                android:layout_width="@dimen/v2"
-                android:layout_height="@dimen/v2"
+                android:layout_width="@dimen/px230"
+                android:layout_height="@dimen/px230"
                 android:layout_gravity="center"
-                android:background="@drawable/k1"
+                android:background="@drawable/circle_shape"
                 android:max="100"
                 android:progress="0"
-                android:progressDrawable="@drawable/k3"
-                android:secondaryProgressTint="@color/n_" />
+                android:progressDrawable="@drawable/circular_progress_bar"
+                android:secondaryProgressTint="@color/default_app_color" />
             <TextView
-                android:id="@id/bbz"
+                android:id="@id/tvProgress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="0%"
-                android:textColor="@color/d6"
-                android:textSize="@dimen/z9"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/sp30"
                 android:textStyle="bold" />
         </FrameLayout>
         <TextView
-            android:id="@id/bbf"
+            android:id="@id/tvDuration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="@dimen/ul"
+            android:layout_marginTop="@dimen/px20"
             android:text="Loading..."
-            android:textColor="@color/zo"
-            android:textSize="@dimen/yz" />
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp12" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bb5"
-            android:layout_width="fill_parent"
+            android:id="@id/tvBottomHint"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginStart="@dimen/tz"
-            android:layout_marginTop="@dimen/ul"
-            android:layout_marginEnd="@dimen/tz"
+            android:layout_marginStart="@dimen/px16"
+            android:layout_marginTop="@dimen/px20"
+            android:layout_marginEnd="@dimen/px16"
             android:gravity="center"
-            android:text="@string/abk"
-            android:textColor="@color/ao"
-            android:textSize="@dimen/yz"
+            android:text="@string/xiaoying_str_prj_export_exporting_tips_v8"
+            android:textColor="@color/app_dcolor_text_1"
+            android:textSize="@dimen/sp12"
             app:autoSizeTextType="bjy" />
     </LinearLayout>
     <com.videoapp.videomakermaster.ads.ExportBannerAdview
-        android:id="@id/bs"
-        android:layout_width="fill_parent"
+        android:id="@id/ad_View"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_gravity="bottom"

@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <ImageView
-        android:id="@id/a_5"
+        android:id="@id/iv_close"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_marginStart="15.0dip"
         android:layout_marginTop="42.0dip"
-        android:src="@drawable/alb"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        android:src="@drawable/introduce_close"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/aam"
+        android:id="@id/iv_logo"
         android:layout_width="168.0dip"
         android:layout_height="28.0dip"
-        android:src="@drawable/ald"
-        app:layout_constraintBottom_toBottomOf="@id/a_5"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="@id/a_5" />
+        android:src="@drawable/introduce_logo"
+        app:layout_constraintBottom_toBottomOf="@id/iv_close"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="@id/iv_close" />
     <RelativeLayout
-        android:id="@id/nx"
+        android:id="@id/card_view"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:layout_marginStart="30.0dip"
         android:layout_marginTop="50.0dip"
         android:layout_marginEnd="30.0dip"
         android:layout_marginBottom="30.0dip"
-        android:background="@drawable/al_"
-        app:layout_constraintBottom_toTopOf="@id/bi9"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/aam">
+        android:background="@drawable/introduce_bg"
+        app:layout_constraintBottom_toTopOf="@id/tv_title"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/iv_logo">
         <androidx.viewpager.widget.ViewPager
-            android:id="@id/bmp"
+            android:id="@id/viewPager"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/ahw"
+        android:id="@id/ll_dot"
         android:layout_width="wrap_content"
         android:layout_height="30.0dip"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="@id/nx"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv" />
+        app:layout_constraintBottom_toBottomOf="@id/card_view"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent" />
     <TextView
-        android:id="@id/bi9"
-        android:layout_width="fill_parent"
+        android:id="@id/tv_title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40.0dip"
         android:layout_marginEnd="40.0dip"
@@ -59,12 +59,12 @@
         android:textColor="#ff333333"
         android:textSize="24.0sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@id/bdx"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv" />
+        app:layout_constraintBottom_toTopOf="@id/tv_desc"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent" />
     <TextView
-        android:id="@id/bdx"
-        android:layout_width="fill_parent"
+        android:id="@id/tv_desc"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40.0dip"
         android:layout_marginEnd="40.0dip"
@@ -75,25 +75,25 @@
         android:text="Description"
         android:textColor="#ff666666"
         android:textSize="16.0sp"
-        app:layout_constraintBottom_toTopOf="@id/fh"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv" />
+        app:layout_constraintBottom_toTopOf="@id/apply_btn"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent" />
     <TextView
-        android:id="@id/fh"
-        android:layout_width="fill_parent"
+        android:id="@id/apply_btn"
+        android:layout_width="match_parent"
         android:layout_height="52.0dip"
-        android:layout_below="@id/bdx"
+        android:layout_below="@id/tv_desc"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="40.0dip"
         android:layout_marginEnd="40.0dip"
         android:layout_marginBottom="24.0dip"
-        android:background="@drawable/ala"
+        android:background="@drawable/introduce_botton_bg"
         android:gravity="center"
         android:minWidth="113.0dip"
-        android:text="@string/a93"
+        android:text="@string/xiaoying_str_introduce_apply_title"
         android:textColor="#ffffffff"
         android:textSize="18.0sp"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

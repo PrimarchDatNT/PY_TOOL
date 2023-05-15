@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="48.0dip"
-    android:background="@color/xz">
+    android:background="@color/transparent">
     <ImageView
-        android:id="@id/mu"
+        android:id="@id/cam_btn_cancel"
         android:layout_width="44.0dip"
         android:layout_height="44.0dip"
         android:layout_centerVertical="true"
         android:layout_marginStart="3.5dip"
         android:layout_marginLeft="3.5dip"
-        android:src="@drawable/azu" />
+        android:src="@drawable/xiaoying_cam_icon_cancel" />
     <com.videoai.aivpcore.camera.ui.view.CaptrueRatioImageView
-        android:id="@id/n1"
+        android:id="@id/cam_btn_ratio"
         android:layout_width="44.0dip"
         android:layout_height="44.0dip"
         android:layout_centerVertical="true"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
         <TextView
-            android:id="@id/nn"
+            android:id="@id/cam_recording_total_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="bottom"
@@ -34,19 +34,19 @@
             android:shadowDy="1.0"
             android:shadowRadius="2.0"
             android:singleLine="true"
-            android:textColor="@color/zo"
+            android:textColor="@color/white"
             android:textSize="20.0sp"
             android:visibility="visible" />
         <TextView
-            android:id="@id/n3"
+            android:id="@id/cam_clip_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginStart="5.0dip"
             android:layout_marginLeft="5.0dip"
-            android:layout_toEndOf="@id/nn"
-            android:layout_toRightOf="@id/nn"
-            android:background="@drawable/avs"
+            android:layout_toEndOf="@id/cam_recording_total_time"
+            android:layout_toRightOf="@id/cam_recording_total_time"
+            android:background="@drawable/v5_xiaoying_cam_clipcount_text_bg_shape"
             android:gravity="center"
             android:maxLines="1"
             android:minWidth="17.0dip"
@@ -54,11 +54,11 @@
             android:paddingLeft="1.0dip"
             android:paddingEnd="1.0dip"
             android:paddingRight="1.0dip"
-            android:textColor="@color/l3"
+            android:textColor="@color/color_ff774e"
             android:textSize="12.0sp" />
     </RelativeLayout>
     <ImageView
-        android:id="@id/a5s"
+        android:id="@id/img_switch"
         android:layout_width="44.0dip"
         android:layout_height="44.0dip"
         android:layout_alignParentEnd="true"
@@ -67,9 +67,9 @@
         android:layout_marginEnd="73.0dip"
         android:layout_marginRight="73.0dip"
         android:scaleType="centerInside"
-        android:src="@drawable/b00" />
+        android:src="@drawable/xiaoying_cam_icon_swap" />
     <ImageView
-        android:id="@id/n2"
+        android:id="@id/cam_btn_setting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -77,5 +77,5 @@
         android:layout_centerVertical="true"
         android:layout_marginEnd="3.5dip"
         android:layout_marginRight="3.5dip"
-        android:src="@drawable/azz" />
+        android:src="@drawable/xiaoying_cam_icon_setting" />
 </RelativeLayout>

@@ -3,8 +3,8 @@
     android:layout_width="wrap_content"
     android:layout_height="100.0dip">
     <LinearLayout
-        android:id="@id/b_w"
-        android:layout_width="fill_parent"
+        android:id="@id/tool_container"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:orientation="horizontal" />

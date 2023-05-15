@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@id/aow" android:drawable="@drawable/jl" android:state_checked="true" />
+        android:id="@id/aow" android:drawable="@drawable/btn_radio_on_mtrl" android:state_checked="true" />
     <item
-        android:id="@id/aov" android:drawable="@drawable/jj" />
+        android:id="@id/aov" android:drawable="@drawable/btn_radio_off_mtrl" />
     <transition
-        android:drawable="@drawable/jm" android:fromId="@id/aow" android:toId="@id/aov" />
+        android:drawable="@drawable/jm" android:fromId="@id/aow" android:toId="@id/off" />
     <transition
-        android:drawable="@drawable/jk" android:fromId="@id/aov" android:toId="@id/aow" />
+        android:drawable="@drawable/jk" android:fromId="@id/aov" android:toId="@id/on" />
 </animated-selector>

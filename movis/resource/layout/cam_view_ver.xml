@@ -1,184 +1,184 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/as3"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/n8"
-        android:background="@color/xz"
+        android:id="@id/preview_layout_fake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/cam_indicator_layout"
+        android:background="@color/transparent"
         android:visibility="gone" />
     <com.videoai.aivpcore.camera.ui.view.PipSwapWidget
-        android:id="@id/aqn"
-        android:layout_width="fill_parent"
+        android:id="@id/pip_swap_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/n8"
+        android:layout_above="@id/cam_indicator_layout"
         android:visibility="gone" />
     <com.videoai.aivpcore.camera.ui.view.indicator.TopIndicator
-        android:id="@id/nf"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/a48" />
+        android:id="@id/cam_layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v4_xiaoying_cam_top_bar_height" />
     <com.videoai.aivpcore.camera.ui.view.BackDeleteProgressBar
-        android:id="@id/h1"
-        android:layout_width="fill_parent"
+        android:id="@id/back_delete_progressbar"
+        android:layout_width="match_parent"
         android:layout_height="8.0dip"
         android:visibility="gone" />
     <RelativeLayout
-        android:id="@id/vw"
+        android:id="@id/effect_tip_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/n8"
-        android:layout_below="@id/nf"
+        android:layout_above="@id/cam_indicator_layout"
+        android:layout_below="@id/cam_layout_title"
         android:layout_centerInParent="true"
         android:gravity="center"
         android:visibility="invisible">
         <TextView
-            android:id="@id/biw"
+            android:id="@id/txt_effect_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/b1s"
+            android:background="@drawable/xiaoying_com_effect_name_bg"
             android:text="fdsfds"
-            android:textColor="@color/zo"
+            android:textColor="@color/white"
             android:textSize="18.0sp" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/bs2"
+        android:id="@id/zoom_tip_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/n8"
-        android:layout_below="@id/nf"
+        android:layout_above="@id/cam_indicator_layout"
+        android:layout_below="@id/cam_layout_title"
         android:layout_centerInParent="true"
         android:visibility="invisible">
         <TextView
-            android:id="@id/bj5"
+            android:id="@id/txt_zoom_value"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:background="@drawable/b8m"
+            android:background="@drawable/zoom_box"
             android:paddingStart="25.0dip"
             android:paddingLeft="25.0dip"
             android:text="x1.0"
-            android:textColor="@color/zo"
+            android:textColor="@color/white"
             android:textSize="18.0sp" />
     </RelativeLayout>
     <com.videoai.aivpcore.camera.ui.shutter.ShutterLayoutPor
-        android:id="@id/b1s"
-        android:layout_width="fill_parent"
+        android:id="@id/shutter_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/el" />
+        android:background="@color/color_313131" />
     <RelativeLayout
-        android:id="@id/n8"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/a45"
-        android:layout_above="@id/b1s"
-        android:background="@color/e6"
+        android:id="@id/cam_indicator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v4_xiaoying_cam_indicator_height"
+        android:layout_above="@id/shutter_layout"
+        android:background="@color/color_212121"
         android:clickable="true"
         android:visibility="visible">
         <com.videoai.aivpcore.camera.ui.view.indicator.IndicatorBar
-            android:id="@id/bpl"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:id="@id/xiaoying_cam_indicator_por"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/n8"
-        android:layout_below="@id/nf">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/cam_indicator_layout"
+        android:layout_below="@id/cam_layout_title">
         <com.videoai.aivpcore.camera.ui.view.TimerView
-            android:id="@id/b_4"
+            android:id="@id/timer_view"
             android:layout_width="106.29999dip"
             android:layout_height="106.29999dip"
             android:layout_centerInParent="true"
             android:visibility="invisible" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/adb"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_2lev"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@id/n8"
-        android:layout_alignBottom="@id/b1s"
-        android:background="@color/el"
+        android:layout_alignTop="@id/cam_indicator_layout"
+        android:layout_alignBottom="@id/shutter_layout"
+        android:background="@color/color_313131"
         android:clickable="true"
         android:visibility="invisible">
         <RelativeLayout
-            android:id="@id/adc"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/a45"
+            android:id="@id/layout_2lev_hide"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/v4_xiaoying_cam_indicator_height"
             android:layout_alignParentTop="true">
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:background="@drawable/b68"
+                android:background="@drawable/xiaoying_ve_clip_edit_down"
                 android:clickable="false" />
         </RelativeLayout>
         <ImageView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="1.0px"
-            android:layout_alignBottom="@id/adc"
+            android:layout_alignBottom="@id/layout_2lev_hide"
             android:layout_marginStart="10.0dip"
             android:layout_marginLeft="10.0dip"
             android:layout_marginEnd="10.0dip"
             android:layout_marginRight="10.0dip"
-            android:background="@color/fx" />
+            android:background="@color/color_707070_p40" />
         <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_below="@id/adc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/layout_2lev_hide"
             android:layout_alignParentBottom="true"
             android:clickable="true"
             android:gravity="center_vertical">
             <com.videoai.aivpcore.ui.view.HotFixRecyclerView
-                android:id="@id/aqm"
-                android:layout_width="fill_parent"
+                android:id="@id/pip_listview"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:visibility="gone" />
             <RelativeLayout
-                android:id="@id/adv"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/layout_cam_speed_por"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:visibility="gone">
                 <com.videoai.aivpcore.ui.view.TextSeekBar
-                    android:id="@id/bpp"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:id="@id/xiaoying_cam_speed_indicator_por"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:visibility="visible" />
                 <com.videoai.aivpcore.ui.view.RotateTextView
-                    android:id="@id/bj2"
+                    android:id="@id/txt_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10.0dip"
-                    android:text="@string/r6"
+                    android:text="@string/xiaoying_str_cam_speed_title"
                     android:textColor="#b2ffffff"
                     android:textSize="10.0sp" />
             </RelativeLayout>
             <com.videoai.aivpcore.camera.ui.view.indicator.SettingIndicator
-                android:id="@id/bpo"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/xiaoying_cam_setting_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:visibility="gone" />
         </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/ni"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/n8">
+        android:id="@id/cam_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/cam_indicator_layout">
         <ImageView
-            android:id="@id/nh"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/cam_loading_down"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentBottom="true"
-            android:background="@drawable/b0d" />
+            android:background="@drawable/xiaoying_cam_lens_cap_buttom" />
         <ImageView
-            android:id="@id/nj"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/cam_loading_up"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentTop="true"
-            android:background="@drawable/b0e" />
+            android:background="@drawable/xiaoying_cam_lens_cap_top" />
     </RelativeLayout>
 </RelativeLayout>

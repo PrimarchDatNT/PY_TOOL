@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.firebase.inappmessaging.display.internal.layout.CardLayoutPortrait xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:fiam="http://schemas.android.com/apk/res-auto"
-    android:id="@id/nv"
-    style="@style/h7"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:id="@id/card_content_root"
+    style="@style/FiamUI_Card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:theme="@style/h5"
-    fiam:maxHeightPct="@dimen/eu"
-    fiam:maxWidthPct="@dimen/ev">
+    android:theme="@style/FiamUI"
+    fiam:maxHeightPct="@dimen/dialogHeightPct"
+    fiam:maxWidthPct="@dimen/dialogWidthPct">
     <ImageView
-        android:id="@id/a4a"
-        style="@style/h_" />
+        android:id="@id/image_view"
+        style="@style/FiamUI_Card_ImageView" />
     <TextView
-        android:id="@id/akp"
-        style="@style/hi"
-        android:paddingLeft="@dimen/st"
-        android:paddingTop="@dimen/st"
-        android:paddingRight="@dimen/st" />
+        android:id="@id/message_title"
+        style="@style/FiamUI_Text_Title"
+        android:paddingLeft="@dimen/paddingSmall"
+        android:paddingTop="@dimen/paddingSmall"
+        android:paddingRight="@dimen/paddingSmall" />
     <ScrollView
-        android:id="@id/ik"
-        style="@style/ha">
+        android:id="@id/body_scroll"
+        style="@style/FiamUI_Card_Scroll">
         <TextView
-            android:id="@id/ako"
-            style="@style/he" />
+            android:id="@id/message_body"
+            style="@style/FiamUI_ModalBody" />
     </ScrollView>
     <LinearLayout
-        android:id="@id/b8"
-        style="@style/h8">
+        android:id="@id/action_bar"
+        style="@style/FiamUI_Card_ActionBar">
         <Button
-            android:id="@id/b0e"
-            style="@style/h9" />
+            android:id="@id/secondary_button"
+            style="@style/FiamUI_Card_ActionBar_Button" />
         <Button
-            android:id="@id/as6"
-            style="@style/h9" />
+            android:id="@id/primary_button"
+            style="@style/FiamUI_Card_ActionBar_Button" />
     </LinearLayout>
 </com.google.firebase.inappmessaging.display.internal.layout.CardLayoutPortrait>

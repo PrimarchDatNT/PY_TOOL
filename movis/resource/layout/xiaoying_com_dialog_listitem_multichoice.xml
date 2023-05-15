@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:descendantFocusability="blocksDescendants"
     android:orientation="horizontal"
-    android:paddingStart="@dimen/mi"
-    android:paddingLeft="@dimen/mi"
-    android:paddingEnd="@dimen/mi">android:paddingRight="@dimen/md_dialog_frame_margin">
+    android:paddingStart="@dimen/md_dialog_frame_margin"
+    android:paddingLeft="@dimen/md_dialog_frame_margin"
+    android:paddingEnd="@dimen/md_dialog_frame_margin">android:paddingRight="@dimen/md_dialog_frame_margin">
     <CheckBox
-        android:id="@id/rh"
+        android:id="@id/control"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="false"
         android:focusable="false"
         android:focusableInTouchMode="false"
         android:gravity="center_vertical"
-        android:minHeight="@dimen/mq" />
+        android:minHeight="@dimen/md_listitem_height" />
     <TextView
-        android:id="@id/b_5"
+        android:id="@id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:minHeight="@dimen/mq"
-        android:paddingStart="@dimen/mp"
-        android:paddingLeft="@dimen/mp"
-        android:textSize="@dimen/ms" />
+        android:minHeight="@dimen/md_listitem_height"
+        android:paddingStart="@dimen/md_listitem_control_margin"
+        android:paddingLeft="@dimen/md_listitem_control_margin"
+        android:textSize="@dimen/md_listitem_textsize" />
     android:paddingLeft="@dimen/md_listitem_control_margin"/>
 </LinearLayout>

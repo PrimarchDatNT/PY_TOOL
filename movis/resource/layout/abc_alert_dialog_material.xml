@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.AlertDialogLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/apw"
-    android:layout_width="fill_parent"
+    android:id="@id/parentPanel"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="start|center|top"
     android:orientation="vertical">
-    <include layout="@layout/k" />
+    <include layout="@layout/abc_alert_dialog_title_material" />
     <FrameLayout
-        android:id="@id/rc"
-        android:layout_width="fill_parent"
+        android:id="@id/contentPanel"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="48.0dip">
         <View
-            android:id="@id/azy"
-            android:layout_width="fill_parent"
+            android:id="@id/scrollIndicatorUp"
+            android:layout_width="match_parent"
             android:layout_height="1.0dip"
             android:layout_gravity="top"
             android:background="?hg"
             android:visibility="gone" />
         <androidx.core.widget.NestedScrollView
-            android:id="@id/azz"
-            android:layout_width="fill_parent"
+            android:id="@id/scrollView"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clipToPadding="false">
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <android.widget.Space
-                    android:id="@id/b88"
-                    android:layout_width="fill_parent"
-                    android:layout_height="@dimen/ag"
+                    android:id="@id/textSpacerNoTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/abc_dialog_padding_top_material"
                     android:visibility="gone" />
                 <TextView
                     android:id="@android:id/message"
-                    style="@style/l0"
-                    android:layout_width="fill_parent"
+                    style="@style/TextAppearance_AppCompat_Subhead"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="?kk"
                     android:paddingRight="?kk" />
                 <android.widget.Space
-                    android:id="@id/b87"
-                    android:layout_width="fill_parent"
-                    android:layout_height="@dimen/ag"
+                    android:id="@id/textSpacerNoButtons"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/abc_dialog_padding_top_material"
                     android:visibility="gone" />
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
         <View
-            android:id="@id/azx"
-            android:layout_width="fill_parent"
+            android:id="@id/scrollIndicatorDown"
+            android:layout_width="match_parent"
             android:layout_height="1.0dip"
             android:layout_gravity="bottom"
             android:background="?hg"
             android:visibility="gone" />
     </FrameLayout>
     <FrameLayout
-        android:id="@id/sh"
-        android:layout_width="fill_parent"
+        android:id="@id/customPanel"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="48.0dip">
         <FrameLayout
-            android:id="@id/sg"
-            android:layout_width="fill_parent"
+            android:id="@id/custom"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </FrameLayout>
     <include
-        layout="@layout/i"
-        android:layout_width="fill_parent"
+        layout="@layout/abc_alert_dialog_button_bar_material"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </androidx.appcompat.widget.AlertDialogLayout>

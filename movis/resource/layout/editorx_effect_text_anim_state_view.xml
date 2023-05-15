@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ag">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_background">
     <ImageView
-        android:id="@id/ee"
-        android:layout_width="@dimen/v7"
-        android:layout_height="@dimen/v7"
+        android:id="@id/anim_state_loading"
+        android:layout_width="@dimen/px24"
+        android:layout_height="@dimen/px24"
         android:scaleType="centerCrop"
-        android:src="@drawable/a08"
+        android:src="@drawable/editorx_effect_text_anim_loading_icon"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <LinearLayout
-        android:id="@id/ed"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/anim_state_fail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone">
         <TextView
-            android:id="@id/er"
+            android:id="@id/annim_state_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/l6"
-            android:textColor="@color/j2"
+            android:text="@string/xiao_str_text_network_title"
+            android:textColor="@color/color_edeff5"
             android:textSize="18.0sp" />
         <TextView
-            android:id="@id/ep"
+            android:id="@id/annim_state_desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8.0dip"
-            android:text="@string/a_7"
-            android:textColor="@color/fd"
+            android:text="@string/xiaoying_str_network_des"
+            android:textColor="@color/color_525252"
             android:textSize="12.0sp" />
         <TextView
-            android:id="@id/eq"
+            android:id="@id/annim_state_retry"
             android:layout_width="wrap_content"
             android:layout_height="32.0dip"
-            android:layout_marginTop="@dimen/v7"
-            android:background="@drawable/a09"
+            android:layout_marginTop="@dimen/px24"
+            android:background="@drawable/editorx_effect_text_anim_retry_shape"
             android:gravity="center"
             android:paddingStart="12.0dip"
             android:paddingEnd="12.0dip"
-            android:text="@string/a_8"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_network_retry"
+            android:textColor="@color/white"
             android:textSize="12.0sp" />
     </LinearLayout>
 </merge>

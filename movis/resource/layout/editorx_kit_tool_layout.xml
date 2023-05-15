@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60.0dip">
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@id/awn"
-            android:layout_width="fill_parent"
+            android:id="@id/rl_kit_backdoor_root"
+            android:layout_width="match_parent"
             android:layout_height="300.0dip"
             android:background="#4400ffff"
             android:visibility="gone">
             <TextView
-                android:id="@id/bfi"
+                android:id="@id/tv_kit_backdoor_jump"
                 android:layout_width="wrap_content"
                 android:layout_height="40.0dip"
                 android:layout_marginStart="50.0dip"
@@ -24,10 +24,10 @@
                 android:paddingRight="5.0dip"
                 android:text="jump kit"
                 android:textColor="#ff000000"
-                app:layout_constraintStart_toStartOf="apv"
-                app:layout_constraintTop_toTopOf="apv" />
+                app:layout_constraintStart_toStartOf="parrent"
+                app:layout_constraintTop_toTopOf="parrent" />
             <TextView
-                android:id="@id/bfh"
+                android:id="@id/tv_kit_backdoor_export"
                 android:layout_width="60.0dip"
                 android:layout_height="40.0dip"
                 android:background="#ffffff00"
@@ -36,10 +36,10 @@
                 android:paddingRight="5.0dip"
                 android:text="export"
                 android:textColor="#ff000000"
-                app:layout_constraintEnd_toEndOf="apv"
-                app:layout_constraintTop_toTopOf="apv" />
+                app:layout_constraintEnd_toEndOf="parrent"
+                app:layout_constraintTop_toTopOf="parrent" />
             <TextView
-                android:id="@id/bfg"
+                android:id="@id/tv_kit_backdoor_clip_lock"
                 android:layout_width="60.0dip"
                 android:layout_height="60.0dip"
                 android:background="#ffffff00"
@@ -48,10 +48,10 @@
                 android:paddingRight="5.0dip"
                 android:text="lock"
                 android:textColor="#ff000000"
-                app:layout_constraintEnd_toEndOf="apv"
-                app:layout_constraintTop_toTopOf="@id/bff" />
+                app:layout_constraintEnd_toEndOf="parrent"
+                app:layout_constraintTop_toTopOf="@id/tv_kit_backdoor_clip_info" />
             <TextView
-                android:id="@id/bff"
+                android:id="@id/tv_kit_backdoor_clip_info"
                 android:layout_width="0.0dip"
                 android:layout_height="60.0dip"
                 android:layout_marginTop="10.0dip"
@@ -60,12 +60,12 @@
                 android:paddingLeft="5.0dip"
                 android:paddingRight="5.0dip"
                 android:textColor="#ffffffff"
-                app:layout_constraintEnd_toStartOf="@id/bfg"
-                app:layout_constraintStart_toStartOf="apv"
-                app:layout_constraintTop_toBottomOf="@id/bfi" />
+                app:layout_constraintEnd_toStartOf="@id/tv_kit_backdoor_clip_lock"
+                app:layout_constraintStart_toStartOf="parrent"
+                app:layout_constraintTop_toBottomOf="@id/tv_kit_backdoor_jump" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <TextView
-            android:id="@id/bke"
+            android:id="@id/v_kit_backdoor_switch"
             android:layout_width="40.0dip"
             android:layout_height="40.0dip"
             android:background="#ffffff00"

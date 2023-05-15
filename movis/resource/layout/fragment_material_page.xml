@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:tag="layout/fragment_material_page_0"
-    android:theme="@style/p3"
+    android:theme="@style/ThemeOverlay_AppCompat_Dark_ActionBar"
     app:layout_scrollFlags="azw|wm">
     <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/m_"
+        android:background="@color/color_transparent"
         android:elevation="0.0dip"
         app:elevation="0.0dip">
         <com.google.android.material.appbar.CollapsingToolbarLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             app:layout_scrollFlags="azw|wm">
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@id/p4"
-                android:layout_width="fill_parent"
+                android:id="@id/clTag"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_collapseMode="aps">
                 <androidx.constraintlayout.helper.widget.Flow
-                    android:id="@id/zn"
-                    android:layout_width="fill_parent"
+                    android:id="@id/flowLayout"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/tz"
-                    android:layout_marginTop="@dimen/ul"
-                    android:layout_marginEnd="@dimen/tz"
+                    android:layout_marginStart="@dimen/px16"
+                    android:layout_marginTop="@dimen/px20"
+                    android:layout_marginEnd="@dimen/px16"
                     app:flow_horizontalBias="0.0"
-                    app:flow_horizontalGap="@dimen/tz"
+                    app:flow_horizontalGap="@dimen/px16"
                     app:flow_horizontalStyle="apo"
                     app:flow_verticalBias="0.0"
-                    app:flow_verticalGap="@dimen/td"
+                    app:flow_verticalGap="@dimen/px12"
                     app:flow_verticalStyle="b42"
                     app:flow_wrapMode="ob"
-                    app:layout_constraintBottom_toBottomOf="apv"
-                    app:layout_constraintEnd_toEndOf="apv"
-                    app:layout_constraintStart_toStartOf="apv"
-                    app:layout_constraintTop_toTopOf="apv" />
+                    app:layout_constraintBottom_toBottomOf="parrent"
+                    app:layout_constraintEnd_toEndOf="parrent"
+                    app:layout_constraintStart_toStartOf="parrent"
+                    app:layout_constraintTop_toTopOf="parrent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/ayn"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:paddingTop="@dimen/ul"
-        app:layout_behavior="@string/ch" />
+        android:id="@id/rvContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/px20"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
     <ProgressBar
-        android:id="@id/aq4"
+        android:id="@id/pbLoading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center" />

@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="@dimen/ou">
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mtrl_calendar_header_height">
     <LinearLayout
-        android:id="@id/am7"
+        android:id="@id/mtrl_picker_header"
         style="?w4"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/ou"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mtrl_calendar_header_height"
         android:layout_gravity="top"
         android:baselineAligned="false"
         android:orientation="horizontal"
-        android:paddingStart="@dimen/or"
-        android:paddingLeft="@dimen/or"
-        android:paddingEnd="@dimen/or"
-        android:paddingRight="@dimen/or">
+        android:paddingStart="@dimen/mtrl_calendar_header_content_padding"
+        android:paddingLeft="@dimen/mtrl_calendar_header_content_padding"
+        android:paddingEnd="@dimen/mtrl_calendar_header_content_padding"
+        android:paddingRight="@dimen/mtrl_calendar_header_content_padding">
         <FrameLayout
-            android:id="@id/am9"
+            android:id="@id/mtrl_picker_header_title_and_selection"
             android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1.0"
-            android:paddingStart="@dimen/ox"
-            android:paddingLeft="@dimen/ox">
-            <include layout="@layout/u2" />
-            <include layout="@layout/u1" />
+            android:paddingStart="@dimen/mtrl_calendar_header_text_padding"
+            android:paddingLeft="@dimen/mtrl_calendar_header_text_padding">
+            <include layout="@layout/mtrl_picker_header_title_text" />
+            <include layout="@layout/mtrl_picker_header_selection_text" />
         </FrameLayout>
-        <include layout="@layout/u3" />
+        <include layout="@layout/mtrl_picker_header_toggle" />
     </LinearLayout>
     <View
         style="?w3"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/ot"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mtrl_calendar_header_divider_thickness"
         android:layout_gravity="bottom" />
 </merge>

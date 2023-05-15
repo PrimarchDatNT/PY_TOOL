@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/att"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:id="@id/rc_theme_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
     <TextView
-        android:id="@id/beh"
+        android:id="@id/tv_empty_tip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="@string/a3x"
+        android:text="@string/xiaoying_str_editor_latest_empty_tip"
         android:textColor="#ff525252"
         android:textSize="12.0sp" />
 </RelativeLayout>

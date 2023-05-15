@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
-        android:id="@id/ra"
-        android:layout_width="fill_parent"
+        android:id="@id/content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="4.0dip"
         android:layout_marginBottom="20.0dip"
-        android:textSize="@dimen/mh" />
+        android:textSize="@dimen/md_content_textsize" />
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ProgressBar
             android:id="@android:id/progress"
-            style="@style/xt"
-            android:layout_width="fill_parent"
+            style="@style/xiaoying_dialog_progressBar"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="2.0dip" />
         <TextView
-            android:id="@id/ac9"
+            android:id="@id/label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@android:id/progress"
@@ -26,10 +26,10 @@
             android:layout_alignLeft="@android:id/progress"
             android:gravity="start"
             android:minWidth="36.0dip"
-            android:textSize="@dimen/mh"
+            android:textSize="@dimen/md_content_textsize"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/aks"
+            android:id="@id/minMax"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@android:id/progress"
@@ -37,6 +37,6 @@
             android:layout_alignRight="@android:id/progress"
             android:gravity="end"
             android:minWidth="48.0dip"
-            android:textSize="@dimen/mh" />
+            android:textSize="@dimen/md_content_textsize" />
     </RelativeLayout>
 </merge>

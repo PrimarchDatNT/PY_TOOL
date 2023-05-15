@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/ag"
-    android:paddingStart="@dimen/tz"
-    android:paddingEnd="@dimen/tz"
+    android:background="@color/app_dcolor_background"
+    android:paddingStart="@dimen/px16"
+    android:paddingEnd="@dimen/px16"
     android:tag="layout/premium_top_banner_0">
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@id/a8q"
-        android:layout_width="fill_parent"
+        android:id="@id/ivBanner"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_marginTop="?a4"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintDimensionRatio="328:128"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv"
-        app:shapeAppearanceOverlay="@style/iv" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent"
+        app:shapeAppearanceOverlay="@style/RoundedImageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

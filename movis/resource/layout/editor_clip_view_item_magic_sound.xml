@@ -6,49 +6,49 @@
     android:paddingTop="12.0dip"
     android:paddingRight="7.0dip">
     <FrameLayout
-        android:id="@id/zd"
+        android:id="@id/fl_icon"
         android:layout_width="68.0dip"
         android:layout_height="68.0dip">
         <ImageView
-            android:id="@id/aa9"
+            android:id="@id/iv_icon"
             android:layout_width="62.0dip"
             android:layout_height="62.0dip"
             android:layout_gravity="center"
             android:scaleType="centerCrop"
-            android:src="@drawable/t3" />
+            android:src="@drawable/editor_layer_self_magic_sound" />
         <View
-            android:id="@id/bkd"
+            android:id="@id/v_focus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/st"
+            android:background="@drawable/editor_layer_magic_sound_focus"
             android:rotation="-90.0"
             android:visibility="invisible" />
     </FrameLayout>
     <ImageView
-        android:id="@id/abu"
+        android:id="@id/iv_vip"
         android:layout_width="20.0dip"
         android:layout_height="20.0dip"
-        android:layout_alignTop="@id/zd"
-        android:layout_alignEnd="@id/zd"
-        android:layout_alignRight="@id/zd"
+        android:layout_alignTop="@id/fl_icon"
+        android:layout_alignEnd="@id/fl_icon"
+        android:layout_alignRight="@id/fl_icon"
         android:layout_marginTop="-8.0dip"
         android:visibility="visible" />
     <ImageView
-        android:id="@id/abv"
+        android:id="@id/iv_vip_free_of_time_limit"
         android:layout_width="wrap_content"
         android:layout_height="16.0dip"
-        android:layout_alignTop="@id/zd"
-        android:layout_alignEnd="@id/zd"
-        android:layout_alignRight="@id/zd"
+        android:layout_alignTop="@id/fl_icon"
+        android:layout_alignEnd="@id/fl_icon"
+        android:layout_alignRight="@id/fl_icon"
         android:layout_marginTop="-5.0dip"
         android:layout_marginRight="-7.0dip"
         android:visibility="gone" />
     <TextView
-        android:id="@id/bi9"
+        android:id="@id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/zd"
+        android:layout_below="@id/fl_icon"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/g9"
+        android:textColor="@color/color_8E8E93"
         android:textSize="11.0dip" />
 </RelativeLayout>

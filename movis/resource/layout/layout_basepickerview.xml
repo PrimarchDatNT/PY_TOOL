@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/api"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/vy"
+    android:id="@id/outmost_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pickerview_bgColor_overlay"
     android:clickable="true">
     <FrameLayout
-        android:id="@id/rd"
+        android:id="@id/content_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </FrameLayout>

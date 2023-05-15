@@ -3,30 +3,30 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:background="@color/v0"
+    android:background="@color/music_view_default_background"
     android:orientation="vertical"
-    android:padding="@dimen/c">
+    android:padding="@dimen/MusicView_full_padding">
     <ImageView
-        android:id="@id/dv"
-        android:layout_width="@dimen/b"
-        android:layout_height="@dimen/b"
-        android:layout_marginBottom="@dimen/d"
-        android:src="@drawable/aj8" />
+        android:id="@id/album"
+        android:layout_width="@dimen/MusicView_full_image_size"
+        android:layout_height="@dimen/MusicView_full_image_size"
+        android:layout_marginBottom="@dimen/MusicView_image_title_gap"
+        android:src="@drawable/ic_default_album_image" />
     <TextView
-        android:id="@id/b_5"
+        android:id="@id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:maxWidth="@dimen/b"
-        android:text="@string/h1"
+        android:maxWidth="@dimen/MusicView_full_image_size"
+        android:text="@string/mcv2_music_title_unknown_text"
         android:textColor="#ffffffff"
-        android:textSize="@dimen/f"
+        android:textSize="@dimen/MusicView_title_text_size"
         android:textStyle="bold" />
     <TextView
-        android:id="@id/fi"
+        android:id="@id/artist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:maxWidth="@dimen/b"
-        android:text="@string/h0"
+        android:maxWidth="@dimen/MusicView_full_image_size"
+        android:text="@string/mcv2_music_artist_unknown_text"
         android:textColor="#ffbbbbbb"
-        android:textSize="@dimen/a" />
+        android:textSize="@dimen/MusicView_artist_text_size" />
 </LinearLayout>

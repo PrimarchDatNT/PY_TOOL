@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="?a4"
-    android:background="@drawable/a8b">
+    android:background="@drawable/editorx_shape_preview_title_bg">
     <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@id/v_"
+        android:id="@id/editor_back_btn"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:layout_centerVertical="true"
-        android:background="@drawable/jf"
+        android:background="@drawable/btn_dcolor_ripple"
         android:scaleType="centerInside"
-        android:src="@drawable/aj5" />
+        android:src="@drawable/ic_close" />
     <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@id/a3_"
+        android:id="@id/ib_second_back"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:layout_centerVertical="true"
-        android:background="@drawable/jf"
+        android:background="@drawable/btn_dcolor_ripple"
         android:contentDescription="@null"
         android:scaleType="centerInside"
-        android:src="@drawable/a56"
+        android:src="@drawable/editorx_main_second_back"
         android:visibility="gone" />
     <View
-        android:id="@id/bkh"
-        android:layout_width="@dimen/t2"
-        android:layout_height="@dimen/td"
+        android:id="@id/v_line"
+        android:layout_width="@dimen/px1"
+        android:layout_height="@dimen/px12"
         android:layout_centerVertical="true"
-        android:layout_toEndOf="@id/v_" />
+        android:layout_toEndOf="@id/editor_back_btn" />
     <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@id/vo"
+        android:id="@id/editor_undo_btn"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:layout_centerVertical="true"
-        android:layout_toEndOf="@id/v_"
-        android:background="@drawable/jf"
+        android:layout_toEndOf="@id/editor_back_btn"
+        android:background="@drawable/btn_dcolor_ripple"
         android:contentDescription="@null"
         android:scaleType="centerInside"
-        android:src="@drawable/a5_"
+        android:src="@drawable/editorx_perform_undo_icon"
         android:visibility="gone" />
     <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@id/vl"
+        android:id="@id/editor_redo_btn"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:layout_centerVertical="true"
-        android:layout_toEndOf="@id/vo"
-        android:background="@drawable/jf"
-        android:src="@drawable/a59"
+        android:layout_toEndOf="@id/editor_undo_btn"
+        android:background="@drawable/btn_dcolor_ripple"
+        android:src="@drawable/editorx_perform_redo_icon"
         android:visibility="gone" />
     <ImageView
-        android:id="@id/a_g"
+        android:id="@id/iv_editor_lesson"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:visibility="gone" />
     <LinearLayout
-        android:id="@id/ahf"
+        android:id="@id/llDraftSave"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/vd"
-            style="@style/mr"
-            android:layout_width="@dimen/yb"
-            android:layout_height="@dimen/wd"
-            android:layout_marginEnd="@dimen/tz"
-            android:background="@drawable/ee"
-            android:fontFamily="@font/f"
+            android:id="@id/editor_draft"
+            style="@style/TextSingleLine"
+            android:layout_width="@dimen/px72"
+            android:layout_height="@dimen/px32"
+            android:layout_marginEnd="@dimen/px16"
+            android:background="@drawable/app_res_sample_7"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="center"
-            android:text="@string/abf"
-            android:textColor="@color/d6"
-            android:textSize="@dimen/z0" />
+            android:text="@string/xiaoying_str_preview_save_draft"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp14" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/vk"
-            style="@style/mr"
-            android:layout_width="@dimen/yb"
-            android:layout_height="@dimen/wd"
-            android:layout_marginEnd="@dimen/tz"
-            android:background="@drawable/ef"
-            android:fontFamily="@font/f"
+            android:id="@id/editor_publish"
+            style="@style/TextSingleLine"
+            android:layout_width="@dimen/px72"
+            android:layout_height="@dimen/px32"
+            android:layout_marginEnd="@dimen/px16"
+            android:background="@drawable/app_res_sample_8"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="center"
-            android:text="@string/xd"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z0" />
+            android:text="@string/xiaoying_str_com_save_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
     </LinearLayout>
 </RelativeLayout>

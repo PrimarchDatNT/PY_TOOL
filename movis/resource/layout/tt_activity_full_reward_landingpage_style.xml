@@ -2,23 +2,23 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:pangle="http://schemas.android.com/apk/com.bytedance.sdk.component"
     android:id="@id/tt_reward_root"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <FrameLayout
         android:id="@id/tt_reward_loading_container"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="visible">
         <com.bytedance.sdk.component.widget.SSWebView
             android:id="@id/tt_reward_browser_webview_loading"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layerType="hardware"
             pangle:tt_delay_init="true" />
         <LinearLayout
             android:id="@id/tt_up_slide"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:background="#99161823"
             android:orientation="vertical"
             android:visibility="gone">
@@ -34,40 +34,40 @@
         <include
             android:id="@id/tt_browser_webview_page_loading"
             layout="@layout/tt_full_reward_video_landing_page_loading"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </FrameLayout>
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical">
         <FrameLayout
             android:id="@id/tt_video_container_root"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
             <FrameLayout
                 android:id="@id/tt_video_container_back"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
                 <FrameLayout
                     android:id="@id/tt_video_reward_container"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:background="#ff000000"
                     android:scaleType="centerCrop" />
                 <FrameLayout
                     android:id="@id/tt_image_reward_container"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:background="#ff000000"
                     android:scaleType="centerCrop"
                     android:visibility="gone">
                     <ImageView
                         android:id="@id/tt_image_reward"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:scaleType="fitCenter" />
                 </FrameLayout>
             </FrameLayout>
@@ -76,18 +76,18 @@
     </LinearLayout>
     <com.bytedance.sdk.openadsdk.core.widget.PlayableLoadingView
         android:id="@id/tt_reward_playable_loading"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:clickable="true"
         android:focusable="true" />
     <com.bytedance.sdk.openadsdk.component.reward.top.TopProxyLayout
         android:id="@id/tt_top_layout_proxy"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <RelativeLayout
         android:id="@id/tt_full_reward_video_loading_container"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
     <TextView
         android:id="@id/tt_ad_logo"
         android:layout_width="32.0dip"

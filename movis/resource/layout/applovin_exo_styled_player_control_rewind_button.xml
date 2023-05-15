@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
     <FrameLayout
-        style="@style/a4"
+        style="@style/AppLovinExoStyledControls_Button_Center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="0.0dip"
         android:addStatesFromChildren="true">
         <Button
-            android:id="@id/dn"
-            style="@style/a9"
+            android:id="@id/al_exo_rew_with_amount"
+            style="@style/AppLovinExoStyledControls_Button_Center_RewWithAmount"
             android:layout_marginLeft="0.0dip"
             android:layout_marginRight="0.0dip"
-            android:background="@drawable/d9" />
+            android:background="@drawable/al_exo_styled_controls_rewind" />
     </FrameLayout>
 </merge>

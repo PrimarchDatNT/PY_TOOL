@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/lr" android:state_checked="true" />
-    <item android:drawable="@drawable/lq" android:state_checked="false" />
+    <item android:drawable="@drawable/editor_btn_effect_subtitle_align_right_p" android:state_checked="true" />
+    <item android:drawable="@drawable/editor_btn_effect_subtitle_align_right_n" android:state_checked="false" />
 </selector>

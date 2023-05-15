@@ -1,137 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/br"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_p10"
     android:tag="layout/templatex_act_theme_detail_0">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/hw"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv">
+        android:background="@drawable/bg_bottom_dialog"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/jc"
+            android:id="@id/btnBack"
             android:layout_width="?a4"
             android:layout_height="?a4"
-            android:background="@drawable/jf"
+            android:background="@drawable/btn_dcolor_ripple"
             android:scaleType="centerInside"
-            android:src="@drawable/aj5"
+            android:src="@drawable/ic_close"
             android:tag="binding_1"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <TextView
-            android:id="@id/bcc"
+            android:id="@id/tvTitle2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:tag="binding_2"
             android:visibility="gone"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <LinearLayout
-            android:layout_width="@dimen/ty"
+            android:layout_width="@dimen/px158"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/t4"
-            android:background="@drawable/ary"
+            android:layout_marginBottom="@dimen/px100"
+            android:background="@drawable/templatex_shape_item_bg"
             android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/jc">
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/btnBack">
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@id/a3x"
-                android:layout_width="@dimen/tx"
-                android:layout_height="@dimen/tx"
+                android:id="@id/imagePreview"
+                android:layout_width="@dimen/px156"
+                android:layout_height="@dimen/px156"
                 android:layout_gravity="center"
-                android:layout_margin="@dimen/t2"
+                android:layout_margin="@dimen/px1"
                 android:scaleType="fitXY"
                 android:tag="binding_3"
-                app:shapeAppearanceOverlay="@style/iu" />
+                app:shapeAppearanceOverlay="@style/RoundedImageItem" />
             <FrameLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="@dimen/xz"
-                android:paddingBottom="@dimen/xz">
+                android:paddingTop="@dimen/px6"
+                android:paddingBottom="@dimen/px6">
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/bcb"
-                    android:layout_width="fill_parent"
+                    android:id="@id/tvTitle"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginStart="@dimen/yf"
-                    android:layout_marginEnd="@dimen/x6"
+                    android:layout_marginStart="@dimen/px8"
+                    android:layout_marginEnd="@dimen/px40"
                     android:tag="binding_4"
-                    android:textColor="@color/zo"
-                    android:textSize="@dimen/yz" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp12" />
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="@dimen/v7"
-                    android:layout_height="@dimen/v7"
+                    android:layout_width="@dimen/px24"
+                    android:layout_height="@dimen/px24"
                     android:layout_gravity="end|center"
-                    android:layout_marginEnd="@dimen/yf"
-                    android:src="@drawable/ajs" />
+                    android:layout_marginEnd="@dimen/px8"
+                    android:src="@drawable/ic_material_template" />
             </FrameLayout>
         </LinearLayout>
         <TextView
-            android:id="@id/bbc"
+            android:id="@id/tvDesc"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:tag="binding_5"
             android:visibility="gone"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <LinearLayout
-            android:id="@id/ahp"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/xh"
-            android:layout_marginStart="@dimen/tz"
-            android:layout_marginEnd="@dimen/tz"
-            android:layout_marginBottom="@dimen/ul"
-            android:background="@drawable/e_"
+            android:id="@id/ll_btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px48"
+            android:layout_marginStart="@dimen/px16"
+            android:layout_marginEnd="@dimen/px16"
+            android:layout_marginBottom="@dimen/px20"
+            android:background="@drawable/app_res_sample_2"
             android:gravity="center"
             android:orientation="horizontal"
             android:tag="binding_6"
-            app:layout_constraintBottom_toBottomOf="apv">
+            app:layout_constraintBottom_toBottomOf="parrent">
             <TextView
-                android:id="@id/ja"
+                android:id="@id/btnAdd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/pe"
-                android:textColor="@color/d6"
-                android:textSize="@dimen/z1" />
+                android:text="@string/xiaoying_str_btn_freedownload"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/sp16" />
         </LinearLayout>
         <TextView
-            android:id="@id/jb"
+            android:id="@id/btnAdded"
             android:layout_width="0.0dip"
-            android:layout_height="@dimen/xh"
+            android:layout_height="@dimen/px48"
             android:gravity="center"
-            android:text="@string/a4h"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_editor_sticker_added_tit"
+            android:textColor="@color/white"
             android:visibility="gone"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintStart_toStartOf="apv" />
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent" />
         <LinearLayout
-            android:id="@id/ahq"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/xh"
-            android:layout_marginStart="@dimen/tz"
-            android:layout_marginEnd="@dimen/tz"
-            android:layout_marginBottom="@dimen/ul"
-            android:background="@drawable/dx"
+            android:id="@id/ll_btn_to_editor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px48"
+            android:layout_marginStart="@dimen/px16"
+            android:layout_marginEnd="@dimen/px16"
+            android:layout_marginBottom="@dimen/px20"
+            android:background="@drawable/app_default_button"
             android:gravity="center"
             android:orientation="horizontal"
             android:tag="binding_7"
-            app:layout_constraintBottom_toBottomOf="apv">
+            app:layout_constraintBottom_toBottomOf="parrent">
             <TextView
-                android:id="@id/k7"
+                android:id="@id/btnToEditor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/gf"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/z1" />
+                android:text="@string/material_detail_cta"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp16" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

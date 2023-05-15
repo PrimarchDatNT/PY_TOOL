@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
+    android:layout_height="match_parent"
     android:layout_alignParentStart="true"
     android:layout_alignParentLeft="true"
     android:orientation="horizontal">
     <FrameLayout
-        android:id="@id/f8"
-        style="@style/jz">
+        android:id="@id/applovin_native_icon_view"
+        style="@style/SmallIconView">
         <ImageView
-            android:id="@id/f7"
-            style="@style/jz" />
+            android:id="@id/applovin_native_icon_image_view"
+            style="@style/SmallIconView" />
     </FrameLayout>
     <LinearLayout
-        android:id="@id/ez"
+        android:id="@id/applovin_native_ad_content_linear_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
@@ -24,15 +24,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TextView
-                android:id="@id/fd"
+                android:id="@id/applovin_native_title_text_view"
                 style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingTitleTextView"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_marginBottom="1.0dip"
-                android:layout_toStartOf="@id/fc"
-                android:layout_toLeftOf="@id/fc" />
+                android:layout_toStartOf="@id/applovin_native_options_view"
+                android:layout_toLeftOf="@id/applovin_native_options_view" />
             <FrameLayout
-                android:id="@id/fc"
+                android:id="@id/applovin_native_options_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -46,12 +46,12 @@
                 style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallAdBadgeTextView"
                 android:textSize="10.0sp" />
             <TextView
-                android:id="@id/f1"
+                android:id="@id/applovin_native_advertiser_text_view"
                 style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingBodyTextView"
                 android:textSize="10.0sp" />
         </LinearLayout>
         <TextView
-            android:id="@id/f3"
+            android:id="@id/applovin_native_body_text_view"
             style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingBodyTextView"
             android:textSize="10.0sp" />
     </LinearLayout>

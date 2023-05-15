@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <com.videoai.aivpcore.editor.effects.PlayerFakeView
-        android:id="@id/bod"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/axt"
+        android:id="@id/watermark_player_faker_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl_watermark_op_view"
         android:orientation="vertical" />
     <RelativeLayout
-        android:id="@id/axt"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/gv"
+        android:id="@id/rl_watermark_op_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
-        android:background="@color/bn">
+        android:background="@color/black">
         <LinearLayout
-            android:id="@id/boh"
-            android:layout_width="fill_parent"
+            android:id="@id/watermark_title"
+            android:layout_width="match_parent"
             android:layout_height="40.0dip"
-            android:layout_above="@id/b7u"
+            android:layout_above="@id/terminator"
             android:layout_marginBottom="118.0dip"
-            android:background="@color/zs"
+            android:background="@color/white_p08"
             android:orientation="horizontal">
             <RelativeLayout
-                android:id="@id/avb"
+                android:id="@id/replace_watermark"
                 android:layout_width="50.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:gravity="center">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/lc" />
+                    android:src="@drawable/editor_btn_effect_custom_watermark" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/bob"
+                android:id="@id/watermark_basic"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:background="@color/zt"
+                android:layout_height="match_parent"
+                android:background="@color/white_p10"
                 android:gravity="center"
                 android:paddingStart="15.0dip"
                 android:paddingLeft="15.0dip"
@@ -45,18 +45,18 @@
                 android:paddingRight="15.0dip"
                 android:paddingBottom="11.0dip">
                 <TextView
-                    android:id="@id/hp"
+                    android:id="@id/basic_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/a30"
-                    android:textColor="@color/zo"
+                    android:text="@string/xiaoying_str_editor_custom_watermark_basic"
+                    android:textColor="@color/white"
                     android:textSize="13.0sp"
                     android:textStyle="bold" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/boe"
+                android:id="@id/watermark_position"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:gravity="center"
                 android:paddingStart="15.0dip"
                 android:paddingLeft="15.0dip"
@@ -65,24 +65,24 @@
                 android:paddingRight="15.0dip"
                 android:paddingBottom="11.0dip">
                 <TextView
-                    android:id="@id/arg"
+                    android:id="@id/pos_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/a31"
-                    android:textColor="@color/zz"
+                    android:text="@string/xiaoying_str_editor_custom_watermark_position"
+                    android:textColor="@color/white_p50"
                     android:textSize="13.0sp"
                     android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
         <LinearLayout
-            android:id="@id/boc"
-            android:layout_width="fill_parent"
+            android:id="@id/watermark_basic_content"
+            android:layout_width="match_parent"
             android:layout_height="118.0dip"
-            android:layout_above="@id/b7u"
-            android:background="@color/bn"
+            android:layout_above="@id/terminator"
+            android:background="@color/black"
             android:orientation="vertical">
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30.0dip"
                 android:orientation="horizontal">
@@ -91,11 +91,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15.0dip"
                     android:layout_marginLeft="15.0dip"
-                    android:text="@string/a33"
-                    android:textColor="@color/g9"
+                    android:text="@string/xiaoying_str_editor_custom_watermark_size"
+                    android:textColor="@color/color_8E8E93"
                     android:textStyle="bold" />
                 <SeekBar
-                    android:id="@id/bog"
+                    android:id="@id/watermark_size_degree"
                     android:layout_width="0.0dip"
                     android:layout_height="20.0dip"
                     android:layout_marginEnd="15.0dip"
@@ -108,12 +108,12 @@
                     android:paddingEnd="9.0dip"
                     android:paddingRight="9.0dip"
                     android:progress="1"
-                    android:progressDrawable="@drawable/sv"
-                    android:thumb="@drawable/t1"
+                    android:progressDrawable="@drawable/editor_layer_mosaic_seekbar_bg"
+                    android:thumb="@drawable/editor_layer_seekbar_thumb_white_18"
                     android:thumbOffset="9.0dip" />
             </LinearLayout>
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24.0dip"
                 android:orientation="horizontal">
@@ -122,11 +122,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15.0dip"
                     android:layout_marginLeft="15.0dip"
-                    android:text="@string/a2z"
-                    android:textColor="@color/g9"
+                    android:text="@string/xiaoying_str_editor_custom_watermark_alpha"
+                    android:textColor="@color/color_8E8E93"
                     android:textStyle="bold" />
                 <SeekBar
-                    android:id="@id/boa"
+                    android:id="@id/watermark_alpha_degree"
                     android:layout_width="0.0dip"
                     android:layout_height="20.0dip"
                     android:layout_marginEnd="15.0dip"
@@ -139,16 +139,16 @@
                     android:paddingEnd="9.0dip"
                     android:paddingRight="9.0dip"
                     android:progress="255"
-                    android:progressDrawable="@drawable/sv"
-                    android:thumb="@drawable/t1"
+                    android:progressDrawable="@drawable/editor_layer_mosaic_seekbar_bg"
+                    android:thumb="@drawable/editor_layer_seekbar_thumb_white_18"
                     android:thumbOffset="9.0dip" />
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
-            android:id="@id/bof"
-            android:layout_width="fill_parent"
+            android:id="@id/watermark_position_content"
+            android:layout_width="match_parent"
             android:layout_height="118.0dip"
-            android:layout_above="@id/b7u"
+            android:layout_above="@id/terminator"
             android:layout_marginStart="15.0dip"
             android:layout_marginLeft="15.0dip"
             android:layout_marginEnd="15.0dip"
@@ -157,30 +157,30 @@
             android:visibility="gone">
             <RelativeLayout
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_marginEnd="30.0dip"
                 android:layout_marginRight="30.0dip"
                 android:layout_weight="1.0">
                 <TextView
-                    android:id="@id/asz"
+                    android:id="@id/quick_position_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5.0dip"
-                    android:text="@string/a31"
-                    android:textColor="@color/g9"
+                    android:text="@string/xiaoying_str_editor_custom_watermark_position"
+                    android:textColor="@color/color_8E8E93"
                     android:textSize="14.0sp"
                     android:textStyle="bold" />
                 <com.videoai.aivpcore.editor.effects.customwatermark.CustomWaterMarkQuickPositionView
-                    android:id="@id/asy"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_below="@id/asz"
+                    android:id="@id/quick_position"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/quick_position_title"
                     android:layout_marginTop="5.0dip"
                     android:layout_marginBottom="8.0dip" />
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0">
                 <TextView
                     android:layout_width="wrap_content"
@@ -188,12 +188,12 @@
                     android:layout_marginStart="35.0dip"
                     android:layout_marginLeft="35.0dip"
                     android:layout_marginTop="5.0dip"
-                    android:text="@string/ao3"
-                    android:textColor="@color/g9"
+                    android:text="@string/xiaoying_str_ve_pixel_movemoent"
+                    android:textColor="@color/color_8E8E93"
                     android:textSize="14.0sp"
                     android:textStyle="bold" />
                 <com.videoai.aivpcore.editor.effects.quickposition.PixelMoveControlView
-                    android:id="@id/aqt"
+                    android:id="@id/pixel_move"
                     android:layout_width="102.0dip"
                     android:layout_height="100.0dip"
                     android:layout_alignParentEnd="true"
@@ -203,32 +203,32 @@
             </RelativeLayout>
         </LinearLayout>
         <RelativeLayout
-            android:id="@id/w4"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_above="@id/b7u"
-            android:background="@color/bn"
+            android:id="@id/empty_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/terminator"
+            android:background="@color/black"
             android:gravity="center"
             android:visibility="gone">
             <TextView
-                android:id="@id/cd"
+                android:id="@id/add_watermark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/xe"
+                android:background="@drawable/editor_shape_watermark_add_bg"
                 android:paddingStart="25.0dip"
                 android:paddingLeft="25.0dip"
                 android:paddingTop="10.0dip"
                 android:paddingEnd="25.0dip"
                 android:paddingRight="25.0dip"
                 android:paddingBottom="10.0dip"
-                android:text="@string/a2j"
-                android:textColor="@color/a01"
+                android:text="@string/xiaoying_str_editor_add_watermark"
+                android:textColor="@color/white_p70"
                 android:textSize="16.0sp" />
         </RelativeLayout>
         <com.videoai.aivpcore.editor.widget.terminator.Terminator
-            android:id="@id/b7u"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/a4r"
+            android:id="@id/terminator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/video_editor_terminator_height"
             android:layout_alignParentBottom="true" />
     </RelativeLayout>
 </RelativeLayout>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:gravity="center">
     <RelativeLayout
         android:layout_width="30.0dip"
         android:layout_height="30.0dip"
-        android:background="@drawable/up"
+        android:background="@drawable/editor_selector_subtitle_move_bg"
         android:gravity="center">
         <ImageView
             android:layout_width="10.0dip"
             android:layout_height="10.0dip"
-            android:src="@drawable/ly" />
+            android:src="@drawable/editor_btn_effect_subtitle_move" />
     </RelativeLayout>
 </RelativeLayout>

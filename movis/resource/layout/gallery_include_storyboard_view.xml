@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/e8">
+    android:background="@color/color_212121_p90">
     <RelativeLayout
-        android:id="@id/bno"
-        android:layout_width="fill_parent"
+        android:id="@id/view_title"
+        android:layout_width="match_parent"
         android:layout_height="42.0dip"
-        android:background="@color/xz"
+        android:background="@color/transparent"
         android:clickable="true">
         <TextView
-            android:id="@id/bq3"
+            android:id="@id/xiaoying_com_storyboard_next_btn"
             android:layout_width="wrap_content"
             android:layout_height="30.0dip"
             android:layout_alignParentEnd="true"
@@ -18,7 +18,7 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="6.0dip"
             android:layout_marginRight="6.0dip"
-            android:background="@drawable/ahj"
+            android:background="@drawable/gallery_shape_rect_ff774e_r4"
             android:clickable="true"
             android:gravity="center"
             android:maxWidth="75.0dip"
@@ -27,39 +27,39 @@
             android:paddingLeft="4.0dip"
             android:paddingEnd="4.0dip"
             android:paddingRight="4.0dip"
-            android:text="@string/w7"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_com_next_step_title"
+            android:textColor="@color/white"
             android:textSize="12.0sp" />
         <RelativeLayout
-            android:id="@id/adu"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/layout_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginStart="75.0dip"
             android:layout_marginLeft="75.0dip"
             android:layout_marginEnd="75.0dip"
             android:layout_marginRight="75.0dip">
             <Button
-                android:id="@id/kt"
+                android:id="@id/btn_expand"
                 android:layout_width="30.0dip"
                 android:layout_height="30.0dip"
                 android:layout_centerHorizontal="true"
-                android:background="@drawable/af8"
+                android:background="@drawable/gallery_icon_clip_edit_up"
                 android:clickable="false"
                 android:focusable="false"
                 android:visibility="visible" />
             <TextView
-                android:id="@id/biv"
+                android:id="@id/txt_drag_tips"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/kt"
+                android:layout_below="@id/btn_expand"
                 android:layout_centerHorizontal="true"
                 android:singleLine="true"
-                android:text="@string/akc"
-                android:textColor="@color/fw"
+                android:text="@string/xiaoying_str_ve_clip_drag_tip"
+                android:textColor="@color/color_707070"
                 android:textSize="9.0sp" />
         </RelativeLayout>
         <com.videoai.aivpcore.common.ui.SpannableTextView
-            android:id="@id/bq2"
+            android:id="@id/xiaoying_com_storyboard_clip_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -68,21 +68,21 @@
             android:layout_marginStart="14.0dip"
             android:layout_marginLeft="14.0dip"
             android:maxWidth="75.0dip"
-            android:text="@string/aol"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_ve_storyboard_title_clip_count"
+            android:textColor="@color/white"
             android:textSize="10.0sp" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/bmx"
-        android:layout_width="fill_parent"
+        android:id="@id/view_content"
+        android:layout_width="match_parent"
         android:layout_height="117.0dip"
-        android:layout_below="@id/bno"
+        android:layout_below="@id/view_title"
         android:clickable="true"
         android:paddingTop="6.0dip">
         <com.videoai.aivpcore.gallery.storyboard.ClipDragGridView
-            android:id="@id/q8"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/clipgridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginStart="7.0dip"
             android:layout_marginLeft="7.0dip"
             android:layout_marginEnd="7.0dip"
@@ -90,7 +90,7 @@
             android:clipToPadding="false"
             android:fadingEdge="@null"
             android:horizontalSpacing="0.0dip"
-            android:listSelector="@color/xz"
+            android:listSelector="@color/transparent"
             android:numColumns="4"
             android:paddingBottom="55.0dip"
             android:scrollbars="none"

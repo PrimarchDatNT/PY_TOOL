@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/brw"
-    style="@style/tz"
+    android:id="@id/zero_corner_chip"
+    style="@style/Widget_MaterialComponents_Chip_Action"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:ellipsize="end"
-    android:text="@string/da"
+    android:text="@string/chip_text"
     app:chipCornerRadius="0.0dip" />

@@ -2,26 +2,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/xb"
+    android:background="@drawable/editor_shape_toast_view_bg"
     android:orientation="horizontal"
     android:paddingLeft="10.0dip"
     android:paddingTop="4.0dip"
     android:paddingRight="10.0dip"
     android:paddingBottom="4.0dip">
     <TextView
-        android:id="@id/bch"
+        android:id="@id/tv_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/a55"
+        android:text="@string/xiaoying_str_editor_undo_title"
         android:textColor="@android:color/white"
         android:textSize="14.0sp" />
     <TextView
-        android:id="@id/bcj"
+        android:id="@id/tv_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="2.0dip"
         android:layout_marginLeft="2.0dip"
-        android:text="@string/ap_"
-        android:textColor="@color/n_"
+        android:text="@string/xiaoying_str_ve_transition_title"
+        android:textColor="@color/default_app_color"
         android:textSize="14.0sp" />
 </LinearLayout>

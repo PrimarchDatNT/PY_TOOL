@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <com.videoai.aivpcore.xyui.RoundedRelativeLayout
-        android:id="@id/aci"
-        android:layout_width="fill_parent"
+        android:id="@id/layoutContent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="37.5dip"
         android:layout_marginLeft="37.5dip"
@@ -14,10 +14,10 @@
         android:layout_marginRight="37.5dip"
         android:paddingBottom="21.0dip"
         app:VS_CornerRadius="5.0dip"
-        app:VS_SolidColor="@color/zo">
+        app:VS_SolidColor="@color/white">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/a4k"
-            android:layout_width="fill_parent"
+            android:id="@id/imgLogo"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:actualImageScaleType="o1"
             app:aspectRatio="1.1"
@@ -27,23 +27,23 @@
             app:roundTopRight="true"
             app:roundedCornerRadius="4.5dip" />
         <TextView
-            android:id="@id/b8_"
-            android:layout_width="fill_parent"
+            android:id="@id/textTitle"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/a4k"
+            android:layout_below="@id/imgLogo"
             android:layout_marginStart="20.0dip"
             android:layout_marginLeft="20.0dip"
             android:layout_marginTop="20.0dip"
             android:layout_marginEnd="20.0dip"
             android:layout_marginRight="20.0dip"
-            android:textColor="@color/bn"
+            android:textColor="@color/black"
             android:textSize="20.0sp"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/b85"
-            android:layout_width="fill_parent"
+            android:id="@id/textContent"
+            android:layout_width="match_parent"
             android:layout_height="36.0dip"
-            android:layout_below="@id/b8_"
+            android:layout_below="@id/textTitle"
             android:layout_marginStart="20.0dip"
             android:layout_marginLeft="20.0dip"
             android:layout_marginTop="10.0dip"
@@ -52,7 +52,7 @@
             android:ellipsize="end"
             android:gravity="center_vertical"
             android:maxLines="2"
-            android:textColor="@color/bn"
+            android:textColor="@color/black"
             android:textSize="14.0sp" />
     </com.videoai.aivpcore.xyui.RoundedRelativeLayout>
 </RelativeLayout>

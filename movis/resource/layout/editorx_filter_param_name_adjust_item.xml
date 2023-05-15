@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/yf"
-    android:layout_width="fill_parent"
+    android:id="@id/filter_def_name_text"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/jf"
+    android:background="@drawable/btn_dcolor_ripple"
     android:gravity="center"
     android:orientation="vertical"
-    android:paddingTop="@dimen/td"
-    android:paddingBottom="@dimen/td"
-    android:textColor="@drawable/a69"
-    android:textSize="@dimen/yz" />
+    android:paddingTop="@dimen/px12"
+    android:paddingBottom="@dimen/px12"
+    android:textColor="@drawable/editorx_selector_filter_def_name"
+    android:textSize="@dimen/sp12" />

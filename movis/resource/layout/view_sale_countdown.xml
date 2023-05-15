@@ -4,97 +4,97 @@
     android:layout_height="?a4"
     android:tag="layout/view_sale_countdown_0">
     <LinearLayout
-        android:layout_width="@dimen/wz"
-        android:layout_height="@dimen/wz"
+        android:layout_width="@dimen/px36"
+        android:layout_height="@dimen/px36"
         android:layout_gravity="center"
-        android:background="@drawable/e8"
+        android:background="@drawable/app_res_sample_1"
         android:gravity="center"
         android:orientation="vertical"
-        android:paddingTop="@dimen/uk"
-        android:paddingBottom="@dimen/uk">
+        android:paddingTop="@dimen/px2"
+        android:paddingBottom="@dimen/px2">
         <androidx.appcompat.widget.AppCompatTextView
-            style="@style/mr"
-            android:layout_width="fill_parent"
+            style="@style/TextSingleLine"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/kp"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/yy" />
+            android:text="@string/unit_hour"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp10" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bbm"
-            style="@style/mr"
-            android:layout_width="fill_parent"
+            android:id="@id/tvHour"
+            style="@style/TextSingleLine"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:maxLines="1"
-            android:textColor="@color/d6"
-            android:textSize="@dimen/yz"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp12"
             android:textStyle="bold" />
     </LinearLayout>
     <LinearLayout
-        android:layout_width="@dimen/wz"
-        android:layout_height="@dimen/wz"
+        android:layout_width="@dimen/px36"
+        android:layout_height="@dimen/px36"
         android:layout_gravity="center"
-        android:layout_marginStart="@dimen/xz"
-        android:background="@drawable/e8"
+        android:layout_marginStart="@dimen/px6"
+        android:background="@drawable/app_res_sample_1"
         android:gravity="center"
         android:orientation="vertical"
-        android:paddingTop="@dimen/uk"
-        android:paddingBottom="@dimen/uk">
+        android:paddingTop="@dimen/px2"
+        android:paddingBottom="@dimen/px2">
         <androidx.appcompat.widget.AppCompatTextView
-            style="@style/mr"
-            android:layout_width="fill_parent"
+            style="@style/TextSingleLine"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/kq"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/yy" />
+            android:text="@string/unit_min"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp10" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bbs"
-            style="@style/mr"
-            android:layout_width="fill_parent"
+            android:id="@id/tvMin"
+            style="@style/TextSingleLine"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:maxLines="1"
-            android:textColor="@color/d6"
-            android:textSize="@dimen/yz"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp12"
             android:textStyle="bold" />
     </LinearLayout>
     <LinearLayout
-        android:layout_width="@dimen/wz"
-        android:layout_height="@dimen/wz"
+        android:layout_width="@dimen/px36"
+        android:layout_height="@dimen/px36"
         android:layout_gravity="center"
-        android:layout_marginStart="@dimen/xz"
-        android:background="@drawable/e8"
+        android:layout_marginStart="@dimen/px6"
+        android:background="@drawable/app_res_sample_1"
         android:gravity="center"
         android:orientation="vertical"
-        android:paddingTop="@dimen/uk"
-        android:paddingBottom="@dimen/uk">
+        android:paddingTop="@dimen/px2"
+        android:paddingBottom="@dimen/px2">
         <androidx.appcompat.widget.AppCompatTextView
-            style="@style/mr"
-            android:layout_width="fill_parent"
+            style="@style/TextSingleLine"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/kr"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/yy" />
+            android:text="@string/unit_sec"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp10" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bc3"
-            style="@style/mr"
-            android:layout_width="fill_parent"
+            android:id="@id/tvSec"
+            style="@style/TextSingleLine"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:maxLines="1"
-            android:textColor="@color/d6"
-            android:textSize="@dimen/yz"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp12"
             android:textStyle="bold" />
     </LinearLayout>
     <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="@dimen/vh"
-        android:layout_height="@dimen/td"
+        android:layout_width="@dimen/px26"
+        android:layout_height="@dimen/px12"
         android:layout_gravity="center_vertical"
-        android:layout_marginStart="@dimen/xz"
-        android:layout_marginBottom="@dimen/t3"
+        android:layout_marginStart="@dimen/px6"
+        android:layout_marginBottom="@dimen/px10"
         android:adjustViewBounds="true"
-        android:src="@drawable/akc" />
+        android:src="@drawable/ic_sale_countdown" />
 </LinearLayout>

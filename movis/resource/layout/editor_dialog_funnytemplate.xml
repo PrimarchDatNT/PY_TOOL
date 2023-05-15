@@ -1,122 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/r_"
-        android:layout_width="fill_parent"
+        android:id="@id/container"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40.0dip"
         android:layout_marginTop="51.0dip"
         android:layout_marginRight="40.0dip"
-        android:background="@color/zo"
+        android:background="@color/white"
         android:gravity="center_horizontal">
         <TextView
-            android:id="@id/b_5"
-            android:layout_width="fill_parent"
+            android:id="@id/title"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15.0dip"
             android:gravity="center_horizontal"
             android:maxLines="1"
-            android:textColor="@color/bn"
+            android:textColor="@color/black"
             android:textSize="16.0sp"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/t2"
-            android:layout_width="fill_parent"
+            android:id="@id/des"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/b_5"
+            android:layout_below="@id/title"
             android:layout_marginLeft="44.0dip"
             android:layout_marginTop="10.0dip"
             android:layout_marginRight="44.0dip"
             android:gravity="center_horizontal"
             android:maxLines="2"
-            android:textColor="@color/g9"
+            android:textColor="@color/color_8E8E93"
             android:textSize="12.0sp" />
         <RelativeLayout
-            android:id="@id/blc"
-            android:layout_width="fill_parent"
+            android:id="@id/video_container"
+            android:layout_width="match_parent"
             android:layout_height="342.0dip"
-            android:layout_below="@id/t2"
+            android:layout_below="@id/des"
             android:layout_centerHorizontal="true"
             android:layout_marginLeft="44.0dip"
             android:layout_marginTop="10.0dip"
             android:layout_marginRight="44.0dip">
             <com.videoai.aivpcore.xyui.video.VideoView
-                android:id="@id/bl_"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:background="@color/zo" />
+                android:id="@id/video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
             <ImageView
-                android:id="@id/blt"
+                android:id="@id/video_play"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:src="@drawable/q_"
+                android:src="@drawable/editor_icon_funny_template_play"
                 android:visibility="gone" />
             <RelativeLayout
-                android:id="@id/bq1"
+                android:id="@id/xiaoying_com_progress_video_loading"
                 android:layout_width="88.0dip"
                 android:layout_height="88.0dip"
                 android:layout_centerInParent="true"
                 android:layout_gravity="center"
-                android:background="@drawable/b18">
+                android:background="@drawable/xiaoying_com_check_update_bg">
                 <ProgressBar
-                    android:id="@id/as9"
+                    android:id="@id/progressBar1"
                     android:layout_width="60.299988dip"
                     android:layout_height="60.299988dip"
                     android:layout_centerInParent="true"
-                    android:indeterminateDrawable="@drawable/b19"
+                    android:indeterminateDrawable="@drawable/xiaoying_com_check_update_loading_progress"
                     android:indeterminateDuration="2000" />
             </RelativeLayout>
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/sb"
-            android:layout_width="fill_parent"
+            android:id="@id/create_container"
+            android:layout_width="match_parent"
             android:layout_height="45.0dip"
-            android:layout_below="@id/blc"
+            android:layout_below="@id/video_container"
             android:layout_marginLeft="25.0dip"
             android:layout_marginTop="20.0dip"
             android:layout_marginRight="25.0dip"
             android:gravity="center">
             <ProgressBar
-                android:id="@id/tx"
+                android:id="@id/download_progress"
                 style="?android:progressBarStyleHorizontal"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:max="100"
-                android:progressDrawable="@drawable/sr"
+                android:progressDrawable="@drawable/editor_layer_funny_detail_progress_bg"
                 android:visibility="gone" />
             <TextView
-                android:id="@id/sa"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:background="@drawable/vu"
+                android:id="@id/create"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/editor_shape_funny_template_detail_create"
                 android:gravity="center"
                 android:maxLines="1"
-                android:text="@string/a6n"
-                android:textColor="@color/zo"
+                android:text="@string/xiaoying_str_funny_template_create"
+                android:textColor="@color/white"
                 android:textSize="17.0sp" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/ald"
-            android:layout_width="fill_parent"
+            android:id="@id/more_container"
+            android:layout_width="match_parent"
             android:layout_height="20.0dip"
-            android:layout_below="@id/sb"
+            android:layout_below="@id/create_container"
             android:layout_marginTop="11.0dip"
             android:layout_marginBottom="10.0dip"
             android:gravity="center_horizontal">
             <TextView
-                android:id="@id/alc"
+                android:id="@id/more"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:maxLines="1"
-                android:text="@string/a6r"
+                android:text="@string/xiaoying_str_funny_tour_create_check_more"
                 android:textColor="#ffff5e13"
                 android:textSize="14.0sp" />
         </RelativeLayout>
         <ImageView
-            android:id="@id/qk"
+            android:id="@id/close_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -127,6 +127,6 @@
             android:paddingEnd="10.0dip"
             android:paddingRight="10.0dip"
             android:paddingBottom="10.0dip"
-            android:src="@drawable/l5" />
+            android:src="@drawable/editor_btn_close_funny_recommend_template" />
     </RelativeLayout>
 </RelativeLayout>

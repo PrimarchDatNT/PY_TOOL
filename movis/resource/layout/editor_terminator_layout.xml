@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="@dimen/a4r"
-    android:background="@color/dt">
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/video_editor_terminator_height"
+    android:background="@color/color_141414">
     <View
-        android:id="@id/bmu"
-        android:layout_width="fill_parent"
+        android:id="@id/view_base_line"
+        android:layout_width="match_parent"
         android:layout_height="1.0dip"
-        android:background="@color/ed" />
+        android:background="@color/color_262626" />
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="43.0dip"
-        android:layout_below="@id/bmu">
+        android:layout_below="@id/view_base_line">
         <ImageView
-            android:id="@id/b7w"
+            android:id="@id/terminator_left"
             android:layout_width="43.0dip"
             android:layout_height="43.0dip"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
-            android:background="@color/zr"
+            android:background="@color/white_p03"
             android:scaleType="center"
-            android:src="@drawable/to" />
+            android:src="@drawable/editor_selector_btn_cancel" />
         <ImageView
-            android:id="@id/b7x"
+            android:id="@id/terminator_right"
             android:layout_width="43.0dip"
             android:layout_height="43.0dip"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:background="@color/zr"
+            android:background="@color/white_p03"
             android:scaleType="center"
-            android:src="@drawable/tp" />
+            android:src="@drawable/editor_selector_btn_ok" />
         <TextView
-            android:id="@id/b7y"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/terminator_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
-            android:layout_toStartOf="@id/b7x"
-            android:layout_toLeftOf="@id/b7x"
-            android:layout_toEndOf="@id/b7w"
-            android:layout_toRightOf="@id/b7w"
+            android:layout_toStartOf="@id/terminator_right"
+            android:layout_toLeftOf="@id/terminator_right"
+            android:layout_toEndOf="@id/terminator_left"
+            android:layout_toRightOf="@id/terminator_left"
             android:clickable="false"
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
             android:text="Terminator"
-            android:textColor="@color/g9"
+            android:textColor="@color/color_8E8E93"
             android:textSize="16.0sp"
             android:textStyle="bold" />
         <FrameLayout
-            android:id="@id/b7v"
+            android:id="@id/terminator_content"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:layout_toStartOf="@id/b7x"
-            android:layout_toLeftOf="@id/b7x"
-            android:layout_toEndOf="@id/b7w"
-            android:layout_toRightOf="@id/b7w"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/terminator_right"
+            android:layout_toLeftOf="@id/terminator_right"
+            android:layout_toEndOf="@id/terminator_left"
+            android:layout_toRightOf="@id/terminator_left"
             android:visibility="gone" />
     </RelativeLayout>
 </RelativeLayout>

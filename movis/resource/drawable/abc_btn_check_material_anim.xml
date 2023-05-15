@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@id/oo" android:drawable="@drawable/ja" android:state_checked="true" />
+        android:id="@id/oo" android:drawable="@drawable/btn_checkbox_checked_mtrl" android:state_checked="true" />
     <item
-        android:id="@id/bjx" android:drawable="@drawable/jc" />
+        android:id="@id/bjx" android:drawable="@drawable/btn_checkbox_unchecked_mtrl" />
     <transition
-        android:drawable="@drawable/jd" android:fromId="@id/bjx" android:toId="@id/oo" />
+        android:drawable="@drawable/jd" android:fromId="@id/bjx" android:toId="@id/checked" />
     <transition
-        android:drawable="@drawable/jb" android:fromId="@id/oo" android:toId="@id/bjx" />
+        android:drawable="@drawable/jb" android:fromId="@id/oo" android:toId="@id/unchecked" />
 </animated-selector>

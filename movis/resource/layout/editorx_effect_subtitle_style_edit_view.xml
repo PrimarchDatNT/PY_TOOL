@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/aw3"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:id="@id/rlSubtitle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_marginTop="120.0dip">
     <LinearLayout
-        android:id="@id/all"
-        android:layout_width="fill_parent"
+        android:id="@id/move_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="192.0dip"
-        android:background="@color/dt"
+        android:background="@color/color_141414"
         android:orientation="vertical">
         <RelativeLayout
-            android:id="@id/aev"
-            android:layout_width="fill_parent"
+            android:id="@id/layout_input"
+            android:layout_width="match_parent"
             android:layout_height="50.0dip"
-            android:background="@color/e6"
+            android:background="@color/color_212121"
             android:paddingTop="8.0dip">
             <androidx.appcompat.widget.AppCompatEditText
-                android:id="@id/b5g"
-                android:layout_width="fill_parent"
+                android:id="@id/subtitle_edittext"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12.0dip"
                 android:layout_marginEnd="12.0dip"
-                android:layout_toStartOf="@id/adz"
-                android:background="@drawable/a7j"
+                android:layout_toStartOf="@id/layout_choose_finish"
+                android:background="@drawable/editorx_shape_effect_subtitle_input"
                 android:focusable="true"
                 android:focusableInTouchMode="true"
                 android:maxLength="247"
@@ -35,65 +35,65 @@
                 android:paddingTop="10.0dip"
                 android:paddingEnd="36.0dip"
                 android:paddingBottom="10.0dip"
-                android:textColor="@color/zo"
-                android:textColorHint="@color/ve"
+                android:textColor="@color/white"
+                android:textColorHint="@color/opacity_3_white"
                 android:textSize="14.0sp" />
             <View
-                android:id="@id/bn0"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/view_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="12.0dip"
                 android:layout_marginEnd="12.0dip"
-                android:layout_toStartOf="@id/adz" />
+                android:layout_toStartOf="@id/layout_choose_finish" />
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/b8h"
+                android:id="@id/text_delete"
                 android:layout_width="20.0dip"
                 android:layout_height="20.0dip"
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="20.0dip"
-                android:layout_toStartOf="@id/adz"
+                android:layout_toStartOf="@id/layout_choose_finish"
                 android:padding="4.0dip"
-                android:src="@drawable/a4g"
+                android:src="@drawable/editorx_icon_text_delete"
                 android:visibility="gone" />
             <RelativeLayout
-                android:id="@id/adz"
+                android:id="@id/layout_choose_finish"
                 android:layout_width="48.0dip"
                 android:layout_height="28.0dip"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="16.0dip"
-                android:background="@drawable/a6r">
+                android:background="@drawable/editorx_shape_button_red">
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@id/a_3"
+                    android:id="@id/iv_choose_finish"
                     android:layout_width="24.0dip"
                     android:layout_height="24.0dip"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/a2m" />
+                    android:src="@drawable/editorx_icon_effect_choose_finish" />
             </RelativeLayout>
         </RelativeLayout>
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="48.0dip"
             android:layout_gravity="center_vertical"
-            android:background="@color/e6"
+            android:background="@color/color_212121"
             android:gravity="center_vertical"
             android:orientation="horizontal">
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconView
-                android:id="@id/b2u"
+                android:id="@id/siv_store"
                 android:layout_width="48.0dip"
                 android:layout_height="32.0dip"
                 android:layout_marginStart="3.0dip"
-                app:simple_drawable="@drawable/a4d" />
+                app:simple_drawable="@drawable/editorx_icon_subtitle_tab_store" />
             <View
-                android:id="@id/bn9"
+                android:id="@id/view_line"
                 android:layout_width="1.0dip"
                 android:layout_height="16.0dip"
                 android:layout_marginStart="16.0dip"
                 android:layout_marginEnd="16.0dip"
-                android:background="@color/et" />
+                android:background="@color/color_33e6e6e6" />
             <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:baselineAligned="false"
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
@@ -103,94 +103,94 @@
                     android:layout_weight="1.0"
                     android:visibility="gone">
                     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconView
-                        android:id="@id/b2s"
+                        android:id="@id/siv_keyboard"
                         android:layout_width="48.0dip"
                         android:layout_height="32.0dip"
                         android:layout_centerInParent="true"
                         android:layout_marginStart="4.0dip"
                         android:layout_marginEnd="4.0dip"
                         android:visibility="gone"
-                        app:simple_drawable="@drawable/a4b" />
+                        app:simple_drawable="@drawable/editorx_icon_subtitle_tab_key" />
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_width="0.0dip"
                     android:layout_height="32.0dip"
                     android:layout_weight="1.0">
                     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconView
-                        android:id="@id/b2q"
+                        android:id="@id/siv_color"
                         android:layout_width="48.0dip"
                         android:layout_height="32.0dip"
                         android:layout_centerInParent="true"
                         android:layout_marginStart="4.0dip"
                         android:layout_marginEnd="4.0dip"
-                        app:simple_drawable="@drawable/a4_" />
+                        app:simple_drawable="@drawable/editorx_icon_subtitle_tab_color" />
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_width="0.0dip"
                     android:layout_height="32.0dip"
                     android:layout_weight="1.0">
                     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconView
-                        android:id="@id/b2r"
+                        android:id="@id/siv_font"
                         android:layout_width="48.0dip"
                         android:layout_height="32.0dip"
                         android:layout_centerInParent="true"
                         android:layout_marginStart="4.0dip"
                         android:layout_marginEnd="4.0dip"
-                        app:simple_drawable="@drawable/a4a" />
+                        app:simple_drawable="@drawable/editorx_icon_subtitle_tab_font" />
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_width="0.0dip"
                     android:layout_height="32.0dip"
                     android:layout_weight="1.0">
                     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconView
-                        android:id="@id/b2p"
+                        android:id="@id/siv_animation"
                         android:layout_width="48.0dip"
                         android:layout_height="32.0dip"
                         android:layout_centerInParent="true"
                         android:layout_marginStart="4.0dip"
                         android:layout_marginEnd="4.0dip"
-                        app:simple_drawable="@drawable/zz" />
+                        app:simple_drawable="@drawable/editorx_effect_font_ani" />
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_width="0.0dip"
                     android:layout_height="32.0dip"
                     android:layout_weight="1.0">
                     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconView
-                        android:id="@id/b2t"
+                        android:id="@id/siv_other"
                         android:layout_width="48.0dip"
                         android:layout_height="32.0dip"
                         android:layout_centerInParent="true"
                         android:layout_marginStart="4.0dip"
                         android:layout_marginEnd="4.0dip"
-                        app:simple_drawable="@drawable/a4c" />
+                        app:simple_drawable="@drawable/editorx_icon_subtitle_tab_more" />
                 </RelativeLayout>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
     <RelativeLayout
-        android:id="@id/ag7"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/layout_style_board"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentBottom="true">
         <com.videoai.aivpcore.editorx.board.effect.subtitle.tabview.color.SubtitleColorEditView
-            android:id="@id/r2"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/color_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:visibility="gone" />
         <com.videoai.aivpcore.editorx.board.effect.subtitle.tabview.font.FontView
-            android:id="@id/a06"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/font_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:visibility="gone" />
         <com.videoai.aivpcore.editorx.board.effect.subtitle.tabview.animation.AnimationView
-            android:id="@id/eo"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:visibility="gone" />
         <com.videoai.aivpcore.editorx.board.effect.subtitle.tabview.more.MoreView
-            android:id="@id/ale"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/more_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:visibility="gone" />
     </RelativeLayout>
 </RelativeLayout>

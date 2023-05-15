@@ -4,17 +4,17 @@
     android:layout_height="40.0dip"
     android:scaleType="centerInside">
     <ImageView
-        android:id="@id/abn"
+        android:id="@id/iv_thumb"
         android:layout_width="50.0dip"
         android:layout_height="40.0dip"
-        android:background="@color/xz"
+        android:background="@color/transparent"
         android:scaleType="centerInside" />
     <TextView
-        android:id="@id/bi9"
+        android:id="@id/tv_title"
         android:layout_width="50.0dip"
         android:layout_height="40.0dip"
-        android:background="@color/xz"
+        android:background="@color/transparent"
         android:gravity="center"
-        android:textColor="@color/zo"
+        android:textColor="@color/white"
         android:visibility="gone" />
 </FrameLayout>

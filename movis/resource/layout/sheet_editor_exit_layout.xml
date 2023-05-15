@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical">
     <TextView
-        android:id="@id/be2"
-        android:layout_width="fill_parent"
+        android:id="@id/tv_draft"
+        android:layout_width="match_parent"
         android:layout_height="52.0dip"
         android:gravity="center"
-        android:text="@string/adq"
-        android:textColor="@color/f5"
+        android:text="@string/xiaoying_str_save_and_exit"
+        android:textColor="@color/color_45454D"
         android:textSize="16.0sp" />
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.5dip"
         android:background="#fff5f6fa" />
     <TextView
-        android:id="@id/ben"
-        android:layout_width="fill_parent"
+        android:id="@id/tv_exit"
+        android:layout_width="match_parent"
         android:layout_height="52.0dip"
         android:gravity="center"
-        android:text="@string/a2o"
-        android:textColor="@color/ky"
+        android:text="@string/xiaoying_str_editor_back_exit_directly"
+        android:textColor="@color/color_ff6333"
         android:textSize="16.0sp" />
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="10.0dip"
         android:background="#fff5f6fa" />
     <TextView
-        android:id="@id/bdb"
-        android:layout_width="fill_parent"
+        android:id="@id/tv_cancel"
+        android:layout_width="match_parent"
         android:layout_height="52.0dip"
         android:gravity="center"
-        android:text="@string/s_"
-        android:textColor="@color/f5"
+        android:text="@string/xiaoying_str_com_cancel"
+        android:textColor="@color/color_45454D"
         android:textSize="14.0sp" />
 </LinearLayout>

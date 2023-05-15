@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/e6"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/ag" />
+        android:id="@id/anim_item_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_dcolor_background" />
     <com.videoai.aivpcore.editorx.board.effect.subtitle2.SubtitleAnimStateView
-        android:id="@id/e8"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/anim_item_state_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="gone" />
 </merge>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/xg" android:state_pressed="false" />
-    <item android:drawable="@drawable/xf" />
+    <item android:drawable="@drawable/editor_shape_watermark_qucikposition_unpres" android:state_pressed="false" />
+    <item android:drawable="@drawable/editor_shape_watermark_qucikposition_press" />
 </selector>

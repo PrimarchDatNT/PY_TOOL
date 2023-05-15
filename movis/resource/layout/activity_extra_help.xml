@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:paddingStart="@dimen/bl"
-    android:paddingLeft="@dimen/bl"
-    android:paddingTop="@dimen/bm"
-    android:paddingEnd="@dimen/bl"
-    android:paddingRight="@dimen/bl"
-    android:paddingBottom="@dimen/bm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:tag="layout/activity_extra_help_0">
     <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="vertical">
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="50.0dip"
                 android:orientation="horizontal">
                 <EditText
-                    android:id="@id/vr"
+                    android:id="@id/edittext_snsflag"
                     android:layout_width="100.0dip"
                     android:layout_height="50.0dip" />
                 <Button
-                    android:id="@id/lx"
+                    android:id="@id/btn_snsflag_apply"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Apply Sns Flag" />
                 <Button
-                    android:id="@id/t_"
+                    android:id="@id/device_deactive"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="设备注销" />
             </LinearLayout>
             <RelativeLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="50.0dip"
                 android:visibility="visible">
                 <EditText
-                    android:id="@id/vp"
+                    android:id="@id/edittext_appkey"
                     android:layout_width="200.0dip"
                     android:layout_height="50.0dip"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
                     android:hint="enter appkey" />
                 <Button
-                    android:id="@id/kd"
+                    android:id="@id/btn_apply_appkey"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -55,39 +55,39 @@
                     android:text="Apply appkey" />
             </RelativeLayout>
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="50.0dip"
                 android:orientation="horizontal">
                 <Button
-                    android:id="@id/km"
+                    android:id="@id/btn_cursp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Cur Splash Info" />
                 <Button
-                    android:id="@id/kv"
+                    android:id="@id/btn_getsp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Get Splash" />
                 <Button
-                    android:id="@id/l3"
+                    android:id="@id/btn_mediacheck"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Media Check"
                     android:visibility="gone" />
             </LinearLayout>
             <RelativeLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="50.0dip"
                 android:visibility="visible">
                 <Button
-                    android:id="@id/kc"
+                    android:id="@id/btn_apply_abtest_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
                     android:text="Apply ABTest" />
                 <EditText
-                    android:id="@id/us"
+                    android:id="@id/editTextABTest"
                     android:layout_width="200.0dip"
                     android:layout_height="50.0dip"
                     android:layout_alignParentStart="true"
@@ -100,17 +100,17 @@
                 android:gravity="center"
                 android:orientation="horizontal">
                 <Button
-                    android:id="@id/kb"
+                    android:id="@id/btn_apk_info"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="APK INFO" />
                 <Button
-                    android:id="@id/m7"
+                    android:id="@id/btn_update_quality_param"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="set视频质量参数" />
                 <Button
-                    android:id="@id/b19"
+                    android:id="@id/setConfigParam"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="设置config值" />
@@ -120,71 +120,71 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <Button
-                    android:id="@id/ku"
+                    android:id="@id/btn_export_key_path"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Export KeyPathFile" />
                 <Button
-                    android:id="@id/l4"
+                    android:id="@id/btn_monitor_setting"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Monitor Setting" />
             </LinearLayout>
             <Button
-                android:id="@id/kk"
+                android:id="@id/btn_copy_db"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="copy database r\n(make sure no database task running)" />
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <EditText
-                    android:id="@id/wj"
+                    android:id="@id/et_set_younger_time"
                     android:layout_width="0.0dip"
                     android:layout_height="wrap_content"
                     android:layout_weight="1.0"
                     android:hint="设置青少年模式时间(单位秒)" />
                 <Button
-                    android:id="@id/ls"
+                    android:id="@id/btn_set_younger_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="设置" />
             </LinearLayout>
             <CheckBox
-                android:id="@id/aiz"
+                android:id="@id/logger_event_to_web"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Logger event to web: ip:9988 测试包才有"
                 android:textColor="#ff000000" />
             <TextView
-                android:id="@id/aj0"
+                android:id="@id/logger_event_to_web_hint"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="在浏览器打开: http://手机ip:9988"
                 android:textColor="#ff000000" />
             <CheckBox
-                android:id="@id/c4"
+                android:id="@id/ad_log_cb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="AdLog"
                 android:textColor="#ff000000" />
             <CheckBox
-                android:id="@id/x8"
+                android:id="@id/faker_google_channel_cb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Faker Google Channel"
                 android:textColor="#ff000000" />
             <CheckBox
-                android:id="@id/a0d"
+                android:id="@id/force_show_logo_watermark_cb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Force Show Logo WaterMark"
                 android:textColor="#ff000000" />
             <TextView
-                android:id="@id/bj_"
-                android:layout_width="fill_parent"
+                android:id="@id/txtview_appstate"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="appstate" />
         </LinearLayout>

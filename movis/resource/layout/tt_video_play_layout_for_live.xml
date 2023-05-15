@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@id/tt_root_view"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/tt_video_playerbg_color">
     <RelativeLayout
         android:id="@id/tt_video_loading_retry_layout"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="@android:color/transparent"
         android:gravity="center">
         <ImageView
             android:id="@id/tt_video_loading_cover_image"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:scaleType="centerCrop" />
         <ProgressBar
             android:id="@id/tt_video_loading_progress"
@@ -33,8 +33,8 @@
         android:visibility="gone" />
     <ViewStub
         android:id="@id/tt_video_ad_cover"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout="@layout/tt_video_ad_cover_layout" />
     <ViewStub
         android:id="@id/tt_video_draw_layout_viewStub"

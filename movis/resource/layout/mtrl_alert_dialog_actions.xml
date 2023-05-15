@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/mg"
+    android:id="@id/buttonPanel"
     style="?eg"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fillViewport="true">
     <androidx.appcompat.widget.ButtonBarLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="bottom"
         android:layoutDirection="locale"
@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <android.widget.Space
-            android:id="@id/b3v"
+            android:id="@id/spacer"
             android:layout_width="0.0dip"
             android:layout_height="0.0dip"
             android:layout_weight="1.0"

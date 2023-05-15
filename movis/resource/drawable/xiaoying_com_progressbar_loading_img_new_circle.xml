@@ -3,6 +3,6 @@
     <shape
         android:innerRadiusRatio="3.0" android:shape="ring" android:thicknessRatio="15.0" android:useLevel="false">
         <gradient
-            android:angle="0.0" android:centerColor="#ffffffff" android:centerY="0.5" android:endColor="@color/jf" android:startColor="@color/lc" android:type="sweep" android:useLevel="false" />
+            android:angle="0.0" android:centerColor="#ffffffff" android:centerY="0.5" android:endColor="@color/jf" android:startColor="@color/color_ff8e00" android:type="sweep" android:useLevel="false" />
     </shape>
 </rotate>

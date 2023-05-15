@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@android:color/white">
     <RelativeLayout
-        android:id="@id/b32"
-        android:layout_width="fill_parent"
+        android:id="@id/slide_top_layout"
+        android:layout_width="match_parent"
         android:layout_height="44.0dip">
         <ImageButton
-            android:id="@id/ke"
+            android:id="@id/btn_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -16,9 +16,9 @@
             android:layout_marginLeft="10.0dip"
             android:background="@null"
             android:padding="5.0dip"
-            android:src="@drawable/dv" />
+            android:src="@drawable/app_default_back_black" />
         <TextView
-            android:id="@id/bi9"
+            android:id="@id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -26,44 +26,44 @@
             android:textSize="18.0sp"
             android:textStyle="bold" />
         <View
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.5dip"
             android:layout_alignParentBottom="true"
-            android:background="@color/j4" />
+            android:background="@color/color_eeeeee" />
     </RelativeLayout>
     <com.videoai.aivpcore.xyui.BounceScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/b32"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/slide_top_layout"
         android:layout_marginBottom="80.0dip"
         android:background="@android:color/white"
         android:scrollbars="none">
         <LinearLayout
-            android:id="@id/al3"
-            android:layout_width="fill_parent"
+            android:id="@id/module_container"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" />
     </com.videoai.aivpcore.xyui.BounceScrollView>
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="70.0dip"
         android:layout_alignParentBottom="true"
         android:background="@android:color/white">
         <View
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.5dip"
             android:layout_alignParentTop="true"
-            android:background="@color/j4" />
+            android:background="@color/color_eeeeee" />
         <TextView
-            android:id="@id/lb"
-            android:layout_width="fill_parent"
+            android:id="@id/btn_preview"
+            android:layout_width="match_parent"
             android:layout_height="50.0dip"
             android:layout_centerVertical="true"
             android:layout_marginLeft="15.0dip"
             android:layout_marginRight="15.0dip"
-            android:background="@drawable/ay2"
+            android:background="@drawable/v6_xiaoying_publish_save_btn_bg"
             android:gravity="center"
-            android:text="@string/aez"
+            android:text="@string/xiaoying_str_slide_prj_preview"
             android:textColor="@android:color/white"
             android:textSize="18.0sp" />
     </RelativeLayout>

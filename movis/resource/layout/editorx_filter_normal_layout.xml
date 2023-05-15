@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_background"
     android:clickable="true"
     android:focusable="true">
     <LinearLayout
-        android:id="@id/ai0"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/x6"
+        android:id="@id/ll_filter_filter_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px40"
         android:orientation="horizontal">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/a_r"
+            android:id="@id/iv_filter_normal_template_store"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginStart="@dimen/tz"
-            android:background="@drawable/apw"
-            android:drawableStart="@drawable/a14"
-            android:drawablePadding="@dimen/yf"
-            android:paddingStart="@dimen/td"
-            android:paddingTop="@dimen/xz"
-            android:paddingEnd="@dimen/td"
-            android:paddingBottom="@dimen/xz"
-            android:text="@string/kc"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/yz" />
+            android:layout_marginStart="@dimen/px16"
+            android:background="@drawable/slt_item_tag"
+            android:drawableStart="@drawable/editorx_ic_vector_theme"
+            android:drawablePadding="@dimen/px8"
+            android:paddingStart="@dimen/px12"
+            android:paddingTop="@dimen/px6"
+            android:paddingEnd="@dimen/px12"
+            android:paddingBottom="@dimen/px6"
+            android:text="@string/store"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp12" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/ayx"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_marginStart="@dimen/td" />
+            android:id="@id/rv_filter_normal_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/px12" />
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/ayv"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/ai0" />
+        android:id="@id/rv_filter_normal_filter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_filter_filter_indicator" />
     <FrameLayout
-        android:id="@id/zf"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/ai0"
+        android:id="@id/fl_recent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_filter_filter_indicator"
         android:visibility="gone">
         <TextView
-            android:id="@id/bgu"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/yg"
-            android:layout_marginStart="@dimen/tz"
-            android:layout_marginTop="@dimen/ul"
-            android:layout_marginEnd="@dimen/tz"
-            android:background="@drawable/a8c"
+            android:id="@id/tv_recent_empty"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px80"
+            android:layout_marginStart="@dimen/px16"
+            android:layout_marginTop="@dimen/px20"
+            android:layout_marginEnd="@dimen/px16"
+            android:background="@drawable/editorx_shape_recent_layout"
             android:gravity="center"
-            android:text="@string/a5b"
-            android:textColor="@color/ak"
-            android:textSize="@dimen/z0" />
+            android:text="@string/xiaoying_str_editorx_recent_use"
+            android:textColor="@color/app_dcolor_indicator_2"
+            android:textSize="@dimen/sp14" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/ayw"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:id="@id/rv_filter_normal_recent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </FrameLayout>
     <View
-        android:id="@id/bki"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/ag"
+        android:id="@id/v_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_dcolor_background"
         android:clickable="true"
         android:focusable="true"
         android:visibility="invisible" />
     <com.videoai.aivpcore.editorx.widget.LoadingImageView
-        android:id="@id/aaj"
+        android:id="@id/iv_loading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:clickable="true"
         android:focusable="true"
         android:scaleType="center"
-        android:src="@drawable/a4p" />
+        android:src="@drawable/editorx_icon_widget_loadding_progress" />
 </RelativeLayout>

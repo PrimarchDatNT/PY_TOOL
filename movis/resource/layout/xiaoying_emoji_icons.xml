@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#fffafafa">
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.5dip"
-        android:background="@color/fx" />
+        android:background="@color/color_707070_p40" />
     <com.videoai.aivpcore.common.ui.XYViewPager
-        android:id="@id/w3"
-        android:layout_width="fill_parent"
+        android:id="@id/emojis_pager"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:overScrollMode="never"
         android:paddingStart="13.0dip"
@@ -18,7 +18,7 @@
         android:paddingEnd="13.0dip"
         android:paddingRight="13.0dip" />
     <LinearLayout
-        android:id="@id/io"
+        android:id="@id/bottom_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

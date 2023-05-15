@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_background"
     android:tag="layout/templatex_act_subtitle_sticker_detail_0">
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/jc"
+        android:id="@id/btnBack"
         android:layout_width="?a4"
         android:layout_height="?a4"
-        android:background="@drawable/jf"
+        android:background="@drawable/btn_dcolor_ripple"
         android:scaleType="centerInside"
-        android:src="@drawable/aj0"
+        android:src="@drawable/ic_back"
         android:tag="binding_1"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bcb"
+        android:id="@id/tvTitle"
         android:layout_width="0.0dip"
         android:layout_height="?a4"
         android:gravity="start|center"
         android:tag="binding_2"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/z1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp16"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toEndOf="@id/jc"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toEndOf="@id/btnBack"
+        app:layout_constraintTop_toTopOf="parrent" />
     <TextView
-        android:id="@id/bcc"
+        android:id="@id/tvTitle2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:visibility="gone"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/bcb" />
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/aue"
-        android:layout_width="fill_parent"
+        android:id="@id/recyclerView"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
-        android:layout_marginStart="@dimen/tz"
-        android:layout_marginEnd="@dimen/tz"
-        android:layout_marginBottom="@dimen/yk"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/bcb" />
+        android:layout_marginStart="@dimen/px16"
+        android:layout_marginEnd="@dimen/px16"
+        android:layout_marginBottom="@dimen/px88"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle" />
     <LinearLayout
-        android:id="@id/ahp"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/xh"
-        android:layout_marginStart="@dimen/tz"
-        android:layout_marginEnd="@dimen/tz"
-        android:layout_marginBottom="@dimen/ul"
-        android:background="@drawable/e_"
+        android:id="@id/ll_btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px48"
+        android:layout_marginStart="@dimen/px16"
+        android:layout_marginEnd="@dimen/px16"
+        android:layout_marginBottom="@dimen/px20"
+        android:background="@drawable/app_res_sample_2"
         android:gravity="center"
         android:orientation="horizontal"
         android:tag="binding_3"
-        app:layout_constraintBottom_toBottomOf="apv">
+        app:layout_constraintBottom_toBottomOf="parrent">
         <TextView
-            android:id="@id/ja"
+            android:id="@id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pe"
-            android:textColor="@color/d6"
-            android:textSize="@dimen/z1" />
+            android:text="@string/xiaoying_str_btn_freedownload"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp16" />
     </LinearLayout>
     <TextView
-        android:id="@id/jb"
+        android:id="@id/btnAdded"
         android:layout_width="0.0dip"
         android:layout_height="48.0dip"
         android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintStart_toStartOf="apv" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent" />
     <LinearLayout
-        android:id="@id/ahq"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/xh"
-        android:layout_marginStart="@dimen/tz"
-        android:layout_marginEnd="@dimen/tz"
-        android:layout_marginBottom="@dimen/ul"
-        android:background="@drawable/dx"
+        android:id="@id/ll_btn_to_editor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px48"
+        android:layout_marginStart="@dimen/px16"
+        android:layout_marginEnd="@dimen/px16"
+        android:layout_marginBottom="@dimen/px20"
+        android:background="@drawable/app_default_button"
         android:gravity="center"
         android:orientation="horizontal"
         android:tag="binding_4"
-        app:layout_constraintBottom_toBottomOf="apv">
+        app:layout_constraintBottom_toBottomOf="parrent">
         <TextView
-            android:id="@id/k7"
+            android:id="@id/btnToEditor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/gf"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z1" />
+            android:text="@string/material_detail_cta"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

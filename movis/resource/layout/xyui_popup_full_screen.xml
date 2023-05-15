@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/b7t">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xyui_bg_full_screen_toast">
     <ImageView
-        android:id="@id/a5f"
+        android:id="@id/img_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:src="@drawable/b87" />
+        android:src="@drawable/xyui_icon_portrait_to_land" />
     <TextView
-        android:id="@id/bhs"
+        android:id="@id/tv_text_01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/a5f"
+        android:layout_below="@id/img_icon"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20.0dip"
-        android:text="@string/qm"
+        android:text="@string/xiaoying_str_cam_help_tip_04_01"
         android:textColor="#ffffffff"
         android:textSize="15.0sp" />
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/bhs"
+        android:layout_below="@id/tv_text_01"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12.0dip">
         <TextView
-            android:id="@id/bht"
+            android:id="@id/tv_text_02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/qn"
+            android:text="@string/xiaoying_str_cam_help_tip_04_02"
             android:textColor="#ffffffff"
             android:textSize="20.0sp" />
         <TextView
-            android:id="@id/bhu"
+            android:id="@id/tv_text_03"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/bht"
-            android:layout_toRightOf="@id/bht"
-            android:text="@string/qo"
-            android:textColor="@color/n_"
+            android:layout_toEndOf="@id/tv_text_02"
+            android:layout_toRightOf="@id/tv_text_02"
+            android:text="@string/xiaoying_str_cam_help_tip_04_03"
+            android:textColor="@color/default_app_color"
             android:textSize="20.0sp" />
     </RelativeLayout>
 </RelativeLayout>

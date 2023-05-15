@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <view xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/sy"
+    style="@style/Widget_Design_Snackbar"
     class="com.google.android.material.snackbar.Snackbar$SnackbarLayout"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="bottom"
-    android:theme="@style/p2" />
+    android:theme="@style/ThemeOverlay_AppCompat_Dark" />

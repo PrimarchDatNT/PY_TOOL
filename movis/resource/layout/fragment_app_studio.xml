@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/ayp"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/rv_app_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:clipToPadding="false"
-        android:paddingBottom="@dimen/tz" />
+        android:paddingBottom="@dimen/px16" />
     <LinearLayout
-        android:id="@id/ahz"
-        android:layout_width="fill_parent"
+        android:id="@id/ll_empty"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv">
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/a_l"
+            android:id="@id/iv_empty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:src="@drawable/xn" />
+            android:src="@drawable/editor_studio_draft_empty_bg" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bdt"
-            android:layout_width="fill_parent"
+            android:id="@id/tv_cta_create_video"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="64.0dip"
             android:layout_marginTop="12.0dip"
             android:layout_marginEnd="64.0dip"
-            android:background="@drawable/dx"
-            android:fontFamily="@font/f"
+            android:background="@drawable/app_default_button"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="center"
             android:paddingTop="10.0dip"
             android:paddingBottom="10.0dip"
-            android:text="@string/z2"
+            android:text="@string/xiaoying_str_community_activity_start_capture"
             android:textAllCaps="true"
-            android:textColor="@color/zo"
+            android:textColor="@color/white"
             android:textSize="18.0sp"
             android:textStyle="bold" />
     </LinearLayout>
     <ProgressBar
-        android:id="@id/air"
+        android:id="@id/loadingView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

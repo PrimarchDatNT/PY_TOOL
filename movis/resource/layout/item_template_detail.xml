@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
-    android:background="@color/xz">
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
     <FrameLayout
-        android:id="@id/nx"
+        android:id="@id/card_view"
         android:layout_width="209.0dip"
         android:layout_height="371.0dip"
         android:layout_centerInParent="true"
         android:layout_gravity="center"
-        android:background="@drawable/b3d">
+        android:background="@drawable/xiaoying_com_round_bg_black">
         <com.videoai.aivpcore.common.ui.video.XYSimpleVideoView
-            android:id="@id/bnt"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@drawable/b3d">
+            android:id="@id/view_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/xiaoying_com_round_bg_black">
             <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-                android:id="@id/a43"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/image_cover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:background="#ffcccccc"
                 android:scaleType="fitCenter" />
             <ImageView
-                android:id="@id/la"
+                android:id="@id/btn_play"
                 android:layout_width="48.0dip"
                 android:layout_height="48.0dip"
                 android:layout_gravity="center"
-                android:src="@drawable/am1" />
+                android:src="@drawable/level_template_icon" />
         </com.videoai.aivpcore.common.ui.video.XYSimpleVideoView>
         <LinearLayout
-            android:id="@id/aw7"
+            android:id="@id/rl_author"
             android:layout_width="wrap_content"
             android:layout_height="24.0dip"
             android:layout_gravity="bottom"
-            android:background="@drawable/ex"
+            android:background="@drawable/app_shape_template_author_bg"
             android:orientation="horizontal"
             android:visibility="gone">
             <ImageView
-                android:id="@id/a9t"
+                android:id="@id/iv_author"
                 android:layout_width="16.0dip"
                 android:layout_height="16.0dip"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="8.0dip"
                 android:scaleType="centerCrop" />
             <TextView
-                android:id="@id/bd7"
-                style="@style/x7"
+                android:id="@id/tv_author"
+                style="@style/veds_latn_font_caption_10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="4.0dip"
                 android:layout_marginEnd="8.0dip"
                 android:singleLine="true"
-                android:textColor="@color/zi" />
+                android:textColor="@color/veds_color_fill_white_1" />
         </LinearLayout>
     </FrameLayout>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/nx"
+        android:layout_below="@id/card_view"
         android:layout_centerHorizontal="true"
         android:paddingLeft="30.0dip"
         android:paddingRight="30.0dip"
         android:scaleType="fitXY"
-        android:src="@drawable/arh" />
+        android:src="@drawable/template_card_shadow" />
 </RelativeLayout>

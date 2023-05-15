@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/aup"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginLeft="12.0dip"
         android:layout_marginRight="12.0dip"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:spanCount="3" />
     <LinearLayout
-        android:id="@id/aj1"
-        android:layout_width="fill_parent"
+        android:id="@id/login_btn_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv">
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent">
         <TextView
-            android:id="@id/bfv"
-            style="@style/x_"
+            android:id="@id/tv_login_title"
+            style="@style/veds_latn_font_headline_20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -31,16 +31,16 @@
             android:layout_marginRight="32.0dip"
             android:gravity="center"
             android:includeFontPadding="false"
-            android:text="@string/ay2"
-            android:textColor="@color/zi"
+            android:text="@string/xy_module_google_photo_login_title"
+            android:textColor="@color/veds_color_fill_white_1"
             android:textSize="20.0dip"
             app:layout_constrainedWidth="true"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <TextView
-            android:id="@id/bfu"
-            style="@style/x3"
+            android:id="@id/tv_login_content"
+            style="@style/veds_latn_font_body_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -49,49 +49,49 @@
             android:layout_marginRight="32.0dip"
             android:gravity="center"
             android:includeFontPadding="false"
-            android:text="@string/ay1"
-            android:textColor="@color/zj"
+            android:text="@string/xy_module_google_photo_login_content"
+            android:textColor="@color/veds_color_fill_white_2"
             app:layout_constrainedWidth="true"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/bfv" />
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/tv_login_title" />
         <LinearLayout
-            android:id="@id/l1"
+            android:id="@id/btn_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="24.0dip"
-            android:background="@drawable/ah9"
+            android:background="@drawable/gallery_shape_google_photo_login_btn_bg"
             android:orientation="horizontal"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/bfu">
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/tv_login_content">
             <ImageView
-                android:id="@id/aal"
+                android:id="@id/iv_login_btn"
                 android:layout_width="24.0dip"
                 android:layout_height="24.0dip"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="8.0dip"
                 android:layout_marginTop="8.0dip"
                 android:layout_marginBottom="8.0dip"
-                android:src="@drawable/af1" />
+                android:src="@drawable/gallery_google_photo_logo" />
             <TextView
-                android:id="@id/bft"
-                style="@style/xh"
+                android:id="@id/tv_login_btn"
+                style="@style/veds_latn_font_subtitle_16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="16.0dip"
                 android:layout_marginEnd="16.0dip"
                 android:includeFontPadding="false"
-                android:text="@string/ay0"
-                android:textColor="@color/m7"
+                android:text="@string/xy_module_google_photo_login_btn"
+                android:textColor="@color/color_google_login_btn_text"
                 android:textSize="16.0sp" />
         </LinearLayout>
     </LinearLayout>
     <com.videoedit.gallery.widget.GalleryEmptyView
-        android:id="@id/a1j"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/gallery_template_item_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="gone" />
 </androidx.constraintlayout.widget.ConstraintLayout>

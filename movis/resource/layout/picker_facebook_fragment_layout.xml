@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@android:color/black">
     <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView
-        android:id="@id/a03"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/folder_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:overScrollMode="never"
         android:scrollbars="none" />
     <RelativeLayout
-        android:id="@id/af3"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/layout_media"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="gone">
         <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView
-            android:id="@id/akk"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/media_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:overScrollMode="never"
             android:scrollbars="none" />
         <ImageView
-            android:id="@id/zu"
+            android:id="@id/folder_back_icon"
             android:layout_width="60.0dip"
             android:layout_height="60.0dip"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="16.0dip"
-            android:src="@drawable/ao1" />
+            android:src="@drawable/picker_folder_back_icon" />
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/afe"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_picker_sns_login"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical">
         <TextView
-            android:id="@id/bgf"
+            android:id="@id/tv_picker_sns_login_desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingBottom="18.0dip"
-            android:textColor="@color/zz"
+            android:textColor="@color/white_p50"
             android:textSize="14.0sp" />
         <RelativeLayout
-            android:id="@id/aqg"
+            android:id="@id/picker_sns_facebook"
             android:layout_width="335.0dip"
             android:layout_height="50.0dip">
             <RelativeLayout
@@ -50,19 +50,19 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true">
                 <ImageView
-                    android:id="@id/aas"
+                    android:id="@id/iv_picker_sns"
                     android:layout_width="25.0dip"
                     android:layout_height="25.0dip"
                     android:layout_centerVertical="true"
                     android:scaleType="center" />
                 <TextView
-                    android:id="@id/b39"
+                    android:id="@id/sns_login_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
             </RelativeLayout>
         </RelativeLayout>
     </LinearLayout>
     <include
-        layout="@layout/ub"
+        layout="@layout/picker_empty_media_layout"
         android:visibility="gone" />
 </RelativeLayout>

@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/by">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_p54">
     <ProgressBar
-        android:id="@id/asg"
+        android:id="@id/progressbar_loading"
         style="?android:progressBarStyleHorizontal"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="32.0dip"
-        android:layout_alignStart="@id/lj"
-        android:layout_alignLeft="@id/lj"
-        android:layout_alignEnd="@id/lj"
-        android:layout_alignRight="@id/lj"
+        android:layout_alignStart="@id/btn_roll_download_state"
+        android:layout_alignLeft="@id/btn_roll_download_state"
+        android:layout_alignEnd="@id/btn_roll_download_state"
+        android:layout_alignRight="@id/btn_roll_download_state"
         android:layout_centerInParent="true"
         android:max="100"
         android:progress="30"
-        android:progressDrawable="@drawable/ax0" />
+        android:progressDrawable="@drawable/v5_xiaoying_roll_progressbar_horizontal" />
     <TextView
-        android:id="@id/bjp"
-        android:layout_width="fill_parent"
+        android:id="@id/txtview_rolldownload_progress"
+        android:layout_width="match_parent"
         android:layout_height="32.0dip"
-        android:layout_alignStart="@id/lj"
-        android:layout_alignLeft="@id/lj"
-        android:layout_alignEnd="@id/lj"
-        android:layout_alignRight="@id/lj"
+        android:layout_alignStart="@id/btn_roll_download_state"
+        android:layout_alignLeft="@id/btn_roll_download_state"
+        android:layout_alignEnd="@id/btn_roll_download_state"
+        android:layout_alignRight="@id/btn_roll_download_state"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:textColor="@color/zo"
+        android:textColor="@color/white"
         android:textSize="13.0dip" />
     <Button
-        android:id="@id/lj"
+        android:id="@id/btn_roll_download_state"
         android:layout_width="wrap_content"
         android:layout_height="32.0dip"
         android:layout_centerInParent="true"
-        android:background="@drawable/aw3"
+        android:background="@drawable/v5_xiaoying_category_search_bg"
         android:gravity="center"
         android:lines="1"
         android:minWidth="100.0dip"
@@ -42,7 +42,7 @@
         android:paddingEnd="14.0dip"
         android:paddingRight="14.0dip"
         android:singleLine="true"
-        android:text="@string/ail"
-        android:textColor="@color/zo"
+        android:text="@string/xiaoying_str_template_state_download"
+        android:textColor="@color/white"
         android:textSize="13.0dip" />
 </RelativeLayout>

@@ -2,25 +2,25 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/xz">
+    android:background="@color/transparent">
     <RelativeLayout
-        android:id="@id/a7u"
+        android:id="@id/item_layout"
         android:layout_width="50.0dip"
         android:layout_height="40.0dip">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/a7s"
+            android:id="@id/item_icon"
             android:layout_width="36.0dip"
             android:layout_height="36.0dip"
             android:layout_centerInParent="true"
             android:scaleType="centerInside" />
         <ImageView
-            android:id="@id/aad"
+            android:id="@id/iv_item_vip_flag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:src="@drawable/sm"
+            android:src="@drawable/editor_icon_vip_16_n"
             android:visibility="gone" />
     </RelativeLayout>
 </RelativeLayout>

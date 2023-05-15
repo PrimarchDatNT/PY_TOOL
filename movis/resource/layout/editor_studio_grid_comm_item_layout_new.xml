@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:autofit="http://schemas.android.com/apk/res-auto"
-    android:id="@id/ax7"
-    android:layout_width="fill_parent"
+    android:id="@id/rl_studio_draft_item"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <com.videoai.aivpcore.xyui.RoundCornerImageView
-        android:id="@id/b4u"
-        android:layout_width="fill_parent"
+        android:id="@id/studio_img_project_thumb"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:scaleType="centerCrop"
         autofit:layout_constraintDimensionRatio="1:1"
-        autofit:layout_constraintTop_toTopOf="apv" />
+        autofit:layout_constraintTop_toTopOf="parrent" />
     <com.videoai.aivpcore.common.ui.widgets.autofittextview.AutofitTextView
-        android:id="@id/b4w"
+        android:id="@id/studio_item_time_duration"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|center|top"
         android:layout_marginTop="6.0dip"
         android:layout_marginEnd="6.0dip"
         android:layout_weight="1.0"
-        android:background="@drawable/wp"
+        android:background="@drawable/editor_shape_studio"
         android:ellipsize="end"
         android:paddingStart="6.0dip"
         android:paddingTop="4.0dip"
         android:paddingEnd="6.0dip"
         android:paddingBottom="4.0dip"
         android:singleLine="true"
-        android:textColor="@color/zo"
+        android:textColor="@color/white"
         android:textSize="12.0sp"
-        autofit:layout_constraintEnd_toEndOf="apv"
-        autofit:layout_constraintTop_toTopOf="apv"
+        autofit:layout_constraintEnd_toEndOf="parrent"
+        autofit:layout_constraintTop_toTopOf="parrent"
         autofit:minTextSize="8.0sp" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/b4v"
-        android:layout_width="@dimen/tz"
-        android:layout_height="@dimen/tz"
+        android:id="@id/studio_item_copy"
+        android:layout_width="@dimen/px16"
+        android:layout_height="@dimen/px16"
         android:layout_gravity="start|center|top"
         android:layout_marginStart="8.0dip"
         android:layout_marginTop="6.0dip"
-        android:src="@drawable/n3"
+        android:src="@drawable/editor_draft_item_copy_icon"
         android:visibility="gone"
-        autofit:layout_constraintStart_toStartOf="apv"
-        autofit:layout_constraintTop_toTopOf="apv" />
+        autofit:layout_constraintStart_toStartOf="parrent"
+        autofit:layout_constraintTop_toTopOf="parrent" />
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
-        android:background="@drawable/wx"
+        android:background="@drawable/editor_shape_studio_thumb_mask_bg"
         autofit:layout_constraintDimensionRatio="1:1"
-        autofit:layout_constraintTop_toTopOf="apv" />
+        autofit:layout_constraintTop_toTopOf="parrent" />
     <com.videoai.aivpcore.unit.view.PressImageView
-        android:id="@id/b4t"
-        android:layout_width="@dimen/wd"
-        android:layout_height="@dimen/wd"
+        android:id="@id/studio_img_operate"
+        android:layout_width="@dimen/px32"
+        android:layout_height="@dimen/px32"
         android:layout_alignParentEnd="true"
         android:layout_gravity="center_vertical"
         android:adjustViewBounds="true"
         android:background="?a5d"
         android:scaleType="centerInside"
-        android:src="@drawable/n4"
-        autofit:layout_constraintBottom_toBottomOf="@id/b4u"
-        autofit:layout_constraintEnd_toEndOf="apv" />
+        android:src="@drawable/editor_draft_item_operate_icon"
+        autofit:layout_constraintBottom_toBottomOf="@id/studio_img_project_thumb"
+        autofit:layout_constraintEnd_toEndOf="parrent" />
     <FrameLayout
-        android:id="@id/b4q"
-        android:layout_width="fill_parent"
+        android:id="@id/studio_del_select"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
-        android:background="@drawable/wv"
+        android:background="@drawable/editor_shape_studio_multi_draft_select"
         android:visibility="gone"
         autofit:layout_constraintDimensionRatio="1:1"
-        autofit:layout_constraintTop_toTopOf="apv">
+        autofit:layout_constraintTop_toTopOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="32.0dip"
             android:layout_height="32.0dip"
             android:layout_gravity="center"
-            android:src="@drawable/rw" />
+            android:src="@drawable/editor_icon_studio_draft_multi_select" />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

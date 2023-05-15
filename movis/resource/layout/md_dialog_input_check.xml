@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.afollestad.materialdialogs.internal.MDRootLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     app:md_reduce_padding_no_title_no_buttons="false">
-    <include layout="@layout/t1" />
+    <include layout="@layout/md_stub_titleframe" />
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_weight="1.0"
         android:orientation="vertical"
-        android:paddingTop="@dimen/mg"
-        android:paddingBottom="@dimen/mf">
+        android:paddingTop="@dimen/md_content_padding_top"
+        android:paddingBottom="@dimen/md_content_padding_bottom">
         <TextView
-            android:id="@id/ak6"
-            android:layout_width="fill_parent"
+            android:id="@id/md_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="@dimen/mi"
+            android:layout_marginLeft="@dimen/md_dialog_frame_margin"
             android:layout_marginTop="4.0dip"
-            android:layout_marginRight="@dimen/mi"
-            android:layout_marginBottom="@dimen/mf"
+            android:layout_marginRight="@dimen/md_dialog_frame_margin"
+            android:layout_marginBottom="@dimen/md_content_padding_bottom"
             android:fontFamily="sans-serif"
-            android:textSize="@dimen/mh" />
+            android:textSize="@dimen/md_content_textsize" />
         <RelativeLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/mi"
-            android:layout_marginRight="@dimen/mi">
+            android:layout_marginLeft="@dimen/md_dialog_frame_margin"
+            android:layout_marginRight="@dimen/md_dialog_frame_margin">
             <EditText
                 android:id="@android:id/input"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="-2.0dip"
                 android:layout_marginRight="-2.0dip"
                 android:layout_marginBottom="1.0dip"
-                android:textSize="@dimen/mh" />
+                android:textSize="@dimen/md_content_textsize" />
             <TextView
-                android:id="@id/akd"
+                android:id="@id/md_minMax"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@android:id/input"
@@ -53,14 +53,14 @@
                 android:textSize="12.0sp" />
         </RelativeLayout>
         <CheckBox
-            android:id="@id/ake"
+            android:id="@id/md_promptCheckbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start|center"
-            android:layout_marginLeft="@dimen/mx"
-            android:layout_marginRight="@dimen/mx"
+            android:layout_marginLeft="@dimen/md_notitle_vertical_padding_more"
+            android:layout_marginRight="@dimen/md_notitle_vertical_padding_more"
             android:focusable="true"
             android:gravity="start" />
     </LinearLayout>
-    <include layout="@layout/sx" />
+    <include layout="@layout/md_stub_actionbuttons" />
 </com.afollestad.materialdialogs.internal.MDRootLayout>

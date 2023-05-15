@@ -7,29 +7,29 @@
     android:layout_marginLeft="10.0dip"
     android:layout_marginTop="8.5dip">
     <com.videoai.aivpcore.xyui.RoundCornerImageView
-        android:id="@id/a7k"
+        android:id="@id/item_fitler_child_cover"
         android:layout_width="64.0dip"
         android:layout_height="64.0dip"
         android:layout_marginStart="0.5dip"
         android:layout_marginLeft="0.5dip"
         android:layout_marginTop="0.5dip"
         android:scaleType="centerCrop"
-        android:src="@color/xz"
+        android:src="@color/transparent"
         app:cornerRadius="2.0dip" />
     <ImageView
-        android:id="@id/hz"
+        android:id="@id/bg_filter_child_selected"
         android:layout_width="65.0dip"
         android:layout_height="65.0dip"
-        android:src="@drawable/az_"
+        android:src="@drawable/xiaoying_cam_bg_filter_single_selected"
         android:visibility="gone" />
     <TextView
-        android:id="@id/a7l"
+        android:id="@id/item_fitler_child_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/a7k"
+        android:layout_below="@id/item_fitler_child_cover"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5.0dip"
         android:lines="1"
-        android:textColor="@color/g9"
+        android:textColor="@color/color_8E8E93"
         android:textSize="11.0sp" />
 </RelativeLayout>

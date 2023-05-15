@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/a1x" android:state_enabled="true" />
-    <item android:drawable="@drawable/a1y" android:state_enabled="false" />
+    <item android:drawable="@drawable/editorx_ico_trim_bar_item_clip_start" android:state_enabled="true" />
+    <item android:drawable="@drawable/editorx_ico_trim_bar_item_clip_start_disable" android:state_enabled="false" />
 </selector>

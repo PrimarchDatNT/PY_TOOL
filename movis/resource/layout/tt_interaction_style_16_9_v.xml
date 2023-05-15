@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_gravity="center">
     <FrameLayout
         android:id="@id/tt_ad_container"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
     <ImageView
         android:id="@id/tt_full_img"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:scaleType="fitCenter" />
     <RelativeLayout
         android:id="@id/tt_image_full_bar"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="48.0dip"
         android:layout_alignParentBottom="true"
         android:background="@color/tt_full_interaction_bar_background"
@@ -31,7 +31,7 @@
             android:background="@android:color/transparent" />
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_toEndOf="@id/tt_full_ad_icon"
             android:layout_toRightOf="@id/tt_full_ad_icon"
             android:gravity="center_vertical"

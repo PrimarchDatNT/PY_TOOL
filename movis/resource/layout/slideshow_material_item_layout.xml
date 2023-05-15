@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/re"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginTop="10.0dip"
         android:layout_marginEnd="10.0dip"
         android:layout_marginRight="10.0dip"
-        android:background="@color/j4">
+        android:background="@color/color_eeeeee">
         <ImageView
-            android:id="@id/ajn"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:id="@id/material_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
         <ImageButton
-            android:id="@id/k_"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:layout_marginLeft="20.0dip"
             android:layout_marginTop="20.0dip"
             android:layout_marginRight="20.0dip"
             android:layout_marginBottom="20.0dip"
             android:background="@null"
-            android:src="@drawable/m5" />
+            android:src="@drawable/editor_btn_slideshow_material_add" />
         <RelativeLayout
-            android:id="@id/agr"
-            android:layout_width="fill_parent"
+            android:id="@id/layout_video_info"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:visibility="gone">
             <TextView
-                android:id="@id/blg"
+                android:id="@id/video_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -51,16 +51,16 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="5.0dip"
                 android:layout_marginRight="5.0dip"
-                android:src="@drawable/m7" />
+                android:src="@drawable/editor_btn_slideshow_material_video_mask" />
         </RelativeLayout>
     </RelativeLayout>
     <ImageButton
-        android:id="@id/ko"
+        android:id="@id/btn_delete"
         android:layout_width="20.0dip"
         android:layout_height="20.0dip"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:background="@null"
-        android:src="@drawable/m6"
+        android:src="@drawable/editor_btn_slideshow_material_item_delete"
         android:visibility="gone" />
 </RelativeLayout>

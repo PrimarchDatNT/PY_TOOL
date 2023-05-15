@@ -2,11 +2,11 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="48.0dip"
     android:layout_height="32.0dip"
-    android:background="@color/ey">
+    android:background="@color/color_363636">
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/a4a"
+        android:id="@id/image_view"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_centerInParent="true"
-        android:src="@drawable/a35" />
+        android:src="@drawable/editorx_icon_effect_store" />
 </merge>

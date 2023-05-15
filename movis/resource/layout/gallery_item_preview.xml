@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/em">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_313131_p80">
     <RelativeLayout
-        android:id="@id/av0"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/xz">
+        android:id="@id/relativelayout_clips_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
         <com.videoai.aivpcore.gallery.view.ExtendedViewPager
-            android:id="@id/apq"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@color/xz" />
+            android:id="@id/pager_clips"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent" />
         <RelativeLayout
-            android:id="@id/ma"
-            android:layout_width="fill_parent"
+            android:id="@id/btns_layout"
+            android:layout_width="match_parent"
             android:layout_height="96.0dip"
             android:layout_alignParentTop="true"
-            android:background="@color/xz">
+            android:background="@color/transparent">
             <RelativeLayout
-                android:id="@id/af2"
-                android:layout_width="fill_parent"
-                android:layout_height="@dimen/a48"
+                android:id="@id/layout_main_panel_btns_top"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/v4_xiaoying_cam_top_bar_height"
                 android:layout_alignParentTop="true"
-                android:background="@color/e6">
+                android:background="@color/color_212121">
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
                     <TextView
-                        android:id="@id/bjd"
+                        android:id="@id/txtview_curindex"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
@@ -43,19 +43,19 @@
                         android:padding="0.0dip"
                         android:singleLine="true"
                         android:text="5"
-                        android:textColor="@color/fp"
+                        android:textColor="@color/color_666666"
                         android:textSize="15.0sp" />
                     <TextView
-                        android:id="@id/bjr"
+                        android:id="@id/txtview_sep"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:padding="0.0dip"
                         android:text="/"
-                        android:textColor="@color/fp"
+                        android:textColor="@color/color_666666"
                         android:textSize="15.0sp" />
                     <TextView
-                        android:id="@id/bjb"
+                        android:id="@id/txtview_count"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
@@ -63,23 +63,23 @@
                         android:padding="0.0dip"
                         android:singleLine="true"
                         android:text="15"
-                        android:textColor="@color/fp"
+                        android:textColor="@color/color_666666"
                         android:textSize="15.0sp" />
                 </LinearLayout>
                 <RelativeLayout
-                    android:id="@id/aet"
+                    android:id="@id/layout_imgbtn_del_clip"
                     android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
-                    android:background="@color/xz"
-                    android:paddingStart="@dimen/a3x"
-                    android:paddingLeft="@dimen/a3x"
-                    android:paddingEnd="@dimen/a3x"
-                    android:paddingRight="@dimen/a3x">
+                    android:background="@color/transparent"
+                    android:paddingStart="@dimen/v2_com_top_bar_text_margin"
+                    android:paddingLeft="@dimen/v2_com_top_bar_text_margin"
+                    android:paddingEnd="@dimen/v2_com_top_bar_text_margin"
+                    android:paddingRight="@dimen/v2_com_top_bar_text_margin">
                     <CheckBox
-                        android:id="@id/a5z"
-                        style="@style/xq"
+                        android:id="@id/imgbtn_del_clip"
+                        style="@style/xiaoying_FileCheckboxStyle2"
                         android:layout_width="30.0dip"
                         android:layout_height="30.0dip"
                         android:layout_alignParentEnd="true"
@@ -90,47 +90,47 @@
                         android:focusable="false" />
                 </RelativeLayout>
                 <ImageView
-                    android:id="@id/ke"
+                    android:id="@id/btn_back"
                     android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="8.0dip"
                     android:layout_marginLeft="8.0dip"
                     android:scaleType="centerInside"
-                    android:src="@drawable/aw4" />
+                    android:src="@drawable/v5_xiaoying_com_btn_back_selector" />
             </RelativeLayout>
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/av6"
-            android:layout_width="fill_parent"
+            android:id="@id/relativelayout_tab_content"
+            android:layout_width="match_parent"
             android:layout_height="52.0dip"
             android:layout_alignParentBottom="true"
-            android:background="@color/e6"
+            android:background="@color/color_212121"
             android:paddingStart="20.0dip"
             android:paddingLeft="20.0dip"
             android:paddingEnd="10.0dip"
             android:paddingRight="10.0dip"
             android:visibility="visible">
             <ImageButton
-                android:id="@id/a63"
+                android:id="@id/imgbtn_ratate"
                 android:layout_width="32.0dip"
                 android:layout_height="32.0dip"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
-                android:background="@color/xz"
-                android:src="@drawable/b7a"
+                android:background="@color/transparent"
+                android:src="@drawable/xiaoying_ve_rotate_icon"
                 android:visibility="visible" />
             <Button
-                android:id="@id/ki"
+                android:id="@id/btn_confirm"
                 android:layout_width="wrap_content"
                 android:layout_height="27.0dip"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:background="@drawable/avj"
+                android:background="@drawable/v4_xiaoying_ve_storyboard_done_btn_bg_selector"
                 android:gravity="center"
                 android:minWidth="75.0dip"
                 android:minHeight="34.0dip"
@@ -139,8 +139,8 @@
                 android:paddingEnd="5.0dip"
                 android:paddingRight="5.0dip"
                 android:singleLine="true"
-                android:text="@string/alr"
-                android:textColor="@color/zo"
+                android:text="@string/xiaoying_str_ve_gallery_preview_ok_cnt"
+                android:textColor="@color/white"
                 android:textSize="13.0sp"
                 android:visibility="visible" />
         </RelativeLayout>

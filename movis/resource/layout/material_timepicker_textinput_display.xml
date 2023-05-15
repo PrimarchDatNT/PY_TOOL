@@ -4,10 +4,10 @@
     android:layout_height="wrap_content"
     android:paddingTop="8.0dip">
     <include
-        android:id="@id/ajo"
-        layout="@layout/rv" />
-    <include layout="@layout/rx" />
+        android:id="@id/material_hour_text_input"
+        layout="@layout/material_chip_input_combo" />
+    <include layout="@layout/material_clock_display_divider" />
     <include
-        android:id="@id/ajs"
-        layout="@layout/rv" />
+        android:id="@id/material_minute_text_input"
+        layout="@layout/material_chip_input_combo" />
 </LinearLayout>

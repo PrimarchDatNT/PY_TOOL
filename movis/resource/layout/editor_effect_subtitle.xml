@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/axf"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:id="@id/rl_subtitle_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <com.videoai.aivpcore.editor.effects.PlayerFakeView
-        android:id="@id/bl6"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/axd"
+        android:id="@id/ve_subtitle_transparent_fake_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl_subtitle_op_view"
         android:orientation="vertical" />
     <RelativeLayout
-        android:id="@id/axd"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/gv"
+        android:id="@id/rl_subtitle_op_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
-        android:background="@color/bn">
+        android:background="@color/black">
         <com.videoai.aivpcore.editor.effects.VideoEditorSeekLayout
-            android:id="@id/bl5"
-            android:layout_width="fill_parent"
+            android:id="@id/ve_subtitle_seek_layout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12.0dip" />
         <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_above="@id/b7u"
-            android:layout_below="@id/bl5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/terminator"
+            android:layout_below="@id/ve_subtitle_seek_layout"
             android:layout_centerHorizontal="true">
             <TextView
-                android:id="@id/bho"
+                android:id="@id/tv_subtitle_op_btn"
                 android:layout_width="113.0dip"
                 android:layout_height="35.0dip"
                 android:layout_centerInParent="true"
-                android:background="@drawable/u1"
+                android:background="@drawable/editor_selector_effect_sub_op_btn"
                 android:gravity="center"
-                android:text="@string/rx"
-                android:textColor="@color/zo"
+                android:text="@string/xiaoying_str_com_add"
+                android:textColor="@color/white"
                 android:textSize="16.0sp" />
             <ImageView
-                android:id="@id/abf"
+                android:id="@id/iv_subtitle_op_left_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="30.0dip"
                 android:layout_marginRight="30.0dip"
-                android:layout_toStartOf="@id/bho"
-                android:layout_toLeftOf="@id/bho"
+                android:layout_toStartOf="@id/tv_subtitle_op_btn"
+                android:layout_toLeftOf="@id/tv_subtitle_op_btn"
                 android:gravity="center"
-                android:src="@drawable/u2"
+                android:src="@drawable/editor_selector_effect_sub_op_left_btn"
                 android:visibility="gone" />
         </RelativeLayout>
         <include
-            android:id="@id/axe"
-            layout="@layout/gf"
-            android:layout_width="fill_parent"
+            android:id="@id/rl_subtitle_root_bottom_layout"
+            layout="@layout/editor_effect_subtitle_bottom_layout"
+            android:layout_width="match_parent"
             android:layout_height="158.0dip"
-            android:layout_above="@id/b7u"
+            android:layout_above="@id/terminator"
             android:visibility="gone" />
         <com.videoai.aivpcore.editor.widget.terminator.Terminator
-            android:id="@id/b7u"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/a4r"
+            android:id="@id/terminator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/video_editor_terminator_height"
             android:layout_alignParentBottom="true" />
     </RelativeLayout>
 </RelativeLayout>

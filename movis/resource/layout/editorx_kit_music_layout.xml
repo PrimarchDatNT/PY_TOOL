@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="190.0dip"
-    android:background="@color/dt"
+    android:background="@color/color_141414"
     android:paddingStart="15.0dip"
     android:paddingEnd="15.0dip">
     <LinearLayout
-        android:id="@id/adt"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_bgm_no_add"
+        android:layout_width="match_parent"
         android:layout_height="60.0dip"
         android:layout_marginTop="24.0dip"
-        android:background="@drawable/a6l"
+        android:background="@drawable/editorx_shape_audio_bgm_add_layout"
         android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="apv"
-        app:layout_constraintRight_toRightOf="apv"
-        app:layout_constraintTop_toTopOf="apv">
+        app:layout_constraintLeft_toLeftOf="parrent"
+        app:layout_constraintRight_toRightOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent">
         <ImageView
             android:layout_width="16.0dip"
             android:layout_height="16.0dip"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="14.0dip"
             android:scaleType="centerCrop"
-            android:src="@drawable/xy" />
+            android:src="@drawable/editorx_audio_bg_item_add_icon" />
         <LinearLayout
             android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1.0"
             android:orientation="horizontal">
             <com.videoai.aivpcore.xyui.MarqueeTextView
-                android:id="@id/i8"
+                android:id="@id/bgm_add"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -40,36 +40,36 @@
                 android:marqueeRepeatLimit="marquee_forever"
                 android:scrollHorizontally="true"
                 android:singleLine="true"
-                android:text="@string/zp"
-                android:textColor="@color/iv"
+                android:text="@string/xiaoying_str_edit_add_bgm_music_text"
+                android:textColor="@color/color_e6e6e6"
                 android:textSize="14.0sp" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
-        android:id="@id/ads"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_bgm_item"
+        android:layout_width="match_parent"
         android:layout_height="60.0dip"
         android:layout_marginTop="24.0dip"
-        android:background="@drawable/a7x"
+        android:background="@drawable/editorx_shape_kit_text_adapter"
         android:orientation="horizontal"
         android:visibility="gone"
-        app:layout_constraintLeft_toLeftOf="apv"
-        app:layout_constraintRight_toRightOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/adt">
+        app:layout_constraintLeft_toLeftOf="parrent"
+        app:layout_constraintRight_toRightOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/layout_bgm_no_add">
         <ImageView
             android:layout_width="16.0dip"
             android:layout_height="16.0dip"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="14.0dip"
             android:scaleType="centerCrop"
-            android:src="@drawable/xz" />
+            android:src="@drawable/editorx_audio_bg_item_icon" />
         <LinearLayout
             android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1.0"
             android:orientation="horizontal">
             <com.videoai.aivpcore.xyui.MarqueeTextView
-                android:id="@id/i_"
+                android:id="@id/bgm_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -80,85 +80,85 @@
                 android:marqueeRepeatLimit="marquee_forever"
                 android:scrollHorizontally="true"
                 android:singleLine="true"
-                android:textColor="@color/g4"
+                android:textColor="@color/color_808080"
                 android:textSize="14.0sp" />
         </LinearLayout>
         <View
             android:layout_width="1.0dip"
             android:layout_height="16.0dip"
             android:layout_gravity="center_vertical"
-            android:background="@color/ey" />
+            android:background="@color/color_363636" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/i9"
+            android:id="@id/bgm_item_replace"
             android:layout_width="60.0dip"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            app:sitv_bottom_text="@string/a1r"
-            app:sitv_top_drawable="@drawable/y4" />
+            app:sitv_bottom_text="@string/xiaoying_str_edit_replace_text"
+            app:sitv_top_drawable="@drawable/editorx_audio_bgm_replace_icon" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/ia"
+            android:id="@id/bgm_volume"
             android:layout_width="60.0dip"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginEnd="6.0dip"
-            app:sitv_bottom_text="@string/a07"
+            app:sitv_bottom_text="@string/xiaoying_str_edit_audio_vloume_text"
             app:sitv_top_text="100"
-            app:sitv_top_text_color="@drawable/a6f"
+            app:sitv_top_text_color="@drawable/editorx_selector_sitv_text_color"
             app:sitv_top_type="bac" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/af_"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_ori_item"
+        android:layout_width="match_parent"
         android:layout_height="60.0dip"
         android:layout_marginTop="20.0dip"
-        android:background="@drawable/a7x"
+        android:background="@drawable/editorx_shape_kit_text_adapter"
         android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="apv"
-        app:layout_constraintRight_toRightOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/ads">
+        app:layout_constraintLeft_toLeftOf="parrent"
+        app:layout_constraintRight_toRightOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/layout_bgm_item">
         <ImageView
             android:layout_width="16.0dip"
             android:layout_height="16.0dip"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="14.0dip"
             android:scaleType="centerCrop"
-            android:src="@drawable/y_" />
+            android:src="@drawable/editorx_audio_ori_item_icon" />
         <LinearLayout
             android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1.0"
             android:orientation="horizontal">
             <TextView
-                android:id="@id/ape"
+                android:id="@id/ori_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="6.0dip"
-                android:text="@string/a9m"
-                android:textColor="@color/g4"
+                android:text="@string/xiaoying_str_magic_sound_original"
+                android:textColor="@color/color_808080"
                 android:textSize="14.0sp" />
         </LinearLayout>
         <View
             android:layout_width="1.0dip"
             android:layout_height="16.0dip"
             android:layout_gravity="center_vertical"
-            android:background="@color/ey" />
+            android:background="@color/color_363636" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/apd"
+            android:id="@id/ori_item_mute"
             android:layout_width="60.0dip"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            app:sitv_bottom_text="@string/aju"
-            app:sitv_top_drawable="@drawable/a65" />
+            app:sitv_bottom_text="@string/xiaoying_str_ve_basic_mute_title"
+            app:sitv_top_drawable="@drawable/editorx_selector_audio_mute" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/apf"
+            android:id="@id/ori_volume"
             android:layout_width="60.0dip"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginEnd="6.0dip"
-            app:sitv_bottom_text="@string/a07"
+            app:sitv_bottom_text="@string/xiaoying_str_edit_audio_vloume_text"
             app:sitv_top_text="100"
-            app:sitv_top_text_color="@drawable/a6f"
+            app:sitv_top_text_color="@drawable/editorx_selector_sitv_text_color"
             app:sitv_top_type="bac" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

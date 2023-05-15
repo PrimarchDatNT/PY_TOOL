@@ -1,196 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ag">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_background">
     <View
-        android:id="@id/bo_"
-        android:layout_width="fill_parent"
+        android:id="@id/vt_title_bg"
+        android:layout_width="match_parent"
         android:layout_height="?a4"
-        android:background="@color/ah"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        android:background="@color/app_dcolor_bg_1"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/blz"
+        android:id="@id/video_trim_btn_back"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:adjustViewBounds="true"
-        android:background="@drawable/jf"
+        android:background="@drawable/btn_dcolor_ripple"
         android:scaleType="centerInside"
-        android:src="@drawable/aj0" />
+        android:src="@drawable/ic_back" />
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="?a4"
         android:layout_alignParentTop="true"
-        android:layout_toEndOf="@id/blz"
+        android:layout_toEndOf="@id/video_trim_btn_back"
         android:gravity="center"
-        android:text="@string/ab5"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/z1"
+        android:text="@string/xiaoying_str_pip_priview"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp16"
         android:textStyle="bold" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/bm0"
+        android:id="@id/video_trim_btn_done"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:adjustViewBounds="true"
-        android:background="@drawable/jf"
+        android:background="@drawable/btn_dcolor_ripple"
         android:scaleType="centerInside"
-        android:src="@drawable/ae0" />
+        android:src="@drawable/gallery_board_next_btn_selector" />
     <RelativeLayout
-        android:id="@id/afh"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/bm1"
-        android:layout_below="@id/bo_"
-        android:background="@color/yz">
+        android:id="@id/layout_preview_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/video_trim_layout_operation"
+        android:layout_below="@id/vt_title_bg"
+        android:background="@color/veds_color_bg_black_1">
         <com.videoedit.gallery.widget.PlayerView
-            android:id="@id/bm5"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:id="@id/video_trim_playerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bm8"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@drawable/aew"
+            android:id="@id/video_trim_water_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gallery_eeyeful_water_icon"
             android:visibility="gone" />
         <com.videoedit.gallery.widget.crop.CropImageView
-            android:id="@id/sc"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/crop_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:adjustViewBounds="true"
             android:scaleType="centerInside"
             android:visibility="gone" />
     </RelativeLayout>
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/bm1"
-        android:layout_width="fill_parent"
+        android:id="@id/video_trim_layout_operation"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="15.0dip">
         <FrameLayout
-            android:id="@id/bm2"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/ul"
-            android:background="@color/xz"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toRightOf="apv"
-            app:layout_constraintTop_toTopOf="apv">
+            android:id="@id/video_trim_layout_times"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px20"
+            android:background="@color/transparent"
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toRightOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent">
             <TextView
-                android:id="@id/bm3"
-                style="@style/mr"
+                android:id="@id/video_trim_left_time"
+                style="@style/TextSingleLine"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical"
-                android:layout_marginStart="@dimen/vs"
+                android:layout_marginStart="@dimen/px28"
                 android:gravity="center"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/yz" />
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12" />
             <TextView
-                android:id="@id/bm6"
-                style="@style/mr"
+                android:id="@id/video_trim_right_time"
+                style="@style/TextSingleLine"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/yz" />
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12" />
         </FrameLayout>
         <com.videoedit.gallery.widget.trim.VeAdvanceTrimGallery
-            android:id="@id/bm7"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/t4"
-            android:background="@color/xz"
+            android:id="@id/video_trim_tool"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px100"
+            android:background="@color/transparent"
             android:gravity="center_vertical"
             android:spacing="0.0dip"
             android:unselectedAlpha="1.0"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toRightOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/bm2" />
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toRightOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/video_trim_layout_times" />
         <RelativeLayout
-            android:id="@id/ap8"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/yb"
-            android:background="@color/ah"
+            android:id="@id/ops_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px72"
+            android:background="@color/app_dcolor_bg_1"
             android:baselineAligned="false"
             android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/bm7">
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/video_trim_tool">
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_alignParentStart="true"
-                android:layout_toStartOf="@id/afr"
+                android:layout_toStartOf="@id/layout_rotate"
                 android:gravity="center"
                 android:orientation="vertical">
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@id/bm4"
-                    android:layout_width="@dimen/v7"
-                    android:layout_height="@dimen/v7"
+                    android:id="@id/video_trim_play_icon"
+                    android:layout_width="@dimen/px24"
+                    android:layout_height="@dimen/px24"
                     android:scaleType="centerInside"
-                    android:src="@drawable/agv" />
+                    android:src="@drawable/gallery_selector_cropper_play" />
                 <androidx.appcompat.widget.AppCompatTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/x5"
-                    android:text="@string/ja"
-                    android:textColor="@color/zo"
-                    android:textSize="@dimen/yz" />
+                    android:layout_marginTop="@dimen/px4"
+                    android:text="@string/play_button_content_description"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp12" />
             </LinearLayout>
             <LinearLayout
-                android:id="@id/afr"
+                android:id="@id/layout_rotate"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_centerInParent="true"
                 android:gravity="center"
                 android:orientation="vertical"
-                android:paddingStart="@dimen/wd"
-                android:paddingEnd="@dimen/wd">
+                android:paddingStart="@dimen/px32"
+                android:paddingEnd="@dimen/px32">
                 <ImageButton
-                    android:id="@id/lk"
-                    android:layout_width="@dimen/v7"
-                    android:layout_height="@dimen/v7"
-                    android:background="@drawable/jf"
+                    android:id="@id/btn_rotate"
+                    android:layout_width="@dimen/px24"
+                    android:layout_height="@dimen/px24"
+                    android:background="@drawable/btn_dcolor_ripple"
                     android:clickable="false"
-                    android:src="@drawable/agt" />
+                    android:src="@drawable/gallery_pic_rotate_icon" />
                 <androidx.appcompat.widget.AppCompatTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/x5"
-                    android:text="@string/ajz"
-                    android:textColor="@color/zo"
-                    android:textSize="@dimen/yz" />
+                    android:layout_marginTop="@dimen/px4"
+                    android:text="@string/xiaoying_str_ve_basic_rotate_title"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp12" />
             </LinearLayout>
             <LinearLayout
-                android:id="@id/ae4"
+                android:id="@id/layout_crop"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_alignParentEnd="true"
-                android:layout_toEndOf="@id/afr"
+                android:layout_toEndOf="@id/layout_rotate"
                 android:gravity="center"
                 android:orientation="vertical">
                 <ImageButton
-                    android:id="@id/kl"
-                    android:layout_width="@dimen/v7"
-                    android:layout_height="@dimen/v7"
-                    android:background="@drawable/jf"
+                    android:id="@id/btn_crop"
+                    android:layout_width="@dimen/px24"
+                    android:layout_height="@dimen/px24"
+                    android:background="@drawable/btn_dcolor_ripple"
                     android:clickable="false"
-                    android:src="@drawable/ah1" />
+                    android:src="@drawable/gallery_selector_video_trim_crop" />
                 <androidx.appcompat.widget.AppCompatTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/x5"
-                    android:text="@string/dn"
-                    android:textColor="@color/zo"
-                    android:textSize="@dimen/yz" />
+                    android:layout_marginTop="@dimen/px4"
+                    android:text="@string/crop"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp12" />
             </LinearLayout>
         </RelativeLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

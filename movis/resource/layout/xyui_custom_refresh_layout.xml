@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/aip"
-    android:layout_width="fill_parent"
+    android:id="@id/load_more_refresh_layout"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/bn"
+    android:background="@color/black"
     android:orientation="vertical"
     android:visibility="gone">
     <FrameLayout
-        android:id="@id/ain"
-        android:layout_width="fill_parent"
+        android:id="@id/load_more_loadding_view"
+        android:layout_width="match_parent"
         android:layout_height="50.0dip"
-        android:background="@color/bn"
+        android:background="@color/black"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/aia"
-            android:textColor="@color/a01" />
+            android:text="@string/xiaoying_str_template_msg_load_more_template"
+            android:textColor="@color/white_p70" />
     </FrameLayout>
     <FrameLayout
-        android:id="@id/aim"
-        android:layout_width="fill_parent"
+        android:id="@id/load_more_load_fail_view"
+        android:layout_width="match_parent"
         android:layout_height="50.0dip"
-        android:background="@color/bn"
+        android:background="@color/black"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/aia"
-            android:textColor="@color/a01" />
+            android:text="@string/xiaoying_str_template_msg_load_more_template"
+            android:textColor="@color/white_p70" />
     </FrameLayout>
     <FrameLayout
-        android:id="@id/ail"
-        android:layout_width="fill_parent"
+        android:id="@id/load_more_load_end_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/bn"
+        android:background="@color/black"
         android:orientation="vertical"
         android:paddingBottom="50.0dip">
         <TextView
@@ -44,7 +44,7 @@
             android:layout_height="50.0dip"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="@string/z4"
-            android:textColor="@color/a01" />
+            android:text="@string/xiaoying_str_community_load_finish_nomore_tip"
+            android:textColor="@color/white_p70" />
     </FrameLayout>
 </RelativeLayout>

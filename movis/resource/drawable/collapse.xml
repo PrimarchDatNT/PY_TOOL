@@ -5,5 +5,5 @@
             <solid android:color="@android:color/black" />
         </shape>
     </item>
-    <item android:drawable="@drawable/je" />
+    <item android:drawable="@drawable/btn_clear" />
 </layer-list>

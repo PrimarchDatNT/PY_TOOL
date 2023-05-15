@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/xz">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="25.0dip"
         android:layout_marginLeft="25.0dip"
         android:layout_marginEnd="25.0dip"
         android:layout_marginRight="25.0dip"
-        android:background="@color/zo"
+        android:background="@color/white"
         android:gravity="center"
         android:orientation="vertical">
         <TextView
-            android:id="@id/avm"
-            android:layout_width="fill_parent"
+            android:id="@id/reward_com_video_ad_description"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="15.0dip"
-            android:text="@string/adm"
-            android:textColor="@color/fp"
+            android:text="@string/xiaoying_str_reward_video_ad_to_unlock_material_title"
+            android:textColor="@color/color_666666"
             android:textSize="17.0sp"
             android:textStyle="bold" />
         <View
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="1.0px"
-            android:background="@color/ir" />
+            android:background="@color/color_e5e5e5" />
         <TextView
-            android:id="@id/avn"
-            android:layout_width="fill_parent"
+            android:id="@id/reward_com_video_ad_fun_button"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/aib"
+            android:background="@drawable/iap_ad_selector_btn_reward_video_ad_bg"
             android:gravity="center"
             android:padding="15.0dip"
-            android:text="@string/ado"
-            android:textColor="@color/l3"
+            android:text="@string/xiaoying_str_reward_video_ad_to_watch"
+            android:textColor="@color/color_ff774e"
             android:textSize="17.0sp" />
         <View
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="1.0px"
-            android:background="@color/ir" />
+            android:background="@color/color_e5e5e5" />
         <TextView
-            android:id="@id/avl"
-            android:layout_width="fill_parent"
+            android:id="@id/reward_com_video_ad_cancel_button"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/aib"
+            android:background="@drawable/iap_ad_selector_btn_reward_video_ad_bg"
             android:gravity="center"
             android:padding="15.0dip"
-            android:text="@string/s_"
-            android:textColor="@color/fp"
+            android:text="@string/xiaoying_str_com_cancel"
+            android:textColor="@color/color_666666"
             android:textSize="17.0sp" />
     </LinearLayout>
 </RelativeLayout>

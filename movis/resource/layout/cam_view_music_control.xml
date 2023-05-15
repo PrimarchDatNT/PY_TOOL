@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="38.0dip"
     android:layout_centerHorizontal="true">
     <RelativeLayout
-        android:id="@id/af6"
+        android:id="@id/layout_music_info"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/aza">
+        android:background="@drawable/xiaoying_cam_bg_music_control">
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_marginBottom="3.0dip">
             <ImageView
                 android:layout_width="12.0dip"
@@ -19,11 +19,11 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="10.0dip"
                 android:layout_marginLeft="10.0dip"
-                android:src="@drawable/b08" />
+                android:src="@drawable/xiaoying_cam_icon_tool_music_control_flag" />
             <com.videoai.aivpcore.xyui.MarqueeTextView
-                android:id="@id/ant"
+                android:id="@id/music_title"
                 android:layout_width="180.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="10.0dip"
                 android:layout_marginLeft="10.0dip"
                 android:ellipsize="marquee"
@@ -34,7 +34,7 @@
                 android:minWidth="28.0dip"
                 android:scrollHorizontally="true"
                 android:singleLine="true"
-                android:text="@string/pp"
+                android:text="@string/xiaoying_str_cam_choose_music_tips"
                 android:textColor="#ffffffff"
                 android:textSize="16.0sp" />
             <ImageView
@@ -45,20 +45,20 @@
                 android:layout_marginLeft="10.0dip"
                 android:layout_marginEnd="10.0dip"
                 android:layout_marginRight="10.0dip"
-                android:src="@drawable/b07" />
+                android:src="@drawable/xiaoying_cam_icon_tool_music_control_arrow" />
         </LinearLayout>
     </RelativeLayout>
     <ProgressBar
-        android:id="@id/as_"
+        android:id="@id/progress_bar"
         android:layout_width="wrap_content"
         android:layout_height="3.0dip"
-        android:layout_alignStart="@id/af6"
-        android:layout_alignLeft="@id/af6"
-        android:layout_alignEnd="@id/af6"
-        android:layout_alignRight="@id/af6"
-        android:layout_alignBottom="@id/af6"
+        android:layout_alignStart="@id/layout_music_info"
+        android:layout_alignLeft="@id/layout_music_info"
+        android:layout_alignEnd="@id/layout_music_info"
+        android:layout_alignRight="@id/layout_music_info"
+        android:layout_alignBottom="@id/layout_music_info"
         android:indeterminateOnly="false"
         android:max="1000"
         android:progress="0"
-        android:progressDrawable="@drawable/azc" />
+        android:progressDrawable="@drawable/xiaoying_cam_bg_tool_music_progress_drawable" />
 </RelativeLayout>

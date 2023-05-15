@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ListView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="@dimen/lq"
-    android:layout_height="@dimen/lw"
+    android:layout_width="@dimen/mcv2_embedded_settings_width"
+    android:layout_height="@dimen/mcv2_settings_height"
     android:layout_gravity="center_vertical"
     android:divider="@null"
     android:dividerHeight="0.0dip" />

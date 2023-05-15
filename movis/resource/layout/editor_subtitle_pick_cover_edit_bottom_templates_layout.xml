@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/av7"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:id="@id/relativelayout_theme_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_centerVertical="true"
     android:visibility="invisible">
     <RelativeLayout
-        android:id="@id/adw"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/a4f"
-        android:background="@color/xz">
+        android:id="@id/layout_categroy"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v4_xiaoying_ve_title_addpanel_tab_contentb_height"
+        android:background="@color/transparent">
         <com.videoai.aivpcore.xyui.StoryGridView xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@id/bmx"
-            android:layout_width="fill_parent"
+            android:id="@id/view_content"
+            android:layout_width="match_parent"
             android:layout_height="42.0dip"
             android:layout_marginTop="1.0px"
-            android:layout_toStartOf="@id/ae9"
-            android:layout_toLeftOf="@id/ae9"
-            android:background="@color/xz"
+            android:layout_toStartOf="@id/layout_downloaded"
+            android:layout_toLeftOf="@id/layout_downloaded"
+            android:background="@color/transparent"
             android:scrollbarAlwaysDrawHorizontalTrack="false"
             android:scrollbarAlwaysDrawVerticalTrack="false"
             android:scrollbars="none"
@@ -25,34 +25,34 @@
             app:includeEdge="true"
             app:orientation="0" />
         <RelativeLayout
-            android:id="@id/ae9"
+            android:id="@id/layout_downloaded"
             android:layout_width="45.0dip"
             android:layout_height="45.0dip"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:clickable="true">
             <ImageView
-                android:id="@id/kq"
+                android:id="@id/btn_download"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:clickable="false"
-                android:src="@drawable/b55" />
+                android:src="@drawable/xiaoying_music_item_download" />
         </RelativeLayout>
     </RelativeLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/ag4"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_storyboard_view"
+        android:layout_width="match_parent"
         android:layout_height="169.0dip"
-        android:layout_below="@id/adw" />
+        android:layout_below="@id/layout_categroy" />
     <include
-        android:id="@id/auz"
-        layout="@layout/i1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_alignLeft="@id/ag4"
-        android:layout_alignTop="@id/ag4"
-        android:layout_alignRight="@id/ag4"
-        android:layout_alignBottom="@id/ag4"
+        android:id="@id/relative_layout_roll_download"
+        layout="@layout/editor_sticker_roll_download_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@id/layout_storyboard_view"
+        android:layout_alignTop="@id/layout_storyboard_view"
+        android:layout_alignRight="@id/layout_storyboard_view"
+        android:layout_alignBottom="@id/layout_storyboard_view"
         android:visibility="gone" />
 </RelativeLayout>

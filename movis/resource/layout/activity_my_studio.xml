@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ag">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_background">
     <FrameLayout
-        android:id="@id/ax9"
-        android:layout_width="fill_parent"
+        android:id="@id/rl_studio_toolbar"
+        android:layout_width="match_parent"
         android:layout_height="?a4">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/abd"
+            android:id="@id/iv_studio_back"
             android:layout_width="?a4"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:adjustViewBounds="true"
-            android:background="@drawable/jf"
+            android:background="@drawable/btn_dcolor_ripple"
             android:scaleType="centerInside"
-            android:src="@drawable/aj0" />
+            android:src="@drawable/ic_back" />
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="?a4"
-            android:text="@string/aou"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z1"
+            android:text="@string/xiaoying_str_ve_studio_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16"
             android:textStyle="bold" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/abe"
+            android:id="@id/iv_studio_delete_video"
             android:layout_width="?a4"
             android:layout_height="?a4"
             android:layout_gravity="end"
             android:adjustViewBounds="true"
-            android:background="@drawable/jf"
+            android:background="@drawable/btn_dcolor_ripple"
             android:scaleType="centerInside"
-            android:src="@drawable/akq"
+            android:src="@drawable/ic_studio_delete_draft"
             android:visibility="gone" />
     </FrameLayout>
     <com.google.android.material.tabs.TabLayout
-        android:id="@id/b6h"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/xh"
-        android:layout_below="@id/ax9"
-        android:background="@color/ag"
+        android:id="@id/tab_studio"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px48"
+        android:layout_below="@id/rl_studio_toolbar"
+        android:background="@color/app_dcolor_background"
         app:tabIndicatorFullWidth="false"
-        app:tabPaddingEnd="@dimen/v7"
-        app:tabPaddingStart="@dimen/v7"
+        app:tabPaddingEnd="@dimen/px24"
+        app:tabPaddingStart="@dimen/px24"
         app:tabRippleColor="@null"
-        app:tabTextAppearance="@style/k1"
-        app:tabTextColor="@color/xj" />
+        app:tabTextAppearance="@style/TabTextAppperance"
+        app:tabTextColor="@color/text_selector_tab" />
     <View
-        android:id="@id/a33"
-        android:layout_width="fill_parent"
+        android:id="@id/hr_ss"
+        android:layout_width="match_parent"
         android:layout_height="1.0dip"
-        android:layout_below="@id/ax9" />
+        android:layout_below="@id/rl_studio_toolbar" />
     <androidx.viewpager.widget.ViewPager
-        android:id="@id/bo7"
-        android:layout_width="fill_parent"
+        android:id="@id/vp_studio"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/c_"
-        android:layout_below="@id/b6h"
+        android:layout_above="@id/ad_view"
+        android:layout_below="@id/tab_studio"
         android:layout_centerHorizontal="true" />
     <com.videoapp.videomakermaster.ads.StudioBannerAdview
-        android:id="@id/c_"
-        android:layout_width="fill_parent"
+        android:id="@id/ad_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="#ffe0e0e0"

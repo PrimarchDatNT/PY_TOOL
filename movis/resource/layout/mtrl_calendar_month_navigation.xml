@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/al8"
-    android:layout_width="fill_parent"
+    android:id="@id/month_navigation_bar"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:paddingTop="@dimen/p6"
-    android:paddingBottom="@dimen/p4">
+    android:paddingTop="@dimen/mtrl_calendar_navigation_top_padding"
+    android:paddingBottom="@dimen/mtrl_calendar_navigation_bottom_padding">
     <FrameLayout
         android:layout_width="0.0dip"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_weight="1.0">
         <com.google.android.material.button.MaterialButton
-            android:id="@id/al9"
+            android:id="@id/month_navigation_fragment_toggle"
             style="?wb"
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/p5"
+            android:layout_height="@dimen/mtrl_calendar_navigation_height"
             android:layout_gravity="start"
             android:gravity="start|center"
             android:insetTop="0.0dip"
             android:insetBottom="0.0dip"
-            app:icon="@drawable/amb"
+            app:icon="@drawable/material_ic_menu_arrow_down_black_24dp"
             app:iconGravity="b86"
             app:iconPadding="4.0dip" />
     </FrameLayout>
     <com.google.android.material.button.MaterialButton
-        android:id="@id/ala"
+        android:id="@id/month_navigation_previous"
         style="?w9"
-        android:layout_width="@dimen/qo"
-        android:layout_height="@dimen/p5"
-        android:contentDescription="@string/hv"
+        android:layout_width="@dimen/mtrl_min_touch_target_size"
+        android:layout_height="@dimen/mtrl_calendar_navigation_height"
+        android:contentDescription="@string/mtrl_picker_a11y_prev_month"
         android:gravity="center"
         android:insetTop="0.0dip"
         android:insetBottom="0.0dip"
-        app:icon="@drawable/am_" />
+        app:icon="@drawable/material_ic_keyboard_arrow_previous_black_24dp" />
     <com.google.android.material.button.MaterialButton
-        android:id="@id/al_"
+        android:id="@id/month_navigation_next"
         style="?w9"
-        android:layout_width="@dimen/qo"
-        android:layout_height="@dimen/p5"
-        android:contentDescription="@string/hu"
+        android:layout_width="@dimen/mtrl_min_touch_target_size"
+        android:layout_height="@dimen/mtrl_calendar_navigation_height"
+        android:contentDescription="@string/mtrl_picker_a11y_next_month"
         android:gravity="center"
         android:insetTop="0.0dip"
         android:insetBottom="0.0dip"
-        app:icon="@drawable/am9" />
+        app:icon="@drawable/material_ic_keyboard_arrow_next_black_24dp" />
 </LinearLayout>

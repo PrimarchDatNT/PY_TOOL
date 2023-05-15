@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <LinearLayout
-        android:id="@id/ahx"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/ll_editor_audio_record_touch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:descendantFocusability="afterDescendants"
         android:gravity="center_vertical"
@@ -16,7 +16,7 @@
             android:layout_gravity="center_vertical"
             android:layout_weight="1.0">
             <ImageView
-                android:id="@id/a_e"
+                android:id="@id/iv_editor_audio_operation_cancel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -24,21 +24,21 @@
                 android:layout_marginEnd="30.0dip"
                 android:layout_marginRight="30.0dip"
                 android:gravity="center"
-                android:src="@drawable/u2"
+                android:src="@drawable/editor_selector_effect_sub_op_left_btn"
                 android:visibility="gone" />
         </RelativeLayout>
         <TextView
-            android:id="@id/be7"
+            android:id="@id/tv_editor_audio_operation"
             android:layout_width="113.0dip"
             android:layout_height="35.0dip"
-            android:background="@drawable/u1"
+            android:background="@drawable/editor_selector_effect_sub_op_btn"
             android:gravity="center"
-            android:text="@string/a4f"
-            android:textColor="@drawable/us"
+            android:text="@string/xiaoying_str_editor_sticker_add_new"
+            android:textColor="@drawable/editor_selector_text_color_70ffffff_50ffffff"
             android:textSize="16.0sp"
             android:visibility="gone" />
         <com.videoai.aivpcore.editor.effects.dub.recordview.RecordView
-            android:id="@id/bn1"
+            android:id="@id/view_editor_audio_record"
             android:layout_width="50.0dip"
             android:layout_height="50.0dip"
             android:visibility="gone" />

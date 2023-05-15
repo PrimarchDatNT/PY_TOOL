@@ -1,92 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/ary"
+    android:background="@drawable/templatex_shape_item_bg"
     android:tag="layout/templatex_view_list_item_l_0">
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@id/a4f"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/ty"
-        android:layout_margin="@dimen/t2"
-        android:background="@drawable/ae1"
+        android:id="@id/imgCover"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px158"
+        android:layout_margin="@dimen/px1"
+        android:background="@drawable/gallery_border_item"
         android:scaleType="centerCrop"
         android:tag="binding_1"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv"
-        app:shapeAppearanceOverlay="@style/iu" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent"
+        app:shapeAppearanceOverlay="@style/RoundedImageItem" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/a4l"
+        android:id="@id/imgNew"
         android:layout_width="30.0dip"
         android:layout_height="18.0dip"
         android:layout_marginTop="8.0dip"
         android:layout_marginEnd="8.0dip"
-        android:src="@drawable/ars"
+        android:src="@drawable/templatex_icon_new"
         android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="@id/a4f"
-        app:layout_constraintTop_toTopOf="@id/a4f" />
+        app:layout_constraintEnd_toEndOf="@id/imgCover"
+        app:layout_constraintTop_toTopOf="@id/imgCover" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/a4q"
+        android:id="@id/imgVip"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_marginTop="8.0dip"
         android:layout_marginEnd="8.0dip"
         android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="@id/a4f"
-        app:layout_constraintTop_toTopOf="@id/a4f" />
+        app:layout_constraintEnd_toEndOf="@id/imgCover"
+        app:layout_constraintTop_toTopOf="@id/imgCover" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/a4j"
+        android:id="@id/imgLock"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_marginTop="8.0dip"
         android:layout_marginEnd="8.0dip"
-        android:src="@drawable/arr"
+        android:src="@drawable/templatex_icon_lock"
         android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="@id/a4f"
-        app:layout_constraintTop_toTopOf="@id/a4f" />
+        app:layout_constraintEnd_toEndOf="@id/imgCover"
+        app:layout_constraintTop_toTopOf="@id/imgCover" />
     <FrameLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/xz"
-        android:paddingBottom="@dimen/xz"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/a4f">
+        android:paddingTop="@dimen/px6"
+        android:paddingBottom="@dimen/px6"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/imgCover">
         <LinearLayout
-            android:id="@id/ai8"
-            android:layout_width="fill_parent"
+            android:id="@id/ll_package_des"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="@dimen/yf"
-            android:layout_marginEnd="@dimen/x6"
+            android:layout_marginStart="@dimen/px8"
+            android:layout_marginEnd="@dimen/px40"
             android:orientation="vertical">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bcb"
-                android:layout_width="fill_parent"
+                android:id="@id/tvTitle"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
                 android:tag="binding_2"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/yz" />
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12" />
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bbc"
-                android:layout_width="fill_parent"
+                android:id="@id/tvDesc"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
                 android:tag="binding_3"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/yz"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
                 android:visibility="gone" />
         </LinearLayout>
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/abs"
-            android:layout_width="@dimen/v7"
-            android:layout_height="@dimen/v7"
+            android:id="@id/iv_use_package_cta"
+            android:layout_width="@dimen/px24"
+            android:layout_height="@dimen/px24"
             android:layout_gravity="end|center"
-            android:layout_marginEnd="@dimen/yf"
+            android:layout_marginEnd="@dimen/px8"
             android:adjustViewBounds="true"
-            android:background="@drawable/jf"
-            android:src="@drawable/aph" />
+            android:background="@drawable/btn_dcolor_ripple"
+            android:src="@drawable/selector_effect_package_cta" />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:orientation="vertical">
     <TextView
-        android:id="@id/b_5"
+        android:id="@id/title"
         style="?android:windowTitleStyle"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:ellipsize="end"
         android:paddingLeft="?kk"
-        android:paddingTop="@dimen/ag"
+        android:paddingTop="@dimen/abc_dialog_padding_top_material"
         android:paddingRight="?kk"
         android:singleLine="true"
         android:textAlignment="viewStart" />
     <include
-        layout="@layout/u"
-        android:layout_width="fill_parent"
+        layout="@layout/abc_screen_content_include"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1.0" />
 </androidx.appcompat.widget.FitWindowsLinearLayout>

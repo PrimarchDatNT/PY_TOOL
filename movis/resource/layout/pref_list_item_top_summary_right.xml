@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/com_md_ripple_light_bg_drawable">
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clipToPadding="false"
         android:paddingStart="15.0dip"
@@ -12,7 +12,7 @@
         android:paddingEnd="15.0dip"
         android:paddingRight="15.0dip">
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="60.0dip"
             android:baselineAligned="false"
             android:gravity="center_vertical">
@@ -30,8 +30,8 @@
                     android:fadingEdge="horizontal"
                     android:fontFamily="sans-serif"
                     android:singleLine="true"
-                    android:textColor="@color/wt"
-                    android:textSize="@dimen/yt" />
+                    android:textColor="@color/setting_title_color"
+                    android:textSize="@dimen/setting_item_title_size" />
                 <TextView
                     android:id="@android:id/summary"
                     android:layout_width="wrap_content"
@@ -43,7 +43,7 @@
                     android:layout_marginRight="10.0dip"
                     android:fontFamily="sans-serif"
                     android:maxLines="1"
-                    android:textColor="@drawable/app"
+                    android:textColor="@drawable/setting_selector_text_detail_gray"
                     android:textSize="15.0sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -51,23 +51,23 @@
                     android:layout_below="@android:id/title"
                     android:fontFamily="sans-serif"
                     android:maxLines="2"
-                    android:textColor="@drawable/app"
+                    android:textColor="@drawable/setting_selector_text_detail_gray"
                     android:textSize="11.0sp"
                     android:visibility="gone" />
             </RelativeLayout>
             <LinearLayout
                 android:id="@android:id/widget_frame"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:orientation="vertical" />
         </LinearLayout>
         <ImageView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.5dip"
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="-15.0dip"
             android:layout_marginRight="-15.0dip"
-            android:background="@color/wq" />
+            android:background="@color/setting_divider_color" />
     </RelativeLayout>
 </RelativeLayout>

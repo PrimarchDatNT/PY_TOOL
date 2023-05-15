@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <com.videoai.aivpcore.editorx.widget.LoadingImageView
-        android:id="@id/bp5"
-        android:layout_width="@dimen/v7"
-        android:layout_height="@dimen/v7"
+        android:id="@id/wrl_icon"
+        android:layout_width="@dimen/px24"
+        android:layout_height="@dimen/px24"
         android:layout_centerInParent="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/a4p"
+        android:src="@drawable/editorx_icon_widget_loadding_progress"
         android:visibility="visible" />
 </merge>

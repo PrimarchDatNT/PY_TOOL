@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/vg" android:state_enabled="true" />
-    <item android:drawable="@drawable/vf" android:state_enabled="false" />
+    <item android:drawable="@drawable/editor_shape_draft_delete_btn_s" android:state_enabled="true" />
+    <item android:drawable="@drawable/editor_shape_draft_delete_btn_n" android:state_enabled="false" />
 </selector>

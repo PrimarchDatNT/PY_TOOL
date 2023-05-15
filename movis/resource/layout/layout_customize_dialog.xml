@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="12.0dip">
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/et"
+        android:background="@drawable/app_shape_setting_permission_bg"
         android:orientation="vertical">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bi9"
-            android:layout_width="fill_parent"
+            android:id="@id/tv_title"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/f"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="center"
             android:paddingTop="12.0dip"
             android:paddingBottom="12.0dip"
-            android:text="@string/ko"
-            android:textColor="@color/bn"
+            android:text="@string/title_permission"
+            android:textColor="@color/black"
             android:textSize="18.0sp"
             android:textStyle="bold"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintTop_toTopOf="parrent" />
         <RelativeLayout
-            android:id="@id/aho"
-            android:layout_width="fill_parent"
+            android:id="@id/ll_body"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bfz"
-                android:layout_width="fill_parent"
+                android:id="@id/tv_message"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_margin="20.0dip"
-                android:fontFamily="@font/f"
+                android:fontFamily="@font/poppins_semibold"
                 android:gravity="center"
-                android:text="@string/dt"
-                android:textColor="@color/bn"
+                android:text="@string/description_read_external_storage"
+                android:textColor="@color/black"
                 android:textSize="16.0sp" />
         </RelativeLayout>
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="?a4"
             android:orientation="horizontal"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/bfz">
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/tv_message">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bg9"
+                android:id="@id/tv_negative_button"
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
                 android:background="?a5d"
-                android:fontFamily="@font/f"
+                android:fontFamily="@font/poppins_semibold"
                 android:gravity="center"
-                android:text="@string/zl"
+                android:text="@string/xiaoying_str_download_cancel"
                 android:textSize="16.0sp"
                 android:textStyle="bold" />
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bgh"
+                android:id="@id/tv_positive_button"
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
                 android:background="?a5d"
                 android:gravity="center"
-                android:text="@string/ax6"
+                android:text="@string/xy_module_album_video_edit_unssupported_action"
                 android:textAllCaps="true"
-                android:textColor="@color/d6"
+                android:textColor="@color/colorPrimary"
                 android:textSize="16.0sp"
                 android:textStyle="bold" />
         </LinearLayout>

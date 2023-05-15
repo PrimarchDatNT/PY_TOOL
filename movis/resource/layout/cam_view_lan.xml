@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:rotateView="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/as3"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/xz"
+        android:id="@id/preview_layout_fake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
         android:visibility="gone" />
     <com.videoai.aivpcore.camera.ui.view.PipSwapWidgetHor
-        android:id="@id/aqo"
-        android:layout_width="fill_parent"
+        android:id="@id/pip_swap_view_hor"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone" />
     <com.videoai.aivpcore.camera.ui.view.indicator.TopIndicatorLan
-        android:id="@id/nf"
+        android:id="@id/cam_layout_title"
         android:layout_width="50.0dip"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true" />
     <com.videoai.aivpcore.camera.ui.view.indicator.IndicatorBarLan
-        android:id="@id/bpl"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/a45" />
+        android:id="@id/xiaoying_cam_indicator_por"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v4_xiaoying_cam_indicator_height" />
     <RelativeLayout
-        android:id="@id/vx"
+        android:id="@id/effect_tip_layout_hor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -34,19 +34,19 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/b1t">
+            android:background="@drawable/xiaoying_com_effect_name_bg_hor">
             <com.videoai.aivpcore.ui.view.RotateTextView
-                android:id="@id/bix"
+                android:id="@id/txt_effect_name_hor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="18.0sp"
                 rotateView:isShadowOn="false" />
         </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/bs3"
+        android:id="@id/zoom_tip_layout_hor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -54,56 +54,56 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/b8n"
+            android:background="@drawable/zoom_box_hor"
             android:paddingTop="25.0dip">
             <com.videoai.aivpcore.ui.view.RotateTextView
-                android:id="@id/bj6"
+                android:id="@id/txt_zoom_value_hor"
                 android:layout_width="27.0dip"
                 android:layout_height="35.0dip"
                 android:gravity="center"
                 android:text="x1.0"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="18.0sp"
                 rotateView:isShadowOn="false" />
         </RelativeLayout>
     </RelativeLayout>
     <com.videoai.aivpcore.camera.ui.shutter.ShutterLayoutLan
-        android:id="@id/b1s"
-        android:layout_width="fill_parent"
+        android:id="@id/shutter_layout"
+        android:layout_width="match_parent"
         android:layout_height="140.0dip"
         android:layout_alignParentBottom="true" />
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="90.0dip"
-        android:layout_below="@id/bpl">
+        android:layout_below="@id/xiaoying_cam_indicator_por">
         <com.videoai.aivpcore.ui.view.HotFixRecyclerView
-            android:id="@id/aqm"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/pip_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_centerVertical="true"
-            android:background="@color/bs"
+            android:background="@color/black_p15"
             android:visibility="gone" />
         <com.videoai.aivpcore.ui.view.TextSeekBar
-            android:id="@id/bpp"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@color/bs"
+            android:id="@id/xiaoying_cam_speed_indicator_por"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_p15"
             android:visibility="gone" />
         <com.videoai.aivpcore.camera.ui.view.indicator.SettingIndicatorLan
-            android:id="@id/bpo"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@color/bs"
+            android:id="@id/xiaoying_cam_setting_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_p15"
             android:visibility="gone" />
     </RelativeLayout>
     <com.videoai.aivpcore.camera.ui.view.TimerView
-        android:id="@id/b_4"
+        android:id="@id/timer_view"
         android:layout_width="106.29999dip"
         android:layout_height="106.29999dip"
         android:layout_centerInParent="true"
         android:visibility="invisible" />
     <include
-        android:id="@id/no"
-        layout="@layout/c5"
+        android:id="@id/cam_rotate_tips_layout"
+        layout="@layout/cam_popup_full_screen"
         android:visibility="gone" />
 </RelativeLayout>

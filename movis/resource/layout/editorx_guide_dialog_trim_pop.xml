@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/awe"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:id="@id/rl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#a6000000">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/bkk"
+        android:id="@id/v_right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bb0"
+            android:id="@id/tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6.0dip"
-            android:fontFamily="@font/f"
-            android:text="@string/a3v"
-            android:textColor="@color/zo"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/xiaoying_str_editor_guide_trim_text"
+            android:textColor="@color/white"
             android:textSize="12.0sp"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintTop_toTopOf="@id/a9s" />
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintTop_toTopOf="@id/iv_arrow" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/ab0"
+            android:id="@id/iv_right"
             android:layout_width="18.0dip"
             android:layout_height="36.0dip"
-            android:src="@drawable/a3g"
-            app:layout_constraintLeft_toLeftOf="@id/a9s"
-            app:layout_constraintTop_toTopOf="apv" />
+            android:src="@drawable/editorx_icon_guide_sticker_trim_right"
+            app:layout_constraintLeft_toLeftOf="@id/iv_arrow"
+            app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/a9s"
+            android:id="@id/iv_arrow"
             android:layout_width="18.0dip"
             android:layout_height="18.0dip"
             android:layout_marginTop="4.0dip"
-            android:src="@drawable/a3e"
-            app:layout_constraintLeft_toRightOf="@id/bb0"
-            app:layout_constraintTop_toBottomOf="@id/ab0" />
+            android:src="@drawable/editorx_icon_guide_sticker_trim_arrow"
+            app:layout_constraintLeft_toRightOf="@id/tv"
+            app:layout_constraintTop_toBottomOf="@id/iv_right" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/bkg"
+        android:id="@id/v_left"
         android:layout_width="18.0dip"
         android:layout_height="36.0dip"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/a3f" />
+        android:src="@drawable/editorx_icon_guide_sticker_trim_left" />
 </RelativeLayout>

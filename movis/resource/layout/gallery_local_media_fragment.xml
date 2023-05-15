@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <com.videoedit.widgetlib.magicindicator.MagicIndicator
-        android:id="@id/aj3"
+        android:id="@id/magicIndicator"
         android:layout_width="wrap_content"
         android:layout_height="24.0dip"
         android:layout_gravity="center_horizontal"
@@ -12,7 +12,7 @@
         android:layout_marginBottom="12.0dip"
         android:visibility="gone" />
     <com.videoedit.widgetlib.viewpager.NoScrollViewPager
-        android:id="@id/bmp"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:id="@id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>

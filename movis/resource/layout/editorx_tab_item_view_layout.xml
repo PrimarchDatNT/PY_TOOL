@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingTop="3.0dip"
     android:paddingBottom="3.0dip">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/b6k"
-        android:layout_width="fill_parent"
+        android:id="@id/tab_tv"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ellipsize="end"
         android:gravity="center"
         android:maxLines="1"
         android:textColor="#ff525252"
-        app:autoSizeMaxTextSize="@dimen/h9"
-        app:autoSizeMinTextSize="@dimen/h_"
+        app:autoSizeMaxTextSize="@dimen/editorx_tab_normal_textsize"
+        app:autoSizeMinTextSize="@dimen/editorx_tab_tiny_textsize"
         app:autoSizeTextType="bjy" />
 </LinearLayout>

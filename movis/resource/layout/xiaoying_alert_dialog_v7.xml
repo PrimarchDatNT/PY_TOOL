@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:paddingBottom="13.0dip">
     <TextView
-        android:id="@id/bpd"
+        android:id="@id/xiaoying_alert_dialog_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="23.0dip"
@@ -17,7 +17,7 @@
         android:textSize="18.0dip"
         android:textStyle="bold" />
     <TextView
-        android:id="@id/bp_"
+        android:id="@id/xiaoying_alert_dialog_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="23.0dip"
@@ -27,11 +27,11 @@
         android:layout_marginRight="23.0dip"
         android:textSize="16.0dip" />
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginTop="39.0dip">
         <TextView
-            android:id="@id/bpb"
+            android:id="@id/xiaoying_alert_dialog_neutral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="13.0dip"
@@ -42,7 +42,7 @@
             android:textSize="16.0dip"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/bpc"
+            android:id="@id/xiaoying_alert_dialog_positive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -55,13 +55,13 @@
             android:textSize="16.0dip"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/bpa"
+            android:id="@id/xiaoying_alert_dialog_negative"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="12.0dip"
             android:layout_marginRight="12.0dip"
-            android:layout_toStartOf="@id/bpc"
-            android:layout_toLeftOf="@id/bpc"
+            android:layout_toStartOf="@id/xiaoying_alert_dialog_positive"
+            android:layout_toLeftOf="@id/xiaoying_alert_dialog_positive"
             android:background="?android:selectableItemBackground"
             android:padding="10.0dip"
             android:text="Negative"

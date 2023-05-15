@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@android:color/black">
     <TextView
-        android:id="@id/q1"
+        android:id="@id/clip_sort_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15.0dip"
         android:layout_marginLeft="15.0dip"
         android:layout_marginTop="18.0dip"
-        android:text="@string/rg"
-        android:textColor="@color/g9"
+        android:text="@string/xiaoying_str_change_clip_order_title"
+        android:textColor="@color/color_8E8E93"
         android:textSize="12.0sp" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/q0"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/ae2"
-        android:layout_below="@id/q1"
+        android:id="@id/clip_sort_rcview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_confirm"
+        android:layout_below="@id/clip_sort_title"
         android:layout_marginLeft="5.0dip"
         android:layout_marginTop="12.0dip"
         android:layout_marginRight="5.0dip" />
     <RelativeLayout
-        android:id="@id/ae2"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_confirm"
+        android:layout_width="match_parent"
         android:layout_height="44.0dip"
         android:layout_alignParentBottom="true"
-        android:background="@color/dt"
+        android:background="@color/color_141414"
         android:onClick="sortConfirm">
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:background="@drawable/o0"
+            android:background="@drawable/editor_icon_btn_ok_n"
             android:clickable="false" />
     </RelativeLayout>
 </RelativeLayout>

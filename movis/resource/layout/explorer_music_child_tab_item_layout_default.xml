@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="fill_parent">
+    android:layout_height="match_parent">
     <TextView
-        android:id="@id/amm"
+        android:id="@id/music_child_tab_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:textColor="@drawable/ad4"
+        android:textColor="@drawable/explorer_selector_music_tab_title"
         android:textSize="15.0sp" />
 </RelativeLayout>

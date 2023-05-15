@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ah"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_bg_1"
     android:tag="layout/activity_app_iap_0">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/ayn"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/rvContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:overScrollMode="never" />
     <com.videoai.aivpcore.unit.premium.view.ViewPremiumAppbar
-        android:id="@id/eu"
-        android:layout_width="fill_parent"
+        android:id="@id/appBar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:orientation="vertical">
         <View
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="1.0dip"
-            android:background="@color/aj" />
+            android:background="@color/app_dcolor_indicator" />
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@id/p3"
-            android:layout_width="fill_parent"
+            android:id="@id/clBottomCta"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#eb2e2e2e"
-            android:paddingStart="@dimen/tz"
-            android:paddingEnd="@dimen/tz"
-            android:paddingBottom="@dimen/td"
-            app:layout_constraintBottom_toBottomOf="apv">
+            android:paddingStart="@dimen/px16"
+            android:paddingEnd="@dimen/px16"
+            android:paddingBottom="@dimen/px12"
+            app:layout_constraintBottom_toBottomOf="parrent">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bhn"
+                android:id="@id/tv_sub_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/yf"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/yz"
+                android:layout_marginTop="@dimen/px8"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="apv"
-                app:layout_constraintTop_toTopOf="apv" />
+                app:layout_constraintStart_toStartOf="parrent"
+                app:layout_constraintTop_toTopOf="parrent" />
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bgk"
+                android:id="@id/tv_price_per_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/yf"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/yz"
+                android:layout_marginTop="@dimen/px8"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="apv"
-                app:layout_constraintTop_toTopOf="apv" />
+                app:layout_constraintEnd_toEndOf="parrent"
+                app:layout_constraintTop_toTopOf="parrent" />
             <FrameLayout
-                android:id="@id/bgi"
-                android:layout_width="fill_parent"
-                android:layout_height="@dimen/xh"
-                android:layout_marginTop="@dimen/td"
-                android:background="@drawable/dx"
-                app:layout_constraintEnd_toEndOf="apv"
-                app:layout_constraintStart_toStartOf="apv"
-                app:layout_constraintTop_toBottomOf="@id/bhn">
+                android:id="@id/tv_premium_cta"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px48"
+                android:layout_marginTop="@dimen/px12"
+                android:background="@drawable/app_default_button"
+                app:layout_constraintEnd_toEndOf="parrent"
+                app:layout_constraintStart_toStartOf="parrent"
+                app:layout_constraintTop_toBottomOf="@id/tv_sub_time">
                 <com.google.android.material.imageview.ShapeableImageView
-                    android:id="@id/a8y"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:id="@id/ivEffect"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:alpha="0.2"
                     android:gravity="center"
                     android:scaleType="fitXY"
                     android:textAllCaps="true"
-                    app:shapeAppearanceOverlay="@style/iw" />
+                    app:shapeAppearanceOverlay="@style/RoundedRect" />
                 <androidx.appcompat.widget.AppCompatTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="@string/abx"
+                    android:text="@string/xiaoying_str_publish_export_hw_enable_continue_op"
                     android:textAllCaps="true"
-                    android:textColor="@color/zo"
-                    android:textSize="@dimen/z1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp16"
                     android:textStyle="bold" />
             </FrameLayout>
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bby"
-                android:layout_width="fill_parent"
+                android:id="@id/tvPremiumDesc"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/td"
+                android:layout_marginTop="@dimen/px12"
                 android:gravity="center"
-                android:text="@string/ju"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/yz"
-                app:layout_constraintTop_toBottomOf="@id/bgi" />
+                android:text="@string/refund_purchase_desc"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                app:layout_constraintTop_toBottomOf="@id/tv_premium_cta" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 </FrameLayout>

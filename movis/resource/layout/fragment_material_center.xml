@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:tag="layout/fragment_material_center_0">
     <com.videoai.aivpcore.ViewPremium
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <com.google.android.material.tabs.TabLayout
-        android:id="@id/b5u"
-        android:layout_width="fill_parent"
+        android:id="@id/tabLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/tz"
+        android:layout_marginTop="@dimen/px16"
         android:background="@null"
         app:tabIndicatorFullWidth="false"
         app:tabMode="b01"
-        app:tabPaddingEnd="@dimen/tz"
-        app:tabPaddingStart="@dimen/tz"
+        app:tabPaddingEnd="@dimen/px16"
+        app:tabPaddingStart="@dimen/px16"
         app:tabRippleColor="@null"
-        app:tabSelectedTextColor="@color/d6"
-        app:tabTextAppearance="@style/k1"
-        app:tabTextColor="@color/zo" />
+        app:tabSelectedTextColor="@color/colorPrimary"
+        app:tabTextAppearance="@style/TabTextAppperance"
+        app:tabTextColor="@color/white" />
     <androidx.viewpager.widget.ViewPager
-        android:id="@id/bo5"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:id="@id/vpPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>

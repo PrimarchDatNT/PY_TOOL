@@ -3,13 +3,13 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/biy"
+        android:id="@id/txt_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/b7v"
+        android:background="@drawable/xyui_bg_help_pop_center_up"
         android:gravity="center">
         <com.videoai.aivpcore.ui.view.RotateTextView
-            android:id="@id/bhr"
+            android:id="@id/tv_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#ffffffff"

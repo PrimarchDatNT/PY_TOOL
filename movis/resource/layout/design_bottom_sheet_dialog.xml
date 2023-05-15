@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/r_"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:id="@id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:fitsSystemWindows="true">
     <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:id="@id/ri"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:fitsSystemWindows="true">
         <View
-            android:id="@id/bag"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/touch_outside"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:focusable="false"
             android:importantForAccessibility="no"
             android:soundEffectsEnabled="false" />
         <FrameLayout
-            android:id="@id/t3"
+            android:id="@id/design_bottom_sheet"
             style="?e0"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center|top"
-            app:layout_behavior="@string/cz" />
+            app:layout_behavior="@string/bottom_sheet_behavior" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </FrameLayout>

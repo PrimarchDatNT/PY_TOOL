@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/qn"
-    android:layout_width="fill_parent"
+    android:id="@id/collage_board_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/ii"
-        android:layout_width="fill_parent"
+        android:id="@id/board_top"
+        android:layout_width="match_parent"
         android:layout_height="30.0dip">
         <ImageButton
-            android:id="@id/kt"
+            android:id="@id/btn_expand"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -19,67 +19,67 @@
             android:paddingLeft="20.0dip"
             android:paddingEnd="20.0dip"
             android:paddingRight="20.0dip"
-            android:src="@drawable/u4" />
+            android:src="@drawable/editor_selector_gallery_board_arrow" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/qw"
-        android:layout_width="fill_parent"
+        android:id="@id/collage_pic_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ii"
-        android:background="@color/bn"
+        android:layout_below="@id/board_top"
+        android:background="@color/black"
         android:visibility="visible">
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/atn"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:id="@id/rc_collage_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/qx"
-        android:layout_width="fill_parent"
+        android:id="@id/collage_video_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ii"
-        android:background="@color/bn"
+        android:layout_below="@id/board_top"
+        android:background="@color/black"
         android:visibility="visible">
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/atu"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:id="@id/rc_video_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/qs"
-        android:layout_width="fill_parent"
+        android:id="@id/collage_gif_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ii"
-        android:background="@color/bn"
+        android:layout_below="@id/board_top"
+        android:background="@color/black"
         android:visibility="gone">
         <com.videoai.aivpcore.editor.widget.picker.UKeyBackEditText
-            android:id="@id/lo"
-            android:layout_width="fill_parent"
+            android:id="@id/btn_search_gif"
+            android:layout_width="match_parent"
             android:layout_height="35.0dip"
             android:layout_marginStart="15.0dip"
             android:layout_marginLeft="15.0dip"
             android:layout_marginEnd="15.0dip"
             android:layout_marginRight="15.0dip"
-            android:background="@drawable/va"
+            android:background="@drawable/editor_shape_collage_search"
             android:gravity="center"
-            android:hint="@string/akn"
+            android:hint="@string/xiaoying_str_ve_collage_search_gif_hint"
             android:imeOptions="actionSearch"
             android:singleLine="true"
-            android:textColor="@color/zo"
-            android:textColorHint="@color/zz"
-            android:textCursorDrawable="@drawable/aun"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white_p50"
+            android:textCursorDrawable="@drawable/v4_xiaoying_com_edittext_cursor"
             android:textSize="16.0sp" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/atm"
-            android:layout_width="fill_parent"
+            android:id="@id/rc_collage_gif"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/lo"
+            android:layout_below="@id/btn_search_gif"
             android:layout_marginTop="12.0dip" />
         <LinearLayout
-            android:id="@id/qt"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_below="@id/lo"
+            android:id="@id/collage_loading_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btn_search_gif"
             android:gravity="center"
             android:orientation="horizontal"
             android:visibility="gone">
@@ -88,7 +88,7 @@
                 android:layout_width="30.0dip"
                 android:layout_height="30.0dip"
                 android:layout_gravity="center"
-                android:indeterminateDrawable="@drawable/b3_"
+                android:indeterminateDrawable="@drawable/xiaoying_com_progressbar_loading_img"
                 android:indeterminateDuration="1000" />
             <TextView
                 android:layout_width="wrap_content"
@@ -96,8 +96,8 @@
                 android:layout_gravity="center"
                 android:layout_marginStart="10.0dip"
                 android:gravity="center"
-                android:text="@string/uy"
-                android:textColor="@color/gf"
+                android:text="@string/xiaoying_str_com_loading"
+                android:textColor="@color/color_919191"
                 android:textSize="14.0sp" />
         </LinearLayout>
     </RelativeLayout>

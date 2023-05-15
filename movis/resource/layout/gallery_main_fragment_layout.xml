@@ -1,100 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ah">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_bg_1">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/pn"
-        android:layout_width="fill_parent"
+        android:id="@id/cl_toolbar"
+        android:layout_width="match_parent"
         android:layout_height="?a4">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bib"
+            android:id="@id/tv_title_bottom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bdb"
+            android:id="@id/tv_cancel"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
-            android:background="@drawable/jf"
-            android:paddingStart="@dimen/td"
-            android:paddingEnd="@dimen/td"
-            app:drawableStartCompat="@drawable/aj0"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            android:background="@drawable/btn_dcolor_ripple"
+            android:paddingStart="@dimen/px12"
+            android:paddingEnd="@dimen/px12"
+            app:drawableStartCompat="@drawable/ic_back"
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bi9"
+            android:id="@id/tv_title"
             android:layout_width="0.0dip"
             android:layout_height="0.0dip"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/az4"
+            android:id="@id/rv_select_list"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:overScrollMode="never"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintStart_toEndOf="@id/bdb"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintStart_toEndOf="@id/tv_cancel"
+            app:layout_constraintTop_toTopOf="parrent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <com.videoapp.videomakermaster.ads.GalleryBannerAds
-        android:id="@id/bs"
-        android:layout_width="fill_parent"
+        android:id="@id/ad_View"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/pn"
+        android:layout_below="@id/cl_toolbar"
         android:minHeight="50.0dip"
         android:paddingTop="3.0dip"
         android:paddingBottom="3.0dip" />
     <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/bs">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ad_View">
         <com.google.android.material.appbar.AppBarLayout
-            android:id="@id/ev"
-            android:layout_width="fill_parent"
+            android:id="@id/app_bar_layout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <FrameLayout
-                android:id="@id/zh"
-                android:layout_width="fill_parent"
+                android:id="@id/fl_tab_container"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@color/zo"
+                android:background="@color/white"
                 app:layout_scrollFlags="azw|wa" />
         </com.google.android.material.appbar.AppBarLayout>
         <FrameLayout
-            android:id="@id/zc"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@color/ag"
-            app:layout_behavior="@string/ch" />
+            android:id="@id/fl_gallery_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/app_dcolor_background"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
     <RelativeLayout
-        android:id="@id/a15"
-        android:layout_width="fill_parent"
+        android:id="@id/gallery_ad"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/xz"
+        android:background="@color/transparent"
         android:gravity="center_horizontal"
         android:visibility="gone" />
     <com.videoedit.gallery.board.MediaBoardView
-        android:id="@id/ij"
-        android:layout_width="fill_parent"
+        android:id="@id/board_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:visibility="gone" />
     <com.videoedit.gallery.board.MediaTemplateEditBoardView
-        android:id="@id/ig"
-        android:layout_width="fill_parent"
+        android:id="@id/board_templete_edit_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:visibility="gone" />
     <com.videoedit.gallery.board.MediaTemplatePipBoardView
-        android:id="@id/ih"
-        android:layout_width="fill_parent"
+        android:id="@id/board_templete_pip_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:visibility="gone" />

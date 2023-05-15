@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:divider="@drawable/kn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider_share_result_win_vip"
     android:orientation="vertical"
     android:showDividers="middle">
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="86.0dip"
         android:gravity="center"
-        android:text="@string/aej"
+        android:text="@string/xiaoying_str_share_video_for_vip_desc"
         android:textColor="#ff333333"
         android:textSize="18.0sp"
         android:textStyle="bold" />
     <TextView
-        android:id="@id/b8r"
-        android:layout_width="fill_parent"
+        android:id="@id/text_ok"
+        android:layout_width="match_parent"
         android:layout_height="51.0dip"
         android:gravity="center"
-        android:text="@string/wc"
-        android:textColor="@color/d6"
+        android:text="@string/xiaoying_str_com_ok"
+        android:textColor="@color/colorPrimary"
         android:textSize="18.0sp" />
 </LinearLayout>

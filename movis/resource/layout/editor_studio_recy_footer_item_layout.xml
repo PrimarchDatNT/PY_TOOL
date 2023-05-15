@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/yg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px80"
         android:gravity="center"
-        android:paddingStart="@dimen/tz"
-        android:paddingEnd="@dimen/tz"
-        android:text="@string/a8c"
-        android:textColor="@color/ao"
-        android:textSize="@dimen/yz" />
+        android:paddingStart="@dimen/px16"
+        android:paddingEnd="@dimen/px16"
+        android:text="@string/xiaoying_str_help_my_studio_not_delete_tips"
+        android:textColor="@color/app_dcolor_text_1"
+        android:textSize="@dimen/sp12" />
 </RelativeLayout>

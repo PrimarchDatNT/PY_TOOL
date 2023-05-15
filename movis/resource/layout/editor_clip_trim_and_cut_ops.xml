@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/bn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
     android:orientation="vertical">
     <RadioGroup
-        android:id="@id/at1"
+        android:id="@id/radio_group"
         android:layout_width="153.0dip"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -13,49 +13,49 @@
         android:orientation="horizontal"
         android:visibility="visible">
         <RadioButton
-            android:id="@id/baw"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/trim_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1.0"
-            android:background="@drawable/ux"
+            android:background="@drawable/editor_selector_trim_left"
             android:button="@null"
             android:checked="true"
             android:gravity="center"
             android:paddingTop="5.0dip"
             android:paddingBottom="5.0dip"
-            android:text="@string/ak2"
-            android:textColor="@drawable/tq"
+            android:text="@string/xiaoying_str_ve_basic_trim_title"
+            android:textColor="@drawable/editor_selector_check_black_white"
             android:textSize="14.0sp" />
         <RadioButton
-            android:id="@id/so"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/cut_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1.0"
-            android:background="@drawable/uy"
+            android:background="@drawable/editor_selector_trim_right"
             android:button="@null"
             android:gravity="center"
             android:paddingTop="5.0dip"
             android:paddingBottom="5.0dip"
-            android:text="@string/ajo"
-            android:textColor="@drawable/tq"
+            android:text="@string/xiaoying_str_ve_basic_cut_title"
+            android:textColor="@drawable/editor_selector_check_black_white"
             android:textSize="14.0sp" />
     </RadioGroup>
     <LinearLayout
-        android:id="@id/q2"
+        android:id="@id/clip_trim_container"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/b7u"
-        android:layout_below="@id/at1"
+        android:layout_height="match_parent"
+        android:layout_above="@id/terminator"
+        android:layout_below="@id/radio_group"
         android:gravity="center_vertical">
         <include
-            android:id="@id/agl"
-            layout="@layout/f6"
-            android:layout_width="fill_parent"
+            android:id="@id/layout_trim_relate"
+            layout="@layout/editor_clip_trim_layout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
     <com.videoai.aivpcore.editor.widget.terminator.Terminator
-        android:id="@id/b7u"
-        android:layout_width="fill_parent"
+        android:id="@id/terminator"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true" />
 </RelativeLayout>

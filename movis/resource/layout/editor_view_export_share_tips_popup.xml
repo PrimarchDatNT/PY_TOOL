@@ -4,13 +4,13 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <TextView
-        android:id="@id/bca"
+        android:id="@id/tvTips"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/q5"
+        android:background="@drawable/editor_icon_export_share_tip_c"
         android:gravity="center"
-        android:textColor="@color/eq"
+        android:textColor="@color/color_333333"
         android:textSize="12.0sp"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

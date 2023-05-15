@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
+    android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical">
     <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout
-        android:id="@id/aol"
-        android:layout_width="@dimen/y_"
-        android:layout_height="@dimen/yg"
-        android:background="@drawable/a85">
+        android:id="@id/normal_content_layout"
+        android:layout_width="@dimen/px68"
+        android:layout_height="@dimen/px80"
+        android:background="@drawable/editorx_shape_none_template_item_bg">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/alr"
-            android:layout_width="@dimen/v7"
-            android:layout_height="@dimen/v7"
+            android:id="@id/msv_reset_img"
+            android:layout_width="@dimen/px24"
+            android:layout_height="@dimen/px24"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="@dimen/ul"
-            android:src="@drawable/a57" />
+            android:layout_marginTop="@dimen/px20"
+            android:src="@drawable/editorx_more_source_reset_img" />
         <TextView
-            android:id="@id/alq"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/ul"
+            android:id="@id/msv_more_txt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px20"
             android:layout_alignParentBottom="true"
             android:gravity="center"
-            android:text="@string/vh"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/yz" />
+            android:text="@string/xiaoying_str_com_more"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp12" />
     </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
 </LinearLayout>

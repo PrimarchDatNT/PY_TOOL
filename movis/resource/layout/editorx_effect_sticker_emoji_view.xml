@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <LinearLayout
-        android:id="@id/ag_"
+        android:id="@id/layout_tab"
         android:layout_width="32.0dip"
         android:layout_height="332.0dip"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_marginEnd="14.0dip"
-        android:background="@drawable/a71"
+        android:background="@drawable/editorx_shape_effect_emoji_tab"
         android:orientation="vertical" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/ay2"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:id="@id/rlv_emoji"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </RelativeLayout>

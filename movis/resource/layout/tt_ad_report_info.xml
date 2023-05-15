@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/tt_ad_report_info_bg"
     android:orientation="vertical">
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="44.0dip">
         <TextView
             android:layout_width="191.0dip"
@@ -31,21 +31,21 @@
             android:src="@drawable/tt_ad_xmark" />
     </RelativeLayout>
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.5dip"
         android:background="#1f161823" />
     <ScrollView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_marginLeft="16.0dip"
         android:layout_marginRight="16.0dip"
         android:layout_weight="1.0">
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="vertical">
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="74.0dip"
                 android:orientation="vertical"
                 android:paddingTop="16.0dip"
@@ -68,7 +68,7 @@
                     android:textSize="14.0dip" />
             </LinearLayout>
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="74.0dip"
                 android:orientation="vertical"
                 android:paddingTop="16.0dip"
@@ -91,7 +91,7 @@
                     android:textSize="14.0dip" />
             </LinearLayout>
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="74.0dip"
                 android:orientation="vertical"
                 android:paddingTop="16.0dip"
@@ -114,7 +114,7 @@
                     android:textSize="14.0dip" />
             </LinearLayout>
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="74.0dip"
                 android:orientation="vertical"
                 android:paddingTop="16.0dip"
@@ -137,7 +137,7 @@
                     android:textSize="14.0dip" />
             </LinearLayout>
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="74.0dip"
                 android:orientation="vertical"
                 android:paddingTop="16.0dip"
@@ -160,7 +160,7 @@
                     android:textSize="14.0dip" />
             </LinearLayout>
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:paddingTop="16.0dip"
@@ -185,13 +185,13 @@
         </LinearLayout>
     </ScrollView>
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="76.0dip"
         android:background="#ffffffff">
         <Button
             android:id="@id/tt_ad_report_copy_button"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="16.0dip"
             android:background="@drawable/tt_ad_report_info_button_bg"
             android:text="copy all"

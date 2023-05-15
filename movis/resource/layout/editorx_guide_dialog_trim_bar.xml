@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/i3"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:id="@id/bg_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#a6000000">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/ht"
+        android:id="@id/bg"
         android:layout_width="140.0dip"
         android:layout_height="wrap_content"
         android:layout_marginEnd="15.0dip"
         android:layout_marginBottom="112.0dip"
-        android:background="@drawable/a11"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintRight_toRightOf="apv">
+        android:background="@drawable/editorx_guide_trim_bar_bg"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintRight_toRightOf="parrent">
         <com.videoai.aivpcore.editorx.widget.magic.RCRelativeLayout
-            android:id="@id/a46"
+            android:id="@id/image_layout"
             android:layout_width="132.0dip"
             android:layout_height="68.0dip"
             android:layout_marginTop="4.0dip"
-            app:layout_constraintLeft_toLeftOf="@id/ht"
-            app:layout_constraintRight_toRightOf="@id/ht"
-            app:layout_constraintTop_toTopOf="@id/ht"
+            app:layout_constraintLeft_toLeftOf="@id/bg"
+            app:layout_constraintRight_toRightOf="@id/bg"
+            app:layout_constraintTop_toTopOf="@id/bg"
             app:round_corner="4.0dip">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/a3w"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:scaleType="centerCrop" />
         </com.videoai.aivpcore.editorx.widget.magic.RCRelativeLayout>
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/b83"
+            android:id="@id/text"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8.0dip"
             android:layout_marginTop="8.0dip"
             android:layout_marginRight="8.0dip"
             android:layout_marginBottom="8.0dip"
-            android:fontFamily="@font/f"
-            android:textColor="@color/zo"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/white"
             android:textSize="12.0sp"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toRightOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/a46" />
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toRightOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/image_layout" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="12.0dip"
         android:layout_height="8.0dip"
         android:layout_marginEnd="28.0dip"
         android:scaleType="centerCrop"
-        android:src="@drawable/a12"
+        android:src="@drawable/editorx_guide_trim_bar_bg_triangle"
         android:visibility="gone"
-        app:layout_constraintRight_toRightOf="@id/ht"
-        app:layout_constraintTop_toBottomOf="@id/ht" />
+        app:layout_constraintRight_toRightOf="@id/bg"
+        app:layout_constraintTop_toBottomOf="@id/bg" />
 </androidx.constraintlayout.widget.ConstraintLayout>

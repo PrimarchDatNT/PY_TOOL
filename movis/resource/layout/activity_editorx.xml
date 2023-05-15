@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.videoapp.videomakermaster.EditorWrapper xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/re"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ag">
+    android:id="@id/content_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_background">
     <FrameLayout
-        android:id="@id/z8"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/flPlayerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_marginBottom="@dimen/vn">
+        android:layout_marginBottom="@dimen/px270">
         <com.videoai.aivpcore.editorx.player.EditorPlayerView
-            android:id="@id/wc"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/epv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="top">
             <com.videoai.aivpcore.editorx.controller.vip.InTrialView
-                android:id="@id/bay"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/try2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
                 android:layout_marginEnd="0.0dip"
@@ -27,36 +27,36 @@
                 android:visibility="invisible" />
         </com.videoai.aivpcore.editorx.player.EditorPlayerView>
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/b1k"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/shot_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:scaleType="centerInside"
             android:visibility="gone" />
         <com.videoai.aivpcore.editorx.widget.SmallProgressView
-            android:id="@id/b34"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/yf"
+            android:id="@id/small_progress_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px8"
             android:layout_gravity="bottom"
-            android:layout_marginLeft="@dimen/tz"
-            android:layout_marginRight="@dimen/tz" />
+            android:layout_marginLeft="@dimen/px16"
+            android:layout_marginRight="@dimen/px16" />
     </FrameLayout>
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/b1l"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/a0f"
+        android:id="@id/shot_timeline"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/super_timeline_height"
         android:layout_alignParentBottom="true"
         android:visibility="gone" />
     <RelativeLayout
-        android:id="@id/id"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:id="@id/board_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
     <RelativeLayout
-        android:id="@id/b_d"
-        android:layout_width="fill_parent"
+        android:id="@id/title_container"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <LinearLayout
-        android:id="@id/aik"
-        android:layout_width="fill_parent"
+        android:id="@id/ll_vip_bottom"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_alignParentBottom="true"
         android:layout_gravity="bottom"
@@ -66,147 +66,147 @@
         android:orientation="horizontal"
         android:visibility="gone">
         <TextView
-            android:id="@id/bin"
+            android:id="@id/tv_vip_bottom_cancel"
             android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="124.0"
-            android:background="@color/e6"
+            android:background="@color/color_212121"
             android:ellipsize="end"
             android:gravity="center"
             android:lines="1"
-            android:text="@string/px"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z0" />
+            android:text="@string/xiaoying_str_cam_effect_backout"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
         <FrameLayout
-            android:id="@id/zi"
+            android:id="@id/fl_vip_bottom_sure"
             android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="251.0"
-            android:background="@drawable/dx">
+            android:background="@drawable/app_default_button">
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:lines="1"
-                android:textColor="@color/eq"
+                android:textColor="@color/color_333333"
                 android:textSize="16.0sp"
                 android:textStyle="bold" />
         </FrameLayout>
     </LinearLayout>
     <RelativeLayout
-        android:id="@id/aw1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginBottom="@dimen/vn">
+        android:id="@id/rlFakePlayProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/px270">
         <View
-            android:id="@id/bkb"
+            android:id="@id/v_fake_touch_play"
             android:layout_width="48.0dip"
             android:layout_height="50.0dip"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="8.0dip" />
         <com.videoai.aivpcore.editorx.player.SmallProgressTouchView
-            android:id="@id/b45"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/ul"
+            android:id="@id/sptv_fake_touch_progress"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px20"
             android:layout_alignParentBottom="true" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/awj"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/rl_exit_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:background="@color/bt"
+        android:background="@color/black_p20"
         android:clickable="true"
         android:focusable="true"
         android:visibility="gone">
         <RelativeLayout
-            android:id="@id/awb"
-            android:layout_width="fill_parent"
+            android:id="@id/rl_button_root"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_marginStart="@dimen/tz"
-            android:layout_marginEnd="@dimen/tz"
-            android:background="@drawable/ea"
-            android:paddingBottom="@dimen/ul">
+            android:layout_marginStart="@dimen/px16"
+            android:layout_marginEnd="@dimen/px16"
+            android:background="@drawable/app_res_sample_3"
+            android:paddingBottom="@dimen/px20">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/beo"
-                android:layout_width="fill_parent"
+                android:id="@id/tv_exit_message"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_margin="@dimen/ul"
+                android:layout_margin="@dimen/px20"
                 android:gravity="center"
-                android:text="@string/df"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/z1" />
+                android:text="@string/confrim_exit_edit_video_message"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp16" />
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/beo"
-                android:layout_marginStart="@dimen/tz"
-                android:layout_marginEnd="@dimen/tz">
+                android:layout_below="@id/tv_exit_message"
+                android:layout_marginStart="@dimen/px16"
+                android:layout_marginEnd="@dimen/px16">
                 <LinearLayout
-                    android:id="@id/aic"
+                    android:id="@id/ll_save_exit"
                     android:layout_width="0.0dip"
-                    android:layout_height="@dimen/x6"
+                    android:layout_height="@dimen/px40"
                     android:layout_alignParentStart="true"
-                    android:layout_marginEnd="@dimen/yf"
-                    android:background="@drawable/e_"
+                    android:layout_marginEnd="@dimen/px8"
+                    android:background="@drawable/app_res_sample_2"
                     android:gravity="center"
-                    app:layout_constraintBottom_toBottomOf="apv"
-                    app:layout_constraintEnd_toStartOf="@id/ai2"
+                    app:layout_constraintBottom_toBottomOf="parrent"
+                    app:layout_constraintEnd_toStartOf="@id/ll_just_exit"
                     app:layout_constraintHorizontal_chainStyle="apo"
-                    app:layout_constraintStart_toStartOf="apv"
-                    app:layout_constraintTop_toTopOf="apv">
+                    app:layout_constraintStart_toStartOf="parrent"
+                    app:layout_constraintTop_toTopOf="parrent">
                     <androidx.appcompat.widget.AppCompatTextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="@string/adq"
-                        android:textColor="@color/d6"
-                        android:textSize="@dimen/z0" />
+                        android:text="@string/xiaoying_str_save_and_exit"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/sp14" />
                 </LinearLayout>
                 <LinearLayout
-                    android:id="@id/ai2"
+                    android:id="@id/ll_just_exit"
                     android:layout_width="0.0dip"
-                    android:layout_height="@dimen/x6"
+                    android:layout_height="@dimen/px40"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginStart="@dimen/yf"
-                    android:background="@drawable/dx"
+                    android:layout_marginStart="@dimen/px8"
+                    android:background="@drawable/app_default_button"
                     android:gravity="center"
-                    app:layout_constraintBottom_toBottomOf="apv"
-                    app:layout_constraintEnd_toEndOf="apv"
+                    app:layout_constraintBottom_toBottomOf="parrent"
+                    app:layout_constraintEnd_toEndOf="parrent"
                     app:layout_constraintHorizontal_chainStyle="apo"
-                    app:layout_constraintStart_toEndOf="@id/aic"
-                    app:layout_constraintTop_toTopOf="apv">
+                    app:layout_constraintStart_toEndOf="@id/ll_save_exit"
+                    app:layout_constraintTop_toTopOf="parrent">
                     <androidx.appcompat.widget.AppCompatTextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:text="@string/a2o"
-                        android:textColor="@color/zo"
-                        android:textSize="@dimen/z0" />
+                        android:text="@string/xiaoying_str_editor_back_exit_directly"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp14" />
                 </LinearLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </RelativeLayout>
     </RelativeLayout>
     <ViewStub
-        android:id="@id/bo8"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout="@layout/j8" />
+        android:id="@id/vs_forced_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/editor_x_forced_guide" />
     <ViewStub
-        android:id="@id/bo9"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout="@layout/ml" />
+        android:id="@id/vs_tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/editorx_kit_tool_layout" />
     <FrameLayout
-        android:id="@id/a0i"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:id="@id/fragment_music_continer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </com.videoapp.videomakermaster.EditorWrapper>

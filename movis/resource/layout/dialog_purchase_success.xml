@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:tag="layout/dialog_purchase_success_0">
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_marginStart="@dimen/tz"
-        android:layout_marginEnd="@dimen/tz"
-        android:background="@drawable/hw"
+        android:layout_marginStart="@dimen/px16"
+        android:layout_marginEnd="@dimen/px16"
+        android:background="@drawable/bg_bottom_dialog"
         android:orientation="vertical">
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="@dimen/wz"
+            android:layout_marginTop="@dimen/px36"
             android:adjustViewBounds="true"
-            android:src="@drawable/ak8" />
+            android:src="@drawable/ic_purchase_succes" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/v7"
-            android:layout_marginTop="@dimen/v7"
-            android:layout_marginEnd="@dimen/v7"
+            android:layout_marginStart="@dimen/px24"
+            android:layout_marginTop="@dimen/px24"
+            android:layout_marginEnd="@dimen/px24"
             android:gravity="center"
-            android:text="@string/jp"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z1"
+            android:text="@string/purchase_success_msg"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16"
             android:textStyle="bold" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/td"
-            android:layout_marginTop="@dimen/yf"
-            android:layout_marginEnd="@dimen/td"
+            android:layout_marginStart="@dimen/px12"
+            android:layout_marginTop="@dimen/px8"
+            android:layout_marginEnd="@dimen/px12"
             android:gravity="center"
-            android:text="@string/jo"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z1" />
+            android:text="@string/purchase_success_des"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bba"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/xh"
+            android:id="@id/tvCta"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px48"
             android:layout_gravity="center"
-            android:layout_marginStart="@dimen/tz"
-            android:layout_marginTop="@dimen/v7"
-            android:layout_marginEnd="@dimen/tz"
-            android:layout_marginBottom="@dimen/v7"
-            android:background="@drawable/dx"
-            android:drawablePadding="@dimen/td"
+            android:layout_marginStart="@dimen/px16"
+            android:layout_marginTop="@dimen/px24"
+            android:layout_marginEnd="@dimen/px16"
+            android:layout_marginBottom="@dimen/px24"
+            android:background="@drawable/app_default_button"
+            android:drawablePadding="@dimen/px12"
             android:gravity="center"
-            android:text="@string/ek"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z1"
+            android:text="@string/experience_now"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16"
             android:textStyle="bold" />
     </LinearLayout>
     <com.airbnb.lottie.LottieAnimationView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:lottie_autoPlay="true"
-        app:lottie_rawRes="@raw/j" />
+        app:lottie_rawRes="@raw/purchase_success" />
 </FrameLayout>

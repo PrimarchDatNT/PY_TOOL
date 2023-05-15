@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/bz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_p60"
     android:orientation="vertical">
     <com.videoai.aivpcore.ui.view.ProgressBarWithIndicator
-        android:id="@id/bra"
-        android:layout_width="fill_parent"
+        android:id="@id/xiaoying_ve_basic_tool_progressbar"
+        android:layout_width="match_parent"
         android:layout_height="40.0dip"
         android:layout_centerInParent="true"
         android:layout_marginStart="10.0dip"
@@ -19,30 +19,30 @@
         android:mirrorForRtl="true"
         android:paddingTop="35.0dip"
         android:progress="30"
-        android:progressDrawable="@drawable/axg"
+        android:progressDrawable="@drawable/v5_xiaoying_ve_basic_tool_progress_drawable"
         app:progress_text_size="10.0sp" />
     <TextView
-        android:id="@id/br9"
+        android:id="@id/xiaoying_ve_basic_tool_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/bra"
+        android:layout_below="@id/xiaoying_ve_basic_tool_progressbar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20.0dip"
-        android:text="@string/a0k"
-        android:textColor="@color/zo"
+        android:text="@string/xiaoying_str_edit_clip_edit_reverse_dialog_tip"
+        android:textColor="@color/white"
         android:textSize="12.0sp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/br9"
+        android:layout_below="@id/xiaoying_ve_basic_tool_description"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="120.0dip"
-        android:text="@string/ao9"
-        android:textColor="@color/zo"
+        android:text="@string/xiaoying_str_ve_reverse_sound_des"
+        android:textColor="@color/white"
         android:textSize="14.0sp" />
     <TextView
-        android:id="@id/br_"
-        android:layout_width="fill_parent"
+        android:id="@id/xiaoying_ve_basic_tool_dialog_candel_button"
+        android:layout_width="match_parent"
         android:layout_height="44.0dip"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="10.0dip"
@@ -50,9 +50,9 @@
         android:layout_marginEnd="10.0dip"
         android:layout_marginRight="10.0dip"
         android:layout_marginBottom="10.0dip"
-        android:background="@drawable/axf"
+        android:background="@drawable/v5_xiaoying_ve_basic_tool_progress_dialog_button_shape"
         android:gravity="center"
-        android:text="@string/s_"
-        android:textColor="@color/zo"
+        android:text="@string/xiaoying_str_com_cancel"
+        android:textColor="@color/white"
         android:textSize="15.0sp" />
 </RelativeLayout>

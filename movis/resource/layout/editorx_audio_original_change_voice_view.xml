@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <LinearLayout
-        android:id="@id/a2b"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/ut"
-        android:background="@color/ag"
+        android:id="@id/group_sound_root"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px214"
+        android:background="@color/app_dcolor_background"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@id/b3e"
-        app:layout_constraintLeft_toLeftOf="apv"
-        app:layout_constraintRight_toRightOf="apv">
+        app:layout_constraintBottom_toTopOf="@id/sound_change_bottom_tab"
+        app:layout_constraintLeft_toLeftOf="parrent"
+        app:layout_constraintRight_toRightOf="parrent">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/b3f"
+            android:id="@id/sound_change_title_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/td"
-            android:text="@string/rq"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z0" />
+            android:layout_marginTop="@dimen/px12"
+            android:text="@string/xiaoying_str_clip_func_magic_sound"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
         <View
-            android:id="@id/gq"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/t2"
-            android:layout_marginTop="@dimen/td"
-            android:background="@color/aj" />
+            android:id="@id/audio_trim_top_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px1"
+            android:layout_marginTop="@dimen/px12"
+            android:background="@color/app_dcolor_indicator" />
         <com.videoai.aivpcore.timeline.fixed.scale.ScaleTimeline
-            android:id="@id/azn"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/y6" />
+            android:id="@id/scale_timeline"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px64" />
         <HorizontalScrollView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:scrollbarThumbHorizontal="@color/ak">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarThumbHorizontal="@color/app_dcolor_indicator_2">
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
                 <com.videoai.aivpcore.editorx.widget.SelectTextView
-                    android:id="@id/b3k"
-                    android:layout_width="@dimen/y0"
-                    android:layout_height="@dimen/y0"
-                    android:layout_marginStart="@dimen/xz"
+                    android:id="@id/sound_original"
+                    android:layout_width="@dimen/px60"
+                    android:layout_height="@dimen/px60"
+                    android:layout_marginStart="@dimen/px6"
                     app:stv_selected="true"
-                    app:stv_text="@string/a9m" />
+                    app:stv_text="@string/xiaoying_str_magic_sound_original" />
                 <com.videoai.aivpcore.editorx.widget.SelectTextView
-                    android:id="@id/b3l"
-                    android:layout_width="@dimen/y0"
-                    android:layout_height="@dimen/y0"
-                    android:layout_marginStart="@dimen/xz"
-                    app:stv_image="@drawable/akw" />
+                    android:id="@id/sound_self"
+                    android:layout_width="@dimen/px60"
+                    android:layout_height="@dimen/px60"
+                    android:layout_marginStart="@dimen/px6"
+                    app:stv_image="@drawable/ic_voice_change_custom" />
                 <com.videoai.aivpcore.editorx.widget.SelectTextView
-                    android:id="@id/b3o"
-                    android:layout_width="@dimen/y0"
-                    android:layout_height="@dimen/y0"
-                    android:layout_marginStart="@dimen/xz"
-                    app:stv_image="@drawable/al2" />
+                    android:id="@id/sound_woman"
+                    android:layout_width="@dimen/px60"
+                    android:layout_height="@dimen/px60"
+                    android:layout_marginStart="@dimen/px6"
+                    app:stv_image="@drawable/ic_voice_change_woman" />
                 <com.videoai.aivpcore.editorx.widget.SelectTextView
-                    android:id="@id/b3j"
-                    android:layout_width="@dimen/y0"
-                    android:layout_height="@dimen/y0"
-                    android:layout_marginStart="@dimen/xz"
-                    app:stv_image="@drawable/aky" />
+                    android:id="@id/sound_man"
+                    android:layout_width="@dimen/px60"
+                    android:layout_height="@dimen/px60"
+                    android:layout_marginStart="@dimen/px6"
+                    app:stv_image="@drawable/ic_voice_change_man" />
                 <com.videoai.aivpcore.editorx.widget.SelectTextView
-                    android:id="@id/b3n"
-                    android:layout_width="@dimen/y0"
-                    android:layout_height="@dimen/y0"
-                    android:layout_marginStart="@dimen/xz"
-                    app:stv_image="@drawable/al0" />
+                    android:id="@id/sound_tom"
+                    android:layout_width="@dimen/px60"
+                    android:layout_height="@dimen/px60"
+                    android:layout_marginStart="@dimen/px6"
+                    app:stv_image="@drawable/ic_voice_change_tom" />
                 <com.videoai.aivpcore.editorx.widget.SelectTextView
-                    android:id="@id/b3i"
-                    android:layout_width="@dimen/y0"
-                    android:layout_height="@dimen/y0"
-                    android:layout_marginStart="@dimen/xz"
-                    app:stv_image="@drawable/akx" />
+                    android:id="@id/sound_luoli"
+                    android:layout_width="@dimen/px60"
+                    android:layout_height="@dimen/px60"
+                    android:layout_marginStart="@dimen/px6"
+                    app:stv_image="@drawable/ic_voice_change_lit_girl" />
                 <com.videoai.aivpcore.editorx.widget.SelectTextView
-                    android:id="@id/b3c"
-                    android:layout_width="@dimen/y0"
-                    android:layout_height="@dimen/y0"
-                    android:layout_marginStart="@dimen/xz"
-                    app:stv_image="@drawable/al1" />
+                    android:id="@id/sound_alien"
+                    android:layout_width="@dimen/px60"
+                    android:layout_height="@dimen/px60"
+                    android:layout_marginStart="@dimen/px6"
+                    app:stv_image="@drawable/ic_voice_change_ufo" />
                 <com.videoai.aivpcore.editorx.widget.SelectTextView
-                    android:id="@id/b3h"
-                    android:layout_width="@dimen/y0"
-                    android:layout_height="@dimen/y0"
-                    android:layout_marginStart="@dimen/xz"
-                    app:stv_image="@drawable/akz" />
+                    android:id="@id/sound_elder"
+                    android:layout_width="@dimen/px60"
+                    android:layout_height="@dimen/px60"
+                    android:layout_marginStart="@dimen/px6"
+                    app:stv_image="@drawable/ic_voice_change_old_man" />
             </LinearLayout>
         </HorizontalScrollView>
     </LinearLayout>
     <com.videoai.aivpcore.editorx.board.clip.widget.SelectActionBottomBar
-        android:id="@id/b3e"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/xt"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintLeft_toLeftOf="apv"
-        app:layout_constraintRight_toRightOf="apv" />
+        android:id="@id/sound_change_bottom_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px56"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintLeft_toLeftOf="parrent"
+        app:layout_constraintRight_toRightOf="parrent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

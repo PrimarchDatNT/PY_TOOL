@@ -4,7 +4,7 @@
     android:layout_height="90.0dip"
     android:background="@android:color/white">
     <LinearLayout
-        android:id="@id/f_"
+        android:id="@id/applovin_native_inner_parent_layout"
         android:layout_width="90.0dip"
         android:layout_height="728.0dip"
         android:gravity="center_vertical"
@@ -13,45 +13,45 @@
         android:transformPivotX="45.0dip"
         android:transformPivotY="45.0dip">
         <FrameLayout
-            android:id="@id/fc"
+            android:id="@id/applovin_native_options_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
         <FrameLayout
-            android:id="@id/f8"
-            style="@style/ht">
+            android:id="@id/applovin_native_icon_view"
+            style="@style/LargeIconView">
             <ImageView
-                android:id="@id/f7"
-                style="@style/ht" />
+                android:id="@id/applovin_native_icon_image_view"
+                style="@style/LargeIconView" />
         </FrameLayout>
         <FrameLayout
-            android:id="@id/fb"
-            style="@style/ht" />
+            android:id="@id/applovin_native_media_content_view"
+            style="@style/LargeIconView" />
         <TextView
             style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.LargeAdBadgeTextView"
             android:layout_margin="4.0dip" />
         <TextView
-            android:id="@id/fd"
+            android:id="@id/applovin_native_title_text_view"
             style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.LargeVerticalTitleTextSize"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8.0dip"
             android:gravity="center"
             android:paddingLeft="4.0dip"
             android:paddingRight="4.0dip" />
         <TextView
-            android:id="@id/f1"
+            android:id="@id/applovin_native_advertiser_text_view"
             style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.LargeVerticalBodyTextSize"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8.0dip"
             android:gravity="center"
             android:paddingLeft="4.0dip"
             android:paddingRight="4.0dip" />
         <TextView
-            android:id="@id/f3"
+            android:id="@id/applovin_native_body_text_view"
             style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.LargeVerticalBodyTextSize"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:layout_marginBottom="8.0dip"
             android:layout_weight="1.0"
@@ -59,9 +59,9 @@
             android:paddingLeft="4.0dip"
             android:paddingRight="4.0dip" />
         <Button
-            android:id="@id/f4"
+            android:id="@id/applovin_native_cta_button"
             style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="4.0dip"

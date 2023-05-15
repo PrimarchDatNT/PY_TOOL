@@ -6,5 +6,5 @@
         </shape>
     </item>
     <item
-        android:bottom="2.0dip" android:drawable="@drawable/h6" android:left="2.0dip" android:right="2.0dip" android:top="2.0dip" />
+        android:bottom="2.0dip" android:drawable="@drawable/applovin_ic_privacy_icon" android:left="2.0dip" android:right="2.0dip" android:top="2.0dip" />
 </layer-list>

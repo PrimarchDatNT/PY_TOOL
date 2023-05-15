@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ag">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_background">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/b4z"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:id="@id/studio_no_video_hint_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv"
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent"
             app:layout_constraintVertical_bias="0.38">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/b50"
+                android:id="@id/studio_no_video_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/xn" />
+                android:src="@drawable/editor_studio_draft_empty_bg" />
             <TextView
-                android:id="@id/b51"
+                android:id="@id/studio_no_video_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4.0dip"
-                android:text="@string/afy"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/z0"
+                android:text="@string/xiaoying_str_studio_empty_tip"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp14"
                 android:visibility="visible" />
             <TextView
-                android:id="@id/b52"
+                android:id="@id/studio_no_video_to_create_btn"
                 android:layout_width="136.0dip"
                 android:layout_height="40.0dip"
-                android:background="@drawable/ww"
+                android:background="@drawable/editor_shape_studio_no_video_create_btn_bg"
                 android:gravity="center"
-                android:text="@string/a6n"
-                android:textColor="@color/ky"
+                android:text="@string/xiaoying_str_funny_template_create"
+                android:textColor="@color/color_ff6333"
                 android:textSize="14.0sp"
                 android:visibility="gone" />
             <com.videoapp.videomakermaster.ViewCreatDraft
-                android:id="@id/bdt"
-                android:layout_width="fill_parent"
-                android:layout_height="@dimen/x9"
-                android:layout_marginStart="@dimen/tz"
-                android:layout_marginTop="@dimen/td"
-                android:layout_marginEnd="@dimen/tz"
-                android:background="@drawable/dx"
-                android:fontFamily="@font/f"
+                android:id="@id/tv_cta_create_video"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px42"
+                android:layout_marginStart="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginEnd="@dimen/px16"
+                android:background="@drawable/app_default_button"
+                android:fontFamily="@font/poppins_semibold"
                 android:gravity="center"
-                android:text="@string/a6n"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/z1" />
+                android:text="@string/xiaoying_str_funny_template_create"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp16" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

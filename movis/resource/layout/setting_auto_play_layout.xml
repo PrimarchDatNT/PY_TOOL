@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/jb">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f0f2f5">
     <RelativeLayout
-        android:id="@id/age"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/a4_"
-        android:background="@color/zo">
+        android:id="@id/layout_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v4_xiaoying_com_top_panel_height"
+        android:background="@color/white">
         <ImageView
-            android:id="@id/a53"
+            android:id="@id/img_back"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_centerVertical="true"
             android:background="@drawable/com_md_ripple_transparent_bg_drawable"
             android:paddingStart="10.0dip"
             android:paddingLeft="10.0dip"
             android:paddingEnd="10.0dip"
             android:paddingRight="10.0dip"
-            android:src="@drawable/dy" />
+            android:src="@drawable/app_default_close_black" />
         <TextView
-            android:id="@id/b8x"
+            android:id="@id/text_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_toEndOf="@id/a53"
-            android:layout_toRightOf="@id/a53"
+            android:layout_toEndOf="@id/img_back"
+            android:layout_toRightOf="@id/img_back"
             android:gravity="center"
             android:singleLine="true"
-            android:text="@string/p9"
+            android:text="@string/xiaoying_str_auto_play_setting_title"
             android:textColor="#ff666666"
             android:textSize="18.0sp" />
         <ImageView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.5dip"
             android:layout_alignParentBottom="true"
-            android:background="@color/fx" />
+            android:background="@color/color_707070_p40" />
     </RelativeLayout>
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/age"
+        android:layout_below="@id/layout_title_bar"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
@@ -49,16 +49,16 @@
             android:paddingStart="10.0dip"
             android:paddingLeft="10.0dip"
             android:paddingBottom="8.0dip"
-            android:text="@string/p8"
+            android:text="@string/xiaoying_str_auto_play_setting_desc"
             android:textColor="#ff666666"
             android:textSize="12.0sp" />
         <ImageView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.5dip"
-            android:background="@color/fx" />
+            android:background="@color/color_707070_p40" />
         <RelativeLayout
-            android:id="@id/oi"
-            android:layout_width="fill_parent"
+            android:id="@id/check_autoplay_none_layout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/com_md_ripple_light_bg_drawable"
             android:paddingStart="15.0dip"
@@ -69,29 +69,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="50.0dip"
                 android:gravity="center_vertical"
-                android:text="@string/p5"
+                android:text="@string/xiaoying_str_auto_play_setting_1"
                 android:textSize="15.0sp" />
             <ImageView
-                android:id="@id/a55"
+                android:id="@id/img_check_autoplay_none"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/ayp" />
+                android:src="@drawable/vivavideo_sex_choose" />
         </RelativeLayout>
         <ImageView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.5dip"
-            android:background="@color/zo"
+            android:background="@color/white"
             android:paddingStart="15.0dip"
             android:paddingLeft="15.0dip"
             android:paddingEnd="15.0dip"
             android:paddingRight="15.0dip"
-            android:src="@color/fx" />
+            android:src="@color/color_707070_p40" />
         <RelativeLayout
-            android:id="@id/oj"
-            android:layout_width="fill_parent"
+            android:id="@id/check_autoplay_wifi_layout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/com_md_ripple_light_bg_drawable"
             android:paddingStart="15.0dip"
@@ -102,30 +102,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="50.0dip"
                 android:gravity="center_vertical"
-                android:text="@string/p6"
+                android:text="@string/xiaoying_str_auto_play_setting_2"
                 android:textSize="15.0sp" />
             <ImageView
-                android:id="@id/a56"
+                android:id="@id/img_check_autoplay_wifi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/ayp"
+                android:src="@drawable/vivavideo_sex_choose"
                 android:visibility="gone" />
         </RelativeLayout>
         <ImageView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.5dip"
-            android:background="@color/zo"
+            android:background="@color/white"
             android:paddingStart="15.0dip"
             android:paddingLeft="15.0dip"
             android:paddingEnd="15.0dip"
             android:paddingRight="15.0dip"
-            android:src="@color/fx" />
+            android:src="@color/color_707070_p40" />
         <RelativeLayout
-            android:id="@id/oh"
-            android:layout_width="fill_parent"
+            android:id="@id/check_autoplay_mobile_layout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/com_md_ripple_light_bg_drawable"
             android:paddingStart="15.0dip"
@@ -136,21 +136,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="50.0dip"
                 android:gravity="center_vertical"
-                android:text="@string/p7"
+                android:text="@string/xiaoying_str_auto_play_setting_3"
                 android:textSize="15.0sp" />
             <ImageView
-                android:id="@id/a54"
+                android:id="@id/img_check_autoplay_mobile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/ayp"
+                android:src="@drawable/vivavideo_sex_choose"
                 android:visibility="gone" />
         </RelativeLayout>
         <ImageView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.5dip"
-            android:background="@color/fx" />
+            android:background="@color/color_707070_p40" />
     </LinearLayout>
 </RelativeLayout>

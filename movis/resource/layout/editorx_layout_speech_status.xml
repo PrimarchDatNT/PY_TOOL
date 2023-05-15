@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/ad4"
-    android:layout_width="fill_parent"
+    android:id="@id/layoutStatus"
+    android:layout_width="match_parent"
     android:layout_height="66.0dip"
     android:background="#ff1c1c1c"
     android:gravity="center_vertical"
     android:paddingStart="15.0dip"
     android:paddingEnd="15.0dip">
     <LinearLayout
-        android:id="@id/ad1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/layoutSpeechIng"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <RelativeLayout
             android:layout_width="16.0dip"
             android:layout_height="16.0dip">
             <ImageView
-                android:id="@id/a8l"
+                android:id="@id/ivAnimOut"
                 android:layout_width="16.0dip"
                 android:layout_height="16.0dip"
-                android:src="@drawable/a1t" />
+                android:src="@drawable/editorx_ico_speeching_anim_out" />
             <ImageView
                 android:layout_width="16.0dip"
                 android:layout_height="16.0dip"
-                android:src="@drawable/a1s" />
+                android:src="@drawable/editorx_ico_speeching_anim_content" />
         </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8.0dip"
-            android:textColor="@color/iv"
+            android:textColor="@color/color_e6e6e6"
             android:textSize="14.0sp"
             android:textStyle="bold" />
         <View
@@ -38,27 +38,27 @@
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
         <TextView
-            android:id="@id/bb7"
+            android:id="@id/tvCancel"
             android:layout_width="56.0dip"
             android:layout_height="28.0dip"
-            android:background="@drawable/a8g"
+            android:background="@drawable/editorx_shape_speech_cancel"
             android:gravity="center"
-            android:text="@string/s_"
-            android:textColor="@color/iv"
+            android:text="@string/xiaoying_str_com_cancel"
+            android:textColor="@color/color_e6e6e6"
             android:textSize="12.0sp"
             android:textStyle="bold" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/ad0"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/layoutSpeechFailure"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:visibility="gone">
         <ImageView
             android:layout_width="16.0dip"
             android:layout_height="16.0dip"
-            android:src="@drawable/a1p" />
+            android:src="@drawable/editorx_ico_speech_failed" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -70,38 +70,38 @@
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
         <TextView
-            android:id="@id/bc2"
+            android:id="@id/tvRetry"
             android:layout_width="56.0dip"
             android:layout_height="28.0dip"
             android:layout_marginRight="12.0dip"
-            android:background="@drawable/a8i"
+            android:background="@drawable/editorx_shape_speech_retry"
             android:gravity="center"
-            android:text="@string/ah0"
-            android:textColor="@color/iv"
+            android:text="@string/xiaoying_str_studio_share_retry_title"
+            android:textColor="@color/color_e6e6e6"
             android:textSize="12.0sp"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/bb8"
+            android:id="@id/tvCancel2"
             android:layout_width="56.0dip"
             android:layout_height="28.0dip"
-            android:background="@drawable/a8g"
+            android:background="@drawable/editorx_shape_speech_cancel"
             android:gravity="center"
-            android:text="@string/s_"
-            android:textColor="@color/iv"
+            android:text="@string/xiaoying_str_com_cancel"
+            android:textColor="@color/color_e6e6e6"
             android:textSize="12.0sp"
             android:textStyle="bold" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/ad3"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/layoutSpeechSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="horizontal"
         android:visibility="gone">
         <ImageView
             android:layout_width="16.0dip"
             android:layout_height="16.0dip"
-            android:src="@drawable/a1r" />
+            android:src="@drawable/editorx_ico_speech_success" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -111,9 +111,9 @@
             android:textStyle="bold" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/ad2"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/layoutSpeechNoSound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="horizontal"
         android:visibility="gone">

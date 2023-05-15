@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <LinearLayout
-        android:id="@id/ae0"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_click"
+        android:layout_width="match_parent"
         android:layout_height="192.0dip"
         android:layout_gravity="bottom"
-        android:background="@color/ag"
+        android:background="@color/app_dcolor_background"
         android:orientation="vertical">
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16.0dip"
             android:gravity="center_vertical"
@@ -21,37 +21,37 @@
                 android:layout_height="wrap_content"
                 android:paddingStart="15.0dip"
                 android:paddingEnd="15.0dip"
-                android:text="@string/a15"
-                android:textColor="@color/g4"
+                android:text="@string/xiaoying_str_edit_effect_suntitle_font_size"
+                android:textColor="@color/color_808080"
                 android:textSize="14.0sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="apv"
-                app:layout_constraintStart_toStartOf="apv"
-                app:layout_constraintTop_toTopOf="apv" />
+                app:layout_constraintBottom_toBottomOf="parrent"
+                app:layout_constraintStart_toStartOf="parrent"
+                app:layout_constraintTop_toTopOf="parrent" />
             <com.videoai.aivpcore.editorx.widget.seekbar.VHSeekBar
-                android:id="@id/b0k"
-                android:layout_width="fill_parent"
+                android:id="@id/seek_font_size"
+                android:layout_width="match_parent"
                 android:layout_height="28.0dip"
                 android:layout_gravity="center_vertical"
                 android:paddingStart="68.0dip"
                 android:paddingEnd="17.5dip"
-                app:layout_constraintBottom_toBottomOf="apv"
-                app:layout_constraintEnd_toEndOf="apv"
-                app:layout_constraintStart_toStartOf="apv"
-                app:layout_constraintTop_toTopOf="apv"
-                app:vh_bg_color="@color/aj"
+                app:layout_constraintBottom_toBottomOf="parrent"
+                app:layout_constraintEnd_toEndOf="parrent"
+                app:layout_constraintStart_toStartOf="parrent"
+                app:layout_constraintTop_toTopOf="parrent"
+                app:vh_bg_color="@color/app_dcolor_indicator"
                 app:vh_bg_radius="28.0dip"
                 app:vh_max_progress="100"
                 app:vh_orientation="a30"
-                app:vh_point_color="@color/zo"
+                app:vh_point_color="@color/white"
                 app:vh_point_radius="16.0dip"
                 app:vh_progress="0"
-                app:vh_progress_color="@color/g4"
+                app:vh_progress_color="@color/color_808080"
                 app:vh_progress_radius="24.0dip"
                 app:vh_top_bg_space="24.0dip" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="26.0dip"
             android:gravity="center_vertical"
@@ -61,77 +61,77 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/a12"
-                android:textColor="@color/g4"
+                android:text="@string/xiaoying_str_edit_effect_suntitle_font_align"
+                android:textColor="@color/color_808080"
                 android:textSize="14.0sp"
                 android:textStyle="bold" />
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24.0dip"
                 android:orientation="horizontal">
                 <RelativeLayout
-                    android:id="@id/adm"
+                    android:id="@id/layout_align_left"
                     android:layout_width="0.0dip"
                     android:layout_height="28.0dip"
                     android:layout_weight="1.0">
                     <ImageView
-                        android:id="@id/a9n"
+                        android:id="@id/iv_align_left"
                         android:layout_width="52.0dip"
                         android:layout_height="28.0dip"
                         android:layout_centerInParent="true"
-                        android:background="@drawable/a8m"
+                        android:background="@drawable/editorx_shape_subtitle_font_align_unchoose"
                         android:paddingStart="14.0dip"
                         android:paddingEnd="14.0dip"
-                        android:src="@drawable/a48" />
+                        android:src="@drawable/editorx_icon_subtitle_font_align_left" />
                 </RelativeLayout>
                 <RelativeLayout
-                    android:id="@id/adk"
+                    android:id="@id/layout_align_center"
                     android:layout_width="0.0dip"
                     android:layout_height="28.0dip"
                     android:layout_weight="1.0">
                     <ImageView
-                        android:id="@id/a9m"
-                        android:layout_width="52.0dip"
-                        android:layout_height="28.0dip"
-                        android:layout_centerInParent="true"
-                        android:paddingStart="14.0dip"
-                        android:paddingEnd="14.0dip"
-                        android:src="@drawable/a47" />
-                </RelativeLayout>
-                <RelativeLayout
-                    android:id="@id/ado"
-                    android:layout_width="0.0dip"
-                    android:layout_height="28.0dip"
-                    android:layout_weight="1.0">
-                    <ImageView
-                        android:id="@id/a9p"
+                        android:id="@id/iv_align_center"
                         android:layout_width="52.0dip"
                         android:layout_height="28.0dip"
                         android:layout_centerInParent="true"
                         android:paddingStart="14.0dip"
                         android:paddingEnd="14.0dip"
-                        android:src="@drawable/a4e" />
+                        android:src="@drawable/editorx_icon_subtitle_font_align_center" />
                 </RelativeLayout>
                 <RelativeLayout
-                    android:id="@id/adn"
+                    android:id="@id/layout_align_right"
+                    android:layout_width="0.0dip"
+                    android:layout_height="28.0dip"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:id="@id/iv_align_right"
+                        android:layout_width="52.0dip"
+                        android:layout_height="28.0dip"
+                        android:layout_centerInParent="true"
+                        android:paddingStart="14.0dip"
+                        android:paddingEnd="14.0dip"
+                        android:src="@drawable/editorx_icon_suntitle_font_align_right" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@id/layout_align_normal"
                     android:layout_width="0.0dip"
                     android:layout_height="28.0dip"
                     android:layout_weight="1.0"
                     android:visibility="gone">
                     <ImageView
-                        android:id="@id/a9o"
+                        android:id="@id/iv_align_normal"
                         android:layout_width="52.0dip"
                         android:layout_height="28.0dip"
                         android:layout_centerInParent="true"
                         android:paddingStart="14.0dip"
                         android:paddingEnd="14.0dip"
-                        android:src="@drawable/a49" />
+                        android:src="@drawable/editorx_icon_subtitle_font_align_normal" />
                 </RelativeLayout>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="28.0dip"
             android:layout_marginTop="26.0dip"
             android:gravity="center_vertical"
@@ -141,45 +141,45 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/aq8"
-                android:textColor="@color/g4"
+                android:text="@string/xiaoying_str_ve_video_param_shadow"
+                android:textColor="@color/color_808080"
                 android:textSize="14.0sp"
                 android:textStyle="bold" />
             <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="21.0dip"
-                android:background="@drawable/a8n"
+                android:background="@drawable/editorx_shape_subtitle_font_shadow"
                 android:orientation="horizontal">
                 <Button
-                    android:id="@id/l8"
+                    android:id="@id/btn_off"
                     android:layout_width="0.0dip"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1.0"
-                    android:background="@drawable/a8p"
-                    android:text="@string/xt"
-                    android:textColor="@color/ey"
+                    android:background="@drawable/editorx_shape_subtitle_shadow_unchoose"
+                    android:text="@string/xiaoying_str_com_state_off"
+                    android:textColor="@color/color_363636"
                     android:textSize="12.0sp" />
                 <Button
-                    android:id="@id/l9"
+                    android:id="@id/btn_on"
                     android:layout_width="0.0dip"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1.0"
-                    android:background="@drawable/a8o"
-                    android:text="@string/a14"
-                    android:textColor="@color/ey"
+                    android:background="@drawable/editorx_shape_subtitle_shadow_choose"
+                    android:text="@string/xiaoying_str_edit_effect_suntitle_font_shadow_on"
+                    android:textColor="@color/color_363636"
                     android:textSize="12.0sp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
     <com.videoai.aivpcore.editorx.widget.seekbar.CircleShadowView
-        android:id="@id/b0h"
+        android:id="@id/seek_circle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
-        app:csv_bg_color="@color/zo"
+        app:csv_bg_color="@color/white"
         app:csv_bg_diam="44.0dip"
         app:csv_text="0"
-        app:csv_text_color="@color/eq"
+        app:csv_text_color="@color/color_333333"
         app:csv_text_size="18.0sp" />
 </FrameLayout>

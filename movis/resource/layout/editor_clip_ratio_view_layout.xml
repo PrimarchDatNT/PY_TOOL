@@ -3,16 +3,16 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/atc"
+        android:id="@id/ratio_main_layout"
         android:layout_width="38.0dip"
         android:layout_height="wrap_content">
         <RelativeLayout
-            android:id="@id/afl"
+            android:id="@id/layout_ratio_icon"
             android:layout_width="35.0dip"
             android:layout_height="35.0dip"
             android:layout_centerHorizontal="true">
             <ImageView
-                android:id="@id/ata"
+                android:id="@id/ratio_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
@@ -20,15 +20,15 @@
                 android:alpha="0.5" />
         </RelativeLayout>
         <TextView
-            android:id="@id/atd"
+            android:id="@id/ratio_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/afl"
+            android:layout_below="@id/layout_ratio_icon"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5.0dip"
             android:alpha="0.5"
             android:maxWidth="100.0dip"
-            android:textColor="@color/zo"
+            android:textColor="@color/white"
             android:textSize="11.0sp" />
     </RelativeLayout>
 </RelativeLayout>

@@ -3,16 +3,16 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/aeu"
-        android:layout_width="@dimen/a4d"
-        android:layout_height="@dimen/a4d">
+        android:id="@id/layout_imgview_bg"
+        android:layout_width="@dimen/v4_xiaoying_ve_framebar_item_show_width_dp"
+        android:layout_height="@dimen/v4_xiaoying_ve_framebar_item_show_width_dp">
         <com.videoai.aivpcore.ui.view.SafeDrawImageView
-            android:id="@id/a6i"
-            android:layout_width="@dimen/a4d"
-            android:layout_height="@dimen/a4d"
+            android:id="@id/imgview_thumbnail"
+            android:layout_width="@dimen/v4_xiaoying_ve_framebar_item_show_width_dp"
+            android:layout_height="@dimen/v4_xiaoying_ve_framebar_item_show_width_dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/b4a" />
+            android:src="@drawable/xiaoying_com_time_line_default_thumb" />
     </RelativeLayout>
 </RelativeLayout>

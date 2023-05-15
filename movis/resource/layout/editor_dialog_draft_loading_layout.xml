@@ -2,18 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="186.0dip"
     android:layout_height="wrap_content"
-    android:background="@drawable/vi"
+    android:background="@drawable/editor_shape_draft_loading_bg"
     android:orientation="vertical"
     android:paddingTop="20.0dip"
     android:paddingBottom="16.0dip">
     <ImageView
-        android:id="@id/u3"
+        android:id="@id/draft_loading_icon"
         android:layout_width="44.0dip"
         android:layout_height="44.0dip"
         android:layout_gravity="center_horizontal"
         android:scaleType="centerCrop" />
     <TextView
-        android:id="@id/u4"
+        android:id="@id/draft_loading_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -22,7 +22,7 @@
         android:layout_marginEnd="20.0dip"
         android:ellipsize="end"
         android:maxLines="2"
-        android:text="@string/axi"
-        android:textColor="@color/zx"
+        android:text="@string/xy_module_draft_loading_copy_text"
+        android:textColor="@color/white_p37"
         android:textSize="16.0sp" />
 </LinearLayout>

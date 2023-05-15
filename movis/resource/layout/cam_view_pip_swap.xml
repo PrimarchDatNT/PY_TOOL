@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <ImageView
-        android:id="@id/bpk"
+        android:id="@id/xiaoying_cam_img_pip_add"
         android:layout_width="37.0dip"
         android:layout_height="37.0dip"
-        android:src="@drawable/b14" />
+        android:src="@drawable/xiaoying_com_btn_pip_add_clip_selector" />
 </RelativeLayout>

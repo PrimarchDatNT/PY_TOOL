@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <TextView
-        android:id="@id/a7t"
+        android:id="@id/item_img"
         android:layout_width="wrap_content"
         android:layout_height="30.0dip"
         android:layout_centerInParent="true"
-        android:background="@drawable/kq"
-        android:drawableStart="@drawable/avw"
-        android:drawableLeft="@drawable/avw"
+        android:background="@drawable/drawable_color_transparent"
+        android:drawableStart="@drawable/v5_xiaoying_cam_lan_del_icon"
+        android:drawableLeft="@drawable/v5_xiaoying_cam_lan_del_icon"
         android:drawablePadding="0.0dip"
         android:fontFamily="sans-serif-light"
         android:gravity="center"
@@ -18,7 +18,7 @@
         android:paddingRight="5.0dip"
         android:rotation="90.0"
         android:singleLine="true"
-        android:text="@string/t7"
-        android:textColor="@color/zo"
+        android:text="@string/xiaoying_str_com_delete_title"
+        android:textColor="@color/white"
         android:textSize="11.0sp" />
 </RelativeLayout>

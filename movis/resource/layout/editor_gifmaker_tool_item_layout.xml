@@ -5,34 +5,34 @@
     android:layout_height="70.0dip"
     android:orientation="vertical">
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true">
         <ImageButton
-            android:id="@id/b_x"
+            android:id="@id/tool_cover"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:layout_centerHorizontal="true"
-            android:background="@color/xz"
+            android:background="@color/transparent"
             android:clickable="false"
             android:scaleType="fitXY" />
         <ImageView
-            android:id="@id/aad"
+            android:id="@id/iv_item_vip_flag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/b_x"
-            android:layout_alignEnd="@id/b_x"
-            android:layout_alignRight="@id/b_x"
+            android:layout_alignTop="@id/tool_cover"
+            android:layout_alignEnd="@id/tool_cover"
+            android:layout_alignRight="@id/tool_cover"
             android:layout_marginTop="-2.0dip"
             android:layout_marginEnd="-10.0dip"
             android:layout_marginRight="-10.0dip"
-            android:src="@drawable/sm"
+            android:src="@drawable/editor_icon_vip_16_n"
             android:visibility="gone" />
         <com.videoai.aivpcore.common.ui.widgets.autofittextview.AutofitTextView
-            android:id="@id/ba0"
+            android:id="@id/tool_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/b_x"
+            android:layout_below="@id/tool_cover"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="8.0dip"
             android:clickable="false"

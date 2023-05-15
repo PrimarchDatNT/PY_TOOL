@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/a1c"
+    android:id="@id/gallery_footer_layout"
     android:layout_width="165.0dip"
     android:layout_height="165.0dip"
     android:background="#1affffff">
@@ -13,20 +13,20 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/b6n" />
+            android:src="@drawable/xiaoying_ve_gallery_folder2_n" />
         <TextView
-            android:id="@id/a1d"
+            android:id="@id/gallery_footer_scan_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12.0dip"
-            android:text="@string/alp"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_ve_gallery_not_find_photo_tip"
+            android:textColor="@color/white"
             android:textSize="14.0sp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/amb"
-            android:textColor="@color/k1"
+            android:text="@string/xiaoying_str_ve_media_gallery_scan_tip"
+            android:textColor="@color/color_fd6132"
             android:textSize="14.0sp" />
     </LinearLayout>
 </RelativeLayout>

@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/zy"
-    android:layout_width="fill_parent"
+    android:id="@id/folder_item_layout_root"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/jf"
+    android:background="@drawable/btn_dcolor_ripple"
     android:orientation="horizontal"
-    android:paddingTop="@dimen/td"
-    android:paddingBottom="@dimen/td">
+    android:paddingTop="@dimen/px12"
+    android:paddingBottom="@dimen/px12">
     <com.videoedit.gallery.widget.RoundImageView
-        android:id="@id/zx"
-        android:layout_width="@dimen/xn"
-        android:layout_height="@dimen/xn"
+        android:id="@id/folder_item_cover_img"
+        android:layout_width="@dimen/px52"
+        android:layout_height="@dimen/px52"
         android:layout_gravity="center_vertical"
         android:layout_marginStart="16.0dip"
-        android:background="@drawable/ae1"
+        android:background="@drawable/gallery_border_item"
         android:scaleType="centerCrop"
-        android:src="@color/rl"
-        app:cornerRadius="@dimen/xz" />
+        android:src="@color/gallery_color_d9d9d9"
+        app:cornerRadius="@dimen/px6" />
     <LinearLayout
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginStart="@dimen/td"
+        android:layout_marginStart="@dimen/px12"
         android:layout_weight="1.0"
         android:orientation="vertical">
         <TextView
-            android:id="@id/zz"
-            style="@style/xh"
+            android:id="@id/folder_item_name"
+            style="@style/veds_latn_font_subtitle_16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:singleLine="true"
-            android:textColor="@color/zo" />
+            android:textColor="@color/white" />
         <TextView
-            android:id="@id/a00"
-            style="@style/x8"
+            android:id="@id/folder_item_number"
+            style="@style/veds_latn_font_caption_12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6.0dip"
-            android:textColor="@color/a04" />
+            android:textColor="@color/white_p90" />
     </LinearLayout>
     <ImageView
-        android:id="@id/zw"
+        android:id="@id/folder_item_checkbox"
         android:layout_width="20.0dip"
         android:layout_height="20.0dip"
         android:layout_gravity="center_vertical"
         android:layout_marginStart="20.0dip"
         android:layout_marginEnd="16.0dip"
-        android:src="@drawable/ahd"
+        android:src="@drawable/gallery_shape_next_enable_false"
         android:visibility="invisible" />
 </LinearLayout>

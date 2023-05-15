@@ -7,7 +7,7 @@
     android:paddingTop="7.0dip"
     android:paddingBottom="7.0dip">
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/ard"
+        android:id="@id/popup_item_icon"
         android:layout_width="21.0dip"
         android:layout_height="21.0dip"
         android:layout_gravity="center_vertical"
@@ -16,8 +16,8 @@
         android:visibility="gone"
         fresco:actualImageScaleType="yv" />
     <TextView
-        android:id="@id/are"
-        android:layout_width="fill_parent"
+        android:id="@id/popup_item_title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:gravity="start|center"
@@ -25,7 +25,7 @@
         android:paddingStart="25.0dip"
         android:paddingLeft="25.0dip"
         android:singleLine="true"
-        android:textColor="@color/eq"
+        android:textColor="@color/color_333333"
         android:textDirection="locale"
-        android:textSize="@dimen/a41" />
+        android:textSize="@dimen/v2_pop_menu_item_txtsize" />
 </LinearLayout>

@@ -7,32 +7,32 @@
     android:paddingEnd="10.0dip"
     android:paddingRight="10.0dip">
     <Space
-        android:id="@id/als"
-        android:layout_width="fill_parent"
+        android:id="@id/msv_top_space"
+        android:layout_width="match_parent"
         android:layout_height="8.0dip" />
     <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout
-        android:id="@id/alp"
+        android:id="@id/msv_content_layout"
         android:layout_width="60.0dip"
         android:layout_height="80.0dip"
         android:layout_gravity="start"
-        android:background="@color/fd"
+        android:background="@color/color_525252"
         app:round_corner="0.0dip">
         <ImageView
-            android:id="@id/alr"
+            android:id="@id/msv_reset_img"
             android:layout_width="24.0dip"
             android:layout_height="24.0dip"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="17.0dip"
-            android:src="@drawable/a57" />
+            android:src="@drawable/editorx_more_source_reset_img" />
         <TextView
-            android:id="@id/alq"
+            android:id="@id/msv_more_txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/alr"
+            android:layout_below="@id/msv_reset_img"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="6.0dip"
-            android:text="@string/vh"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/jv" />
+            android:text="@string/xiaoying_str_com_more"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_12sp" />
     </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
 </LinearLayout>

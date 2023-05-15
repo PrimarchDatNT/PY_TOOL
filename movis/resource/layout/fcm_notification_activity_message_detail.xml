@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#ffffffff">
-    <include layout="@layout/oe" />
+    <include layout="@layout/fcm_notification_view_toolbar" />
     <LinearLayout
-        android:id="@id/xd"
-        android:layout_width="fill_parent"
+        android:id="@id/fcm_notification_detail_layout_controls"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:visibility="gone"
-        app:layout_constraintTop_toBottomOf="@id/xx">
+        app:layout_constraintTop_toBottomOf="@id/fcm_notification_toolbar">
         <FrameLayout
-            android:id="@id/xe"
-            android:layout_width="fill_parent"
+            android:id="@id/fcm_notification_detail_layout_controls_container"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-        <include layout="@layout/od" />
+        <include layout="@layout/fcm_notification_view_border" />
     </LinearLayout>
     <WebView
-        android:id="@id/xi"
-        android:layout_width="fill_parent"
+        android:id="@id/fcm_notification_detail_wv_content"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_margin="8.0dip"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/xd" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/fcm_notification_detail_layout_controls" />
     <LinearLayout
-        android:id="@id/xf"
-        android:layout_width="fill_parent"
+        android:id="@id/fcm_notification_detail_layout_empty"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
-        android:background="@color/pu"
+        android:background="@color/fcm_notification_detail_retry_background"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="@id/xi"
-        app:layout_constraintTop_toTopOf="@id/xi">
+        app:layout_constraintBottom_toBottomOf="@id/fcm_notification_detail_wv_content"
+        app:layout_constraintTop_toTopOf="@id/fcm_notification_detail_wv_content">
         <TextView
-            android:id="@id/xh"
+            android:id="@id/fcm_notification_detail_tv_error"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fcm_notification_detail_retry_message"
-            android:textColor="@color/px"
-            android:textSize="@dimen/ik" />
+            android:textColor="@color/fcm_notification_detail_retry_text"
+            android:textSize="@dimen/fcm_notification_detail_textsize_retry_message" />
     </LinearLayout>
     <ProgressBar
-        android:id="@id/xg"
-        android:layout_width="@dimen/fm"
-        android:layout_height="@dimen/fm"
-        android:theme="@style/if"
-        app:layout_constraintBottom_toBottomOf="@id/xi"
-        app:layout_constraintLeft_toLeftOf="@id/xi"
-        app:layout_constraintRight_toRightOf="@id/xi"
-        app:layout_constraintTop_toTopOf="@id/xi" />
+        android:id="@id/fcm_notification_detail_pb_loading"
+        android:layout_width="@dimen/dp28"
+        android:layout_height="@dimen/dp28"
+        android:theme="@style/NotificationProgressBar"
+        app:layout_constraintBottom_toBottomOf="@id/fcm_notification_detail_wv_content"
+        app:layout_constraintLeft_toLeftOf="@id/fcm_notification_detail_wv_content"
+        app:layout_constraintRight_toRightOf="@id/fcm_notification_detail_wv_content"
+        app:layout_constraintTop_toTopOf="@id/fcm_notification_detail_wv_content" />
 </androidx.constraintlayout.widget.ConstraintLayout>

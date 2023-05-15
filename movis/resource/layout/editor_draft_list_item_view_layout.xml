@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <LinearLayout
-        android:id="@id/u0"
-        android:layout_width="fill_parent"
+        android:id="@id/draft_item_layout"
+        android:layout_width="match_parent"
         android:layout_height="120.0dip"
-        android:background="@drawable/av7"
+        android:background="@drawable/v4_xiaoying_studio_list_item_bg_selector"
         android:orientation="horizontal">
         <LinearLayout
-            android:id="@id/ty"
+            android:id="@id/draft_delete_select_layout"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_marginStart="16.0dip"
             android:layout_marginLeft="16.0dip"
             android:gravity="center_vertical"
             android:visibility="gone">
             <ImageButton
-                android:id="@id/sz"
+                android:id="@id/delete_flag_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:clickable="false"
-                android:src="@drawable/ks" />
+                android:src="@drawable/edit_btn_del_selector" />
         </LinearLayout>
         <RelativeLayout
-            android:id="@id/b4x"
+            android:id="@id/studio_layout_left"
             android:layout_width="90.0dip"
             android:layout_height="90.0dip"
             android:layout_gravity="center_vertical"
@@ -34,18 +34,18 @@
             android:layout_marginTop="15.0dip"
             android:layout_marginBottom="15.0dip">
             <com.videoai.aivpcore.ui.view.RoundImageView
-                android:id="@id/u_"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/draft_thumb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_centerHorizontal="true"
                 android:scaleType="centerCrop" />
             <RelativeLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="33.0dip"
                 android:layout_alignParentBottom="true"
-                android:background="@drawable/vd" />
+                android:background="@drawable/editor_shape_draft_cover_gradient" />
             <TextView
-                android:id="@id/bi2"
+                android:id="@id/tv_time_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -54,11 +54,11 @@
                 android:layout_marginStart="5.0dip"
                 android:layout_marginLeft="5.0dip"
                 android:layout_marginBottom="3.0dip"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="12.0sp" />
             <TextView
-                android:id="@id/bh8"
-                android:layout_width="fill_parent"
+                android:id="@id/tv_slide_flag"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
@@ -66,8 +66,8 @@
                 android:layout_marginLeft="5.0dip"
                 android:layout_marginRight="5.0dip"
                 android:layout_marginBottom="4.0dip"
-                android:layout_toEndOf="@id/bi2"
-                android:layout_toRightOf="@id/bi2"
+                android:layout_toEndOf="@id/tv_time_duration"
+                android:layout_toRightOf="@id/tv_time_duration"
                 android:ellipsize="end"
                 android:gravity="end|center"
                 android:maxLines="1"
@@ -76,8 +76,8 @@
                 android:visibility="gone" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/b4y"
-            android:layout_width="fill_parent"
+            android:id="@id/studio_layout_right"
+            android:layout_width="match_parent"
             android:layout_height="90.0dip"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="12.0dip"
@@ -87,24 +87,24 @@
             android:layout_marginRight="16.0dip"
             android:layout_marginBottom="15.0dip">
             <TextView
-                android:id="@id/bds"
+                android:id="@id/tv_create_time"
                 android:layout_width="wrap_content"
                 android:layout_height="24.0dip"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:gravity="center"
                 android:text="04/25/2016"
-                android:textColor="@color/bn"
+                android:textColor="@color/black"
                 android:textSize="16.0sp" />
             <TextView
-                android:id="@id/bew"
+                android:id="@id/tv_exported"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentBottom="true"
                 android:layout_marginBottom="1.0dip"
-                android:background="@drawable/vh"
+                android:background="@drawable/editor_shape_draft_exported"
                 android:gravity="center"
                 android:paddingStart="10.0dip"
                 android:paddingLeft="10.0dip"
@@ -112,38 +112,38 @@
                 android:paddingEnd="10.0dip"
                 android:paddingRight="10.0dip"
                 android:paddingBottom="2.0dip"
-                android:text="@string/afu"
-                android:textColor="@color/de"
+                android:text="@string/xiaoying_str_studio_draft_exported"
+                android:textColor="@color/color_006bdf"
                 android:textSize="12.0sp" />
             <TextView
-                android:id="@id/b98"
+                android:id="@id/textview_clip_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBottom="@id/bew"
+                android:layout_alignBottom="@id/tv_exported"
                 android:layout_marginStart="5.0dip"
                 android:layout_marginLeft="5.0dip"
-                android:layout_toEndOf="@id/bew"
-                android:layout_toRightOf="@id/bew"
-                android:background="@drawable/b5z"
+                android:layout_toEndOf="@id/tv_exported"
+                android:layout_toRightOf="@id/tv_exported"
+                android:background="@drawable/xiaoying_studio_clip_count"
                 android:gravity="center"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="11.0sp"
                 android:visibility="gone" />
             <com.videoai.aivpcore.common.ui.emoji.EmojiconTextView
-                android:id="@id/b9f"
+                android:id="@id/textview_video_des"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:layout_above="@id/bew"
-                android:layout_below="@id/bds"
+                android:layout_height="match_parent"
+                android:layout_above="@id/tv_exported"
+                android:layout_below="@id/tv_create_time"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_marginTop="10.0dip"
                 android:ellipsize="end"
                 android:maxLines="1"
-                android:textColor="@color/g9"
+                android:textColor="@color/color_8E8E93"
                 android:textSize="14.0sp" />
             <ImageView
-                android:id="@id/tz"
+                android:id="@id/draft_img_delete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -155,7 +155,7 @@
                 android:paddingEnd="2.0dip"
                 android:paddingRight="2.0dip"
                 android:paddingBottom="2.0dip"
-                android:src="@drawable/l6" />
+                android:src="@drawable/editor_btn_draft_delete" />
         </RelativeLayout>
     </LinearLayout>
 </RelativeLayout>

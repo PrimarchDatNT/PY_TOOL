@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="@dimen/xh"
-    android:background="@color/ag">
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px48"
+    android:background="@color/app_dcolor_background">
     <TextView
-        android:id="@id/bf8"
+        android:id="@id/tv_header_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:background="@drawable/eb"
-        android:fontFamily="@font/f"
-        android:paddingStart="@dimen/td"
-        android:paddingTop="@dimen/x5"
-        android:paddingEnd="@dimen/td"
-        android:paddingBottom="@dimen/x5"
-        android:textColor="@color/d6"
-        android:textSize="@dimen/z0" />
+        android:background="@drawable/app_res_sample_4"
+        android:fontFamily="@font/poppins_semibold"
+        android:paddingStart="@dimen/px12"
+        android:paddingTop="@dimen/px4"
+        android:paddingEnd="@dimen/px12"
+        android:paddingBottom="@dimen/px4"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/sp14" />
 </RelativeLayout>

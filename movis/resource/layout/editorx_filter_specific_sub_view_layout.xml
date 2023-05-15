@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="194.0dip"
-    android:background="@color/ag"
+    android:background="@color/app_dcolor_background"
     android:clickable="true"
     android:focusable="true">
     <LinearLayout
-        android:id="@id/ai1"
-        android:layout_width="fill_parent"
+        android:id="@id/ll_filter_special_indicator"
+        android:layout_width="match_parent"
         android:layout_height="32.0dip"
         android:layout_marginStart="15.0dip"
         android:layout_marginTop="28.0dip"
         android:orientation="horizontal">
         <ImageView
-            android:id="@id/a_s"
+            android:id="@id/iv_filter_special_template_store"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/apw"
-            android:paddingStart="@dimen/tz"
-            android:paddingTop="@dimen/uk"
-            android:paddingEnd="@dimen/tz"
-            android:paddingBottom="@dimen/uk"
+            android:background="@drawable/slt_item_tag"
+            android:paddingStart="@dimen/px16"
+            android:paddingTop="@dimen/px2"
+            android:paddingEnd="@dimen/px16"
+            android:paddingBottom="@dimen/px2"
             android:scaleType="center"
-            android:src="@drawable/a35" />
+            android:src="@drawable/editorx_icon_effect_store" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/az0"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:id="@id/rv_filter_special_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/ayy"
-        android:layout_width="fill_parent"
+        android:id="@id/rv_filter_special_filter"
+        android:layout_width="match_parent"
         android:layout_height="100.0dip"
-        android:layout_below="@id/ai1" />
+        android:layout_below="@id/ll_filter_special_indicator" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/ayz"
-        android:layout_width="fill_parent"
+        android:id="@id/rv_filter_special_recent"
+        android:layout_width="match_parent"
         android:layout_height="100.0dip"
-        android:layout_below="@id/ai1" />
+        android:layout_below="@id/ll_filter_special_indicator" />
 </RelativeLayout>

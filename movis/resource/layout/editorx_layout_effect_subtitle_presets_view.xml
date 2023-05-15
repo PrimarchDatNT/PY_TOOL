@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <ImageView
-        android:id="@id/aaj"
-        android:layout_width="@dimen/v7"
-        android:layout_height="@dimen/v7"
+        android:id="@id/iv_loading"
+        android:layout_width="@dimen/px24"
+        android:layout_height="@dimen/px24"
         android:layout_gravity="center"
-        android:layout_marginTop="@dimen/y0"
+        android:layout_marginTop="@dimen/px60"
         android:scaleType="centerCrop"
-        android:src="@drawable/a08"
+        android:src="@drawable/editorx_effect_text_anim_loading_icon"
         android:visibility="gone" />
     <LinearLayout
-        android:id="@id/ach"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/x9"
+        android:id="@id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px42"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:visibility="gone">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:layout_marginStart="@dimen/tz">
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/px16">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bc7"
+                android:id="@id/tvStore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginStart="@dimen/xz"
-                android:layout_marginEnd="@dimen/xz"
-                android:background="@drawable/apw"
-                android:drawableStart="@drawable/a14"
-                android:drawablePadding="@dimen/yf"
-                android:paddingStart="@dimen/td"
-                android:paddingTop="@dimen/x5"
-                android:paddingEnd="@dimen/td"
-                android:paddingBottom="@dimen/x5"
-                android:text="@string/kc"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/yz"
-                app:layout_constraintBottom_toBottomOf="apv"
-                app:layout_constraintEnd_toEndOf="apv"
-                app:layout_constraintStart_toStartOf="apv"
-                app:layout_constraintTop_toTopOf="apv" />
+                android:layout_marginStart="@dimen/px6"
+                android:layout_marginEnd="@dimen/px6"
+                android:background="@drawable/slt_item_tag"
+                android:drawableStart="@drawable/editorx_ic_vector_theme"
+                android:drawablePadding="@dimen/px8"
+                android:paddingStart="@dimen/px12"
+                android:paddingTop="@dimen/px4"
+                android:paddingEnd="@dimen/px12"
+                android:paddingBottom="@dimen/px4"
+                android:text="@string/store"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                app:layout_constraintBottom_toBottomOf="parrent"
+                app:layout_constraintEnd_toEndOf="parrent"
+                app:layout_constraintStart_toStartOf="parrent"
+                app:layout_constraintTop_toTopOf="parrent" />
             <ImageView
-                android:id="@id/abc"
+                android:id="@id/iv_store"
                 android:layout_width="0.0dip"
                 android:layout_height="0.0dip"
-                android:background="@drawable/jn"
-                app:layout_constraintBottom_toBottomOf="@id/bc7"
-                app:layout_constraintEnd_toEndOf="@id/bc7"
-                app:layout_constraintStart_toStartOf="@id/bc7"
-                app:layout_constraintTop_toTopOf="@id/bc7" />
+                android:background="@drawable/btn_record_view"
+                app:layout_constraintBottom_toBottomOf="@id/tvStore"
+                app:layout_constraintEnd_toEndOf="@id/tvStore"
+                app:layout_constraintStart_toStartOf="@id/tvStore"
+                app:layout_constraintTop_toTopOf="@id/tvStore" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <com.videoai.aivpcore.editorx.widget.viewpager.RecyclerIndicatorView
-            android:id="@id/ay4"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:id="@id/rlv_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </LinearLayout>
     <com.videoai.aivpcore.common.ui.RtlViewPager
-        android:id="@id/bnc"
-        android:layout_width="fill_parent"
+        android:id="@id/view_pager"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_weight="1.0"
         android:visibility="gone" />

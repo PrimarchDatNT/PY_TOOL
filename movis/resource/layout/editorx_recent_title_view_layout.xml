@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
+    android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="horizontal">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/lg"
+        android:id="@id/btn_recent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/apw"
+        android:background="@drawable/slt_item_tag"
         android:gravity="center"
-        android:paddingStart="@dimen/td"
-        android:paddingTop="@dimen/x5"
-        android:paddingEnd="@dimen/td"
-        android:paddingBottom="@dimen/x5"
-        android:text="@string/aif"
-        android:textColor="@color/xj"
-        android:textSize="@dimen/yz" />
+        android:paddingStart="@dimen/px12"
+        android:paddingTop="@dimen/px4"
+        android:paddingEnd="@dimen/px12"
+        android:paddingBottom="@dimen/px4"
+        android:text="@string/xiaoying_str_template_recent_title"
+        android:textColor="@color/text_selector_tab"
+        android:textSize="@dimen/sp12" />
 </LinearLayout>

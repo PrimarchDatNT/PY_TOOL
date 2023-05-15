@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#99ff5e12"
     android:gravity="center_vertical"
@@ -10,6 +10,6 @@
     android:paddingEnd="11.0dip"
     android:paddingRight="11.0dip"
     android:paddingBottom="5.0dip"
-    android:text="@string/ari"
+    android:text="@string/xiaoying_str_vip_editor_tip"
     android:textColor="#ffffffff"
     android:textSize="14.0sp" />

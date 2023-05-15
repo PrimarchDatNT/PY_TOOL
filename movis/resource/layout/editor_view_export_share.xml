@@ -1,81 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <LinearLayout
-        android:id="@id/ag2"
+        android:id="@id/layout_share_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@id/acy"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv"
+        app:layout_constraintBottom_toTopOf="@id/layoutShareList"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent"
         app:layout_constraintVertical_chainStyle="apo">
         <TextView
-            android:id="@id/bc4"
+            android:id="@id/tvShareTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15.0dip"
-            android:text="@string/ah7"
-            android:textColor="@color/eq"
+            android:text="@string/xiaoying_str_studio_sns_share_to"
+            android:textColor="@color/color_333333"
             android:textSize="16.0sp"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/b8w"
+            android:id="@id/text_share_win_vip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/kz"
+            android:background="@drawable/editor_bg_share_win_vip"
             android:gravity="center_vertical"
-            android:text="@string/aek"
+            android:text="@string/xiaoying_str_share_video_for_vip_title"
             android:textColor="#ff5a4426"
             android:textSize="12.0sp"
             android:visibility="gone" />
     </LinearLayout>
     <com.videoai.aivpcore.sns.ui.SnsShareListView
-        android:id="@id/acy"
+        android:id="@id/layoutShareList"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:clipChildren="false"
         android:clipToPadding="false"
         android:paddingTop="20.0dip"
-        app:layout_constraintBottom_toTopOf="@id/bmc"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/ag2" />
+        app:layout_constraintBottom_toTopOf="@id/viewBottom"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/layout_share_title" />
     <include
-        android:id="@id/acp"
-        layout="@layout/j1"
+        android:id="@id/layoutOnekeyShare"
+        layout="@layout/editor_view_export_onekey_share"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:layout_marginLeft="15.0dip"
         android:layout_marginRight="15.0dip"
         android:visibility="gone"
-        app:layout_constraintBottom_toTopOf="@id/bmc"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintBottom_toTopOf="@id/viewBottom"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <View
-        android:id="@id/bmc"
+        android:id="@id/viewBottom"
         android:layout_width="0.0dip"
         android:layout_height="44.0dip"
-        android:background="@color/jf"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv" />
+        android:background="@color/color_f2f2f2"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent" />
     <TextView
-        android:id="@id/bb4"
+        android:id="@id/tvBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawablePadding="3.0dip"
         android:gravity="center"
-        android:text="@string/a_a"
-        android:textColor="@color/eq"
+        android:text="@string/xiaoying_str_new_publish_back_home"
+        android:textColor="@color/color_333333"
         android:textSize="14.0sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/bmc"
-        app:layout_constraintEnd_toEndOf="@id/bmc"
-        app:layout_constraintStart_toStartOf="@id/bmc"
-        app:layout_constraintTop_toTopOf="@id/bmc" />
+        app:layout_constraintBottom_toBottomOf="@id/viewBottom"
+        app:layout_constraintEnd_toEndOf="@id/viewBottom"
+        app:layout_constraintStart_toStartOf="@id/viewBottom"
+        app:layout_constraintTop_toTopOf="@id/viewBottom" />
 </androidx.constraintlayout.widget.ConstraintLayout>

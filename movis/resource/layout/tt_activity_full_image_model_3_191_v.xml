@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@id/tt_full_root"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical">
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_weight="1.0">
         <com.bytedance.sdk.openadsdk.component.reward.view.RatioImageView
             android:id="@id/tt_ratio_image_view"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scaleType="fitXY" />
         <TextView
@@ -24,7 +24,7 @@
             android:paddingLeft="2.0dip" />
     </RelativeLayout>
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_weight="2.0"
         android:gravity="center"
@@ -46,7 +46,7 @@
             android:textSize="20.0sp" />
         <TextView
             android:id="@id/tt_full_desc"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40.0dip"
             android:layout_marginTop="20.0dip"
@@ -72,7 +72,7 @@
             android:layout_marginTop="12.0dip" />
         <TextView
             android:id="@id/tt_full_ad_download"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="40.0dip"
             android:layout_marginLeft="40.0dip"
             android:layout_marginTop="30.0dip"

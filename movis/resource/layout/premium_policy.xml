@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:tag="layout/premium_policy_0">
     <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/tz"
-        android:text="@string/dp"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/yy" />
+        android:layout_margin="@dimen/px16"
+        android:text="@string/cta_more_info_message"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp10" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bb2"
+        android:id="@id/tvAppPolicy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="@dimen/td"
-        android:background="@drawable/jf"
+        android:layout_marginBottom="@dimen/px12"
+        android:background="@drawable/btn_dcolor_ripple"
         android:gravity="center"
-        android:padding="@dimen/yf"
-        android:text="@string/ft"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/yy" />
+        android:padding="@dimen/px8"
+        android:text="@string/iap_policy"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp10" />
 </LinearLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,21 +15,21 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="85.0dip"
-            android:background="@drawable/av4">
+            android:background="@drawable/v4_xiaoying_new_feature_top_bg_shape">
             <TextView
-                android:id="@id/aod"
-                android:layout_width="fill_parent"
+                android:id="@id/new_feature_version"
+                android:layout_width="match_parent"
                 android:layout_height="106.0dip"
                 android:gravity="bottom|center"
                 android:lines="1"
                 android:paddingBottom="22.0dip"
                 android:singleLine="true"
-                android:textColor="@color/gf"
+                android:textColor="@color/color_919191"
                 android:textSize="22.0dip" />
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/aod"
+                android:layout_below="@id/new_feature_version"
                 android:orientation="vertical"
                 android:paddingStart="20.0dip"
                 android:paddingLeft="20.0dip"
@@ -37,32 +37,32 @@
                 android:paddingEnd="20.0dip"
                 android:paddingRight="20.0dip">
                 <TextView
-                    android:id="@id/aoc"
-                    android:layout_width="fill_parent"
+                    android:id="@id/new_feature_text"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:lineSpacingExtra="8.0dip"
-                    android:textColor="@color/gf"
+                    android:textColor="@color/color_919191"
                     android:textSize="13.0dip" />
                 <TextView
-                    android:id="@id/ki"
+                    android:id="@id/btn_confirm"
                     android:layout_width="wrap_content"
                     android:layout_height="35.0dip"
                     android:layout_gravity="end"
                     android:layout_marginBottom="10.0dip"
-                    android:background="@drawable/av3"
+                    android:background="@drawable/v4_xiaoying_new_feature_dialog_btn_selector"
                     android:gravity="center"
                     android:paddingStart="5.0dip"
                     android:paddingLeft="5.0dip"
                     android:paddingEnd="5.0dip"
                     android:paddingRight="5.0dip"
-                    android:textColor="@color/bn" />
+                    android:textColor="@color/black" />
             </LinearLayout>
         </RelativeLayout>
         <ImageView
-            android:id="@id/a6c"
+            android:id="@id/imgview_icon"
             android:layout_width="115.0dip"
             android:layout_height="139.0dip"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/b4l" />
+            android:background="@drawable/xiaoying_img_count_tip_icon" />
     </RelativeLayout>
 </RelativeLayout>

@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginBottom="@dimen/gv"
-        android:background="@color/dr">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/editor_ops_board_normal_height"
+        android:background="@color/color_101010">
         <RelativeLayout
-            android:id="@id/as2"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/preview_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
-            android:background="@color/xz">
+            android:background="@color/transparent">
             <SurfaceView
-                android:id="@id/b5o"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent" />
+                android:id="@id/surface_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
         </RelativeLayout>
     </RelativeLayout>
     <com.videoai.aivpcore.editor.widget.title.EditorTitle
-        android:id="@id/b30"
-        android:layout_width="fill_parent"
+        android:id="@id/slide_title_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/gv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
         android:background="@android:color/black">
         <com.videoai.aivpcore.editor.effects.ColorfulSeekLayout
-            android:id="@id/b1t"
-            android:layout_width="fill_parent"
+            android:id="@id/silde_timeline_layout"
+            android:layout_width="match_parent"
             android:layout_height="120.0dip"
             android:layout_centerVertical="true"
             app:playable="true"

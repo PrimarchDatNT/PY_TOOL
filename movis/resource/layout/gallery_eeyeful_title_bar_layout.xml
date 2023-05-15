@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/b09"
-        android:layout_width="fill_parent"
+        android:id="@id/search_layout"
+        android:layout_width="match_parent"
         android:layout_height="32.0dip"
         android:layout_marginLeft="16.0dip"
         android:layout_marginRight="16.0dip"
-        android:background="@drawable/ah8"
+        android:background="@drawable/gallery_shape_giphy_search"
         android:orientation="horizontal"
         android:paddingLeft="13.0dip"
         android:paddingRight="13.0dip">
         <ImageView
-            android:id="@id/ab2"
+            android:id="@id/iv_search"
             android:layout_width="12.0dip"
             android:layout_height="12.0dip"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/aff" />
+            android:src="@drawable/gallery_icon_search" />
         <TextView
-            android:id="@id/bh1"
-            style="@style/x2"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/tv_search"
+            style="@style/veds_latn_font_body_12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginStart="10.0dip"
             android:background="@null"
             android:gravity="start|center"
             android:includeFontPadding="false"
-            android:text="@string/axu"
-            android:textColor="@color/zl"
+            android:text="@string/xy_module_giphy_search_search"
+            android:textColor="@color/veds_color_fill_white_4"
             android:textSize="12.0sp" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/ahj"
+        android:id="@id/llTitles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

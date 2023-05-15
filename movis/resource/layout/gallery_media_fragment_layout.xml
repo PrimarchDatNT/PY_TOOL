@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <com.videoedit.gallery.widget.fastscrollview.views.FastScrollRecyclerView
-        android:id="@id/aul"
-        android:layout_width="fill_parent"
+        android:id="@id/recycler_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/uk"
-        android:layout_marginEnd="@dimen/uk"
+        android:layout_marginStart="@dimen/px2"
+        android:layout_marginEnd="@dimen/px2"
         android:overScrollMode="never" />
     <LinearLayout
-        android:id="@id/w4"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/empty_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/a_l"
+            android:id="@id/iv_empty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/xn" />
+            android:src="@drawable/editor_studio_draft_empty_bg" />
         <TextView
-            android:id="@id/bei"
+            android:id="@id/tv_empty_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/yf"
-            android:layout_marginBottom="@dimen/te"
+            android:layout_marginTop="@dimen/px8"
+            android:layout_marginBottom="@dimen/px120"
             android:gravity="center"
-            android:text="@string/axk"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z0" />
+            android:text="@string/xy_module_gallery_empty_text_first"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
     </LinearLayout>
 </RelativeLayout>

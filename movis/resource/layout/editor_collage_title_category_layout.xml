@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="@dimen/a4r"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/video_editor_terminator_height"
     android:orientation="horizontal">
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:padding="10.0dip"
-        android:text="@string/a4h"
-        android:textColor="@color/g9" />
+        android:text="@string/xiaoying_str_editor_sticker_added_tit"
+        android:textColor="@color/color_8E8E93" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/bli"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:id="@id/video_editor_collage_category_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>

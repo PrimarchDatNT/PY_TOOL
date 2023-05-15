@@ -1,105 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layoutDirection="ltr">
     <RelativeLayout
-        android:id="@id/afh"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/dr"
+        android:id="@id/layout_preview_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_101010"
         android:visibility="visible">
         <SurfaceView
-            android:id="@id/as5"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/previewview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:clickable="false" />
         <com.github.chrisbanes.photoview.PhotoView
-            android:id="@id/aq7"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/photo_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:clickable="false"
             android:visibility="invisible" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/as3"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_alignStart="@id/afh"
-        android:layout_alignLeft="@id/afh"
-        android:layout_alignTop="@id/afh"
-        android:layout_alignEnd="@id/afh"
-        android:layout_alignRight="@id/afh"
-        android:layout_alignBottom="@id/afh"
-        android:background="@color/xz" />
+        android:id="@id/preview_layout_fake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@id/layout_preview_bg"
+        android:layout_alignLeft="@id/layout_preview_bg"
+        android:layout_alignTop="@id/layout_preview_bg"
+        android:layout_alignEnd="@id/layout_preview_bg"
+        android:layout_alignRight="@id/layout_preview_bg"
+        android:layout_alignBottom="@id/layout_preview_bg"
+        android:background="@color/transparent" />
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@id/aij"
+        android:id="@id/ll_trim_video_tools_layout"
         android:layout_width="47.0dip"
         android:layout_height="wrap_content"
         android:layout_alignWithParentIfMissing="true"
-        android:layout_above="@id/q2"
-        android:layout_alignEnd="@id/afh"
-        android:layout_alignRight="@id/afh"
+        android:layout_above="@id/clip_trim_container"
+        android:layout_alignEnd="@id/layout_preview_bg"
+        android:layout_alignRight="@id/layout_preview_bg"
         android:orientation="vertical"
         android:visibility="invisible">
         <ImageButton
-            android:id="@id/a67"
+            android:id="@id/imgbtn_rotate_video_clip"
             android:layout_width="32.0dip"
             android:layout_height="32.0dip"
-            android:background="@drawable/v6"
+            android:background="@drawable/editor_shape_circle_000000_50"
             android:onClick="onClick"
-            android:src="@drawable/qe" />
+            android:src="@drawable/editor_icon_gallery_rotate" />
         <androidx.legacy.widget.Space
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.0dip" />
         <RelativeLayout
-            android:id="@id/axq"
+            android:id="@id/rl_trim"
             android:layout_width="47.0dip"
             android:layout_height="42.0dip">
             <ImageButton
-                android:id="@id/a68"
+                android:id="@id/imgbtn_trim_clip"
                 android:layout_width="32.0dip"
                 android:layout_height="32.0dip"
                 android:layout_alignParentBottom="true"
-                android:background="@drawable/v6"
+                android:background="@drawable/editor_shape_circle_000000_50"
                 android:onClick="onClick"
-                android:src="@drawable/qd" />
+                android:src="@drawable/editor_icon_gallery_cut" />
             <TextView
-                android:id="@id/bim"
+                android:id="@id/tv_video_trim_count"
                 android:layout_width="18.0dip"
                 android:layout_height="18.0dip"
-                android:layout_alignTop="@id/a68"
-                android:layout_alignEnd="@id/a68"
-                android:layout_alignRight="@id/a68"
+                android:layout_alignTop="@id/imgbtn_trim_clip"
+                android:layout_alignEnd="@id/imgbtn_trim_clip"
+                android:layout_alignRight="@id/imgbtn_trim_clip"
                 android:layout_marginTop="-9.0dip"
                 android:layout_marginEnd="-9.0dip"
                 android:layout_marginRight="-9.0dip"
-                android:background="@drawable/v7"
+                android:background="@drawable/editor_shape_circle_ff5e13"
                 android:gravity="center"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="12.0sp"
                 android:visibility="invisible" />
         </RelativeLayout>
     </androidx.appcompat.widget.LinearLayoutCompat>
     <ImageButton
-        android:id="@id/a66"
+        android:id="@id/imgbtn_rotate_img_clip"
         android:layout_width="32.0dip"
         android:layout_height="32.0dip"
-        android:layout_alignEnd="@id/afh"
-        android:layout_alignRight="@id/afh"
-        android:layout_alignBottom="@id/afh"
+        android:layout_alignEnd="@id/layout_preview_bg"
+        android:layout_alignRight="@id/layout_preview_bg"
+        android:layout_alignBottom="@id/layout_preview_bg"
         android:layout_marginEnd="15.0dip"
         android:layout_marginRight="15.0dip"
         android:layout_marginBottom="15.0dip"
-        android:background="@drawable/v6"
+        android:background="@drawable/editor_shape_circle_000000_50"
         android:onClick="onClick"
-        android:src="@drawable/qe"
+        android:src="@drawable/editor_icon_gallery_rotate"
         android:visibility="gone" />
     <LinearLayout
-        android:id="@id/q2"
+        android:id="@id/clip_trim_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/afh"
+        android:layout_alignBottom="@id/layout_preview_bg"
         android:layout_marginBottom="-30.0dip"
         android:layoutDirection="ltr"
         android:orientation="horizontal">
@@ -107,40 +107,40 @@
             android:layout_width="36.0dip"
             android:layout_height="wrap_content" />
         <include
-            android:id="@id/agl"
-            layout="@layout/f6" />
+            android:id="@id/layout_trim_relate"
+            layout="@layout/editor_clip_trim_layout" />
     </LinearLayout>
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_alignTop="@id/q2"
-        android:layout_alignBottom="@id/q2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@id/clip_trim_container"
+        android:layout_alignBottom="@id/clip_trim_container"
         android:layout_marginTop="0.0dip"
         android:layoutDirection="ltr">
         <ImageButton
-            android:id="@id/a62"
+            android:id="@id/imgbtn_play"
             android:layout_width="36.0dip"
             android:layout_height="36.0dip"
             android:layout_centerVertical="true"
-            android:background="@color/xz"
+            android:background="@color/transparent"
             android:contentDescription="@null"
             android:onClick="onClick"
             android:padding="11.0dip"
-            android:src="@drawable/uz" />
+            android:src="@drawable/editor_selector_video_play_icon" />
     </RelativeLayout>
     <include
-        layout="@layout/gu"
-        android:layout_width="@dimen/a4y"
-        android:layout_height="@dimen/a4x"
-        android:layout_alignTop="@id/afg"
+        layout="@layout/editor_fine_tunning_time_layout"
+        android:layout_width="@dimen/xiaoying_fine_tunning_time_layout_width"
+        android:layout_height="@dimen/xiaoying_fine_tunning_time_layout_height"
+        android:layout_alignTop="@id/layout_preview_background"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50.0dip"
         android:visibility="gone" />
     <ImageView
-        android:id="@id/a52"
+        android:id="@id/img_avatar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/xz"
+        android:background="@color/transparent"
         android:scaleType="fitXY"
         android:visibility="invisible" />
 </RelativeLayout>

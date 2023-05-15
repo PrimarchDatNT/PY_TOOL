@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center_horizontal"
     android:orientation="vertical"
@@ -10,24 +10,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32.0dip"
-        android:text="@string/abi"
-        android:textColor="@color/eq"
+        android:text="@string/xiaoying_str_prj_delete_title"
+        android:textColor="@color/color_333333"
         android:textSize="18.0sp"
         android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16.0dip"
-        android:text="@string/abh"
-        android:textColor="@color/fp"
+        android:text="@string/xiaoying_str_prj_delete_desc"
+        android:textColor="@color/color_666666"
         android:textSize="16.0sp" />
     <TextView
-        android:id="@id/bbq"
+        android:id="@id/tvKnow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="47.0dip"
         android:layout_marginBottom="15.0dip"
-        android:text="@string/u6"
-        android:textColor="@color/n_"
+        android:text="@string/xiaoying_str_com_got_it"
+        android:textColor="@color/default_app_color"
         android:textSize="18.0sp" />
 </LinearLayout>

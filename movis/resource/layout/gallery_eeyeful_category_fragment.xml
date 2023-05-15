@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/bn7"
-        android:layout_width="fill_parent"
+        android:id="@id/view_header_info"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingLeft="16.0dip"
@@ -13,78 +13,78 @@
         android:paddingRight="16.0dip"
         android:paddingBottom="8.0dip">
         <RelativeLayout
-            android:id="@id/bnd"
-            android:layout_width="fill_parent"
+            android:id="@id/view_photo_purpose_info"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/ael"
+            android:background="@drawable/gallery_eeyeful_item_bg1"
             android:orientation="horizontal"
             android:paddingLeft="12.0dip"
             android:paddingTop="8.0dip"
             android:paddingRight="12.0dip"
             android:paddingBottom="8.0dip">
             <androidx.appcompat.widget.AppCompatTextView
-                style="@style/x2"
+                style="@style/veds_latn_font_body_12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:text="@string/ato"
-                android:textColor="@color/zk" />
+                android:text="@string/xy_eeyeful_commercial_purposes"
+                android:textColor="@color/veds_color_fill_white_3" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="16.0dip"
                 android:layout_height="16.0dip"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/aev" />
+                android:src="@drawable/gallery_eeyeful_warning1" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/bna"
-            android:layout_width="fill_parent"
+            android:id="@id/view_login_info"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/ael"
+            android:background="@drawable/gallery_eeyeful_item_bg1"
             android:orientation="horizontal"
             android:paddingLeft="12.0dip"
             android:paddingTop="8.0dip"
             android:paddingRight="12.0dip"
             android:paddingBottom="8.0dip">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bcv"
-                style="@style/x2"
+                android:id="@id/tv_account"
+                style="@style/veds_latn_font_body_12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:textColor="@color/zk" />
+                android:textColor="@color/veds_color_fill_white_3" />
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="16.0dip"
                 android:layout_height="16.0dip"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/aeo" />
+                android:src="@drawable/gallery_eeyeful_more1" />
         </RelativeLayout>
     </LinearLayout>
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/bn7">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view_header_info">
         <RelativeLayout
-            android:id="@id/bmx"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:id="@id/view_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
             <RelativeLayout
-                android:id="@id/bmy"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
+                android:id="@id/view_content_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@id/aup"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:id="@id/recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_marginLeft="12.0dip"
                     android:layout_marginRight="12.0dip" />
                 <LinearLayout
-                    android:id="@id/bn3"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:id="@id/view_empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_marginLeft="16.0dip"
                     android:layout_marginTop="54.0dip"
                     android:layout_marginRight="16.0dip"
@@ -94,37 +94,37 @@
                     android:paddingRight="16.0dip"
                     android:visibility="gone">
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:id="@id/a_l"
+                        android:id="@id/iv_empty"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10.0dip"
-                        android:src="@drawable/xn" />
+                        android:src="@drawable/editor_studio_draft_empty_bg" />
                     <androidx.appcompat.widget.AppCompatTextView
-                        android:id="@id/bei"
+                        android:id="@id/tv_empty_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10.0dip"
                         android:gravity="center"
-                        android:text="@string/axk"
-                        android:textColor="@color/zj"
+                        android:text="@string/xy_module_gallery_empty_text_first"
+                        android:textColor="@color/veds_color_fill_white_2"
                         android:textSize="18.0sp" />
                     <androidx.appcompat.widget.AppCompatTextView
-                        android:id="@id/beg"
-                        style="@style/x3"
+                        android:id="@id/tv_empty_search_tip"
+                        style="@style/veds_latn_font_body_14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="7.0dip"
                         android:clickable="true"
                         android:focusable="true"
                         android:gravity="center"
-                        android:text="@string/avg"
-                        android:textColor="@color/zj"
+                        android:text="@string/xy_eeyeful_search_empty_tip"
+                        android:textColor="@color/veds_color_fill_white_2"
                         android:textSize="14.0sp" />
                 </LinearLayout>
             </RelativeLayout>
             <LinearLayout
-                android:id="@id/ai6"
-                android:layout_width="fill_parent"
+                android:id="@id/ll_login"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16.0dip"
                 android:layout_marginRight="16.0dip"
@@ -134,59 +134,59 @@
                 android:paddingRight="16.0dip"
                 android:visibility="gone">
                 <androidx.appcompat.widget.AppCompatTextView
-                    style="@style/x_"
+                    style="@style/veds_latn_font_headline_20"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/atr"
-                    android:textColor="@color/zi" />
+                    android:text="@string/xy_eeyeful_connect_your_eeyeful"
+                    android:textColor="@color/veds_color_fill_white_1" />
                 <androidx.appcompat.widget.AppCompatTextView
-                    style="@style/x3"
+                    style="@style/veds_latn_font_body_14"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12.0dip"
                     android:gravity="center"
-                    android:text="@string/ava"
-                    android:textColor="@color/zj" />
+                    android:text="@string/xy_eeyeful_purchased_login_tip"
+                    android:textColor="@color/veds_color_fill_white_2" />
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/bfs"
-                    style="@style/x6"
-                    android:layout_width="fill_parent"
+                    android:id="@id/tv_login"
+                    style="@style/veds_latn_font_button_16"
+                    android:layout_width="match_parent"
                     android:layout_height="40.0dip"
                     android:layout_marginLeft="24.0dip"
                     android:layout_marginTop="24.0dip"
                     android:layout_marginRight="24.0dip"
-                    android:background="@drawable/aep"
+                    android:background="@drawable/gallery_eeyeful_purchased_login_bg"
                     android:gravity="center"
-                    android:text="@string/auc"
-                    android:textColor="@color/ze" />
+                    android:text="@string/xy_eeyeful_login_login"
+                    android:textColor="@color/veds_color_fill_black_6" />
             </LinearLayout>
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/bn4"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/view_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:orientation="vertical"
             android:visibility="gone">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/a_m"
+                android:id="@id/iv_error"
                 android:layout_width="48.0dip"
                 android:layout_height="48.0dip"
                 android:layout_marginTop="50.0dip"
-                android:src="@drawable/af9" />
+                android:src="@drawable/gallery_icon_empty" />
             <TextView
-                android:id="@id/bem"
+                android:id="@id/tv_error_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7.0dip"
                 android:gravity="center"
-                android:text="@string/axl"
-                android:textColor="@color/zi"
+                android:text="@string/xy_module_gallery_failed_title"
+                android:textColor="@color/veds_color_fill_white_1"
                 android:textSize="20.0sp" />
             <TextView
-                android:id="@id/bek"
-                style="@style/x3"
+                android:id="@id/tv_error_desc"
+                style="@style/veds_latn_font_body_14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16.0dip"
@@ -194,43 +194,43 @@
                 android:layout_marginEnd="16.0dip"
                 android:gravity="center"
                 android:includeFontPadding="false"
-                android:text="@string/axr"
-                android:textColor="@color/zj" />
+                android:text="@string/xy_module_gallery_template_emty_second_txt"
+                android:textColor="@color/veds_color_fill_white_2" />
             <TextView
-                android:id="@id/bel"
-                style="@style/x6"
-                android:layout_width="fill_parent"
+                android:id="@id/tv_error_retry"
+                style="@style/veds_latn_font_button_16"
+                android:layout_width="match_parent"
                 android:layout_height="40.0dip"
                 android:layout_marginStart="56.0dip"
                 android:layout_marginTop="24.0dip"
                 android:layout_marginEnd="56.0dip"
-                android:background="@drawable/aho"
+                android:background="@drawable/gallery_template_retry_btn_bg"
                 android:gravity="center"
-                android:text="@string/axp"
-                android:textColor="@color/ze" />
+                android:text="@string/xy_module_gallery_loading_retry_txt"
+                android:textColor="@color/veds_color_fill_black_6" />
         </LinearLayout>
         <LinearLayout
-            android:id="@id/bn_"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/view_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:orientation="vertical"
             android:visibility="gone">
             <ProgressBar
-                android:id="@id/as8"
+                android:id="@id/progressBar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60.0dip"
-                android:indeterminateDrawable="@drawable/aec"
+                android:indeterminateDrawable="@drawable/gallery_com_progressbar_loading_img"
                 android:indeterminateDuration="1000" />
             <TextView
-                android:id="@id/bfr"
-                style="@style/x_"
+                android:id="@id/tv_loading"
+                style="@style/veds_latn_font_headline_20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16.0dip"
-                android:text="@string/axq"
-                android:textColor="@color/zi" />
+                android:text="@string/xy_module_gallery_loading_txt"
+                android:textColor="@color/veds_color_fill_white_1" />
         </LinearLayout>
     </RelativeLayout>
 </RelativeLayout>

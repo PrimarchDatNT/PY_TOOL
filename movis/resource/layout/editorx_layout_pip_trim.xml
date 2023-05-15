@@ -1,186 +1,186 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <ImageView
-        android:id="@id/a8o"
+        android:id="@id/ivBack"
         android:layout_width="52.0dip"
         android:layout_height="52.0dip"
         android:padding="14.0dip"
-        android:src="@drawable/a50" />
+        android:src="@drawable/editorx_kit_icon_back" />
     <LinearLayout
-        android:id="@id/ad_"
+        android:id="@id/layoutVer"
         android:layout_width="64.0dip"
         android:layout_height="wrap_content"
-        android:layout_above="@id/acg"
+        android:layout_above="@id/layoutBoard"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="16.0dip"
         android:orientation="vertical"
         android:visibility="gone">
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/b2f"
+            android:id="@id/sitv_reset"
             android:layout_width="64.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="bottom"
-            app:sitv_bottom_text="@string/a1u"
-            app:sitv_top_drawable="@drawable/a1k" />
+            app:sitv_bottom_text="@string/xiaoying_str_edit_reset_text"
+            app:sitv_top_drawable="@drawable/editorx_ico_pip_reset" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/b29"
+            android:id="@id/sitv_mirror"
             android:layout_width="64.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="bottom"
             android:layout_marginTop="20.0dip"
-            app:sitv_bottom_text="@string/ajq"
-            app:sitv_top_drawable="@drawable/z3" />
+            app:sitv_bottom_text="@string/xiaoying_str_ve_basic_mirror_title"
+            app:sitv_top_drawable="@drawable/editorx_btn_clip_mirror" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/b2i"
+            android:id="@id/sitv_rotate"
             android:layout_width="64.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="bottom"
             android:layout_marginTop="20.0dip"
-            app:sitv_bottom_text="@string/ajz"
-            app:sitv_top_drawable="@drawable/a1l" />
+            app:sitv_bottom_text="@string/xiaoying_str_ve_basic_rotate_title"
+            app:sitv_top_drawable="@drawable/editorx_ico_pip_rotate" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/acm"
+        android:id="@id/layoutHor"
         android:layout_width="wrap_content"
         android:layout_height="64.0dip"
-        android:layout_above="@id/acg"
+        android:layout_above="@id/layoutBoard"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="16.0dip"
         android:orientation="horizontal"
         android:visibility="gone">
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/b2g"
+            android:id="@id/sitv_reset_h"
             android:layout_width="64.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="bottom"
-            app:sitv_bottom_text="@string/a1u"
-            app:sitv_top_drawable="@drawable/a1k" />
+            app:sitv_bottom_text="@string/xiaoying_str_edit_reset_text"
+            app:sitv_top_drawable="@drawable/editorx_ico_pip_reset" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/b2a"
+            android:id="@id/sitv_mirror_h"
             android:layout_width="64.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="bottom"
-            app:sitv_bottom_text="@string/ajq"
-            app:sitv_top_drawable="@drawable/z3" />
+            app:sitv_bottom_text="@string/xiaoying_str_ve_basic_mirror_title"
+            app:sitv_top_drawable="@drawable/editorx_btn_clip_mirror" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/b2j"
+            android:id="@id/sitv_rotate_h"
             android:layout_width="64.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="bottom"
             android:layout_marginTop="24.0dip"
-            app:sitv_bottom_text="@string/ajz"
-            app:sitv_top_drawable="@drawable/a1l" />
+            app:sitv_bottom_text="@string/xiaoying_str_ve_basic_rotate_title"
+            app:sitv_top_drawable="@drawable/editorx_ico_pip_rotate" />
     </LinearLayout>
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/acg"
-        android:layout_width="fill_parent"
+        android:id="@id/layoutBoard"
+        android:layout_width="match_parent"
         android:layout_height="286.0dip"
         android:layout_alignParentBottom="true"
-        android:background="@color/dt"
+        android:background="@color/color_141414"
         android:clickable="true"
         android:orientation="vertical">
         <View
-            android:id="@id/bkh"
-            android:layout_width="fill_parent"
+            android:id="@id/v_line"
+            android:layout_width="match_parent"
             android:layout_height="0.5dip"
             android:layout_marginTop="48.0dip"
-            android:background="@color/aj"
-            app:layout_constraintTop_toTopOf="apv" />
+            android:background="@color/app_dcolor_indicator"
+            app:layout_constraintTop_toTopOf="parrent" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/als"
-            android:textColor="@color/g4"
+            android:text="@string/xiaoying_str_ve_gallery_preview_trim"
+            android:textColor="@color/color_808080"
             android:textSize="16.0sp"
-            app:layout_constraintBottom_toTopOf="@id/bkh"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintBottom_toTopOf="@id/v_line"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@id/p9"
-            android:layout_width="fill_parent"
+            android:id="@id/cl_bar_pip_trim"
+            android:layout_width="match_parent"
             android:layout_height="44.0dip"
             android:background="#ff0a0a0a"
-            app:layout_constraintBottom_toBottomOf="apv">
+            app:layout_constraintBottom_toBottomOf="parrent">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="15.0dip"
-                android:text="@string/ab8"
-                android:textColor="@color/g4"
+                android:text="@string/xiaoying_str_pip_trim_video_tips"
+                android:textColor="@color/color_808080"
                 android:textSize="16.0sp"
-                app:layout_constraintBottom_toBottomOf="apv"
-                app:layout_constraintStart_toStartOf="apv"
-                app:layout_constraintTop_toTopOf="apv" />
+                app:layout_constraintBottom_toBottomOf="parrent"
+                app:layout_constraintStart_toStartOf="parrent"
+                app:layout_constraintTop_toTopOf="parrent" />
             <ImageView
-                android:id="@id/a9x"
+                android:id="@id/iv_bar_done"
                 android:layout_width="48.0dip"
                 android:layout_height="28.0dip"
                 android:layout_marginEnd="15.0dip"
-                android:background="@drawable/a6z"
+                android:background="@drawable/editorx_shape_effect_bg_choose_finish"
                 android:scaleType="centerInside"
-                android:src="@drawable/a2m"
-                app:layout_constraintBottom_toBottomOf="apv"
-                app:layout_constraintEnd_toEndOf="apv"
-                app:layout_constraintTop_toTopOf="apv" />
+                android:src="@drawable/editorx_icon_effect_choose_finish"
+                app:layout_constraintBottom_toBottomOf="parrent"
+                app:layout_constraintEnd_toEndOf="parrent"
+                app:layout_constraintTop_toTopOf="parrent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <com.videoai.aivpcore.supertimeline.trim.BaseSuperTimeLineForTrim
-            android:id="@id/b9z"
-            android:layout_width="fill_parent"
+            android:id="@id/timelinefortrim"
+            android:layout_width="match_parent"
             android:layout_height="0.0dip"
-            app:layout_constraintBottom_toTopOf="@id/p9"
-            app:layout_constraintTop_toBottomOf="@id/bkh" />
+            app:layout_constraintBottom_toTopOf="@id/cl_bar_pip_trim"
+            app:layout_constraintTop_toBottomOf="@id/v_line" />
         <com.videoai.aivpcore.editorx.board.advancepip.PipTrimCoverView
-            android:id="@id/aqp"
-            android:layout_width="fill_parent"
+            android:id="@id/piptrimcover"
+            android:layout_width="match_parent"
             android:layout_height="70.0dip"
             android:layout_marginTop="57.0dip"
-            app:layout_constraintTop_toBottomOf="@id/bkh" />
+            app:layout_constraintTop_toBottomOf="@id/v_line" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bfq"
+            android:id="@id/tv_length"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="37.0dip"
             android:layout_marginBottom="6.0dip"
-            android:background="@drawable/a5c"
-            android:fontFamily="@font/d"
+            android:background="@drawable/editorx_pip_shape_text_bg"
+            android:fontFamily="@font/oswald_n"
             android:padding="3.0dip"
             android:textColor="#ffffffff"
             android:textSize="10.0sp"
-            app:layout_constraintBottom_toBottomOf="@id/aqp"
-            app:layout_constraintStart_toStartOf="apv" />
+            app:layout_constraintBottom_toBottomOf="@id/piptrimcover"
+            app:layout_constraintStart_toStartOf="parrent" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/a_u"
+            android:id="@id/iv_flag"
             android:layout_width="16.0dip"
             android:layout_height="16.0dip"
             android:layout_marginStart="27.0dip"
             android:layout_marginBottom="6.0dip"
-            android:src="@drawable/a5a"
-            app:layout_constraintBottom_toTopOf="@id/aqp"
-            app:layout_constraintStart_toStartOf="apv" />
+            android:src="@drawable/editorx_pip_icon_flag"
+            app:layout_constraintBottom_toTopOf="@id/piptrimcover"
+            app:layout_constraintStart_toStartOf="parrent" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bdw"
+            android:id="@id/tv_curtime"
             android:layout_width="100.0dip"
             android:layout_height="wrap_content"
             android:layout_marginStart="2.0dip"
-            android:fontFamily="@font/d"
+            android:fontFamily="@font/oswald_n"
             android:gravity="start|center"
             android:textColor="#ffe6e6e6"
             android:textSize="12.0sp"
-            app:layout_constraintBottom_toBottomOf="@id/a_u"
-            app:layout_constraintStart_toEndOf="@id/a_u"
-            app:layout_constraintTop_toTopOf="@id/a_u" />
+            app:layout_constraintBottom_toBottomOf="@id/iv_flag"
+            app:layout_constraintStart_toEndOf="@id/iv_flag"
+            app:layout_constraintTop_toTopOf="@id/iv_flag" />
         <com.videoai.aivpcore.editorx.board.advancepip.PipTrimProgressView
-            android:id="@id/aqq"
-            android:layout_width="fill_parent"
+            android:id="@id/piptrimprogress"
+            android:layout_width="match_parent"
             android:layout_height="100.0dip"
-            app:layout_constraintBottom_toBottomOf="@id/aqp"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="@id/aqp" />
+            app:layout_constraintBottom_toBottomOf="@id/piptrimcover"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="@id/piptrimcover" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </RelativeLayout>

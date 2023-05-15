@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/a5y" android:state_selected="false" />
-    <item android:drawable="@drawable/a5z" android:state_selected="true" />
+    <item android:drawable="@drawable/editorx_sel_ratio_video_number_normal" android:state_selected="false" />
+    <item android:drawable="@drawable/editorx_sel_ratio_video_number_selected" android:state_selected="true" />
 </selector>

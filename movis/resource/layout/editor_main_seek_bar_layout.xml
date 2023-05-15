@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layoutDirection="ltr">
     <RelativeLayout
-        android:id="@id/blp"
-        android:layout_width="fill_parent"
+        android:id="@id/video_editor_seek_time_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/xz">
+        android:background="@color/transparent">
         <TextView
-            android:id="@id/bll"
+            android:id="@id/video_editor_seek_current_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:gravity="center"
             android:text="00:03"
-            android:textColor="@color/zo"
+            android:textColor="@color/white"
             android:textSize="12.0sp" />
         <TextView
-            android:id="@id/blm"
+            android:id="@id/video_editor_seek_duration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -28,32 +28,32 @@
             android:layout_marginRight="8.0dip"
             android:gravity="center"
             android:text="00:03"
-            android:textColor="@color/g9"
+            android:textColor="@color/color_8E8E93"
             android:textSize="12.0sp" />
     </RelativeLayout>
     <com.videoai.aivpcore.editor.widget.timeline.VeGallery2
-        android:id="@id/bln"
-        android:layout_width="fill_parent"
+        android:id="@id/video_editor_seek_gallery"
+        android:layout_width="match_parent"
         android:layout_height="68.0dip"
-        android:layout_below="@id/blp"
-        android:background="@color/xz"
+        android:layout_below="@id/video_editor_seek_time_layout"
+        android:background="@color/transparent"
         android:fadingEdge="none"
         android:gravity="center_vertical"
         android:spacing="0.0dip"
         android:unselectedAlpha="1.0" />
     <ImageView
-        android:id="@id/blo"
+        android:id="@id/video_editor_seek_play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/blp"
-        android:layout_alignBottom="@id/bln"
+        android:layout_below="@id/video_editor_seek_time_layout"
+        android:layout_alignBottom="@id/video_editor_seek_gallery"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:layout_marginEnd="8.0dip"
         android:layout_marginRight="8.0dip"
-        android:background="@drawable/me"
+        android:background="@drawable/editor_btn_timeline_bg"
         android:contentDescription="@null"
         android:scaleType="center"
-        android:src="@drawable/axi" />
+        android:src="@drawable/v5_xiaoying_ve_preview_play_btn" />
 </RelativeLayout>

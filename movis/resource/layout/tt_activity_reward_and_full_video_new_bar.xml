@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:pangle="http://schemas.android.com/apk/com.bytedance.sdk.component"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <RelativeLayout
         android:id="@id/tt_video_reward_bar"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="76.0dip"
         android:layout_gravity="bottom"
         android:layout_marginLeft="10.0dip"
@@ -25,7 +25,7 @@
             android:background="@android:color/transparent" />
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_toStartOf="@id/tt_reward_ad_download_layout"
             android:layout_toLeftOf="@id/tt_reward_ad_download_layout"
             android:layout_toEndOf="@id/tt_reward_ad_icon"
@@ -34,7 +34,7 @@
             android:orientation="vertical">
             <TextView
                 android:id="@id/tt_reward_ad_appname"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="22.0dip"
                 android:layout_marginStart="10.0dip"
                 android:layout_marginLeft="10.0dip"
@@ -80,8 +80,8 @@
             android:layout_marginRight="15.0dip">
             <TextView
                 android:id="@id/tt_reward_ad_download"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_marginBottom="3.0dip"
                 android:background="@drawable/tt_reward_video_download_btn_bg"
@@ -95,21 +95,21 @@
     </RelativeLayout>
     <LinearLayout
         android:id="@id/tt_lp_new_style_container"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:visibility="gone" />
     <com.bytedance.sdk.component.widget.SSWebView
         android:id="@id/tt_reward_browser_webview"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layerType="hardware"
         android:visibility="invisible"
         pangle:tt_delay_init="true" />
     <com.bytedance.sdk.component.widget.SSWebView
         android:id="@id/tt_browser_webview_loading"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="gone"
         pangle:tt_delay_init="true" />
     <include layout="@layout/tt_activity_reward_and_full_endcard" />

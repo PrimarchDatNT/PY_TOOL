@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_alignParentBottom="true">
     <RelativeLayout
-        android:id="@id/aw5"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/gv"
+        android:id="@id/rlThemeMusicEditor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
         android:background="#f2101010">
         <RelativeLayout
-            android:id="@id/adc"
-            android:layout_width="fill_parent"
+            android:id="@id/layout_2lev_hide"
+            android:layout_width="match_parent"
             android:layout_height="44.0dip"
             android:layout_alignParentBottom="true"
-            android:background="@color/dt">
+            android:background="@color/color_141414">
             <View
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="1.0px"
                 android:layout_alignParentTop="true"
                 android:background="#ff262626" />
@@ -24,64 +24,64 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:background="@drawable/o0"
+                android:background="@drawable/editor_icon_btn_ok_n"
                 android:clickable="false" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/af7"
-            android:layout_width="fill_parent"
+            android:id="@id/layout_music_select"
+            android:layout_width="match_parent"
             android:layout_height="50.0dip"
-            android:layout_above="@id/adc"
+            android:layout_above="@id/layout_2lev_hide"
             android:gravity="center_vertical">
             <View
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="1.0px"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="15.0dip"
                 android:layout_marginLeft="15.0dip"
                 android:layout_marginEnd="15.0dip"
                 android:layout_marginRight="15.0dip"
-                android:background="@color/fx" />
+                android:background="@color/color_707070_p40" />
             <View
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="1.0px"
                 android:layout_alignParentBottom="true"
                 android:layout_marginStart="10.0dip"
                 android:layout_marginLeft="10.0dip"
                 android:layout_marginEnd="10.0dip"
                 android:layout_marginRight="10.0dip"
-                android:background="@color/fx" />
+                android:background="@color/color_707070_p40" />
             <RelativeLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_alignWithParentIfMissing="true"
-                android:background="@color/xz"
+                android:background="@color/transparent"
                 android:gravity="center">
                 <TextView
-                    android:id="@id/bja"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:id="@id/txtview_bgm_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_centerVertical="true"
-                    android:layout_toStartOf="@id/ahi"
-                    android:layout_toLeftOf="@id/ahi"
-                    android:background="@drawable/ue"
-                    android:drawableStart="@drawable/s5"
-                    android:drawableLeft="@drawable/s5"
-                    android:drawableEnd="@drawable/ayr"
-                    android:drawableRight="@drawable/ayr"
+                    android:layout_toStartOf="@id/llMusicEdit"
+                    android:layout_toLeftOf="@id/llMusicEdit"
+                    android:background="@drawable/editor_selector_preview_music_add_music"
+                    android:drawableStart="@drawable/editor_icon_theme_music_add"
+                    android:drawableLeft="@drawable/editor_icon_theme_music_add"
+                    android:drawableEnd="@drawable/vivavideo_tool_preview_next_n"
+                    android:drawableRight="@drawable/vivavideo_tool_preview_next_n"
                     android:drawablePadding="10.0dip"
                     android:ellipsize="end"
                     android:gravity="start|center"
                     android:paddingStart="15.0dip"
                     android:paddingLeft="15.0dip"
                     android:singleLine="true"
-                    android:text="@string/ano"
-                    android:textColor="@color/zo"
+                    android:text="@string/xiaoying_str_ve_no_bgm_title_tip"
+                    android:textColor="@color/white"
                     android:textSize="13.0sp" />
                 <LinearLayout
-                    android:id="@id/ahi"
+                    android:id="@id/llMusicEdit"
                     android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
                     android:gravity="end|center"
@@ -89,11 +89,11 @@
                     <View
                         android:layout_width="1.0px"
                         android:layout_height="20.0dip"
-                        android:background="@color/fx" />
+                        android:background="@color/color_707070_p40" />
                     <ImageView
-                        android:id="@id/aaz"
+                        android:id="@id/iv_reset_music"
                         android:layout_width="wrap_content"
-                        android:layout_height="fill_parent"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:clickable="true"
                         android:paddingStart="15.0dip"
@@ -101,11 +101,11 @@
                         android:paddingEnd="8.0dip"
                         android:paddingRight="8.0dip"
                         android:scaleType="centerInside"
-                        android:src="@drawable/uv" />
+                        android:src="@drawable/editor_selector_theme_bgm_recover_icon" />
                     <ImageView
-                        android:id="@id/a_9"
+                        android:id="@id/iv_del_music"
                         android:layout_width="wrap_content"
-                        android:layout_height="fill_parent"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:clickable="true"
                         android:paddingStart="8.0dip"
@@ -113,25 +113,25 @@
                         android:paddingEnd="15.0dip"
                         android:paddingRight="15.0dip"
                         android:scaleType="centerInside"
-                        android:src="@drawable/uu" />
+                        android:src="@drawable/editor_selector_theme_bgm_delete_icon" />
                 </LinearLayout>
             </RelativeLayout>
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/av1"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_above="@id/af7"
-            android:background="@color/xz">
+            android:id="@id/relativelayout_music_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/layout_music_select"
+            android:background="@color/transparent">
             <com.videoai.aivpcore.editor.effects.music.EditorVolumeSetView
-                android:id="@id/bo3"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/volume_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_centerVertical="true" />
         </RelativeLayout>
     </RelativeLayout>
     <FrameLayout
-        android:id="@id/amn"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:id="@id/music_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </RelativeLayout>

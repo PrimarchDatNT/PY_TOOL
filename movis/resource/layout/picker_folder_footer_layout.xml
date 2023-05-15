@@ -2,45 +2,45 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/e0">
+    android:background="@color/color_1a1a1a">
     <LinearLayout
-        android:id="@id/aqf"
+        android:id="@id/picker_folder_footer_layout"
         android:layout_width="105.0dip"
         android:layout_height="105.0dip"
-        android:background="@color/e0"
+        android:background="@color/color_1a1a1a"
         android:gravity="center_horizontal"
         android:orientation="vertical">
         <ImageView
             android:layout_width="44.0dip"
             android:layout_height="35.0dip"
             android:layout_marginTop="15.0dip"
-            android:src="@drawable/ao5" />
+            android:src="@drawable/picker_scan_footer_icon" />
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical">
             <TextView
-                android:id="@id/a09"
-                android:layout_width="fill_parent"
+                android:id="@id/footer_scan_text"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:gravity="center_horizontal"
                 android:maxLines="1"
                 android:paddingLeft="2.0dip"
                 android:paddingRight="2.0dip"
-                android:text="@string/alp"
-                android:textColor="@color/zo"
+                android:text="@string/xiaoying_str_ve_gallery_not_find_photo_tip"
+                android:textColor="@color/white"
                 android:textSize="11.0sp" />
             <TextView
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:maxLines="1"
                 android:paddingLeft="2.0dip"
                 android:paddingRight="2.0dip"
-                android:text="@string/amb"
-                android:textColor="@color/n_"
+                android:text="@string/xiaoying_str_ve_media_gallery_scan_tip"
+                android:textColor="@color/default_app_color"
                 android:textSize="11.0sp" />
         </LinearLayout>
     </LinearLayout>

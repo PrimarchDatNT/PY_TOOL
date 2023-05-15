@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:clipChildren="false"
     android:gravity="center_vertical">
     <ImageView
@@ -38,8 +38,8 @@
         android:layout_centerHorizontal="true"
         android:background="@drawable/tt_splash_slide_up_arrow" />
     <TextView
-        android:id="@id/b2z"
-        android:layout_width="fill_parent"
+        android:id="@id/slide_text"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tt_splash_slide_up_guide_bar"
         android:gravity="center_horizontal"
@@ -51,10 +51,10 @@
         android:textColor="@android:color/white"
         android:textSize="18.0dip" />
     <TextView
-        android:id="@id/b2y"
-        android:layout_width="fill_parent"
+        android:id="@id/slide_guide_text"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/b2z"
+        android:layout_below="@id/slide_text"
         android:gravity="center_horizontal"
         android:shadowColor="#99000000"
         android:shadowDx="3.0"

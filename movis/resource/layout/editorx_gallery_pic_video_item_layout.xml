@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/af1"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/a7a">
+    android:id="@id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/editorx_shape_effect_item_bg_unchoose_noradius">
     <LinearLayout
-        android:id="@id/afb"
+        android:id="@id/layout_other"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -16,36 +16,36 @@
             android:layout_height="32.0dip"
             android:paddingStart="10.0dip"
             android:paddingEnd="10.0dip"
-            android:src="@drawable/a1d" />
+            android:src="@drawable/editorx_ico_effect_other_album" />
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:maxLines="1"
-            android:text="@string/m9"
-            android:textColor="@color/g4"
+            android:text="@string/xiaoying_effect_collage_album"
+            android:textColor="@color/color_808080"
             android:textSize="10.0sp" />
     </LinearLayout>
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/aar"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:background="@color/xz"
+        android:background="@color/transparent"
         android:scaleType="centerCrop"
         android:visibility="gone" />
     <TextView
-        android:id="@id/be4"
+        android:id="@id/tv_duration"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="6.0dip"
         android:layout_marginBottom="4.0dip"
-        android:textColor="@color/zo"
+        android:textColor="@color/white"
         android:textSize="10.0sp" />
     <View
-        android:id="@id/adx"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/a77" />
+        android:id="@id/layout_choose"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/editorx_shape_effect_item_bg_noradius_unchoose" />
 </RelativeLayout>

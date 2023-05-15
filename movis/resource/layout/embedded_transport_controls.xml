@@ -6,18 +6,18 @@
     android:orientation="horizontal"
     android:visibility="visible">
     <ImageButton
-        android:id="@id/as0"
-        style="@style/gv" />
+        android:id="@id/prev"
+        style="@style/EmbeddedTransportControlsButton_Previous" />
     <ImageButton
-        android:id="@id/avk"
-        style="@style/gw" />
+        android:id="@id/rew"
+        style="@style/EmbeddedTransportControlsButton_Rew" />
     <ImageButton
-        android:id="@id/aq3"
-        style="@style/gu" />
+        android:id="@id/pause"
+        style="@style/EmbeddedTransportControlsButton_Pause" />
     <ImageButton
-        android:id="@id/y2"
-        style="@style/gs" />
+        android:id="@id/ffwd"
+        style="@style/EmbeddedTransportControlsButton_Ffwd" />
     <ImageButton
-        android:id="@id/aoe"
-        style="@style/gt" />
+        android:id="@id/next"
+        style="@style/EmbeddedTransportControlsButton_Next" />
 </LinearLayout>

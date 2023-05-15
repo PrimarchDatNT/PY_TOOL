@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_background"
     android:gravity="center"
     android:orientation="vertical"
     android:paddingBottom="92.0dip">
@@ -10,18 +10,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/a92"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/z0" />
+        android:text="@string/xiaoying_str_iap_network_error"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp14" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/avh"
-        android:layout_width="@dimen/te"
-        android:layout_height="@dimen/x9"
+        android:id="@id/retry_btn"
+        android:layout_width="@dimen/px120"
+        android:layout_height="@dimen/px42"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/ul"
-        android:background="@drawable/dx"
+        android:layout_marginTop="@dimen/px20"
+        android:background="@drawable/app_default_button"
         android:gravity="center"
-        android:text="@string/aig"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/z0" />
+        android:text="@string/xiaoying_str_template_retry_again"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp14" />
 </LinearLayout>

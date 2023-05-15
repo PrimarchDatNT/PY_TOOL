@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical">
     <FrameLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_weight="2.0">
         <FrameLayout
             android:id="@id/tt_ad_container"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
         <ImageView
             android:id="@id/tt_full_img"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:scaleType="fitCenter" />
         <include
             layout="@layout/tt_backup_ad"
@@ -27,7 +27,7 @@
             android:layout_marginBottom="10.0dip" />
     </FrameLayout>
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_weight="1.0"
         android:gravity="bottom|center"
@@ -35,7 +35,7 @@
         android:padding="16.0dip">
         <RelativeLayout
             android:id="@id/tt_full_image_full_bar"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="40.0dip"
             android:gravity="center">
             <com.bytedance.sdk.openadsdk.core.widget.TTRoundRectImageView
@@ -76,7 +76,7 @@
         </RelativeLayout>
         <TextView
             android:id="@id/tt_full_ad_download"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="22.0dip"
             android:layout_marginTop="16.0dip"
             android:background="@drawable/tt_backup_btn_1"

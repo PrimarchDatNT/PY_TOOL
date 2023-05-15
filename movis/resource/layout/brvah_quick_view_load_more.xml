@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="@dimen/gs">
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_40">
     <LinearLayout
-        android:id="@id/aio"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/load_more_loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="horizontal">
         <ProgressBar
-            android:id="@id/aiv"
+            android:id="@id/loading_progress"
             style="?android:progressBarStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/gr" />
+            android:layout_marginRight="@dimen/dp_4" />
         <TextView
-            android:id="@id/aiw"
+            android:id="@id/loading_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/gr"
-            android:text="@string/d4"
+            android:layout_marginLeft="@dimen/dp_4"
+            android:text="@string/brvah_loading"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/a0_" />
+            android:textSize="@dimen/sp_14" />
     </LinearLayout>
     <FrameLayout
-        android:id="@id/aim"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/load_more_load_fail_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="gone">
         <TextView
-            android:id="@id/bgn"
+            android:id="@id/tv_prompt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/d3" />
+            android:text="@string/brvah_load_failed" />
     </FrameLayout>
     <FrameLayout
-        android:id="@id/ail"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/load_more_load_end_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="gone">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/d2"
+            android:text="@string/brvah_load_end"
             android:textColor="@android:color/darker_gray" />
     </FrameLayout>
 </FrameLayout>

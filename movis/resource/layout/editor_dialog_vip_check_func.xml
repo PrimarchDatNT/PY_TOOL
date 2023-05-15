@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:paddingLeft="15.0dip"
     android:paddingRight="15.0dip"
     android:paddingBottom="32.0dip">
     <ImageView
-        android:id="@id/a_5"
+        android:id="@id/iv_close"
         android:layout_width="28.0dip"
         android:layout_height="28.0dip"
-        android:src="@drawable/dy" />
+        android:src="@drawable/app_default_close_black" />
     <LinearLayout
-        android:id="@id/aci"
-        android:layout_width="fill_parent"
+        android:id="@id/layoutContent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20.0dip"
-        android:background="@drawable/l2"
+        android:background="@drawable/editor_bg_vip_check_dialog"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
@@ -27,11 +27,11 @@
             android:layout_marginTop="32.0dip"
             android:layout_marginEnd="28.0dip"
             android:layout_marginRight="28.0dip"
-            android:text="@string/zn"
-            android:textColor="@color/gl"
+            android:text="@string/xiaoying_str_draft_vip_func_used"
+            android:textColor="@color/color_999999"
             android:textSize="14.0dip" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/az8"
+            android:id="@id/rv_vip_func"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="28.0dip"
@@ -39,15 +39,15 @@
             android:layout_marginTop="12.0dip"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
         <TextView
-            android:id="@id/bge"
+            android:id="@id/tv_pay_func"
             android:layout_width="281.0dip"
-            android:layout_height="@dimen/x9"
+            android:layout_height="@dimen/px42"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="24.0dip"
             android:layout_marginBottom="32.0dip"
-            android:background="@drawable/dx"
+            android:background="@drawable/app_default_button"
             android:gravity="center"
-            android:textColor="@color/zo"
+            android:textColor="@color/white"
             android:textSize="16.0dip" />
     </LinearLayout>
 </LinearLayout>

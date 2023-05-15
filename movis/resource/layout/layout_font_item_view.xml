@@ -1,115 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/e7"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/a74"
+    android:id="@id/anim_item_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/editorx_shape_effect_font_item_bg_unchoose"
     android:gravity="center">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/e5"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintLeft_toLeftOf="apv"
-        app:layout_constraintRight_toRightOf="apv"
-        app:layout_constraintTop_toTopOf="apv">
+        android:id="@id/anim_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintLeft_toLeftOf="parrent"
+        app:layout_constraintRight_toRightOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/ea"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_margin="@dimen/t2"
+            android:id="@id/anim_iv_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/px1"
             app:actualImageScaleType="o1"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toRightOf="apv"
-            app:layout_constraintTop_toTopOf="apv"
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toRightOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent"
             app:placeholderImageScaleType="o1"
-            app:roundedCornerRadius="@dimen/xz" />
+            app:roundedCornerRadius="@dimen/px6" />
         <TextView
-            android:id="@id/ek"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/anim_tv_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center"
-            android:paddingStart="@dimen/xz"
-            android:paddingEnd="@dimen/xz"
+            android:paddingStart="@dimen/px6"
+            android:paddingEnd="@dimen/px6"
             android:singleLine="true"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/yz"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toRightOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp12"
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toRightOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <RelativeLayout
-            android:id="@id/aww"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@color/fo"
+            android:id="@id/rl_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_66121212"
             android:visibility="gone"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toRightOf="apv"
-            app:layout_constraintTop_toTopOf="apv">
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toRightOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent">
             <ProgressBar
-                android:id="@id/as_"
+                android:id="@id/progress_bar"
                 style="?android:progressBarStyleHorizontal"
                 android:layout_width="48.0dip"
                 android:layout_height="2.0dip"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="8.0dip"
-                android:progressDrawable="@drawable/aok" />
+                android:progressDrawable="@drawable/progress_horizontal_bg" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/eb"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@color/zv"
+            android:id="@id/anim_layout_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_p20"
             android:visibility="gone"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toRightOf="apv"
-            app:layout_constraintTop_toTopOf="apv">
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toRightOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent">
             <ImageView
-                android:layout_width="@dimen/v7"
-                android:layout_height="@dimen/v7"
+                android:layout_width="@dimen/px24"
+                android:layout_height="@dimen/px24"
                 android:layout_centerInParent="true"
-                android:background="@drawable/jf"
+                android:background="@drawable/btn_dcolor_ripple"
                 android:scaleType="centerInside"
-                android:src="@drawable/a07" />
+                android:src="@drawable/editorx_effect_subtitle_more" />
         </RelativeLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <ImageView
-        android:id="@id/ec"
-        android:layout_width="@dimen/v7"
-        android:layout_height="@dimen/v7"
-        android:background="@drawable/jf"
+        android:id="@id/anim_none_item"
+        android:layout_width="@dimen/px24"
+        android:layout_height="@dimen/px24"
+        android:background="@drawable/btn_dcolor_ripple"
         android:scaleType="centerInside"
-        android:src="@drawable/a6y"
+        android:src="@drawable/editorx_shape_effect_anim_none_icon"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/e_"
-        android:layout_width="@dimen/tz"
-        android:layout_height="@dimen/tz"
-        android:layout_margin="@dimen/uk"
-        android:background="@drawable/a9z"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        android:id="@id/anim_iv_download_flag"
+        android:layout_width="@dimen/px16"
+        android:layout_height="@dimen/px16"
+        android:layout_margin="@dimen/px2"
+        android:background="@drawable/editorx_text_typeface_download_icon"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone">
         <ImageView
-            android:id="@id/abj"
+            android:id="@id/iv_tag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

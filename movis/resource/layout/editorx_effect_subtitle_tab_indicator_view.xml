@@ -2,30 +2,30 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
-    android:layout_height="@dimen/x9"
-    android:background="@drawable/jf">
+    android:layout_height="@dimen/px42"
+    android:background="@drawable/btn_dcolor_ripple">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bcb"
+        android:id="@id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/jf"
-        android:fontFamily="@font/f"
+        android:background="@drawable/btn_dcolor_ripple"
+        android:fontFamily="@font/poppins_semibold"
         android:maxWidth="100.0dip"
         android:maxLines="1"
-        android:paddingStart="@dimen/td"
-        android:paddingEnd="@dimen/td"
-        android:textColor="@color/xj"
-        android:textSize="@dimen/z0"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        android:paddingStart="@dimen/px12"
+        android:paddingEnd="@dimen/px12"
+        android:textColor="@color/text_selector_tab"
+        android:textSize="@dimen/sp14"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <View
-        android:id="@id/bmo"
+        android:id="@id/viewLine"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent" />
 </merge>

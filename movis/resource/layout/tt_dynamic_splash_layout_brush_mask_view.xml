@@ -10,8 +10,8 @@
         android:background="@drawable/tt_interact_round_rect">
         <com.bytedance.sdk.component.adexpress.widget.BrushMaskView
             android:id="@id/tt_interact_splash_brush_mask_view"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
         <ImageView
             android:id="@id/tt_interact_splash_first_step_image"
             android:layout_width="150.0dip"
@@ -20,11 +20,11 @@
             android:layout_marginTop="30.0dip"
             android:background="@drawable/tt_interact_round_rect" />
         <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
             <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:gravity="center"
                 android:orientation="vertical">
                 <TextView
@@ -54,7 +54,7 @@
         android:layout_marginLeft="40.0dip"
         android:layout_marginTop="30.0dip">
         <ImageView
-            android:id="@id/a45"
+            android:id="@id/image_hand"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/tt_splash_hand3" />

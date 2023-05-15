@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/b6b" android:state_pressed="true" />
-    <item android:drawable="@drawable/b6b" android:state_selected="true" />
-    <item android:drawable="@drawable/b6a" />
+    <item android:drawable="@drawable/xiaoying_ve_clip_effect_blur_p" android:state_pressed="true" />
+    <item android:drawable="@drawable/xiaoying_ve_clip_effect_blur_p" android:state_selected="true" />
+    <item android:drawable="@drawable/xiaoying_ve_clip_effect_blur_n" />
 </selector>

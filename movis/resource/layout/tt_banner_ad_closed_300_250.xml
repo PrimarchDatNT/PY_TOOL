@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#ffffffff"
     android:orientation="vertical">
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:alpha="0.3"
         android:background="#fff3f7f8" />
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="@drawable/tt_ad_closed_background_300_250">
         <ImageView
             android:id="@id/tt_ad_closed_page_logo"
@@ -22,8 +22,8 @@
             android:layout_marginTop="16.0dip"
             android:src="@drawable/tt_ad_closed_logo_red" />
         <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
             <TextView
                 android:id="@id/tt_ad_closed_text"
                 android:layout_width="wrap_content"

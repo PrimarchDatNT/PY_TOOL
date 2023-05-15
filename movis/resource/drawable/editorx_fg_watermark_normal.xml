@@ -2,16 +2,16 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="rectangle">
-            <solid android:color="@color/br" />
-            <corners android:radius="@dimen/xz" />
+            <solid android:color="@color/black_p10" />
+            <corners android:radius="@dimen/px6" />
             <stroke
-                android:width="@dimen/t2" android:color="@color/d6" />
+                android:width="@dimen/t2" android:color="@color/colorPrimary" />
             <size
-                android:width="@dimen/yg" android:height="@dimen/yg" />
+                android:width="@dimen/px80" android:height="@dimen/px80" />
         </shape>
     </item>
     <item>
         <bitmap
-            android:gravity="center" android:src="@drawable/yv" />
+            android:gravity="center" android:src="@drawable/editorx_bg_regulator_icon" />
     </item>
 </layer-list>

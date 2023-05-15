@@ -3,13 +3,13 @@
     <item android:id="@android:id/background">
         <shape>
             <corners android:radius="16.0dip" />
-            <solid android:color="@color/bv" />
+            <solid android:color="@color/black_p30" />
         </shape>
     </item>
     <item android:id="@android:id/progress">
         <clip android:clipOrientation="horizontal">
             <scale
-                android:drawable="@drawable/axl" android:scaleWidth="50%" />
+                android:drawable="@drawable/v5_xiaoying_ve_roll_download_progress_drawable_shape" android:scaleWidth="50%" />
         </clip>
     </item>
 </layer-list>

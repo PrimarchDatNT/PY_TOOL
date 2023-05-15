@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="horizontal">
     <ImageView
-        android:id="@id/apt"
+        android:id="@id/param_adjust_lock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="false"
-        android:src="@drawable/qw" />
+        android:src="@drawable/editor_icon_param_adjust_lock" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,7 +17,7 @@
         android:layout_marginLeft="5.0dip"
         android:clickable="false"
         android:maxLines="1"
-        android:text="@string/aq0"
+        android:text="@string/xiaoying_str_ve_video_param_adjust"
         android:textColor="#ff8e8e93"
         android:textSize="16.0sp" />
 </LinearLayout>

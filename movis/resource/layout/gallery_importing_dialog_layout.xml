@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:gravity="center">
     <View
-        android:id="@id/tc"
-        android:layout_width="fill_parent"
+        android:id="@id/dialog_bg"
+        android:layout_width="match_parent"
         android:layout_height="214.0dip"
         android:layout_marginStart="30.0dip"
         android:layout_marginEnd="30.0dip"
-        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintDimensionRatio="280:164"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@id/as8"
+        android:id="@id/progressBar"
         android:layout_width="76.0dip"
         android:layout_height="76.0dip"
         android:layout_gravity="center"
-        app:layout_constraintBottom_toTopOf="@id/bfd"
-        app:layout_constraintEnd_toEndOf="@id/tc"
-        app:layout_constraintStart_toStartOf="@id/tc"
-        app:layout_constraintTop_toTopOf="@id/tc"
+        app:layout_constraintBottom_toTopOf="@id/tv_importing_des"
+        app:layout_constraintEnd_toEndOf="@id/dialog_bg"
+        app:layout_constraintStart_toStartOf="@id/dialog_bg"
+        app:layout_constraintTop_toTopOf="@id/dialog_bg"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/h" />
+        app:lottie_rawRes="@raw/gallery_normal_loading" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bfd"
-        style="@style/x3"
+        android:id="@id/tv_importing_des"
+        style="@style/veds_latn_font_body_14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/axm"
-        android:textColor="@color/zo"
-        app:layout_constraintBottom_toBottomOf="@id/tc"
-        app:layout_constraintEnd_toEndOf="@id/tc"
-        app:layout_constraintStart_toStartOf="@id/tc"
-        app:layout_constraintTop_toBottomOf="@id/as8" />
+        android:text="@string/xy_module_gallery_import_desc"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/dialog_bg"
+        app:layout_constraintEnd_toEndOf="@id/dialog_bg"
+        app:layout_constraintStart_toStartOf="@id/dialog_bg"
+        app:layout_constraintTop_toBottomOf="@id/progressBar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/jf">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_dcolor_ripple">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bb9"
+        android:id="@id/tvContent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:drawableEnd="@drawable/a63"
-        android:drawablePadding="@dimen/yf"
-        android:fontFamily="@font/f"
+        android:drawableEnd="@drawable/editorx_select_text_view_vip_icon"
+        android:drawablePadding="@dimen/px8"
+        android:fontFamily="@font/poppins_semibold"
         android:gravity="center"
-        android:textColor="@color/xj"
-        android:textSize="@dimen/z0" />
+        android:textColor="@color/text_selector_tab"
+        android:textSize="@dimen/sp14" />
 </FrameLayout>

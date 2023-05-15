@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/afq"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:id="@id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <FrameLayout
-        android:id="@id/ask"
-        android:layout_width="fill_parent"
+        android:id="@id/psb_bg_container"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <SeekBar
-            android:id="@id/asl"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/ul"
+            android:id="@id/psb_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px20"
             android:layout_gravity="center_vertical"
             android:background="@null"
-            android:maxHeight="@dimen/ul"
-            android:minHeight="@dimen/ul"
-            android:progressDrawable="@drawable/aon"
+            android:maxHeight="@dimen/px20"
+            android:minHeight="@dimen/px20"
+            android:progressDrawable="@drawable/psb_progress_drawable"
             android:splitTrack="false"
-            android:thumb="@drawable/aop" />
+            android:thumb="@drawable/psb_selector_seek_bar_thumb" />
     </FrameLayout>
 </LinearLayout>

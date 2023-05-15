@@ -1,112 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_centerInParent="true"
     android:layout_gravity="center">
     <RelativeLayout
-        android:id="@id/mq"
-        android:layout_width="fill_parent"
+        android:id="@id/cam_adjust_dialog_layout_p"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginStart="15.0dip"
         android:layout_marginLeft="15.0dip"
         android:layout_marginEnd="15.0dip"
         android:layout_marginRight="15.0dip"
-        android:background="@drawable/ayx">
+        android:background="@drawable/xiaoying_cam_adjust_camera_bg">
         <TextView
-            android:id="@id/mt"
-            android:layout_width="fill_parent"
+            android:id="@id/cam_adjust_dialog_txt_title"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="8.0dip"
-            android:text="@string/r3"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_cam_pref_setting_adjust_camera_title"
+            android:textColor="@color/white"
             android:textSize="18.0sp"
             android:textStyle="italic" />
         <ImageView
-            android:id="@id/ms"
-            android:layout_width="fill_parent"
+            android:id="@id/cam_adjust_dialog_line_up"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/mt"
-            android:background="@drawable/az3" />
+            android:layout_below="@id/cam_adjust_dialog_txt_title"
+            android:background="@drawable/xiaoying_cam_adjust_camera_line" />
         <LinearLayout
-            android:id="@id/mp"
-            android:layout_width="fill_parent"
+            android:id="@id/cam_adjust_dialog_layout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/ms"
+            android:layout_below="@id/cam_adjust_dialog_line_up"
             android:baselineAligned="false"
             android:orientation="horizontal"
             android:paddingTop="5.0dip"
             android:paddingBottom="5.0dip">
             <RelativeLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0">
                 <ImageButton
-                    android:id="@id/mn"
+                    android:id="@id/cam_adjust_dialog_btn_rotate_left"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:background="@drawable/ayy"
-                    android:src="@drawable/az6" />
+                    android:background="@drawable/xiaoying_cam_adjust_camera_btn_bg_selector"
+                    android:src="@drawable/xiaoying_cam_adjust_camera_rotate_left" />
             </RelativeLayout>
             <RelativeLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0">
                 <ImageButton
-                    android:id="@id/mo"
+                    android:id="@id/cam_adjust_dialog_btn_rotate_right"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:background="@drawable/ayy"
-                    android:src="@drawable/az7" />
+                    android:background="@drawable/xiaoying_cam_adjust_camera_btn_bg_selector"
+                    android:src="@drawable/xiaoying_cam_adjust_camera_rotate_right" />
             </RelativeLayout>
             <RelativeLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0">
                 <ImageButton
-                    android:id="@id/mk"
+                    android:id="@id/cam_adjust_dialog_btn_flip_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:background="@drawable/ayy"
-                    android:src="@drawable/az4" />
+                    android:background="@drawable/xiaoying_cam_adjust_camera_btn_bg_selector"
+                    android:src="@drawable/xiaoying_cam_adjust_camera_mirror_horizontal" />
             </RelativeLayout>
             <RelativeLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0">
                 <ImageButton
-                    android:id="@id/ml"
+                    android:id="@id/cam_adjust_dialog_btn_flip_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:background="@drawable/ayy"
-                    android:src="@drawable/az5" />
+                    android:background="@drawable/xiaoying_cam_adjust_camera_btn_bg_selector"
+                    android:src="@drawable/xiaoying_cam_adjust_camera_mirror_vertical" />
             </RelativeLayout>
         </LinearLayout>
         <ImageView
-            android:id="@id/mr"
-            android:layout_width="fill_parent"
+            android:id="@id/cam_adjust_dialog_line_bottom"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@id/mm"
+            android:layout_above="@id/cam_adjust_dialog_btn_ok"
             android:layout_marginBottom="-1.0dip"
-            android:background="@drawable/az3" />
+            android:background="@drawable/xiaoying_cam_adjust_camera_line" />
         <Button
-            android:id="@id/mm"
-            android:layout_width="fill_parent"
+            android:id="@id/cam_adjust_dialog_btn_ok"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/mp"
+            android:layout_below="@id/cam_adjust_dialog_layout"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/az1"
-            android:shadowColor="@color/bt"
+            android:background="@drawable/xiaoying_cam_adjust_camera_btn_selector"
+            android:shadowColor="@color/black_p20"
             android:shadowDy="1.0"
             android:shadowRadius="1.0"
-            android:text="@string/r2"
-            android:textColor="@color/bn"
+            android:text="@string/xiaoying_str_cam_pref_setting_adjust_camera_done"
+            android:textColor="@color/black"
             android:textSize="18.0sp"
             android:textStyle="italic" />
     </RelativeLayout>

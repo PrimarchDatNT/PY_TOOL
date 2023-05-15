@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/ayn"
-    android:layout_width="fill_parent"
+    android:id="@id/rvContent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingTop="@dimen/tz"
+    android:paddingTop="@dimen/px16"
     android:tag="layout/premium_slider_0"
-    app:layout_constraintEnd_toEndOf="apv"
-    app:layout_constraintStart_toStartOf="apv"
-    app:layout_constraintTop_toTopOf="apv" />
+    app:layout_constraintEnd_toEndOf="parrent"
+    app:layout_constraintStart_toStartOf="parrent"
+    app:layout_constraintTop_toTopOf="parrent" />

@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="bottom"
     android:background="#cc000000"
     android:layoutDirection="ltr"
     android:orientation="vertical">
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal"
         android:paddingTop="4.0dip">
         <ImageButton
-            android:id="@id/di"
-            style="@style/o" />
+            android:id="@id/al_exo_prev"
+            style="@style/AppLovinExoMediaButton_Previous" />
         <ImageButton
-            android:id="@id/dm"
-            style="@style/p" />
+            android:id="@id/al_exo_rew"
+            style="@style/AppLovinExoMediaButton_Rewind" />
         <ImageButton
-            android:id="@id/dp"
-            style="@style/j" />
+            android:id="@id/al_exo_shuffle"
+            style="@style/AppLovinExoMediaButton" />
         <ImageButton
-            android:id="@id/dl"
-            style="@style/j" />
+            android:id="@id/al_exo_repeat_toggle"
+            style="@style/AppLovinExoMediaButton" />
         <ImageButton
-            android:id="@id/de"
-            style="@style/n" />
+            android:id="@id/al_exo_play"
+            style="@style/AppLovinExoMediaButton_Play" />
         <ImageButton
-            android:id="@id/dd"
-            style="@style/m" />
+            android:id="@id/al_exo_pause"
+            style="@style/AppLovinExoMediaButton_Pause" />
         <ImageButton
-            android:id="@id/d5"
-            style="@style/k" />
+            android:id="@id/al_exo_ffwd"
+            style="@style/AppLovinExoMediaButton_FastForward" />
         <ImageButton
-            android:id="@id/d_"
-            style="@style/l" />
+            android:id="@id/al_exo_next"
+            style="@style/AppLovinExoMediaButton_Next" />
         <ImageButton
-            android:id="@id/du"
-            style="@style/q" />
+            android:id="@id/al_exo_vr"
+            style="@style/AppLovinExoMediaButton_VR" />
     </LinearLayout>
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4.0dip"
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <TextView
-            android:id="@id/dh"
+            android:id="@id/al_exo_position"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:includeFontPadding="false"
@@ -57,12 +57,12 @@
             android:textSize="14.0sp"
             android:textStyle="bold" />
         <View
-            android:id="@id/dk"
+            android:id="@id/al_exo_progress_placeholder"
             android:layout_width="0.0dip"
             android:layout_height="26.0dip"
             android:layout_weight="1.0" />
         <TextView
-            android:id="@id/d1"
+            android:id="@id/al_exo_duration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:includeFontPadding="false"

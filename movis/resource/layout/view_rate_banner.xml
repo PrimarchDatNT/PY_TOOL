@@ -1,122 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/ai"
+    android:background="@color/app_dcolor_bg_dialog"
     android:orientation="vertical"
-    android:paddingStart="@dimen/tz"
-    android:paddingEnd="@dimen/tz">
+    android:paddingStart="@dimen/px16"
+    android:paddingEnd="@dimen/px16">
     <RelativeLayout
-        android:id="@id/awx"
-        android:layout_width="fill_parent"
+        android:id="@id/rl_rate_title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/ul">
+        android:layout_marginTop="@dimen/px20">
         <TextView
-            android:id="@id/bgs"
+            android:id="@id/tv_rate_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginEnd="@dimen/tz"
-            android:layout_toStartOf="@id/aax"
-            android:fontFamily="@font/f"
-            android:text="@string/jr"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z0" />
+            android:layout_marginEnd="@dimen/px16"
+            android:layout_toStartOf="@id/iv_rate_sticker"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/rate_banner_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
         <TextView
-            android:id="@id/bgr"
+            android:id="@id/tv_rate_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/bgs"
+            android:layout_below="@id/tv_rate_title"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="@dimen/tz"
-            android:layout_marginEnd="@dimen/tz"
-            android:layout_toStartOf="@id/aax"
-            android:text="@string/jq"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/yz" />
+            android:layout_marginTop="@dimen/px16"
+            android:layout_marginEnd="@dimen/px16"
+            android:layout_toStartOf="@id/iv_rate_sticker"
+            android:text="@string/rate_banner_message"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp12" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/aax"
-            android:layout_width="@dimen/t6"
-            android:layout_height="@dimen/t6"
+            android:id="@id/iv_rate_sticker"
+            android:layout_width="@dimen/px104"
+            android:layout_height="@dimen/px104"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:adjustViewBounds="true"
-            android:src="@drawable/ap3" />
+            android:src="@drawable/rate_sticker_start" />
     </RelativeLayout>
     <FrameLayout
-        android:id="@id/zg"
-        android:layout_width="fill_parent"
+        android:id="@id/fl_start_bar"
+        android:layout_width="match_parent"
         android:layout_height="60.0dip"
         android:layout_gravity="center"
         android:layout_marginStart="50.0dip"
         android:layout_marginEnd="50.0dip">
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@id/ab8"
+                android:id="@id/iv_start_1"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
                 android:adjustViewBounds="true"
-                android:src="@drawable/apl" />
+                android:src="@drawable/selector_normal_star" />
             <ImageView
-                android:id="@id/ab9"
+                android:id="@id/iv_start_2"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
                 android:adjustViewBounds="true"
-                android:src="@drawable/apl" />
+                android:src="@drawable/selector_normal_star" />
             <ImageView
-                android:id="@id/ab_"
+                android:id="@id/iv_start_3"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
                 android:adjustViewBounds="true"
-                android:src="@drawable/apl" />
+                android:src="@drawable/selector_normal_star" />
             <ImageView
-                android:id="@id/aba"
+                android:id="@id/iv_start_4"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
                 android:adjustViewBounds="true"
-                android:src="@drawable/apl" />
+                android:src="@drawable/selector_normal_star" />
             <ImageView
-                android:id="@id/abb"
+                android:id="@id/iv_start_5"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
                 android:adjustViewBounds="true"
-                android:src="@drawable/api" />
+                android:src="@drawable/selector_effect_star" />
         </LinearLayout>
         <SeekBar
-            android:id="@id/azk"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/sb_start_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:alpha="0.0"
             android:progress="0" />
     </FrameLayout>
     <TextView
-        android:id="@id/bhg"
+        android:id="@id/tv_star_bar_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
         android:text="@string/star_bar_message"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/yz" />
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp12" />
     <TextView
-        android:id="@id/bgq"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/x9"
-        android:layout_marginTop="@dimen/ul"
-        android:layout_marginBottom="@dimen/ul"
-        android:background="@drawable/dx"
-        android:fontFamily="@font/f"
+        android:id="@id/tv_rate_cta"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px42"
+        android:layout_marginTop="@dimen/px20"
+        android:layout_marginBottom="@dimen/px20"
+        android:background="@drawable/app_default_button"
+        android:fontFamily="@font/poppins_semibold"
         android:gravity="center"
-        android:text="@string/dr"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/z1" />
+        android:text="@string/cta_rate_banner"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp16" />
 </LinearLayout>

@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="44.0dip">
     <RelativeLayout
-        android:id="@id/afr"
+        android:id="@id/layout_rotate"
         android:layout_width="70.0dip"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:background="@color/xz"
+        android:background="@color/transparent"
         android:visibility="visible">
         <ImageButton
-            android:id="@id/a65"
+            android:id="@id/imgbtn_rotate"
             android:layout_width="22.0dip"
             android:layout_height="22.0dip"
             android:layout_centerInParent="true"
-            android:background="@color/xz"
+            android:background="@color/transparent"
             android:clickable="false"
-            android:src="@drawable/xv" />
+            android:src="@drawable/editor_video_trim_rotate_btn" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/ae4"
+        android:id="@id/layout_crop"
         android:layout_width="70.0dip"
-        android:layout_height="fill_parent"
-        android:layout_toEndOf="@id/afr"
-        android:layout_toRightOf="@id/afr"
-        android:background="@color/xz"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/layout_rotate"
+        android:layout_toRightOf="@id/layout_rotate"
+        android:background="@color/transparent"
         android:visibility="visible">
         <ImageButton
-            android:id="@id/a5y"
+            android:id="@id/imgbtn_crop"
             android:layout_width="22.0dip"
             android:layout_height="22.0dip"
             android:layout_centerInParent="true"
-            android:background="@color/xz"
+            android:background="@color/transparent"
             android:clickable="false"
-            android:src="@drawable/v1" />
+            android:src="@drawable/editor_selector_video_trim_crop" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/agk"
+        android:id="@id/layout_trim"
         android:layout_width="70.0dip"
-        android:layout_height="fill_parent"
-        android:layout_toEndOf="@id/ae4"
-        android:layout_toRightOf="@id/ae4"
-        android:background="@color/xz"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/layout_crop"
+        android:layout_toRightOf="@id/layout_crop"
+        android:background="@color/transparent"
         android:visibility="visible">
         <ImageButton
-            android:id="@id/ly"
+            android:id="@id/btn_start_trim"
             android:layout_width="22.0dip"
             android:layout_height="22.0dip"
             android:layout_centerInParent="true"
-            android:background="@color/xz"
+            android:background="@color/transparent"
             android:clickable="false"
             android:scaleType="fitXY"
-            android:src="@drawable/mg"
+            android:src="@drawable/editor_btn_video_trim_trim"
             android:visibility="visible" />
     </RelativeLayout>
     <Button
-        android:id="@id/a60"
+        android:id="@id/imgbtn_import"
         android:layout_width="wrap_content"
         android:layout_height="27.0dip"
         android:layout_alignParentEnd="true"
@@ -64,7 +64,7 @@
         android:layout_centerVertical="true"
         android:layout_marginEnd="9.0dip"
         android:layout_marginRight="9.0dip"
-        android:background="@drawable/wc"
+        android:background="@drawable/editor_shape_rect_ff774e_r4"
         android:ellipsize="middle"
         android:minWidth="71.0dip"
         android:paddingStart="5.0dip"
@@ -72,8 +72,8 @@
         android:paddingEnd="5.0dip"
         android:paddingRight="5.0dip"
         android:singleLine="true"
-        android:text="@string/rx"
-        android:textColor="@color/zo"
+        android:text="@string/xiaoying_str_com_add"
+        android:textColor="@color/white"
         android:textSize="14.0sp"
         android:visibility="visible" />
 </RelativeLayout>

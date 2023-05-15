@@ -4,43 +4,43 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <include
-        layout="@layout/qu"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/sy" />
+        layout="@layout/include_pickerview_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pickerview_topbar_height" />
     <LinearLayout
-        android:id="@id/b_0"
-        android:layout_width="fill_parent"
+        android:id="@id/timepicker"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:orientation="horizontal">
         <com.contrarywind.view.WheelView
-            android:id="@id/brv"
-            android:layout_width="fill_parent"
+            android:id="@id/year"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.96" />
         <com.contrarywind.view.WheelView
-            android:id="@id/al6"
-            android:layout_width="fill_parent"
+            android:id="@id/month"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
         <com.contrarywind.view.WheelView
-            android:id="@id/st"
-            android:layout_width="fill_parent"
+            android:id="@id/day"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
         <com.contrarywind.view.WheelView
-            android:id="@id/a32"
-            android:layout_width="fill_parent"
+            android:id="@id/hour"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
         <com.contrarywind.view.WheelView
-            android:id="@id/akr"
-            android:layout_width="fill_parent"
+            android:id="@id/min"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
         <com.contrarywind.view.WheelView
-            android:id="@id/b0d"
-            android:layout_width="fill_parent"
+            android:id="@id/second"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
     </LinearLayout>

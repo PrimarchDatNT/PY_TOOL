@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/zo">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/a9u"
+        android:id="@id/iv_back"
         android:layout_width="?a4"
         android:layout_height="?a4"
         android:background="?a5d"
         android:scaleType="centerInside"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv"
-        app:srcCompat="@drawable/aiy" />
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent"
+        app:srcCompat="@drawable/ic_app_back" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bi9"
+        android:id="@id/tv_title"
         android:layout_width="0.0dip"
         android:layout_height="?a4"
         android:ellipsize="end"
         android:gravity="center_vertical"
         android:lines="1"
-        android:text="@string/c5"
-        android:textColor="@color/bn"
+        android:text="@string/app_feature_effects"
+        android:textColor="@color/black"
         android:textSize="18.0sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toEndOf="@id/a9u"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toEndOf="@id/iv_back"
+        app:layout_constraintTop_toTopOf="parrent" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/ayu"
-        android:layout_width="fill_parent"
+        android:id="@id/rv_effect"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:clipToPadding="false"
         android:paddingTop="16.0dip"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/bi9" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title" />
 </androidx.constraintlayout.widget.ConstraintLayout>

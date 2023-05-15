@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="@dimen/tt"
-    android:background="@drawable/adx">
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px148"
+    android:background="@drawable/gallery_board_bg">
     <LinearLayout
-        android:id="@id/b_g"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/xh"
+        android:id="@id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px48"
         android:gravity="center_vertical">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/ic"
+            android:id="@id/board_all_duration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/tz"
+            android:layout_marginStart="@dimen/px16"
             android:gravity="center_vertical"
             android:includeFontPadding="false"
-            android:textColor="@color/a04"
-            android:textSize="@dimen/yz"
+            android:textColor="@color/white_p90"
+            android:textSize="@dimen/sp12"
             android:visibility="gone" />
         <View
-            android:id="@id/if"
-            android:layout_width="@dimen/t2"
-            android:layout_height="@dimen/td"
+            android:id="@id/board_normal_line"
+            android:layout_width="@dimen/px1"
+            android:layout_height="@dimen/px12"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="@dimen/xz"
-            android:background="@color/ak"
+            android:layout_marginStart="@dimen/px6"
+            android:background="@color/app_dcolor_indicator_2"
             android:visibility="gone" />
         <TextView
-            android:id="@id/bit"
+            android:id="@id/txt_clip_count"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/tz"
-            android:layout_marginEnd="@dimen/tz"
+            android:layout_marginStart="@dimen/px16"
+            android:layout_marginEnd="@dimen/px16"
             android:layout_weight="1.0"
             android:ellipsize="end"
             android:gravity="center_vertical"
             android:includeFontPadding="false"
             android:maxLines="1"
-            android:text="@string/awu"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/yz" />
+            android:text="@string/xy_module_album_template_selected_count_description"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp12" />
         <TextView
-            android:id="@id/l6"
+            android:id="@id/btn_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/tz"
-            android:background="@drawable/jf"
+            android:layout_marginEnd="@dimen/px16"
+            android:background="@drawable/btn_dcolor_ripple"
             android:gravity="center"
             android:includeFontPadding="false"
-            app:drawableStartCompat="@drawable/ahf" />
+            app:drawableStartCompat="@drawable/gallery_shape_next_ico_enable_false" />
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/atv"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/b_g"
+        android:id="@id/rc_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_layout"
         android:layout_centerVertical="true" />
     <TextView
-        android:id="@id/bg4"
+        android:id="@id/tv_move_tip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="@dimen/tz"
-        android:layout_marginBottom="@dimen/xz"
+        android:layout_marginStart="@dimen/px16"
+        android:layout_marginBottom="@dimen/px6"
         android:gravity="center_vertical"
-        android:text="@string/aws"
-        android:textColor="@color/a04"
-        android:textSize="@dimen/yy" />
+        android:text="@string/xy_module_album_template_selected_change_position_tip"
+        android:textColor="@color/white_p90"
+        android:textSize="@dimen/sp10" />
 </RelativeLayout>

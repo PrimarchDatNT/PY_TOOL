@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/na"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:id="@id/cam_layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/ne"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:id="@id/cam_layout_surfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
     <RelativeLayout
-        android:id="@id/nb"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:id="@id/cam_layout_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <include
-            android:id="@id/a2g"
-            layout="@layout/bz"
+            android:id="@id/guideline_layout"
+            layout="@layout/cam_include_guide_line"
             android:visibility="invisible" />
-        <include layout="@layout/by" />
+        <include layout="@layout/cam_include_focus_indicator" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/nr"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:id="@id/camera_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </RelativeLayout>

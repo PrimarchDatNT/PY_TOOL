@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <EditText
-        android:id="@id/wh"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/x9"
-        android:background="@drawable/a7k"
+        android:id="@id/et_edit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px42"
+        android:background="@drawable/editorx_shape_effect_subtitle_input2"
         android:clickable="true"
         android:focusable="true"
         android:focusableInTouchMode="false"
         android:gravity="center_vertical"
-        android:maxHeight="@dimen/x9"
+        android:maxHeight="@dimen/px42"
         android:maxLength="247"
-        android:paddingStart="@dimen/td"
-        android:paddingTop="@dimen/yf"
-        android:paddingEnd="@dimen/td"
-        android:paddingBottom="@dimen/yf"
-        android:textColor="@color/zo"
-        android:textColorHint="@color/ao"
-        android:textSize="@dimen/yz" />
+        android:paddingStart="@dimen/px12"
+        android:paddingTop="@dimen/px8"
+        android:paddingEnd="@dimen/px12"
+        android:paddingBottom="@dimen/px8"
+        android:textColor="@color/white"
+        android:textColorHint="@color/app_dcolor_text_1"
+        android:textSize="@dimen/sp12" />
     <View
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/t2"
-        android:layout_marginStart="@dimen/td"
-        android:layout_marginTop="@dimen/x6"
-        android:layout_marginEnd="@dimen/td"
-        android:background="@color/aj" />
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px1"
+        android:layout_marginStart="@dimen/px12"
+        android:layout_marginTop="@dimen/px40"
+        android:layout_marginEnd="@dimen/px12"
+        android:background="@color/app_dcolor_indicator" />
 </FrameLayout>

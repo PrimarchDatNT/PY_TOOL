@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/ea"
+    android:background="@drawable/app_res_sample_3"
     android:orientation="vertical"
     android:tag="layout/item_material_template_0">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <com.videoai.aivpcore.unit.view.PressImageView
-            android:id="@id/a8v"
-            android:layout_width="fill_parent"
+            android:id="@id/ivCover"
+            android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:scaleType="fitXY"
-            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintBottom_toBottomOf="parrent"
             app:layout_constraintDimensionRatio="1:1"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv"
-            app:shapeAppearanceOverlay="@style/iv" />
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent"
+            app:shapeAppearanceOverlay="@style/RoundedImageView" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <FrameLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/xz"
-        android:paddingBottom="@dimen/xz">
+        android:paddingTop="@dimen/px6"
+        android:paddingBottom="@dimen/px6">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bcb"
-            android:layout_width="fill_parent"
+            android:id="@id/tvTitle"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="@dimen/yf"
-            android:layout_marginEnd="@dimen/x6"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/yz" />
+            android:layout_marginStart="@dimen/px8"
+            android:layout_marginEnd="@dimen/px40"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp12" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="@dimen/v7"
-            android:layout_height="@dimen/v7"
+            android:layout_width="@dimen/px24"
+            android:layout_height="@dimen/px24"
             android:layout_gravity="end|center"
-            android:layout_marginEnd="@dimen/yf"
-            android:src="@drawable/ajs" />
+            android:layout_marginEnd="@dimen/px8"
+            android:src="@drawable/ic_material_template" />
     </FrameLayout>
 </LinearLayout>

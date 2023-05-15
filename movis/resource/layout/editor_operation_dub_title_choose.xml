@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="@dimen/a4s"
-    android:background="@color/dt"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/video_editor_title_height"
+    android:background="@color/color_141414"
     android:orientation="vertical">
     <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator
-        android:id="@id/b6n"
-        android:layout_width="fill_parent"
+        android:id="@id/tablayout_dub"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40.0dip"
         android:layout_marginLeft="40.0dip"
         android:layout_marginEnd="40.0dip"
         android:layout_marginRight="40.0dip" />
     <View
-        android:id="@id/s_"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/c2"
+        android:id="@id/cover_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_p70"
         android:visibility="gone" />
 </RelativeLayout>

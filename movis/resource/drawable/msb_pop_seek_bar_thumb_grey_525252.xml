@@ -5,9 +5,9 @@
             android:shape="oval" android:useLevel="true">
             <size
                 android:width="24.0dip" android:height="24.0dip" />
-            <solid android:color="@color/fd" />
+            <solid android:color="@color/color_525252" />
             <stroke
-                android:width="14.0dip" android:color="@color/ey" />
+                android:width="14.0dip" android:color="@color/color_363636" />
         </shape>
     </item>
     <item
@@ -16,7 +16,7 @@
             android:shape="oval" android:useLevel="true">
             <size
                 android:width="16.0dip" android:height="16.0dip" />
-            <solid android:color="@color/fd" />
+            <solid android:color="@color/color_525252" />
         </shape>
     </item>
 </layer-list>

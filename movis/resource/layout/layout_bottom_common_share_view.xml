@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/b3_"
-        android:layout_width="fill_parent"
+        android:id="@id/sns_title_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15.0dip">
         <View
@@ -18,18 +18,18 @@
             android:layout_marginLeft="15.0dip"
             android:layout_marginEnd="10.0dip"
             android:layout_marginRight="10.0dip"
-            android:layout_toStartOf="@id/b1r"
-            android:layout_toLeftOf="@id/b1r"
+            android:layout_toStartOf="@id/show_txt_info"
+            android:layout_toLeftOf="@id/show_txt_info"
             android:background="#ffeeeeee" />
         <TextView
-            android:id="@id/b1r"
+            android:id="@id/show_txt_info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:drawablePadding="7.5dip"
             android:gravity="center_horizontal"
-            android:text="@string/ah3"
-            android:textColor="@color/gl"
+            android:text="@string/xiaoying_str_studio_share_setting_share_to_notrans"
+            android:textColor="@color/color_999999"
             android:textSize="12.0sp" />
         <View
             android:layout_width="wrap_content"
@@ -41,16 +41,16 @@
             android:layout_marginLeft="10.0dip"
             android:layout_marginEnd="15.0dip"
             android:layout_marginRight="15.0dip"
-            android:layout_toEndOf="@id/b1r"
-            android:layout_toRightOf="@id/b1r"
+            android:layout_toEndOf="@id/show_txt_info"
+            android:layout_toRightOf="@id/show_txt_info"
             android:background="#ffeeeeee" />
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/b3_">
+        android:layout_below="@id/sns_title_layout">
         <com.videoai.aivpcore.ui.view.HotFixRecyclerView
-            android:id="@id/b1g"
+            android:id="@id/share_list_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"

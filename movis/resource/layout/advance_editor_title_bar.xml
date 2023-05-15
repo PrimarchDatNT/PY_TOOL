@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/agj"
-    android:layout_width="fill_parent"
+    android:id="@id/layout_top_bars"
+    android:layout_width="match_parent"
     android:layout_height="?a4">
     <TextView
-        android:id="@id/b8x"
+        android:id="@id/text_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginStart="10.0dip"
-        android:layout_toEndOf="@id/a53"
+        android:layout_toEndOf="@id/img_back"
         android:gravity="center"
         android:lines="1"
         android:singleLine="true"
-        android:text="@string/anw"
-        android:textColor="@color/zo"
+        android:text="@string/xiaoying_str_ve_pick_cover_title"
+        android:textColor="@color/white"
         android:textSize="18.0sp" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/bpe"
+        android:id="@id/xiaoying_btn_finish"
         android:layout_width="?a4"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:background="@drawable/jf"
+        android:background="@drawable/btn_dcolor_ripple"
         android:scaleType="centerInside"
-        android:src="@drawable/aub" />
+        android:src="@drawable/v4_xiaoying_com_btn_ok_selector" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/a53"
+        android:id="@id/img_back"
         android:layout_width="?a4"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
-        android:background="@drawable/jf"
+        android:background="@drawable/btn_dcolor_ripple"
         android:scaleType="centerInside"
-        android:src="@drawable/aj5" />
+        android:src="@drawable/ic_close" />
 </RelativeLayout>

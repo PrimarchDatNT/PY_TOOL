@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/afg"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginBottom="@dimen/gv"
-        android:background="@color/dr">
+        android:id="@id/layout_preview_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/editor_ops_board_normal_height"
+        android:background="@color/color_101010">
         <RelativeLayout
-            android:id="@id/b5n"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/surface_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
-            android:background="@color/xz" />
+            android:background="@color/transparent" />
     </RelativeLayout>
     <ViewStub
-        android:id="@id/ar2"
-        android:layout_width="fill_parent"
+        android:id="@id/player_seek_view_stub"
+        android:layout_width="match_parent"
         android:layout_height="40.0dip"
-        android:layout_alignBottom="@id/afg"
+        android:layout_alignBottom="@id/layout_preview_background"
         android:layout_marginBottom="-20.0dip"
-        android:layout="@layout/hw" />
+        android:layout="@layout/editor_preview_player_seek_layout" />
     <com.videoai.aivpcore.editor.widget.title.EditorTitle
-        android:id="@id/b31"
-        android:layout_width="fill_parent"
+        android:id="@id/slide_title_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <RelativeLayout
-        android:id="@id/aft"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/gv"
+        android:id="@id/layout_scene"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
         android:background="@android:color/black">
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/ats"
+            android:id="@id/rc_scene"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:overScrollMode="never" />
         <TextView
-            android:id="@id/be3"
+            android:id="@id/tv_drag_tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="15.0dip"
             android:layout_marginLeft="15.0dip"
             android:layout_marginBottom="16.0dip"
-            android:drawableStart="@drawable/xh"
-            android:drawableLeft="@drawable/xh"
+            android:drawableStart="@drawable/editor_slide_preview_tip_flag_icon"
+            android:drawableLeft="@drawable/editor_slide_preview_tip_flag_icon"
             android:drawablePadding="5.0dip"
-            android:text="@string/akc"
-            android:textColor="@color/a00"
+            android:text="@string/xiaoying_str_ve_clip_drag_tip"
+            android:textColor="@color/white_p60"
             android:textSize="12.0sp"
             android:visibility="gone" />
     </RelativeLayout>
     <com.videoai.aivpcore.editor.slideshow.SlideSubTextView
-        android:id="@id/b8k"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/gv"
+        android:id="@id/text_edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
         android:visibility="gone" />
 </RelativeLayout>

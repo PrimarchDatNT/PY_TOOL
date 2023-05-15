@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@id/tt_full_root"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@android:color/black">
     <com.bytedance.sdk.openadsdk.component.reward.view.RatioImageView
         android:id="@id/tt_ratio_image_view"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:scaleType="fitXY" />
     <RelativeLayout
         android:id="@id/tt_full_image_full_bar"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="70.0dip"
         android:layout_marginLeft="15.0dip"
         android:layout_marginTop="60.0dip"
@@ -26,7 +26,7 @@
             android:background="@android:color/transparent" />
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_toEndOf="@id/tt_full_ad_icon"
             android:layout_toRightOf="@id/tt_full_ad_icon"
             android:orientation="vertical">
@@ -72,7 +72,7 @@
     </RelativeLayout>
     <TextView
         android:id="@id/tt_full_desc"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="40.0dip"
         android:layout_below="@id/tt_full_image_full_bar"
         android:layout_marginLeft="20.0dip"
@@ -84,7 +84,7 @@
         android:textSize="20.0sp" />
     <TextView
         android:id="@id/tt_full_ad_download"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="40.0dip"
         android:layout_below="@id/tt_full_desc"
         android:layout_centerHorizontal="true"

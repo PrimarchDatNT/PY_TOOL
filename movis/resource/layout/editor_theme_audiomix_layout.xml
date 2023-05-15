@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/bn">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
     <RelativeLayout
-        android:id="@id/agq"
+        android:id="@id/layout_video_audiotrack"
         android:layout_width="55.0dip"
         android:layout_height="24.0dip"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true">
         <ImageView
-            android:id="@id/a6e"
+            android:id="@id/imgview_icon_video"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:layout_alignParentStart="true"
@@ -19,46 +19,46 @@
             android:layout_marginStart="15.0dip"
             android:layout_marginLeft="15.0dip"
             android:scaleType="centerInside"
-            android:src="@drawable/si"
+            android:src="@drawable/editor_icon_tool_mute_on"
             android:visibility="visible" />
         <RelativeLayout
-            android:id="@id/agn"
-            android:layout_width="fill_parent"
+            android:id="@id/layout_txts_video"
+            android:layout_width="match_parent"
             android:layout_height="24.0dip"
             android:layout_marginStart="5.0dip"
             android:layout_marginLeft="5.0dip"
             android:visibility="invisible">
             <TextView
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ellipsize="middle"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:singleLine="true"
-                android:text="@string/arb"
+                android:text="@string/xiaoying_str_video_voice"
                 android:textColor="#ffffffff"
                 android:textSize="9.0sp" />
             <TextView
-                android:id="@id/bjw"
-                android:layout_width="fill_parent"
+                android:id="@id/txtview_video_value"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="+0.35"
-                android:textColor="@color/n_"
+                android:textColor="@color/default_app_color"
                 android:textSize="8.0sp" />
         </RelativeLayout>
     </RelativeLayout>
     <SeekBar
-        android:id="@id/b0n"
-        android:layout_width="fill_parent"
+        android:id="@id/seekbar_audio_track_mix"
+        android:layout_width="match_parent"
         android:layout_height="20.0dip"
         android:layout_centerVertical="true"
-        android:layout_toStartOf="@id/adr"
-        android:layout_toLeftOf="@id/adr"
-        android:layout_toEndOf="@id/agq"
-        android:layout_toRightOf="@id/agq"
+        android:layout_toStartOf="@id/layout_bgm_audiotrack"
+        android:layout_toLeftOf="@id/layout_bgm_audiotrack"
+        android:layout_toEndOf="@id/layout_video_audiotrack"
+        android:layout_toRightOf="@id/layout_video_audiotrack"
         android:max="100"
         android:maxHeight="2.0dip"
         android:paddingStart="9.0dip"
@@ -66,18 +66,18 @@
         android:paddingEnd="9.0dip"
         android:paddingRight="9.0dip"
         android:progress="0"
-        android:progressDrawable="@drawable/so"
-        android:thumb="@drawable/t2" />
+        android:progressDrawable="@drawable/editor_layer_audiomix_seekbar_bg_p10"
+        android:thumb="@drawable/editor_layer_seekbar_thumb_white_hollow_18" />
     <RelativeLayout
-        android:id="@id/adr"
+        android:id="@id/layout_bgm_audiotrack"
         android:layout_width="55.0dip"
         android:layout_height="24.0dip"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:background="@color/xz">
+        android:background="@color/transparent">
         <ImageView
-            android:id="@id/a6d"
+            android:id="@id/imgview_icon_bgm"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:layout_alignParentEnd="true"
@@ -85,36 +85,36 @@
             android:layout_marginEnd="15.0dip"
             android:layout_marginRight="15.0dip"
             android:scaleType="centerInside"
-            android:src="@drawable/ql"
+            android:src="@drawable/editor_icon_music_on_tool"
             android:visibility="visible" />
         <RelativeLayout
-            android:id="@id/agm"
-            android:layout_width="fill_parent"
+            android:id="@id/layout_txts_bgm"
+            android:layout_width="match_parent"
             android:layout_height="24.0dip"
             android:layout_marginEnd="5.0dip"
             android:layout_marginRight="5.0dip"
-            android:background="@color/xz"
+            android:background="@color/transparent"
             android:visibility="invisible">
             <TextView
-                android:id="@id/bjt"
-                android:layout_width="fill_parent"
+                android:id="@id/txtview_title"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ellipsize="middle"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:singleLine="true"
-                android:text="@string/ak6"
+                android:text="@string/xiaoying_str_ve_bgm_title"
                 android:textColor="#ffffffff"
                 android:textSize="9.0sp" />
             <TextView
-                android:id="@id/bjv"
-                android:layout_width="fill_parent"
+                android:id="@id/txtview_value"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="+0.35"
-                android:textColor="@color/n_"
+                android:textColor="@color/default_app_color"
                 android:textSize="8.0sp" />
         </RelativeLayout>
     </RelativeLayout>

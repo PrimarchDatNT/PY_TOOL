@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/it">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_sale_off_percent">
     <com.videoai.aivpcore.xyui.RoundedRelativeLayout
-        android:id="@id/aci"
-        android:layout_width="fill_parent"
+        android:id="@id/layoutContent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </FrameLayout>

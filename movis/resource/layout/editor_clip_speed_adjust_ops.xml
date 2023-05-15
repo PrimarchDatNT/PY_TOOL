@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="@dimen/gv"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/editor_ops_board_normal_height"
     android:layout_alignParentBottom="true"
     android:background="@android:color/black">
     <include
-        android:id="@id/ff"
-        layout="@layout/eq"
+        android:id="@id/apply_all_layout"
+        layout="@layout/editor_clip_apply_all_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15.0dip"
@@ -15,22 +15,22 @@
         android:layout_marginTop="12.0dip"
         android:visibility="gone" />
     <TextView
-        android:id="@id/bhf"
+        android:id="@id/tv_speed_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/bj7"
+        android:layout_above="@id/txtseekbar_clip_speed"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="2.0dip"
         android:textColor="@android:color/white"
         android:textSize="18.0sp" />
     <com.videoai.aivpcore.ui.view.TextSeekBar
-        android:id="@id/bj7"
-        android:layout_width="fill_parent"
+        android:id="@id/txtseekbar_clip_speed"
+        android:layout_width="match_parent"
         android:layout_height="54.0dip"
-        android:layout_above="@id/ac5"
+        android:layout_above="@id/keep_tone_layout"
         android:layout_marginBottom="2.0dip" />
     <LinearLayout
-        android:id="@id/ac5"
+        android:id="@id/keep_tone_layout"
         android:layout_width="wrap_content"
         android:layout_height="20.0dip"
         android:layout_alignParentBottom="true"
@@ -39,7 +39,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <ImageButton
-            android:id="@id/ac4"
+            android:id="@id/keep_tone_btn"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:layout_marginStart="15.0dip"
@@ -47,21 +47,21 @@
             android:background="@null"
             android:clickable="false"
             android:padding="2.0dip"
-            android:src="@drawable/tn" />
+            android:src="@drawable/editor_selector_apply_all_clip" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4.0dip"
             android:layout_marginLeft="4.0dip"
             android:maxLines="1"
-            android:text="@string/rt"
+            android:text="@string/xiaoying_str_clipedit_keep_the_tone_unchanged"
             android:textColor="#ff8e8e93"
             android:textSize="12.0sp" />
     </LinearLayout>
     <com.videoai.aivpcore.editor.widget.terminator.Terminator
-        android:id="@id/b7c"
-        android:layout_width="fill_parent"
+        android:id="@id/teminator"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        app:terminatorText="@string/ak1" />
+        app:terminatorText="@string/xiaoying_str_ve_basic_speed_tool_title" />
 </RelativeLayout>

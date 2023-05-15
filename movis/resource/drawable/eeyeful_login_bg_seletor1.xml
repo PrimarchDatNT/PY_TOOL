@@ -3,7 +3,7 @@
     <item android:state_activated="false">
         <shape android:shape="rectangle">
             <corners android:radius="8.0dip" />
-            <solid android:color="@color/z7" />
+            <solid android:color="@color/veds_color_bg_module_100" />
         </shape>
     </item>
     <item android:state_activated="true">

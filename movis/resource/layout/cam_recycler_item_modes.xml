@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/a8c"
-    style="@style/l2"
+    android:id="@id/item_tv_title"
+    style="@style/TextAppearance_AppCompat_Title"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:gravity="center"
@@ -14,5 +14,5 @@
     android:shadowDx="0.0"
     android:shadowDy="0.0"
     android:shadowRadius="2.0"
-    android:textColor="@color/co"
+    android:textColor="@color/cam_selector_ffffffff_99ffffff"
     android:textSize="16.0dip" />

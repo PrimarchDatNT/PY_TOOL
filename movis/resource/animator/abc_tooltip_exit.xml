@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <objectAnimator
-        android:duration="200" android:interpolator="@interpolator/i" android:propertyName="width" android:startOffset="0" />
+        android:duration="200" android:interpolator="@interpolator/mtrl_fast_out_slow_in" android:propertyName="width" android:startOffset="0" />
     <objectAnimator
-        android:duration="200" android:interpolator="@interpolator/i" android:propertyName="height" android:startOffset="0" />
+        android:duration="200" android:interpolator="@interpolator/mtrl_fast_out_slow_in" android:propertyName="height" android:startOffset="0" />
     <objectAnimator
-        android:duration="200" android:interpolator="@interpolator/i" android:propertyName="paddingStart" android:startOffset="0" />
+        android:duration="200" android:interpolator="@interpolator/mtrl_fast_out_slow_in" android:propertyName="paddingStart" android:startOffset="0" />
     <objectAnimator
-        android:duration="200" android:interpolator="@interpolator/i" android:propertyName="paddingEnd" android:startOffset="0" />
+        android:duration="200" android:interpolator="@interpolator/mtrl_fast_out_slow_in" android:propertyName="paddingEnd" android:startOffset="0" />
     <objectAnimator
-        android:duration="33" android:interpolator="@interpolator/i" android:propertyName="labelOpacity" android:startOffset="16" />
+        android:duration="33" android:interpolator="@interpolator/mtrl_fast_out_slow_in" android:propertyName="labelOpacity" android:startOffset="16" />
 </set>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
+    android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="horizontal"
-    android:paddingStart="@dimen/xz"
-    android:paddingEnd="@dimen/xz">
+    android:paddingStart="@dimen/px6"
+    android:paddingEnd="@dimen/px6">
     <TextView
-        android:id="@id/bb0"
+        android:id="@id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/apw"
+        android:background="@drawable/slt_item_tag"
         android:gravity="center"
-        android:paddingStart="@dimen/td"
-        android:paddingTop="@dimen/xz"
-        android:paddingEnd="@dimen/td"
-        android:paddingBottom="@dimen/xz"
-        android:text="@string/ap2"
-        android:textColor="@color/xj" />
+        android:paddingStart="@dimen/px12"
+        android:paddingTop="@dimen/px6"
+        android:paddingEnd="@dimen/px12"
+        android:paddingBottom="@dimen/px6"
+        android:text="@string/xiaoying_str_ve_template_empty_title"
+        android:textColor="@color/text_selector_tab" />
     <View
-        android:id="@id/bkl"
+        android:id="@id/v_select"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
-        android:background="@drawable/a8t" />
+        android:background="@drawable/editorx_shape_template_title" />
 </FrameLayout>

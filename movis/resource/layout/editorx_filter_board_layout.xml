@@ -1,139 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/vn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px270"
         android:layout_gravity="bottom">
         <RelativeLayout
-            android:id="@id/aw8"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/xt"
+            android:id="@id/rl_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px56"
             android:layout_alignParentBottom="true"
-            android:background="@color/ah"
+            android:background="@color/app_dcolor_bg_1"
             android:clickable="true"
             android:focusable="true"
             android:visibility="gone">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bd9"
+                android:id="@id/tv_bar_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:layout_marginStart="@dimen/tz"
-                android:text="@string/a2c"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/yz"
+                android:layout_marginStart="@dimen/px16"
+                android:text="@string/xiaoying_str_edit_use_text"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
                 android:textStyle="bold" />
             <RelativeLayout
-                android:id="@id/aw_"
+                android:id="@id/rl_bar_current"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:layout_marginStart="@dimen/tz"
-                android:layout_toEndOf="@id/bd9">
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/px16"
+                android:layout_toEndOf="@id/tv_bar_title">
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/bdv"
+                    android:id="@id/tv_current_clip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:background="@drawable/apw"
+                    android:background="@drawable/slt_item_tag"
                     android:gravity="center"
-                    android:paddingStart="@dimen/td"
-                    android:paddingTop="@dimen/x5"
-                    android:paddingEnd="@dimen/td"
-                    android:paddingBottom="@dimen/x5"
-                    android:text="@string/zf"
-                    android:textColor="@color/xj"
-                    android:textSize="@dimen/yz" />
+                    android:paddingStart="@dimen/px12"
+                    android:paddingTop="@dimen/px4"
+                    android:paddingEnd="@dimen/px12"
+                    android:paddingBottom="@dimen/px4"
+                    android:text="@string/xiaoying_str_creator_now_clip"
+                    android:textColor="@color/text_selector_tab"
+                    android:textSize="@dimen/sp12" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/aw9"
+                android:id="@id/rl_bar_all"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:layout_marginStart="@dimen/td"
-                android:layout_toEndOf="@id/aw_">
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/px12"
+                android:layout_toEndOf="@id/rl_bar_current">
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/bcz"
+                    android:id="@id/tv_all_clip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:background="@drawable/apw"
+                    android:background="@drawable/slt_item_tag"
                     android:gravity="center"
-                    android:paddingStart="@dimen/td"
-                    android:paddingTop="@dimen/x5"
-                    android:paddingEnd="@dimen/td"
-                    android:paddingBottom="@dimen/x5"
-                    android:text="@string/zc"
-                    android:textColor="@color/xj"
-                    android:textSize="@dimen/yz" />
+                    android:paddingStart="@dimen/px12"
+                    android:paddingTop="@dimen/px4"
+                    android:paddingEnd="@dimen/px12"
+                    android:paddingBottom="@dimen/px4"
+                    android:text="@string/xiaoying_str_creator_all_clip"
+                    android:textColor="@color/text_selector_tab"
+                    android:textSize="@dimen/sp12" />
             </RelativeLayout>
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/a9x"
-                android:layout_width="@dimen/xt"
-                android:layout_height="@dimen/xt"
+                android:id="@id/iv_bar_done"
+                android:layout_width="@dimen/px56"
+                android:layout_height="@dimen/px56"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:background="@drawable/jf"
+                android:background="@drawable/btn_dcolor_ripple"
                 android:scaleType="centerInside"
-                android:src="@drawable/tp" />
+                android:src="@drawable/editor_selector_btn_ok" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/awc"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_marginTop="@dimen/x6"
-            android:layout_marginBottom="@dimen/xt"
-            android:background="@color/ag" />
+            android:id="@id/rl_children"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/px40"
+            android:layout_marginBottom="@dimen/px56"
+            android:background="@color/app_dcolor_background" />
         <RelativeLayout
-            android:id="@id/axp"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/x6"
-            android:background="@color/ag">
+            android:id="@id/rl_tittle_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px40"
+            android:background="@color/app_dcolor_background">
             <LinearLayout
-                android:id="@id/aih"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/ll_tittle_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_centerVertical="true"
                 android:orientation="horizontal">
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/bga"
+                    android:id="@id/tv_normal_filter"
                     android:layout_width="0.0dip"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1.0"
-                    android:fontFamily="@font/f"
+                    android:fontFamily="@font/poppins_semibold"
                     android:gravity="center"
-                    android:text="@string/aa0"
-                    android:textColor="@drawable/a6_"
-                    android:textSize="@dimen/z0" />
+                    android:text="@string/xiaoying_str_normal_filter_title"
+                    android:textColor="@drawable/editorx_selector_filter_tab_title"
+                    android:textSize="@dimen/sp14" />
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/bh_"
+                    android:id="@id/tv_specific_filter"
                     android:layout_width="0.0dip"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1.0"
-                    android:fontFamily="@font/f"
+                    android:fontFamily="@font/poppins_semibold"
                     android:gravity="center"
-                    android:text="@string/af5"
-                    android:textColor="@drawable/a6_"
-                    android:textSize="@dimen/z0" />
+                    android:text="@string/xiaoying_str_specific_filter_title"
+                    android:textColor="@drawable/editorx_selector_filter_tab_title"
+                    android:textSize="@dimen/sp14" />
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/bgd"
+                    android:id="@id/tv_param_adjust"
                     android:layout_width="0.0dip"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1.0"
-                    android:fontFamily="@font/f"
+                    android:fontFamily="@font/poppins_semibold"
                     android:gravity="center"
-                    android:text="@string/aaa"
-                    android:textColor="@drawable/a6_"
-                    android:textSize="@dimen/z0" />
+                    android:text="@string/xiaoying_str_param_adjust_title"
+                    android:textColor="@drawable/editorx_selector_filter_tab_title"
+                    android:textSize="@dimen/sp14" />
                 <RelativeLayout
                     android:layout_width="0.0dip"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1.0"
                     android:visibility="gone">
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:id="@id/aby"
+                        android:id="@id/iv_vip_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="12.0dip"
                         android:layout_marginTop="-6.0dip"
@@ -141,17 +141,17 @@
                 </RelativeLayout>
             </LinearLayout>
             <View
-                android:id="@id/bkn"
+                android:id="@id/v_three_tab_indicator"
                 android:layout_width="0.0dip"
                 android:layout_height="0.0dip"
                 android:layout_alignParentBottom="true"
-                android:background="@drawable/a0u"
+                android:background="@drawable/editorx_filter_shape_tab_indicator"
                 android:visibility="gone" />
             <View
-                android:layout_width="fill_parent"
-                android:layout_height="@dimen/t2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px1"
                 android:layout_alignParentBottom="true"
-                android:background="@color/aj" />
+                android:background="@color/app_dcolor_indicator" />
         </RelativeLayout>
     </RelativeLayout>
 </FrameLayout>

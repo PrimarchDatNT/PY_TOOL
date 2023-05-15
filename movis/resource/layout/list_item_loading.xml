@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/ahb"
-    android:layout_width="fill_parent"
+    android:id="@id/list_item_music_local_scan_layout"
+    android:layout_width="match_parent"
     android:layout_height="50.0dip"
-    android:background="@color/bn"
+    android:background="@color/black"
     android:orientation="vertical"
     android:visibility="gone">
     <TextView
-        android:id="@id/aha"
+        android:id="@id/list_item_music_load_more"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="@string/aia"
-        android:textColor="@color/a01" />
+        android:text="@string/xiaoying_str_template_msg_load_more_template"
+        android:textColor="@color/white_p70" />
 </RelativeLayout>

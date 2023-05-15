@@ -4,9 +4,9 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <ListView
-        android:id="@id/arf"
-        android:layout_width="fill_parent"
+        android:id="@id/popup_items"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:cacheColorHint="@color/xz"
+        android:cacheColorHint="@color/transparent"
         android:divider="@null" />
 </LinearLayout>

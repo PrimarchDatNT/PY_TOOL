@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/b_7"
-    android:layout_width="fill_parent"
+    android:id="@id/titleFrame"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
     android:orientation="horizontal"
-    android:paddingStart="@dimen/mi"
-    android:paddingLeft="@dimen/mi"
-    android:paddingTop="@dimen/mi"
-    android:paddingEnd="@dimen/mi"
-    android:paddingRight="@dimen/mi"
-    android:paddingBottom="@dimen/n1">
+    android:paddingStart="@dimen/md_dialog_frame_margin"
+    android:paddingLeft="@dimen/md_dialog_frame_margin"
+    android:paddingTop="@dimen/md_dialog_frame_margin"
+    android:paddingEnd="@dimen/md_dialog_frame_margin"
+    android:paddingRight="@dimen/md_dialog_frame_margin"
+    android:paddingBottom="@dimen/md_title_frame_margin_bottom">
     <ImageView
-        android:id="@id/a3a"
+        android:id="@id/icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/mn"
-        android:layout_marginRight="@dimen/mn"
+        android:layout_marginEnd="@dimen/md_icon_margin"
+        android:layout_marginRight="@dimen/md_icon_margin"
         android:scaleType="fitXY"
         android:visibility="gone" />
     <TextView
-        android:id="@id/b_5"
-        android:layout_width="fill_parent"
+        android:id="@id/title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/c5"
-        android:textSize="@dimen/n3" />
+        android:textColor="@color/black_p87"
+        android:textSize="@dimen/md_title_textsize" />
 </LinearLayout>

@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/an0"
+    android:id="@id/music_item_image_layout"
     android:layout_width="68.0dip"
     android:layout_height="68.0dip">
     <View
-        android:id="@id/brs"
+        android:id="@id/xyui_round_img_avatar_bg"
         android:layout_width="54.0dip"
         android:layout_height="54.0dip"
         android:layout_gravity="center"
-        android:background="@drawable/b8b"
+        android:background="@drawable/xyui_round_img_avatar_bg"
         android:visibility="gone" />
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/brr"
+        android:id="@id/xyui_round_img_avatar"
         android:layout_width="48.0dip"
         android:layout_height="48.0dip"
         android:layout_gravity="center"
         app:actualImageScaleType="o1"
         app:placeholderImageScaleType="o1" />
     <View
-        android:id="@id/bru"
+        android:id="@id/xyui_round_img_play_mask"
         android:layout_width="48.0dip"
         android:layout_height="48.0dip"
         android:layout_gravity="center"
-        android:background="@drawable/b8j"
+        android:background="@drawable/xyui_shape_round_img_mask"
         android:visibility="gone" />
     <ImageView
-        android:id="@id/brt"
+        android:id="@id/xyui_round_img_play"
         android:layout_width="16.0dip"
         android:layout_height="16.0dip"
         android:layout_gravity="center"
         android:scaleType="centerCrop"
-        android:src="@drawable/b8f"
+        android:src="@drawable/xyui_selector_round_img_play_state"
         android:visibility="gone" />
 </FrameLayout>

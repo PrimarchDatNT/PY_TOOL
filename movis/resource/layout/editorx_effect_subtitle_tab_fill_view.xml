@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="@dimen/xt"
-    android:background="@drawable/jf"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px56"
+    android:background="@drawable/btn_dcolor_ripple"
     android:gravity="center"
     android:orientation="vertical">
     <ImageView
-        android:id="@id/a3b"
-        android:layout_width="@dimen/v7"
-        android:layout_height="@dimen/v7"
+        android:id="@id/iconView"
+        android:layout_width="@dimen/px24"
+        android:layout_height="@dimen/px24"
         android:layout_gravity="center_horizontal"
         android:scaleType="centerInside" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bcb"
-        android:layout_width="fill_parent"
+        android:id="@id/tvTitle"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ellipsize="end"
         android:gravity="center"
         android:maxLines="1"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/yy"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp10"
         android:textStyle="bold" />
 </LinearLayout>

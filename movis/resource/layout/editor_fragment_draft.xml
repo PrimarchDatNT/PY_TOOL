@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/b53"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/zo" />
+        android:id="@id/studio_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
     <RelativeLayout
-        android:id="@id/b56"
-        android:layout_width="fill_parent"
+        android:id="@id/studio_tips_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/l3"
+        android:background="@color/color_ff774e"
         android:clickable="true"
         android:visibility="gone">
         <TextView
-            android:id="@id/br7"
-            android:layout_width="fill_parent"
+            android:id="@id/xiaoying_txtview_help_tip"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_marginStart="10.0dip"
             android:layout_marginLeft="10.0dip"
-            android:layout_toStartOf="@id/bpf"
-            android:layout_toLeftOf="@id/bpf"
+            android:layout_toStartOf="@id/xiaoying_btn_hide"
+            android:layout_toLeftOf="@id/xiaoying_btn_hide"
             android:gravity="start|center"
             android:padding="5.0dip"
-            android:text="@string/a8c"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_help_my_studio_not_delete_tips"
+            android:textColor="@color/white"
             android:textSize="14.0sp" />
         <Button
-            android:id="@id/bpf"
+            android:id="@id/xiaoying_btn_hide"
             android:layout_width="30.0dip"
             android:layout_height="30.0dip"
             android:layout_alignParentEnd="true"
@@ -37,71 +37,71 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="10.0dip"
             android:layout_marginRight="10.0dip"
-            android:background="@drawable/e0" />
+            android:background="@drawable/app_default_close_white" />
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="100.0dip">
         <LinearLayout
-            android:id="@id/ah5"
-            android:layout_width="fill_parent"
+            android:id="@id/linearlayout_draft_search_tip"
+            android:layout_width="match_parent"
             android:layout_height="44.0dip"
-            android:background="@color/l8"
+            android:background="@color/color_ff774e_p80"
             android:orientation="horizontal"
             android:visibility="gone">
             <ImageView
-                android:id="@id/a6b"
+                android:id="@id/imgview_draft_search_icon"
                 android:layout_width="33.0dip"
                 android:layout_height="33.0dip"
                 android:layout_marginStart="10.0dip"
                 android:layout_marginLeft="10.0dip"
                 android:layout_marginTop="5.5dip"
-                android:background="@color/xz"
-                android:src="@drawable/b7s" />
+                android:background="@color/transparent"
+                android:src="@drawable/xy_studio_imgview_draft_searching_icon" />
             <TextView
-                android:id="@id/bje"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/txtview_draft_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="5.0dip"
                 android:layout_marginLeft="5.0dip"
                 android:gravity="start|center"
-                android:text="@string/o8"
-                android:textColor="@color/zo"
+                android:text="@string/xiaoying_str_Draft_prj_scan_tip"
+                android:textColor="@color/white"
                 android:textSize="13.0dip" />
         </LinearLayout>
     </RelativeLayout>
     <androidx.core.widget.NestedScrollView
-        android:id="@id/b55"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/j4"
+        android:id="@id/studio_scroll_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_eeeeee"
         android:visibility="gone">
         <RelativeLayout
-            android:id="@id/b4z"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/studio_no_video_hint_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center">
             <ImageView
-                android:id="@id/b50"
+                android:id="@id/studio_no_video_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:scaleType="centerInside"
-                android:src="@drawable/xn" />
+                android:src="@drawable/editor_studio_draft_empty_bg" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/b50"
+                android:layout_below="@id/studio_no_video_icon"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="4.0dip"
-                android:text="@string/afy"
-                android:textColor="@color/hs"
+                android:text="@string/xiaoying_str_studio_empty_tip"
+                android:textColor="@color/color_c1cad7"
                 android:textSize="12.0sp" />
         </RelativeLayout>
     </androidx.core.widget.NestedScrollView>
     <com.videoai.aivpcore.editor.studio.widget.DraftManagerView
-        android:id="@id/u6"
-        android:layout_width="fill_parent"
+        android:id="@id/draft_manager_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:visibility="gone" />

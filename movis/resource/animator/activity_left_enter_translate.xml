@@ -5,43 +5,43 @@
             android:state_enabled="true" android:state_pressed="true">
             <set>
                 <objectAnimator
-                    android:duration="@integer/o" android:propertyName="translationZ" android:valueTo="@dimen/qa" android:valueType="floatType" />
+                    android:duration="@integer/o" android:propertyName="translationZ" android:valueTo="@dimen/mtrl_extended_fab_translation_z_pressed" android:valueType="floatType" />
                 <objectAnimator
-                    android:duration="0" android:propertyName="elevation" android:valueTo="@dimen/pz" android:valueType="floatType" />
+                    android:duration="0" android:propertyName="elevation" android:valueTo="@dimen/mtrl_extended_fab_elevation" android:valueType="floatType" />
             </set>
         </item>
         <item
             android:state_enabled="true" android:state_hovered="true">
             <set>
                 <objectAnimator
-                    android:duration="@integer/o" android:propertyName="translationZ" android:valueTo="@dimen/q_" android:valueType="floatType" />
+                    android:duration="@integer/o" android:propertyName="translationZ" android:valueTo="@dimen/mtrl_extended_fab_translation_z_hovered_focused" android:valueType="floatType" />
                 <objectAnimator
-                    android:duration="0" android:propertyName="elevation" android:valueTo="@dimen/pz" android:valueType="floatType" />
+                    android:duration="0" android:propertyName="elevation" android:valueTo="@dimen/mtrl_extended_fab_elevation" android:valueType="floatType" />
             </set>
         </item>
         <item
             android:state_enabled="true" android:state_focused="true">
             <set>
                 <objectAnimator
-                    android:duration="@integer/o" android:propertyName="translationZ" android:valueTo="@dimen/q_" android:valueType="floatType" />
+                    android:duration="@integer/o" android:propertyName="translationZ" android:valueTo="@dimen/mtrl_extended_fab_translation_z_hovered_focused" android:valueType="floatType" />
                 <objectAnimator
-                    android:duration="0" android:propertyName="elevation" android:valueTo="@dimen/pz" android:valueType="floatType" />
+                    android:duration="0" android:propertyName="elevation" android:valueTo="@dimen/mtrl_extended_fab_elevation" android:valueType="floatType" />
             </set>
         </item>
         <item android:state_enabled="true">
             <set>
                 <objectAnimator
-                    android:duration="@integer/o" android:propertyName="translationZ" android:startDelay="@integer/n" android:valueTo="@dimen/q9" android:valueType="floatType" />
+                    android:duration="@integer/o" android:propertyName="translationZ" android:startDelay="@integer/n" android:valueTo="@dimen/mtrl_extended_fab_translation_z_base" android:valueType="floatType" />
                 <objectAnimator
-                    android:duration="0" android:propertyName="elevation" android:valueTo="@dimen/pz" android:valueType="floatType" />
+                    android:duration="0" android:propertyName="elevation" android:valueTo="@dimen/mtrl_extended_fab_elevation" android:valueType="floatType" />
             </set>
         </item>
         <item>
             <set>
                 <objectAnimator
-                    android:duration="0" android:propertyName="translationZ" android:valueTo="@dimen/py" android:valueType="floatType" />
+                    android:duration="0" android:propertyName="translationZ" android:valueTo="@dimen/mtrl_extended_fab_disabled_translation_z" android:valueType="floatType" />
                 <objectAnimator
-                    android:duration="0" android:propertyName="elevation" android:valueTo="@dimen/px" android:valueType="floatType" />
+                    android:duration="0" android:propertyName="elevation" android:valueTo="@dimen/mtrl_extended_fab_disabled_elevation" android:valueType="floatType" />
             </set>
         </item>
     </selector>

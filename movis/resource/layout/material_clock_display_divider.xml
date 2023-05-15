@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="@dimen/ks"
+    android:layout_width="@dimen/material_clock_display_padding"
     android:layout_height="wrap_content"
     android:layout_marginTop="4.0dip"
     android:gravity="center"
@@ -8,7 +8,7 @@
     android:includeFontPadding="false"
     android:lineSpacingExtra="0.0dip"
     android:maxEms="1"
-    android:text="@string/gd"
+    android:text="@string/material_clock_display_divider"
     android:textAppearance="?a_y"
     android:textColor="?ho"
     android:textSize="56.0dip" />

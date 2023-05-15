@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <view xmlns:android="http://schemas.android.com/apk/res/android"
     class="com.google.android.material.snackbar.SnackbarContentLayout"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="bottom"
-    android:theme="@style/p2">
+    android:theme="@style/ThemeOverlay_AppCompat_Dark">
     <TextView
-        android:id="@id/b36"
+        android:id="@id/snackbar_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start|center"
         android:layout_weight="1.0"
         android:ellipsize="end"
-        android:maxLines="@integer/j"
-        android:paddingLeft="@dimen/el"
-        android:paddingTop="@dimen/em"
-        android:paddingRight="@dimen/el"
-        android:paddingBottom="@dimen/em"
+        android:maxLines="@integer/design_snackbar_text_max_lines"
+        android:paddingLeft="@dimen/design_snackbar_padding_horizontal"
+        android:paddingTop="@dimen/design_snackbar_padding_vertical"
+        android:paddingRight="@dimen/design_snackbar_padding_horizontal"
+        android:paddingBottom="@dimen/design_snackbar_padding_vertical"
         android:textAlignment="viewStart"
-        android:textAppearance="@style/m5" />
+        android:textAppearance="@style/TextAppearance_Design_Snackbar_Message" />
     <Button
-        android:id="@id/b35"
+        android:id="@id/snackbar_action"
         style="?dw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|center"
-        android:layout_marginStart="@dimen/ei"
-        android:layout_marginLeft="@dimen/ei"
+        android:layout_marginStart="@dimen/design_snackbar_extra_spacing_horizontal"
+        android:layout_marginLeft="@dimen/design_snackbar_extra_spacing_horizontal"
         android:minWidth="48.0dip"
         android:textColor="?hc"
         android:visibility="gone" />

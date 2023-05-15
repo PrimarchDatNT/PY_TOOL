@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@android:id/text1"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/b6"
+    android:background="@color/applovin_sdk_listViewBackground"
     android:gravity="center_horizontal"
-    android:minHeight="@dimen/cq"
+    android:minHeight="@dimen/applovin_sdk_mediationDebuggerSectionHeight"
     android:paddingStart="?android:listPreferredItemPaddingStart"
     android:paddingLeft="?android:listPreferredItemPaddingLeft"
     android:paddingTop="8.0dip"
@@ -13,5 +13,5 @@
     android:paddingRight="?android:listPreferredItemPaddingRight"
     android:paddingBottom="8.0dip"
     android:textAppearance="?android:textAppearanceListItemSmall"
-    android:textColor="@color/b7"
-    android:textSize="@dimen/cr" />
+    android:textColor="@color/applovin_sdk_listViewSectionTextColor"
+    android:textSize="@dimen/applovin_sdk_mediationDebuggerSectionTextSize" />

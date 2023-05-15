@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_below="@id/afg"
+    android:layout_below="@id/layout_preview_background"
     android:layout_alignParentBottom="true"
-    android:background="@color/bn"
+    android:background="@color/black"
     android:visibility="visible">
     <RelativeLayout
-        android:id="@id/adc"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_2lev_hide"
+        android:layout_width="match_parent"
         android:layout_height="44.0dip"
         android:layout_alignParentBottom="true"
-        android:background="@color/dt">
+        android:background="@color/color_141414">
         <View
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="1.0px"
             android:layout_alignParentTop="true"
             android:background="#ff262626" />
@@ -21,24 +21,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:background="@drawable/o0"
+            android:background="@drawable/editor_icon_btn_ok_n"
             android:clickable="false" />
     </RelativeLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/ayt"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/adc"
+        android:id="@id/rv_editor_theme_title_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_2lev_hide"
         android:paddingTop="7.0dip" />
     <TextView
-        android:id="@id/bjg"
+        android:id="@id/txtview_empty_titles_tip"
         android:layout_width="wrap_content"
         android:layout_height="40.0dip"
         android:layout_centerInParent="true"
-        android:background="@drawable/x9"
+        android:background="@drawable/editor_shape_theme_title_dashed_round_corner"
         android:gravity="center"
-        android:text="@string/z6"
-        android:textColor="@color/f4"
+        android:text="@string/xiaoying_str_community_no_equipment_hint"
+        android:textColor="@color/color_424242"
         android:textSize="15.0sp"
         android:visibility="gone" />
 </RelativeLayout>

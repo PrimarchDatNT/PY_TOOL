@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_alignParentBottom="true">
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
-        android:background="@color/bn">
+        android:background="@color/black">
         <RelativeLayout
-            android:id="@id/af7"
-            android:layout_width="fill_parent"
+            android:id="@id/layout_music_select"
+            android:layout_width="match_parent"
             android:layout_height="44.0dip"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="24.0dip"
             android:visibility="visible">
             <LinearLayout
-                android:id="@id/aee"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/layout_editor_no_choose_music"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_alignParentBottom="true"
                 android:gravity="bottom|center"
                 android:orientation="horizontal"
                 android:visibility="gone">
                 <TextView
-                    android:id="@id/bj9"
+                    android:id="@id/txtview_add_music"
                     android:layout_width="136.0dip"
                     android:layout_height="36.0dip"
-                    android:background="@drawable/w_"
-                    android:drawableLeft="@drawable/rh"
+                    android:background="@drawable/editor_shape_preview_music_add_music"
+                    android:drawableLeft="@drawable/editor_icon_replace_music"
                     android:gravity="center"
                     android:paddingLeft="30.0dip"
                     android:paddingRight="31.0dip"
-                    android:text="@string/ak3"
-                    android:textColor="@color/zo" />
+                    android:text="@string/xiaoying_str_ve_bgm_add"
+                    android:textColor="@color/white" />
                 <FrameLayout
-                    android:id="@id/aek"
+                    android:id="@id/layout_extrac_music"
                     android:layout_width="wrap_content"
                     android:layout_height="44.0dip"
                     android:layout_marginLeft="24.0dip">
                     <TextView
-                        android:id="@id/bjj"
+                        android:id="@id/txtview_extrac_music"
                         android:layout_width="wrap_content"
                         android:layout_height="36.0dip"
                         android:layout_gravity="bottom"
                         android:layout_marginRight="8.0dip"
-                        android:background="@drawable/w_"
+                        android:background="@drawable/editor_shape_preview_music_add_music"
                         android:gravity="center"
                         android:paddingLeft="20.0dip"
                         android:paddingRight="20.0dip"
-                        android:text="@string/a6g"
-                        android:textColor="@color/zo" />
+                        android:text="@string/xiaoying_str_extract_video_music_title"
+                        android:textColor="@color/white" />
                     <ImageView
-                        android:id="@id/ac1"
+                        android:id="@id/iv_vip_resource"
                         android:layout_width="22.0dip"
                         android:layout_height="22.0dip"
                         android:layout_gravity="bottom|center|right"
                         android:layout_marginBottom="22.0dip"
                         android:scaleType="fitXY"
-                        android:src="@drawable/a63" />
+                        android:src="@drawable/editorx_select_text_view_vip_icon" />
                     <ImageView
-                        android:id="@id/aa1"
+                        android:id="@id/iv_free_for_time_limit_resource"
                         android:layout_width="wrap_content"
                         android:layout_height="16.0dip"
                         android:layout_gravity="bottom|center|right"
@@ -70,47 +70,47 @@
                 </FrameLayout>
             </LinearLayout>
             <RelativeLayout
-                android:id="@id/aed"
-                android:layout_width="fill_parent"
+                android:id="@id/layout_editor_choosed_music"
+                android:layout_width="match_parent"
                 android:layout_height="36.0dip"
                 android:layout_alignWithParentIfMissing="true"
                 android:layout_alignParentBottom="true"
-                android:background="@color/xz"
+                android:background="@color/transparent"
                 android:visibility="visible">
                 <TextView
-                    android:id="@id/bja"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:id="@id/txtview_bgm_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="10.0dip"
-                    android:layout_toStartOf="@id/ahi"
-                    android:layout_toLeftOf="@id/ahi"
-                    android:background="@drawable/w_"
-                    android:drawableStart="@drawable/rh"
-                    android:drawableLeft="@drawable/rh"
-                    android:drawableEnd="@drawable/ayr"
-                    android:drawableRight="@drawable/ayr"
+                    android:layout_toStartOf="@id/llMusicEdit"
+                    android:layout_toLeftOf="@id/llMusicEdit"
+                    android:background="@drawable/editor_shape_preview_music_add_music"
+                    android:drawableStart="@drawable/editor_icon_replace_music"
+                    android:drawableLeft="@drawable/editor_icon_replace_music"
+                    android:drawableEnd="@drawable/vivavideo_tool_preview_next_n"
+                    android:drawableRight="@drawable/vivavideo_tool_preview_next_n"
                     android:drawablePadding="10.0dip"
                     android:ellipsize="end"
                     android:gravity="start|center"
                     android:paddingStart="16.0dip"
                     android:paddingLeft="20.0dip"
                     android:singleLine="true"
-                    android:text="@string/ano"
-                    android:textColor="@color/zo"
+                    android:text="@string/xiaoying_str_ve_no_bgm_title_tip"
+                    android:textColor="@color/white"
                     android:textSize="14.0sp" />
                 <LinearLayout
-                    android:id="@id/ahi"
+                    android:id="@id/llMusicEdit"
                     android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
                     android:layout_marginLeft="14.0dip"
                     android:gravity="end|center">
                     <ImageView
-                        android:id="@id/aaz"
+                        android:id="@id/iv_reset_music"
                         android:layout_width="wrap_content"
-                        android:layout_height="fill_parent"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:clickable="true"
                         android:paddingStart="10.0dip"
@@ -118,11 +118,11 @@
                         android:paddingEnd="10.0dip"
                         android:paddingRight="10.0dip"
                         android:scaleType="centerInside"
-                        android:src="@drawable/s4" />
+                        android:src="@drawable/editor_icon_theme_bgm_recover_new" />
                     <ImageView
-                        android:id="@id/a_9"
+                        android:id="@id/iv_del_music"
                         android:layout_width="wrap_content"
-                        android:layout_height="fill_parent"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:clickable="true"
                         android:paddingStart="10.0dip"
@@ -130,15 +130,15 @@
                         android:paddingEnd="10.0dip"
                         android:paddingRight="10.0dip"
                         android:scaleType="centerInside"
-                        android:src="@drawable/s1" />
+                        android:src="@drawable/editor_icon_theme_bgm_delete_new" />
                 </LinearLayout>
             </RelativeLayout>
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/av1"
-            android:layout_width="fill_parent"
+            android:id="@id/relativelayout_music_panel"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@id/af7"
+            android:layout_above="@id/layout_music_select"
             android:layout_marginBottom="12.0dip"
             android:orientation="horizontal">
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -148,39 +148,39 @@
                 android:paddingLeft="12.0dip"
                 android:paddingRight="12.0dip">
                 <ImageView
-                    android:id="@id/vi"
+                    android:id="@id/editor_old_volume_left_icon"
                     android:layout_width="16.0dip"
                     android:layout_height="16.0dip"
-                    android:src="@drawable/ui"
-                    app:layout_constraintLeft_toLeftOf="apv"
-                    app:layout_constraintTop_toTopOf="apv" />
+                    android:src="@drawable/editor_selector_seekbar_music_icon"
+                    app:layout_constraintLeft_toLeftOf="parrent"
+                    app:layout_constraintTop_toTopOf="parrent" />
                 <com.videoai.aivpcore.editor.widget.seekbar.IndicatorSeekBar
-                    android:id="@id/b0s"
-                    android:layout_width="fill_parent"
+                    android:id="@id/seekbar_old_volume"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16.0dip"
                     app:isb_indicator_color="@android:color/white"
                     app:isb_indicator_text_color="@android:color/black"
                     app:isb_indicator_text_size="14.0sp"
-                    app:isb_indicator_thumb_text_color="@color/f5"
+                    app:isb_indicator_thumb_text_color="@color/color_45454D"
                     app:isb_indicator_thumb_text_size="9.0sp"
                     app:isb_max="200.0"
                     app:isb_progress="0.0"
-                    app:isb_thumb_drawable="@drawable/tc"
+                    app:isb_thumb_drawable="@drawable/editor_seekbar_vague_control_thumb"
                     app:isb_thumb_size="18.0dip"
-                    app:isb_track_background_color="@color/zv"
-                    app:isb_track_progress_color="@color/zo"
+                    app:isb_track_background_color="@color/white_p20"
+                    app:isb_track_progress_color="@color/white"
                     app:isb_track_rounded_corners="true" />
                 <TextView
-                    android:id="@id/b0r"
+                    android:id="@id/seekbar_editor_old_volume_left_label_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2.0dip"
-                    android:text="@string/a9m"
-                    android:textColor="@color/zw"
+                    android:text="@string/xiaoying_str_magic_sound_original"
+                    android:textColor="@color/white_p30"
                     android:textSize="9.0sp"
-                    app:layout_constraintLeft_toLeftOf="apv"
-                    app:layout_constraintTop_toBottomOf="@id/vi" />
+                    app:layout_constraintLeft_toLeftOf="parrent"
+                    app:layout_constraintTop_toBottomOf="@id/editor_old_volume_left_icon" />
             </androidx.constraintlayout.widget.ConstraintLayout>
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="0.0dip"
@@ -189,49 +189,49 @@
                 android:paddingLeft="12.0dip"
                 android:paddingRight="12.0dip">
                 <ImageView
-                    android:id="@id/va"
+                    android:id="@id/editor_config_music_left_icon"
                     android:layout_width="16.0dip"
                     android:layout_height="16.0dip"
-                    android:src="@drawable/ug"
-                    app:layout_constraintLeft_toLeftOf="apv"
-                    app:layout_constraintTop_toTopOf="apv" />
+                    android:src="@drawable/editor_selector_replace_music_icon"
+                    app:layout_constraintLeft_toLeftOf="parrent"
+                    app:layout_constraintTop_toTopOf="parrent" />
                 <com.videoai.aivpcore.editor.widget.seekbar.IndicatorSeekBar
-                    android:id="@id/b0p"
-                    android:layout_width="fill_parent"
+                    android:id="@id/seekbar_config_music"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16.0dip"
                     app:isb_indicator_color="@android:color/white"
                     app:isb_indicator_text_color="@android:color/black"
                     app:isb_indicator_text_size="14.0sp"
-                    app:isb_indicator_thumb_text_color="@color/f5"
+                    app:isb_indicator_thumb_text_color="@color/color_45454D"
                     app:isb_indicator_thumb_text_size="9.0sp"
                     app:isb_max="100.0"
                     app:isb_progress="0.0"
-                    app:isb_thumb_drawable="@drawable/tc"
+                    app:isb_thumb_drawable="@drawable/editor_seekbar_vague_control_thumb"
                     app:isb_thumb_size="18.0dip"
-                    app:isb_track_background_color="@color/zv"
-                    app:isb_track_progress_color="@color/zo"
+                    app:isb_track_background_color="@color/white_p20"
+                    app:isb_track_progress_color="@color/white"
                     app:isb_track_rounded_corners="true" />
                 <TextView
-                    android:id="@id/vb"
+                    android:id="@id/editor_config_music_left_label_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2.0dip"
-                    android:text="@string/ak6"
-                    android:textColor="@color/zw"
+                    android:text="@string/xiaoying_str_ve_bgm_title"
+                    android:textColor="@color/white_p30"
                     android:textSize="9.0sp"
-                    app:layout_constraintLeft_toLeftOf="apv"
-                    app:layout_constraintTop_toBottomOf="@id/va" />
+                    app:layout_constraintLeft_toLeftOf="parrent"
+                    app:layout_constraintTop_toBottomOf="@id/editor_config_music_left_icon" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
         <RelativeLayout
-            android:id="@id/av2"
-            android:layout_width="fill_parent"
+            android:id="@id/relativelayout_music_panel2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/xz"
+            android:background="@color/transparent"
             android:visibility="gone">
             <com.videoai.aivpcore.common.ui.Switch
-                style="@style/y_"
+                style="@style/xiaoying_ve_edit_switcher"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -244,16 +244,16 @@
                 android:focusable="false"
                 android:visibility="gone" />
             <com.videoai.aivpcore.editor.preview.fragment.theme.widget.ThemeAudioTrackMixView
-                android:id="@id/aky"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent" />
+                android:id="@id/mixview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
         </RelativeLayout>
         <com.videoai.aivpcore.explorer.ui.RangeLogicSeekBar
-            android:id="@id/an5"
-            android:layout_width="fill_parent"
+            android:id="@id/music_item_play_seek_bar"
+            android:layout_width="match_parent"
             android:layout_height="30.0dip"
-            android:layout_above="@id/av1"
+            android:layout_above="@id/relativelayout_music_panel"
             android:layout_marginBottom="5.0dip"
-            android:background="@color/xz" />
+            android:background="@color/transparent" />
     </RelativeLayout>
 </RelativeLayout>

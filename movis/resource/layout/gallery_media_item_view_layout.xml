@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.videoedit.gallery.widget.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:layout_margin="@dimen/uk">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/px2">
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/a_8"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/iv_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:padding="1.0dip"
         android:scaleType="centerCrop"
-        android:src="@drawable/aeg" />
+        android:src="@drawable/gallery_default_pic_cover" />
     <LinearLayout
-        android:id="@id/aeb"
+        android:id="@id/layout_duration"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/ny"
+        android:layout_alignBottom="@id/card_wrapper"
         android:layout_alignParentEnd="true"
-        android:layout_margin="@dimen/x5">
+        android:layout_margin="@dimen/px4">
         <TextView
-            android:id="@id/bil"
+            android:id="@id/tv_video_duration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="@drawable/ahc"
-            android:paddingStart="@dimen/yf"
-            android:paddingTop="@dimen/uk"
-            android:paddingEnd="@dimen/yf"
-            android:paddingBottom="@dimen/uk"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/yy" />
+            android:background="@drawable/gallery_shape_item_shadow"
+            android:paddingStart="@dimen/px8"
+            android:paddingTop="@dimen/px2"
+            android:paddingEnd="@dimen/px8"
+            android:paddingBottom="@dimen/px2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp10" />
     </LinearLayout>
     <FrameLayout
-        android:id="@id/apc"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/ahb"
+        android:id="@id/order_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gallery_shape_item_hover"
         android:visibility="gone">
         <View
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/vh"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px26"
             android:layout_gravity="bottom"
-            android:layout_margin="@dimen/t2"
-            android:background="@color/bx" />
+            android:layout_margin="@dimen/px1"
+            android:background="@color/black_p50" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="@dimen/ul"
-            android:layout_height="@dimen/ul"
+            android:layout_width="@dimen/px20"
+            android:layout_height="@dimen/px20"
             android:layout_gravity="bottom"
-            android:layout_margin="@dimen/x5"
-            android:src="@drawable/aeb" />
+            android:layout_margin="@dimen/px4"
+            android:src="@drawable/gallery_checked_select_item" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bgc"
+            android:id="@id/tv_order"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="gone" />
         <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@id/as1"
-            android:layout_width="@dimen/ul"
-            android:layout_height="@dimen/ul"
+            android:id="@id/preview_icon"
+            android:layout_width="@dimen/px20"
+            android:layout_height="@dimen/px20"
             android:layout_gravity="end|bottom|center"
-            android:layout_margin="@dimen/x5"
-            android:background="@drawable/jf"
-            android:src="@drawable/agp"
+            android:layout_margin="@dimen/px4"
+            android:background="@drawable/btn_dcolor_ripple"
+            android:src="@drawable/gallery_media_video_trim_icon"
             android:visibility="invisible" />
     </FrameLayout>
 </com.videoedit.gallery.widget.SquareRelativeLayout>

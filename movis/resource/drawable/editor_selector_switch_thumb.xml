@@ -5,7 +5,7 @@
             <item android:bottom="1.5dip" android:top="1.5dip">
                 <shape android:shape="oval">
                     <size android:width="24.0dip" android:height="24.0dip" />
-                    <solid android:color="@color/e5" />
+                    <solid android:color="@color/color_202020" />
                 </shape>
             </item>
         </layer-list>
@@ -15,7 +15,7 @@
             <item android:bottom="1.5dip" android:top="1.5dip">
                 <shape android:shape="oval">
                     <size android:width="24.0dip" android:height="24.0dip" />
-                    <solid android:color="@color/n_" />
+                    <solid android:color="@color/default_app_color" />
                 </shape>
             </item>
         </layer-list>
@@ -25,7 +25,7 @@
             <item android:bottom="1.5dip" android:top="1.5dip">
                 <shape android:shape="oval">
                     <size android:width="24.0dip" android:height="24.0dip" />
-                    <solid android:color="@color/n_" />
+                    <solid android:color="@color/default_app_color" />
                 </shape>
             </item>
         </layer-list>
@@ -35,7 +35,7 @@
             <item android:bottom="1.5dip" android:top="1.5dip">
                 <shape android:shape="oval">
                     <size android:width="24.0dip" android:height="24.0dip" />
-                    <solid android:color="@color/zo" />
+                    <solid android:color="@color/white" />
                 </shape>
             </item>
         </layer-list>

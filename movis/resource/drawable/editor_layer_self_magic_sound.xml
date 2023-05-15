@@ -5,11 +5,11 @@
             <size
                 android:width="62.0dip" android:height="62.0dip" />
             <gradient
-                android:angle="45.0" android:endColor="@color/lv" android:startColor="@color/k6" />
+                android:angle="45.0" android:endColor="@color/lv" android:startColor="@color/color_ff0049" />
         </shape>
     </item>
     <item
         android:bottom="19.0dip" android:gravity="center" android:left="19.0dip" android:right="19.0dip" android:top="19.0dip">
-        <bitmap android:src="@drawable/rp" />
+        <bitmap android:src="@drawable/editor_icon_self_magic_sound" />
     </item>
 </layer-list>

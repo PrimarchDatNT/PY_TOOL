@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="200.0dip"
-    android:background="@color/yz">
+    android:background="@color/veds_color_bg_black_1">
     <LinearLayout
-        android:id="@id/aim"
-        android:layout_width="fill_parent"
+        android:id="@id/load_more_load_fail_view"
+        android:layout_width="match_parent"
         android:layout_height="50.0dip"
         android:layout_marginBottom="150.0dip"
         android:gravity="center"
         android:orientation="horizontal">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/x6"
-            style="@style/x3"
+            android:id="@id/fail_text"
+            style="@style/veds_latn_font_body_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8.0dip"
-            android:text="@string/axo"
-            android:textColor="@color/zi"
+            android:text="@string/xy_module_gallery_loading_fail_txt"
+            android:textColor="@color/veds_color_fill_white_1"
             app:autoSizeMaxTextSize="20.0sp"
             app:autoSizeMinTextSize="15.0sp"
             app:autoSizeStepGranularity="1.0sp"
             app:autoSizeTextType="bjy" />
         <androidx.appcompat.widget.AppCompatTextView
-            style="@style/x3"
+            style="@style/veds_latn_font_body_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/axp"
-            android:textColor="@color/zf" />
+            android:text="@string/xy_module_gallery_loading_retry_txt"
+            android:textColor="@color/veds_color_fill_blue_50" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/aio"
-        android:layout_width="fill_parent"
+        android:id="@id/load_more_loading_view"
+        android:layout_width="match_parent"
         android:layout_height="50.0dip"
         android:layout_marginBottom="150.0dip"
         android:gravity="center"
         android:orientation="horizontal">
         <ProgressBar
-            android:id="@id/as8"
+            android:id="@id/progressBar"
             android:layout_width="24.0dip"
             android:layout_height="24.0dip"
-            android:indeterminateDrawable="@drawable/aec"
+            android:indeterminateDrawable="@drawable/gallery_com_progressbar_loading_img"
             android:indeterminateDuration="1000" />
         <androidx.appcompat.widget.AppCompatTextView
-            style="@style/x3"
+            style="@style/veds_latn_font_body_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8.0dip"
-            android:text="@string/axq"
-            android:textColor="@color/zj" />
+            android:text="@string/xy_module_gallery_loading_txt"
+            android:textColor="@color/veds_color_fill_white_2" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/ail"
-        android:layout_width="fill_parent"
+        android:id="@id/load_more_load_end_view"
+        android:layout_width="match_parent"
         android:layout_height="50.0dip"
         android:layout_marginBottom="150.0dip"
         android:gravity="center">
         <androidx.appcompat.widget.AppCompatTextView
-            style="@style/x3"
+            style="@style/veds_latn_font_body_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8.0dip"
-            android:text="@string/axn"
-            android:textColor="@color/zj" />
+            android:text="@string/xy_module_gallery_loading_complete_txt"
+            android:textColor="@color/veds_color_fill_white_2" />
     </LinearLayout>
 </FrameLayout>

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:rotateView="http://schemas.android.com/apk/res-auto"
-    android:id="@id/n_"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/azt">
+    android:id="@id/cam_layout_command_hor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xiaoying_cam_haft_trans_bg">
     <RelativeLayout
-        android:id="@id/nd"
+        android:id="@id/cam_layout_shutter_hor"
         android:layout_width="89.0dip"
-        android:layout_height="@dimen/a43"
+        android:layout_height="@dimen/v4_cam_default_shutter_btn_height"
         android:layout_centerInParent="true">
         <ImageView
-            android:id="@id/atx"
+            android:id="@id/rec_blink"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_toEndOf="@id/lf"
-            android:layout_toRightOf="@id/lf"
-            android:src="@drawable/au1"
+            android:layout_toEndOf="@id/btn_rec_hor"
+            android:layout_toRightOf="@id/btn_rec_hor"
+            android:src="@drawable/v4_xiaoying_cam_rec1_lan"
             android:visibility="gone" />
         <com.videoai.aivpcore.camera.ui.view.CamRecordView
-            android:id="@id/lf"
+            android:id="@id/btn_rec_hor"
             android:layout_width="78.0dip"
             android:layout_height="78.0dip"
             android:layout_centerInParent="true"
@@ -28,41 +28,41 @@
             rotateView:indicator_color="#ffff774e" />
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_toStartOf="@id/nl"
-        android:layout_toLeftOf="@id/nl"
-        android:layout_toEndOf="@id/nd"
-        android:layout_toRightOf="@id/nd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@id/cam_next_layout"
+        android:layout_toLeftOf="@id/cam_next_layout"
+        android:layout_toEndOf="@id/cam_layout_shutter_hor"
+        android:layout_toRightOf="@id/cam_layout_shutter_hor"
         android:visibility="visible">
         <com.videoai.aivpcore.camera.ui.view.BackDeleteButton
-            android:id="@id/bpg"
+            android:id="@id/xiaoying_cam_btn_delete"
             android:layout_width="60.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:visibility="visible"
             rotateView:isPortrait="false" />
         <com.videoai.aivpcore.ui.view.RotateImageView
-            android:id="@id/bph"
+            android:id="@id/xiaoying_cam_btn_pip_gallery"
             android:layout_width="60.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
-            android:src="@drawable/aze"
+            android:src="@drawable/xiaoying_cam_btn_gallery_hor_selector"
             android:visibility="invisible"
             rotateView:rotation="270" />
         <com.videoai.aivpcore.ui.view.RotateImageView
-            android:id="@id/bpn"
+            android:id="@id/xiaoying_cam_pip_btn_back"
             android:layout_width="48.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
-            android:src="@drawable/at0"
+            android:src="@drawable/v4_xiaoying_cam_btn_pip_back_another_selector"
             android:visibility="invisible"
             rotateView:rotation="270" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/nl"
+        android:id="@id/cam_next_layout"
         android:layout_width="84.0dip"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
@@ -71,12 +71,12 @@
         android:paddingEnd="15.0dip"
         android:paddingRight="15.0dip">
         <com.videoai.aivpcore.ui.view.RotateTextView
-            android:id="@id/n0"
+            android:id="@id/cam_btn_next_hor"
             android:layout_width="54.0dip"
             android:layout_height="54.0dip"
             android:layout_centerVertical="true"
-            android:text="@string/w7"
-            android:textColor="@color/l3"
+            android:text="@string/xiaoying_str_com_next_step_title"
+            android:textColor="@color/color_ff774e"
             android:textSize="17.0sp"
             rotateView:rotation="270" />
     </RelativeLayout>

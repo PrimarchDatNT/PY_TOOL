@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/aip"
-    android:layout_width="fill_parent"
+    android:id="@id/load_more_refresh_layout"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/zo"
+    android:background="@color/white"
     android:orientation="vertical">
     <FrameLayout
-        android:id="@id/b7s"
-        android:layout_width="fill_parent"
+        android:id="@id/template_load_more_loadding_view"
+        android:layout_width="match_parent"
         android:layout_height="50.0dip"
-        android:background="@color/zo"
+        android:background="@color/white"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/aia"
-            android:textColor="@color/hg" />
+            android:text="@string/xiaoying_str_template_msg_load_more_template"
+            android:textColor="@color/color_b3b3b3" />
     </FrameLayout>
     <FrameLayout
-        android:id="@id/b7r"
-        android:layout_width="fill_parent"
+        android:id="@id/template_load_more_load_fail_view"
+        android:layout_width="match_parent"
         android:layout_height="50.0dip"
-        android:background="@color/zo"
+        android:background="@color/white"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/aia"
-            android:textColor="@color/hg" />
+            android:text="@string/xiaoying_str_template_msg_load_more_template"
+            android:textColor="@color/color_b3b3b3" />
     </FrameLayout>
     <FrameLayout
-        android:id="@id/b7q"
-        android:layout_width="fill_parent"
+        android:id="@id/template_load_more_load_end_view"
+        android:layout_width="match_parent"
         android:layout_height="50.0dip"
-        android:background="@color/zo"
+        android:background="@color/white"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="@string/z4"
-            android:textColor="@color/hg" />
+            android:text="@string/xiaoying_str_community_load_finish_nomore_tip"
+            android:textColor="@color/color_b3b3b3" />
     </FrameLayout>
     <TextView
-        android:id="@id/b7f"
+        android:id="@id/template_footer_feedback_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="5.0dip"
         android:layout_marginBottom="15.0dip"
-        android:textColor="@color/f5"
+        android:textColor="@color/color_45454D"
         android:textSize="14.0sp" />
 </LinearLayout>

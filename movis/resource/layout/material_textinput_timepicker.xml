@@ -7,14 +7,14 @@
     android:baselineAligned="false"
     android:layoutDirection="ltr"
     android:orientation="horizontal"
-    app:layout_constraintLeft_toLeftOf="apv"
-    app:layout_constraintRight_toRightOf="apv"
-    app:layout_constraintTop_toTopOf="apv">
-    <include layout="@layout/s8" />
+    app:layout_constraintLeft_toLeftOf="parrent"
+    app:layout_constraintRight_toRightOf="parrent"
+    app:layout_constraintTop_toTopOf="parrent">
+    <include layout="@layout/material_timepicker_textinput_display" />
     <include
-        android:id="@id/ajl"
-        layout="@layout/ry"
-        android:layout_width="@dimen/l0"
-        android:layout_height="@dimen/ky"
-        android:layout_marginStart="@dimen/kz" />
+        android:id="@id/material_clock_period_toggle"
+        layout="@layout/material_clock_period_toggle"
+        android:layout_width="@dimen/material_clock_period_toggle_width"
+        android:layout_height="@dimen/material_clock_period_toggle_height"
+        android:layout_marginStart="@dimen/material_clock_period_toggle_margin_left" />
 </LinearLayout>

@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <com.videoai.aivpcore.picker.view.CoordinatorContainer
-        android:id="@id/rj"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/coordinator_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical">
         <FrameLayout
-            android:id="@id/aqd"
-            android:layout_width="fill_parent"
+            android:id="@id/picker_blank"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent" />
         <androidx.viewpager.widget.ViewPager
-            android:id="@id/aqk"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@color/bn"
+            android:id="@id/picker_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
             android:paddingBottom="44.0dip" />
     </com.videoai.aivpcore.picker.view.CoordinatorContainer>
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@color/dt">
+        android:background="@color/color_141414">
         <com.google.android.material.tabs.TabLayout
-            android:id="@id/aqi"
+            android:id="@id/picker_tablayout"
             android:layout_width="wrap_content"
             android:layout_height="44.0dip"
             android:layout_centerHorizontal="true"
             app:layout_scrollFlags="azw|wa"
             app:tabGravity="o0"
-            app:tabIndicatorColor="@color/n_"
+            app:tabIndicatorColor="@color/default_app_color"
             app:tabIndicatorHeight="2.0dip"
             app:tabMode="b01"
-            app:tabSelectedTextColor="@color/n_"
-            app:tabTextColor="@color/g9" />
+            app:tabSelectedTextColor="@color/default_app_color"
+            app:tabTextColor="@color/color_8E8E93" />
     </RelativeLayout>
 </RelativeLayout>

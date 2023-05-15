@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/o1" android:state_pressed="true" />
-    <item android:drawable="@drawable/nz" android:state_enabled="false" />
-    <item android:drawable="@drawable/o0" />
+    <item android:drawable="@drawable/editor_icon_btn_ok_p" android:state_pressed="true" />
+    <item android:drawable="@drawable/editor_icon_btn_ok_dis" android:state_enabled="false" />
+    <item android:drawable="@drawable/editor_icon_btn_ok_n" />
 </selector>

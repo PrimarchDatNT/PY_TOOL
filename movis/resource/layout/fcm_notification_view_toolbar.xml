@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/xx"
-    android:layout_width="fill_parent"
+    android:id="@id/fcm_notification_toolbar"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="?a4"
         android:layout_gravity="center_vertical">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/j9"
+            android:id="@id/bt_toolbar_back"
             android:layout_width="?a4"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_centerVertical="true"
             android:background="?a5d"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/aiy" />
+            app:srcCompat="@drawable/ic_app_back" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bid"
+            android:id="@id/tv_toolbar_title"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:layout_toEndOf="@id/j9"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/bt_toolbar_back"
             android:ellipsize="marquee"
-            android:fontFamily="@font/f"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="center_vertical"
             android:marqueeRepeatLimit="marquee_forever"
             android:singleLine="true"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/z2"
+            android:textSize="@dimen/sp18"
             android:textStyle="bold" />
     </RelativeLayout>
-    <include layout="@layout/od" />
+    <include layout="@layout/fcm_notification_view_border" />
 </LinearLayout>

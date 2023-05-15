@@ -49,23 +49,23 @@
         <item quantity="one">%d year ago</item>
     </plurals>
     <plurals name="xiaoying_str_meterial_filter_countdesc_plurals">
-        <item quantity="other">@string/a9s</item>
-        <item quantity="zero">@string/a9t</item>
-        <item quantity="one">@string/a9r</item>
+        <item quantity="other">@string/xiaoying_str_meterial_filter_countdesc_other</item>
+        <item quantity="zero">@string/xiaoying_str_meterial_filter_countdesc_zero</item>
+        <item quantity="one">@string/xiaoying_str_meterial_filter_countdesc_one</item>
     </plurals>
     <plurals name="xiaoying_str_ve_gallery_file_found_plurals">
-        <item quantity="other">@string/alh</item>
-        <item quantity="zero">@string/ali</item>
-        <item quantity="one">@string/alg</item>
+        <item quantity="other">@string/xiaoying_str_ve_gallery_file_found_other</item>
+        <item quantity="zero">@string/xiaoying_str_ve_gallery_file_found_zero</item>
+        <item quantity="one">@string/xiaoying_str_ve_gallery_file_found_one</item>
     </plurals>
     <plurals name="xiaoying_str_vip_home_free_trial_day_pluals">
-        <item quantity="other">@string/arm</item>
-        <item quantity="zero">@string/arn</item>
-        <item quantity="one">@string/arl</item>
+        <item quantity="other">@string/xiaoying_str_vip_home_free_trial_day_other</item>
+        <item quantity="zero">@string/xiaoying_str_vip_home_free_trial_day_zero</item>
+        <item quantity="one">@string/xiaoying_str_vip_home_free_trial_day_one</item>
     </plurals>
     <plurals name="xiaoying_str_vip_popup_free_trial_desc_pluals">
-        <item quantity="other">@string/arw</item>
-        <item quantity="zero">@string/arx</item>
-        <item quantity="one">@string/arv</item>
+        <item quantity="other">@string/xiaoying_str_vip_popup_free_trial_desc_other</item>
+        <item quantity="zero">@string/xiaoying_str_vip_popup_free_trial_desc_zero</item>
+        <item quantity="one">@string/xiaoying_str_vip_popup_free_trial_desc_one</item>
     </plurals>
 </resources>

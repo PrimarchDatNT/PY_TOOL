@@ -5,26 +5,26 @@
     android:background="@android:color/white"
     android:minWidth="300.0dip"
     android:minHeight="250.0dip"
-    android:paddingBottom="@dimen/dj">
+    android:paddingBottom="@dimen/default_margin">
     <LinearLayout
-        android:id="@id/ez"
-        android:layout_width="fill_parent"
+        android:id="@id/applovin_native_ad_content_linear_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_margin="@dimen/dj"
-        android:layout_toStartOf="@id/fc"
-        android:layout_toLeftOf="@id/fc"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_toStartOf="@id/applovin_native_options_view"
+        android:layout_toLeftOf="@id/applovin_native_options_view"
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <FrameLayout
-            android:id="@id/f8"
-            style="@style/jz"
-            android:layout_marginEnd="@dimen/dj"
-            android:layout_marginRight="@dimen/dj">
+            android:id="@id/applovin_native_icon_view"
+            style="@style/SmallIconView"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin">
             <ImageView
-                android:id="@id/f7"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/applovin_native_icon_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter" />
         </FrameLayout>
@@ -38,16 +38,16 @@
                 android:orientation="horizontal">
                 <TextView style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallAdBadgeTextView" />
                 <TextView
-                    android:id="@id/fd"
+                    android:id="@id/applovin_native_title_text_view"
                     style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingTitleTextView" />
             </LinearLayout>
             <TextView
-                android:id="@id/f1"
+                android:id="@id/applovin_native_advertiser_text_view"
                 style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingBodyTextView" />
         </LinearLayout>
     </LinearLayout>
     <FrameLayout
-        android:id="@id/fc"
+        android:id="@id/applovin_native_options_view"
         android:layout_width="wrap_content"
         android:layout_height="20.0dip"
         android:layout_alignParentTop="true"
@@ -58,29 +58,29 @@
         android:layout_marginRight="2.0dip"
         android:minWidth="20.0dip" />
     <TextView
-        android:id="@id/f3"
+        android:id="@id/applovin_native_body_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ez"
+        android:layout_below="@id/applovin_native_ad_content_linear_layout"
         android:layout_marginLeft="8.0dip"
         android:layout_marginRight="8.0dip"
         android:layout_marginBottom="8.0dip"
         android:maxLines="3"
         android:textSize="12.0sp" />
     <FrameLayout
-        android:id="@id/fb"
+        android:id="@id/applovin_native_media_content_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/f4"
-        android:layout_below="@id/f3"
+        android:layout_above="@id/applovin_native_cta_button"
+        android:layout_below="@id/applovin_native_body_text_view"
         android:layout_centerHorizontal="true" />
     <Button
-        android:id="@id/f4"
+        android:id="@id/applovin_native_cta_button"
         style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_margin="@dimen/dj"
+        android:layout_margin="@dimen/default_margin"
         android:singleLine="false"
         android:textSize="15.0sp" />
 </RelativeLayout>

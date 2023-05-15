@@ -2,8 +2,8 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_selected="true">
         <shape android:shape="rectangle">
-            <gradient android:angle="0.0" android:endColor="@color/pm" android:startColor="@color/pn" />
-            <corners android:radius="@dimen/ht" />
+            <gradient android:angle="0.0" android:endColor="@color/pm" android:startColor="@color/fcm_notification_center_tab_backgroud_selected_start" />
+            <corners android:radius="@dimen/fcm_notification_center_corner_tab" />
         </shape>
     </item>
 </selector>

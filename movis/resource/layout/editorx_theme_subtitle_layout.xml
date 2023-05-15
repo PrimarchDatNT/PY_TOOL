@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/af1"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/ut"
+        android:id="@id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px214"
         android:layout_gravity="bottom"
-        android:layout_marginBottom="@dimen/xt"
-        android:background="@color/ag">
+        android:layout_marginBottom="@dimen/px56"
+        android:background="@color/app_dcolor_background">
         <RelativeLayout
-            android:id="@id/ba6"
-            android:layout_width="fill_parent"
+            android:id="@id/top_layout"
+            android:layout_width="match_parent"
             android:layout_height="48.0dip">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="@string/ap6"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/z0"
+                android:text="@string/xiaoying_str_ve_theme_title"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp14"
                 android:textStyle="bold" />
             <View
-                android:layout_width="fill_parent"
-                android:layout_height="@dimen/t2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px1"
                 android:layout_alignParentBottom="true"
-                android:background="@color/aj" />
+                android:background="@color/app_dcolor_indicator" />
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/b9p"
-            android:layout_width="fill_parent"
+            android:id="@id/theme_subtitle_list"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/ba6"
-            android:paddingTop="@dimen/td" />
+            android:layout_below="@id/top_layout"
+            android:paddingTop="@dimen/px12" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/b9g"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/xt"
+        android:id="@id/theme_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px56"
         android:layout_gravity="bottom"
-        android:background="@color/ah"
-        app:layout_constraintBottom_toBottomOf="apv">
+        android:background="@color/app_dcolor_bg_1"
+        app:layout_constraintBottom_toBottomOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/ji"
-            android:layout_width="@dimen/xt"
-            android:layout_height="@dimen/xt"
+            android:id="@id/btnDone"
+            android:layout_width="@dimen/px56"
+            android:layout_height="@dimen/px56"
             android:layout_alignParentEnd="true"
             android:layout_centerInParent="true"
-            android:background="@drawable/jf"
+            android:background="@drawable/btn_dcolor_ripple"
             android:scaleType="centerInside"
-            android:src="@drawable/aeb" />
+            android:src="@drawable/gallery_checked_select_item" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/alk"
-        android:layout_width="fill_parent"
+        android:id="@id/move_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@color/ag"
+        android:background="@color/app_dcolor_background"
         android:visibility="gone">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/m5"
-            android:layout_width="@dimen/xt"
-            android:layout_height="@dimen/xt"
+            android:id="@id/btn_title_ok"
+            android:layout_width="@dimen/px56"
+            android:layout_height="@dimen/px56"
             android:layout_alignParentEnd="true"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/jf"
+            android:background="@drawable/btn_dcolor_ripple"
             android:scaleType="centerInside"
-            android:src="@drawable/aeb" />
+            android:src="@drawable/gallery_checked_select_item" />
         <EditText
-            android:id="@id/b_f"
-            android:layout_width="fill_parent"
+            android:id="@id/title_input"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginStart="@dimen/tz"
-            android:layout_marginEnd="@dimen/tz"
-            android:layout_toStartOf="@id/m5"
-            android:background="@drawable/a7j"
+            android:layout_marginStart="@dimen/px16"
+            android:layout_marginEnd="@dimen/px16"
+            android:layout_toStartOf="@id/btn_title_ok"
+            android:background="@drawable/editorx_shape_effect_subtitle_input"
             android:focusable="true"
             android:paddingStart="12.0dip"
             android:paddingTop="10.0dip"
             android:paddingEnd="36.0dip"
             android:paddingBottom="10.0dip"
-            android:textColor="@color/zo"
-            android:textColorHint="@color/ve"
+            android:textColor="@color/white"
+            android:textColorHint="@color/opacity_3_white"
             android:textSize="14.0sp" />
     </RelativeLayout>
 </FrameLayout>

@@ -11,6 +11,6 @@
     </item>
     <item android:left="-36.0dip">
         <bitmap
-            android:gravity="center|left" android:src="@drawable/ahv" />
+            android:gravity="center|left" android:src="@drawable/googleg_disabled_color_18" />
     </item>
 </layer-list>

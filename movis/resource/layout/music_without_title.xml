@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/v0">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/music_view_default_background">
     <ImageView
-        android:id="@id/dv"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/album"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:scaleType="fitCenter"
-        android:src="@drawable/aj8" />
+        android:src="@drawable/ic_default_album_image" />
 </FrameLayout>

@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <LinearLayout
-        android:id="@id/ay_"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/y6"
+        android:id="@id/root_operate_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px64"
         android:layout_gravity="center_vertical"
-        android:background="@color/ag"
+        android:background="@color/app_dcolor_background"
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/ayb"
+            android:id="@id/root_operate_ori"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/xh"
-            app:sitv_bottom_text="@string/arb"
-            app:sitv_top_drawable="@drawable/yo" />
+            android:layout_marginStart="@dimen/px48"
+            app:sitv_bottom_text="@string/xiaoying_str_video_voice"
+            app:sitv_top_drawable="@drawable/editorx_audio_root_operate_ori_icon" />
         <View
-            android:id="@id/aya"
-            android:layout_width="@dimen/t2"
-            android:layout_height="@dimen/wd"
+            android:id="@id/root_operate_line"
+            android:layout_width="@dimen/px1"
+            android:layout_height="@dimen/px32"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="@dimen/xz"
-            android:layout_marginEnd="@dimen/xz"
-            android:background="@color/ak" />
+            android:layout_marginStart="@dimen/px6"
+            android:layout_marginEnd="@dimen/px6"
+            android:background="@color/app_dcolor_indicator_2" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/ay8"
+            android:id="@id/root_operate_bgm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:sitv_bottom_text="@string/ann"
-            app:sitv_top_drawable="@drawable/ym" />
+            app:sitv_bottom_text="@string/xiaoying_str_ve_music_title"
+            app:sitv_top_drawable="@drawable/editorx_audio_root_operate_bgm_icon" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/ay9"
+            android:id="@id/root_operate_ef"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:sitv_bottom_text="@string/aku"
-            app:sitv_top_drawable="@drawable/yn" />
+            app:sitv_bottom_text="@string/xiaoying_str_ve_dub_add_sound_effect_btn_title"
+            app:sitv_top_drawable="@drawable/editorx_audio_root_operate_effect_music" />
         <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-            android:id="@id/ayd"
+            android:id="@id/root_operate_record"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:sitv_bottom_text="@string/dz"
-            app:sitv_top_drawable="@drawable/yq" />
+            app:sitv_bottom_text="@string/editor_effect_dub_record_title"
+            app:sitv_top_drawable="@drawable/editorx_audio_root_operate_record" />
     </LinearLayout>
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/ayc"
-        android:layout_width="@dimen/wz"
-        android:layout_height="@dimen/wz"
+        android:id="@id/root_operate_plus_btn"
+        android:layout_width="@dimen/px36"
+        android:layout_height="@dimen/px36"
         android:layout_gravity="center_vertical"
-        android:layout_marginStart="@dimen/td"
+        android:layout_marginStart="@dimen/px12"
         android:scaleType="fitXY"
-        android:src="@drawable/yp" />
+        android:src="@drawable/editorx_audio_root_operate_plus_btn" />
 </merge>

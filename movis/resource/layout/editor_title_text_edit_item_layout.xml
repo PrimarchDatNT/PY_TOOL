@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:minHeight="40.0dip">
     <RelativeLayout
-        android:id="@id/awi"
-        android:layout_width="fill_parent"
+        android:id="@id/rl_editor_theme_title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8.0dip"
-        android:background="@drawable/x_"
+        android:background="@drawable/editor_shape_theme_title_normal_rounded_corner"
         android:minHeight="40.0dip">
         <ImageView
-            android:id="@id/a_j"
+            android:id="@id/iv_editor_theme_title_editflag"
             android:layout_width="11.0dip"
             android:layout_height="11.0dip"
             android:layout_alignParentEnd="true"
@@ -19,19 +19,19 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="8.0dip"
             android:layout_marginRight="8.0dip"
-            android:src="@drawable/s9" />
+            android:src="@drawable/editor_icon_theme_title_edit" />
         <TextView
-            android:id="@id/bea"
-            android:layout_width="fill_parent"
+            android:id="@id/tv_editor_theme_title"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_margin="8.0dip"
-            android:layout_toStartOf="@id/a_j"
-            android:layout_toLeftOf="@id/a_j"
+            android:layout_toStartOf="@id/iv_editor_theme_title_editflag"
+            android:layout_toLeftOf="@id/iv_editor_theme_title_editflag"
             android:clickable="false"
             android:fontFamily="sans-serif-light"
             android:text="donot gilt the lily"
-            android:textColor="@color/zo"
+            android:textColor="@color/white"
             android:textSize="12.0sp" />
     </RelativeLayout>
 </RelativeLayout>

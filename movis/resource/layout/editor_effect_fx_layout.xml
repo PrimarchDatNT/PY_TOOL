@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/bkz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ve_music_op_view"
         android:orientation="vertical">
         <com.videoai.aivpcore.editor.effects.music.EditorVolumeSetView
-            android:id="@id/bn2"
-            android:layout_width="fill_parent"
+            android:id="@id/view_effect_volume_set"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="5.0dip"
             android:visibility="gone" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/bkz"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/gv"
+        android:id="@id/ve_music_op_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editor_ops_board_normal_height"
         android:layout_alignParentBottom="true"
-        android:background="@color/bn"
+        android:background="@color/black"
         android:paddingTop="12.0dip">
         <com.videoai.aivpcore.editor.effects.VideoEditorSeekLayout
-            android:id="@id/bl0"
-            android:layout_width="fill_parent"
+            android:id="@id/ve_music_seek_layout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/xz" />
+            android:background="@color/transparent" />
         <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_above="@id/b7u"
-            android:layout_below="@id/bl0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/terminator"
+            android:layout_below="@id/ve_music_seek_layout"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="6.0dip">
             <TextView
-                android:id="@id/bky"
+                android:id="@id/ve_music_op_btn"
                 android:layout_width="113.0dip"
                 android:layout_height="35.0dip"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:background="@drawable/u1"
+                android:background="@drawable/editor_selector_effect_sub_op_btn"
                 android:gravity="center"
-                android:text="@string/a4f"
-                android:textColor="@drawable/us"
+                android:text="@string/xiaoying_str_editor_sticker_add_new"
+                android:textColor="@drawable/editor_selector_text_color_70ffffff_50ffffff"
                 android:textSize="16.0sp" />
             <ImageView
                 android:layout_width="wrap_content"
@@ -52,26 +52,26 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="30.0dip"
                 android:layout_marginRight="30.0dip"
-                android:layout_toStartOf="@id/bky"
-                android:layout_toLeftOf="@id/bky"
+                android:layout_toStartOf="@id/ve_music_op_btn"
+                android:layout_toLeftOf="@id/ve_music_op_btn"
                 android:gravity="center"
-                android:src="@drawable/u2"
+                android:src="@drawable/editor_selector_effect_sub_op_left_btn"
                 android:visibility="gone" />
         </RelativeLayout>
         <com.videoai.aivpcore.editor.widget.terminator.Terminator
-            android:id="@id/b7u"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/a4r"
+            android:id="@id/terminator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/video_editor_terminator_height"
             android:layout_alignParentBottom="true"
-            app:terminatorText="@string/ajf" />
+            app:terminatorText="@string/xiaoying_str_ve_animate_frame_title" />
     </RelativeLayout>
     <include
-        android:id="@id/a6k"
-        layout="@layout/g3"
-        android:layout_width="fill_parent"
+        android:id="@id/include_fx_chosen_panel"
+        layout="@layout/editor_effect_fx_chosen_panel"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@id/bkz"
-        android:layout_alignBottom="@id/bkz"
-        android:layout_marginBottom="@dimen/a4r"
+        android:layout_alignTop="@id/ve_music_op_view"
+        android:layout_alignBottom="@id/ve_music_op_view"
+        android:layout_marginBottom="@dimen/video_editor_terminator_height"
         android:visibility="gone" />
 </RelativeLayout>

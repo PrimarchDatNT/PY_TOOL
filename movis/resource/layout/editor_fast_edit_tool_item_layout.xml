@@ -4,16 +4,16 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/re"
-        android:layout_width="fill_parent"
+        android:id="@id/content_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <RelativeLayout
-            android:id="@id/rs"
+            android:id="@id/cover_layout"
             android:layout_width="45.0dip"
             android:layout_height="45.0dip"
             android:layout_centerHorizontal="true">
             <ImageView
-                android:id="@id/b_z"
+                android:id="@id/tool_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
@@ -21,16 +21,16 @@
                 android:scaleType="centerCrop" />
         </RelativeLayout>
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/ba0"
+            android:id="@id/tool_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/rs"
+            android:layout_below="@id/cover_layout"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5.0dip"
             android:ellipsize="end"
             android:gravity="center_horizontal"
             android:maxLines="1"
-            android:textColor="@color/g9"
+            android:textColor="@color/color_8E8E93"
             app:autoSizeMaxTextSize="11.0sp"
             app:autoSizeMinTextSize="8.0sp"
             app:autoSizeTextType="bjy" />

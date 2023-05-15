@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingTop="8.0dip"
     android:paddingBottom="8.0dip">
@@ -8,13 +8,13 @@
         android:layout_width="4.0dip"
         android:layout_height="4.0dip"
         android:layout_gravity="center_vertical"
-        android:background="@drawable/dx" />
+        android:background="@drawable/app_default_button" />
     <TextView
-        android:id="@id/bf4"
+        android:id="@id/tv_func_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="21.0dip"
         android:layout_marginLeft="21.0dip"
-        android:textColor="@color/eq"
+        android:textColor="@color/color_333333"
         android:textSize="16.0dip" />
 </FrameLayout>

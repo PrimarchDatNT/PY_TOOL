@@ -3,6 +3,6 @@
     <shape android:shape="oval">
         <solid android:color="#ffffffff" />
         <size
-            android:width="@dimen/lo" android:height="@dimen/lo" />
+            android:width="@dimen/mcv2_custom_progress_thumb_size" android:height="@dimen/mcv2_custom_progress_thumb_size" />
     </shape>
 </scale>

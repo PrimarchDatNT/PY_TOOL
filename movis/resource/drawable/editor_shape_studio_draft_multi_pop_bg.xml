@@ -43,7 +43,7 @@
     <item>
         <shape android:shape="rectangle">
             <corners android:radius="8.0dip" />
-            <solid android:color="@color/zo" />
+            <solid android:color="@color/white" />
             <padding
                 android:bottom="3.0px" android:left="3.0px" android:right="3.0px" android:top="3.0px" />
         </shape>

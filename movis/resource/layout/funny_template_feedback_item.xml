@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/a0y"
-    android:layout_width="fill_parent"
+    android:id="@id/funny_template_feedback"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/xz"
+    android:background="@color/transparent"
     android:gravity="center_horizontal"
     android:orientation="horizontal"
     android:paddingTop="30.0dip"
@@ -11,16 +11,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/a6o"
-        android:textColor="@color/g9"
+        android:text="@string/xiaoying_str_funny_template_query"
+        android:textColor="@color/color_8E8E93"
         android:textSize="14.0sp" />
     <TextView
-        android:id="@id/bey"
+        android:id="@id/tv_feedback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawablePadding="5.0dip"
         android:gravity="center"
-        android:text="@string/a6p"
-        android:textColor="@color/n_"
+        android:text="@string/xiaoying_str_funny_template_tellus"
+        android:textColor="@color/default_app_color"
         android:textSize="14.0sp" />
 </LinearLayout>

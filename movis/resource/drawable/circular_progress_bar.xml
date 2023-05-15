@@ -2,8 +2,8 @@
 <rotate xmlns:android="http://schemas.android.com/apk/res/android" android:fromDegrees="270.0" android:toDegrees="270.0">
     <shape
         android:innerRadiusRatio="2.5" android:shape="ring" android:thickness="3.0dip" android:useLevel="true">
-        <corners android:radius="@dimen/td" />
+        <corners android:radius="@dimen/px12" />
         <gradient
-            android:angle="0.0" android:endColor="@color/d6" android:startColor="@color/d6" android:type="sweep" android:useLevel="false" />
+            android:angle="0.0" android:endColor="@color/colorPrimary" android:startColor="@color/colorPrimary" android:type="sweep" android:useLevel="false" />
     </shape>
 </rotate>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/lt" android:state_pressed="true" />
-    <item android:drawable="@drawable/ls" />
+    <item android:drawable="@drawable/editor_btn_effect_subtitle_font_add_local_font_p" android:state_pressed="true" />
+    <item android:drawable="@drawable/editor_btn_effect_subtitle_font_add_local_font_n" />
 </selector>

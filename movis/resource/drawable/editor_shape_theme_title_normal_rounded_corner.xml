@@ -5,5 +5,5 @@
     <solid android:color="#19ffffff" />
     <padding
         android:bottom="1.0dip" android:left="12.0dip" android:right="5.0dip" android:top="1.0dip" />
-    <corners android:radius="@dimen/gz" />
+    <corners android:radius="@dimen/editor_theme_normal_corner_radius" />
 </shape>

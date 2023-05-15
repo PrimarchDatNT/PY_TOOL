@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <ImageView
-        android:id="@id/a8o"
+        android:id="@id/ivBack"
         android:layout_width="52.0dip"
         android:layout_height="52.0dip"
         android:padding="14.0dip"
-        android:src="@drawable/a50"
-        app:layout_constraintLeft_toLeftOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        android:src="@drawable/editorx_kit_icon_back"
+        app:layout_constraintLeft_toLeftOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bb1"
+        android:id="@id/tvAdvanceEdit"
         android:layout_width="wrap_content"
         android:layout_height="28.0dip"
         android:layout_marginTop="12.0dip"
         android:layout_marginEnd="15.0dip"
-        android:background="@drawable/a7u"
+        android:background="@drawable/editorx_shape_high_level_edit_btn"
         android:ellipsize="end"
         android:gravity="center"
         android:maxLines="2"
         android:paddingLeft="16.0dip"
         android:paddingRight="16.0dip"
-        android:text="@string/a1y"
-        android:textColor="@color/vw"
+        android:text="@string/xiaoying_str_edit_school_bottom_edit_btn_title"
+        android:textColor="@color/opacity_9_white"
         android:textStyle="bold"
         app:autoSizeStepGranularity="1.0sp"
         app:autoSizeTextType="bjy"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <include
-        layout="@layout/ng"
-        android:layout_width="fill_parent"
+        layout="@layout/editorx_template_pip_operate_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <TextView
-        android:id="@id/bbc"
+        android:id="@id/tvDesc"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_marginLeft="32.0dip"
@@ -14,34 +14,34 @@
         android:text="我是描述"
         android:textColor="#ff333333"
         android:textSize="18.0sp"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <CheckBox
-        android:id="@id/od"
+        android:id="@id/chb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16.0dip"
-        android:button="@drawable/b8e"
+        android:button="@drawable/xyui_selector_dialog_chb"
         android:checked="false"
         android:paddingStart="5.0dip"
         android:paddingLeft="5.0dip"
-        android:textColor="@color/gl"
+        android:textColor="@color/color_999999"
         android:textSize="14.0sp"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/bbc" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/tvDesc" />
     <View
-        android:id="@id/bmg"
+        android:id="@id/viewDivider1"
         android:layout_width="0.0dip"
         android:layout_height="1.0dip"
         android:layout_marginTop="40.0dip"
-        android:background="@color/j4"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/od" />
+        android:background="@color/color_eeeeee"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/chb" />
     <TextView
-        android:id="@id/bbv"
+        android:id="@id/tvNegative"
         android:layout_width="0.0dip"
         android:layout_height="52.0dip"
         android:background="?android:selectableItemBackground"
@@ -50,24 +50,24 @@
         android:gravity="center"
         android:singleLine="true"
         android:text="取消"
-        android:textColor="@color/gl"
+        android:textColor="@color/color_999999"
         android:textSize="18.0sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toStartOf="@id/bmh"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toStartOf="@id/viewDivider2"
         app:layout_constraintHorizontal_chainStyle="b42"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/bmg" />
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/viewDivider1" />
     <View
-        android:id="@id/bmh"
+        android:id="@id/viewDivider2"
         android:layout_width="1.0dip"
         android:layout_height="52.0dip"
-        android:background="@color/j4"
-        app:layout_constraintEnd_toStartOf="@id/bbx"
-        app:layout_constraintStart_toEndOf="@id/bbv"
-        app:layout_constraintTop_toBottomOf="@id/bmg" />
+        android:background="@color/color_eeeeee"
+        app:layout_constraintEnd_toStartOf="@id/tvPositive"
+        app:layout_constraintStart_toEndOf="@id/tvNegative"
+        app:layout_constraintTop_toBottomOf="@id/viewDivider1" />
     <TextView
-        android:id="@id/bbx"
+        android:id="@id/tvPositive"
         android:layout_width="0.0dip"
         android:layout_height="52.0dip"
         android:background="?android:selectableItemBackground"
@@ -76,11 +76,11 @@
         android:gravity="center"
         android:singleLine="true"
         android:text="确定"
-        android:textColor="@color/ky"
+        android:textColor="@color/color_ff6333"
         android:textSize="18.0sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toEndOf="@id/bmh"
-        app:layout_constraintTop_toBottomOf="@id/bmg" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toEndOf="@id/viewDivider2"
+        app:layout_constraintTop_toBottomOf="@id/viewDivider1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

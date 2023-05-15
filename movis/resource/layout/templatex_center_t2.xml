@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.videoai.aivpcore.templatex.view.TouchRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="257.0dip">
     <ImageView
         android:layout_width="46.0dip"
         android:layout_height="230.0dip"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/arl"
+        android:src="@drawable/templatex_center_slider"
         android:translationX="46.0dip" />
     <androidx.cardview.widget.CardView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="234.0dip"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="16.0dip"
@@ -20,11 +20,11 @@
         app:cardCornerRadius="15.0dip"
         app:cardElevation="6.0dip">
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
-                android:id="@id/bi9"
+                android:id="@id/tv_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="19.0dip"
@@ -33,42 +33,42 @@
                 android:textSize="21.0sp"
                 android:textStyle="bold" />
             <RelativeLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="19.0dip"
                 android:layout_marginTop="8.0dip">
                 <ImageView
-                    android:id="@id/a9r"
+                    android:id="@id/iv_all"
                     android:layout_width="17.0dip"
                     android:layout_height="17.0dip"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:layout_marginEnd="14.0dip"
-                    android:src="@drawable/arq" />
+                    android:src="@drawable/templatex_icon_home_all" />
                 <TextView
-                    android:id="@id/bcy"
+                    android:id="@id/tv_all"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_toStartOf="@id/a9r"
-                    android:text="@string/ag1"
+                    android:layout_toStartOf="@id/iv_all"
+                    android:text="@string/xiaoying_str_studio_filter_all"
                     android:textColor="#ff2b9df7"
                     android:textSize="13.0sp" />
                 <TextView
-                    android:id="@id/bdx"
+                    android:id="@id/tv_desc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
                     android:layout_marginEnd="40.0dip"
-                    android:layout_toStartOf="@id/bcy"
+                    android:layout_toStartOf="@id/tv_all"
                     android:ellipsize="end"
                     android:lines="1"
                     android:textColor="#ff999999"
                     android:textSize="13.0sp" />
             </RelativeLayout>
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="125.0dip"
                 android:layout_marginStart="19.0dip"
                 android:layout_marginTop="19.0dip"
@@ -77,13 +77,13 @@
                     android:layout_width="230.0dip"
                     android:layout_height="125.0dip">
                     <ImageView
-                        android:id="@id/a97"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
+                        android:id="@id/iv_2_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="#fff2f2f2"
                         android:scaleType="centerCrop" />
                     <ImageView
-                        android:id="@id/a4r"
+                        android:id="@id/imgVip1"
                         android:layout_width="wrap_content"
                         android:layout_height="17.0dip"
                         android:layout_alignParentEnd="true"
@@ -96,9 +96,9 @@
                     android:layout_height="125.0dip"
                     android:layout_marginStart="12.0dip">
                     <ImageView
-                        android:id="@id/a98"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
+                        android:id="@id/iv_2_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="#fff2f2f2"
                         android:scaleType="centerCrop" />
                 </com.videoai.aivpcore.templatex.view.RoundRelativeLayoutForTouchRL>

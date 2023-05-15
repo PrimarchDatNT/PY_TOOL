@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/xz">
+    android:background="@color/transparent">
     <TextView
-        android:id="@id/bju"
-        android:layout_width="fill_parent"
+        android:id="@id/txtview_trimed_duration"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20.0dip"
-        android:background="@color/xz"
+        android:background="@color/transparent"
         android:gravity="center"
         android:minWidth="50.0dip"
         android:text="00:00"
-        android:textColor="@color/zo"
+        android:textColor="@color/white"
         android:textSize="10.0sp" />
     <com.videoai.aivpcore.editor.videotrim.ui.VePIPGallery
-        android:id="@id/a1m"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/a4d"
+        android:id="@id/gallery_timeline"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v4_xiaoying_ve_framebar_item_show_width_dp"
         android:layout_centerVertical="true"
-        android:background="@color/g4"
+        android:background="@color/color_808080"
         android:fadingEdge="none"
         android:gravity="center_vertical"
         android:spacing="0.0dip"
         android:unselectedAlpha="1.0" />
     <com.videoai.aivpcore.editor.videotrim.ui.TrimMaskView4Import xmlns:trimmaskview="http://schemas.android.com/apk/res-auto"
-        android:id="@id/bro"
-        android:layout_width="fill_parent"
+        android:id="@id/xiaoying_ve_trimmaskview"
+        android:layout_width="match_parent"
         android:layout_height="130.0dip"
         android:visibility="visible"
-        trimmaskview:curneedle="@drawable/aw7"
-        trimmaskview:indicatorhandle="@drawable/axd"
-        trimmaskview:lefthandle="@drawable/b6r"
-        trimmaskview:righthandle="@drawable/b6s" />
+        trimmaskview:curneedle="@drawable/v5_xiaoying_com_time_line_cur_time"
+        trimmaskview:indicatorhandle="@drawable/v5_xiaoying_ve_basic_tool_bubble"
+        trimmaskview:lefthandle="@drawable/xiaoying_ve_import_trim_leftbar_n_selector"
+        trimmaskview:righthandle="@drawable/xiaoying_ve_import_trim_rightbar_n_selector" />
 </RelativeLayout>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="start|center"
     android:orientation="horizontal"
-    android:paddingLeft="@dimen/mi"
-    android:paddingTop="@dimen/mg"
-    android:paddingRight="@dimen/mi"
-    android:paddingBottom="@dimen/mg">
+    android:paddingLeft="@dimen/md_dialog_frame_margin"
+    android:paddingTop="@dimen/md_content_padding_top"
+    android:paddingRight="@dimen/md_dialog_frame_margin"
+    android:paddingBottom="@dimen/md_content_padding_top">
     <ProgressBar
         android:id="@android:id/progress"
-        style="@style/w5"
+        style="@style/Widget_MaterialProgressBar_ProgressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:indeterminate="true" />
     <TextView
-        android:id="@id/ak6"
-        android:layout_width="fill_parent"
+        android:id="@id/md_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:gravity="start"
         android:paddingStart="16.0dip"
         android:paddingLeft="16.0dip"
         android:textAlignment="viewStart"
-        android:textSize="@dimen/mh" />
+        android:textSize="@dimen/md_content_textsize" />
 </LinearLayout>

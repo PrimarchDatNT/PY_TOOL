@@ -2,41 +2,41 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="87.0dip"
-    android:layout_height="fill_parent">
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/a87"
+        android:id="@id/item_root_view"
         android:layout_width="77.0dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="15.0dip">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/a7e"
+            android:id="@id/item_cover"
             android:layout_width="76.0dip"
             android:layout_height="76.0dip"
             android:layout_marginStart="0.5dip"
             android:layout_marginLeft="0.5dip"
             android:layout_marginTop="0.5dip"
             android:scaleType="centerCrop"
-            android:src="@color/xz"
+            android:src="@color/transparent"
             app:cornerRadius="2.0dip" />
         <ImageView
-            android:id="@id/a3i"
+            android:id="@id/icon_new"
             android:layout_width="25.0dip"
             android:layout_height="15.0dip"
-            android:layout_alignTop="@id/a7e"
-            android:layout_alignEnd="@id/a7e"
-            android:layout_alignRight="@id/a7e"
+            android:layout_alignTop="@id/item_cover"
+            android:layout_alignEnd="@id/item_cover"
+            android:layout_alignRight="@id/item_cover"
             android:layout_marginTop="2.0dip"
             android:layout_marginEnd="7.0dip"
             android:layout_marginRight="7.0dip"
-            android:src="@drawable/azx"
+            android:src="@drawable/xiaoying_cam_icon_filter_new"
             android:visibility="gone" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/a7e"
+            android:layout_below="@id/item_cover"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5.0dip"
-            android:text="@string/ai6"
+            android:text="@string/xiaoying_str_template_get_more"
             android:textColor="#80ffffff"
             android:textSize="11.0sp" />
     </RelativeLayout>

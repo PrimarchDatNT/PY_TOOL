@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
+    android:layout_height="match_parent"
     android:tag="layout/new_item_title_layout_0">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bcb"
+        android:id="@id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginStart="@dimen/xz"
-        android:layout_marginEnd="@dimen/xz"
-        android:background="@drawable/apw"
+        android:layout_marginStart="@dimen/px6"
+        android:layout_marginEnd="@dimen/px6"
+        android:background="@drawable/slt_item_tag"
         android:gravity="center"
-        android:paddingStart="@dimen/td"
-        android:paddingTop="@dimen/x5"
-        android:paddingEnd="@dimen/td"
-        android:paddingBottom="@dimen/x5"
-        android:textColor="@color/xj"
-        android:textSize="@dimen/yz" />
+        android:paddingStart="@dimen/px12"
+        android:paddingTop="@dimen/px4"
+        android:paddingEnd="@dimen/px12"
+        android:paddingBottom="@dimen/px4"
+        android:textColor="@color/text_selector_tab"
+        android:textSize="@dimen/sp12" />
 </FrameLayout>

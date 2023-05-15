@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/axr"
-        android:layout_width="fill_parent"
+        android:id="@id/rl_vip_risk_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/zo">
+        android:background="@color/white">
         <RelativeLayout
-            android:id="@id/axs"
-            android:layout_width="fill_parent"
+            android:id="@id/rl_vip_tip_layout"
+            android:layout_width="match_parent"
             android:layout_height="54.0dip"
             android:layout_marginStart="15.0dip"
             android:layout_marginTop="10.0dip"
             android:layout_marginEnd="15.0dip"
             android:visibility="gone">
             <TextView
-                android:id="@id/aa9"
+                android:id="@id/iv_icon"
                 android:layout_width="32.0dip"
                 android:layout_height="30.0dip"
                 android:layout_centerVertical="true"
@@ -32,19 +32,19 @@
                 android:layout_centerVertical="true"
                 android:layout_marginStart="7.0dip"
                 android:layout_marginLeft="7.0dip"
-                android:layout_toRightOf="@id/aa9">
+                android:layout_toRightOf="@id/iv_icon">
                 <TextView
-                    android:id="@id/bi9"
+                    android:id="@id/tv_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/zo"
+                    android:textColor="@color/white"
                     android:textSize="13.0sp"
                     android:textStyle="bold" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/bi9"
-                    android:textColor="@color/zo"
+                    android:layout_below="@id/tv_title"
+                    android:textColor="@color/white"
                     android:textSize="12.0sp" />
             </RelativeLayout>
             <ImageView
@@ -58,18 +58,18 @@
         </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/ag6"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_studio_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/axr"
+        android:layout_below="@id/rl_vip_risk_layout"
         android:layout_marginBottom="10.0dip"
-        android:background="@color/zo">
+        android:background="@color/white">
         <RelativeLayout
-            android:id="@id/ax8"
-            android:layout_width="fill_parent"
+            android:id="@id/rl_studio_title"
+            android:layout_width="match_parent"
             android:layout_height="38.5dip">
             <TextView
-                android:id="@id/b9e"
+                android:id="@id/textview_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -77,11 +77,11 @@
                 android:layout_marginLeft="15.0dip"
                 android:paddingTop="5.0dip"
                 android:paddingBottom="5.0dip"
-                android:text="@string/ag4"
-                android:textColor="@color/eq"
+                android:text="@string/xiaoying_str_studio_label"
+                android:textColor="@color/color_333333"
                 android:textSize="14.0sp" />
             <TextView
-                android:id="@id/l5"
+                android:id="@id/btn_more"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -93,39 +93,39 @@
                 android:paddingTop="5.0dip"
                 android:paddingRight="15.0dip"
                 android:paddingBottom="5.0dip"
-                android:text="@string/a8q"
+                android:text="@string/xiaoying_str_home_studio_enter_more"
                 android:textColor="#ff155599"
                 android:textSize="14.0sp" />
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/ae_"
-            android:layout_width="fill_parent"
+            android:id="@id/layout_draft_item"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/ax8"
+            android:layout_below="@id/rl_studio_title"
             android:orientation="horizontal" />
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/ag5"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_studio_empty_hint"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/axr"
+        android:layout_below="@id/rl_vip_risk_layout"
         android:layout_marginBottom="10.0dip"
-        android:background="@color/zo"
+        android:background="@color/white"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone">
         <ImageView
-            android:id="@id/b4r"
+            android:id="@id/studio_empty_img"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="centerInside"
-            android:src="@drawable/ayl" />
+            android:src="@drawable/vivavideo_common_empty" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5.0dip"
-            android:text="@string/afy"
-            android:textColor="@color/gl"
+            android:text="@string/xiaoying_str_studio_empty_tip"
+            android:textColor="@color/color_999999"
             android:textSize="12.0sp" />
     </LinearLayout>
 </RelativeLayout>

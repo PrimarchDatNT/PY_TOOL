@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/zo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffff6681">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/aa6"
+            android:id="@id/iv_go_home"
             android:layout_width="?a4"
             android:layout_height="?a4"
             android:layout_alignParentTop="true"
@@ -18,9 +18,9 @@
             android:adjustViewBounds="true"
             android:background="?a5d"
             android:padding="14.0dip"
-            android:src="@drawable/ajg"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            android:src="@drawable/ic_goto_home"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -28,10 +28,10 @@
             android:layout_centerVertical="true"
             android:layout_marginBottom="?a4"
             android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/aa6">
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/iv_go_home">
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -40,13 +40,13 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ak7" />
+                    android:src="@drawable/ic_purchase_done" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10.0dip"
-                    android:text="@string/jp"
-                    android:textColor="@color/zo"
+                    android:text="@string/purchase_success_msg"
+                    android:textColor="@color/white"
                     android:textSize="18.0sp" />
             </LinearLayout>
             <TextView
@@ -54,21 +54,21 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10.0dip"
                 android:gravity="center"
-                android:text="@string/jo"
-                android:textColor="@color/zo" />
+                android:text="@string/purchase_success_des"
+                android:textColor="@color/white" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="1.0dip"
         android:layout_marginTop="20.0dip"
         android:background="#ffe6e6e6" />
     <com.videoapp.videomakermaster.RateBannerView
-        android:id="@id/bng"
-        android:layout_width="fill_parent"
+        android:id="@id/view_rate_banner"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="1.0dip"
         android:background="#ffe6e6e6" />
 </LinearLayout>

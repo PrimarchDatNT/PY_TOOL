@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layoutDirection="ltr">
         <RelativeLayout
-            android:id="@id/afg"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/layout_preview_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:background="@android:color/black">
             <RelativeLayout
-                android:id="@id/as2"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/preview_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_centerInParent="true"
-                android:background="@color/xz">
+                android:background="@color/transparent">
                 <SurfaceView
-                    android:id="@id/blk"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent" />
+                    android:id="@id/video_editor_preview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
             </RelativeLayout>
             <ImageButton
-                android:id="@id/a62"
+                android:id="@id/imgbtn_play"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:background="@null"
                 android:contentDescription="@null"
                 android:scaleType="centerCrop"
-                android:src="@drawable/uz"
+                android:src="@drawable/editor_selector_video_play_icon"
                 android:visibility="gone" />
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/v8"
+            android:id="@id/edit_video_layout"
             android:layout_width="wrap_content"
             android:layout_height="40.0dip"
-            android:layout_above="@id/av4"
+            android:layout_above="@id/relativelayout_seekbar"
             android:layout_marginStart="128.0dip"
             android:layout_marginLeft="128.0dip"
             android:layout_marginBottom="14.0dip"
-            android:background="@drawable/wb"
+            android:background="@drawable/editor_shape_preview_toedit_bg"
             android:gravity="center"
             android:orientation="horizontal">
             <TextView
@@ -49,8 +49,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16.0dip"
                 android:layout_marginLeft="16.0dip"
-                android:text="@string/dx"
-                android:textColor="@color/zo" />
+                android:text="@string/edit_this_video_text"
+                android:textColor="@color/white" />
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -58,16 +58,16 @@
                 android:layout_marginLeft="6.0dip"
                 android:layout_marginEnd="16.0dip"
                 android:layout_marginRight="16.0dip"
-                android:src="@drawable/rd" />
+                android:src="@drawable/editor_icon_preview_toedit" />
         </LinearLayout>
         <RelativeLayout
-            android:id="@id/av4"
-            android:layout_width="fill_parent"
+            android:id="@id/relativelayout_seekbar"
+            android:layout_width="match_parent"
             android:layout_height="44.0dip"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="8.0dip">
             <ImageButton
-                android:id="@id/b0t"
+                android:id="@id/seekbar_play"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -76,9 +76,9 @@
                 android:background="@null"
                 android:contentDescription="@null"
                 android:scaleType="centerCrop"
-                android:src="@drawable/uz" />
+                android:src="@drawable/editor_selector_video_play_icon" />
             <TextView
-                android:id="@id/bjc"
+                android:id="@id/txtview_cur_time"
                 android:layout_width="wrap_content"
                 android:layout_height="30.0dip"
                 android:layout_alignParentStart="true"
@@ -91,21 +91,21 @@
                 android:gravity="center"
                 android:singleLine="true"
                 android:text="0:0"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="12.0sp" />
             <SeekBar
-                android:id="@id/b0u"
-                android:layout_width="fill_parent"
+                android:id="@id/seekbar_simple_edit"
+                android:layout_width="match_parent"
                 android:layout_height="30.0dip"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="-4.0dip"
                 android:layout_marginLeft="-4.0dip"
                 android:layout_marginEnd="-4.0dip"
                 android:layout_marginRight="-4.0dip"
-                android:layout_toStartOf="@id/bjf"
-                android:layout_toLeftOf="@id/bjf"
-                android:layout_toEndOf="@id/bjc"
-                android:layout_toRightOf="@id/bjc"
+                android:layout_toStartOf="@id/txtview_duration"
+                android:layout_toLeftOf="@id/txtview_duration"
+                android:layout_toEndOf="@id/txtview_cur_time"
+                android:layout_toRightOf="@id/txtview_cur_time"
                 android:focusable="true"
                 android:max="100"
                 android:maxHeight="2.0dip"
@@ -114,12 +114,12 @@
                 android:paddingEnd="4.0dip"
                 android:paddingRight="4.0dip"
                 android:progress="50"
-                android:progressDrawable="@drawable/avh"
-                android:thumb="@drawable/axv"
+                android:progressDrawable="@drawable/v4_xiaoying_ve_preview_seekbar_progress_bg_drawable"
+                android:thumb="@drawable/v5_xiaoying_video_seekbar_thumb"
                 android:thumbOffset="4.0dip"
                 android:visibility="visible" />
             <TextView
-                android:id="@id/bjf"
+                android:id="@id/txtview_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="30.0dip"
                 android:layout_alignParentEnd="true"
@@ -132,24 +132,24 @@
                 android:gravity="center"
                 android:singleLine="true"
                 android:text="10:00"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="12.0sp" />
         </RelativeLayout>
         <com.videoai.aivpcore.editor.widget.WatermarkView
-            android:id="@id/lc"
+            android:id="@id/btn_purchase_remove_watermark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@id/av4"
+            android:layout_above="@id/relativelayout_seekbar"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginBottom="14.0dip"
             android:padding="4.0dip"
-            android:src="@drawable/b5l"
+            android:src="@drawable/xiaoying_purchase_watermark"
             android:visibility="gone" />
     </RelativeLayout>
     <com.videoai.aivpcore.editor.widget.title.EditorTitle
-        android:id="@id/vn"
-        android:layout_width="fill_parent"
+        android:id="@id/editor_title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true" />
 </RelativeLayout>

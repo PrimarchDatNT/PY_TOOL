@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/aj7"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/xz">
+    android:id="@id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
     <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-        android:id="@id/b2f"
+        android:id="@id/sitv_reset"
         android:layout_width="64.0dip"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_gravity="center"
-        android:layout_marginEnd="@dimen/tz"
+        android:layout_marginEnd="@dimen/px16"
         android:visibility="gone"
-        app:sitv_bottom_text="@string/a1u"
-        app:sitv_top_drawable="@drawable/a1f" />
+        app:sitv_bottom_text="@string/xiaoying_str_edit_reset_text"
+        app:sitv_top_drawable="@drawable/editorx_ico_effect_reset" />
     <com.videoai.aivpcore.editorx.widget.trimBar.TrimBarView
-        android:id="@id/bav"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/wd"
+        android:id="@id/trim_bar_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px32"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="@dimen/y_"
+        android:layout_marginBottom="@dimen/px68"
         android:visibility="gone" />
     <LinearLayout
-        android:id="@id/aeh"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/vn"
+        android:id="@id/layout_expand"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px270"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/ae1"
+        android:background="@drawable/gallery_border_item"
         android:orientation="vertical">
         <FrameLayout
-            android:id="@id/ii"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/wd"
-            android:background="@color/xz">
+            android:id="@id/board_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px32"
+            android:background="@color/transparent">
             <ImageButton
-                android:id="@id/kt"
+                android:id="@id/btn_expand"
                 android:layout_width="32.0dip"
-                android:layout_height="@dimen/x5"
+                android:layout_height="@dimen/px4"
                 android:layout_gravity="center"
                 android:background="@null"
                 android:clickable="false"
                 android:focusable="false"
-                android:src="@drawable/a2d" />
+                android:src="@drawable/editorx_icon_clip_arrow_up_shape" />
         </FrameLayout>
         <FrameLayout
-            android:id="@id/ze"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:id="@id/fl_media_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </LinearLayout>
     <com.videoai.aivpcore.editorx.board.effect.ui.effectTab.EffectTabView
-        android:id="@id/wk"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/xt"
+        android:id="@id/etv_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px56"
         android:layout_alignParentBottom="true"
         android:visibility="gone" />
     <include
-        android:id="@id/afw"
-        layout="@layout/kt"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/xt"
+        android:id="@id/layout_second"
+        layout="@layout/editorx_effect_layout_second"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px56"
         android:layout_alignParentBottom="true"
         android:visibility="gone" />
 </RelativeLayout>

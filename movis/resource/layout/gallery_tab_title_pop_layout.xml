@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/w1"
+    android:background="@drawable/editor_shape_gallery_tab_title_pop_bg"
     android:gravity="center_horizontal"
     android:orientation="vertical">
     <RelativeLayout
-        android:id="@id/bqe"
-        android:layout_width="fill_parent"
+        android:id="@id/xiaoying_gallery_video_tab"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingStart="36.0dip"
         android:paddingLeft="36.0dip"
@@ -19,12 +19,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/aln"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_ve_gallery_filter_menu_item_video_only"
+            android:textColor="@color/white"
             android:textSize="16.0sp" />
     </RelativeLayout>
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.5dip"
         android:layout_marginStart="3.0dip"
         android:layout_marginLeft="3.0dip"
@@ -32,8 +32,8 @@
         android:layout_marginRight="3.0dip"
         android:background="#1affffff" />
     <RelativeLayout
-        android:id="@id/bqc"
-        android:layout_width="fill_parent"
+        android:id="@id/xiaoying_gallery_photo_tab"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingStart="36.0dip"
         android:paddingLeft="36.0dip"
@@ -45,8 +45,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/alm"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_ve_gallery_filter_menu_item_photo_only"
+            android:textColor="@color/white"
             android:textSize="16.0sp" />
     </RelativeLayout>
 </LinearLayout>

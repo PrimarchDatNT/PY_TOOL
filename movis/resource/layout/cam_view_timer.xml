@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <com.videoai.aivpcore.ui.view.RotateTextView
-        android:id="@id/b_1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/timer_text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:gravity="center"
         android:text="3"
-        android:textColor="@color/zo"
+        android:textColor="@color/white"
         android:textSize="60.0sp"
         android:textStyle="bold" />
     <com.videoai.aivpcore.ui.view.RotateTextView
-        android:id="@id/b_2"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/timer_text2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:gravity="center"
         android:text="3"
-        android:textColor="@color/zo"
+        android:textColor="@color/white"
         android:textSize="60.0sp"
         android:textStyle="bold" />
     <com.videoai.aivpcore.ui.view.RotateTextView
-        android:id="@id/b_3"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/timer_tip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:textColor="@color/zo"
+        android:textColor="@color/white"
         android:textSize="25.0sp"
         android:textStyle="bold" />
 </RelativeLayout>

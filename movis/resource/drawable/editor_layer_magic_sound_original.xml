@@ -4,11 +4,11 @@
         <shape android:shape="oval">
             <size
                 android:width="62.0dip" android:height="62.0dip" />
-            <solid android:color="@color/f0" />
+            <solid android:color="@color/color_39c7f4" />
         </shape>
     </item>
     <item
         android:bottom="19.0dip" android:gravity="center" android:left="19.0dip" android:right="19.0dip" android:top="19.0dip">
-        <bitmap android:src="@drawable/qi" />
+        <bitmap android:src="@drawable/editor_icon_magic_sound_original" />
     </item>
 </layer-list>

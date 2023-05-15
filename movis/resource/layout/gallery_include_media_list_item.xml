@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/ahc"
-    android:layout_width="fill_parent"
+    android:id="@id/list_item_parent_layout"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/xz"
+    android:background="@color/transparent"
     android:orientation="vertical">
-    <include layout="@layout/ps" />
+    <include layout="@layout/gallery_list_header_media" />
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <RelativeLayout
-            android:id="@id/pr"
+            android:id="@id/clip_layout01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="1.0dip"
             android:layout_marginRight="1.0dip">
-            <include layout="@layout/pq" />
+            <include layout="@layout/gallery_item_ve_media" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/ps"
+            android:id="@id/clip_layout02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="1.0dip"
             android:layout_marginRight="1.0dip">
-            <include layout="@layout/pq" />
+            <include layout="@layout/gallery_item_ve_media" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/pt"
+            android:id="@id/clip_layout03"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="1.0dip"
             android:layout_marginRight="1.0dip">
-            <include layout="@layout/pq" />
+            <include layout="@layout/gallery_item_ve_media" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/pu"
+            android:id="@id/clip_layout04"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <include layout="@layout/pq" />
+            <include layout="@layout/gallery_item_ve_media" />
         </RelativeLayout>
     </LinearLayout>
 </LinearLayout>

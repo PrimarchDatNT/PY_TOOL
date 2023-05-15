@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
-    android:background="@color/bn">
+    android:background="@color/black">
     <RelativeLayout
-        android:id="@id/adc"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_2lev_hide"
+        android:layout_width="match_parent"
         android:layout_height="44.0dip"
         android:layout_alignParentBottom="true"
-        android:background="@color/dt">
+        android:background="@color/color_141414">
         <View
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="1.0px"
             android:layout_alignParentTop="true"
             android:background="#ff262626" />
@@ -19,11 +19,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:background="@drawable/o0"
+            android:background="@drawable/editor_icon_btn_ok_n"
             android:clickable="false" />
     </RelativeLayout>
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <TextView
@@ -31,13 +31,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20.0dip"
-            android:text="@string/e6"
-            android:textColor="@color/g9"
+            android:text="@string/editor_theme_each_pic_duration"
+            android:textColor="@color/color_8E8E93"
             android:textSize="12.0sp" />
         <com.videoai.aivpcore.editor.preview.fragment.theme.widget.SeekBarDuration
-            android:id="@id/b0g"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/seekBarDuration"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginTop="15.0dip" />
     </LinearLayout>
 </RelativeLayout>

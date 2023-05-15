@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="100.0dip"
-        android:background="@color/ag"
+        android:background="@color/app_dcolor_background"
         android:clickable="true"
         android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@id/a29"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintBottom_toTopOf="@id/group_order"
+        app:layout_constraintTop_toTopOf="parrent" />
     <FrameLayout
-        android:id="@id/a29"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/group_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginTop="?a4"
-        android:background="@color/ag"
+        android:background="@color/app_dcolor_background"
         android:clickable="true"
-        app:layout_constraintTop_toTopOf="apv">
+        app:layout_constraintTop_toTopOf="parrent">
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/xh"
-            android:fontFamily="@font/f"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px48"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="center"
-            android:text="@string/a0s"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z0"
+            android:text="@string/xiaoying_str_edit_clip_sort"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14"
             android:textStyle="bold" />
         <View
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/t2"
-            android:layout_marginTop="@dimen/xh"
-            android:background="@color/aj" />
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px1"
+            android:layout_marginTop="@dimen/px48"
+            android:background="@color/app_dcolor_indicator" />
         <FrameLayout
-            android:id="@id/a27"
+            android:id="@id/group_delete_scene"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
             android:alpha="0.0">
             <ImageView
-                android:layout_width="@dimen/um"
-                android:layout_height="@dimen/xh"
-                android:src="@drawable/aql" />
+                android:layout_width="@dimen/px200"
+                android:layout_height="@dimen/px48"
+                android:src="@drawable/super_timeline_delete_n" />
             <ImageView
-                android:layout_width="@dimen/v7"
-                android:layout_height="@dimen/v7"
+                android:layout_width="@dimen/px24"
+                android:layout_height="@dimen/px24"
                 android:layout_gravity="center"
                 android:scaleType="centerInside"
-                android:src="@drawable/a54" />
+                android:src="@drawable/editorx_main_icon_exit" />
         </FrameLayout>
         <com.videoai.aivpcore.editorx.board.clip.order.OutTouchRecycler
-            android:id="@id/az3"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/rv_order_scene"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/xh"
+            android:layout_marginTop="@dimen/px48"
             android:clickable="false"
             android:longClickable="false"
             app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
             app:spanCount="4" />
         <com.videoai.aivpcore.editorx.board.clip.widget.TextActionBottomBar
-            android:id="@id/b4"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/xt"
+            android:id="@id/actionBottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px56"
             android:layout_gravity="bottom" />
     </FrameLayout>
 </merge>

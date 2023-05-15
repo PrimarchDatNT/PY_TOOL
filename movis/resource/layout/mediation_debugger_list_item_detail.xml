@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/white"
     android:minHeight="?android:listPreferredItemHeight"
@@ -9,35 +9,35 @@
     android:paddingEnd="?android:listPreferredItemPaddingEnd"
     android:paddingRight="?android:listPreferredItemPaddingRight">
     <ImageView
-        android:id="@id/a40"
+        android:id="@id/imageView"
         android:layout_width="60.0dip"
         android:layout_height="60.0dip"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:contentDescription="@string/ci"
+        android:contentDescription="@string/applovin_list_item_image_description"
         android:paddingEnd="?android:listPreferredItemPaddingEnd"
         android:paddingRight="?android:listPreferredItemPaddingRight" />
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginTop="8.0dip"
         android:layout_marginBottom="8.0dip"
-        android:layout_toStartOf="@id/t8"
-        android:layout_toLeftOf="@id/t8"
-        android:layout_toEndOf="@id/a40"
-        android:layout_toRightOf="@id/a40">
+        android:layout_toStartOf="@id/detailImageView"
+        android:layout_toLeftOf="@id/detailImageView"
+        android:layout_toEndOf="@id/imageView"
+        android:layout_toRightOf="@id/imageView">
         <TextView
             android:id="@android:id/text1"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:textAppearanceListItem"
             android:textColor="@android:color/primary_text_light"
-            android:textSize="@dimen/cp" />
+            android:textSize="@dimen/applovin_sdk_mediationDebuggerDetailListItemTextSize" />
         <TextView
             android:id="@android:id/text2"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@android:id/text1"
             android:layout_alignStart="@android:id/text1"
@@ -46,11 +46,11 @@
             android:textColor="@android:color/secondary_text_light" />
     </RelativeLayout>
     <ImageView
-        android:id="@id/t8"
+        android:id="@id/detailImageView"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:contentDescription="@string/ci" />
+        android:contentDescription="@string/applovin_list_item_image_description" />
 </RelativeLayout>

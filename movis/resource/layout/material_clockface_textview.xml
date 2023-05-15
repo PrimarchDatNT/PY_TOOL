@@ -4,5 +4,5 @@
     android:layout_height="wrap_content"
     android:padding="16.0dip"
     android:textColor="?ho"
-    android:textSize="@dimen/kx"
+    android:textSize="@dimen/material_clock_number_text_size"
     android:visibility="gone" />

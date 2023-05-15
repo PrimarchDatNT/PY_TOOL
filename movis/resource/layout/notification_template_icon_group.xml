@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/a3g"
-    android:layout_width="@dimen/sj"
-    android:layout_height="@dimen/si">
+    android:id="@id/icon_group"
+    android:layout_width="@dimen/notification_large_icon_width"
+    android:layout_height="@dimen/notification_large_icon_height">
     <ImageView
-        android:id="@id/a3a"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginStart="@dimen/sg"
-        android:layout_marginTop="@dimen/sg"
-        android:layout_marginEnd="@dimen/sg"
-        android:layout_marginBottom="@dimen/sg"
+        android:id="@id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/notification_big_circle_margin"
+        android:layout_marginTop="@dimen/notification_big_circle_margin"
+        android:layout_marginEnd="@dimen/notification_big_circle_margin"
+        android:layout_marginBottom="@dimen/notification_big_circle_margin"
         android:scaleType="centerInside" />
     <ImageView
-        android:id="@id/avv"
-        android:layout_width="@dimen/sm"
-        android:layout_height="@dimen/sm"
+        android:id="@id/right_icon"
+        android:layout_width="@dimen/notification_right_icon_size"
+        android:layout_height="@dimen/notification_right_icon_size"
         android:layout_gravity="end|bottom|center"
         android:layout_marginEnd="8.0dip"
         android:layout_marginBottom="8.0dip"

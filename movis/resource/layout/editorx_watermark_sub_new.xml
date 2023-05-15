@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <View
-        android:id="@id/bme"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/ut"
+        android:id="@id/viewContentBg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px214"
         android:layout_gravity="bottom"
-        android:layout_marginBottom="@dimen/xt"
-        android:background="@color/ag"
+        android:layout_marginBottom="@dimen/px56"
+        android:background="@color/app_dcolor_background"
         android:clickable="true"
         android:focusable="true" />
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/a2c"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/vn"
+        android:id="@id/group_watermark_root"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px270"
         android:layout_gravity="bottom">
         <TextView
-            android:id="@id/biq"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/xh"
-            android:fontFamily="@font/f"
+            android:id="@id/tv_watermark_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px48"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="center"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z0"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toRightOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14"
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toRightOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <View
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/t2"
-            android:background="@color/aj"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/biq" />
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px1"
+            android:background="@color/app_dcolor_indicator"
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/tv_watermark_title" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/az9"
+            android:id="@id/rv_watermark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toRightOf="apv"
-            app:layout_constraintTop_toTopOf="apv"
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toRightOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent"
             app:spanCount="4" />
         <com.videoai.aivpcore.editorx.board.clip.widget.TextActionBottomBar
-            android:id="@id/b4"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/xt"
-            app:layout_constraintBottom_toBottomOf="apv" />
+            android:id="@id/actionBottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px56"
+            app:layout_constraintBottom_toBottomOf="parrent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </merge>

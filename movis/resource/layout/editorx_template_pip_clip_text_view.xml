@@ -1,123 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/dt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_141414"
     android:clickable="true">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/bai"
+        android:id="@id/tpc_view_top_layout"
         android:layout_width="wrap_content"
         android:layout_height="38.0dip"
         android:layout_marginTop="25.0dip"
-        android:background="@drawable/a4s"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv">
+        android:background="@drawable/editorx_kit_clip_function_bg"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent">
         <LinearLayout
-            android:id="@id/bah"
+            android:id="@id/tpc_trim"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24.0dip"
             android:gravity="center"
             android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintBottom_toBottomOf="parrent"
             app:layout_constraintHorizontal_chainStyle="apo"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toLeftOf="@id/b72"
-            app:layout_constraintTop_toTopOf="apv">
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toLeftOf="@id/tcp_first_function"
+            app:layout_constraintTop_toTopOf="parrent">
             <ImageView
-                android:id="@id/b75"
+                android:id="@id/tcp_iv_trim"
                 android:layout_width="16.0dip"
                 android:layout_height="16.0dip"
-                android:src="@drawable/a4w" />
+                android:src="@drawable/editorx_kit_clip_trim" />
             <TextView
-                android:id="@id/b7b"
+                android:id="@id/tcp_tv_trim"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6.0dip"
-                android:text="@string/als"
-                android:textColor="@color/iv"
+                android:text="@string/xiaoying_str_ve_gallery_preview_trim"
+                android:textColor="@color/color_e6e6e6"
                 android:textSize="16.0sp" />
         </LinearLayout>
         <View
-            android:id="@id/b72"
+            android:id="@id/tcp_first_function"
             android:layout_width="1.0dip"
             android:layout_height="12.0dip"
             android:layout_marginStart="16.0dip"
             android:layout_marginEnd="16.0dip"
-            android:background="@color/ey"
-            app:layout_constraintBottom_toBottomOf="apv"
+            android:background="@color/color_363636"
+            app:layout_constraintBottom_toBottomOf="parrent"
             app:layout_constraintHorizontal_chainStyle="apo"
-            app:layout_constraintLeft_toRightOf="@id/bah"
-            app:layout_constraintRight_toLeftOf="@id/b78"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintLeft_toRightOf="@id/tpc_trim"
+            app:layout_constraintRight_toLeftOf="@id/tcp_replace"
+            app:layout_constraintTop_toTopOf="parrent" />
         <LinearLayout
-            android:id="@id/b78"
+            android:id="@id/tcp_replace"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintBottom_toBottomOf="parrent"
             app:layout_constraintHorizontal_chainStyle="apo"
-            app:layout_constraintLeft_toRightOf="@id/b72"
-            app:layout_constraintRight_toLeftOf="@id/b79"
-            app:layout_constraintTop_toTopOf="apv">
+            app:layout_constraintLeft_toRightOf="@id/tcp_first_function"
+            app:layout_constraintRight_toLeftOf="@id/tcp_second_function"
+            app:layout_constraintTop_toTopOf="parrent">
             <ImageView
-                android:id="@id/b74"
+                android:id="@id/tcp_iv_replace"
                 android:layout_width="16.0dip"
                 android:layout_height="16.0dip"
-                android:src="@drawable/a4u" />
+                android:src="@drawable/editorx_kit_clip_replace" />
             <TextView
-                android:id="@id/b7a"
+                android:id="@id/tcp_tv_replace"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6.0dip"
-                android:text="@string/a4g"
-                android:textColor="@color/iv"
+                android:text="@string/xiaoying_str_editor_sticker_add_replace"
+                android:textColor="@color/color_e6e6e6"
                 android:textSize="16.0sp" />
         </LinearLayout>
         <View
-            android:id="@id/b79"
+            android:id="@id/tcp_second_function"
             android:layout_width="1.0dip"
             android:layout_height="12.0dip"
             android:layout_marginStart="16.0dip"
             android:layout_marginEnd="16.0dip"
-            android:background="@color/ey"
-            app:layout_constraintBottom_toBottomOf="apv"
+            android:background="@color/color_363636"
+            app:layout_constraintBottom_toBottomOf="parrent"
             app:layout_constraintHorizontal_chainStyle="apo"
-            app:layout_constraintLeft_toRightOf="@id/b78"
-            app:layout_constraintRight_toLeftOf="@id/b77"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintLeft_toRightOf="@id/tcp_replace"
+            app:layout_constraintRight_toLeftOf="@id/tcp_mute"
+            app:layout_constraintTop_toTopOf="parrent" />
         <LinearLayout
-            android:id="@id/b77"
+            android:id="@id/tcp_mute"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="24.0dip"
             android:gravity="center"
             android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="apv"
+            app:layout_constraintBottom_toBottomOf="parrent"
             app:layout_constraintHorizontal_chainStyle="apo"
-            app:layout_constraintLeft_toRightOf="@id/b79"
-            app:layout_constraintRight_toRightOf="apv"
-            app:layout_constraintTop_toTopOf="apv">
+            app:layout_constraintLeft_toRightOf="@id/tcp_second_function"
+            app:layout_constraintRight_toRightOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent">
             <ImageView
-                android:id="@id/b73"
+                android:id="@id/tcp_iv_mute"
                 android:layout_width="16.0dip"
                 android:layout_height="16.0dip"
-                android:src="@drawable/aqc" />
+                android:src="@drawable/super_timeline_audio_open_all" />
             <TextView
-                android:id="@id/b7_"
+                android:id="@id/tcp_tv_mute"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6.0dip"
-                android:text="@string/aju"
-                android:textColor="@color/iv"
+                android:text="@string/xiaoying_str_ve_basic_mute_title"
+                android:textColor="@color/color_e6e6e6"
                 android:textSize="16.0sp" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <com.videoai.aivpcore.supertimeline.view.KitTimeLine
-        android:id="@id/b76"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:id="@id/tcp_kitTimeline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

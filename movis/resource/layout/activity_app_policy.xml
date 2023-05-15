@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:orientation="vertical">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/pn"
-        android:layout_width="fill_parent"
+        android:id="@id/cl_toolbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/zo"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv">
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/a9u"
+            android:id="@id/iv_back"
             android:layout_width="?a4"
             android:layout_height="?a4"
             android:background="?a5d"
             android:scaleType="centerInside"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv"
-            app:srcCompat="@drawable/aiy" />
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent"
+            app:srcCompat="@drawable/ic_app_back" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bi9"
+            android:id="@id/tv_title"
             android:layout_width="0.0dip"
             android:layout_height="?a4"
             android:ellipsize="end"
-            android:fontFamily="@font/f"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="center_vertical"
             android:lines="1"
-            android:text="@string/a7"
-            android:textColor="@color/bn"
+            android:text="@string/about_policy"
+            android:textColor="@color/black"
             android:textSize="18.0sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toEndOf="@id/a9u"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toEndOf="@id/iv_back"
+            app:layout_constraintTop_toTopOf="parrent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <View
-        android:id="@id/bmz"
-        android:layout_width="fill_parent"
+        android:id="@id/view_div"
+        android:layout_width="match_parent"
         android:layout_height="1.0dip"
         android:background="#ffe0e0e0"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/pn" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/cl_toolbar" />
     <WebView
-        android:id="@id/bp6"
-        android:layout_width="fill_parent"
+        android:id="@id/wv_policy_content"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_marginTop="2.0dip"
-        android:background="@color/zp"
+        android:background="@color/white_5"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/bmz" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/view_div" />
     <LinearLayout
-        android:id="@id/ai5"
-        android:layout_width="fill_parent"
+        android:id="@id/ll_loading"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_marginTop="2.0dip"
-        android:background="@color/zp"
+        android:background="@color/white_5"
         android:gravity="center"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/bmz">
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/view_div">
         <ProgressBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:indeterminateTint="@color/m9" />
+            android:indeterminateTint="@color/color_primary" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/ai7"
-        android:layout_width="fill_parent"
+        android:id="@id/ll_message_retry"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
-        android:background="@color/zp"
+        android:background="@color/white_5"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/bmz">
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/view_div">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/is"
-            android:textColor="@color/bn"
+            android:text="@string/no_network_connection"
+            android:textColor="@color/black"
             android:textSize="18.0sp" />
         <LinearLayout
-            android:id="@id/ahk"
+            android:id="@id/ll_about_retry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24.0dip"
-            android:background="@drawable/ahz">
+            android:background="@drawable/green_trading_button_selected">
             <TextView
-                android:id="@id/bcu"
+                android:id="@id/tv_about_retry"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="?a5d"
@@ -108,8 +108,8 @@
                 android:paddingTop="8.0dip"
                 android:paddingRight="16.0dip"
                 android:paddingBottom="8.0dip"
-                android:text="@string/a_"
-                android:textColor="@color/zo"
+                android:text="@string/action_try_again"
+                android:textColor="@color/white"
                 android:textSize="18.0sp"
                 android:textStyle="bold" />
         </LinearLayout>

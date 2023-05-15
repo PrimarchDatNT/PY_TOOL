@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/l0"
-    android:layout_width="fill_parent"
+    android:id="@id/btn_layout"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
-    android:background="@drawable/ash"
+    android:background="@drawable/v4_xiaoying_cam_bottom_bg"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:paddingTop="30.0dip"
     android:paddingBottom="30.0dip">
     <Button
-        android:id="@id/kr"
+        android:id="@id/btn_edit_photo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/dx"
-        android:text="@string/alk"
-        android:textColor="@color/zo" />
+        android:background="@drawable/app_default_button"
+        android:text="@string/xiaoying_str_ve_gallery_file_quick_scan"
+        android:textColor="@color/white" />
     <Button
-        android:id="@id/ks"
+        android:id="@id/btn_edit_video"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13.0dip"
-        android:background="@drawable/aus"
-        android:text="@string/alf"
-        android:textColor="@color/zo" />
+        android:background="@drawable/v4_xiaoying_com_file_explorer_scan_selector"
+        android:text="@string/xiaoying_str_ve_gallery_file_custom_scan"
+        android:textColor="@color/white" />
 </LinearLayout>

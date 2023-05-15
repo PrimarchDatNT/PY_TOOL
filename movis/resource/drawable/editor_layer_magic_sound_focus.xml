@@ -5,11 +5,11 @@
             <size
                 android:width="72.0dip" android:height="72.0dip" />
             <stroke
-                android:width="2.0dip" android:color="@color/n_" />
-            <solid android:color="@color/c2" />
+                android:width="2.0dip" android:color="@color/default_app_color" />
+            <solid android:color="@color/black_p70" />
         </shape>
     </item>
     <item android:gravity="center">
-        <bitmap android:src="@drawable/qh" />
+        <bitmap android:src="@drawable/editor_icon_magic_sound_focus" />
     </item>
 </layer-list>

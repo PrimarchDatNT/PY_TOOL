@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center"
     android:minHeight="76.0dip"
     android:orientation="vertical"
-    android:paddingTop="@dimen/mg"
-    android:paddingBottom="@dimen/mg">
+    android:paddingTop="@dimen/md_content_padding_top"
+    android:paddingBottom="@dimen/md_content_padding_top">
     <EditText
-        android:id="@id/v7"
-        android:layout_width="fill_parent"
+        android:id="@id/edit_text"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="5.0dip"
         android:layout_marginLeft="5.0dip"
@@ -23,5 +23,5 @@
         android:maxHeight="150.0dip"
         android:maxLength="250"
         android:scrollHorizontally="false"
-        android:textCursorDrawable="@drawable/aun" />
+        android:textCursorDrawable="@drawable/v4_xiaoying_com_edittext_cursor" />
 </LinearLayout>

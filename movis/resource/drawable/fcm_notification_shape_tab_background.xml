@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
-    <corners android:radius="@dimen/ht" />
-    <solid android:color="@color/pl" />
+    <corners android:radius="@dimen/fcm_notification_center_corner_tab" />
+    <solid android:color="@color/fcm_notification_center_tab_backgroud" />
 </shape>

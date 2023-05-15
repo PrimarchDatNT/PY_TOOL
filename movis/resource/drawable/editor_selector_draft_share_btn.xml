@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/tz" android:state_enabled="true" />
-    <item android:drawable="@drawable/u0" android:state_enabled="false" />
+    <item android:drawable="@drawable/editor_selector_draft_share_btn_bg" android:state_enabled="true" />
+    <item android:drawable="@drawable/editor_selector_draft_share_btn_bg_n" android:state_enabled="false" />
 </selector>

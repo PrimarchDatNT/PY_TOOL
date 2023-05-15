@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.firebase.inappmessaging.display.internal.layout.ModalLayoutPortrait xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:fiam="http://schemas.android.com/apk/res-auto"
-    android:id="@id/akz"
-    style="@style/hd"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:id="@id/modal_content_root"
+    style="@style/FiamUI_Modal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_centerInParent="true"
-    android:background="@drawable/apd"
+    android:background="@drawable/rounded_layout"
     android:padding="24.0dip"
-    android:theme="@style/h5"
-    fiam:maxHeightPct="@dimen/eu"
-    fiam:maxWidthPct="@dimen/ev">
+    android:theme="@style/FiamUI"
+    fiam:maxHeightPct="@dimen/dialogHeightPct"
+    fiam:maxWidthPct="@dimen/dialogWidthPct">
     <TextView
-        android:id="@id/akp"
-        style="@style/hi"
-        android:layout_width="fill_parent"
+        android:id="@id/message_title"
+        style="@style/FiamUI_Text_Title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:gravity="center" />
     <ImageView
-        android:id="@id/a4a"
-        style="@style/hf"
+        android:id="@id/image_view"
+        style="@style/FiamUI_ModalImageView"
         android:layout_gravity="center_horizontal"
-        android:contentDescription="@string/hm"
+        android:contentDescription="@string/modal_inner_content_descriptor"
         android:scaleType="centerInside" />
     <ScrollView
-        android:id="@id/ik"
-        android:layout_width="fill_parent"
+        android:id="@id/body_scroll"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
-            android:id="@id/ako"
-            style="@style/he"
+            android:id="@id/message_body"
+            style="@style/FiamUI_ModalBody"
             android:gravity="center_horizontal" />
     </ScrollView>
     <Button
-        android:id="@id/mc"
+        android:id="@id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal" />

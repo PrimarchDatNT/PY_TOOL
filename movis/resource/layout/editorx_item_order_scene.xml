@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="@dimen/y_"
-    android:layout_height="@dimen/y_">
+    android:layout_width="@dimen/px68"
+    android:layout_height="@dimen/px68">
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@id/ab1"
-        android:layout_width="@dimen/y_"
-        android:layout_height="@dimen/y_"
+        android:id="@id/iv_scene"
+        android:layout_width="@dimen/px68"
+        android:layout_height="@dimen/px68"
         android:scaleType="centerCrop"
-        android:src="@drawable/e7"
-        app:shapeAppearanceOverlay="@style/ix" />
+        android:src="@drawable/app_logon_2"
+        app:shapeAppearanceOverlay="@style/RoundedRectItem" />
     <TextView
-        android:id="@id/bh0"
-        android:layout_width="@dimen/ul"
-        android:layout_height="@dimen/tz"
-        android:layout_marginStart="@dimen/xz"
-        android:layout_marginTop="@dimen/xz"
-        android:background="@drawable/a89"
+        android:id="@id/tv_scene_num"
+        android:layout_width="@dimen/px20"
+        android:layout_height="@dimen/px16"
+        android:layout_marginStart="@dimen/px6"
+        android:layout_marginTop="@dimen/px6"
+        android:background="@drawable/editorx_shape_order_scene_num"
         android:gravity="center"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/yy" />
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp10" />
 </FrameLayout>

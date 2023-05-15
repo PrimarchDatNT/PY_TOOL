@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="168.0dip"
-    android:background="@drawable/b8i"
+    android:background="@drawable/xyui_shape_radius_4_solid_white"
     android:orientation="vertical"
     android:paddingLeft="24.0dip"
     android:paddingTop="36.0dip"
     android:paddingRight="24.0dip"
     android:paddingBottom="24.0dip">
     <TextView
-        android:id="@id/bi9"
+        android:id="@id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/eq"
+        android:textColor="@color/color_333333"
         android:textSize="16.0dip"
-        app:layout_constraintLeft_toLeftOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintLeft_toLeftOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <TextView
-        android:id="@id/bdm"
+        android:id="@id/tv_confirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/kk"
+        android:textColor="@color/color_ff4e18"
         android:textSize="16.0dip"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintRight_toRightOf="apv" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintRight_toRightOf="parrent" />
     <TextView
-        android:id="@id/bdb"
+        android:id="@id/tv_cancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="39.0dip"
         android:text="关闭"
-        android:textColor="@color/fp"
+        android:textColor="@color/color_666666"
         android:textSize="16.0dip"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintRight_toLeftOf="@id/bdm" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintRight_toLeftOf="@id/tv_confirm" />
 </androidx.constraintlayout.widget.ConstraintLayout>

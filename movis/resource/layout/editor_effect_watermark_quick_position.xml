@@ -1,206 +1,206 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/bn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
     android:layoutDirection="ltr">
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:orientation="vertical">
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:layout_weight="1.0"
             android:gravity="center_vertical"
             android:orientation="horizontal">
             <RelativeLayout
-                android:id="@id/ari"
+                android:id="@id/position_0"
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
-                android:background="@drawable/v2"
+                android:background="@drawable/editor_selector_watermark_qucik_postion"
                 android:clickable="true"
                 android:focusable="true" />
             <View
                 android:layout_width="10.0dip"
                 android:layout_height="2.0dip"
-                android:background="@color/ew" />
+                android:background="@color/color_33ffffff" />
             <RelativeLayout
-                android:id="@id/arj"
+                android:id="@id/position_1"
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
-                android:background="@drawable/v2"
+                android:background="@drawable/editor_selector_watermark_qucik_postion"
                 android:clickable="true"
                 android:focusable="true" />
             <View
                 android:layout_width="10.0dip"
                 android:layout_height="2.0dip"
-                android:background="@color/ew" />
+                android:background="@color/color_33ffffff" />
             <RelativeLayout
-                android:id="@id/ark"
+                android:id="@id/position_2"
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
-                android:background="@drawable/v2"
+                android:background="@drawable/editor_selector_watermark_qucik_postion"
                 android:clickable="true"
                 android:focusable="true" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="10.0dip"
             android:orientation="horizontal">
             <RelativeLayout
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
                 android:gravity="center_horizontal">
                 <View
                     android:layout_width="2.0dip"
-                    android:layout_height="fill_parent"
-                    android:background="@color/ew" />
+                    android:layout_height="match_parent"
+                    android:background="@color/color_33ffffff" />
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="10.0dip"
                 android:layout_marginLeft="10.0dip"
                 android:layout_weight="1.0"
                 android:gravity="center_horizontal">
                 <View
                     android:layout_width="2.0dip"
-                    android:layout_height="fill_parent"
-                    android:background="@color/ew" />
+                    android:layout_height="match_parent"
+                    android:background="@color/color_33ffffff" />
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="10.0dip"
                 android:layout_marginLeft="10.0dip"
                 android:layout_weight="1.0"
                 android:gravity="center_horizontal">
                 <View
                     android:layout_width="2.0dip"
-                    android:layout_height="fill_parent"
-                    android:background="@color/ew" />
+                    android:layout_height="match_parent"
+                    android:background="@color/color_33ffffff" />
             </RelativeLayout>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:layout_weight="1.0"
             android:gravity="center_vertical"
             android:orientation="horizontal">
             <RelativeLayout
-                android:id="@id/arl"
+                android:id="@id/position_3"
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
-                android:background="@drawable/v2"
+                android:background="@drawable/editor_selector_watermark_qucik_postion"
                 android:clickable="true"
                 android:focusable="true" />
             <View
                 android:layout_width="10.0dip"
                 android:layout_height="2.0dip"
-                android:background="@color/ew" />
+                android:background="@color/color_33ffffff" />
             <RelativeLayout
-                android:id="@id/arm"
+                android:id="@id/position_4"
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
-                android:background="@drawable/v2"
+                android:background="@drawable/editor_selector_watermark_qucik_postion"
                 android:clickable="true"
                 android:focusable="true" />
             <View
                 android:layout_width="10.0dip"
                 android:layout_height="2.0dip"
-                android:background="@color/ew" />
+                android:background="@color/color_33ffffff" />
             <RelativeLayout
-                android:id="@id/arn"
+                android:id="@id/position_5"
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
-                android:background="@drawable/v2"
+                android:background="@drawable/editor_selector_watermark_qucik_postion"
                 android:clickable="true"
                 android:focusable="true" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="10.0dip"
             android:orientation="horizontal">
             <RelativeLayout
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
                 android:gravity="center_horizontal">
                 <View
                     android:layout_width="2.0dip"
-                    android:layout_height="fill_parent"
-                    android:background="@color/ew" />
+                    android:layout_height="match_parent"
+                    android:background="@color/color_33ffffff" />
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="10.0dip"
                 android:layout_marginLeft="10.0dip"
                 android:layout_weight="1.0"
                 android:gravity="center_horizontal">
                 <View
                     android:layout_width="2.0dip"
-                    android:layout_height="fill_parent"
-                    android:background="@color/ew" />
+                    android:layout_height="match_parent"
+                    android:background="@color/color_33ffffff" />
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="10.0dip"
                 android:layout_marginLeft="10.0dip"
                 android:layout_weight="1.0"
                 android:gravity="center_horizontal">
                 <View
                     android:layout_width="2.0dip"
-                    android:layout_height="fill_parent"
-                    android:background="@color/ew" />
+                    android:layout_height="match_parent"
+                    android:background="@color/color_33ffffff" />
             </RelativeLayout>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:layout_weight="1.0"
             android:gravity="center_vertical"
             android:orientation="horizontal">
             <RelativeLayout
-                android:id="@id/aro"
+                android:id="@id/position_6"
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
-                android:background="@drawable/v2"
+                android:background="@drawable/editor_selector_watermark_qucik_postion"
                 android:clickable="true"
                 android:focusable="true" />
             <View
                 android:layout_width="10.0dip"
                 android:layout_height="2.0dip"
-                android:background="@color/ew" />
+                android:background="@color/color_33ffffff" />
             <RelativeLayout
-                android:id="@id/arp"
+                android:id="@id/position_7"
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
-                android:background="@drawable/v2"
+                android:background="@drawable/editor_selector_watermark_qucik_postion"
                 android:clickable="true"
                 android:focusable="true" />
             <View
                 android:layout_width="10.0dip"
                 android:layout_height="2.0dip"
-                android:background="@color/ew" />
+                android:background="@color/color_33ffffff" />
             <RelativeLayout
-                android:id="@id/arq"
+                android:id="@id/position_8"
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
-                android:background="@drawable/v2"
+                android:background="@drawable/editor_selector_watermark_qucik_postion"
                 android:clickable="true"
                 android:focusable="true" />
         </LinearLayout>

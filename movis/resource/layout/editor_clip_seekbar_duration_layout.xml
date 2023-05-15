@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/axo"
+        android:id="@id/rl_theme_duration_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5.0dip">
         <TextView
-            android:id="@id/bc9"
+            android:id="@id/tvThemeDurationTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3"
-            android:textColor="@color/zo"
+            android:textColor="@color/white"
             android:textSize="18.0sp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBaseline="@id/bc9"
-            android:layout_alignBottom="@id/bc9"
-            android:layout_toEndOf="@id/bc9"
-            android:layout_toRightOf="@id/bc9"
-            android:text="@string/xg"
-            android:textColor="@color/zo"
+            android:layout_alignBaseline="@id/tvThemeDurationTime"
+            android:layout_alignBottom="@id/tvThemeDurationTime"
+            android:layout_toEndOf="@id/tvThemeDurationTime"
+            android:layout_toRightOf="@id/tvThemeDurationTime"
+            android:text="@string/xiaoying_str_com_second_unit"
+            android:textColor="@color/white"
             android:textSize="12.0sp" />
     </RelativeLayout>
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/axo"
+        android:layout_below="@id/rl_theme_duration_time"
         android:layout_marginTop="20.0dip"
         android:gravity="center"
         android:orientation="horizontal">
@@ -43,10 +43,10 @@
             android:layout_marginRight="8.0dip"
             android:gravity="center"
             android:text="0.1s"
-            android:textColor="@color/g9"
+            android:textColor="@color/color_8E8E93"
             android:textSize="11.0sp" />
         <SeekBar
-            android:id="@id/b0x"
+            android:id="@id/seekbar_theme_duration"
             android:layout_width="0.0dip"
             android:layout_height="20.0dip"
             android:layout_gravity="center"
@@ -58,11 +58,11 @@
             android:paddingEnd="9.0dip"
             android:paddingRight="9.0dip"
             android:progress="0"
-            android:progressDrawable="@drawable/sn"
-            android:thumb="@drawable/t1"
+            android:progressDrawable="@drawable/editor_layer_audiomix_seekbar_bg"
+            android:thumb="@drawable/editor_layer_seekbar_thumb_white_18"
             android:thumbOffset="9.0dip" />
         <TextView
-            android:id="@id/ak2"
+            android:id="@id/maxTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -72,7 +72,7 @@
             android:layout_marginRight="15.0dip"
             android:gravity="center"
             android:text="10s"
-            android:textColor="@color/g9"
+            android:textColor="@color/color_8E8E93"
             android:textSize="11.0sp" />
     </LinearLayout>
 </RelativeLayout>

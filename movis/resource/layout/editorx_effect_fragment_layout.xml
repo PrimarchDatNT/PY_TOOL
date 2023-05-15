@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/ax1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginBottom="@dimen/xt">
+        android:id="@id/rl_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/px56">
         <HorizontalScrollView
-            android:id="@id/acv"
-            android:layout_width="fill_parent"
+            android:id="@id/layoutScroll"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:clickable="true"
             android:focusable="true"
             android:scrollbars="none">
             <LinearLayout
-                android:id="@id/aef"
+                android:id="@id/layout_effect"
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/xt"
-                android:background="@color/ag"
+                android:layout_height="@dimen/px56"
+                android:background="@color/app_dcolor_background"
                 android:gravity="center"
                 android:orientation="horizontal">
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/b25"
-                    android:layout_width="@dimen/y6"
-                    android:layout_height="fill_parent"
-                    app:sitv_bottom_text="@string/a4f"
-                    app:sitv_top_drawable="@drawable/a00" />
+                    android:id="@id/sitv_effects"
+                    android:layout_width="@dimen/px64"
+                    android:layout_height="match_parent"
+                    app:sitv_bottom_text="@string/xiaoying_str_editor_sticker_add_new"
+                    app:sitv_top_drawable="@drawable/editorx_effect_item" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.ThemeIconTextView
-                    android:id="@id/b2n"
-                    android:layout_width="@dimen/y6"
-                    android:layout_height="fill_parent"
-                    app:sitv_bottom_text="@string/ap6"
-                    app:sitv_top_drawable="@drawable/xq" />
+                    android:id="@id/sitv_theme"
+                    android:layout_width="@dimen/px64"
+                    android:layout_height="match_parent"
+                    app:sitv_bottom_text="@string/xiaoying_str_ve_theme_title"
+                    app:sitv_top_drawable="@drawable/editor_tab_theme_white" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/b26"
-                    android:layout_width="@dimen/y6"
-                    android:layout_height="fill_parent"
-                    app:sitv_bottom_text="@string/ajf"
-                    app:sitv_top_drawable="@drawable/a2s" />
+                    android:id="@id/sitv_fx"
+                    android:layout_width="@dimen/px64"
+                    android:layout_height="match_parent"
+                    app:sitv_bottom_text="@string/xiaoying_str_ve_animate_frame_title"
+                    app:sitv_top_drawable="@drawable/editorx_icon_effect_fx" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/b2m"
-                    android:layout_width="@dimen/y6"
-                    android:layout_height="fill_parent"
-                    app:sitv_bottom_text="@string/ap0"
-                    app:sitv_top_drawable="@drawable/a36" />
+                    android:id="@id/sitv_subtitle"
+                    android:layout_width="@dimen/px64"
+                    android:layout_height="match_parent"
+                    app:sitv_bottom_text="@string/xiaoying_str_ve_subtitle_title"
+                    app:sitv_top_drawable="@drawable/editorx_icon_effect_subtitle" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/b2k"
-                    android:layout_width="@dimen/y6"
-                    android:layout_height="fill_parent"
+                    android:id="@id/sitv_speech"
+                    android:layout_width="@dimen/px64"
+                    android:layout_height="match_parent"
                     android:layout_gravity="bottom"
                     android:visibility="gone"
                     app:sitv_bottom_text="字幕识别"
-                    app:sitv_top_drawable="@drawable/a1o" />
+                    app:sitv_top_drawable="@drawable/editorx_ico_speech" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/b2l"
-                    android:layout_width="@dimen/y6"
-                    android:layout_height="fill_parent"
-                    app:sitv_bottom_text="@string/a4i"
-                    app:sitv_top_drawable="@drawable/a34" />
+                    android:id="@id/sitv_sticker"
+                    android:layout_width="@dimen/px64"
+                    android:layout_height="match_parent"
+                    app:sitv_bottom_text="@string/xiaoying_str_editor_sticker_title"
+                    app:sitv_top_drawable="@drawable/editorx_icon_effect_sticker" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/b2d"
-                    android:layout_width="@dimen/y6"
-                    android:layout_height="fill_parent"
-                    app:sitv_bottom_text="@string/amc"
-                    app:sitv_top_drawable="@drawable/a2w" />
+                    android:id="@id/sitv_mosaic"
+                    android:layout_width="@dimen/px64"
+                    android:layout_height="match_parent"
+                    app:sitv_bottom_text="@string/xiaoying_str_ve_mosaic_title"
+                    app:sitv_top_drawable="@drawable/editorx_icon_effect_mosaic" />
                 <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                    android:id="@id/b20"
-                    android:layout_width="@dimen/y6"
-                    android:layout_height="fill_parent"
-                    android:layout_marginEnd="@dimen/tz"
-                    app:sitv_bottom_text="@string/uj"
-                    app:sitv_top_drawable="@drawable/a2n" />
+                    android:id="@id/sitv_collage"
+                    android:layout_width="@dimen/px64"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/px16"
+                    app:sitv_bottom_text="@string/xiaoying_str_com_home_edit_pip"
+                    app:sitv_top_drawable="@drawable/editorx_icon_effect_collage" />
             </LinearLayout>
         </HorizontalScrollView>
         <RelativeLayout
-            android:id="@id/adf"
+            android:id="@id/layout_add"
             android:layout_width="40.0dip"
             android:layout_height="40.0dip"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="15.0dip"
             android:layout_marginBottom="24.0dip"
-            android:background="@drawable/a7b"
+            android:background="@drawable/editorx_shape_effect_main_add"
             android:visibility="gone">
             <ImageView
-                android:id="@id/a9j"
+                android:id="@id/iv_add"
                 android:layout_width="20.0dip"
                 android:layout_height="20.0dip"
                 android:layout_centerInParent="true"
-                android:src="@drawable/a2h" />
+                android:src="@drawable/editorx_icon_effect_add" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

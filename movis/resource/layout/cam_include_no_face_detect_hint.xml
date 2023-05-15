@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/aoh"
+    android:id="@id/no_face_tips_layout"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_centerInParent="true"
@@ -10,13 +10,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/ay1" />
+        android:src="@drawable/v6_xiaoying_noface_detected_icon" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="12.0dip"
-        android:text="@string/pz"
-        android:textColor="@color/zo"
+        android:text="@string/xiaoying_str_cam_fd_can_not_detect_face"
+        android:textColor="@color/white"
         android:textSize="14.0sp" />
 </LinearLayout>

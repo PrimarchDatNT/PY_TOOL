@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="@dimen/xt"
-    android:background="@color/ah">
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px56"
+    android:background="@color/app_dcolor_bg_1">
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.5dip"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/fm"
-        android:layout_width="@dimen/xt"
-        android:layout_height="@dimen/xt"
-        android:background="@drawable/jf"
+        android:id="@id/audio_bgm_back_btn"
+        android:layout_width="@dimen/px56"
+        android:layout_height="@dimen/px56"
+        android:background="@drawable/btn_dcolor_ripple"
         android:scaleType="centerInside"
-        android:src="@drawable/a1n"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        android:src="@drawable/editorx_ico_second_double_back"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <HorizontalScrollView
         android:layout_width="0.0dip"
-        android:layout_height="fill_parent"
-        android:scrollbarThumbHorizontal="@color/ak"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toEndOf="@id/fm"
-        app:layout_constraintTop_toTopOf="apv">
+        android:layout_height="match_parent"
+        android:scrollbarThumbHorizontal="@color/app_dcolor_indicator_2"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toEndOf="@id/audio_bgm_back_btn"
+        app:layout_constraintTop_toTopOf="parrent">
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="horizontal">
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/fl"
-                android:layout_width="@dimen/y6"
+                android:id="@id/audio_bgm_add"
+                android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 android:visibility="visible"
-                app:sitv_bottom_text="@string/zp"
-                app:sitv_top_drawable="@drawable/y0" />
+                app:sitv_bottom_text="@string/xiaoying_str_edit_add_bgm_music_text"
+                app:sitv_top_drawable="@drawable/editorx_audio_bgm_add_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/fr"
-                android:layout_width="@dimen/y6"
+                android:id="@id/audio_bgm_volume"
+                android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
-                app:sitv_bottom_text="@string/a07"
+                app:sitv_bottom_text="@string/xiaoying_str_edit_audio_vloume_text"
                 app:sitv_top_text="100"
-                app:sitv_top_text_color="@drawable/a6f"
+                app:sitv_top_text_color="@drawable/editorx_selector_sitv_text_color"
                 app:sitv_top_type="bac" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/fq"
-                android:layout_width="@dimen/y6"
+                android:id="@id/audio_bgm_trim"
+                android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 android:visibility="visible"
-                app:sitv_bottom_text="@string/ak2"
-                app:sitv_top_drawable="@drawable/ys" />
+                app:sitv_bottom_text="@string/xiaoying_str_ve_basic_trim_title"
+                app:sitv_top_drawable="@drawable/editorx_audio_trim_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/fs"
-                android:layout_width="@dimen/y6"
+                android:id="@id/audio_bgm_weaken"
+                android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
-                app:sitv_bottom_text="@string/p0"
-                app:sitv_top_drawable="@drawable/a_f" />
+                app:sitv_bottom_text="@string/xiaoying_str_audio_weaken_text"
+                app:sitv_top_drawable="@drawable/editorx_volume_dialog_weaken_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/fn"
-                android:layout_width="@dimen/y6"
+                android:id="@id/audio_bgm_del"
+                android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
-                app:sitv_bottom_text="@string/t7"
-                app:sitv_top_drawable="@drawable/y1" />
+                app:sitv_bottom_text="@string/xiaoying_str_com_delete_title"
+                app:sitv_top_drawable="@drawable/editorx_audio_bgm_del_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/fp"
-                android:layout_width="@dimen/y6"
+                android:id="@id/audio_bgm_replace"
+                android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
-                app:sitv_bottom_text="@string/a1r"
-                app:sitv_top_drawable="@drawable/y4" />
+                app:sitv_bottom_text="@string/xiaoying_str_edit_replace_text"
+                app:sitv_top_drawable="@drawable/editorx_audio_bgm_replace_icon" />
             <com.videoai.aivpcore.editorx.board.effect.ui.SimpleIconTextView
-                android:id="@id/fo"
-                android:layout_width="@dimen/y6"
+                android:id="@id/audio_bgm_loop"
+                android:layout_width="@dimen/px64"
                 android:layout_height="wrap_content"
                 android:visibility="gone"
-                app:sitv_bottom_text="@string/zy"
-                app:sitv_top_drawable="@drawable/a64" />
+                app:sitv_bottom_text="@string/xiaoying_str_edit_audio_loop_text"
+                app:sitv_top_drawable="@drawable/editorx_selector_audio_bgm_loop" />
         </LinearLayout>
     </HorizontalScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

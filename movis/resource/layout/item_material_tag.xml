@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/bcb"
+    android:id="@id/tvTitle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/apw"
-    android:paddingStart="@dimen/td"
-    android:paddingTop="@dimen/x5"
-    android:paddingEnd="@dimen/td"
-    android:paddingBottom="@dimen/x5"
+    android:background="@drawable/slt_item_tag"
+    android:paddingStart="@dimen/px12"
+    android:paddingTop="@dimen/px4"
+    android:paddingEnd="@dimen/px12"
+    android:paddingBottom="@dimen/px4"
     android:tag="layout/item_material_tag_0"
-    android:textColor="@color/xj"
-    android:textSize="@dimen/z0" />
+    android:textColor="@color/text_selector_tab"
+    android:textSize="@dimen/sp14" />

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingTop="3.0dip"
     android:paddingBottom="3.0dip">
     <ImageView
-        android:id="@id/b6e"
-        android:layout_width="fill_parent"
+        android:id="@id/tab_iv"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="2.5dip"
-        android:src="@drawable/s7"
+        android:src="@drawable/editor_icon_theme_tab_normal"
         android:visibility="gone" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/b6k"
-        android:layout_width="fill_parent"
+        android:id="@id/tab_tv"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ellipsize="end"
         android:gravity="center"
         android:maxLines="1"
-        android:textColor="@color/g9"
-        app:autoSizeMaxTextSize="@dimen/gw"
-        app:autoSizeMinTextSize="@dimen/gx"
+        android:textColor="@color/color_8E8E93"
+        app:autoSizeMaxTextSize="@dimen/editor_preview_tab_normal_textsize"
+        app:autoSizeMinTextSize="@dimen/editor_preview_tab_tiny_textsize"
         app:autoSizeTextType="bjy" />
 </LinearLayout>

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/aja"
-        android:layout_width="fill_parent"
+        android:id="@id/mark_top_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
-            android:id="@id/ajb"
-            android:layout_width="@dimen/xe"
-            android:layout_height="@dimen/xe"
-            android:background="@drawable/an6"
+            android:id="@id/mark_top_text"
+            android:layout_width="@dimen/px46"
+            android:layout_height="@dimen/px46"
+            android:background="@drawable/msb_shape_mark_top_text_bg"
             android:gravity="center"
-            android:textColor="@color/ap"
-            android:textSize="@dimen/yz"
+            android:textColor="@color/app_dcolor_text_2"
+            android:textSize="@dimen/sp12"
             android:visibility="invisible" />
     </LinearLayout>
     <FrameLayout
-        android:id="@id/ajc"
-        android:layout_width="fill_parent"
+        android:id="@id/mark_view_continer"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <SeekBar
-            android:id="@id/aon"
-            android:layout_width="fill_parent"
+            android:id="@id/normal_seek_bar"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
             android:layout_marginTop="2.0dip"

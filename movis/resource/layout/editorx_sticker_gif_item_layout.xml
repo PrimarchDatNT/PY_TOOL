@@ -3,38 +3,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="103.0dip"
     android:layout_height="103.0dip"
-    android:background="@drawable/a7_">
+    android:background="@drawable/editorx_shape_effect_item_bg_unchoose">
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/qr"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/collage_gif_item_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:background="@color/xz" />
+        android:background="@color/transparent" />
     <ImageView
-        android:id="@id/qo"
+        android:id="@id/collage_gif_download_flag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/b6f"
+        android:src="@drawable/xiaoying_ve_collage_gif_download_icon"
         android:visibility="gone" />
     <View
-        android:id="@id/adx"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/a79" />
+        android:id="@id/layout_choose"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/editorx_shape_effect_item_bg_trans_unchoose" />
     <ImageView
-        android:id="@id/abu"
+        android:id="@id/iv_vip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="4.0dip"
         android:layout_marginEnd="4.0dip"
-        android:src="@drawable/aj9" />
+        android:src="@drawable/ic_diamon_premium" />
     <com.videoai.aivpcore.editorx.widget.magic.RoundProgressView
-        android:id="@id/asc"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/progress_download"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="gone"
         app:backgroundColor="#99020202"
         app:circleCorner="0.0dip"

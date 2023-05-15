@@ -2,14 +2,14 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@android:id/background">
         <shape>
-            <solid android:color="@color/zy" />
+            <solid android:color="@color/white_p40" />
             <corners android:radius="5.0dip" />
         </shape>
     </item>
     <item android:id="@android:id/progress">
         <clip android:clipOrientation="horizontal">
             <scale
-                android:drawable="@drawable/axe" android:scaleWidth="100%" />
+                android:drawable="@drawable/v5_xiaoying_ve_basic_tool_dialog_progress_drawable_shape" android:scaleWidth="100%" />
         </clip>
     </item>
 </layer-list>

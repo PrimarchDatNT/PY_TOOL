@@ -5,13 +5,13 @@
             <item>
                 <shape android:shape="rectangle">
                     <corners android:radius="3.0dip" />
-                    <solid android:color="@color/n_" />
+                    <solid android:color="@color/default_app_color" />
                 </shape>
             </item>
             <item>
                 <shape android:shape="rectangle">
                     <corners android:radius="3.0dip" />
-                    <solid android:color="@color/br" />
+                    <solid android:color="@color/black_p10" />
                 </shape>
             </item>
         </layer-list>
@@ -19,7 +19,7 @@
     <item>
         <shape android:shape="rectangle">
             <corners android:radius="3.0dip" />
-            <solid android:color="@color/n_" />
+            <solid android:color="@color/default_app_color" />
         </shape>
     </item>
 </selector>

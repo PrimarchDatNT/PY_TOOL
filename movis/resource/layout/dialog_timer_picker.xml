@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/f1"
+    android:background="@drawable/app_shape_timer_picker"
     android:orientation="vertical">
     <FrameLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="44.0dip">
         <Button
-            android:id="@id/kf"
+            android:id="@id/btn_cancel"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:gravity="center|left"
-            android:paddingLeft="@dimen/sz"
-            android:text="@string/s_"
-            android:textColor="@color/fp"
+            android:paddingLeft="@dimen/pickerview_topbar_padding"
+            android:text="@string/xiaoying_str_com_cancel"
+            android:textColor="@color/color_666666"
             android:textSize="16.0sp" />
         <Button
-            android:id="@id/m0"
+            android:id="@id/btn_submit"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="right"
             android:background="@android:color/transparent"
             android:gravity="center|right"
-            android:paddingRight="@dimen/sz"
-            android:text="@string/z3"
-            android:textColor="@color/av"
+            android:paddingRight="@dimen/pickerview_topbar_padding"
+            android:text="@string/xiaoying_str_community_confirm_btn"
+            android:textColor="@color/app_selector_younger_choose_btn"
             android:textSize="16.0sp" />
     </FrameLayout>
     <LinearLayout
-        android:id="@id/b_0"
-        android:layout_width="fill_parent"
+        android:id="@id/timepicker"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:orientation="horizontal">
         <com.contrarywind.view.WheelView
-            android:id="@id/brv"
-            android:layout_width="fill_parent"
+            android:id="@id/year"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.96" />
         <com.contrarywind.view.WheelView
-            android:id="@id/al6"
-            android:layout_width="fill_parent"
+            android:id="@id/month"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
         <com.contrarywind.view.WheelView
-            android:id="@id/st"
-            android:layout_width="fill_parent"
+            android:id="@id/day"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
         <com.contrarywind.view.WheelView
-            android:id="@id/a32"
-            android:layout_width="fill_parent"
+            android:id="@id/hour"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
         <com.contrarywind.view.WheelView
-            android:id="@id/akr"
-            android:layout_width="fill_parent"
+            android:id="@id/min"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
         <com.contrarywind.view.WheelView
-            android:id="@id/b0d"
-            android:layout_width="fill_parent"
+            android:id="@id/second"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
     </LinearLayout>

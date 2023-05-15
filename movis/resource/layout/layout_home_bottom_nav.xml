@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:tag="layout/layout_home_bottom_nav_0">
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/ah"
+        android:background="@color/app_dcolor_bg_1"
         android:orientation="horizontal">
         <FrameLayout
-            android:id="@id/z5"
+            android:id="@id/flCreate"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1.0">
             <com.videoai.aivpcore.unit.view.PressImageView
-                android:layout_width="@dimen/vs"
-                android:layout_height="@dimen/vs"
+                android:layout_width="@dimen/px28"
+                android:layout_height="@dimen/px28"
                 android:layout_gravity="center|top"
-                android:layout_marginTop="@dimen/uk"
-                android:src="@drawable/apu" />
+                android:layout_marginTop="@dimen/px2"
+                android:src="@drawable/slt_home_nav_create" />
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|top"
-                android:layout_marginTop="@dimen/w3"
-                android:layout_marginBottom="@dimen/uk"
-                android:text="@string/yr"
-                android:textColor="@color/xi"
-                android:textSize="@dimen/yz" />
+                android:layout_marginTop="@dimen/px30"
+                android:layout_marginBottom="@dimen/px2"
+                android:text="@string/xiaoying_str_com_welcome_btn_creation"
+                android:textColor="@color/text_selector_nav"
+                android:textSize="@dimen/sp12" />
         </FrameLayout>
         <View
-            android:layout_width="@dimen/t2"
-            android:layout_height="@dimen/vs"
+            android:layout_width="@dimen/px1"
+            android:layout_height="@dimen/px28"
             android:layout_gravity="center"
-            android:background="@color/ak" />
+            android:background="@color/app_dcolor_indicator_2" />
         <FrameLayout
-            android:id="@id/z7"
+            android:id="@id/flMaterial"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1.0">
             <com.videoai.aivpcore.unit.view.PressImageView
-                android:layout_width="@dimen/vs"
-                android:layout_height="@dimen/vs"
+                android:layout_width="@dimen/px28"
+                android:layout_height="@dimen/px28"
                 android:layout_gravity="center|top"
-                android:layout_marginTop="@dimen/uk"
-                android:src="@drawable/apv" />
+                android:layout_marginTop="@dimen/px2"
+                android:src="@drawable/slt_home_nav_material" />
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|top"
-                android:layout_marginTop="@dimen/w3"
-                android:layout_marginBottom="@dimen/uk"
-                android:text="@string/io"
-                android:textColor="@color/xi"
-                android:textSize="@dimen/yz" />
+                android:layout_marginTop="@dimen/px30"
+                android:layout_marginBottom="@dimen/px2"
+                android:text="@string/nav_material"
+                android:textColor="@color/text_selector_nav"
+                android:textSize="@dimen/sp12" />
         </FrameLayout>
     </LinearLayout>
     <View
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/t2"
-        android:background="@color/al" />
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px1"
+        android:background="@color/app_dcolor_indicator_3" />
 </FrameLayout>

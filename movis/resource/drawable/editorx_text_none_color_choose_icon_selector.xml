@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/a9t" android:state_selected="false" />
-    <item android:drawable="@drawable/a9r" android:state_selected="true" />
+    <item android:drawable="@drawable/editorx_text_none_color_icon" android:state_selected="false" />
+    <item android:drawable="@drawable/editorx_text_none_color_choose_icon" android:state_selected="true" />
 </selector>

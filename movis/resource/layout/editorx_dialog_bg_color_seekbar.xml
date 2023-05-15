@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <View
-        android:id="@id/tc"
-        android:layout_width="fill_parent"
+        android:id="@id/dialog_bg"
+        android:layout_width="match_parent"
         android:layout_height="90.0dip"
         android:layout_marginLeft="15.0dip"
         android:layout_marginTop="40.0dip"
         android:layout_marginRight="15.0dip"
-        android:background="@drawable/a6n"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        android:background="@drawable/editorx_shape_audio_volume_dialog_bg"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <TextView
-        android:id="@id/bcb"
+        android:id="@id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12.0dip"
-        android:text="@string/a0f"
-        android:textColor="@color/eq"
+        android:text="@string/xiaoying_str_edit_clip_color"
+        android:textColor="@color/color_333333"
         android:textSize="14.0sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@id/tc"
-        app:layout_constraintStart_toStartOf="@id/tc"
-        app:layout_constraintTop_toTopOf="@id/tc" />
+        app:layout_constraintEnd_toEndOf="@id/dialog_bg"
+        app:layout_constraintStart_toStartOf="@id/dialog_bg"
+        app:layout_constraintTop_toTopOf="@id/dialog_bg" />
     <com.videoai.aivpcore.editorx.widget.seekbar.ColorSeekBar
-        android:id="@id/r1"
+        android:id="@id/colorSeekBar"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         app:csb_bg_height="24.0dip"
@@ -40,7 +40,7 @@
         app:csb_thumb_height="32.0dip"
         app:csb_thumb_width="40.0dip"
         app:csb_top_text_bg_space="24.0dip"
-        app:layout_constraintEnd_toEndOf="@id/tc"
-        app:layout_constraintStart_toStartOf="@id/tc"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintEnd_toEndOf="@id/dialog_bg"
+        app:layout_constraintStart_toStartOf="@id/dialog_bg"
+        app:layout_constraintTop_toTopOf="parrent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

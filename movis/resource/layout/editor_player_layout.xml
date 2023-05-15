@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/xz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
     android:clipChildren="false"
     android:clipToPadding="false"
     android:layoutDirection="ltr">
     <RelativeLayout
-        android:id="@id/afg"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/dr">
+        android:id="@id/layout_preview_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_101010">
         <RelativeLayout
-            android:id="@id/as2"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/preview_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
-            android:background="@color/xz">
+            android:background="@color/transparent">
             <SurfaceView
-                android:id="@id/blk"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent" />
+                android:id="@id/video_editor_preview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/as3"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@color/xz" />
+            android:id="@id/preview_layout_fake"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent" />
         <ImageButton
-            android:id="@id/a62"
+            android:id="@id/imgbtn_play"
             android:layout_width="38.0dip"
             android:layout_height="38.0dip"
             android:layout_alignParentBottom="true"
@@ -39,40 +39,40 @@
             android:contentDescription="@null"
             android:padding="6.0dip"
             android:scaleType="centerCrop"
-            android:src="@drawable/uz"
+            android:src="@drawable/editor_selector_video_play_icon"
             android:visibility="gone" />
         <com.videoai.aivpcore.editor.widget.WatermarkView
-            android:id="@id/lc"
+            android:id="@id/btn_purchase_remove_watermark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@id/as2"
-            android:layout_alignRight="@id/as2"
-            android:layout_alignBottom="@id/as2"
+            android:layout_alignEnd="@id/preview_layout"
+            android:layout_alignRight="@id/preview_layout"
+            android:layout_alignBottom="@id/preview_layout"
             android:layout_marginBottom="10.0dip"
-            android:background="@color/xz"
+            android:background="@color/transparent"
             android:contentDescription="@null"
             android:padding="4.0dip"
-            android:src="@drawable/b5l"
+            android:src="@drawable/xiaoying_purchase_watermark"
             android:visibility="gone" />
     </RelativeLayout>
     <com.videoai.aivpcore.editor.effects.WatermarkFakerView
-        android:id="@id/b1v"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginBottom="@dimen/gv"
+        android:id="@id/simple_watermark_player_faker_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/editor_ops_board_normal_height"
         android:visibility="gone" />
     <ViewStub
-        android:id="@id/ar2"
-        android:layout_width="fill_parent"
+        android:id="@id/player_seek_view_stub"
+        android:layout_width="match_parent"
         android:layout_height="40.0dip"
-        android:layout_alignBottom="@id/afg"
+        android:layout_alignBottom="@id/layout_preview_background"
         android:layout_marginBottom="-20.0dip"
-        android:layout="@layout/hw" />
+        android:layout="@layout/editor_preview_player_seek_layout" />
     <include
-        layout="@layout/gu"
-        android:layout_width="@dimen/a4y"
-        android:layout_height="@dimen/a4x"
-        android:layout_alignTop="@id/afg"
+        layout="@layout/editor_fine_tunning_time_layout"
+        android:layout_width="@dimen/xiaoying_fine_tunning_time_layout_width"
+        android:layout_height="@dimen/xiaoying_fine_tunning_time_layout_height"
+        android:layout_alignTop="@id/layout_preview_background"
         android:layout_centerHorizontal="true"
         android:visibility="gone" />
 </RelativeLayout>

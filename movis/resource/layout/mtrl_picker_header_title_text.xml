@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/amd"
+    android:id="@id/mtrl_picker_title_text"
     style="?w6"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="start|center|top"
     android:gravity="start|bottom|center"
-    app:firstBaselineToTopHeight="@dimen/pc" />
+    app:firstBaselineToTopHeight="@dimen/mtrl_calendar_title_baseline_to_top" />

@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <com.videoai.aivpcore.xyui.RoundedTextView
-        android:id="@id/m3"
+        android:id="@id/btn_text_edit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -13,64 +13,64 @@
         android:paddingRight="12.0dip"
         android:paddingBottom="6.0dip"
         android:text="修改文字"
-        android:textColor="@color/zo"
+        android:textColor="@color/white"
         android:textSize="12.0sp"
         android:textStyle="bold"
         app:VS_CornerRadius="14.0dip"
-        app:VS_SolidColor="@color/e6" />
+        app:VS_SolidColor="@color/color_212121" />
     <RelativeLayout
-        android:id="@id/re"
+        android:id="@id/content_layout"
         android:layout_width="76.0dip"
         android:layout_height="76.0dip"
-        android:layout_below="@id/m3"
+        android:layout_below="@id/btn_text_edit"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15.0dip">
         <com.videoai.aivpcore.xyui.RoundCornerImageView
-            android:id="@id/a_8"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/iv_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/xi"
+            android:src="@drawable/editor_slide_scene_cover_default"
             app:cornerRadius="2.0dip" />
         <RelativeLayout
-            android:id="@id/zq"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:id="@id/focus_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
             <RelativeLayout
-                android:id="@id/ux"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:background="@color/c2"
+                android:id="@id/edit_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black_p70"
                 android:visibility="gone">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/xj" />
+                    android:src="@drawable/editor_slide_scene_edit_icon" />
             </RelativeLayout>
             <ImageView
-                android:id="@id/zr"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:src="@drawable/wo" />
+                android:id="@id/focus_mask"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/editor_shape_stroke_ff5e13_selected" />
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/t9"
-            android:layout_width="fill_parent"
+            android:id="@id/detail_layout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:gravity="center_horizontal"
             android:orientation="vertical">
             <ImageButton
-                android:id="@id/kx"
+                android:id="@id/btn_insert"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:clickable="false"
                 android:padding="7.0dip"
-                android:src="@drawable/xk" />
+                android:src="@drawable/editor_slide_scene_insert_icon" />
             <TextView
-                android:id="@id/be5"
+                android:id="@id/tv_duration_limit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5.0dip"

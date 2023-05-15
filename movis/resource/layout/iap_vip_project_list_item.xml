@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="@dimen/y_"
-    android:layout_height="@dimen/yg"
-    android:layout_marginStart="@dimen/yf"
-    android:layout_marginEnd="@dimen/yf">
+    android:layout_width="@dimen/px68"
+    android:layout_height="@dimen/px80"
+    android:layout_marginStart="@dimen/px8"
+    android:layout_marginEnd="@dimen/px8">
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:background="@drawable/j1"
+        android:background="@drawable/bg_vip_feature_item"
         android:orientation="vertical"
-        android:padding="@dimen/t2">
+        android:padding="@dimen/px1">
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@id/aa3"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/y0"
+            android:id="@id/iv_function_icon"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px60"
             android:scaleType="fitXY"
-            android:src="@drawable/in"
-            app:shapeAppearanceOverlay="@style/iu" />
+            android:src="@drawable/bg_pro_filter"
+            app:shapeAppearanceOverlay="@style/RoundedImageItem" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bf5"
-            style="@style/mr"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/ul"
+            android:id="@id/tv_function_name"
+            style="@style/TextSingleLine"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px20"
             android:gravity="center"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/yy"
-            app:autoSizeMaxTextSize="@dimen/yy"
-            app:autoSizeMinTextSize="@dimen/zz" />
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp10"
+            app:autoSizeMaxTextSize="@dimen/sp10"
+            app:autoSizeMinTextSize="@dimen/sp8" />
     </LinearLayout>
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/aby"
-        android:layout_width="@dimen/tz"
-        android:layout_height="@dimen/tz"
+        android:id="@id/iv_vip_icon"
+        android:layout_width="@dimen/px16"
+        android:layout_height="@dimen/px16"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="@dimen/uk"
-        android:layout_marginBottom="@dimen/uw"
-        android:src="@drawable/aj9" />
+        android:layout_marginEnd="@dimen/px2"
+        android:layout_marginBottom="@dimen/px22"
+        android:src="@drawable/ic_diamon_premium" />
 </RelativeLayout>

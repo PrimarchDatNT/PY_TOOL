@@ -7,19 +7,19 @@
     android:gravity="center"
     android:orientation="vertical">
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/b59"
+        android:id="@id/sub_btn_icon"
         android:layout_width="28.0dip"
         android:layout_height="28.0dip"
         fresco:actualImageScaleType="yv" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/b5_"
+        android:id="@id/sub_btn_text"
         android:layout_width="48.0dip"
         android:layout_height="16.0dip"
         android:layout_marginTop="10.0dip"
         android:ellipsize="end"
         android:gravity="center"
         android:maxLines="1"
-        android:textColor="@color/eq"
+        android:textColor="@color/color_333333"
         fresco:autoSizeMaxTextSize="12.0sp"
         fresco:autoSizeMinTextSize="8.0sp"
         fresco:autoSizeStepGranularity="1.0sp"

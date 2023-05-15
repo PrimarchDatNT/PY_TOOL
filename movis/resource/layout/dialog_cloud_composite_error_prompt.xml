@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32.0dip"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
-        android:text="@string/x1"
+        android:text="@string/xiaoying_str_com_prompt_title"
         android:textColor="#ff333333"
         android:textSize="18.0sp" />
     <TextView
-        android:id="@id/b8l"
-        android:layout_width="fill_parent"
+        android:id="@id/text_error_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16.0dip"
         android:layout_marginBottom="32.0dip"
@@ -24,35 +24,35 @@
         android:textColor="#ff999999"
         android:textSize="16.0sp" />
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="1.0px"
         android:background="#ffeeeeee" />
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:divider="@drawable/mu"
+        android:divider="@drawable/editor_cloud_composite_divider"
         android:orientation="horizontal"
         android:showDividers="middle">
         <TextView
-            android:id="@id/b8e"
+            android:id="@id/text_cancel"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
             android:gravity="center"
             android:paddingTop="15.5dip"
             android:paddingBottom="14.0dip"
-            android:text="@string/s_"
+            android:text="@string/xiaoying_str_com_cancel"
             android:textColor="#ff999999"
             android:textSize="18.0sp" />
         <TextView
-            android:id="@id/b8t"
+            android:id="@id/text_reselect"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
             android:gravity="center"
             android:paddingTop="15.5dip"
             android:paddingBottom="14.0dip"
-            android:text="@string/adg"
+            android:text="@string/xiaoying_str_reselect_photo"
             android:textColor="#ffff6333"
             android:textSize="18.0sp"
             android:textStyle="bold" />

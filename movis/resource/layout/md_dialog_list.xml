@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.afollestad.materialdialogs.internal.MDRootLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
-    <include layout="@layout/t2" />
+    <include layout="@layout/md_stub_titleframe_lesspadding" />
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical">
         <ScrollView
-            android:id="@id/ak9"
-            android:layout_width="fill_parent"
+            android:id="@id/md_contentScrollView"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clipToPadding="false">
             <TextView
-                android:id="@id/ak6"
-                android:layout_width="fill_parent"
+                android:id="@id/md_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/mi"
-                android:paddingTop="@dimen/mg"
-                android:paddingRight="@dimen/mi"
-                android:paddingBottom="@dimen/mf"
-                android:textSize="@dimen/mh" />
+                android:paddingLeft="@dimen/md_dialog_frame_margin"
+                android:paddingTop="@dimen/md_content_padding_top"
+                android:paddingRight="@dimen/md_dialog_frame_margin"
+                android:paddingBottom="@dimen/md_content_padding_bottom"
+                android:textSize="@dimen/md_content_textsize" />
         </ScrollView>
         <FrameLayout
-            android:id="@id/ak7"
-            android:layout_width="fill_parent"
+            android:id="@id/md_contentListViewFrame"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@id/ak8"
-                android:layout_width="fill_parent"
+                android:id="@id/md_contentRecyclerView"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clipToPadding="false"
-                android:paddingTop="@dimen/mg"
-                android:paddingBottom="@dimen/mf"
+                android:paddingTop="@dimen/md_content_padding_top"
+                android:paddingBottom="@dimen/md_content_padding_bottom"
                 android:scrollbarStyle="outsideOverlay"
                 android:scrollbars="vertical" />
         </FrameLayout>
     </LinearLayout>
-    <include layout="@layout/sx" />
+    <include layout="@layout/md_stub_actionbuttons" />
 </com.afollestad.materialdialogs.internal.MDRootLayout>

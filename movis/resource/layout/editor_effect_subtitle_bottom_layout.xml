@@ -1,200 +1,200 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/bn">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
     <include
-        android:id="@id/aw6"
-        layout="@layout/ge"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/rl_anim_text_layout"
+        layout="@layout/editor_effect_subtitle_anim_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerVertical="true"
         android:visibility="gone" />
     <RelativeLayout
-        android:id="@id/axc"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/rl_subtitle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerVertical="true"
         android:visibility="invisible">
         <RelativeLayout
-            android:id="@id/b6g"
-            android:layout_width="fill_parent"
+            android:id="@id/tab_layout"
+            android:layout_width="match_parent"
             android:layout_height="40.0dip">
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@id/ayr"
-                android:layout_width="fill_parent"
+                android:id="@id/rv_bubble_tab_normal"
+                android:layout_width="match_parent"
                 android:layout_height="40.0dip"
-                android:layout_toStartOf="@id/awq"
-                android:layout_toLeftOf="@id/awq"
-                android:background="@color/dt" />
+                android:layout_toStartOf="@id/rl_layout_downloaded"
+                android:layout_toLeftOf="@id/rl_layout_downloaded"
+                android:background="@color/color_141414" />
             <RelativeLayout
-                android:id="@id/awq"
+                android:id="@id/rl_layout_downloaded"
                 android:layout_width="40.0dip"
                 android:layout_height="40.0dip"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:clickable="true">
                 <ImageView
-                    android:id="@id/a37"
+                    android:id="@id/ib_download"
                     android:layout_width="40.0dip"
                     android:layout_height="40.0dip"
                     android:layout_centerInParent="true"
                     android:clickable="false"
-                    android:src="@drawable/pl" />
+                    android:src="@drawable/editor_icon_effect_sticker_download" />
                 <ImageView
-                    android:id="@id/aao"
+                    android:id="@id/iv_new_flag"
                     android:layout_width="14.0dip"
                     android:layout_height="14.0dip"
-                    android:layout_alignTop="@id/a37"
-                    android:layout_alignEnd="@id/a37"
-                    android:layout_alignRight="@id/a37"
+                    android:layout_alignTop="@id/ib_download"
+                    android:layout_alignEnd="@id/ib_download"
+                    android:layout_alignRight="@id/ib_download"
                     android:clickable="false"
-                    android:src="@drawable/b6l"
+                    android:src="@drawable/xiaoying_ve_edit_template_title_new_mark"
                     android:visibility="invisible" />
             </RelativeLayout>
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/auo"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/a4e"
-            android:layout_below="@id/b6g" />
+            android:id="@id/recycler_view_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/v4_xiaoying_ve_title_addpanel_tab_contenta_height"
+            android:layout_below="@id/tab_layout" />
         <include
-            android:id="@id/auz"
-            layout="@layout/fx"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_below="@id/b6g"
+            android:id="@id/relative_layout_roll_download"
+            layout="@layout/editor_effect_bubble_roll_download_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tab_layout"
             android:visibility="gone" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/awl"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/rl_font_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="gone">
         <LinearLayout
-            android:id="@id/a05"
-            android:layout_width="fill_parent"
+            android:id="@id/font_tab"
+            android:layout_width="match_parent"
             android:layout_height="40.0dip"
-            android:background="@color/zs"
+            android:background="@color/white_p08"
             android:gravity="center_vertical"
             android:orientation="horizontal">
             <RelativeLayout
-                android:id="@id/b69"
+                android:id="@id/tab_font_style"
                 android:layout_width="50.0dip"
                 android:layout_height="40.0dip"
-                android:background="@color/e2"
+                android:background="@color/color_1affffff"
                 android:gravity="center">
                 <ImageView
-                    android:id="@id/b6_"
+                    android:id="@id/tab_font_style_image"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ma" />
+                    android:src="@drawable/editor_btn_subtitle_font_tab_style" />
                 <TextView
-                    android:id="@id/b6a"
+                    android:id="@id/tab_font_style_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/ale"
-                    android:textColor="@color/zo"
+                    android:text="@string/xiaoying_str_ve_font_title"
+                    android:textColor="@color/white"
                     android:textSize="13.0sp"
                     android:visibility="gone" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/b60"
+                android:id="@id/tab_font_color"
                 android:layout_width="50.0dip"
                 android:layout_height="40.0dip"
                 android:gravity="center">
                 <ImageView
-                    android:id="@id/b61"
+                    android:id="@id/tab_font_color_image"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/m8" />
+                    android:src="@drawable/editor_btn_subtitle_font_tab_color" />
                 <TextView
-                    android:id="@id/b62"
+                    android:id="@id/tab_font_color_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/ako"
-                    android:textColor="@color/zo"
+                    android:text="@string/xiaoying_str_ve_color"
+                    android:textColor="@color/white"
                     android:textSize="13.0sp"
                     android:visibility="gone" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/b66"
+                android:id="@id/tab_font_stroke"
                 android:layout_width="50.0dip"
                 android:layout_height="40.0dip"
                 android:gravity="center">
                 <ImageView
-                    android:id="@id/b67"
+                    android:id="@id/tab_font_stroke_image"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/m_" />
+                    android:src="@drawable/editor_btn_subtitle_font_tab_stroke" />
                 <TextView
-                    android:id="@id/b68"
+                    android:id="@id/tab_font_stroke_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/aoq"
-                    android:textColor="@color/zo"
+                    android:text="@string/xiaoying_str_ve_stroke"
+                    android:textColor="@color/white"
                     android:textSize="13.0sp"
                     android:visibility="gone" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/b63"
+                android:id="@id/tab_font_shadow"
                 android:layout_width="50.0dip"
                 android:layout_height="40.0dip"
                 android:gravity="center">
                 <ImageView
-                    android:id="@id/b64"
+                    android:id="@id/tab_font_shadow_image"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/m9" />
+                    android:src="@drawable/editor_btn_subtitle_font_tab_shadow" />
                 <TextView
-                    android:id="@id/b65"
+                    android:id="@id/tab_font_shadow_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/ap1"
-                    android:textColor="@color/zo"
+                    android:text="@string/xiaoying_str_ve_subtitle_tool_shadow_title"
+                    android:textColor="@color/white"
                     android:textSize="13.0sp"
                     android:visibility="gone" />
             </RelativeLayout>
         </LinearLayout>
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/aum"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_below="@id/a05"
+            android:id="@id/recycler_view_font_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/font_tab"
             android:layout_marginBottom="10.0dip"
             android:scrollbars="none" />
         <LinearLayout
-            android:id="@id/aep"
-            android:layout_width="fill_parent"
+            android:id="@id/layout_font_tab_color"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/a05"
+            android:layout_below="@id/font_tab"
             android:gravity="center"
             android:orientation="vertical"
             android:visibility="gone">
             <TextView
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="13.0dip"
                 android:gravity="center"
-                android:text="@string/alc"
-                android:textColor="@color/g9"
+                android:text="@string/xiaoying_str_ve_font_color"
+                android:textColor="@color/color_8E8E93"
                 android:textSize="14.0sp" />
             <RelativeLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
                 <ImageView
-                    android:id="@id/a_7"
+                    android:id="@id/iv_color_reset"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="14.0dip"
                     android:layout_marginLeft="14.0dip"
                     android:layout_marginTop="25.0dip"
                     android:scaleType="center"
-                    android:src="@drawable/u2" />
+                    android:src="@drawable/editor_selector_effect_sub_op_left_btn" />
                 <com.videoai.aivpcore.ui.view.MultiColorBar
-                    android:id="@id/ami"
-                    android:layout_width="fill_parent"
+                    android:id="@id/multicolor_bar_subtitle"
+                    android:layout_width="match_parent"
                     android:layout_height="60.0dip"
                     android:layout_gravity="center"
                     android:layout_marginStart="40.0dip"
@@ -208,59 +208,59 @@
             </RelativeLayout>
         </LinearLayout>
         <LinearLayout
-            android:id="@id/ax6"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_below="@id/a05"
+            android:id="@id/rl_stroke_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/font_tab"
             android:orientation="vertical"
             android:visibility="gone">
             <RelativeLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="45.0dip">
                 <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true">
                     <TextView
-                        android:id="@id/bhm"
+                        android:id="@id/tv_stroke_width"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:text="@string/aot"
-                        android:textColor="@color/g9"
+                        android:text="@string/xiaoying_str_ve_stroke_width"
+                        android:textColor="@color/color_8E8E93"
                         android:textSize="14.0sp" />
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/bhm"
+                        android:layout_below="@id/tv_stroke_width"
                         android:layout_centerHorizontal="true">
                         <ImageView
-                            android:id="@id/a5g"
+                            android:id="@id/img_left"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
                             android:layout_marginStart="12.0dip"
                             android:layout_marginLeft="12.0dip"
-                            android:src="@drawable/pr" />
+                            android:src="@drawable/editor_icon_effect_subtitle_stroke_min" />
                         <SeekBar
-                            android:id="@id/b0w"
-                            android:layout_width="fill_parent"
+                            android:id="@id/seekbar_stroke"
+                            android:layout_width="match_parent"
                             android:layout_height="18.0dip"
                             android:layout_centerInParent="true"
-                            android:layout_toStartOf="@id/a5o"
-                            android:layout_toLeftOf="@id/a5o"
-                            android:layout_toEndOf="@id/a5g"
-                            android:layout_toRightOf="@id/a5g"
+                            android:layout_toStartOf="@id/img_right"
+                            android:layout_toLeftOf="@id/img_right"
+                            android:layout_toEndOf="@id/img_left"
+                            android:layout_toRightOf="@id/img_left"
                             android:focusable="true"
                             android:max="100"
                             android:maxHeight="2.0dip"
                             android:mirrorForRtl="true"
                             android:progress="30"
-                            android:progressDrawable="@drawable/sq"
-                            android:thumb="@drawable/o7"
+                            android:progressDrawable="@drawable/editor_layer_clip_seekbar_progress_bg"
+                            android:thumb="@drawable/editor_icon_clip_blur_point"
                             android:thumbOffset="9.0dip" />
                         <ImageView
-                            android:id="@id/a5o"
+                            android:id="@id/img_right"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
@@ -268,26 +268,26 @@
                             android:layout_centerVertical="true"
                             android:layout_marginEnd="15.0dip"
                             android:layout_marginRight="15.0dip"
-                            android:src="@drawable/pq" />
+                            android:src="@drawable/editor_icon_effect_subtitle_stroke_max_f" />
                     </RelativeLayout>
                 </RelativeLayout>
             </RelativeLayout>
             <FrameLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <TextView
-                    android:id="@id/bhj"
+                    android:id="@id/tv_stroke_color"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5.0dip"
-                    android:text="@string/aos"
-                    android:textColor="@color/g9"
+                    android:text="@string/xiaoying_str_ve_stroke_color"
+                    android:textColor="@color/color_8E8E93"
                     android:textSize="14.0sp" />
                 <com.videoai.aivpcore.ui.view.MultiColorBar
-                    android:id="@id/amh"
-                    android:layout_width="fill_parent"
+                    android:id="@id/multicolor_bar_stroke"
+                    android:layout_width="match_parent"
                     android:layout_height="60.0dip"
                     android:layout_gravity="center"
                     android:layout_marginTop="10.0dip"
@@ -300,15 +300,15 @@
             </FrameLayout>
         </LinearLayout>
         <LinearLayout
-            android:id="@id/ahn"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_below="@id/a05"
+            android:id="@id/ll_adjust_more"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/font_tab"
             android:baselineAligned="false"
             android:orientation="vertical"
             android:visibility="gone">
             <RelativeLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.0dip"
                 android:layout_weight="1.0"
                 android:paddingStart="15.0dip"
@@ -321,12 +321,12 @@
                     android:layout_centerVertical="true"
                     android:gravity="center"
                     android:singleLine="true"
-                    android:text="@string/ap5"
-                    android:textColor="@color/zo"
+                    android:text="@string/xiaoying_str_ve_text_shadow_effect"
+                    android:textColor="@color/white"
                     android:textSize="14.0sp" />
                 <androidx.appcompat.widget.SwitchCompat
-                    android:id="@id/kw"
-                    style="@style/wt"
+                    android:id="@id/btn_import_finish"
+                    style="@style/editor_switch_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -339,28 +339,28 @@
         </LinearLayout>
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/adg"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/layout_adjust_control"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginTop="13.0dip"
         android:orientation="horizontal">
         <RelativeLayout
-            android:id="@id/adl"
+            android:id="@id/layout_align_control"
             android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_marginStart="15.0dip"
             android:layout_marginLeft="15.0dip"
             android:layout_weight="1.0"
             android:gravity="center_vertical">
             <TextView
-                android:id="@id/dy"
+                android:id="@id/align_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/e0"
-                android:textColor="@color/g9"
+                android:text="@string/editor_effect_subtitle_tool_item_position"
+                android:textColor="@color/color_8E8E93"
                 android:textSize="14.0sp" />
             <RelativeLayout
-                android:id="@id/eh"
+                android:id="@id/anim_switch_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="31.0dip"
                 android:layout_alignParentBottom="true"
@@ -368,31 +368,31 @@
                 android:gravity="center_vertical"
                 android:visibility="gone">
                 <TextView
-                    android:id="@id/ei"
+                    android:id="@id/anim_switch_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:text="@string/aj6"
-                    android:textColor="@color/zo"
+                    android:text="@string/xiaoying_str_ve_Bubbles_fade_out"
+                    android:textColor="@color/white"
                     android:textSize="14.0sp" />
                 <androidx.appcompat.widget.SwitchCompat
-                    android:id="@id/eg"
-                    style="@style/wt"
+                    android:id="@id/anim_switch"
+                    style="@style/editor_switch_style"
                     android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="20.0dip"
                     android:layout_marginLeft="20.0dip"
-                    android:layout_toEndOf="@id/ei"
-                    android:layout_toRightOf="@id/ei"
+                    android:layout_toEndOf="@id/anim_switch_tv"
+                    android:layout_toRightOf="@id/anim_switch_tv"
                     android:checked="false" />
             </RelativeLayout>
             <RadioGroup
-                android:id="@id/dx"
+                android:id="@id/align_radio_group"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:layout_above="@id/eh"
-                android:layout_below="@id/dy"
+                android:layout_height="match_parent"
+                android:layout_above="@id/anim_switch_layout"
+                android:layout_below="@id/align_tv"
                 android:layout_marginTop="2.0dip"
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
@@ -401,7 +401,7 @@
                     android:layout_height="18.0dip"
                     android:layout_marginEnd="28.0dip"
                     android:layout_marginRight="28.0dip"
-                    android:background="@drawable/ul"
+                    android:background="@drawable/editor_selector_subtitle_align_left"
                     android:button="@null"
                     android:tag="LEFT" />
                 <RadioButton
@@ -409,34 +409,34 @@
                     android:layout_height="18.0dip"
                     android:layout_marginEnd="28.0dip"
                     android:layout_marginRight="28.0dip"
-                    android:background="@drawable/um"
+                    android:background="@drawable/editor_selector_subtitle_align_middle"
                     android:button="@null"
                     android:tag="MIDDLE" />
                 <RadioButton
                     android:layout_width="22.0dip"
                     android:layout_height="18.0dip"
-                    android:background="@drawable/un"
+                    android:background="@drawable/editor_selector_subtitle_align_right"
                     android:button="@null"
                     android:tag="RIGHT" />
             </RadioGroup>
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_marginStart="15.0dip"
             android:layout_marginLeft="15.0dip"
             android:layout_weight="1.0">
             <TextView
-                android:id="@id/alj"
+                android:id="@id/move_control_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="35.0dip"
                 android:layout_marginLeft="35.0dip"
-                android:text="@string/ao3"
-                android:textColor="@color/g9"
+                android:text="@string/xiaoying_str_ve_pixel_movemoent"
+                android:textColor="@color/color_8E8E93"
                 android:textSize="14.0sp" />
             <com.videoai.aivpcore.editor.effects.quickposition.PixelMoveControlView
-                android:id="@id/aqt"
+                android:id="@id/pixel_move"
                 android:layout_width="102.0dip"
                 android:layout_height="102.0dip"
                 android:layout_alignParentEnd="true"

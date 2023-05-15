@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@android:color/white">
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:baselineAligned="false"
         android:minWidth="360.0dip"
         android:minHeight="120.0dip"
         android:orientation="horizontal">
         <FrameLayout
-            android:id="@id/fb"
+            android:id="@id/applovin_native_media_content_view"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="0.333" />
         <LinearLayout
             android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
-            android:layout_marginLeft="@dimen/dj"
-            android:layout_marginTop="@dimen/a0i"
-            android:layout_marginRight="@dimen/dj"
-            android:layout_marginBottom="@dimen/a0i"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/text_margin"
             android:layout_weight="0.5"
             android:gravity="center_vertical"
             android:orientation="vertical">
@@ -36,29 +36,29 @@
                     android:orientation="horizontal">
                     <TextView style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallAdBadgeTextView" />
                     <TextView
-                        android:id="@id/fd"
+                        android:id="@id/applovin_native_title_text_view"
                         style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingTitleTextView" />
                 </LinearLayout>
                 <TextView
-                    android:id="@id/f1"
+                    android:id="@id/applovin_native_advertiser_text_view"
                     style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingBodyTextView" />
                 <TextView
-                    android:id="@id/f3"
+                    android:id="@id/applovin_native_body_text_view"
                     style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingBodyTextView" />
             </LinearLayout>
             <Button
-                android:id="@id/f4"
+                android:id="@id/applovin_native_cta_button"
                 style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:layout_margin="@dimen/dj"
+                android:layout_margin="@dimen/default_margin"
                 android:singleLine="false"
                 android:textSize="15.0sp" />
         </LinearLayout>
     </LinearLayout>
     <FrameLayout
-        android:id="@id/fc"
+        android:id="@id/applovin_native_options_view"
         android:layout_width="wrap_content"
         android:layout_height="20.0dip"
         android:layout_alignParentTop="true"

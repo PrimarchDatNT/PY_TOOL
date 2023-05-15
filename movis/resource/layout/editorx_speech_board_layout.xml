@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#66000000"
     android:clickable="true">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/pk"
-        android:layout_width="fill_parent"
+        android:id="@id/cl_speech_board"
+        android:layout_width="match_parent"
         android:layout_height="375.0dip"
-        android:background="@drawable/a97"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv">
+        android:background="@drawable/editorx_speech_shape_bg"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent">
         <View
-            android:id="@id/bkp"
-            android:layout_width="fill_parent"
+            android:id="@id/v_title_line"
+            android:layout_width="match_parent"
             android:layout_height="0.5dip"
             android:layout_marginTop="54.0dip"
             android:background="#ff363636"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#ffe6e6e6"
             android:textSize="16.0sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@id/bkp"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintBottom_toBottomOf="@id/v_title_line"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/ab5"
+            android:id="@id/iv_speech_close"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10.0dip"
-            android:background="@drawable/a92"
+            android:background="@drawable/editorx_speech_icon_back"
             android:padding="5.0dip"
-            app:layout_constraintBottom_toBottomOf="@id/bkp"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintBottom_toBottomOf="@id/v_title_line"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bhe"
+            android:id="@id/tv_speech_title2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15.0dip"
             android:textColor="#ff808080"
             android:textSize="14.0sp"
-            app:layout_constraintBottom_toTopOf="@id/bhc"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/bkp" />
+            app:layout_constraintBottom_toTopOf="@id/tv_speech_select_video"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/v_title_line" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bhc"
-            android:layout_width="fill_parent"
+            android:id="@id/tv_speech_select_video"
+            android:layout_width="match_parent"
             android:layout_height="48.0dip"
             android:layout_marginStart="15.0dip"
             android:layout_marginEnd="15.0dip"
-            android:background="@drawable/a98"
+            android:background="@drawable/editorx_speech_shape_select"
             android:gravity="center_vertical"
             android:paddingStart="16.0dip"
             android:textColor="#ffe6e6e6"
             android:textSize="14.0sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@id/bha"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/bhe" />
+            app:layout_constraintBottom_toTopOf="@id/tv_speech_select_record"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/tv_speech_title2" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/ab7"
+            android:id="@id/iv_speech_select_video"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:layout_marginEnd="16.0dip"
-            android:src="@drawable/a96"
-            app:layout_constraintBottom_toBottomOf="@id/bhc"
-            app:layout_constraintEnd_toEndOf="@id/bhc"
-            app:layout_constraintTop_toTopOf="@id/bhc" />
+            android:src="@drawable/editorx_speech_icon_select"
+            app:layout_constraintBottom_toBottomOf="@id/tv_speech_select_video"
+            app:layout_constraintEnd_toEndOf="@id/tv_speech_select_video"
+            app:layout_constraintTop_toTopOf="@id/tv_speech_select_video" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bha"
-            android:layout_width="fill_parent"
+            android:id="@id/tv_speech_select_record"
+            android:layout_width="match_parent"
             android:layout_height="48.0dip"
             android:layout_marginStart="15.0dip"
             android:layout_marginEnd="15.0dip"
             android:layout_marginBottom="16.0dip"
-            android:background="@drawable/a98"
+            android:background="@drawable/editorx_speech_shape_select"
             android:gravity="center_vertical"
             android:paddingStart="16.0dip"
             android:textColor="#ffe6e6e6"
             android:textSize="14.0sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@id/bhd"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/bhc" />
+            app:layout_constraintBottom_toTopOf="@id/tv_speech_start"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/tv_speech_select_video" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/ab6"
+            android:id="@id/iv_speech_select_record"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:layout_marginEnd="16.0dip"
-            android:src="@drawable/a96"
-            app:layout_constraintBottom_toBottomOf="@id/bha"
-            app:layout_constraintEnd_toEndOf="@id/bha"
-            app:layout_constraintTop_toTopOf="@id/bha" />
+            android:src="@drawable/editorx_speech_icon_select"
+            app:layout_constraintBottom_toBottomOf="@id/tv_speech_select_record"
+            app:layout_constraintEnd_toEndOf="@id/tv_speech_select_record"
+            app:layout_constraintTop_toTopOf="@id/tv_speech_select_record" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bhb"
+            android:id="@id/tv_speech_select_record_empty"
             android:layout_width="wrap_content"
             android:layout_height="48.0dip"
             android:layout_marginEnd="15.0dip"
@@ -108,37 +108,37 @@
             android:paddingStart="16.0dip"
             android:textColor="#ff525252"
             android:textSize="14.0sp"
-            app:layout_constraintBottom_toBottomOf="@id/bha"
-            app:layout_constraintEnd_toEndOf="@id/bha"
-            app:layout_constraintTop_toTopOf="@id/bha" />
+            app:layout_constraintBottom_toBottomOf="@id/tv_speech_select_record"
+            app:layout_constraintEnd_toEndOf="@id/tv_speech_select_record"
+            app:layout_constraintTop_toTopOf="@id/tv_speech_select_record" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bhd"
-            android:layout_width="fill_parent"
+            android:id="@id/tv_speech_start"
+            android:layout_width="match_parent"
             android:layout_height="48.0dip"
             android:layout_marginStart="32.0dip"
             android:layout_marginEnd="32.0dip"
             android:layout_marginBottom="68.0dip"
-            android:background="@drawable/a99"
+            android:background="@drawable/editorx_speech_shape_start_btn"
             android:gravity="center"
             android:textColor="#ffffffff"
             android:textSize="16.0sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="apv" />
+            app:layout_constraintBottom_toBottomOf="parrent" />
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/bhd">
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/tv_speech_start">
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/a8w"
+                android:id="@id/ivDelete"
                 android:layout_width="24.0dip"
                 android:layout_height="24.0dip"
                 android:padding="4.0dip"
-                android:src="@drawable/a93" />
+                android:src="@drawable/editorx_speech_icon_clear_off" />
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -147,9 +147,9 @@
                 android:textSize="14.0sp" />
         </LinearLayout>
         <View
-            android:id="@id/bkm"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/v_speech_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:background="#99000000"
             android:visibility="gone" />
     </androidx.constraintlayout.widget.ConstraintLayout>

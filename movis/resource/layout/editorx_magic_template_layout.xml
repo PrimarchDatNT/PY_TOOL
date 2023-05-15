@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_gravity="bottom"
-    android:background="@color/ag">
+    android:background="@color/app_dcolor_background">
     <RelativeLayout
-        android:id="@id/b9h"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/x9"
+        android:id="@id/theme_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px42"
         android:orientation="horizontal">
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@id/ap8"
+            android:id="@id/ops_layout"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_centerVertical="true"
             android:orientation="horizontal">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bc7"
+                android:id="@id/tvStore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginStart="@dimen/xz"
-                android:layout_marginEnd="@dimen/xz"
-                android:background="@drawable/apw"
-                android:drawableStart="@drawable/a14"
-                android:drawablePadding="@dimen/yf"
-                android:paddingStart="@dimen/td"
-                android:paddingTop="@dimen/x5"
-                android:paddingEnd="@dimen/td"
-                android:paddingBottom="@dimen/x5"
-                android:text="@string/kc"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/yz"
-                app:layout_constraintBottom_toBottomOf="apv"
-                app:layout_constraintEnd_toEndOf="apv"
-                app:layout_constraintStart_toStartOf="apv"
-                app:layout_constraintTop_toTopOf="apv" />
+                android:layout_marginStart="@dimen/px6"
+                android:layout_marginEnd="@dimen/px6"
+                android:background="@drawable/slt_item_tag"
+                android:drawableStart="@drawable/editorx_ic_vector_theme"
+                android:drawablePadding="@dimen/px8"
+                android:paddingStart="@dimen/px12"
+                android:paddingTop="@dimen/px4"
+                android:paddingEnd="@dimen/px12"
+                android:paddingBottom="@dimen/px4"
+                android:text="@string/store"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12"
+                app:layout_constraintBottom_toBottomOf="parrent"
+                app:layout_constraintEnd_toEndOf="parrent"
+                app:layout_constraintStart_toStartOf="parrent"
+                app:layout_constraintTop_toTopOf="parrent" />
             <ImageButton
-                android:id="@id/lz"
+                android:id="@id/btn_store"
                 android:layout_width="0.0dip"
                 android:layout_height="0.0dip"
-                android:background="@drawable/jn"
-                app:layout_constraintBottom_toBottomOf="@id/bc7"
-                app:layout_constraintEnd_toEndOf="@id/bc7"
-                app:layout_constraintStart_toStartOf="@id/bc7"
-                app:layout_constraintTop_toTopOf="@id/bc7" />
+                android:background="@drawable/btn_record_view"
+                app:layout_constraintBottom_toBottomOf="@id/tvStore"
+                app:layout_constraintEnd_toEndOf="@id/tvStore"
+                app:layout_constraintStart_toStartOf="@id/tvStore"
+                app:layout_constraintTop_toTopOf="@id/tvStore" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <com.videoai.aivpcore.xyui.magicindicator.MagicIndicator
-            android:id="@id/aj4"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_toEndOf="@id/ap8" />
+            android:id="@id/magic_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/ops_layout" />
     </RelativeLayout>
     <com.videoai.aivpcore.editorx.widget.magic.MagicRecyclerView
-        android:id="@id/aj6"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/b9h" />
+        android:id="@id/magic_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/theme_category_layout" />
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/au0"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/b9h"
+        android:id="@id/recent_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/theme_category_layout"
         android:visibility="gone" />
     <TextView
-        android:id="@id/atz"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/b9h"
+        android:id="@id/recent_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/theme_category_layout"
         android:layout_gravity="center"
         android:layout_marginStart="15.0dip"
         android:layout_marginTop="30.0dip"
         android:layout_marginEnd="15.0dip"
         android:layout_marginBottom="34.0dip"
-        android:background="@drawable/a8c"
+        android:background="@drawable/editorx_shape_recent_layout"
         android:gravity="center"
-        android:text="@string/a5b"
-        android:textColor="@color/ap"
-        android:textSize="@dimen/z0"
+        android:text="@string/xiaoying_str_editorx_recent_use"
+        android:textColor="@color/app_dcolor_text_2"
+        android:textSize="@dimen/sp14"
         android:visibility="gone" />
 </RelativeLayout>

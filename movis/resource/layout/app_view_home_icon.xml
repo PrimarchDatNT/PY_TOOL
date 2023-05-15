@@ -4,56 +4,56 @@
     android:layout_width="wrap_content"
     android:layout_height="58.0dip">
     <ImageView
-        android:id="@id/aa8"
+        android:id="@id/iv_hump_home_tab"
         android:layout_width="49.0dip"
         android:layout_height="22.0dip"
         android:translationY="11.0dip"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <View
         android:layout_width="0.0dip"
         android:layout_height="49.0dip"
         android:background="#ffffffff"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="@id/aa8"
-        app:layout_constraintStart_toStartOf="@id/aa8" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="@id/iv_hump_home_tab"
+        app:layout_constraintStart_toStartOf="@id/iv_hump_home_tab" />
     <ImageView
-        android:id="@id/aab"
+        android:id="@id/iv_icon_un_home_tab"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_marginTop="14.0dip"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/aa_"
+        android:id="@id/iv_icon_bg_home_tab"
         android:layout_width="32.0dip"
         android:layout_height="32.0dip"
         android:layout_marginTop="6.0dip"
         android:alpha="0.0"
         android:translationY="11.0dip"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/aaa"
+        android:id="@id/iv_icon_home_tab"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_marginTop="10.0dip"
         android:alpha="0.0"
         android:translationY="11.0dip"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <TextView
-        android:id="@id/bfb"
+        android:id="@id/tv_home_tab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="2.0dip"
         android:textColor="#ff666666"
         android:textSize="11.0sp"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/aab" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/iv_icon_un_home_tab" />
 </merge>

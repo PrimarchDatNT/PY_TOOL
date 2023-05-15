@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <View
-        android:id="@id/a8e"
+        android:id="@id/itv_top_circle_view"
         android:layout_width="48.0dip"
         android:layout_height="48.0dip"
-        android:background="@drawable/a7v"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        android:background="@drawable/editorx_shape_imgae_text_view"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/a8f"
+        android:id="@id/itv_top_iv"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="@id/a8e"
-        app:layout_constraintEnd_toEndOf="@id/a8e"
-        app:layout_constraintStart_toStartOf="@id/a8e"
-        app:layout_constraintTop_toTopOf="@id/a8e" />
+        app:layout_constraintBottom_toBottomOf="@id/itv_top_circle_view"
+        app:layout_constraintEnd_toEndOf="@id/itv_top_circle_view"
+        app:layout_constraintStart_toStartOf="@id/itv_top_circle_view"
+        app:layout_constraintTop_toTopOf="@id/itv_top_circle_view" />
     <TextView
-        android:id="@id/a8d"
+        android:id="@id/itv_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6.0dip"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/a8e" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/itv_top_circle_view" />
 </androidx.constraintlayout.widget.ConstraintLayout>

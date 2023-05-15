@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/zo">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
     <RelativeLayout
-        android:id="@id/b58"
-        android:layout_width="fill_parent"
+        android:id="@id/studio_title_bar_layout"
+        android:layout_width="match_parent"
         android:layout_height="44.0dip">
         <ImageView
-            android:id="@id/b4p"
+            android:id="@id/studio_back_icon"
             android:layout_width="48.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:scaleType="centerInside"
-            android:src="@drawable/dv" />
+            android:src="@drawable/app_default_back_black" />
         <TextView
-            android:id="@id/b57"
+            android:id="@id/studio_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginStart="12.0dip"
             android:layout_marginLeft="12.0dip"
-            android:layout_toEndOf="@id/b4p"
-            android:layout_toRightOf="@id/b4p"
+            android:layout_toEndOf="@id/studio_back_icon"
+            android:layout_toRightOf="@id/studio_back_icon"
             android:fontFamily="sans-serif-light"
-            android:text="@string/ag4"
-            android:textColor="@color/bn"
+            android:text="@string/xiaoying_str_studio_label"
+            android:textColor="@color/black"
             android:textSize="18.0sp"
             android:textStyle="bold" />
         <ImageView
-            android:id="@id/lt"
+            android:id="@id/btn_show_mode"
             android:layout_width="48.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_centerVertical="true"
             android:layout_marginEnd="4.0dip"
             android:layout_marginRight="4.0dip"
-            android:layout_toStartOf="@id/bfy"
-            android:layout_toLeftOf="@id/bfy"
+            android:layout_toStartOf="@id/tv_manager"
+            android:layout_toLeftOf="@id/tv_manager"
             android:scaleType="centerInside"
-            android:src="@drawable/l8" />
+            android:src="@drawable/editor_btn_draft_list" />
         <TextView
-            android:id="@id/bfy"
+            android:id="@id/tv_manager"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
@@ -53,19 +53,19 @@
             android:gravity="center_vertical"
             android:paddingLeft="4.0dip"
             android:paddingRight="4.0dip"
-            android:text="@string/v3"
-            android:textColor="@color/f5"
+            android:text="@string/xiaoying_str_com_manage"
+            android:textColor="@color/color_45454D"
             android:textSize="16.0sp" />
         <View
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.5dip"
             android:layout_alignParentBottom="true"
-            android:background="@color/jm" />
+            android:background="@color/color_f6f6f6" />
     </RelativeLayout>
     <FrameLayout
-        android:id="@id/b54"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/b58"
-        android:background="@color/zo" />
+        android:id="@id/studio_recyclerview_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/studio_title_bar_layout"
+        android:background="@color/white" />
 </RelativeLayout>

@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_background"
     android:orientation="vertical"
     android:visibility="visible"
-    app:layout_constraintBottom_toBottomOf="apv"
-    app:layout_constraintEnd_toEndOf="apv"
+    app:layout_constraintBottom_toBottomOf="parrent"
+    app:layout_constraintEnd_toEndOf="parrent"
     app:layout_constraintHeight_percent="0.875"
-    app:layout_constraintStart_toStartOf="apv"
+    app:layout_constraintStart_toStartOf="parrent"
     app:layout_constraintVertical_bias="0.0">
     <FrameLayout
-        android:id="@id/s1"
-        android:layout_width="fill_parent"
+        android:id="@id/cover_player_container"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
         android:layout_weight="1.0" />
     <TextView
-        android:id="@id/rr"
+        android:id="@id/cover_hint_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/td"
-        android:layout_marginBottom="@dimen/td"
-        android:text="@string/ae8"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/yz" />
+        android:layout_marginTop="@dimen/px12"
+        android:layout_marginBottom="@dimen/px12"
+        android:text="@string/xiaoying_str_select_cover_swipe_desc"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp12" />
     <FrameLayout
-        android:id="@id/s3"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/t4" />
+        android:id="@id/cover_timeline_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px100" />
 </LinearLayout>

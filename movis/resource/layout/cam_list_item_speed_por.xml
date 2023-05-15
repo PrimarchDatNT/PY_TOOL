@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/a7u"
+        android:id="@id/item_layout"
         android:layout_width="75.0dip"
         android:layout_height="75.0dip">
         <com.videoai.aivpcore.ui.view.RotateImageView
-            android:id="@id/a7t"
+            android:id="@id/item_img"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/auy" />
+            android:src="@drawable/v4_xiaoying_com_speed_pin_small" />
         <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:layout_below="@id/a7t">
+            android:layout_height="match_parent"
+            android:layout_below="@id/item_img">
             <com.videoai.aivpcore.ui.view.RotateTextView
-                android:id="@id/a7g"
-                android:layout_width="fill_parent"
+                android:id="@id/item_desc"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:gravity="center"
-                android:textColor="@color/zo" />
+                android:textColor="@color/white" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/akv" android:state_selected="true" />
-    <item android:drawable="@drawable/aj_" />
+    <item android:drawable="@drawable/ic_use_effect_package" android:state_selected="true" />
+    <item android:drawable="@drawable/ic_download_effect_package" />
 </selector>

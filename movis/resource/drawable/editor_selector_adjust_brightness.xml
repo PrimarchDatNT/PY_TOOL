@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/qo" android:state_selected="true" />
-    <item android:drawable="@drawable/qp" android:state_selected="false" />
+    <item android:drawable="@drawable/editor_icon_param_adjust_bightness_selected" android:state_selected="true" />
+    <item android:drawable="@drawable/editor_icon_param_adjust_brightness_normal" android:state_selected="false" />
 </selector>

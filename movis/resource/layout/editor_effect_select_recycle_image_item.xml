@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="90.0dip"
     android:orientation="horizontal">
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/b12"
+        android:id="@id/select_item"
         android:layout_width="70.0dip"
         android:layout_height="70.0dip"
         android:layout_marginStart="25.0dip"

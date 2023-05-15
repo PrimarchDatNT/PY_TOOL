@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="44.0dip"
-    android:background="@drawable/wa">
+    android:background="@drawable/editor_shape_preview_title">
     <ImageButton
-        android:id="@id/v_"
+        android:id="@id/editor_back_btn"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_centerVertical="true"
         android:background="@null"
         android:contentDescription="@null"
         android:paddingLeft="5.0dip"
         android:paddingRight="5.0dip"
-        android:src="@drawable/ask" />
+        android:src="@drawable/v4_xiaoying_cam_btn_cam_cancel" />
     <ImageButton
-        android:id="@id/vo"
+        android:id="@id/editor_undo_btn"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_centerVertical="true"
         android:layout_marginStart="15.0dip"
-        android:layout_toEndOf="@id/v_"
+        android:layout_toEndOf="@id/editor_back_btn"
         android:background="@null"
         android:contentDescription="@null"
         android:paddingLeft="5.0dip"
         android:paddingRight="5.0dip"
-        android:src="@drawable/t6"
+        android:src="@drawable/editor_perform_undo_icon"
         android:visibility="gone" />
     <ImageButton
-        android:id="@id/vl"
+        android:id="@id/editor_redo_btn"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_centerVertical="true"
         android:layout_marginStart="15.0dip"
-        android:layout_toEndOf="@id/vo"
+        android:layout_toEndOf="@id/editor_undo_btn"
         android:background="@null"
         android:contentDescription="@null"
         android:paddingLeft="5.0dip"
         android:paddingRight="5.0dip"
-        android:src="@drawable/t5"
+        android:src="@drawable/editor_perform_redo_icon"
         android:visibility="gone" />
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_marginEnd="10.0dip"
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/ve"
+            android:id="@id/editor_edit_lesson"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -59,10 +59,10 @@
             android:paddingEnd="5.0dip"
             android:paddingRight="5.0dip"
             android:paddingBottom="13.0dip"
-            android:src="@drawable/l9"
+            android:src="@drawable/editor_btn_edit_lesson"
             android:visibility="gone" />
         <TextView
-            android:id="@id/vd"
+            android:id="@id/editor_draft"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -73,21 +73,21 @@
             android:shadowColor="#40000000"
             android:shadowDx="3.0"
             android:shadowDy="3.0"
-            android:text="@string/abf"
+            android:text="@string/xiaoying_str_preview_save_draft"
             android:textColor="#ccffffff"
             android:textSize="16.0sp"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/vk"
+            android:id="@id/editor_publish"
             android:layout_width="wrap_content"
             android:layout_height="28.0dip"
             android:layout_marginStart="5.0dip"
-            android:background="@drawable/vb"
+            android:background="@drawable/editor_shape_custom_next_btn_bg"
             android:gravity="center"
             android:paddingLeft="10.0dip"
             android:paddingRight="10.0dip"
-            android:text="@string/xd"
-            android:textColor="@color/n_"
+            android:text="@string/xiaoying_str_com_save_title"
+            android:textColor="@color/default_app_color"
             android:textSize="16.0sp"
             android:textStyle="bold" />
     </LinearLayout>

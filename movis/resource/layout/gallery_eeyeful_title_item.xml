@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/bb0"
-    style="@style/xf"
+    android:id="@id/tv"
+    style="@style/veds_latn_font_subtitle_12"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:paddingLeft="12.0dip"
     android:paddingTop="4.0dip"
     android:paddingRight="12.0dip"
     android:paddingBottom="4.0dip"
-    android:textColor="@color/zo"
+    android:textColor="@color/white"
     android:textSize="12.0dip" />

@@ -3,10 +3,10 @@
     <item
         android:id="@android:id/background" android:gravity="center_vertical">
         <scale
-            android:drawable="@drawable/ay3" android:scaleWidth="0%" android:scaleHeight="50%" />
+            android:drawable="@drawable/v6_xiaoying_zoom_progress_bg" android:scaleWidth="0%" android:scaleHeight="50%" />
     </item>
     <item
         android:id="@android:id/progress" android:gravity="center">
-        <clip android:drawable="@color/xz" />
+        <clip android:drawable="@color/transparent" />
     </item>
 </layer-list>

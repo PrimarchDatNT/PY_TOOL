@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/a4s"
-        android:background="@color/dt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_editor_title_height"
+        android:background="@color/color_141414"
         android:orientation="vertical">
         <ImageView
-            android:id="@id/blx"
-            android:layout_width="@dimen/a4s"
-            android:layout_height="fill_parent"
+            android:id="@id/video_title_left_button"
+            android:layout_width="@dimen/video_editor_title_height"
+            android:layout_height="match_parent"
             android:scaleType="center"
-            android:src="@drawable/asm" />
+            android:src="@drawable/v4_xiaoying_cam_btn_cam_cancel_selector" />
         <TextView
-            android:id="@id/b_h"
+            android:id="@id/title_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="@string/ak8"
+            android:text="@string/xiaoying_str_ve_choose_photo_title"
             android:textColor="@android:color/white"
             android:textSize="17.0sp"
             android:textStyle="bold" />
     </RelativeLayout>
     <FrameLayout
-        android:id="@id/qm"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/collage_album_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="@android:color/black" />
 </LinearLayout>

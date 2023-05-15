@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/a1k"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/gallery_template_item_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginLeft="12.0dip"
         android:layout_marginRight="12.0dip"
         android:orientation="vertical"
         app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent"
         app:spanCount="2" />
     <com.videoedit.gallery.widget.GalleryEmptyView
-        android:id="@id/a1j"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/gallery_template_item_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="gone" />
 </FrameLayout>

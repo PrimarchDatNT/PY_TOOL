@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/b4g"
-    android:layout_width="fill_parent"
+    android:id="@id/status_bar_latest_event_content"
+    android:layout_width="match_parent"
     android:layout_height="128.0dip">
     <ImageView
-        android:id="@id/a3a"
+        android:id="@id/icon"
         android:layout_width="128.0dip"
         android:layout_height="128.0dip"
         android:scaleType="centerCrop" />
@@ -18,29 +18,29 @@
         android:layout_marginRight="2.0dip" />
     <include
         layout="@layout/notification_template_lines_media"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="128.0dip"
         android:layout_marginLeft="128.0dip"
-        android:layout_toStartOf="@id/nt"
-        android:layout_toLeftOf="@id/nt" />
+        android:layout_toStartOf="@id/cancel_action"
+        android:layout_toLeftOf="@id/cancel_action" />
     <LinearLayout
-        android:id="@id/akj"
-        android:layout_width="fill_parent"
+        android:id="@id/media_actions"
+        android:layout_width="match_parent"
         android:layout_height="48.0dip"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="12.0dip"
         android:layout_marginRight="12.0dip"
-        android:layout_toEndOf="@id/a3a"
-        android:layout_toRightOf="@id/a3a"
+        android:layout_toEndOf="@id/icon"
+        android:layout_toRightOf="@id/icon"
         android:layoutDirection="ltr"
         android:orientation="horizontal" />
     <ImageView
-        android:id="@id/bg"
-        android:layout_width="fill_parent"
+        android:id="@id/action_divider"
+        android:layout_width="match_parent"
         android:layout_height="1.0dip"
-        android:layout_above="@id/akj"
-        android:layout_toEndOf="@id/a3a"
-        android:layout_toRightOf="@id/a3a"
+        android:layout_above="@id/media_actions"
+        android:layout_toEndOf="@id/icon"
+        android:layout_toRightOf="@id/icon"
         android:background="?android:dividerHorizontal" />
 </RelativeLayout>

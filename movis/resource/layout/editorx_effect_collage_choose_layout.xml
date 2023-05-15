@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/xz">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
     <RelativeLayout
-        android:id="@id/aeh"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/ut"
-        android:layout_above="@id/wk"
-        android:background="@color/ag">
+        android:id="@id/layout_expand"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px214"
+        android:layout_above="@id/etv_tab"
+        android:background="@color/app_dcolor_background">
         <RelativeLayout
-            android:id="@id/ii"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/wd">
+            android:id="@id/board_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px32">
             <ImageButton
-                android:id="@id/kt"
+                android:id="@id/btn_expand"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:background="@null"
                 android:clickable="false"
                 android:focusable="false"
-                android:paddingStart="@dimen/tz"
-                android:paddingEnd="@dimen/tz"
-                android:src="@drawable/a6a" />
+                android:paddingStart="@dimen/px16"
+                android:paddingEnd="@dimen/px16"
+                android:src="@drawable/editorx_selector_gallery_board_arrow" />
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/auj"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_below="@id/ii"
+            android:id="@id/recycler_choose_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/board_top"
             android:layout_gravity="center_horizontal"
             android:visibility="visible" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/auk"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_below="@id/ii"
+            android:id="@id/recycler_choose_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/board_top"
             android:layout_gravity="center_horizontal"
             android:visibility="gone" />
         <RelativeLayout
-            android:id="@id/aeq"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_below="@id/ii"
+            android:id="@id/layout_gif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/board_top"
             android:visibility="gone">
             <RelativeLayout
-                android:id="@id/afv"
-                android:layout_width="fill_parent"
-                android:layout_height="@dimen/wz"
-                android:layout_marginStart="@dimen/tz"
-                android:layout_marginEnd="@dimen/tz"
-                android:background="@drawable/a7r">
+                android:id="@id/layout_search"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px36"
+                android:layout_marginStart="@dimen/px16"
+                android:layout_marginEnd="@dimen/px16"
+                android:background="@drawable/editorx_shape_galley_gif_search">
                 <ImageView
-                    android:id="@id/ab2"
+                    android:id="@id/iv_search"
                     android:layout_width="16.0dip"
                     android:layout_height="16.0dip"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="16.0dip"
-                    android:src="@drawable/a42" />
+                    android:src="@drawable/editorx_icon_search" />
                 <com.videoai.aivpcore.editorx.widget.UKeyBackEditText
-                    android:id="@id/lo"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:id="@id/btn_search_gif"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_marginStart="8.0dip"
-                    android:layout_marginEnd="@dimen/tz"
-                    android:layout_toEndOf="@id/ab2"
+                    android:layout_marginEnd="@dimen/px16"
+                    android:layout_toEndOf="@id/iv_search"
                     android:background="@null"
                     android:gravity="start|center"
-                    android:hint="@string/akn"
+                    android:hint="@string/xiaoying_str_ve_collage_search_gif_hint"
                     android:imeOptions="actionSearch"
                     android:singleLine="true"
-                    android:textColor="@color/iv"
-                    android:textColorHint="@color/fd"
-                    android:textCursorDrawable="@drawable/aun"
+                    android:textColor="@color/color_e6e6e6"
+                    android:textColorHint="@color/color_525252"
+                    android:textCursorDrawable="@drawable/v4_xiaoying_com_edittext_cursor"
                     android:textSize="14.0sp" />
             </RelativeLayout>
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@id/aui"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_below="@id/afv"
+                android:id="@id/recycler_choose_gif"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_search"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginStart="@dimen/tz"
+                android:layout_marginStart="@dimen/px16"
                 android:layout_marginTop="12.0dip"
-                android:layout_marginEnd="@dimen/tz"
+                android:layout_marginEnd="@dimen/px16"
                 android:visibility="visible" />
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/aez"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/layout_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="horizontal"
             android:visibility="gone">
@@ -99,7 +99,7 @@
                 android:layout_width="30.0dip"
                 android:layout_height="30.0dip"
                 android:layout_gravity="center"
-                android:indeterminateDrawable="@drawable/b3_"
+                android:indeterminateDrawable="@drawable/xiaoying_com_progressbar_loading_img"
                 android:indeterminateDuration="1000" />
             <TextView
                 android:layout_width="wrap_content"
@@ -107,14 +107,14 @@
                 android:layout_gravity="center"
                 android:layout_marginStart="10.0dip"
                 android:gravity="center"
-                android:text="@string/uy"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/yz" />
+                android:text="@string/xiaoying_str_com_loading"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp12" />
         </LinearLayout>
     </RelativeLayout>
     <com.videoai.aivpcore.editorx.board.effect.ui.effectTab.EffectTabView
-        android:id="@id/wk"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/xt"
+        android:id="@id/etv_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px56"
         android:layout_alignParentBottom="true" />
 </RelativeLayout>

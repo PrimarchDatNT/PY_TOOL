@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@android:id/background" android:drawable="@drawable/b1r" />
+        android:id="@android:id/background" android:drawable="@drawable/xiaoying_com_download_progress2" />
     <item android:id="@android:id/progress">
         <clip
-            android:clipOrientation="horizontal" android:drawable="@drawable/b1q" android:gravity="left" />
+            android:clipOrientation="horizontal" android:drawable="@drawable/xiaoying_com_download_progress1" android:gravity="left" />
     </item>
 </layer-list>

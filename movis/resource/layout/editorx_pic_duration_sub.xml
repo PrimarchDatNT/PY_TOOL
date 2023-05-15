@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/b3x"
-        android:layout_width="fill_parent"
+        android:id="@id/speed_root_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="apv">
+        app:layout_constraintBottom_toBottomOf="parrent">
         <TextView
-            android:id="@id/bcb"
+            android:id="@id/tvTitle"
             android:layout_width="0.0dip"
-            android:layout_height="@dimen/xh"
-            android:background="@color/ag"
+            android:layout_height="@dimen/px48"
+            android:background="@color/app_dcolor_background"
             android:gravity="center"
-            android:text="@string/am3"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z0"
-            app:layout_constraintBottom_toTopOf="@id/tt"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv" />
+            android:text="@string/xiaoying_str_ve_img_duration_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14"
+            app:layout_constraintBottom_toTopOf="@id/dividerView"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent" />
         <View
-            android:id="@id/tt"
+            android:id="@id/dividerView"
             android:layout_width="0.0dip"
-            android:layout_height="@dimen/t2"
-            android:background="@color/aj"
-            app:layout_constraintBottom_toTopOf="@id/bme"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv" />
+            android:layout_height="@dimen/px1"
+            android:background="@color/app_dcolor_indicator"
+            app:layout_constraintBottom_toTopOf="@id/viewContentBg"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent" />
         <View
-            android:id="@id/bme"
+            android:id="@id/viewContentBg"
             android:layout_width="0.0dip"
-            android:layout_height="@dimen/u3"
-            android:background="@color/ag"
-            app:layout_constraintBottom_toTopOf="@id/b4"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv" />
+            android:layout_height="@dimen/px166"
+            android:background="@color/app_dcolor_background"
+            app:layout_constraintBottom_toTopOf="@id/actionBottomBar"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent" />
         <com.videoai.aivpcore.timeline.fixed.scale.ScaleTimeline
-            android:id="@id/b3y"
+            android:id="@id/speed_timeline"
             android:layout_width="0.0dip"
-            android:layout_height="@dimen/y6"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toBottomOf="@id/tt" />
+            android:layout_height="@dimen/px64"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toBottomOf="@id/dividerView" />
         <com.videoai.aivpcore.editorx.widget.seekbar.MarkSeekBar
-            android:id="@id/b0f"
+            android:id="@id/seekBar"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="@id/bme"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="@id/bme"
+            app:layout_constraintBottom_toBottomOf="@id/viewContentBg"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="@id/viewContentBg"
             app:msb_mark_num="3"
-            app:msb_mark_text_array="@array/j"
+            app:msb_mark_text_array="@array/seekbar_array_pic_duration"
             app:msb_max_progress="1000"
-            app:msb_seek_bar_left_padding="@dimen/v7"
-            app:msb_seek_bar_progress_drawable="@drawable/an5"
-            app:msb_seek_bar_right_padding="@dimen/v7"
-            app:msb_seek_bar_thumb="@drawable/an2" />
+            app:msb_seek_bar_left_padding="@dimen/px24"
+            app:msb_seek_bar_progress_drawable="@drawable/msb_seek_bar_layer"
+            app:msb_seek_bar_right_padding="@dimen/px24"
+            app:msb_seek_bar_thumb="@drawable/msb_mark_thumb_layer" />
         <com.videoai.aivpcore.editorx.board.clip.widget.SelectActionBottomBar
-            android:id="@id/b4"
+            android:id="@id/actionBottomBar"
             android:layout_width="0.0dip"
-            android:layout_height="@dimen/xt"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv" />
+            android:layout_height="@dimen/px56"
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/a7u"
-    android:layout_width="@dimen/yg"
-    android:layout_height="@dimen/yg"
-    android:background="@drawable/a7_">
+    android:id="@id/item_layout"
+    android:layout_width="@dimen/px80"
+    android:layout_height="@dimen/px80"
+    android:background="@drawable/editorx_shape_effect_item_bg_unchoose">
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/tr"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/div_roll_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:layout_margin="@dimen/t2"
-        android:background="@color/xz"
-        app:roundedCornerRadius="@dimen/xz" />
+        android:layout_margin="@dimen/px1"
+        android:background="@color/transparent"
+        app:roundedCornerRadius="@dimen/px6" />
     <LinearLayout
-        android:id="@id/adx"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/a70"
+        android:id="@id/layout_choose"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/editorx_shape_effect_bubble_selected"
         android:gravity="center"
         android:orientation="horizontal"
         android:padding="4.0dip" />
     <ImageView
-        android:id="@id/a_b"
-        android:layout_width="@dimen/tz"
-        android:layout_height="@dimen/tz"
+        android:id="@id/iv_download"
+        android:layout_width="@dimen/px16"
+        android:layout_height="@dimen/px16"
         android:layout_centerInParent="true"
-        android:src="@drawable/a9z"
+        android:src="@drawable/editorx_text_typeface_download_icon"
         android:visibility="gone" />
     <ImageView
-        android:id="@id/abu"
-        android:layout_width="@dimen/tz"
-        android:layout_height="@dimen/tz"
+        android:id="@id/iv_vip"
+        android:layout_width="@dimen/px16"
+        android:layout_height="@dimen/px16"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_margin="@dimen/uk"
-        android:src="@drawable/aj9" />
+        android:layout_margin="@dimen/px2"
+        android:src="@drawable/ic_diamon_premium" />
     <RelativeLayout
-        android:id="@id/aww"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/zv"
+        android:id="@id/rl_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_p20"
         android:visibility="gone">
         <ProgressBar
-            android:id="@id/as_"
+            android:id="@id/progress_bar"
             style="?android:progressBarStyleHorizontal"
-            android:layout_width="@dimen/xh"
-            android:layout_height="@dimen/uk"
+            android:layout_width="@dimen/px48"
+            android:layout_height="@dimen/px2"
             android:layout_centerInParent="true"
-            android:progressDrawable="@drawable/aok" />
+            android:progressDrawable="@drawable/progress_horizontal_bg" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/acu"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/zv"
+        android:id="@id/layoutRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_p20"
         android:visibility="gone">
         <ImageView
-            android:layout_width="@dimen/v7"
-            android:layout_height="@dimen/v7"
+            android:layout_width="@dimen/px24"
+            android:layout_height="@dimen/px24"
             android:layout_centerInParent="true"
-            android:src="@drawable/a07" />
+            android:src="@drawable/editorx_effect_subtitle_more" />
     </RelativeLayout>
 </RelativeLayout>

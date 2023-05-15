@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@android:color/black"
     android:fitsSystemWindows="true">
     <RelativeLayout
-        android:id="@id/bw"
-        android:layout_width="fill_parent"
+        android:id="@id/ad_container"
+        android:layout_width="match_parent"
         android:layout_height="50.0dip"
         android:visibility="gone" />
     <com.videoai.aivpcore.editor.gallery.preview.MediaTrimView
-        android:id="@id/as4"
-        android:layout_width="fill_parent"
+        android:id="@id/preview_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/bw" />
+        android:layout_below="@id/ad_container" />
     <RelativeLayout
-        android:id="@id/a1o"
-        android:layout_width="fill_parent"
+        android:id="@id/gallery_title_layout"
+        android:layout_width="match_parent"
         android:layout_height="44.0dip"
-        android:layout_below="@id/bw"
-        android:background="@drawable/wa">
+        android:layout_below="@id/ad_container"
+        android:background="@drawable/editor_shape_preview_title">
         <ImageView
-            android:id="@id/aa4"
+            android:id="@id/iv_gallery_back"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:layout_marginStart="8.0dip"
             android:layout_marginLeft="8.0dip"
             android:scaleType="centerInside"
-            android:src="@drawable/ask" />
+            android:src="@drawable/v4_xiaoying_cam_btn_cam_cancel" />
         <LinearLayout
-            android:id="@id/a19"
+            android:id="@id/gallery_chooser_layout"
             android:layout_width="160.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
             android:gravity="center"
             android:orientation="vertical">
             <LinearLayout
-                android:id="@id/af9"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/layout_ops_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:gravity="center"
                 android:visibility="gone">
                 <TextView
-                    android:id="@id/bgb"
+                    android:id="@id/tv_ops_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Xiaoying"
@@ -53,38 +53,38 @@
                     android:textSize="18.0sp" />
             </LinearLayout>
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="horizontal">
                 <ImageView
-                    android:id="@id/a17"
+                    android:id="@id/gallery_change_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="1.0dip"
                     android:layout_marginEnd="5.0dip"
                     android:layout_marginRight="5.0dip"
-                    android:background="@drawable/b6o" />
+                    android:background="@drawable/xiaoying_ve_gallery_more" />
                 <TextView
-                    android:id="@id/a1p"
+                    android:id="@id/gallery_type"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:maxLines="1"
-                    android:text="@string/aln"
-                    android:textColor="@color/zo"
+                    android:text="@string/xiaoying_str_ve_gallery_filter_menu_item_video_only"
+                    android:textColor="@color/white"
                     android:textSize="18.0sp" />
             </LinearLayout>
             <TextView
-                android:id="@id/ow"
+                android:id="@id/chooser_hint"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
-                android:text="@string/a8b"
-                android:textColor="@color/zo"
+                android:text="@string/xiaoying_str_help_gallery_tap_here_to_change"
+                android:textColor="@color/white"
                 android:textSize="10.0sp" />
         </LinearLayout>
         <TextView
-            android:id="@id/bg_"
+            android:id="@id/tv_next"
             android:layout_width="wrap_content"
             android:layout_height="28.0dip"
             android:layout_alignParentEnd="true"
@@ -92,26 +92,26 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="10.0dip"
             android:layout_marginRight="10.0dip"
-            android:background="@drawable/vb"
+            android:background="@drawable/editor_shape_custom_next_btn_bg"
             android:gravity="center"
             android:paddingLeft="6.0dip"
             android:paddingRight="6.0dip"
-            android:text="@string/w7"
-            android:textColor="@color/ne"
+            android:text="@string/xiaoying_str_com_next_step_title"
+            android:textColor="@color/default_app_color_p50"
             android:textSize="15.0sp"
             android:textStyle="bold" />
     </RelativeLayout>
     <View
-        android:id="@id/aqe"
-        android:layout_width="fill_parent"
+        android:id="@id/picker_blur_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/a1o"
+        android:layout_alignBottom="@id/gallery_title_layout"
         android:layout_alignParentTop="true"
         android:background="#e6000000"
         android:visibility="gone" />
     <com.videoai.aivpcore.picker.MediaPickerView
-        android:id="@id/aqj"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/a1o" />
+        android:id="@id/picker_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/gallery_title_layout" />
 </RelativeLayout>

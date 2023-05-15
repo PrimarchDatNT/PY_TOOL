@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/h7"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:id="@id/bannerContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:clipChildren="false">
     <com.youth.banner.view.BannerViewPager
-        android:id="@id/h_"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/bannerViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:clipChildren="false" />
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
         <LinearLayout
-            android:id="@id/oz"
-            android:layout_width="fill_parent"
+            android:id="@id/circleIndicator"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:gravity="center"
@@ -23,28 +23,28 @@
             android:padding="10.0dip"
             android:visibility="gone" />
         <TextView
-            android:id="@id/aot"
+            android:id="@id/numIndicator"
             android:layout_width="40.0dip"
             android:layout_height="40.0dip"
             android:layout_alignParentRight="true"
             android:layout_margin="8.0dip"
-            android:background="@drawable/j7"
+            android:background="@drawable/black_background"
             android:gravity="center"
             android:text="1/1"
             android:textColor="#ffffffff"
             android:visibility="gone" />
         <LinearLayout
-            android:id="@id/b_8"
-            android:layout_width="fill_parent"
+            android:id="@id/titleView"
+            android:layout_width="match_parent"
             android:layout_height="40.0dip"
-            android:layout_below="@id/oz"
+            android:layout_below="@id/circleIndicator"
             android:background="#44000000"
             android:orientation="horizontal"
             android:visibility="gone">
             <TextView
-                android:id="@id/h9"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/bannerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1000.0"
                 android:ellipsize="marquee"
                 android:focusable="true"
@@ -56,21 +56,21 @@
                 android:visibility="gone" />
             <FrameLayout
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:paddingLeft="10.0dip"
                 android:paddingRight="10.0dip">
                 <TextView
-                    android:id="@id/aou"
+                    android:id="@id/numIndicatorInside"
                     android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:gravity="center_vertical"
                     android:text="1/1"
                     android:textColor="#ffffffff"
                     android:visibility="gone" />
                 <LinearLayout
-                    android:id="@id/a6n"
+                    android:id="@id/indicatorInside"
                     android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:gravity="center_vertical"
                     android:orientation="horizontal"
                     android:visibility="gone" />
@@ -78,9 +78,9 @@
         </LinearLayout>
     </RelativeLayout>
     <ImageView
-        android:id="@id/h8"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/bannerDefaultImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:visibility="gone" />
 </RelativeLayout>

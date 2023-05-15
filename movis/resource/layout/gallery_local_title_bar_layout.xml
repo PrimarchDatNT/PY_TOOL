@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ah">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_bg_1">
     <com.videoedit.widgetlib.magicindicator.MagicIndicator
-        android:id="@id/aj3"
+        android:id="@id/magicIndicator"
         android:layout_width="wrap_content"
-        android:layout_height="@dimen/x6"
+        android:layout_height="@dimen/px40"
         android:layout_gravity="center_horizontal" />
 </FrameLayout>

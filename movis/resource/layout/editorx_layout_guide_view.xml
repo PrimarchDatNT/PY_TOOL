@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/xz">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/a2h"
+        android:id="@id/gv_bg_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:background="@drawable/ed"
-        android:paddingStart="@dimen/tz"
-        android:paddingEnd="@dimen/tz"
+        android:background="@drawable/app_res_sample_6"
+        android:paddingStart="@dimen/px16"
+        android:paddingEnd="@dimen/px16"
         android:visibility="invisible">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/a2o"
+            android:id="@id/gv_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="@dimen/t3"
-            android:layout_marginBottom="@dimen/t3"
+            android:layout_marginTop="@dimen/px10"
+            android:layout_marginBottom="@dimen/px10"
             android:ellipsize="end"
-            android:fontFamily="@font/f"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="center"
             android:maxWidth="120.0dip"
             android:maxLines="3"
-            android:textColor="@color/d6"
-            android:textSize="@dimen/yz"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp12"
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/a_5"
-            android:layout_width="@dimen/v7"
-            android:layout_height="@dimen/v7"
+            android:id="@id/iv_close"
+            android:layout_width="@dimen/px24"
+            android:layout_height="@dimen/px24"
             android:adjustViewBounds="true"
-            android:background="@drawable/jf"
+            android:background="@drawable/btn_dcolor_ripple"
             android:scaleType="centerInside"
-            android:src="@drawable/e0"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toEndOf="@id/a2o"
-            app:layout_constraintTop_toTopOf="apv" />
+            android:src="@drawable/app_default_close_white"
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toEndOf="@id/gv_textview"
+            app:layout_constraintTop_toTopOf="parrent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </merge>

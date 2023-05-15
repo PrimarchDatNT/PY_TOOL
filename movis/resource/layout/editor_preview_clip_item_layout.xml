@@ -5,26 +5,26 @@
     android:layout_height="77.0dip"
     android:minWidth="77.0dip">
     <RelativeLayout
-        android:id="@id/a7c"
+        android:id="@id/item_comtent"
         android:layout_width="65.0dip"
         android:layout_height="65.0dip"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true">
         <com.videoai.aivpcore.xyui.RoundCornerImageView
-            android:id="@id/a7e"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/item_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/b34"
+            android:src="@drawable/xiaoying_com_no_clip_default_square"
             app:cornerRadius="1.5dip" />
         <RelativeLayout
-            android:id="@id/awm"
-            android:layout_width="fill_parent"
+            android:id="@id/rl_item_info"
+            android:layout_width="match_parent"
             android:layout_height="20.0dip"
             android:layout_alignParentBottom="true">
             <TextView
-                android:id="@id/a7h"
+                android:id="@id/item_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
@@ -38,7 +38,7 @@
                 android:textColor="@android:color/white"
                 android:textSize="11.0sp" />
             <ImageView
-                android:id="@id/aac"
+                android:id="@id/iv_item_mask"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -47,76 +47,76 @@
                 android:layout_marginEnd="3.0dip"
                 android:layout_marginRight="3.0dip"
                 android:layout_marginBottom="3.5dip"
-                android:src="@drawable/oa" />
+                android:src="@drawable/editor_icon_clip_img_flag" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/a7o"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@drawable/w5"
+            android:id="@id/item_focus_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/editor_shape_item_focus"
             android:visibility="gone" />
         <TextView
-            android:id="@id/a7v"
-            android:layout_width="fill_parent"
+            android:id="@id/item_multi_select_flag"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:background="@color/ne"
+            android:background="@color/default_app_color_p50"
             android:gravity="center"
-            android:text="@string/aok"
+            android:text="@string/xiaoying_str_ve_storyboard_title_btn_text_multiselect"
             android:textColor="@android:color/white"
             android:textSize="10.0sp"
             android:visibility="gone" />
         <ImageButton
-            android:id="@id/a88"
+            android:id="@id/item_select_btn"
             android:layout_width="24.0dip"
             android:layout_height="24.0dip"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:background="@null"
-            android:src="@drawable/ud"
+            android:src="@drawable/editor_selector_preview_clip"
             android:visibility="gone" />
         <TextView
-            android:id="@id/a7y"
+            android:id="@id/item_order"
             android:layout_width="15.0dip"
             android:layout_height="15.0dip"
             android:layout_marginStart="3.0dip"
             android:layout_marginLeft="3.0dip"
             android:layout_marginTop="3.0dip"
-            android:background="@drawable/v9"
+            android:background="@drawable/editor_shape_clip_order"
             android:gravity="center"
             android:textColor="@android:color/white"
             android:textSize="11.0sp"
             android:visibility="gone" />
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/ban"
+        android:id="@id/transition_entrance_layout"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
-        android:layout_alignBottom="@id/a7c"
+        android:layout_alignBottom="@id/item_comtent"
         android:layout_marginBottom="12.0dip"
-        android:layout_toEndOf="@id/a7c"
-        android:layout_toRightOf="@id/a7c"
+        android:layout_toEndOf="@id/item_comtent"
+        android:layout_toRightOf="@id/item_comtent"
         android:gravity="center">
         <ImageButton
-            android:id="@id/bam"
+            android:id="@id/transition_entrance_btn"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:background="@null"
             android:clickable="false"
             android:contentDescription="@null"
-            android:src="@drawable/og" />
+            android:src="@drawable/editor_icon_clip_transition_normal" />
     </LinearLayout>
     <ImageButton
-        android:id="@id/a7f"
+        android:id="@id/item_delete_btn"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
-        android:layout_alignTop="@id/a7c"
-        android:layout_alignEnd="@id/a7c"
-        android:layout_alignRight="@id/a7c"
+        android:layout_alignTop="@id/item_comtent"
+        android:layout_alignEnd="@id/item_comtent"
+        android:layout_alignRight="@id/item_comtent"
         android:layout_marginTop="-12.0dip"
         android:layout_marginEnd="-12.0dip"
         android:layout_marginRight="-12.0dip"
         android:background="@null"
         android:contentDescription="@null"
-        android:src="@drawable/mf" />
+        android:src="@drawable/editor_btn_video_editor_clip_delete" />
 </RelativeLayout>

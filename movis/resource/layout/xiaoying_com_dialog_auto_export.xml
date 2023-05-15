@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <LinearLayout
-        android:id="@id/wy"
-        android:layout_width="fill_parent"
+        android:id="@id/export_layout_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="25.0dip"
         android:layout_marginLeft="25.0dip"
         android:layout_marginEnd="25.0dip"
         android:layout_marginRight="25.0dip"
-        android:background="@drawable/aud"
+        android:background="@drawable/v4_xiaoying_com_dialog_bg"
         android:orientation="vertical"
         android:paddingBottom="8.0dip">
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:orientation="horizontal"
@@ -26,20 +26,20 @@
             android:paddingRight="24.0dip"
             android:paddingBottom="12.0dip">
             <TextView
-                android:id="@id/wz"
-                android:layout_width="fill_parent"
+                android:id="@id/export_title"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/c5"
+                android:textColor="@color/black_p87"
                 android:textSize="20.0sp" />
         </LinearLayout>
         <ScrollView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clipToPadding="false"
             android:paddingTop="8.0dip"
             android:paddingBottom="8.0dip">
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:paddingStart="24.0dip"
@@ -47,18 +47,18 @@
                 android:paddingEnd="24.0dip"
                 android:paddingRight="24.0dip">
                 <TextView
-                    android:id="@id/wx"
-                    android:layout_width="fill_parent"
+                    android:id="@id/export_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="16.0sp" />
             </LinearLayout>
         </ScrollView>
         <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginTop="16.0dip">
             <TextView
-                android:id="@id/bqb"
+                android:id="@id/xiaoying_export_dialog_positive"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -68,31 +68,31 @@
                 android:background="?android:selectableItemBackground"
                 android:padding="10.0dip"
                 android:text="Positive"
-                android:textColor="@color/fi"
+                android:textColor="@color/color_585858"
                 android:textSize="14.0sp" />
             <TextView
-                android:id="@id/bqa"
+                android:id="@id/xiaoying_export_dialog_negative"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="12.0dip"
                 android:layout_marginRight="12.0dip"
-                android:layout_toStartOf="@id/bqb"
-                android:layout_toLeftOf="@id/bqb"
+                android:layout_toStartOf="@id/xiaoying_export_dialog_positive"
+                android:layout_toLeftOf="@id/xiaoying_export_dialog_positive"
                 android:background="?android:selectableItemBackground"
                 android:padding="10.0dip"
                 android:text="Negative"
-                android:textColor="@color/fi"
+                android:textColor="@color/color_585858"
                 android:textSize="14.0sp" />
         </RelativeLayout>
     </LinearLayout>
     <ImageView
-        android:id="@id/a6c"
+        android:id="@id/imgview_icon"
         android:layout_width="115.0dip"
         android:layout_height="139.0dip"
-        android:layout_alignTop="@id/wy"
+        android:layout_alignTop="@id/export_layout_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="-85.0dip"
-        android:background="@drawable/b4l"
+        android:background="@drawable/xiaoying_img_count_tip_icon"
         android:scaleType="centerCrop"
         android:visibility="visible" />
 </RelativeLayout>

@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ag">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_background">
     <RelativeLayout
-        android:id="@id/agd"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_title"
+        android:layout_width="match_parent"
         android:layout_height="?a4"
-        android:background="@drawable/b4b">
+        android:background="@drawable/xiaoying_com_title_bar_bg">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/bps"
+            android:id="@id/xiaoying_com_btn_left"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:layout_marginStart="8.0dip"
             android:scaleType="centerInside"
-            android:src="@drawable/asm" />
+            android:src="@drawable/v4_xiaoying_cam_btn_cam_cancel_selector" />
         <TextView
-            android:id="@id/b_5"
+            android:id="@id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_toStartOf="@id/b0y"
-            android:layout_toEndOf="@id/bps"
+            android:layout_toStartOf="@id/select_all"
+            android:layout_toEndOf="@id/xiaoying_com_btn_left"
             android:gravity="start"
             android:maxLines="1"
-            android:text="@string/alj"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_ve_gallery_file_pick"
+            android:textColor="@color/white"
             android:textSize="18.0sp" />
         <CheckBox
-            android:id="@id/b0y"
-            style="@style/h1"
+            android:id="@id/select_all"
+            style="@style/Explorer_File_All_Style"
             android:layout_width="30.0dip"
             android:layout_height="30.0dip"
             android:layout_alignParentEnd="true"
@@ -40,120 +40,120 @@
             android:focusable="false" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/adu"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/agd">
+        android:id="@id/layout_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_title">
         <RelativeLayout
-            android:id="@id/azr"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/scan_type_select_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:visibility="gone">
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:layout_above="@id/l0"
+                android:layout_height="match_parent"
+                android:layout_above="@id/btn_layout"
                 android:layout_centerInParent="true">
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@id/a5f"
+                    android:id="@id/img_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/b2v" />
+                    android:src="@drawable/xiaoying_com_music_icon_big" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/l0"
+                android:id="@id/btn_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true">
                 <Button
-                    android:id="@id/ld"
+                    android:id="@id/btn_qucik_scan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10.0dip"
-                    android:background="@drawable/b16"
+                    android:background="@drawable/xiaoying_com_btn_scan_big_selector"
                     android:gravity="center"
-                    android:text="@string/alk"
-                    android:textColor="@drawable/b17"
+                    android:text="@string/xiaoying_str_ve_gallery_file_quick_scan"
+                    android:textColor="@drawable/xiaoying_com_btn_scan_big_text_color_selector"
                     android:textSize="16.0sp" />
                 <Button
-                    android:id="@id/kn"
+                    android:id="@id/btn_custom_scan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/ld"
+                    android:layout_below="@id/btn_qucik_scan"
                     android:layout_marginTop="10.0dip"
-                    android:background="@drawable/b16"
+                    android:background="@drawable/xiaoying_com_btn_scan_big_selector"
                     android:gravity="center"
-                    android:text="@string/alf"
-                    android:textColor="@drawable/b17"
+                    android:text="@string/xiaoying_str_ve_gallery_file_custom_scan"
+                    android:textColor="@drawable/xiaoying_com_btn_scan_big_text_color_selector"
                     android:textSize="16.0sp" />
             </RelativeLayout>
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/sl"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/custom_scan_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:visibility="visible">
             <LinearLayout
-                android:id="@id/adq"
-                android:layout_width="fill_parent"
+                android:id="@id/layout_back_item"
+                android:layout_width="match_parent"
                 android:layout_height="?a4"
-                android:background="@drawable/aur"
+                android:background="@drawable/v4_xiaoying_com_file_explorer_back_layout_bg_selector"
                 android:gravity="center_vertical"
                 android:maxLines="1"
                 android:orientation="horizontal">
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@id/h2"
+                    android:id="@id/back_file_icon"
                     android:layout_width="?a4"
                     android:layout_height="?a4"
-                    android:background="@drawable/jf"
+                    android:background="@drawable/btn_dcolor_ripple"
                     android:scaleType="centerInside"
-                    android:src="@drawable/aj0" />
+                    android:src="@drawable/ic_back" />
                 <TextView
-                    android:id="@id/h3"
+                    android:id="@id/back_file_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="9.0dip"
                     android:maxLines="1"
                     android:text="AD"
-                    android:textColor="@color/zo"
+                    android:textColor="@color/white"
                     android:textSize="15.0sp" />
             </LinearLayout>
             <androidx.appcompat.widget.AppCompatImageView
-                android:id="@id/y4"
-                android:layout_width="fill_parent"
+                android:id="@id/file_item_divider"
+                android:layout_width="match_parent"
                 android:layout_height="1.0dip"
-                android:layout_below="@id/adq"
+                android:layout_below="@id/layout_back_item"
                 android:layout_centerHorizontal="true"
-                android:background="@color/fx" />
+                android:background="@color/color_707070_p40" />
             <ListView
-                android:id="@id/y5"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_above="@id/ll"
-                android:layout_below="@id/y4"
-                android:layout_marginBottom="@dimen/ul"
-                android:cacheColorHint="@color/xz"
+                android:id="@id/file_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/btn_scan"
+                android:layout_below="@id/file_item_divider"
+                android:layout_marginBottom="@dimen/px20"
+                android:cacheColorHint="@color/transparent"
                 android:divider="@null"
                 android:fadingEdge="none"
                 android:fastScrollEnabled="false"
                 android:focusable="true"
-                android:listSelector="@drawable/b4j" />
+                android:listSelector="@drawable/xiaoying_gallery_list_item_bg_selector" />
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@id/ll"
-                android:layout_width="fill_parent"
-                android:layout_height="@dimen/x9"
+                android:id="@id/btn_scan"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px42"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginStart="@dimen/tz"
-                android:layout_marginEnd="@dimen/tz"
-                android:layout_marginBottom="@dimen/ul"
-                android:background="@drawable/dx"
+                android:layout_marginStart="@dimen/px16"
+                android:layout_marginEnd="@dimen/px16"
+                android:layout_marginBottom="@dimen/px20"
+                android:background="@drawable/app_default_button"
                 android:gravity="center"
                 android:maxLines="1"
-                android:text="@string/all"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/z0" />
+                android:text="@string/xiaoying_str_ve_gallery_file_scan_start"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp14" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

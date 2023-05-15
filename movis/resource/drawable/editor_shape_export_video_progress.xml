@@ -2,13 +2,13 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@android:id/background">
         <shape android:shape="rectangle">
-            <solid android:color="@color/xz" />
+            <solid android:color="@color/transparent" />
         </shape>
     </item>
     <item android:id="@android:id/secondaryProgress">
         <clip>
             <shape android:shape="rectangle">
-                <solid android:color="@color/xz" />
+                <solid android:color="@color/transparent" />
             </shape>
         </clip>
     </item>
@@ -16,7 +16,7 @@
         <clip>
             <shape android:shape="rectangle">
                 <corners android:radius="1.0dip" />
-                <solid android:color="@color/iv" />
+                <solid android:color="@color/color_e6e6e6" />
             </shape>
         </clip>
     </item>

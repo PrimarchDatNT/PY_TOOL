@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/b70" android:state_enabled="false" />
-    <item android:drawable="@drawable/b71" android:state_pressed="true" />
-    <item android:drawable="@drawable/b6z" />
+    <item android:drawable="@drawable/xiaoying_ve_pip_edit_trim_btn_dis" android:state_enabled="false" />
+    <item android:drawable="@drawable/xiaoying_ve_pip_edit_trim_btn_p" android:state_pressed="true" />
+    <item android:drawable="@drawable/xiaoying_ve_pip_edit_trim_btn" />
 </selector>

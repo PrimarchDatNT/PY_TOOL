@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/agh"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_toolbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="apv">
-        <include layout="@layout/oe" />
+        app:layout_constraintTop_toTopOf="parrent">
+        <include layout="@layout/fcm_notification_view_toolbar" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/j7"
-            android:layout_width="@dimen/fz"
-            android:layout_height="@dimen/fz"
+            android:id="@id/bt_message_delete"
+            android:layout_width="@dimen/dp48"
+            android:layout_height="@dimen/dp48"
             android:layout_centerVertical="true"
-            android:layout_toStartOf="@id/j8"
+            android:layout_toStartOf="@id/bt_message_read_all"
             android:background="?a5e"
-            android:padding="@dimen/f3"
-            android:tint="@color/pk"
+            android:padding="@dimen/dp12"
+            android:tint="@color/fcm_notification_center_action_button"
             android:visibility="gone"
             app:srcCompat="@drawable/fcm_notification_ic_toolbar_delete_all" />
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/j8"
-            android:layout_width="@dimen/fz"
-            android:layout_height="@dimen/fz"
+            android:id="@id/bt_message_read_all"
+            android:layout_width="@dimen/dp48"
+            android:layout_height="@dimen/dp48"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:background="?a5e"
-            android:padding="@dimen/f3"
-            android:tint="@color/pk"
+            android:padding="@dimen/dp12"
+            android:tint="@color/fcm_notification_center_action_button"
             android:visibility="gone"
             app:srcCompat="@drawable/fcm_notification_ic_toolbar_read_all" />
     </RelativeLayout>
     <FrameLayout
-        android:id="@id/xb"
-        android:layout_width="fill_parent"
+        android:id="@id/fcm_notification_center_layout_fragment"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
-        app:layout_constraintBottom_toTopOf="@id/c_"
-        app:layout_constraintTop_toBottomOf="@id/agh">
+        app:layout_constraintBottom_toTopOf="@id/ad_view"
+        app:layout_constraintTop_toBottomOf="@id/layout_toolbar">
         <fragment
-            android:id="@id/x_"
+            android:id="@id/fcm_notification_center_fragment_inbox"
             android:name="com.videoedit.framework.MessageBoxFragment"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </FrameLayout>
     <com.videoapp.videomakermaster.ads.MessageBannerAdview
-        android:id="@id/c_"
-        android:layout_width="fill_parent"
+        android:id="@id/ad_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffe0e0e0"
         android:minHeight="50.0dip"
         android:paddingTop="2.0dip"
         android:paddingBottom="2.0dip"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

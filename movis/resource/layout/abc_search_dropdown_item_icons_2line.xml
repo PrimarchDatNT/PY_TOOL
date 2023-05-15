@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/j7"
-    android:layout_width="fill_parent"
+    style="@style/RtlOverlay_Widget_AppCompat_Search_DropDown"
+    android:layout_width="match_parent"
     android:layout_height="58.0dip">
     <ImageView
         android:id="@android:id/icon1"
-        style="@style/j8"
-        android:layout_width="@dimen/ak"
+        style="@style/RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1"
+        android:layout_width="@dimen/abc_dropdownitem_icon_width"
         android:layout_height="48.0dip"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:scaleType="centerInside"
         android:visibility="invisible" />
     <ImageView
-        android:id="@id/uy"
-        style="@style/j_"
+        android:id="@id/edit_query"
+        style="@style/RtlOverlay_Widget_AppCompat_Search_DropDown_Query"
         android:layout_width="48.0dip"
         android:layout_height="48.0dip"
         android:layout_alignParentTop="true"
@@ -24,7 +24,7 @@
         android:visibility="gone" />
     <ImageView
         android:id="@android:id/icon2"
-        style="@style/j9"
+        style="@style/RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2"
         android:layout_width="48.0dip"
         android:layout_height="48.0dip"
         android:layout_alignWithParentIfMissing="true"
@@ -35,7 +35,7 @@
     <TextView
         android:id="@android:id/text2"
         style="?android:dropDownItemStyle"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="29.0dip"
         android:layout_alignWithParentIfMissing="true"
         android:layout_alignParentBottom="true"
@@ -47,7 +47,7 @@
     <TextView
         android:id="@android:id/text1"
         style="?android:dropDownItemStyle"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@android:id/text2"
         android:layout_centerVertical="true"

@@ -3,13 +3,13 @@
     <item android:id="@android:id/background">
         <shape>
             <corners android:radius="16.0dip" />
-            <solid android:color="@color/zw" />
+            <solid android:color="@color/white_p30" />
         </shape>
     </item>
     <item android:id="@android:id/progress">
         <clip android:clipOrientation="horizontal">
             <scale
-                android:drawable="@drawable/wf" android:scaleWidth="50%" />
+                android:drawable="@drawable/editor_shape_roll_download_progress" android:scaleWidth="50%" />
         </clip>
     </item>
 </layer-list>

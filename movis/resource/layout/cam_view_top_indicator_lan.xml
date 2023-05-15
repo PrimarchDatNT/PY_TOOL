@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:rotateView="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
         <RelativeLayout
-            android:id="@id/al1"
+            android:id="@id/mode_layout"
             android:layout_width="34.0dip"
             android:layout_height="100.0dip"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginEnd="4.0dip"
             android:layout_marginRight="4.0dip"
-            android:background="@drawable/avx"
+            android:background="@drawable/v5_xiaoying_cam_mode_hor_bg_shape"
             android:visibility="invisible">
             <com.videoai.aivpcore.ui.view.RotateTextView
-                android:id="@id/bj0"
+                android:id="@id/txt_record_mode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="宽屏"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="13.0sp"
                 android:visibility="visible"
                 rotateView:rotation="270" />
             <com.videoai.aivpcore.ui.view.RotateImageView
-                android:id="@id/a50"
+                android:id="@id/img_arrow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -38,86 +38,86 @@
                 android:layout_centerVertical="true"
                 android:layout_marginStart="3.0dip"
                 android:layout_marginLeft="3.0dip"
-                android:src="@drawable/au7"
+                android:src="@drawable/v4_xiaoying_cam_time_arrow"
                 rotateView:rotation="270" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/uk"
+            android:id="@id/duration_layout"
             android:layout_width="29.0dip"
-            android:layout_height="@dimen/a4u"
+            android:layout_height="@dimen/xiaoying_cam_top_indicator_duration_landscape_height"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginEnd="10.0dip"
             android:layout_marginRight="10.0dip"
-            android:background="@drawable/avx">
+            android:background="@drawable/v5_xiaoying_cam_mode_hor_bg_shape">
             <com.videoai.aivpcore.ui.view.RotateTextView
-                android:id="@id/nn"
+                android:id="@id/cam_recording_total_time"
                 android:layout_width="27.0dip"
-                android:layout_height="fill_parent"
-                android:layout_above="@id/ae1"
+                android:layout_height="match_parent"
+                android:layout_above="@id/layout_clip_count"
                 android:layout_centerHorizontal="true"
                 android:singleLine="true"
                 android:text="8.2"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="17.0sp"
                 android:visibility="visible"
                 rotateView:rotation="270" />
             <RelativeLayout
-                android:id="@id/nm"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_above="@id/ae1"
+                android:id="@id/cam_pip_duration_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/layout_clip_count"
                 android:gravity="center"
                 android:visibility="gone">
                 <com.videoai.aivpcore.ui.view.RotateTextView
-                    android:id="@id/biu"
+                    android:id="@id/txt_current_time"
                     android:layout_width="20.0dip"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:singleLine="true"
                     android:text="0.0"
-                    android:textColor="@color/zo"
+                    android:textColor="@color/white"
                     android:textSize="22.0dip"
                     rotateView:rotation="270" />
                 <com.videoai.aivpcore.ui.view.RotateTextView
-                    android:id="@id/bj1"
+                    android:id="@id/txt_sep"
                     android:layout_width="20.0dip"
                     android:layout_height="10.0dip"
-                    android:layout_below="@id/biu"
+                    android:layout_below="@id/txt_current_time"
                     android:layout_centerHorizontal="true"
                     android:singleLine="true"
                     android:text="/"
-                    android:textColor="@color/zo"
+                    android:textColor="@color/white"
                     rotateView:rotation="270" />
                 <com.videoai.aivpcore.ui.view.RotateTextView
-                    android:id="@id/bj3"
+                    android:id="@id/txt_total_time"
                     android:layout_width="20.0dip"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/bj1"
+                    android:layout_below="@id/txt_sep"
                     android:layout_centerHorizontal="true"
                     android:singleLine="true"
                     android:text="0.0"
-                    android:textColor="@color/zo"
+                    android:textColor="@color/white"
                     android:textSize="14.0dip"
                     rotateView:rotation="270" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/ae1"
+                android:id="@id/layout_clip_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="1.0dip">
                 <com.videoai.aivpcore.ui.view.RotateTextView
-                    android:id="@id/n4"
-                    android:layout_width="fill_parent"
+                    android:id="@id/cam_clip_count_hor"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="1.0dip"
                     android:layout_marginLeft="1.0dip"
                     android:layout_marginEnd="1.0dip"
                     android:layout_marginRight="1.0dip"
-                    android:background="@drawable/avs"
+                    android:background="@drawable/v5_xiaoying_cam_clipcount_text_bg_shape"
                     android:minHeight="24.0dip"
                     android:paddingStart="2.0dip"
                     android:paddingLeft="2.0dip"
@@ -126,7 +126,7 @@
                     android:paddingRight="2.0dip"
                     android:paddingBottom="1.0dip"
                     android:text="000"
-                    android:textColor="@color/l3"
+                    android:textColor="@color/color_ff774e"
                     android:textSize="12.0sp"
                     rotateView:isShadowOn="false"
                     rotateView:rotation="270" />

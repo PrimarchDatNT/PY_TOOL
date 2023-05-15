@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/av1"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ag">
+    android:id="@id/relativelayout_music_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_background">
     <RelativeLayout
-        android:id="@id/afd"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_pick_cover_preview_layout"
+        android:layout_width="match_parent"
         android:layout_height="320.0dip"
-        android:layout_below="@id/agj">
+        android:layout_below="@id/layout_top_bars">
         <RelativeLayout
-            android:id="@id/afg"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:id="@id/layout_preview_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
             <RelativeLayout
-                android:id="@id/as2"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/preview_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_centerInParent="true"
-                android:background="@color/xz">
+                android:background="@color/transparent">
                 <SurfaceView
-                    android:id="@id/as5"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent" />
+                    android:id="@id/previewview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
                 <Button
-                    android:id="@id/m9"
+                    android:id="@id/btn_vip"
                     style="?android:borderlessButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="30.0dip"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginBottom="10.0dip"
-                    android:background="@drawable/v3"
-                    android:drawableEnd="@drawable/ayk"
+                    android:background="@drawable/editor_seletor_gif_unlock_btn_bg"
+                    android:drawableEnd="@drawable/vivavideo_com_next_n"
                     android:drawablePadding="5.0dip"
                     android:gravity="center"
                     android:lines="1"
@@ -43,88 +43,88 @@
                     android:paddingEnd="10.0dip"
                     android:paddingRight="10.0dip"
                     android:singleLine="true"
-                    android:text="@string/a7e"
-                    android:textColor="@color/zo"
+                    android:text="@string/xiaoying_str_gif_export_limit"
+                    android:textColor="@color/white"
                     android:textSize="14.0sp"
                     android:visibility="invisible" />
             </RelativeLayout>
             <include
-                layout="@layout/ep"
+                layout="@layout/editor_center_preview_btns_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true" />
             <RelativeLayout
-                android:id="@id/bjl"
+                android:id="@id/txtview_gif_size"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignTop="@id/as2"
+                android:layout_alignTop="@id/preview_layout"
                 android:layout_alignParentStart="true"
                 android:padding="10.0dip">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="23.0dip"
-                    android:background="@drawable/w2"
+                    android:background="@drawable/editor_shape_gif_export_item_choose_bg"
                     android:drawablePadding="4.0dip"
                     android:gravity="center"
                     android:minWidth="66.0dip"
                     android:text="480P"
-                    android:textColor="@color/zo"
+                    android:textColor="@color/white"
                     android:textSize="15.0sp"
-                    app:drawableEndCompat="@drawable/b4k" />
+                    app:drawableEndCompat="@drawable/xiaoying_gif_more_choose_icon" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@id/bjk"
+                android:id="@id/txtview_gif_fps"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignTop="@id/as2"
+                android:layout_alignTop="@id/preview_layout"
                 android:layout_alignParentEnd="true"
                 android:padding="10.0dip">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="23.0dip"
-                    android:background="@drawable/w2"
+                    android:background="@drawable/editor_shape_gif_export_item_choose_bg"
                     android:drawablePadding="4.0dip"
                     android:gravity="center"
                     android:minWidth="66.0dip"
                     android:text="15F/s"
-                    android:textColor="@color/zo"
+                    android:textColor="@color/white"
                     android:textSize="15.0sp"
-                    app:drawableEndCompat="@drawable/b4k" />
+                    app:drawableEndCompat="@drawable/xiaoying_gif_more_choose_icon" />
             </RelativeLayout>
         </RelativeLayout>
     </RelativeLayout>
     <include
-        android:id="@id/agj"
-        layout="@layout/ap" />
+        android:id="@id/layout_top_bars"
+        layout="@layout/advance_editor_title_bar" />
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/b1f"
-        android:layout_below="@id/afd"
-        android:background="@color/xz">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/share_btn_share"
+        android:layout_below="@id/layout_pick_cover_preview_layout"
+        android:background="@color/transparent">
         <RelativeLayout
-            android:id="@id/av9"
-            android:layout_width="fill_parent"
+            android:id="@id/relativelayout_trimgallery_content_area"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:visibility="visible">
-            <include layout="@layout/it" />
+            <include layout="@layout/editor_v4_trim_panel_layout" />
         </RelativeLayout>
     </RelativeLayout>
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@id/b1f"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/x9"
+        android:id="@id/share_btn_share"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px42"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="@dimen/tz"
-        android:layout_marginEnd="@dimen/tz"
-        android:layout_marginBottom="@dimen/ul"
-        android:background="@drawable/dx"
+        android:layout_marginStart="@dimen/px16"
+        android:layout_marginEnd="@dimen/px16"
+        android:layout_marginBottom="@dimen/px20"
+        android:background="@drawable/app_default_button"
         android:gravity="center"
         android:lines="1"
         android:singleLine="true"
-        android:text="@string/ag0"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/z1"
+        android:text="@string/xiaoying_str_studio_export_and_upload"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp16"
         android:visibility="visible" />
 </RelativeLayout>

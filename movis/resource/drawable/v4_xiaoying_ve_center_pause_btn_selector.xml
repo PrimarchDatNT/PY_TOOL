@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/av_" android:state_enabled="true" android:state_pressed="true" android:state_selected="false" />
-    <item android:drawable="@drawable/av9" android:state_enabled="true" android:state_pressed="false" android:state_selected="false" />
-    <item android:drawable="@drawable/av9" android:state_enabled="false" android:state_selected="false" />
+    <item android:drawable="@drawable/v4_xiaoying_ve_center_pause_btn_p" android:state_enabled="true" android:state_pressed="true" android:state_selected="false" />
+    <item android:drawable="@drawable/v4_xiaoying_ve_center_pause_btn" android:state_enabled="true" android:state_pressed="false" android:state_selected="false" />
+    <item android:drawable="@drawable/v4_xiaoying_ve_center_pause_btn" android:state_enabled="false" android:state_selected="false" />
 </selector>

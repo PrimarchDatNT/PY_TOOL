@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <TextView
-        android:id="@id/bi9"
+        android:id="@id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15.0dip"
@@ -13,30 +13,30 @@
         android:textSize="16.0sp"
         android:textStyle="bold" />
     <TextView
-        android:id="@id/bdx"
+        android:id="@id/tv_desc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15.0dip"
         android:layout_marginLeft="15.0dip"
         android:layout_marginTop="5.0dip"
-        android:textColor="@color/g9"
+        android:textColor="@color/color_8E8E93"
         android:textSize="14.0sp" />
     <HorizontalScrollView
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:scrollbars="none">
         <LinearLayout
-            android:id="@id/ajm"
+            android:id="@id/material_container"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:orientation="horizontal" />
     </HorizontalScrollView>
     <View
-        android:id="@id/al4"
-        android:layout_width="fill_parent"
+        android:id="@id/module_devider"
+        android:layout_width="match_parent"
         android:layout_height="0.5dip"
         android:layout_marginLeft="15.0dip"
         android:layout_marginTop="15.0dip"
         android:layout_marginRight="15.0dip"
-        android:background="@color/j4" />
+        android:background="@color/color_eeeeee" />
 </LinearLayout>

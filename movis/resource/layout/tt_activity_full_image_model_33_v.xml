@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@id/tt_full_root"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
         android:id="@id/tt_full_image_full_bar"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="70.0dip"
         android:layout_marginLeft="20.0dip"
         android:layout_marginTop="45.0dip"
@@ -20,7 +20,7 @@
             android:background="@android:color/transparent" />
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_toEndOf="@id/tt_full_ad_icon"
             android:layout_toRightOf="@id/tt_full_ad_icon"
             android:gravity="center_vertical"
@@ -66,7 +66,7 @@
     </RelativeLayout>
     <com.bytedance.sdk.openadsdk.component.reward.view.RatioImageView
         android:id="@id/tt_ratio_image_view"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tt_full_image_full_bar"
         android:layout_marginTop="31.0dip"
@@ -84,7 +84,7 @@
         android:paddingLeft="2.0dip" />
     <TextView
         android:id="@id/tt_full_desc"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tt_ratio_image_view"
         android:layout_marginLeft="40.0dip"
@@ -96,7 +96,7 @@
         android:textSize="17.0sp" />
     <TextView
         android:id="@id/tt_full_ad_download"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="40.0dip"
         android:layout_below="@id/tt_full_desc"
         android:layout_centerInParent="true"

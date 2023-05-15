@@ -4,28 +4,28 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <include
-        layout="@layout/qu"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/sy" />
+        layout="@layout/include_pickerview_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pickerview_topbar_height" />
     <LinearLayout
-        android:id="@id/apb"
-        android:layout_width="fill_parent"
+        android:id="@id/optionspicker"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:orientation="horizontal">
         <com.contrarywind.view.WheelView
-            android:id="@id/ap9"
-            android:layout_width="fill_parent"
+            android:id="@id/options1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
         <com.contrarywind.view.WheelView
-            android:id="@id/ap_"
-            android:layout_width="fill_parent"
+            android:id="@id/options2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
         <com.contrarywind.view.WheelView
-            android:id="@id/apa"
-            android:layout_width="fill_parent"
+            android:id="@id/options3"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
     </LinearLayout>

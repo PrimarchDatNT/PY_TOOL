@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
+    android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical">
     <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout
-        android:id="@id/re"
-        android:layout_width="@dimen/y_"
-        android:layout_height="@dimen/yg">
+        android:id="@id/content_layout"
+        android:layout_width="@dimen/px68"
+        android:layout_height="@dimen/px80">
         <View
-            android:id="@id/h5"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@color/d7" />
+            android:id="@id/background_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark" />
         <View
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@drawable/ary" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/templatex_shape_item_bg" />
         <View
-            android:id="@id/zs"
+            android:id="@id/focus_mask_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/a7p"
+            android:background="@drawable/editorx_shape_focus_view_bg"
             android:visibility="gone" />
         <include
-            layout="@layout/eo"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            layout="@layout/editor_bg_ragulator_include_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:visibility="gone" />
     </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
 </LinearLayout>

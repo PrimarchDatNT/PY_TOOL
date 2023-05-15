@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <ImageView
-        android:id="@id/qr"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/collage_gif_item_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:scaleType="fitXY" />
     <RelativeLayout
-        android:id="@id/qp"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/bv"
+        android:id="@id/collage_gif_download_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_p30"
         android:visibility="gone">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/qq"
+            android:id="@id/collage_gif_download_loading"
             android:layout_width="24.0dip"
             android:layout_height="24.0dip"
             android:layout_alignParentEnd="true"
@@ -26,7 +26,7 @@
             android:layout_marginBottom="3.0dip" />
     </RelativeLayout>
     <ImageView
-        android:id="@id/qo"
+        android:id="@id/collage_gif_download_flag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -36,6 +36,6 @@
         android:layout_marginRight="5.0dip"
         android:layout_marginBottom="3.0dip"
         android:scaleType="centerCrop"
-        android:src="@drawable/b6f"
+        android:src="@drawable/xiaoying_ve_collage_gif_download_icon"
         android:visibility="gone" />
 </RelativeLayout>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.videoai.aivpcore.xyui.square.SquareLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/ax7"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ah"
+    android:id="@id/rl_studio_draft_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_bg_1"
     android:gravity="center"
     android:orientation="vertical">
     <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:adjustViewBounds="true"
-        android:background="@drawable/jf"
+        android:background="@drawable/btn_dcolor_ripple"
         android:scaleType="centerInside"
-        android:src="@drawable/aj6" />
+        android:src="@drawable/ic_create_draft_studio" />
 </com.videoai.aivpcore.xyui.square.SquareLinearLayout>

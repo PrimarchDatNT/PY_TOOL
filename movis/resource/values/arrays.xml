@@ -12,7 +12,7 @@
         <item>0.25x</item>
         <item>0.5x</item>
         <item>0.75x</item>
-        <item>@string/ao</item>
+        <item>@string/al_exo_controls_playback_speed_normal</item>
         <item>1.25x</item>
         <item>1.5x</item>
         <item>2x</item>

@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/afv"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_search"
+        android:layout_width="match_parent"
         android:layout_height="35.0dip"
         android:layout_marginStart="15.0dip"
         android:layout_marginEnd="15.0dip"
-        android:background="@drawable/a7r">
+        android:background="@drawable/editorx_shape_galley_gif_search">
         <ImageView
-            android:id="@id/ab2"
+            android:id="@id/iv_search"
             android:layout_width="16.0dip"
             android:layout_height="16.0dip"
             android:layout_centerVertical="true"
             android:layout_marginStart="16.0dip"
-            android:src="@drawable/a42" />
+            android:src="@drawable/editorx_icon_search" />
         <com.videoai.aivpcore.editorx.widget.UKeyBackEditText
-            android:id="@id/lo"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/btn_search_gif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginStart="8.0dip"
             android:layout_marginEnd="15.0dip"
-            android:layout_toEndOf="@id/ab2"
+            android:layout_toEndOf="@id/iv_search"
             android:background="@null"
             android:gravity="start|center"
-            android:hint="@string/akn"
+            android:hint="@string/xiaoying_str_ve_collage_search_gif_hint"
             android:imeOptions="actionSearch"
             android:singleLine="true"
-            android:textColor="@color/iv"
-            android:textColorHint="@color/fd"
-            android:textCursorDrawable="@drawable/apq"
+            android:textColor="@color/color_e6e6e6"
+            android:textColorHint="@color/color_525252"
+            android:textCursorDrawable="@drawable/shape_def_cursor"
             android:textSize="14.0sp" />
     </RelativeLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/aui"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/afv"
+        android:id="@id/recycler_choose_gif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_search"
         android:layout_gravity="center_horizontal"
         android:layout_marginStart="15.0dip"
         android:layout_marginTop="12.0dip"
         android:layout_marginEnd="15.0dip"
         android:visibility="visible" />
     <LinearLayout
-        android:id="@id/aez"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/layout_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="horizontal"
         android:visibility="gone">

@@ -2,12 +2,12 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="rectangle">
-            <solid android:color="@color/xz" />
+            <solid android:color="@color/transparent" />
             <size
                 android:width="76.0dip" android:height="76.0dip" />
             <stroke
-                android:width="0.8000001dip" android:color="@color/e8" />
+                android:width="0.8000001dip" android:color="@color/color_212121_p90" />
         </shape>
     </item>
-    <item android:drawable="@drawable/b44" />
+    <item android:drawable="@drawable/xiaoying_com_storyboard_focus_bg" />
 </layer-list>

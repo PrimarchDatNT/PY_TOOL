@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/ba3"
-    android:layout_width="fill_parent"
+    android:id="@id/topPanel"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/b_i"
+        android:id="@id/title_template"
         style="?vu">
         <ImageView
             android:id="@android:id/icon"
             style="?vt" />
         <androidx.appcompat.widget.DialogTitle
-            android:id="@id/dw"
+            android:id="@id/alertTitle"
             style="?vv" />
     </LinearLayout>
     <android.widget.Space
-        android:id="@id/b_6"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/ah"
+        android:id="@id/titleDividerNoCustom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_dialog_title_divider_material"
         android:visibility="gone" />
 </LinearLayout>

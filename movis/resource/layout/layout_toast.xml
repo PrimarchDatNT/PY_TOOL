@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/iy"
+    android:background="@drawable/bg_toast_round"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:paddingLeft="28.0dip"
@@ -10,16 +10,16 @@
     android:paddingRight="28.0dip"
     android:paddingBottom="12.0dip">
     <ImageView
-        android:id="@id/a4_"
+        android:id="@id/image_toast_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/b8l" />
+        android:src="@drawable/xyui_toast_success_icon" />
     <TextView
-        android:id="@id/b8y"
+        android:id="@id/text_toast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6.0dip"
         android:gravity="center"
-        android:textColor="@color/zo"
+        android:textColor="@color/white"
         android:textSize="16.0sp" />
 </LinearLayout>

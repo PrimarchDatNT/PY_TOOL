@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/ax2"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:id="@id/rl_root_common_pop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:visibility="visible">
     <View
-        android:id="@id/bk_"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/v_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:alpha="0.6"
         android:background="#ff000000"
         android:clickable="true" />
     <LinearLayout
-        android:id="@id/ahv"
+        android:id="@id/ll_dialog"
         android:layout_width="280.0dip"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:background="@drawable/b82"
+        android:background="@drawable/xyui_dialog2_simple_bg"
         android:elevation="5.0dip"
         android:orientation="vertical"
         android:paddingTop="20.0dip"
@@ -24,12 +24,12 @@
         android:shadowColor="#99000000"
         android:shadowRadius="24.0">
         <RelativeLayout
-            android:id="@id/axn"
-            android:layout_width="fill_parent"
+            android:id="@id/rl_text_dialog"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
-                android:id="@id/bci"
-                android:layout_width="fill_parent"
+                android:id="@id/tv_1_content_dialog"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3.0dip"
                 android:alpha="0.8"
@@ -42,8 +42,8 @@
                 android:textSize="14.0sp"
                 android:visibility="gone" />
             <TextView
-                android:id="@id/bcl"
-                android:layout_width="fill_parent"
+                android:id="@id/tv_2_title_dialog"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="left"
                 android:lineSpacingMultiplier="1.3"
@@ -54,10 +54,10 @@
                 android:textSize="15.0sp"
                 android:textStyle="bold" />
             <TextView
-                android:id="@id/bck"
-                android:layout_width="fill_parent"
+                android:id="@id/tv_2_content_dialog"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/bcl"
+                android:layout_below="@id/tv_2_title_dialog"
                 android:layout_marginTop="6.5dip"
                 android:alpha="0.8"
                 android:gravity="left"
@@ -69,13 +69,13 @@
                 android:textSize="11.0sp" />
         </RelativeLayout>
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25.0dip"
             android:gravity="right"
             android:orientation="horizontal">
             <TextView
-                android:id="@id/bfp"
+                android:id="@id/tv_left_dialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="?android:selectableItemBackground"
@@ -89,7 +89,7 @@
                 android:textColor="#ff00b272"
                 android:textSize="14.0sp" />
             <TextView
-                android:id="@id/bgx"
+                android:id="@id/tv_right_dialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10.0dip"

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/b79">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xiaoying_ve_pip_tool_bg">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="40.0dip"
@@ -11,44 +11,44 @@
         <ImageView
             android:layout_width="6.0dip"
             android:layout_height="25.0dip"
-            android:background="@color/xz"
-            android:src="@drawable/b76"
+            android:background="@color/transparent"
+            android:src="@drawable/xiaoying_ve_pip_pop_tools_bg_line"
             android:visibility="gone" />
         <ImageButton
-            android:id="@id/bri"
+            android:id="@id/xiaoying_ve_pip_popmenu_btn_pick"
             android:layout_width="46.0dip"
             android:layout_height="40.0dip"
-            android:background="@drawable/ub" />
+            android:background="@drawable/editor_selector_pip_replace_tool" />
         <ImageView
             android:layout_width="6.0dip"
             android:layout_height="25.0dip"
-            android:background="@color/xz"
-            android:src="@drawable/b76"
+            android:background="@color/transparent"
+            android:src="@drawable/xiaoying_ve_pip_pop_tools_bg_line"
             android:visibility="gone" />
         <CheckBox
-            android:id="@id/brk"
+            android:id="@id/xiaoying_ve_pip_popmenu_chkbox_mutevideo"
             android:layout_width="46.0dip"
             android:layout_height="40.0dip"
-            android:button="@drawable/uc" />
+            android:button="@drawable/editor_selector_pip_video_mute_tool_switch" />
         <ImageView
             android:layout_width="6.0dip"
             android:layout_height="45.0dip"
-            android:background="@color/xz"
-            android:src="@drawable/b76"
+            android:background="@color/transparent"
+            android:src="@drawable/xiaoying_ve_pip_pop_tools_bg_line"
             android:visibility="gone" />
         <ImageButton
-            android:id="@id/brj"
+            android:id="@id/xiaoying_ve_pip_popmenu_btn_rotate"
             android:layout_width="32.0dip"
             android:layout_height="32.0dip"
             android:visibility="gone" />
         <ImageView
             android:layout_width="6.0dip"
             android:layout_height="45.0dip"
-            android:background="@color/xz"
-            android:src="@drawable/b76"
+            android:background="@color/transparent"
+            android:src="@drawable/xiaoying_ve_pip_pop_tools_bg_line"
             android:visibility="gone" />
         <ImageButton
-            android:id="@id/brh"
+            android:id="@id/xiaoying_ve_pip_popmenu_btn_flip"
             android:layout_width="32.0dip"
             android:layout_height="32.0dip"
             android:visibility="gone" />

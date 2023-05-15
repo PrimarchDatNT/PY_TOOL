@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/ov"
-    android:layout_width="fill_parent"
-    android:layout_height="@dimen/a4_"
-    android:background="@color/zo"
+    android:id="@id/choose_language_title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/v4_xiaoying_com_top_panel_height"
+    android:background="@color/white"
     android:elevation="2.0dip">
     <ImageView
-        android:id="@id/ou"
+        android:id="@id/choose_language_back"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_centerVertical="true"
         android:background="@drawable/com_md_ripple_transparent_bg_drawable"
         android:paddingStart="15.0dip"
         android:paddingLeft="15.0dip"
         android:paddingEnd="10.0dip"
         android:paddingRight="10.0dip"
-        android:src="@drawable/dy" />
+        android:src="@drawable/app_default_close_black" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginStart="22.0dip"
         android:layout_marginLeft="22.0dip"
-        android:layout_toEndOf="@id/ou"
-        android:layout_toRightOf="@id/ou"
+        android:layout_toEndOf="@id/choose_language_back"
+        android:layout_toRightOf="@id/choose_language_back"
         android:fontFamily="sans-serif"
         android:singleLine="true"
-        android:text="@string/lk"
+        android:text="@string/xiaoying_choose_language_title"
         android:textColor="#ff666666"
         android:textSize="18.0sp" />
     <TextView
-        android:id="@id/bjq"
+        android:id="@id/txtview_save_btn"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:background="@drawable/com_md_ripple_transparent_bg_drawable"
@@ -44,8 +44,8 @@
         android:paddingEnd="10.0dip"
         android:paddingRight="10.0dip"
         android:singleLine="true"
-        android:text="@string/xd"
-        android:textColor="@color/n_"
+        android:text="@string/xiaoying_str_com_save_title"
+        android:textColor="@color/default_app_color"
         android:textSize="13.0dip"
         android:visibility="gone" />
 </RelativeLayout>

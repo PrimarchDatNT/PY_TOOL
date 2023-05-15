@@ -18,7 +18,7 @@
             android:src="@drawable/tt_splash_unlock_image_go" />
         <com.bytedance.sdk.component.adexpress.widget.FlowLightView
             android:id="@id/tt_splash_arrow_group"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="24.0dip"
             android:layout_centerVertical="true"
             android:layout_marginStart="12.0dip"

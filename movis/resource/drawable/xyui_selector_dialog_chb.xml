@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/b83" android:state_checked="true" />
-    <item android:drawable="@drawable/b84" />
+    <item android:drawable="@drawable/xyui_dialog_chb_checked" android:state_checked="true" />
+    <item android:drawable="@drawable/xyui_dialog_chb_uncheck" />
 </selector>

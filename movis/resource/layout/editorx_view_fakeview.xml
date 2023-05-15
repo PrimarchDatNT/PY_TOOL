@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <RelativeLayout
-        android:id="@id/vh"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/editor_fake_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true">
         <com.videoai.aivpcore.editorx.board.effect.fake.HighLView
-            android:id="@id/vg"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@color/xz"
+            android:id="@id/editor_fake_highlight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
             android:visibility="invisible" />
         <com.videoai.aivpcore.editorx.board.effect.fake.QuickPositionPanel
-            android:id="@id/b8s"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/text_quick_position"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:visibility="gone" />
         <RelativeLayout
-            android:id="@id/gx"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/auxiliary_line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:visibility="gone">
             <View
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0.5dip"
                 android:layout_centerVertical="true"
-                android:background="@color/kf" />
+                android:background="@color/color_ff383d" />
             <View
                 android:layout_width="0.5dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_centerHorizontal="true"
-                android:background="@color/kf" />
+                android:background="@color/color_ff383d" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

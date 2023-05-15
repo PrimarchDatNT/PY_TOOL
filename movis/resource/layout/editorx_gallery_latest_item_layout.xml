@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/af1"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/a7_">
+    android:id="@id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/editorx_shape_effect_item_bg_unchoose">
     <ImageView
-        android:id="@id/aar"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:layout_margin="2.0dip"
         android:scaleType="centerCrop"
-        android:src="@drawable/b1e" />
+        android:src="@drawable/xiaoying_com_default_pic_bg" />
 </RelativeLayout>

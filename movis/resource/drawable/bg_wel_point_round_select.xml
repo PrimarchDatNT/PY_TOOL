@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/j4" android:state_selected="true" />
-    <item android:drawable="@drawable/j3" android:state_selected="false" />
-    <item android:drawable="@drawable/j3" />
+    <item android:drawable="@drawable/bg_wel_point_round_ffffff" android:state_selected="true" />
+    <item android:drawable="@drawable/bg_wel_point_round_alpha50white" android:state_selected="false" />
+    <item android:drawable="@drawable/bg_wel_point_round_alpha50white" />
 </selector>

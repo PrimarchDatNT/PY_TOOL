@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/at9"
-        android:layout_width="fill_parent"
+        android:id="@id/ratioListView"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
-        android:layout_marginTop="@dimen/td"
-        android:layout_marginBottom="@dimen/td"
-        app:layout_constraintBottom_toTopOf="@id/b4"
-        app:layout_constraintTop_toTopOf="apv" />
+        android:layout_marginTop="@dimen/px12"
+        android:layout_marginBottom="@dimen/px12"
+        app:layout_constraintBottom_toTopOf="@id/actionBottomBar"
+        app:layout_constraintTop_toTopOf="parrent" />
     <com.videoai.aivpcore.editorx.board.clip.widget.TextActionBottomBar
-        android:id="@id/b4"
+        android:id="@id/actionBottomBar"
         android:layout_width="0.0dip"
-        android:layout_height="@dimen/xt"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv" />
+        android:layout_height="@dimen/px56"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

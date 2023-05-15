@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/aup"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginStart="15.0dip"
         android:layout_marginEnd="15.0dip"
         android:clipToPadding="false" />
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="20.0dip"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/a7z" />
+        android:background="@drawable/editorx_shape_kit_text_bottom_bg" />
 </RelativeLayout>

@@ -3,11 +3,11 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <Button
-        android:id="@id/bpi"
+        android:id="@id/xiaoying_cam_btn_text_delete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@color/xz"
+        android:background="@color/transparent"
         android:gravity="center"
         android:maxLines="1"
         android:minWidth="60.0dip"
@@ -17,7 +17,7 @@
         android:shadowDx="0.0"
         android:shadowDy="2.0"
         android:shadowRadius="2.0"
-        android:text="@string/pq"
-        android:textColor="@color/zo"
+        android:text="@string/xiaoying_str_cam_clip_del_title"
+        android:textColor="@color/white"
         android:textSize="14.0sp" />
 </RelativeLayout>

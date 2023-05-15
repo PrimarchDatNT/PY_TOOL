@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/a01"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:id="@id/folder_list_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/ai9"
-        android:layout_width="fill_parent"
+        android:id="@id/ll_panel"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@drawable/ae1"
+        android:background="@drawable/gallery_border_item"
         android:orientation="vertical">
         <FrameLayout
-            android:id="@id/zb"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/wz">
+            android:id="@id/fl_fold_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px36">
             <View
-                android:id="@id/bn6"
-                android:layout_width="@dimen/wz"
-                android:layout_height="@dimen/uk"
+                android:id="@id/view_fold_line"
+                android:layout_width="@dimen/px36"
+                android:layout_height="@dimen/px2"
                 android:layout_gravity="center"
-                android:background="@color/d6" />
+                android:background="@color/colorPrimary" />
             <View
-                android:layout_width="fill_parent"
-                android:layout_height="@dimen/t2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px1"
                 android:layout_gravity="bottom"
-                android:background="@color/ak" />
+                android:background="@color/app_dcolor_indicator_2" />
         </FrameLayout>
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/a02"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:id="@id/folder_list_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </LinearLayout>
 </FrameLayout>

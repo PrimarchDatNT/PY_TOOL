@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="40.0dip">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/ayq"
-        android:layout_width="fill_parent"
+        android:id="@id/rv_bubble_tab"
+        android:layout_width="match_parent"
         android:layout_height="40.0dip"
-        android:layout_toStartOf="@id/awr"
-        android:layout_toLeftOf="@id/awr"
-        android:background="@color/dt" />
+        android:layout_toStartOf="@id/rl_layout_giphy"
+        android:layout_toLeftOf="@id/rl_layout_giphy"
+        android:background="@color/color_141414" />
     <RelativeLayout
-        android:id="@id/awr"
+        android:id="@id/rl_layout_giphy"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignWithParentIfMissing="true"
-        android:layout_toStartOf="@id/awq"
-        android:layout_toLeftOf="@id/awq">
+        android:layout_toStartOf="@id/rl_layout_downloaded"
+        android:layout_toLeftOf="@id/rl_layout_downloaded">
         <TextView
-            android:id="@id/a38"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/ib_giphy_download"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_centerVertical="true"
-            android:background="@color/eo"
+            android:background="@color/color_329ffd"
             android:gravity="center"
-            android:text="@string/a7b"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_gif_action_item"
+            android:textColor="@color/white"
             android:textSize="16.0sp" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/awq"
+        android:id="@id/rl_layout_downloaded"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:clickable="true">
         <ImageView
-            android:id="@id/a37"
+            android:id="@id/ib_download"
             android:layout_width="40.0dip"
             android:layout_height="40.0dip"
             android:layout_centerInParent="true"
             android:clickable="false"
-            android:src="@drawable/pl" />
+            android:src="@drawable/editor_icon_effect_sticker_download" />
         <ImageView
-            android:id="@id/aao"
+            android:id="@id/iv_new_flag"
             android:layout_width="14.0dip"
             android:layout_height="14.0dip"
-            android:layout_alignTop="@id/a37"
-            android:layout_alignEnd="@id/a37"
-            android:layout_alignRight="@id/a37"
+            android:layout_alignTop="@id/ib_download"
+            android:layout_alignEnd="@id/ib_download"
+            android:layout_alignRight="@id/ib_download"
             android:clickable="false"
-            android:src="@drawable/b6l"
+            android:src="@drawable/xiaoying_ve_edit_template_title_new_mark"
             android:visibility="invisible" />
     </RelativeLayout>
 </RelativeLayout>

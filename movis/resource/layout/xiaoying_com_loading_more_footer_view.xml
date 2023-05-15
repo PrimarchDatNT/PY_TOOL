@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <LinearLayout
-        android:id="@id/a07"
-        android:layout_width="fill_parent"
+        android:id="@id/foot_view_layout"
+        android:layout_width="match_parent"
         android:layout_height="60.0dip"
         android:gravity="center"
         android:orientation="horizontal">
         <ProgressBar
-            android:id="@id/a08"
+            android:id="@id/footer_loading"
             style="@android:style/Widget.ProgressBar.Small.Inverse"
             android:layout_width="15.0dip"
             android:layout_height="15.0dip"
             android:layout_gravity="center"
-            android:indeterminateDrawable="@drawable/b3a"
+            android:indeterminateDrawable="@drawable/xiaoying_com_progressbar_loading_img_new_circle"
             android:indeterminateDuration="1000" />
         <TextView
-            android:id="@id/a0a"
+            android:id="@id/footview_text"
             android:layout_width="wrap_content"
             android:layout_height="50.0dip"
             android:layout_gravity="center"
             android:layout_marginStart="10.0dip"
             android:layout_marginLeft="10.0dip"
             android:gravity="center"
-            android:textColor="@color/gf"
+            android:textColor="@color/color_919191"
             android:textSize="10.0sp" />
         <TextView
-            android:id="@id/a0b"
+            android:id="@id/footview_text2"
             android:layout_width="wrap_content"
             android:layout_height="50.0dip"
             android:layout_gravity="center"
             android:layout_marginStart="10.0dip"
             android:layout_marginLeft="10.0dip"
             android:gravity="center"
-            android:text="@string/z5"
-            android:textColor="@color/hg"
+            android:text="@string/xiaoying_str_community_load_finish_tip"
+            android:textColor="@color/color_b3b3b3"
             android:textSize="10.0sp" />
         <TextView
-            android:id="@id/a0c"
+            android:id="@id/footview_text3"
             android:layout_width="wrap_content"
             android:layout_height="50.0dip"
             android:layout_gravity="center"
             android:layout_marginStart="10.0dip"
             android:layout_marginLeft="10.0dip"
             android:gravity="center"
-            android:text="@string/z4"
-            android:textColor="@color/hg"
+            android:text="@string/xiaoying_str_community_load_finish_nomore_tip"
+            android:textColor="@color/color_b3b3b3"
             android:textSize="10.0sp" />
         <Button
-            android:id="@id/a0_"
+            android:id="@id/footview_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -59,9 +59,9 @@
             android:visibility="gone" />
     </LinearLayout>
     <View
-        android:id="@id/bmj"
-        android:layout_width="fill_parent"
+        android:id="@id/viewGap"
+        android:layout_width="match_parent"
         android:layout_height="60.0dip"
-        android:layout_below="@id/a07"
+        android:layout_below="@id/foot_view_layout"
         android:visibility="gone" />
 </RelativeLayout>

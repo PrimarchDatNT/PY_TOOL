@@ -4,15 +4,15 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <RadioButton
-        android:id="@id/b81"
+        android:id="@id/test_radiobutton_android_button_tint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="?android:colorBackground"
-        android:buttonTint="@color/wf" />
+        android:buttonTint="@color/radiobutton_themeable_attribute_color" />
     <RadioButton
-        android:id="@id/b82"
+        android:id="@id/test_radiobutton_app_button_tint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="?android:colorBackground"
-        app:buttonTint="@color/wf" />
+        app:buttonTint="@color/radiobutton_themeable_attribute_color" />
 </LinearLayout>

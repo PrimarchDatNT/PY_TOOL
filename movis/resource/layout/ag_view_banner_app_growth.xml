@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/white"
     android:orientation="vertical">
@@ -14,51 +14,51 @@
         android:textColor="#ffffffff"
         android:textSize="12.0sp" />
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12.0dip">
         <com.makeuppub.ads.yu.view.RoundedImageView
-            android:id="@id/cl"
+            android:id="@id/ag_iv_app_icon"
             android:layout_width="55.0dip"
             android:layout_height="55.0dip"
             android:layout_marginStart="12.0dip"
             android:adjustViewBounds="true"
-            android:src="@drawable/c7" />
+            android:src="@drawable/ag_place_holder" />
         <TextView
-            android:id="@id/cp"
+            android:id="@id/ag_tv_app_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginStart="12.0dip"
-            android:layout_toEndOf="@id/cl"
+            android:layout_toEndOf="@id/ag_iv_app_icon"
             android:text="Loading....."
             android:textColor="#ff000000"
             android:textSize="16.0sp"
             android:textStyle="bold" />
         <TextView
-            android:id="@id/co"
-            android:layout_width="fill_parent"
+            android:id="@id/ag_tv_app_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/cp"
+            android:layout_below="@id/ag_tv_app_name"
             android:layout_marginStart="12.0dip"
             android:layout_marginTop="4.0dip"
             android:layout_marginEnd="8.0dip"
-            android:layout_toStartOf="@id/ci"
-            android:layout_toEndOf="@id/cl"
+            android:layout_toStartOf="@id/ag_btn_cta"
+            android:layout_toEndOf="@id/ag_iv_app_icon"
             android:ellipsize="end"
             android:maxLines="3"
             android:text="Loading....."
             android:textColor="#ff757575"
             android:textSize="12.0sp" />
         <Button
-            android:id="@id/ci"
+            android:id="@id/ag_btn_cta"
             android:layout_width="wrap_content"
             android:layout_height="34.0dip"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginStart="12.0dip"
             android:layout_marginEnd="12.0dip"
-            android:background="@drawable/c8"
+            android:background="@drawable/ag_selector_bg_cta"
             android:maxLines="2"
             android:text="install"
             android:textColor="#ffffffff"

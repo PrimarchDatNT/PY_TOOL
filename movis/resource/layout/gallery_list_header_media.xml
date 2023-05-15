@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/aes"
+    android:id="@id/layout_header_title"
     android:layout_width="wrap_content"
     android:layout_height="40.0dip"
     android:layout_marginStart="4.0dip"
@@ -14,7 +14,7 @@
     android:paddingRight="5.0dip"
     android:paddingBottom="5.0dip">
     <TextView
-        android:id="@id/a2u"
+        android:id="@id/header_title"
         android:layout_width="wrap_content"
         android:layout_height="25.0dip"
         android:layout_centerVertical="true"
@@ -25,6 +25,6 @@
         android:paddingLeft="10.0dip"
         android:paddingEnd="10.0dip"
         android:paddingRight="10.0dip"
-        android:textColor="@color/hk"
+        android:textColor="@color/color_b7b7b7"
         android:textSize="12.0sp" />
 </RelativeLayout>

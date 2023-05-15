@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/ay5"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:id="@id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@android:color/black">
     <RelativeLayout
-        android:id="@id/b_g"
-        android:layout_width="fill_parent"
+        android:id="@id/title_layout"
+        android:layout_width="match_parent"
         android:layout_height="44.0dip"
-        android:background="@color/dt">
+        android:background="@color/color_141414">
         <ImageButton
-            android:id="@id/h0"
+            android:id="@id/back_btn"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_centerVertical="true"
             android:background="@null"
             android:contentDescription="@null"
@@ -20,9 +20,9 @@
             android:paddingLeft="5.0dip"
             android:paddingEnd="5.0dip"
             android:paddingRight="5.0dip"
-            android:src="@drawable/ask" />
+            android:src="@drawable/v4_xiaoying_cam_btn_cam_cancel" />
         <TextView
-            android:id="@id/ww"
+            android:id="@id/export_btn"
             android:layout_width="wrap_content"
             android:layout_height="28.0dip"
             android:layout_alignParentEnd="true"
@@ -30,54 +30,54 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="10.0dip"
             android:layout_marginRight="10.0dip"
-            android:background="@drawable/vb"
+            android:background="@drawable/editor_shape_custom_next_btn_bg"
             android:gravity="center"
             android:maxLines="1"
             android:paddingLeft="10.0dip"
             android:paddingRight="10.0dip"
-            android:text="@string/ah5"
-            android:textColor="@color/n_"
+            android:text="@string/xiaoying_str_studio_share_title"
+            android:textColor="@color/default_app_color"
             android:textSize="16.0sp"
             android:textStyle="bold" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/as2"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/ajr"
-        android:layout_below="@id/b_g"
+        android:id="@id/preview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/material_layout"
+        android:layout_below="@id/title_layout"
         android:layout_marginBottom="32.0dip">
         <RelativeLayout
-            android:id="@id/b5n"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/surface_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
-            android:background="@color/xz" />
+            android:background="@color/transparent" />
         <com.videoai.aivpcore.editor.widget.HighLView
-            android:id="@id/a2w"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_alignStart="@id/b5n"
-            android:layout_alignLeft="@id/b5n"
-            android:layout_alignTop="@id/b5n"
-            android:layout_alignEnd="@id/b5n"
-            android:layout_alignRight="@id/b5n"
-            android:layout_alignBottom="@id/b5n"
-            android:background="@color/xz"
+            android:id="@id/high_light_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@id/surface_layout"
+            android:layout_alignLeft="@id/surface_layout"
+            android:layout_alignTop="@id/surface_layout"
+            android:layout_alignEnd="@id/surface_layout"
+            android:layout_alignRight="@id/surface_layout"
+            android:layout_alignBottom="@id/surface_layout"
+            android:background="@color/transparent"
             android:visibility="gone" />
         <RelativeLayout
-            android:id="@id/b5m"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_alignStart="@id/b5n"
-            android:layout_alignLeft="@id/b5n"
-            android:layout_alignTop="@id/b5n"
-            android:layout_alignEnd="@id/b5n"
-            android:layout_alignRight="@id/b5n"
-            android:layout_alignBottom="@id/b5n"
-            android:background="@color/xz" />
+            android:id="@id/surface_fake_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@id/surface_layout"
+            android:layout_alignLeft="@id/surface_layout"
+            android:layout_alignTop="@id/surface_layout"
+            android:layout_alignEnd="@id/surface_layout"
+            android:layout_alignRight="@id/surface_layout"
+            android:layout_alignBottom="@id/surface_layout"
+            android:background="@color/transparent" />
         <ImageButton
-            android:id="@id/aqv"
+            android:id="@id/play_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -85,26 +85,26 @@
             android:layout_marginLeft="15.0dip"
             android:background="@android:color/transparent"
             android:contentDescription="@null"
-            android:src="@drawable/ad5" />
+            android:src="@drawable/explorer_selector_video_play_btn" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/ajr"
-        android:layout_width="fill_parent"
+        android:id="@id/material_layout"
+        android:layout_width="match_parent"
         android:layout_height="80.0dip"
         android:layout_alignParentBottom="true"
-        android:background="@color/dt">
+        android:background="@color/color_141414">
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/atr"
-            android:layout_width="fill_parent"
+            android:id="@id/rc_material"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginEnd="65.0dip"
             android:layout_marginRight="65.0dip"
             android:orientation="horizontal" />
         <LinearLayout
-            android:id="@id/al2"
+            android:id="@id/modify_bgm_layout"
             android:layout_width="65.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:background="#ff1f1f1f"
@@ -114,16 +114,16 @@
                 android:layout_width="20.0dip"
                 android:layout_height="20.0dip"
                 android:scaleType="centerInside"
-                android:src="@drawable/s6" />
+                android:src="@drawable/editor_icon_theme_music_n" />
             <TextView
-                android:id="@id/bhx"
+                android:id="@id/tv_theme_change_music"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="9.0dip"
                 android:gravity="center"
-                android:text="@string/ak4"
-                android:textColor="@color/zo"
+                android:text="@string/xiaoying_str_ve_bgm_change"
+                android:textColor="@color/white"
                 android:textSize="11.0sp" />
         </LinearLayout>
     </RelativeLayout>

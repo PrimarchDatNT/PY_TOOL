@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/xz"
+    android:background="@color/transparent"
     android:orientation="horizontal">
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/xt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px56"
         android:layout_marginStart="15.0dip"
         android:layout_marginEnd="15.0dip"
-        android:background="@drawable/yc"
+        android:background="@drawable/editorx_audio_original_noise_remove_bg"
         android:orientation="horizontal"
-        android:paddingStart="@dimen/tz"
-        android:paddingEnd="@dimen/tz">
+        android:paddingStart="@dimen/px16"
+        android:paddingEnd="@dimen/px16">
         <TextView
             android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1.0"
             android:gravity="center_vertical"
-            android:text="@string/akz"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/yz" />
+            android:text="@string/xiaoying_str_ve_edit_denoise"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp12" />
         <CheckBox
-            android:id="@id/on"
+            android:id="@id/checkbox_remove_noise"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:background="@color/xz"
-            android:button="@drawable/yf" />
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:button="@drawable/editorx_audio_original_noise_switch_selector" />
     </LinearLayout>
 </FrameLayout>

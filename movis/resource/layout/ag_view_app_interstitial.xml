@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@android:color/white"
     android:orientation="vertical">
     <ImageView
-        android:id="@id/cj"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/ag_campaign_banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:scaleType="fitXY" />
     <ImageView
-        android:id="@id/cm"
+        android:id="@id/ag_iv_close"
         android:layout_width="50.0dip"
         android:layout_height="50.0dip"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:padding="10.0dip"
-        android:src="@drawable/c5" />
+        android:src="@drawable/ag_icon_close" />
     <Button
-        android:id="@id/ci"
-        android:layout_width="fill_parent"
+        android:id="@id/ag_btn_cta"
+        android:layout_width="match_parent"
         android:layout_height="50.0dip"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="40.0dip"
         android:layout_marginEnd="40.0dip"
         android:layout_marginBottom="30.0dip"
-        android:background="@drawable/c8"
+        android:background="@drawable/ag_selector_bg_cta"
         android:maxLines="2"
         android:paddingStart="10.0dip"
         android:paddingEnd="10.0dip"

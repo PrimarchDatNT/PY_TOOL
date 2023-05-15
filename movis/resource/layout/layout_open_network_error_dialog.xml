@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/bg"
+    android:background="@color/aweme_network_error_dialog_bg"
     android:orientation="vertical"
     android:paddingLeft="24.0dip"
     android:paddingTop="22.0dip">
     <TextView
-        android:id="@id/bi9"
-        android:layout_width="fill_parent"
+        android:id="@id/tv_title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginRight="24.0dip"
         android:ellipsize="end"
         android:singleLine="true"
-        android:text="@string/cn"
-        android:textColor="@color/bh"
+        android:text="@string/aweme_open_network_error_title"
+        android:textColor="@color/aweme_network_error_title_color"
         android:textSize="17.0dip" />
     <TextView
-        android:id="@id/bdn"
-        android:layout_width="fill_parent"
+        android:id="@id/tv_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="18.0dip"
         android:layout_marginRight="24.0dip"
         android:layout_marginBottom="24.0dip"
-        android:text="@string/cm"
-        android:textColor="@color/bf"
+        android:text="@string/aweme_open_network_error_tips"
+        android:textColor="@color/aweme_network_error_content_color"
         android:textSize="15.0dip" />
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8.0dip"
         android:orientation="horizontal">
@@ -36,14 +36,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
         <TextView
-            android:id="@id/bdm"
+            android:id="@id/tv_confirm"
             android:layout_width="wrap_content"
             android:layout_height="36.0dip"
             android:gravity="center"
             android:paddingLeft="8.0dip"
             android:paddingRight="8.0dip"
-            android:text="@string/cl"
-            android:textColor="@color/be"
+            android:text="@string/aweme_open_network_error_confirm"
+            android:textColor="@color/aweme_network_error_button_color"
             android:textSize="15.0dip" />
     </LinearLayout>
 </LinearLayout>

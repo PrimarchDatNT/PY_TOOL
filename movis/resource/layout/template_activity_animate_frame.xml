@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/jb">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f0f2f5">
     <include
-        android:id="@id/b_g"
-        layout="@layout/vf"
+        android:id="@id/title_layout"
+        layout="@layout/template_info_title_layout"
         android:layout_width="wrap_content"
         android:layout_height="48.0dip" />
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-        android:id="@id/b5q"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/b_g">
+        android:id="@id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_layout">
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/aue"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginTop="5.0dip" />
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
     <include
-        layout="@layout/vg"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/b_g"
+        layout="@layout/template_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_layout"
         android:layout_centerInParent="true"
         android:visibility="gone" />
     <include
-        layout="@layout/vj"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/b_g"
+        layout="@layout/template_net_error_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_layout"
         android:visibility="gone" />
 </RelativeLayout>

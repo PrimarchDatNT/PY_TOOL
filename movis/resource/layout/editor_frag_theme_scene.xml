@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="70.0dip">
     <RelativeLayout
-        android:id="@id/b9m"
-        android:layout_width="fill_parent"
+        android:id="@id/theme_scene_container"
+        android:layout_width="match_parent"
         android:layout_height="26.0dip"
-        android:layout_above="@id/adc"
-        android:background="@color/bn"
+        android:layout_above="@id/layout_2lev_hide"
+        android:background="@color/black"
         android:gravity="center"
         android:paddingBottom="10.0dip">
         <TextView
-            android:id="@id/b9o"
+            android:id="@id/theme_scene_tag"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:text="@string/uw"
-            android:textColor="@color/g9"
+            android:text="@string/xiaoying_str_com_label"
+            android:textColor="@color/color_8E8E93"
             android:textSize="10.0sp" />
         <TextView
-            android:id="@id/b9n"
+            android:id="@id/theme_scene_name"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_marginStart="10.0dip"
             android:layout_marginLeft="10.0dip"
-            android:layout_toRightOf="@id/b9o"
-            android:background="@drawable/x8"
+            android:layout_toRightOf="@id/theme_scene_tag"
+            android:background="@drawable/editor_shape_theme_scene_frag_tag"
             android:gravity="center_vertical"
             android:paddingStart="10.0dip"
             android:paddingLeft="10.0dip"
@@ -33,17 +33,17 @@
             android:paddingEnd="10.0dip"
             android:paddingRight="10.0dip"
             android:paddingBottom="1.0dip"
-            android:textColor="@color/zo"
+            android:textColor="@color/white"
             android:textSize="10.0sp" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/adc"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_2lev_hide"
+        android:layout_width="match_parent"
         android:layout_height="44.0dip"
         android:layout_alignParentBottom="true"
-        android:background="@color/dt">
+        android:background="@color/color_141414">
         <View
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="1.0px"
             android:layout_alignParentTop="true"
             android:background="#ff262626" />
@@ -51,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:background="@drawable/o0"
+            android:background="@drawable/editor_icon_btn_ok_n"
             android:clickable="false" />
     </RelativeLayout>
 </RelativeLayout>

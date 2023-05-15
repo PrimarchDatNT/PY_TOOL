@@ -1,108 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bbk"
+        android:id="@id/tvHint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64.0dip"
-        android:drawableTop="@drawable/b4q"
+        android:drawableTop="@drawable/xiaoying_music_empty_view"
         android:drawablePadding="4.0dip"
-        android:fontFamily="@font/f"
+        android:fontFamily="@font/poppins_semibold"
         android:gravity="center"
-        android:text="@string/anp"
+        android:text="@string/xiaoying_str_ve_no_mp3_music_tip"
         android:textColor="#ff4d4d4d"
-        android:textSize="@dimen/z0"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        android:textSize="@dimen/sp14"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bbl"
+        android:id="@id/tvHint2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4.0dip"
-        android:fontFamily="@font/f"
-        android:text="@string/a3z"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/xiaoying_str_editor_music_search_empty_try_other"
         android:textColor="#ff4d4d4d"
-        android:textSize="@dimen/z0"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/bbk" />
+        android:textSize="@dimen/sp14"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/tvHint" />
     <LinearLayout
-        android:id="@id/jj"
+        android:id="@id/btnExtractMusic"
         android:layout_width="267.0dip"
-        android:layout_height="@dimen/x9"
+        android:layout_height="@dimen/px42"
         android:layout_marginTop="32.0dip"
-        android:background="@drawable/dx"
+        android:background="@drawable/app_default_button"
         android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/bbl">
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/tvHint2">
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/acx"
+            android:src="@drawable/explorer_icon_extract_music"
             android:visibility="gone" />
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="6.0dip"
-            android:text="@string/a6g"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z0" />
+            android:text="@string/xiaoying_str_extract_video_music_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
     </LinearLayout>
     <Space
-        android:id="@id/b3r"
+        android:id="@id/spaceVip"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:layout_marginEnd="14.0dip"
         android:layout_marginBottom="8.0dip"
-        app:layout_constraintBottom_toTopOf="@id/jj"
-        app:layout_constraintEnd_toEndOf="@id/jj" />
+        app:layout_constraintBottom_toTopOf="@id/btnExtractMusic"
+        app:layout_constraintEnd_toEndOf="@id/btnExtractMusic" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/a4q"
+        android:id="@id/imgVip"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:layout_marginStart="6.0dip"
         android:scaleType="centerCrop"
-        android:src="@drawable/a63"
+        android:src="@drawable/editorx_select_text_view_vip_icon"
         android:visibility="gone"
-        app:layout_constraintStart_toEndOf="@id/b3r"
-        app:layout_constraintTop_toTopOf="@id/b3r" />
+        app:layout_constraintStart_toEndOf="@id/spaceVip"
+        app:layout_constraintTop_toTopOf="@id/spaceVip" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/aa2"
+        android:id="@id/iv_free_of_time_limit"
         android:layout_width="0.0dip"
         android:layout_height="0.0dip"
         android:scaleType="centerCrop"
         android:visibility="gone"
-        app:layout_constraintLeft_toLeftOf="@id/b3r"
-        app:layout_constraintTop_toTopOf="@id/b3r" />
+        app:layout_constraintLeft_toLeftOf="@id/spaceVip"
+        app:layout_constraintTop_toTopOf="@id/spaceVip" />
     <LinearLayout
-        android:id="@id/jm"
+        android:id="@id/btnLocalMusic"
         android:layout_width="267.0dip"
-        android:layout_height="@dimen/x9"
+        android:layout_height="@dimen/px42"
         android:layout_marginTop="32.0dip"
-        android:background="@drawable/dx"
+        android:background="@drawable/app_default_button"
         android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/jj">
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/btnExtractMusic">
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/acz"
+            android:src="@drawable/explorer_icon_local_music"
             android:visibility="gone" />
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="6.0dip"
-            android:fontFamily="@font/f"
-            android:text="@string/a68"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z0" />
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/xiaoying_str_explorer_scan_local_music"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/b8z"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/a6e"
+        android:id="@id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/editorx_selector_select_text_view"
         android:gravity="center"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/yz" />
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp12" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/a4a"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:padding="@dimen/xz" />
+        android:id="@id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/px6" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/wd"
+        android:id="@id/equity_img"
         android:layout_width="26.0dip"
         android:layout_height="12.0dip"
         android:layout_gravity="center|right|top"
         android:layout_marginTop="4.0dip"
         android:layout_marginEnd="4.0dip"
-        android:src="@drawable/a63"
+        android:src="@drawable/editorx_select_text_view_vip_icon"
         android:visibility="gone" />
 </FrameLayout>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bi9"
+        android:id="@id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -14,18 +14,18 @@
         android:paddingTop="6.0dip"
         android:paddingEnd="12.0dip"
         android:paddingBottom="6.0dip"
-        android:text="@string/aaa"
-        android:textColor="@color/ov"
+        android:text="@string/xiaoying_str_param_adjust_title"
+        android:textColor="@color/editorx_selector_recent_text_color"
         android:textSize="14.0sp"
-        app:autoSizeMaxTextSize="@dimen/ha"
-        app:autoSizeMinTextSize="@dimen/hb"
+        app:autoSizeMaxTextSize="@dimen/editorx_template_group_normal_textsize"
+        app:autoSizeMinTextSize="@dimen/editorx_template_group_tiny_textsize"
         app:autoSizeTextType="bjy" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/aaq"
+        android:id="@id/iv_params_vip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@id/bi9"
-        android:layout_alignEnd="@id/bi9"
-        android:src="@drawable/aj9"
+        android:layout_alignTop="@id/tv_title"
+        android:layout_alignEnd="@id/tv_title"
+        android:src="@drawable/ic_diamon_premium"
         android:visibility="gone" />
 </RelativeLayout>

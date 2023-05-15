@@ -1,164 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/bn">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
     <RelativeLayout
-        android:id="@id/a1o"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/a4_"
-        android:background="@color/dt">
+        android:id="@id/gallery_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v4_xiaoying_com_top_panel_height"
+        android:background="@color/color_141414">
         <ImageView
-            android:id="@id/bps"
+            android:id="@id/xiaoying_com_btn_left"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:layout_marginStart="8.0dip"
             android:layout_marginLeft="8.0dip"
             android:scaleType="centerInside"
-            android:src="@drawable/ask" />
+            android:src="@drawable/v4_xiaoying_cam_btn_cam_cancel" />
         <RelativeLayout
-            android:id="@id/a19"
+            android:id="@id/gallery_chooser_layout"
             android:layout_width="140.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:visibility="gone">
             <TextView
-                android:id="@id/b99"
+                android:id="@id/textview_hint"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="5.0dip"
                 android:maxLines="1"
-                android:text="@string/a8b"
-                android:textColor="@color/fw"
+                android:text="@string/xiaoying_str_help_gallery_tap_here_to_change"
+                android:textColor="@color/color_707070"
                 android:textSize="9.0sp" />
             <TextView
-                android:id="@id/a1n"
+                android:id="@id/gallery_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_above="@id/b99"
+                android:layout_above="@id/textview_hint"
                 android:layout_centerHorizontal="true"
                 android:maxLines="1"
-                android:text="@string/agz"
-                android:textColor="@color/zo"
+                android:text="@string/xiaoying_str_studio_share_prj_title"
+                android:textColor="@color/white"
                 android:textSize="17.0sp" />
             <ImageView
-                android:id="@id/a1f"
+                android:id="@id/gallery_more_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBottom="@id/a1n"
+                android:layout_alignBottom="@id/gallery_title"
                 android:layout_marginStart="3.0dip"
                 android:layout_marginLeft="3.0dip"
                 android:layout_marginBottom="5.0dip"
-                android:layout_toEndOf="@id/a1n"
-                android:layout_toRightOf="@id/a1n"
-                android:background="@drawable/b6o" />
+                android:layout_toEndOf="@id/gallery_title"
+                android:layout_toRightOf="@id/gallery_title"
+                android:background="@drawable/xiaoying_ve_gallery_more" />
         </RelativeLayout>
         <LinearLayout
-            android:id="@id/a18"
+            android:id="@id/gallery_chooser_B_layout"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
             android:gravity="center"
             android:minWidth="140.0dip"
             android:orientation="horizontal"
             android:visibility="gone">
             <TextView
-                android:id="@id/gz"
+                android:id="@id/b_video_tab"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:paddingLeft="22.0dip"
                 android:paddingRight="22.0dip"
-                android:text="@string/aln"
-                android:textColor="@color/n_"
+                android:text="@string/xiaoying_str_ve_gallery_filter_menu_item_video_only"
+                android:textColor="@color/default_app_color"
                 android:textSize="17.0sp"
                 android:textStyle="bold" />
             <TextView
-                android:id="@id/gy"
+                android:id="@id/b_photo_tab"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:paddingLeft="22.0dip"
                 android:paddingRight="22.0dip"
-                android:text="@string/alm"
-                android:textColor="@color/g9"
+                android:text="@string/xiaoying_str_ve_gallery_filter_menu_item_photo_only"
+                android:textColor="@color/color_8E8E93"
                 android:textSize="17.0sp"
                 android:textStyle="bold" />
         </LinearLayout>
         <TextView
-            android:id="@id/b_5"
+            android:id="@id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginStart="10.0dip"
             android:layout_marginLeft="10.0dip"
-            android:layout_toEndOf="@id/bps"
-            android:layout_toRightOf="@id/bps"
+            android:layout_toEndOf="@id/xiaoying_com_btn_left"
+            android:layout_toRightOf="@id/xiaoying_com_btn_left"
             android:maxLines="1"
-            android:text="@string/agz"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_studio_share_prj_title"
+            android:textColor="@color/white"
             android:textSize="17.0sp"
             android:visibility="gone" />
         <ImageButton
-            android:id="@id/a16"
+            android:id="@id/gallery_btn_captrue"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginEnd="5.0dip"
             android:layout_marginRight="5.0dip"
-            android:background="@color/xz"
+            android:background="@color/transparent"
             android:paddingLeft="5.0dip"
             android:paddingRight="5.0dip"
             android:scaleType="centerInside"
-            android:src="@drawable/b6m"
+            android:src="@drawable/xiaoying_ve_gallery_capture"
             android:visibility="gone" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/a15"
-        android:layout_width="fill_parent"
+        android:id="@id/gallery_ad"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/a1o"
+        android:layout_below="@id/gallery_title_layout"
         android:gravity="center_horizontal" />
     <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:id="@id/a1a"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/a15">
+        android:id="@id/gallery_coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/gallery_ad">
         <com.google.android.material.appbar.AppBarLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#1affffff"
             android:gravity="center">
             <com.google.android.material.tabs.TabLayout
-                android:id="@id/a1i"
+                android:id="@id/gallery_tablayout"
                 android:layout_width="wrap_content"
                 android:layout_height="44.0dip"
                 android:layout_centerHorizontal="true"
                 app:layout_scrollFlags="azw|wa"
                 app:tabGravity="o0"
-                app:tabIndicatorColor="@color/n_"
+                app:tabIndicatorColor="@color/default_app_color"
                 app:tabIndicatorHeight="2.0dip"
                 app:tabMode="b01"
-                app:tabSelectedTextColor="@color/n_"
-                app:tabTextColor="@color/gl" />
+                app:tabSelectedTextColor="@color/default_app_color"
+                app:tabTextColor="@color/color_999999" />
         </com.google.android.material.appbar.AppBarLayout>
         <com.videoai.aivpcore.common.ui.XYViewPager
-            android:id="@id/a1q"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            app:layout_behavior="@string/ch" />
+            android:id="@id/gallery_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
     <com.videoai.aivpcore.gallery.storyboard.StoryBoardView
-        android:id="@id/a1h"
-        android:layout_width="fill_parent"
+        android:id="@id/gallery_storyoard_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:visibility="gone" />

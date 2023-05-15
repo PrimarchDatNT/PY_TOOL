@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.videoedit.gallery.widget.CustomSizeFrameLayout1 xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/acc"
-    android:layout_width="fill_parent"
+    android:id="@id/layout"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="4.0dip">
     <androidx.cardview.widget.CardView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        app:cardBackgroundColor="@color/rp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/gallery_main_bg_color"
         app:cardCornerRadius="8.0dip"
         app:cardElevation="0.0dip">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/a8u"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/ivContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
     </androidx.cardview.widget.CardView>
     <View
-        android:id="@id/b0z"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/ahb"
+        android:id="@id/select_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gallery_shape_item_hover"
         android:visibility="gone" />
     <LinearLayout
         android:layout_width="wrap_content"
@@ -34,63 +34,63 @@
         android:orientation="horizontal"
         android:padding="4.0dip">
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/be4"
-            style="@style/x7"
+            android:id="@id/tv_duration"
+            style="@style/veds_latn_font_caption_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/aem"
+            android:background="@drawable/gallery_eeyeful_list_item_bg1"
             android:paddingLeft="3.0dip"
             android:paddingTop="2.0dip"
             android:paddingRight="3.0dip"
             android:paddingBottom="2.0dip"
             android:text="00:02"
-            android:textColor="@color/zi" />
+            android:textColor="@color/veds_color_fill_white_1" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bdd"
-            style="@style/x7"
+            android:id="@id/tv_clarity"
+            style="@style/veds_latn_font_caption_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="2.0dip"
-            android:background="@drawable/aem"
+            android:background="@drawable/gallery_eeyeful_list_item_bg1"
             android:paddingLeft="3.0dip"
             android:paddingTop="2.0dip"
             android:paddingRight="3.0dip"
             android:paddingBottom="2.0dip"
             android:text="HD"
-            android:textColor="@color/zi" />
+            android:textColor="@color/veds_color_fill_white_1" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bfe"
-            style="@style/x7"
+            android:id="@id/tv_is4k"
+            style="@style/veds_latn_font_caption_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="2.0dip"
-            android:background="@drawable/aen"
+            android:background="@drawable/gallery_eeyeful_list_item_bg2"
             android:paddingLeft="3.0dip"
             android:paddingTop="2.0dip"
             android:paddingRight="3.0dip"
             android:paddingBottom="2.0dip"
             android:text="4K"
-            android:textColor="@color/zi" />
+            android:textColor="@color/veds_color_fill_white_1" />
     </LinearLayout>
     <ImageView
-        android:id="@id/as1"
+        android:id="@id/preview_icon"
         android:layout_width="20.0dip"
         android:layout_height="20.0dip"
         android:layout_gravity="end|bottom|center"
         android:layout_marginEnd="4.0dip"
         android:layout_marginBottom="4.0dip"
-        android:src="@drawable/agh"
+        android:src="@drawable/gallery_media_photo_preview_icon"
         android:visibility="gone" />
     <TextView
-        android:id="@id/bgc"
-        style="@style/xb"
+        android:id="@id/tv_order"
+        style="@style/veds_latn_font_headline_28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start|center|top"
         android:layout_marginStart="6.0dip"
         android:includeFontPadding="false"
         android:text="01"
-        android:textColor="@color/zo"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:visibility="gone" />
 </com.videoedit.gallery.widget.CustomSizeFrameLayout1>

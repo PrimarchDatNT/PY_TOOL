@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/ro" android:state_selected="true" />
-    <item android:drawable="@drawable/rn" android:state_selected="false" />
+    <item android:drawable="@drawable/editor_icon_select_all_clip_s" android:state_selected="true" />
+    <item android:drawable="@drawable/editor_icon_select_all_clip_n" android:state_selected="false" />
 </selector>

@@ -1,164 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_background"
     android:orientation="vertical">
     <FrameLayout
-        android:id="@id/pn"
-        android:layout_width="fill_parent"
+        android:id="@id/cl_toolbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv">
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/a9u"
+            android:id="@id/iv_back"
             android:layout_width="?a4"
             android:layout_height="?a4"
-            android:background="@drawable/jf"
+            android:background="@drawable/btn_dcolor_ripple"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/aj0" />
+            app:srcCompat="@drawable/ic_back" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bi9"
-            android:layout_width="fill_parent"
+            android:id="@id/tv_title"
+            android:layout_width="match_parent"
             android:layout_height="?a4"
             android:layout_marginStart="?a4"
             android:ellipsize="end"
-            android:fontFamily="@font/f"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="center_vertical"
             android:lines="1"
-            android:text="@string/wj"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z1"
+            android:text="@string/xiaoying_str_com_pref_setting_about"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16"
             android:textStyle="bold" />
     </FrameLayout>
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/aam"
-        android:layout_width="@dimen/yj"
-        android:layout_height="@dimen/vs"
+        android:id="@id/iv_logo"
+        android:layout_width="@dimen/px86"
+        android:layout_height="@dimen/px28"
         android:layout_gravity="center"
-        android:layout_marginTop="@dimen/wd"
+        android:layout_marginTop="@dimen/px32"
         android:adjustViewBounds="true"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/ade"
-        app:srcCompat="@drawable/e5" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/layout_actionbar"
+        app:srcCompat="@drawable/app_logo" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bij"
+        android:id="@id/tv_version_app"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="@dimen/xz"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/z0"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/aam" />
+        android:layout_marginTop="@dimen/px6"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp14"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/iv_logo" />
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/tz"
-        android:layout_marginTop="@dimen/vs"
-        android:layout_marginEnd="@dimen/tz"
-        android:background="@drawable/hv"
+        android:layout_marginStart="@dimen/px16"
+        android:layout_marginTop="@dimen/px28"
+        android:layout_marginEnd="@dimen/px16"
+        android:background="@drawable/bg_app_setting_dialog"
         android:orientation="vertical">
         <FrameLayout
-            android:id="@id/p6"
-            android:layout_width="fill_parent"
+            android:id="@id/cl_app_about"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/jf">
+            android:background="@drawable/btn_dcolor_ripple">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bd2"
-                android:layout_width="fill_parent"
+                android:id="@id/tv_app_about"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/f"
-                android:paddingStart="@dimen/tz"
-                android:paddingTop="@dimen/v7"
-                android:paddingEnd="@dimen/tz"
-                android:paddingBottom="@dimen/v7"
-                android:text="@string/a7"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/z0" />
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingStart="@dimen/px16"
+                android:paddingTop="@dimen/px24"
+                android:paddingEnd="@dimen/px16"
+                android:paddingBottom="@dimen/px24"
+                android:text="@string/about_policy"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp14" />
         </FrameLayout>
         <View
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/t2"
-            android:layout_marginStart="@dimen/tz"
-            android:layout_marginEnd="@dimen/tz"
-            android:background="@color/ak" />
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px1"
+            android:layout_marginStart="@dimen/px16"
+            android:layout_marginEnd="@dimen/px16"
+            android:background="@color/app_dcolor_indicator_2" />
         <FrameLayout
-            android:id="@id/p7"
-            android:layout_width="fill_parent"
+            android:id="@id/cl_app_feedback"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/jf">
+            android:background="@drawable/btn_dcolor_ripple">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bd3"
-                android:layout_width="fill_parent"
+                android:id="@id/tv_app_feedback"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/f"
-                android:paddingStart="@dimen/tz"
-                android:paddingTop="@dimen/v7"
-                android:paddingEnd="@dimen/tz"
-                android:paddingBottom="@dimen/v7"
-                android:text="@string/wm"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/z0" />
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingStart="@dimen/px16"
+                android:paddingTop="@dimen/px24"
+                android:paddingEnd="@dimen/px16"
+                android:paddingBottom="@dimen/px24"
+                android:text="@string/xiaoying_str_com_pref_setting_feed_back"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp14" />
         </FrameLayout>
         <View
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/t2"
-            android:layout_marginStart="@dimen/tz"
-            android:layout_marginEnd="@dimen/tz"
-            android:background="@color/ak" />
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px1"
+            android:layout_marginStart="@dimen/px16"
+            android:layout_marginEnd="@dimen/px16"
+            android:background="@color/app_dcolor_indicator_2" />
         <FrameLayout
-            android:id="@id/p8"
-            android:layout_width="fill_parent"
+            android:id="@id/cl_app_rate"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/jf">
+            android:background="@drawable/btn_dcolor_ripple">
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bd4"
-                android:layout_width="fill_parent"
+                android:id="@id/tv_app_rate"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/f"
-                android:paddingStart="@dimen/tz"
-                android:paddingTop="@dimen/v7"
-                android:paddingEnd="@dimen/tz"
-                android:paddingBottom="@dimen/v7"
-                android:text="@string/c_"
-                android:textColor="@color/zo"
-                android:textSize="@dimen/z0" />
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingStart="@dimen/px16"
+                android:paddingTop="@dimen/px24"
+                android:paddingEnd="@dimen/px16"
+                android:paddingBottom="@dimen/px24"
+                android:text="@string/app_setting_rate_5_star_desc"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp14" />
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end|center"
-                android:layout_marginEnd="@dimen/tz"
+                android:layout_marginEnd="@dimen/px16"
                 android:orientation="horizontal">
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="@dimen/v7"
-                    android:layout_height="@dimen/v7"
+                    android:layout_width="@dimen/px24"
+                    android:layout_height="@dimen/px24"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/ako" />
+                    android:src="@drawable/ic_star_normal_select" />
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="@dimen/v7"
-                    android:layout_height="@dimen/v7"
+                    android:layout_width="@dimen/px24"
+                    android:layout_height="@dimen/px24"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/ako" />
+                    android:src="@drawable/ic_star_normal_select" />
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="@dimen/v7"
-                    android:layout_height="@dimen/v7"
+                    android:layout_width="@dimen/px24"
+                    android:layout_height="@dimen/px24"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/ako" />
+                    android:src="@drawable/ic_star_normal_select" />
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="@dimen/v7"
-                    android:layout_height="@dimen/v7"
+                    android:layout_width="@dimen/px24"
+                    android:layout_height="@dimen/px24"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/ako" />
+                    android:src="@drawable/ic_star_normal_select" />
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="@dimen/v7"
-                    android:layout_height="@dimen/v7"
+                    android:layout_width="@dimen/px24"
+                    android:layout_height="@dimen/px24"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/ako" />
+                    android:src="@drawable/ic_star_normal_select" />
             </LinearLayout>
         </FrameLayout>
     </LinearLayout>

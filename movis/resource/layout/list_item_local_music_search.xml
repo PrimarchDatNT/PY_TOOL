@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/ahb"
-    android:layout_width="fill_parent"
+    android:id="@id/list_item_music_local_scan_layout"
+    android:layout_width="match_parent"
     android:layout_height="52.0dip"
-    android:background="@color/do"
+    android:background="@color/color_0a0a0a"
     android:gravity="center"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/anh"
-        android:layout_width="fill_parent"
+        android:id="@id/music_local_search_filter"
+        android:layout_width="match_parent"
         android:layout_height="36.0dip"
         android:layout_marginLeft="15.0dip"
         android:layout_marginRight="15.0dip"
-        android:background="@drawable/b5a"
+        android:background="@drawable/xiaoying_music_local_search_shape"
         android:gravity="center"
         android:orientation="horizontal">
         <ImageView
@@ -20,13 +20,13 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10.0dip"
             android:layout_marginLeft="10.0dip"
-            android:src="@drawable/b58" />
+            android:src="@drawable/xiaoying_music_item_local_scan_new" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="7.0dip"
-            android:text="@string/alt"
-            android:textColor="@color/a01"
+            android:text="@string/xiaoying_str_ve_gallery_scan_music_title"
+            android:textColor="@color/white_p70"
             android:textStyle="bold" />
     </LinearLayout>
 </LinearLayout>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/xz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
     android:orientation="vertical">
     <ProgressBar
-        android:id="@id/amr"
+        android:id="@id/music_extract_loadding"
         android:layout_width="27.0dip"
         android:layout_height="27.0dip"
         android:layout_centerInParent="true"
-        android:indeterminateDrawable="@drawable/b4s" />
+        android:indeterminateDrawable="@drawable/xiaoying_music_extarct_progress_loadding" />
 </LinearLayout>

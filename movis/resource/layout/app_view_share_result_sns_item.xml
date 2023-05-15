@@ -6,18 +6,18 @@
     android:gravity="center"
     android:orientation="vertical">
     <ImageView
-        android:id="@id/a4h"
+        android:id="@id/imgIcon"
         android:layout_width="36.0dip"
         android:layout_height="36.0dip" />
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bbu"
+        android:id="@id/tvName"
         android:layout_width="36.0dip"
         android:layout_height="14.0dip"
         android:layout_gravity="center"
         android:layout_marginTop="10.0dip"
         android:gravity="center"
         android:maxLines="1"
-        android:textColor="@color/fp"
+        android:textColor="@color/color_666666"
         app:autoSizeMaxTextSize="12.0sp"
         app:autoSizeMinTextSize="6.0sp"
         app:autoSizeStepGranularity="1.0sp"

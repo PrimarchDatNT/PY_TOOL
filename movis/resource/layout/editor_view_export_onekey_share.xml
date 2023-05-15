@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/zo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
     android:gravity="center"
     android:orientation="vertical">
     <FrameLayout
-        android:id="@id/ju"
-        android:layout_width="fill_parent"
+        android:id="@id/btnOneKeyShare"
+        android:layout_width="match_parent"
         android:layout_height="48.0dip"
         android:layout_marginLeft="32.0dip"
         android:layout_marginRight="32.0dip"
-        android:background="@drawable/v4">
+        android:background="@drawable/editor_shape_bg_onekey_share">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:drawableStart="@drawable/qm"
-            android:drawableLeft="@drawable/qm"
+            android:drawableStart="@drawable/editor_icon_onekey_share_douyin"
+            android:drawableLeft="@drawable/editor_icon_onekey_share_douyin"
             android:drawablePadding="6.0dip"
             android:gravity="center"
-            android:text="@string/aef"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_share_shareto_douyin"
+            android:textColor="@color/white"
             android:textSize="16.0sp"
             android:textStyle="bold" />
     </FrameLayout>
     <com.videoai.aivpcore.xyui.RoundedRelativeLayout
-        android:id="@id/k4"
-        android:layout_width="fill_parent"
+        android:id="@id/btnShareMore"
+        android:layout_width="match_parent"
         android:layout_height="48.0dip"
         android:layout_marginLeft="32.0dip"
         android:layout_marginTop="20.0dip"
         android:layout_marginRight="32.0dip"
         app:VS_CornerRadius="26.0dip"
-        app:VS_SolidColor="@color/jf">
+        app:VS_SolidColor="@color/color_f2f2f2">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:drawableStart="@drawable/qn"
-            android:drawableLeft="@drawable/qn"
+            android:drawableStart="@drawable/editor_icon_onekey_share_more"
+            android:drawableLeft="@drawable/editor_icon_onekey_share_more"
             android:drawablePadding="6.0dip"
             android:gravity="center"
             android:text="更多分享"
-            android:textColor="@color/eq"
+            android:textColor="@color/color_333333"
             android:textSize="16.0sp"
             android:textStyle="bold" />
     </com.videoai.aivpcore.xyui.RoundedRelativeLayout>

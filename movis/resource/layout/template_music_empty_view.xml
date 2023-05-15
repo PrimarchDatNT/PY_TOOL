@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
         android:layout_width="150.0dip"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/amp"
+            android:id="@id/music_empty_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/b4q" />
+            android:src="@drawable/xiaoying_music_empty_view" />
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/amp"
+            android:layout_below="@id/music_empty_icon"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="43.0dip"
-            android:fontFamily="@font/f"
-            android:text="@string/anp"
-            android:textColor="@color/g9" />
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/xiaoying_str_ve_no_mp3_music_tip"
+            android:textColor="@color/color_8E8E93" />
     </RelativeLayout>
 </RelativeLayout>

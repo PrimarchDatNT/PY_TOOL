@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@color/tt_white"
     android:orientation="vertical">
     <FrameLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="220.0dip"
         android:scaleType="centerCrop"
         android:visibility="visible">
         <FrameLayout
             android:id="@id/tt_native_video_container"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:scaleType="centerCrop"
             android:visibility="visible" />
         <include
             android:id="@id/tt_browser_webview_top"
             layout="@layout/tt_top_reward_dislike_3"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </FrameLayout>
     <RelativeLayout
         android:id="@id/tt_rl_download"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10.0dip"
         android:visibility="gone">
@@ -93,27 +93,27 @@
             android:visibility="visible" />
     </RelativeLayout>
     <FrameLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <com.bytedance.sdk.component.widget.SSWebView
             android:id="@id/tt_browser_webview"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginTop="2.0dip" />
         <include
             android:id="@id/tt_browser_webview_loading"
             layout="@layout/tt_full_reward_video_landing_page_loading"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
         <ViewStub
             android:id="@id/tt_browser_download_btn_stub"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="48.0dip"
             android:layout_gravity="bottom|center"
             android:layout="@layout/tt_browser_download_layout" />
         <ViewStub
             android:id="@id/tt_browser_new_bottom_bar_view_stub"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="44.0dip"
             android:layout_gravity="bottom"
             android:layout="@layout/tt_browser_new_bottom_bar" />

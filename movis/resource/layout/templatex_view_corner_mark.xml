@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/b71"
+        android:id="@id/tcm_iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

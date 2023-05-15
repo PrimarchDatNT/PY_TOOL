@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-        android:id="@id/a11"
-        android:layout_width="fill_parent"
+        android:id="@id/funny_template_refresh"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/a12">
+        android:layout_below="@id/funny_template_split_line">
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/aty"
-            android:layout_width="fill_parent"
+            android:id="@id/rec_template_info"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/jm"
+            android:background="@color/color_f6f6f6"
             android:paddingStart="5.0dip"
             android:paddingLeft="5.0dip"
             android:paddingEnd="5.0dip"
             android:paddingRight="5.0dip" />
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
     <LinearLayout
-        android:id="@id/w4"
-        android:layout_width="fill_parent"
+        android:id="@id/empty_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="vertical"
@@ -28,26 +28,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="88.0dip"
-            android:src="@drawable/no" />
+            android:src="@drawable/editor_ico_no_storage" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16.0dip"
-            android:text="@string/vw"
-            android:textColor="@color/g9"
+            android:text="@string/xiaoying_str_com_msg_network_ioexception"
+            android:textColor="@color/color_8E8E93"
             android:textSize="14.0sp" />
         <TextView
-            android:id="@id/lh"
+            android:id="@id/btn_retry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12.0dip"
-            android:background="@drawable/vw"
+            android:background="@drawable/editor_shape_funny_template_retry"
             android:paddingLeft="36.0dip"
             android:paddingTop="6.0dip"
             android:paddingRight="36.0dip"
             android:paddingBottom="6.0dip"
-            android:text="@string/aig"
-            android:textColor="@color/n_"
+            android:text="@string/xiaoying_str_template_retry_again"
+            android:textColor="@color/default_app_color"
             android:textSize="14.0sp" />
     </LinearLayout>
 </RelativeLayout>

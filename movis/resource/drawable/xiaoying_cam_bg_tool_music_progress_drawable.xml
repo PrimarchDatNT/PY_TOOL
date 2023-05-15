@@ -9,7 +9,7 @@
     <item android:id="@android:id/progress">
         <clip android:clipOrientation="horizontal">
             <scale
-                android:drawable="@drawable/azb" android:scaleWidth="100%" />
+                android:drawable="@drawable/xiaoying_cam_bg_tool_music_progress" android:scaleWidth="100%" />
         </clip>
     </item>
 </layer-list>

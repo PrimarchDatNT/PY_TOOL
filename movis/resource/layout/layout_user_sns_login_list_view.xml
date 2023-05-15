@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <LinearLayout
-        android:id="@id/aif"
-        android:layout_width="fill_parent"
+        android:id="@id/ll_sns_login_list_title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_marginBottom="10.0dip"
@@ -18,9 +18,9 @@
             android:layout_height="1.5dip"
             android:layout_gravity="center_vertical"
             android:layout_weight="1.0"
-            android:background="@color/zw" />
+            android:background="@color/white_p30" />
         <TextView
-            android:id="@id/bh9"
+            android:id="@id/tv_sns_login_list_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -29,31 +29,31 @@
             android:paddingLeft="21.0dip"
             android:paddingEnd="21.0dip"
             android:paddingRight="21.0dip"
-            android:text="@string/z_"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_community_setting_log_in_tips"
+            android:textColor="@color/white"
             android:textSize="14.0sp" />
         <View
             android:layout_width="0.0dip"
             android:layout_height="1.5dip"
             android:layout_gravity="center_vertical"
             android:layout_weight="1.0"
-            android:background="@color/zw" />
+            android:background="@color/white_p30" />
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/az5"
-        android:layout_width="fill_parent"
+        android:id="@id/rv_sns_login_list"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10.0dip" />
     <com.videoai.aivpcore.app.welcomepage.snsview.ExpandHeightGridView
-        android:id="@id/a2n"
-        android:layout_width="fill_parent"
+        android:id="@id/gv_sns_login_list"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10.0dip"
-        android:cacheColorHint="@color/xz"
+        android:cacheColorHint="@color/transparent"
         android:clipToPadding="true"
         android:gravity="center_horizontal"
         android:horizontalSpacing="0.0dip"
-        android:listSelector="@color/xz"
+        android:listSelector="@color/transparent"
         android:numColumns="4"
         android:paddingStart="10.0dip"
         android:paddingLeft="10.0dip"
@@ -65,8 +65,8 @@
         android:verticalSpacing="15.0dip"
         android:visibility="gone" />
     <TextView
-        android:id="@id/bgl"
-        android:layout_width="fill_parent"
+        android:id="@id/tv_privacy"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="10.0dip"
@@ -76,7 +76,7 @@
         android:paddingLeft="20.0dip"
         android:paddingEnd="20.0dip"
         android:paddingRight="20.0dip"
-        android:text="@string/z7"
+        android:text="@string/xiaoying_str_community_pre_terms_and_privacy"
         android:textColor="#4effffff"
         android:textSize="12.0sp" />
 </LinearLayout>

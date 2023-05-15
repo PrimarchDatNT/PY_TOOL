@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/ss"
-    android:layout_width="fill_parent"
-    android:layout_height="@dimen/of"
+    android:id="@id/date_picker_actions"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mtrl_calendar_action_height"
     android:gravity="end"
     android:orientation="horizontal"
-    android:paddingEnd="@dimen/og"
-    android:paddingRight="@dimen/og">
+    android:paddingEnd="@dimen/mtrl_calendar_action_padding"
+    android:paddingRight="@dimen/mtrl_calendar_action_padding">
     <Button
-        android:id="@id/nu"
+        android:id="@id/cancel_button"
         style="?ed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:text="@string/hx" />
+        android:text="@string/mtrl_picker_cancel" />
     <Button
-        android:id="@id/r8"
+        android:id="@id/confirm_button"
         style="?ef"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:minWidth="@dimen/oe"
-        android:text="@string/hy" />
+        android:minWidth="@dimen/mtrl_calendar_action_confirm_button_min_width"
+        android:text="@string/mtrl_picker_confirm" />
 </LinearLayout>

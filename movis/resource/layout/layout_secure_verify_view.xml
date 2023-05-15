@@ -7,6 +7,6 @@
     android:paddingTop="8.0dip"
     android:paddingEnd="16.0dip"
     android:paddingBottom="8.0dip"
-    android:text="@string/a7g"
+    android:text="@string/xiaoying_str_google_protect"
     android:textColor="#ff333333"
     android:textSize="12.0sp" />

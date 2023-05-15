@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/ra"
-        android:layout_width="fill_parent"
+        android:id="@id/content"
+        android:layout_width="match_parent"
         android:layout_height="208.0dip"
         android:layout_alignParentBottom="true"
         android:background="@android:color/black">
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/az2"
-            android:layout_width="fill_parent"
+            android:id="@id/rv_magic_sound"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="38.0dip" />
         <com.videoai.aivpcore.editor.widget.terminator.Terminator
-            android:id="@id/b7u"
-            android:layout_width="fill_parent"
+            android:id="@id/terminator"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            app:terminatorText="@string/rq" />
+            app:terminatorText="@string/xiaoying_str_clip_func_magic_sound" />
         <include
-            android:id="@id/a6l"
-            layout="@layout/f8"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_above="@id/b7u"
+            android:id="@id/include_self_magic_sound"
+            layout="@layout/editor_clip_view_magic_sound_self"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/terminator"
             android:visibility="gone" />
         <include
-            android:id="@id/ff"
-            layout="@layout/eq"
+            android:id="@id/apply_all_layout"
+            layout="@layout/editor_clip_apply_all_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10.0dip"

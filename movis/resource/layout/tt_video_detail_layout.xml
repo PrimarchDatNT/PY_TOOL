@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@id/tt_root_view"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/white">
     <RelativeLayout
         android:id="@id/tt_video_loading_retry_layout"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="@android:color/transparent"
         android:gravity="center">
         <ImageView
             android:id="@id/tt_video_loading_cover_image"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:scaleType="centerCrop" />
         <ProgressBar
             android:id="@id/tt_video_loading_progress"
@@ -66,7 +66,7 @@
         android:src="@drawable/tt_close_move_detail" />
     <TextView
         android:id="@id/tt_video_title"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
@@ -83,7 +83,7 @@
         android:visibility="gone" />
     <RelativeLayout
         android:id="@id/tt_video_top_layout"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:background="@drawable/tt_video_black_desc_gradient"
@@ -93,7 +93,7 @@
         <ImageView
             android:id="@id/tt_video_fullscreen_back"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="12.0dip"
             android:layout_marginLeft="12.0dip"
@@ -103,7 +103,7 @@
         <TextView
             android:id="@id/tt_video_top_title"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="16.0dip"
             android:layout_marginLeft="16.0dip"
@@ -143,7 +143,7 @@
     </RelativeLayout>
     <LinearLayout
         android:id="@id/tt_video_ad_bottom_layout"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="40.0dip"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
@@ -192,7 +192,7 @@
         <ImageView
             android:id="@id/tt_video_ad_full_screen"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:paddingLeft="16.0dip"
             android:paddingRight="16.0dip"
             android:scaleType="center"
@@ -201,8 +201,8 @@
     </LinearLayout>
     <ViewStub
         android:id="@id/tt_video_ad_cover"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout="@layout/tt_video_ad_cover_layout" />
     <TextView
         android:id="@id/tt_video_back"

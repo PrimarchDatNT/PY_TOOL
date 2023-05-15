@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/xz">
+    android:background="@color/transparent">
     <RelativeLayout
-        android:id="@id/u0"
+        android:id="@id/draft_item_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15.0dip">
         <RelativeLayout
-            android:id="@id/u2"
+            android:id="@id/draft_layout_top"
             android:layout_width="165.0dip"
             android:layout_height="165.0dip"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/ve">
+            android:background="@drawable/editor_shape_draft_coveritem_bg">
             <com.videoai.aivpcore.ui.view.RoundImageView
-                android:id="@id/u_"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@id/draft_thumb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_centerHorizontal="true"
                 android:scaleType="centerCrop" />
             <RelativeLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="33.0dip"
-                android:layout_alignBottom="@id/u_"
-                android:background="@drawable/vd" />
+                android:layout_alignBottom="@id/draft_thumb"
+                android:background="@drawable/editor_shape_draft_cover_gradient" />
             <com.videoai.aivpcore.common.ui.widgets.autofittextview.AutofitTextView
-                android:id="@id/bi2"
+                android:id="@id/tv_time_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
@@ -38,11 +38,11 @@
                 android:gravity="end|center"
                 android:singleLine="true"
                 android:text="0:03"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="13.0sp"
                 app:minTextSize="8.0sp" />
             <com.videoai.aivpcore.common.ui.widgets.autofittextview.AutofitTextView
-                android:id="@id/bew"
+                android:id="@id/tv_exported"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -54,11 +54,11 @@
                 android:ellipsize="end"
                 android:gravity="end|center"
                 android:singleLine="true"
-                android:text="@string/afu"
-                android:textColor="@color/zo"
+                android:text="@string/xiaoying_str_studio_draft_exported"
+                android:textColor="@color/white"
                 android:textSize="12.0sp" />
             <com.videoai.aivpcore.common.ui.widgets.autofittextview.AutofitTextView
-                android:id="@id/bh8"
+                android:id="@id/tv_slide_flag"
                 android:layout_width="wrap_content"
                 android:layout_height="30.0dip"
                 android:ellipsize="end"
@@ -73,23 +73,23 @@
                 android:visibility="gone"
                 app:minTextSize="8.0sp" />
             <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_centerHorizontal="true"
-                android:background="@drawable/n0"
+                android:background="@drawable/editor_draft_grid_item_bg_selector"
                 android:visibility="visible" />
             <com.videoai.aivpcore.common.ui.emoji.EmojiconTextView
-                android:id="@id/bik"
+                android:id="@id/tv_video_des"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_margin="5.0dip"
                 android:singleLine="true"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="11.0sp"
                 android:visibility="gone" />
             <ImageButton
-                android:id="@id/sz"
+                android:id="@id/delete_flag_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -99,41 +99,41 @@
                 android:layout_marginRight="12.0dip"
                 android:background="@android:color/transparent"
                 android:clickable="false"
-                android:src="@drawable/ks"
+                android:src="@drawable/edit_btn_del_selector"
                 android:visibility="gone" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@id/u1"
-            android:layout_width="fill_parent"
+            android:id="@id/draft_layout_bottom"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/u2"
-            android:layout_alignStart="@id/u2"
-            android:layout_alignLeft="@id/u2"
-            android:layout_alignEnd="@id/u2"
-            android:layout_alignRight="@id/u2"
+            android:layout_below="@id/draft_layout_top"
+            android:layout_alignStart="@id/draft_layout_top"
+            android:layout_alignLeft="@id/draft_layout_top"
+            android:layout_alignEnd="@id/draft_layout_top"
+            android:layout_alignRight="@id/draft_layout_top"
             android:layout_marginTop="10.0dip"
             android:layout_marginBottom="15.0dip"
-            android:background="@drawable/ws">
+            android:background="@drawable/editor_shape_studio_grid_item_bottom_bg">
             <RelativeLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true">
                 <TextView
-                    android:id="@id/bds"
+                    android:id="@id/tv_create_time"
                     android:layout_width="wrap_content"
                     android:layout_height="23.0dip"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:maxWidth="@dimen/a4w"
+                    android:maxWidth="@dimen/xiaoying_creation_time_grid_length"
                     android:singleLine="true"
                     android:text="Today"
-                    android:textColor="@color/bn"
+                    android:textColor="@color/black"
                     android:textSize="16.0sp" />
                 <ImageView
-                    android:id="@id/a59"
+                    android:id="@id/img_delete"
                     android:layout_width="20.0dip"
                     android:layout_height="20.0dip"
                     android:layout_alignParentTop="true"
@@ -141,18 +141,18 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginTop="2.0dip"
-                    android:src="@drawable/l6" />
+                    android:src="@drawable/editor_btn_draft_delete" />
             </RelativeLayout>
             <TextView
-                android:id="@id/bde"
+                android:id="@id/tv_clip_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="2.0dip"
                 android:layout_marginLeft="2.0dip"
-                android:background="@drawable/b5z"
+                android:background="@drawable/xiaoying_studio_clip_count"
                 android:gravity="center"
-                android:textColor="@color/zo"
+                android:textColor="@color/white"
                 android:textSize="10.0sp"
                 android:visibility="gone" />
         </RelativeLayout>

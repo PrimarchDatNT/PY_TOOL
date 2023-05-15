@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <TextView
-        android:id="@id/bcb"
+        android:id="@id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15.0dip"
-        android:text="@string/a40"
-        android:textColor="@color/zo"
+        android:text="@string/xiaoying_str_editor_music_search_history_title"
+        android:textColor="@color/white"
         android:textSize="16.0sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv" />
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent" />
     <ImageView
-        android:id="@id/jk"
+        android:id="@id/btnHisClear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10.0dip"
-        android:src="@drawable/acy"
-        app:layout_constraintBottom_toBottomOf="@id/bcb"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintTop_toTopOf="@id/bcb" />
+        android:src="@drawable/explorer_icon_history_clear"
+        app:layout_constraintBottom_toBottomOf="@id/tvTitle"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintTop_toTopOf="@id/tvTitle" />
     <com.videoai.aivpcore.explorer.music.search.history.HistoryTagView
-        android:id="@id/bml"
+        android:id="@id/viewHistoryTag"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="20.0dip"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/bcb" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle" />
 </androidx.constraintlayout.widget.ConstraintLayout>

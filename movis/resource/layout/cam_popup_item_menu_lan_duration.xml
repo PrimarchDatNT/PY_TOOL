@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:rotateView="http://schemas.android.com/apk/res-auto"
-    android:id="@id/a7u"
+    android:id="@id/item_layout"
     android:layout_width="wrap_content"
-    android:layout_height="fill_parent">
+    android:layout_height="match_parent">
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent">
+        android:layout_height="match_parent">
         <LinearLayout
-            android:id="@id/b_g"
+            android:id="@id/title_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:gravity="center">
             <com.videoai.aivpcore.ui.view.RotateTextView
-                android:id="@id/are"
+                android:id="@id/popup_item_title"
                 android:layout_width="40.0dip"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="rotate test"
-                android:textColor="@drawable/auz"
+                android:textColor="@drawable/v4_xiaoying_com_text_color_gray_white_selector"
                 android:textSize="17.0sp"
                 rotateView:rotation="270" />
         </LinearLayout>
         <com.videoai.aivpcore.ui.view.RotateImageView
-            android:id="@id/ard"
+            android:id="@id/popup_item_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/b_g"
+            android:layout_below="@id/title_layout"
             android:layout_centerHorizontal="true"
             android:layout_margin="3.0dip"
-            android:src="@drawable/b6p"
+            android:src="@drawable/xiaoying_ve_gallery_title_choose_dot"
             rotateView:rotation="270" />
     </RelativeLayout>
 </RelativeLayout>

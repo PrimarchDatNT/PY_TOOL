@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/b6_" android:state_pressed="true" />
-    <item android:drawable="@drawable/b6_" android:state_selected="true" />
-    <item android:drawable="@drawable/b69" />
+    <item android:drawable="@drawable/xiaoying_ve_clip_effect_background_p" android:state_pressed="true" />
+    <item android:drawable="@drawable/xiaoying_ve_clip_effect_background_p" android:state_selected="true" />
+    <item android:drawable="@drawable/xiaoying_ve_clip_effect_background_n" />
 </selector>

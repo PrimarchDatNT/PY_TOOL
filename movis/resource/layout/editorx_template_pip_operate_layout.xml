@@ -1,132 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/dt"
+    android:background="@color/color_141414"
     android:clickable="true">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/ap7"
-        android:layout_width="fill_parent"
+        android:id="@id/operate_title_layout"
+        android:layout_width="match_parent"
         android:layout_height="47.0dip"
-        android:background="@color/dt"
+        android:background="@color/color_141414"
         android:orientation="horizontal"
-        app:layout_constraintTop_toTopOf="apv">
+        app:layout_constraintTop_toTopOf="parrent">
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@id/p_"
+            android:id="@id/cl_clip"
             android:layout_width="100.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1.0"
-            app:layout_constraintEnd_toStartOf="@id/pm"
+            app:layout_constraintEnd_toStartOf="@id/cl_text"
             app:layout_constraintHorizontal_chainStyle="apo"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv">
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent">
             <TextView
-                android:id="@id/bdj"
+                android:id="@id/tv_clip_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_weight="1.0"
                 android:gravity="center"
-                android:text="@string/a21"
-                android:textColor="@drawable/a6c"
+                android:text="@string/xiaoying_str_edit_school_title_bar_clip"
+                android:textColor="@drawable/editorx_selector_pip_tab_text"
                 android:textSize="14.0sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="apv"
-                app:layout_constraintEnd_toEndOf="apv"
-                app:layout_constraintStart_toStartOf="apv"
-                app:layout_constraintTop_toTopOf="apv" />
+                app:layout_constraintBottom_toBottomOf="parrent"
+                app:layout_constraintEnd_toEndOf="parrent"
+                app:layout_constraintStart_toStartOf="parrent"
+                app:layout_constraintTop_toTopOf="parrent" />
             <View
-                android:id="@id/a6q"
+                android:id="@id/indicator_clip"
                 android:layout_width="6.0dip"
                 android:layout_height="2.0dip"
                 android:layout_marginTop="37.0dip"
-                android:background="@color/iv"
-                app:layout_constraintBottom_toBottomOf="apv"
-                app:layout_constraintLeft_toLeftOf="apv"
-                app:layout_constraintRight_toRightOf="apv" />
+                android:background="@color/color_e6e6e6"
+                app:layout_constraintBottom_toBottomOf="parrent"
+                app:layout_constraintLeft_toLeftOf="parrent"
+                app:layout_constraintRight_toRightOf="parrent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@id/pm"
+            android:id="@id/cl_text"
             android:layout_width="100.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1.0"
-            app:layout_constraintEnd_toEndOf="apv"
+            app:layout_constraintEnd_toEndOf="parrent"
             app:layout_constraintHorizontal_chainStyle="apo"
-            app:layout_constraintStart_toEndOf="@id/p_"
-            app:layout_constraintTop_toTopOf="apv">
+            app:layout_constraintStart_toEndOf="@id/cl_clip"
+            app:layout_constraintTop_toTopOf="parrent">
             <TextView
-                android:id="@id/bg7"
+                android:id="@id/tv_music_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_weight="1.0"
                 android:gravity="center"
-                android:text="@string/ann"
-                android:textColor="@drawable/a6c"
+                android:text="@string/xiaoying_str_ve_music_title"
+                android:textColor="@drawable/editorx_selector_pip_tab_text"
                 android:textSize="14.0sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="apv"
-                app:layout_constraintEnd_toEndOf="apv"
-                app:layout_constraintStart_toStartOf="apv"
-                app:layout_constraintTop_toTopOf="apv" />
+                app:layout_constraintBottom_toBottomOf="parrent"
+                app:layout_constraintEnd_toEndOf="parrent"
+                app:layout_constraintStart_toStartOf="parrent"
+                app:layout_constraintTop_toTopOf="parrent" />
             <View
-                android:id="@id/a6t"
+                android:id="@id/indicator_music"
                 android:layout_width="6.0dip"
                 android:layout_height="2.0dip"
                 android:layout_marginTop="37.0dip"
-                android:background="@color/iv"
+                android:background="@color/color_e6e6e6"
                 android:visibility="gone"
-                app:layout_constraintBottom_toBottomOf="apv"
-                app:layout_constraintLeft_toLeftOf="apv"
-                app:layout_constraintRight_toRightOf="apv" />
+                app:layout_constraintBottom_toBottomOf="parrent"
+                app:layout_constraintLeft_toLeftOf="parrent"
+                app:layout_constraintRight_toRightOf="parrent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <View
-        android:id="@id/ap6"
-        android:layout_width="fill_parent"
+        android:id="@id/operate_line"
+        android:layout_width="match_parent"
         android:layout_height="0.5dip"
-        android:background="@color/eb"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/ap7" />
+        android:background="@color/color_242424"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/operate_title_layout" />
     <FrameLayout
-        android:id="@id/ap5"
-        android:layout_width="fill_parent"
+        android:id="@id/operate_continer"
+        android:layout_width="match_parent"
         android:layout_height="173.0dip"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toBottomOf="@id/ap6">
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toBottomOf="@id/operate_line">
         <com.videoai.aivpcore.editorx.newpip.TemplatePipClipView
-            android:id="@id/q4"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:id="@id/clip_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
         <com.videoai.aivpcore.editorx.newpip.TemplatePipMusicView
-            android:id="@id/anv"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/music_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:visibility="gone" />
     </FrameLayout>
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/pd"
-        android:layout_width="fill_parent"
+        android:id="@id/cl_high_level"
+        android:layout_width="match_parent"
         android:layout_height="64.0dip"
-        android:background="@color/dt"
+        android:background="@color/color_141414"
         android:paddingStart="48.0dip"
         android:paddingRight="48.0dip"
-        app:layout_constraintTop_toBottomOf="@id/ap5">
+        app:layout_constraintTop_toBottomOf="@id/operate_continer">
         <TextView
-            android:id="@id/bfl"
-            android:layout_width="fill_parent"
+            android:id="@id/tv_kit_publish"
+            android:layout_width="match_parent"
             android:layout_height="48.0dip"
-            android:background="@drawable/a8e"
+            android:background="@drawable/editorx_shape_save_btn_bg"
             android:gravity="center"
-            android:text="@string/xd"
-            android:textColor="@color/zo"
+            android:text="@string/xiaoying_str_com_save_title"
+            android:textColor="@color/white"
             android:textSize="16.0sp"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toRightOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toRightOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

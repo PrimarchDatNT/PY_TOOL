@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="@dimen/tz"
+    android:layout_marginTop="@dimen/px16"
     android:orientation="vertical"
     android:tag="layout/home_effect_center_component_0">
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/tz"
-        android:layout_marginEnd="@dimen/tz"
+        android:layout_marginStart="@dimen/px16"
+        android:layout_marginEnd="@dimen/px16"
         android:gravity="center"
         android:orientation="horizontal">
         <View
             android:layout_width="0.0dip"
             android:layout_height="1.0dip"
-            android:layout_marginEnd="@dimen/x2"
+            android:layout_marginEnd="@dimen/px38"
             android:layout_weight="1.0"
-            android:background="@color/aj" />
+            android:background="@color/app_dcolor_indicator" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingStart="@dimen/yf"
-            android:paddingEnd="@dimen/yf"
-            android:text="@string/fo"
-            android:textColor="@color/ao"
-            android:textSize="@dimen/z0" />
+            android:paddingStart="@dimen/px8"
+            android:paddingEnd="@dimen/px8"
+            android:text="@string/home_material_hot_title"
+            android:textColor="@color/app_dcolor_text_1"
+            android:textSize="@dimen/sp14" />
         <View
             android:layout_width="0.0dip"
             android:layout_height="1.0dip"
-            android:layout_marginStart="@dimen/x2"
+            android:layout_marginStart="@dimen/px38"
             android:layout_weight="1.0"
-            android:background="@color/aj" />
+            android:background="@color/app_dcolor_indicator" />
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@id/ayn"
-        android:layout_width="fill_parent"
+        android:id="@id/rvContent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/tz" />
+        android:layout_marginTop="@dimen/px16" />
 </LinearLayout>

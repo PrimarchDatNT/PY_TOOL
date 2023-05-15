@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.firebase.inappmessaging.display.internal.layout.FiamFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/a48"
+    android:id="@id/image_root"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
@@ -9,19 +9,19 @@
     android:focusable="true"
     android:padding="24.0dip">
     <FrameLayout
-        android:id="@id/a42"
+        android:id="@id/image_content_root"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal">
         <com.google.firebase.inappmessaging.display.internal.ResizableImageView
-            android:id="@id/a4a"
-            style="@style/hg"
+            android:id="@id/image_view"
+            style="@style/FiamUI_ResizableImageView"
             android:adjustViewBounds="true"
             android:clickable="true"
             android:focusable="true" />
     </FrameLayout>
     <Button
-        android:id="@id/qz"
-        style="@style/hb"
+        android:id="@id/collapse_button"
+        style="@style/FiamUI_CollapseButton"
         android:layout_gravity="end|center|top" />
 </com.google.firebase.inappmessaging.display.internal.layout.FiamFrameLayout>

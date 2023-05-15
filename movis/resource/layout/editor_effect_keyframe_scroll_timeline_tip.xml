@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/biy"
+        android:id="@id/txt_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/b7x"
+        android:background="@drawable/xyui_bg_help_pop_left_up"
         android:gravity="center">
         <TextView
-            android:id="@id/bhr"
+            android:id="@id/tv_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:drawableEnd="@drawable/m2"
-            android:drawableRight="@drawable/m2"
+            android:drawableEnd="@drawable/editor_btn_hide_keyframe_move_to_add_tip"
+            android:drawableRight="@drawable/editor_btn_hide_keyframe_move_to_add_tip"
             android:drawablePadding="5.0dip"
             android:gravity="center_vertical"
             android:includeFontPadding="false"
-            android:text="@string/a88"
+            android:text="@string/xiaoying_str_help_add_new_keyframe"
             android:textColor="#ffffffff"
             android:textSize="12.0sp" />
     </RelativeLayout>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/biy"
+        android:layout_below="@id/txt_layout"
         android:layout_marginStart="22.0dip"
         android:layout_marginLeft="22.0dip"
         android:layout_marginTop="8.0dip"
-        android:src="@drawable/m3" />
+        android:src="@drawable/editor_btn_move_to_add_keyframe" />
 </RelativeLayout>

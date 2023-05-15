@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/auy"
-    android:layout_width="fill_parent"
+    android:id="@id/relative_layout"
+    android:layout_width="match_parent"
     android:layout_height="220.0dip"
-    android:background="@color/dx">
+    android:background="@color/color_171717">
     <RelativeLayout
-        android:id="@id/ae3"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@id/av3"
+        android:id="@id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/relativelayout_preview_btns"
         android:layout_marginTop="1.0dip"
-        android:background="@color/xz">
+        android:background="@color/transparent">
         <include
-            android:id="@id/av7"
-            layout="@layout/ib"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/relativelayout_theme_content"
+            layout="@layout/editor_subtitle_pick_cover_edit_bottom_templates_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_centerVertical="true"
             android:visibility="invisible" />
         <RelativeLayout
-            android:id="@id/av8"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@color/xz"
+            android:id="@id/relativelayout_tool_list_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
             android:visibility="visible">
             <ImageView
-                android:id="@id/kh"
+                android:id="@id/btn_color_reset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="14.0dip"
                 android:layout_marginLeft="14.0dip"
                 android:layout_marginTop="30.0dip"
                 android:scaleType="center"
-                android:src="@drawable/b6g" />
+                android:src="@drawable/xiaoying_ve_edit_cover_color_back" />
             <com.videoai.aivpcore.ui.view.MultiColorBar
-                android:id="@id/amg"
-                android:layout_width="fill_parent"
+                android:id="@id/multicolor_bar"
+                android:layout_width="match_parent"
                 android:layout_height="60.0dip"
                 android:layout_marginStart="50.0dip"
                 android:layout_marginLeft="50.0dip"
@@ -47,58 +47,58 @@
                 app:color_bar_Thumb_visible="true"
                 app:color_bar_height="10.0dip" />
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@id/bqi"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_below="@id/amg"
+                android:id="@id/xiaoying_layout_storyboard_view_fonts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/multicolor_bar"
                 android:scrollbars="none" />
         </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/av3"
-        android:layout_width="fill_parent"
+        android:id="@id/relativelayout_preview_btns"
+        android:layout_width="match_parent"
         android:layout_height="44.0dip"
         android:layout_alignParentBottom="true"
-        android:background="@color/dt">
+        android:background="@color/color_141414">
         <ImageView
-            android:id="@id/m1"
+            android:id="@id/btn_subtitle_cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
-            android:src="@drawable/b6k" />
+            android:src="@drawable/xiaoying_ve_edit_sticker_cancel" />
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_toStartOf="@id/m2"
-            android:layout_toLeftOf="@id/m2"
-            android:layout_toEndOf="@id/m1"
-            android:layout_toRightOf="@id/m1">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/btn_subtitle_ok"
+            android:layout_toLeftOf="@id/btn_subtitle_ok"
+            android:layout_toEndOf="@id/btn_subtitle_cancel"
+            android:layout_toRightOf="@id/btn_subtitle_cancel">
             <TextView
-                android:id="@id/agp"
+                android:id="@id/layout_ve_preview_pop"
                 android:layout_width="50.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
                 android:gravity="center"
-                android:text="@string/ak7"
-                android:textColor="@color/zz"
+                android:text="@string/xiaoying_str_ve_bubble_title"
+                android:textColor="@color/white_p50"
                 android:textSize="16.0sp" />
             <TextView
-                android:id="@id/ago"
+                android:id="@id/layout_ve_preview_font"
                 android:layout_width="50.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1.0"
                 android:gravity="center"
-                android:text="@string/ale"
-                android:textColor="@color/zz"
+                android:text="@string/xiaoying_str_ve_font_title"
+                android:textColor="@color/white_p50"
                 android:textSize="16.0sp" />
         </LinearLayout>
         <ImageView
-            android:id="@id/m2"
+            android:id="@id/btn_subtitle_ok"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:src="@drawable/b6j" />
+            android:src="@drawable/xiaoying_ve_edit_finish" />
     </RelativeLayout>
 </RelativeLayout>

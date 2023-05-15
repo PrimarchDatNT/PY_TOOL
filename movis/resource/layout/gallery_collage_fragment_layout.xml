@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/ahs"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/ah"
+    android:id="@id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_dcolor_bg_1"
     android:orientation="vertical">
     <TextView
-        android:id="@id/bi9"
+        android:id="@id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:fontFamily="@font/f"
-        android:text="@string/j3"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/z0" />
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/overlay"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp14" />
     <FrameLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
-            android:id="@id/bdb"
-            android:layout_width="@dimen/xh"
-            android:layout_height="@dimen/xh"
+            android:id="@id/tv_cancel"
+            android:layout_width="@dimen/px48"
+            android:layout_height="@dimen/px48"
             android:layout_gravity="start|center"
-            android:background="@drawable/jf"
+            android:background="@drawable/btn_dcolor_ripple"
             android:scaleType="centerInside"
-            android:src="@drawable/e0" />
+            android:src="@drawable/app_default_close_white" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@id/az4"
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/xh"
+            android:id="@id/rv_select_list"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px48"
             android:layout_gravity="center"
-            android:layout_marginStart="@dimen/xh"
-            android:layout_marginEnd="@dimen/xh" />
+            android:layout_marginStart="@dimen/px48"
+            android:layout_marginEnd="@dimen/px48" />
         <ImageView
-            android:id="@id/be0"
-            style="@style/x5"
-            android:layout_width="@dimen/xh"
-            android:layout_height="@dimen/xh"
+            android:id="@id/tv_done"
+            style="@style/veds_latn_font_button_14"
+            android:layout_width="@dimen/px48"
+            android:layout_height="@dimen/px48"
             android:layout_gravity="end|center"
-            android:background="@drawable/jf"
+            android:background="@drawable/btn_dcolor_ripple"
             android:scaleType="centerInside"
-            android:src="@drawable/ae0" />
+            android:src="@drawable/gallery_board_next_btn_selector" />
     </FrameLayout>
     <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <com.google.android.material.appbar.AppBarLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/ah"
+            android:background="@color/app_dcolor_bg_1"
             android:orientation="vertical">
             <FrameLayout
-                android:id="@id/zh"
-                android:layout_width="fill_parent"
+                android:id="@id/fl_tab_container"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_scrollFlags="azw|wa" />
         </com.google.android.material.appbar.AppBarLayout>
         <FrameLayout
-            android:id="@id/zc"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/fl_gallery_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:clickable="true"
             android:focusable="true"
-            app:layout_behavior="@string/ch" />
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </LinearLayout>

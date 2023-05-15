@@ -2,13 +2,13 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape>
-            <solid android:color="@color/ep" />
+            <solid android:color="@color/color_33000000" />
             <corners android:radius="22.0dip" />
         </shape>
     </item>
     <item>
         <shape>
-            <solid android:color="@color/iv" />
+            <solid android:color="@color/color_e6e6e6" />
             <corners android:radius="22.0dip" />
         </shape>
     </item>

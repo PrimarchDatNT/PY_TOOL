@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/f6" android:state_selected="true" />
-    <item android:drawable="@drawable/f5" android:state_selected="false" />
-    <item android:drawable="@drawable/f5" />
+    <item android:drawable="@drawable/app_younger_confirm_icon_select" android:state_selected="true" />
+    <item android:drawable="@drawable/app_younger_confirm_icon_nor" android:state_selected="false" />
+    <item android:drawable="@drawable/app_younger_confirm_icon_nor" />
 </selector>

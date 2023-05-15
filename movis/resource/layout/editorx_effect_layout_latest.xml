@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:paddingBottom="@dimen/ul">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/px20">
     <RelativeLayout
-        android:id="@id/aeg"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginStart="@dimen/tz"
-        android:layout_marginEnd="@dimen/tz"
-        android:layout_marginBottom="@dimen/ul">
+        android:id="@id/layout_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/px16"
+        android:layout_marginEnd="@dimen/px16"
+        android:layout_marginBottom="@dimen/px20">
         <LinearLayout
-            android:id="@id/ack"
-            android:layout_width="fill_parent"
+            android:id="@id/layoutEmpty"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/x9"
+            android:layout_marginTop="@dimen/px42"
             android:gravity="center"
             android:orientation="horizontal">
             <View
-                android:layout_width="@dimen/y0"
-                android:layout_height="@dimen/y0"
-                android:background="@drawable/a6v" />
+                android:layout_width="@dimen/px60"
+                android:layout_height="@dimen/px60"
+                android:background="@drawable/editorx_shape_dash_bg_latest" />
             <View
-                android:layout_width="@dimen/y0"
-                android:layout_height="@dimen/y0"
-                android:layout_marginStart="@dimen/td"
-                android:background="@drawable/a6v" />
+                android:layout_width="@dimen/px60"
+                android:layout_height="@dimen/px60"
+                android:layout_marginStart="@dimen/px12"
+                android:background="@drawable/editorx_shape_dash_bg_latest" />
             <View
-                android:layout_width="@dimen/y0"
-                android:layout_height="@dimen/y0"
-                android:layout_marginStart="@dimen/td"
-                android:background="@drawable/a6v" />
+                android:layout_width="@dimen/px60"
+                android:layout_height="@dimen/px60"
+                android:layout_marginStart="@dimen/px12"
+                android:background="@drawable/editorx_shape_dash_bg_latest" />
             <View
-                android:layout_width="@dimen/y0"
-                android:layout_height="@dimen/y0"
-                android:layout_marginStart="@dimen/td"
-                android:background="@drawable/a6v" />
+                android:layout_width="@dimen/px60"
+                android:layout_height="@dimen/px60"
+                android:layout_marginStart="@dimen/px12"
+                android:background="@drawable/editorx_shape_dash_bg_latest" />
         </LinearLayout>
         <TextView
-            android:id="@id/atz"
+            android:id="@id/recent_empty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/ack"
+            android:layout_below="@id/layoutEmpty"
             android:layout_centerHorizontal="true"
-            android:layout_marginStart="@dimen/tz"
+            android:layout_marginStart="@dimen/px16"
             android:layout_marginTop="16.0dip"
-            android:layout_marginEnd="@dimen/tz"
+            android:layout_marginEnd="@dimen/px16"
             android:gravity="center"
-            android:text="@string/a5b"
-            android:textColor="@color/ao"
-            android:textSize="@dimen/yz"
+            android:text="@string/xiaoying_str_editorx_recent_use"
+            android:textColor="@color/app_dcolor_text_1"
+            android:textSize="@dimen/sp12"
             android:visibility="visible" />
     </RelativeLayout>
 </RelativeLayout>

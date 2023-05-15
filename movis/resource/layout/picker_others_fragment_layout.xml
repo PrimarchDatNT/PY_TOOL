@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView
-        android:id="@id/a03"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/folder_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:overScrollMode="never"
         android:scrollbars="none" />
     <RelativeLayout
-        android:id="@id/af3"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/layout_media"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="gone">
         <com.videoai.aivpcore.picker.view.CoordinatorRecyclerView
-            android:id="@id/akk"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/media_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:overScrollMode="never"
             android:scrollbars="none" />
         <ImageView
-            android:id="@id/zu"
+            android:id="@id/folder_back_icon"
             android:layout_width="60.0dip"
             android:layout_height="60.0dip"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginEnd="16.0dip"
             android:layout_marginRight="16.0dip"
-            android:src="@drawable/ao1" />
+            android:src="@drawable/picker_folder_back_icon" />
     </RelativeLayout>
     <include
-        layout="@layout/ub"
+        layout="@layout/picker_empty_media_layout"
         android:visibility="gone" />
 </RelativeLayout>

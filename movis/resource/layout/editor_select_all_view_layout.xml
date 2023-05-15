@@ -2,9 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="26.5dip"
-    android:background="@drawable/wk">
+    android:background="@drawable/editor_shape_select_all_bg">
     <ImageButton
-        android:id="@id/lp"
+        android:id="@id/btn_select"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -12,7 +12,7 @@
         android:layout_marginLeft="10.0dip"
         android:background="@android:color/transparent"
         android:clickable="false"
-        android:src="@drawable/uj" />
+        android:src="@drawable/editor_selector_select_all_clip" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,10 +21,10 @@
         android:layout_marginLeft="5.0dip"
         android:layout_marginEnd="10.0dip"
         android:layout_marginRight="10.0dip"
-        android:layout_toEndOf="@id/lp"
-        android:layout_toRightOf="@id/lp"
+        android:layout_toEndOf="@id/btn_select"
+        android:layout_toRightOf="@id/btn_select"
         android:gravity="center"
-        android:text="@string/a4e"
+        android:text="@string/xiaoying_str_editor_select_all_clip"
         android:textColor="@android:color/white"
         android:textSize="12.0sp" />
 </RelativeLayout>

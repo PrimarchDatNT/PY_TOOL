@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/ajh"
+    android:id="@id/material_clock_face"
     android:layout_width="256.0dip"
     android:layout_height="256.0dip"
     android:layout_gravity="center">
     <com.google.android.material.timepicker.ClockHandView
-        android:id="@id/aji"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/material_clock_hand"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:tag="skip"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv"
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent"
         app:selectorSize="24.0dip" />
 </merge>

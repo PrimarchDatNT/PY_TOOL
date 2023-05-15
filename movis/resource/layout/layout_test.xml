@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/ay5"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:id="@id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <com.videoai.aivpcore.editorx.board.effect.subtitle.SubtitleStyleEditView
-        android:id="@id/bm_"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:id="@id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>

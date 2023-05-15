@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <RelativeLayout
-        android:id="@id/vh"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/editor_fake_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true">
         <RelativeLayout
-            android:id="@id/gx"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/auxiliary_line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:visibility="gone">
             <View
-                android:id="@id/agv"
+                android:id="@id/left_hori"
                 android:layout_width="50.0dip"
                 android:layout_height="0.5dip"
                 android:layout_centerVertical="true"
-                android:background="@color/k9" />
+                android:background="@color/color_ff203d" />
             <View
-                android:id="@id/avu"
+                android:id="@id/right_hori"
                 android:layout_width="50.0dip"
                 android:layout_height="0.5dip"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:background="@color/k9" />
+                android:background="@color/color_ff203d" />
             <View
-                android:id="@id/baf"
+                android:id="@id/top_verti"
                 android:layout_width="0.5dip"
                 android:layout_height="50.0dip"
                 android:layout_centerHorizontal="true"
-                android:background="@color/k9" />
+                android:background="@color/color_ff203d" />
             <View
-                android:id="@id/it"
+                android:id="@id/bottom_verti"
                 android:layout_width="0.5dip"
                 android:layout_height="50.0dip"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:background="@color/k9" />
+                android:background="@color/color_ff203d" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

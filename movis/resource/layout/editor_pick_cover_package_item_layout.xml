@@ -2,41 +2,41 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:attr="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
-    android:layout_height="fill_parent">
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/aj8"
+        android:id="@id/main_layout"
         android:layout_width="75.0dip"
         android:layout_height="75.0dip"
         android:layout_centerVertical="true">
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/a5d"
+            android:id="@id/img_filter_thumb"
             android:layout_width="65.0dip"
             android:layout_height="65.0dip"
             android:layout_centerInParent="true"
             attr:actualImageScaleType="o2" />
         <ImageView
-            android:id="@id/a5c"
+            android:id="@id/img_filter_focus"
             android:layout_width="70.0dip"
             android:layout_height="70.0dip"
             android:layout_centerInParent="true"
-            android:src="@drawable/v5" />
+            android:src="@drawable/editor_shape_bubble_bg_filter_single_selected" />
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/tx"
+            android:id="@id/download_progress"
             android:layout_width="20.0dip"
             android:layout_height="20.0dip"
             android:layout_centerInParent="true" />
         <ImageView
-            android:id="@id/a5n"
+            android:id="@id/img_new_flag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginTop="15.0dip"
             android:scaleType="fitXY"
-            android:src="@drawable/b0z"
+            android:src="@drawable/xiaoying_camera_label_new"
             android:visibility="gone" />
         <ImageView
-            android:id="@id/a5_"
+            android:id="@id/img_download_flag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -44,10 +44,10 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="10.0dip"
             android:scaleType="fitXY"
-            android:src="@drawable/b0w"
+            android:src="@drawable/xiaoying_camera_icon_downloadsticker"
             android:visibility="visible" />
         <ImageView
-            android:id="@id/a5i"
+            android:id="@id/img_lock_flag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -55,7 +55,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="10.0dip"
             android:scaleType="fitXY"
-            android:src="@drawable/b0x"
+            android:src="@drawable/xiaoying_camera_icon_lock"
             android:visibility="gone" />
     </RelativeLayout>
 </RelativeLayout>

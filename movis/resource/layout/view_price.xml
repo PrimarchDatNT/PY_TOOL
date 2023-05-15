@@ -1,104 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/a7a"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/y6"
-        android:layout_marginTop="@dimen/t3"
-        android:background="@drawable/ij">
+        android:id="@id/item_backround"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px64"
+        android:layout_marginTop="@dimen/px10"
+        android:background="@drawable/bg_premium_offer_price_select">
         <View
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:background="?a5d"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bhn"
+            android:id="@id/tv_sub_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/td"
-            android:textColor="@color/c4"
-            android:textSize="@dimen/z0"
+            android:layout_marginStart="@dimen/px12"
+            android:textColor="@color/black_p80"
+            android:textSize="@dimen/sp14"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintStart_toStartOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintStart_toStartOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@id/bir"
+            android:id="@id/tv_year_current"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/td"
-            android:layout_marginEnd="@dimen/td"
-            android:textColor="@color/bz"
-            android:textSize="@dimen/yz"
+            android:layout_marginStart="@dimen/px12"
+            android:layout_marginEnd="@dimen/px12"
+            android:textColor="@color/black_p60"
+            android:textSize="@dimen/sp12"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintEnd_toStartOf="@id/afk"
-            app:layout_constraintStart_toEndOf="@id/bhn"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintEnd_toStartOf="@id/layout_price_year"
+            app:layout_constraintStart_toEndOf="@id/tv_sub_time"
+            app:layout_constraintTop_toTopOf="parrent" />
         <LinearLayout
-            android:id="@id/afk"
+            android:id="@id/layout_price_year"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/td"
+            android:layout_marginEnd="@dimen/px12"
             android:gravity="start|center"
-            android:minWidth="@dimen/t9"
+            android:minWidth="@dimen/px110"
             android:orientation="vertical"
             android:visibility="visible"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintEnd_toEndOf="apv"
-            app:layout_constraintTop_toTopOf="apv">
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintEnd_toEndOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent">
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="start|bottom|center"
                 android:orientation="horizontal">
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/bis"
+                    android:id="@id/tv_year_price"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="start"
-                    android:textColor="@color/bn"
-                    android:textSize="@dimen/z1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp16"
                     android:textStyle="bold" />
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@id/bg0"
+                    android:id="@id/tv_month"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="start"
-                    android:text="@string/hn"
-                    android:textColor="@color/bn"
-                    android:textSize="@dimen/yz"
+                    android:text="@string/month"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp12"
                     android:textStyle="bold" />
             </LinearLayout>
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@id/bg1"
+                android:id="@id/tv_month_on_year"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="start"
-                android:textColor="@color/bz"
-                android:textSize="@dimen/yz"
+                android:textColor="@color/black_p60"
+                android:textSize="@dimen/sp12"
                 android:textStyle="bold" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@id/bgz"
+        android:id="@id/tv_sale_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/td"
-        android:background="@drawable/il"
+        android:layout_marginStart="@dimen/px12"
+        android:background="@drawable/bg_premium_offer_title"
         android:paddingStart="8.0dip"
         android:paddingTop="2.0dip"
         android:paddingEnd="8.0dip"
         android:paddingBottom="2.0dip"
-        android:text="@string/hp"
-        android:textColor="@color/zo"
-        android:textSize="@dimen/yy"
+        android:text="@string/most_popular"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp10"
         android:textStyle="bold" />
 </FrameLayout>

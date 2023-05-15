@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
     <CheckedTextView
-        android:id="@id/t6"
+        android:id="@id/design_menu_item_text"
         android:layout_width="0.0dip"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_weight="1.0"
-        android:drawablePadding="@dimen/e8"
+        android:drawablePadding="@dimen/design_navigation_icon_padding"
         android:gravity="start|center"
         android:maxLines="1"
-        android:textAppearance="@style/ke" />
+        android:textAppearance="@style/TextAppearance_AppCompat_Body2" />
     <ViewStub
-        android:id="@id/t5"
+        android:id="@id/design_menu_item_action_area_stub"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:inflatedId="@id/t4"
-        android:layout="@layout/di" />
+        android:layout_height="match_parent"
+        android:inflatedId="@id/design_menu_item_action_area"
+        android:layout="@layout/design_menu_item_action_area" />
 </merge>

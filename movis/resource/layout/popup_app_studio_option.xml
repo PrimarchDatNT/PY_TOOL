@@ -3,47 +3,47 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/hv"
+    android:background="@drawable/bg_app_setting_dialog"
     android:orientation="vertical">
     <FrameLayout
-        android:id="@id/ahu"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/xh"
-        android:background="@drawable/jf">
+        android:id="@id/ll_delete_video"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px48"
+        android:background="@drawable/btn_dcolor_ripple">
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="@dimen/td"
-            android:drawableStart="@drawable/akq"
-            android:drawablePadding="@dimen/yf"
-            android:fontFamily="@font/f"
+            android:layout_marginStart="@dimen/px12"
+            android:drawableStart="@drawable/ic_studio_delete_draft"
+            android:drawablePadding="@dimen/px8"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="center"
-            android:text="@string/aag"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z0" />
+            android:text="@string/xiaoying_str_person_video_delete"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
     </FrameLayout>
     <View
-        android:layout_width="@dimen/u0"
-        android:layout_height="@dimen/t2"
+        android:layout_width="@dimen/px160"
+        android:layout_height="@dimen/px1"
         android:layout_gravity="center" />
     <FrameLayout
-        android:id="@id/aie"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/xh"
-        android:background="@drawable/jf">
+        android:id="@id/ll_share_video"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px48"
+        android:background="@drawable/btn_dcolor_ripple">
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="@dimen/td"
-            android:drawableStart="@drawable/aki"
-            android:drawablePadding="@dimen/yf"
-            android:fontFamily="@font/f"
+            android:layout_marginStart="@dimen/px12"
+            android:drawableStart="@drawable/ic_share_video"
+            android:drawablePadding="@dimen/px8"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="center"
-            android:text="@string/agl"
-            android:textColor="@color/zo"
-            android:textSize="@dimen/z0"
-            app:drawableTint="@color/zo" />
+            android:text="@string/xiaoying_str_studio_qq_prj_share_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14"
+            app:drawableTint="@color/white" />
     </FrameLayout>
 </LinearLayout>

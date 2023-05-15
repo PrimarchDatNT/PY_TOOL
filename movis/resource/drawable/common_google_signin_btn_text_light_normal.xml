@@ -3,6 +3,6 @@
     <item android:drawable="@drawable/common_google_signin_btn_text_light_normal_background" />
     <item android:left="-36.0dip">
         <bitmap
-            android:gravity="center|left" android:src="@drawable/ahw" />
+            android:gravity="center|left" android:src="@drawable/googleg_standard_color_18" />
     </item>
 </layer-list>

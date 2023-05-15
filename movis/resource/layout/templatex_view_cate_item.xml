@@ -3,14 +3,14 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <com.videoai.aivpcore.xyui.RoundedTextView
-        android:id="@id/bcb"
+        android:id="@id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:fontFamily="@font/f"
+        android:fontFamily="@font/poppins_semibold"
         android:gravity="center"
-        android:paddingStart="@dimen/td"
-        android:paddingEnd="@dimen/td"
-        android:textColor="@color/xb"
-        android:textSize="@dimen/z0" />
+        android:paddingStart="@dimen/px12"
+        android:paddingEnd="@dimen/px12"
+        android:textColor="@color/templatex_sel_color_white_333333"
+        android:textSize="@dimen/sp14" />
 </FrameLayout>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/bn">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
     <include
-        android:id="@id/agl"
-        layout="@layout/f6"
-        android:layout_width="fill_parent"
+        android:id="@id/layout_trim_relate"
+        layout="@layout/editor_clip_trim_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/b7u" />
+        android:layout_above="@id/terminator" />
     <com.videoai.aivpcore.editor.widget.terminator.Terminator
-        android:id="@id/b7u"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/a4r"
+        android:id="@id/terminator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_editor_terminator_height"
         android:layout_alignParentBottom="true" />
 </RelativeLayout>

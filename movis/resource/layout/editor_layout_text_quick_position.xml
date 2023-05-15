@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layoutDirection="ltr">
     <RelativeLayout
-        android:id="@id/ba8"
+        android:id="@id/top_left"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_marginStart="10.0dip"
         android:layout_marginLeft="10.0dip"
         android:layout_marginTop="10.0dip"
-        android:background="@drawable/ut"
+        android:background="@drawable/editor_selector_text_quick_position_bg"
         android:gravity="center">
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:src="@drawable/md" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/editor_btn_text_quick_position_top_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/baa"
+        android:id="@id/top_right"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentEnd="true"
@@ -26,32 +26,32 @@
         android:layout_marginTop="10.0dip"
         android:layout_marginEnd="10.0dip"
         android:layout_marginRight="10.0dip"
-        android:background="@drawable/ut"
+        android:background="@drawable/editor_selector_text_quick_position_bg"
         android:gravity="center">
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:rotation="90.0"
-            android:src="@drawable/md" />
+            android:src="@drawable/editor_btn_text_quick_position_top_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/ip"
+        android:id="@id/bottom_left"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="10.0dip"
         android:layout_marginLeft="10.0dip"
         android:layout_marginBottom="10.0dip"
-        android:background="@drawable/ut"
+        android:background="@drawable/editor_selector_text_quick_position_bg"
         android:gravity="center">
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:rotation="270.0"
-            android:src="@drawable/md" />
+            android:src="@drawable/editor_btn_text_quick_position_top_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/ir"
+        android:id="@id/bottom_right"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentEnd="true"
@@ -60,29 +60,29 @@
         android:layout_marginEnd="10.0dip"
         android:layout_marginRight="10.0dip"
         android:layout_marginBottom="10.0dip"
-        android:background="@drawable/ut"
+        android:background="@drawable/editor_selector_text_quick_position_bg"
         android:gravity="center">
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:rotation="180.0"
-            android:src="@drawable/md" />
+            android:src="@drawable/editor_btn_text_quick_position_top_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/o6"
+        android:id="@id/center_left"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_centerVertical="true"
         android:layout_marginStart="10.0dip"
         android:layout_marginLeft="10.0dip"
-        android:background="@drawable/ut">
+        android:background="@drawable/editor_selector_text_quick_position_bg">
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:src="@drawable/mc" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/editor_btn_text_quick_position_center_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/o7"
+        android:id="@id/center_right"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentEnd="true"
@@ -90,89 +90,89 @@
         android:layout_centerVertical="true"
         android:layout_marginEnd="10.0dip"
         android:layout_marginRight="10.0dip"
-        android:background="@drawable/ut">
+        android:background="@drawable/editor_selector_text_quick_position_bg">
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:rotation="180.0"
-            android:src="@drawable/mc" />
+            android:src="@drawable/editor_btn_text_quick_position_center_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/o8"
+        android:id="@id/center_top"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10.0dip"
-        android:background="@drawable/ut">
+        android:background="@drawable/editor_selector_text_quick_position_bg">
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:rotation="90.0"
-            android:src="@drawable/mc" />
+            android:src="@drawable/editor_btn_text_quick_position_center_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/o4"
+        android:id="@id/center_bottom"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10.0dip"
-        android:background="@drawable/ut">
+        android:background="@drawable/editor_selector_text_quick_position_bg">
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:rotation="270.0"
-            android:src="@drawable/mc" />
+            android:src="@drawable/editor_btn_text_quick_position_center_left" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/o0"
+        android:id="@id/center"
         android:layout_width="40.0dip"
         android:layout_height="40.0dip"
         android:layout_centerInParent="true"
-        android:background="@drawable/ut">
+        android:background="@drawable/editor_selector_text_quick_position_bg">
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:src="@drawable/mb" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/editor_btn_text_quick_position_center" />
     </RelativeLayout>
     <LinearLayout
-        android:id="@id/ah2"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:divider="@drawable/x4"
+        android:id="@id/line_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/editor_shape_text_quick_position_divider"
         android:orientation="vertical"
         android:showDividers="middle">
         <Space
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:layout_weight="1.0" />
         <Space
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:layout_weight="1.0" />
         <Space
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.0dip"
             android:layout_weight="1.0" />
     </LinearLayout>
     <LinearLayout
-        android:id="@id/ah3"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:divider="@drawable/x5"
+        android:id="@id/line_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/editor_shape_text_quick_position_divider_horizontal"
         android:orientation="horizontal"
         android:showDividers="middle">
         <Space
             android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1.0" />
         <Space
             android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1.0" />
         <Space
             android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1.0" />
     </LinearLayout>
 </RelativeLayout>

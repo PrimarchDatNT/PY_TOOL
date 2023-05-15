@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/ary"
+    android:background="@drawable/templatex_shape_item_bg"
     android:tag="layout/templatex_view_list_item_xs_0">
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@id/a4f"
-        android:layout_width="fill_parent"
+        android:id="@id/imgCover"
+        android:layout_width="match_parent"
         android:layout_height="0.0dip"
-        android:layout_margin="@dimen/t2"
-        android:background="@drawable/ae1"
+        android:layout_margin="@dimen/px1"
+        android:background="@drawable/gallery_border_item"
         android:tag="binding_1"
         app:actualImageScaleType="yz"
-        app:layout_constraintBottom_toBottomOf="apv"
+        app:layout_constraintBottom_toBottomOf="parrent"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toEndOf="apv"
-        app:layout_constraintStart_toStartOf="apv"
-        app:layout_constraintTop_toTopOf="apv"
-        app:shapeAppearanceOverlay="@style/iu" />
+        app:layout_constraintEnd_toEndOf="parrent"
+        app:layout_constraintStart_toStartOf="parrent"
+        app:layout_constraintTop_toTopOf="parrent"
+        app:shapeAppearanceOverlay="@style/RoundedImageItem" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/a4l"
+        android:id="@id/imgNew"
         android:layout_width="30.0dip"
         android:layout_height="18.0dip"
         android:layout_marginTop="8.0dip"
         android:layout_marginEnd="8.0dip"
-        android:src="@drawable/ars"
+        android:src="@drawable/templatex_icon_new"
         android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="@id/a4f"
-        app:layout_constraintTop_toTopOf="@id/a4f" />
+        app:layout_constraintEnd_toEndOf="@id/imgCover"
+        app:layout_constraintTop_toTopOf="@id/imgCover" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/a4q"
+        android:id="@id/imgVip"
         android:layout_width="wrap_content"
         android:layout_height="14.0dip"
         android:layout_marginTop="6.0dip"
         android:layout_marginEnd="5.0dip"
         android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="@id/a4f"
-        app:layout_constraintTop_toTopOf="@id/a4f" />
+        app:layout_constraintEnd_toEndOf="@id/imgCover"
+        app:layout_constraintTop_toTopOf="@id/imgCover" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@id/a4j"
+        android:id="@id/imgLock"
         android:layout_width="24.0dip"
         android:layout_height="24.0dip"
         android:layout_marginTop="8.0dip"
         android:layout_marginEnd="8.0dip"
-        android:src="@drawable/arr"
+        android:src="@drawable/templatex_icon_lock"
         android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="@id/a4f"
-        app:layout_constraintTop_toTopOf="@id/a4f" />
+        app:layout_constraintEnd_toEndOf="@id/imgCover"
+        app:layout_constraintTop_toTopOf="@id/imgCover" />
 </androidx.constraintlayout.widget.ConstraintLayout>

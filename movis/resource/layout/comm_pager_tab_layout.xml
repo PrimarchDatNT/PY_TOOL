@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <LinearLayout
-        android:id="@id/aga"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_toStartOf="@id/u5"
-        android:layout_toLeftOf="@id/u5"
+        android:id="@id/layout_tab_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@id/draft_manager_ll"
+        android:layout_toLeftOf="@id/draft_manager_ll"
         android:orientation="horizontal" />
     <LinearLayout
-        android:id="@id/u5"
+        android:id="@id/draft_manager_ll"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginEnd="15.0dip"
@@ -21,27 +21,27 @@
         android:orientation="horizontal"
         android:visibility="gone">
         <TextView
-            android:id="@id/bk2"
+            android:id="@id/user_draft_manager"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawablePadding="4.0dip"
             android:gravity="center_vertical"
-            android:text="@string/v3"
-            android:textColor="@color/fy"
+            android:text="@string/xiaoying_str_com_manage"
+            android:textColor="@color/color_727280"
             android:textSize="14.0sp" />
         <TextView
-            android:id="@id/bk3"
+            android:id="@id/user_draft_manager_cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:text="@string/s_"
-            android:textColor="@color/fy"
+            android:text="@string/xiaoying_str_com_cancel"
+            android:textColor="@color/color_727280"
             android:textSize="14.0sp"
             android:visibility="gone" />
     </LinearLayout>
     <ImageView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.5dip"
         android:layout_alignParentBottom="true"
-        android:background="@color/jj" />
+        android:background="@color/color_f5f5f5" />
 </RelativeLayout>

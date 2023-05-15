@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#33000000"
     android:gravity="center_horizontal"
     android:orientation="vertical">
@@ -9,22 +9,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28.0dip"
-        android:src="@drawable/b0m" />
+        android:src="@drawable/xiaoying_cam_record_rotate_tip_img" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20.0dip"
         android:gravity="center"
-        android:text="@string/rc"
+        android:text="@string/xiaoying_str_camera_record_rotate_tip"
         android:textColor="@android:color/white"
         android:textSize="12.0sp" />
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0.5dip"
         android:layout_marginTop="16.0dip"
         android:background="#1affffff" />
     <TextView
-        android:id="@id/au7"
+        android:id="@id/record_rotate_tip_layout_ok"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6.0dip"
@@ -34,7 +34,7 @@
         android:paddingEnd="36.0dip"
         android:paddingRight="36.0dip"
         android:paddingBottom="12.0dip"
-        android:text="@string/u6"
+        android:text="@string/xiaoying_str_com_got_it"
         android:textColor="@android:color/white"
         android:textSize="14.0sp" />
 </LinearLayout>

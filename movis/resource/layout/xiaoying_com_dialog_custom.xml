@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@id/re"
-        android:layout_width="fill_parent"
+        android:id="@id/content_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="25.0dip"
@@ -12,17 +12,17 @@
         android:layout_marginEnd="25.0dip"
         android:layout_marginRight="25.0dip">
         <com.videoai.aivpcore.ui.dialog.MDRootLayout
-            android:id="@id/akg"
-            android:layout_width="fill_parent"
+            android:id="@id/md_root_layout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/aud"
+            android:background="@drawable/v4_xiaoying_com_dialog_bg"
             android:orientation="vertical">
-            <include layout="@layout/x6" />
+            <include layout="@layout/xiaoying_com_dialog_stub_titleframe" />
             <FrameLayout
-                android:id="@id/si"
-                android:layout_width="fill_parent"
+                android:id="@id/customViewFrame"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
-            <include layout="@layout/x4" />
+            <include layout="@layout/xiaoying_com_dialog_stub_actionbuttons" />
         </com.videoai.aivpcore.ui.dialog.MDRootLayout>
     </RelativeLayout>
 </RelativeLayout>

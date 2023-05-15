@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:autofit="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/rs"
+        android:id="@id/cover_layout"
         android:layout_width="22.0dip"
         android:layout_height="22.0dip"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="7.0dip"
-        autofit:layout_constraintLeft_toLeftOf="apv"
-        autofit:layout_constraintRight_toRightOf="apv"
-        autofit:layout_constraintTop_toTopOf="apv">
+        autofit:layout_constraintLeft_toLeftOf="parrent"
+        autofit:layout_constraintRight_toRightOf="parrent"
+        autofit:layout_constraintTop_toTopOf="parrent">
         <ImageView
-            android:id="@id/b_z"
+            android:id="@id/tool_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -21,65 +21,65 @@
             android:scaleType="centerCrop" />
     </RelativeLayout>
     <androidx.constraintlayout.widget.Guideline
-        android:id="@id/a1z"
+        android:id="@id/gl_ver_center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         autofit:layout_constraintGuide_percent="0.5" />
     <View
-        android:id="@id/a1y"
-        android:layout_width="fill_parent"
+        android:id="@id/gl_hori_center"
+        android:layout_width="match_parent"
         android:layout_height="0.5px"
-        autofit:layout_constraintLeft_toLeftOf="apv"
-        autofit:layout_constraintTop_toTopOf="@id/rs" />
+        autofit:layout_constraintLeft_toLeftOf="parrent"
+        autofit:layout_constraintTop_toTopOf="@id/cover_layout" />
     <ImageView
-        android:id="@id/abr"
+        android:id="@id/iv_tool_item_vip_flag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/sm"
+        android:src="@drawable/editor_icon_vip_16_n"
         android:visibility="gone"
-        autofit:layout_constraintBottom_toBottomOf="@id/a1y"
-        autofit:layout_constraintLeft_toLeftOf="@id/a1z"
-        autofit:layout_constraintTop_toTopOf="@id/a1y" />
+        autofit:layout_constraintBottom_toBottomOf="@id/gl_hori_center"
+        autofit:layout_constraintLeft_toLeftOf="@id/gl_ver_center"
+        autofit:layout_constraintTop_toTopOf="@id/gl_hori_center" />
     <ImageView
-        android:id="@id/abp"
+        android:id="@id/iv_tool_item_new_flag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/od"
+        android:src="@drawable/editor_icon_clip_new_flag"
         android:visibility="gone"
-        autofit:layout_constraintBottom_toBottomOf="@id/a1y"
-        autofit:layout_constraintLeft_toLeftOf="@id/a1z"
-        autofit:layout_constraintTop_toTopOf="@id/a1y" />
+        autofit:layout_constraintBottom_toBottomOf="@id/gl_hori_center"
+        autofit:layout_constraintLeft_toLeftOf="@id/gl_ver_center"
+        autofit:layout_constraintTop_toTopOf="@id/gl_hori_center" />
     <ImageView
-        android:id="@id/abo"
+        android:id="@id/iv_tool_item_free_limit_flag"
         android:layout_width="wrap_content"
         android:layout_height="14.0dip"
         android:scaleType="centerInside"
         android:visibility="gone"
-        autofit:layout_constraintBottom_toBottomOf="@id/a1y"
-        autofit:layout_constraintLeft_toLeftOf="@id/a1z"
-        autofit:layout_constraintTop_toTopOf="@id/a1y" />
+        autofit:layout_constraintBottom_toBottomOf="@id/gl_hori_center"
+        autofit:layout_constraintLeft_toLeftOf="@id/gl_ver_center"
+        autofit:layout_constraintTop_toTopOf="@id/gl_hori_center" />
     <ImageView
-        android:id="@id/abq"
+        android:id="@id/iv_tool_item_oval_flag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5.5dip"
         android:layout_marginRight="3.0dip"
-        android:src="@drawable/x1"
+        android:src="@drawable/editor_shape_text_color_point"
         android:visibility="gone"
-        autofit:layout_constraintRight_toLeftOf="@id/ba0"
-        autofit:layout_constraintTop_toTopOf="@id/ba0" />
+        autofit:layout_constraintRight_toLeftOf="@id/tool_title"
+        autofit:layout_constraintTop_toTopOf="@id/tool_title" />
     <com.videoai.aivpcore.common.ui.widgets.autofittextview.AutofitTextView
-        android:id="@id/ba0"
+        android:id="@id/tool_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5.0dip"
         android:ellipsize="end"
         android:maxLines="1"
-        android:textColor="@color/g9"
+        android:textColor="@color/color_8E8E93"
         android:textSize="11.0sp"
-        autofit:layout_constraintLeft_toLeftOf="apv"
-        autofit:layout_constraintRight_toRightOf="apv"
-        autofit:layout_constraintTop_toBottomOf="@id/rs"
+        autofit:layout_constraintLeft_toLeftOf="parrent"
+        autofit:layout_constraintRight_toRightOf="parrent"
+        autofit:layout_constraintTop_toBottomOf="@id/cover_layout"
         autofit:minTextSize="8.0sp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

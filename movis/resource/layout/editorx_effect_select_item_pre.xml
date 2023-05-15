@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="@dimen/yg"
-    android:layout_height="@dimen/yg"
-    android:background="@drawable/a7_">
+    android:layout_width="@dimen/px80"
+    android:layout_height="@dimen/px80"
+    android:background="@drawable/editorx_shape_effect_item_bg_unchoose">
     <RelativeLayout
-        android:id="@id/a7u"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:id="@id/item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/a_b"
-            android:layout_width="@dimen/tz"
-            android:layout_height="@dimen/tz"
+            android:id="@id/iv_download"
+            android:layout_width="@dimen/px16"
+            android:layout_height="@dimen/px16"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_margin="@dimen/uk"
-            android:src="@drawable/a9f" />
+            android:layout_margin="@dimen/px2"
+            android:src="@drawable/editorx_template_download_icon" />
         <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-            android:id="@id/tr"
-            android:layout_width="@dimen/y0"
-            android:layout_height="@dimen/y0"
+            android:id="@id/div_roll_thumb"
+            android:layout_width="@dimen/px60"
+            android:layout_height="@dimen/px60"
             android:layout_centerInParent="true"
-            android:background="@color/xz"
+            android:background="@color/transparent"
             app:roundedCornerRadius="2.0dip" />
         <com.videoai.aivpcore.editorx.widget.magic.RoundProgressView
-            android:id="@id/asc"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:id="@id/progress_download"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:visibility="gone"
             app:backgroundColor="#99020202"
             app:circleCorner="0.0dip"
@@ -35,24 +35,24 @@
             app:startAngle="270" />
     </RelativeLayout>
     <RelativeLayout
-        android:id="@id/acn"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/layoutMore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="gone">
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@id/a94"
+            android:id="@id/ivMore"
             android:layout_width="24.0dip"
             android:layout_height="24.0dip"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="24.0dip"
-            android:src="@drawable/a07" />
+            android:src="@drawable/editorx_effect_subtitle_more" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/a94"
+            android:layout_below="@id/ivMore"
             android:layout_centerHorizontal="true"
-            android:text="@string/ah6"
-            android:textColor="@color/iv"
+            android:text="@string/xiaoying_str_studio_sns_more"
+            android:textColor="@color/color_e6e6e6"
             android:textSize="14.0sp" />
     </RelativeLayout>
 </RelativeLayout>

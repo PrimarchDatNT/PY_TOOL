@@ -2,23 +2,23 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="60.0dip"
     android:layout_height="60.0dip"
-    android:background="@color/xz">
+    android:background="@color/transparent">
     <RelativeLayout
-        android:id="@id/aew"
+        android:id="@id/layout_item_content"
         android:layout_width="wrap_content"
         android:layout_height="55.0dip"
         android:layout_centerInParent="true"
         android:layout_marginBottom="4.0dip"
         android:background="@null">
         <com.videoai.aivpcore.ui.view.SafeDrawImageView
-            android:id="@id/bqf"
+            android:id="@id/xiaoying_imagebtn_style_thumb"
             android:layout_width="55.0dip"
             android:layout_height="55.0dip"
             android:background="@null"
             android:clickable="false"
             android:scaleType="fitXY" />
         <com.videoai.aivpcore.ui.view.SafeDrawImageView
-            android:id="@id/bqg"
+            android:id="@id/xiaoying_imagebtn_style_thumb_16_9"
             android:layout_width="97.0dip"
             android:layout_height="55.0dip"
             android:background="@null"
@@ -27,35 +27,35 @@
             android:visibility="gone" />
     </RelativeLayout>
     <ImageView
-        android:id="@id/bqm"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/xiaoying_pip_stylelist_focus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:background="@drawable/avg"
+        android:background="@drawable/v4_xiaoying_ve_pip_template_item_bg"
         android:visibility="gone" />
     <RelativeLayout
-        android:id="@id/agb"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@id/layout_thumb_views"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="@null">
         <ImageView
-            android:id="@id/a6g"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@drawable/b2q"
+            android:id="@id/imgview_lock_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/xiaoying_com_mission_lock_mark_bg"
             android:visibility="invisible" />
         <ImageView
-            android:id="@id/a5i"
+            android:id="@id/img_lock_flag"
             android:layout_width="25.0dip"
             android:layout_height="25.0dip"
             android:layout_centerInParent="true"
-            android:background="@color/xz"
+            android:background="@color/transparent"
             android:scaleType="fitXY"
-            android:src="@drawable/b2p"
+            android:src="@drawable/xiaoying_com_mission_download_mark"
             android:visibility="invisible" />
         <ProgressBar
-            android:id="@id/tx"
-            style="@style/y9"
+            android:id="@id/download_progress"
+            style="@style/xiaoying_template_download_progressBar"
             android:layout_width="48.0dip"
             android:layout_height="5.0dip"
             android:layout_centerInParent="true"

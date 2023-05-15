@@ -3,16 +3,16 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <RelativeLayout
-        android:id="@id/aeu"
-        android:layout_width="@dimen/df"
-        android:layout_height="@dimen/df">
+        android:id="@id/layout_imgview_bg"
+        android:layout_width="@dimen/d_45dp"
+        android:layout_height="@dimen/d_45dp">
         <ImageView
-            android:id="@id/a6i"
-            android:layout_width="@dimen/df"
-            android:layout_height="@dimen/df"
+            android:id="@id/imgview_thumbnail"
+            android:layout_width="@dimen/d_45dp"
+            android:layout_height="@dimen/d_45dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/b4a" />
+            android:src="@drawable/xiaoying_com_time_line_default_thumb" />
     </RelativeLayout>
 </RelativeLayout>

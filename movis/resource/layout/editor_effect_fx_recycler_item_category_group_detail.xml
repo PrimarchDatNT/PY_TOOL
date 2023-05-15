@@ -5,43 +5,43 @@
     android:layout_marginEnd="6.0dip"
     android:layout_marginRight="6.0dip">
     <com.videoai.mobile.component.imageview.DynamicLoadingImageView
-        android:id="@id/abn"
+        android:id="@id/iv_thumb"
         android:layout_width="70.0dip"
         android:layout_height="70.0dip"
         android:layout_centerVertical="true"
         android:padding="5.0dip"
         android:scaleType="fitCenter" />
     <ImageView
-        android:id="@id/abw"
+        android:id="@id/iv_vip_func"
         android:layout_width="20.0dip"
         android:layout_height="20.0dip"
-        android:layout_above="@id/abn"
+        android:layout_above="@id/iv_thumb"
         android:layout_marginStart="-10.0dip"
         android:layout_marginLeft="-10.0dip"
         android:layout_marginBottom="-10.0dip"
-        android:layout_toEndOf="@id/abn"
-        android:layout_toRightOf="@id/abn"
-        android:src="@drawable/sm"
+        android:layout_toEndOf="@id/iv_thumb"
+        android:layout_toRightOf="@id/iv_thumb"
+        android:src="@drawable/editor_icon_vip_16_n"
         android:visibility="gone" />
     <ImageView
-        android:id="@id/a_c"
+        android:id="@id/iv_download_flag"
         android:layout_width="15.0dip"
         android:layout_height="15.0dip"
-        android:layout_alignBottom="@id/abn"
+        android:layout_alignBottom="@id/iv_thumb"
         android:layout_marginStart="-10.0dip"
         android:layout_marginLeft="-10.0dip"
         android:layout_marginBottom="4.0dip"
-        android:layout_toEndOf="@id/abn"
-        android:layout_toRightOf="@id/abn"
-        android:background="@color/xz"
-        android:src="@drawable/p0"
+        android:layout_toEndOf="@id/iv_thumb"
+        android:layout_toRightOf="@id/iv_thumb"
+        android:background="@color/transparent"
+        android:src="@drawable/editor_icon_effect_fx_item_download"
         android:visibility="visible" />
     <TextView
-        android:id="@id/be1"
+        android:id="@id/tv_download_process"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="15%"
-        android:textColor="@color/zo"
+        android:textColor="@color/white"
         android:visibility="gone" />
 </RelativeLayout>

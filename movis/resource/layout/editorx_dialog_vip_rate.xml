@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:paddingLeft="15.0dip"
     android:paddingRight="15.0dip"
     android:paddingBottom="32.0dip">
     <ImageView
-        android:id="@id/a_5"
+        android:id="@id/iv_close"
         android:layout_width="28.0dip"
         android:layout_height="28.0dip"
-        android:src="@drawable/dy" />
+        android:src="@drawable/app_default_close_black" />
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@id/aci"
-        android:layout_width="fill_parent"
+        android:id="@id/layoutContent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20.0dip"
-        android:background="@drawable/z0"
+        android:background="@drawable/editorx_bg_vip_check_dialog"
         android:orientation="vertical">
         <TextView
             android:layout_width="0.0dip"
@@ -28,52 +28,52 @@
             android:layout_marginEnd="32.0dip"
             android:layout_marginRight="32.0dip"
             android:gravity="center"
-            android:text="@string/aie"
-            android:textColor="@color/eq"
+            android:text="@string/xiaoying_str_template_rate_unlock_dialog_content"
+            android:textColor="@color/color_333333"
             android:textSize="18.0dip"
             android:textStyle="bold"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toRightOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toRightOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <View
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0.5dip"
             android:layout_marginTop="133.0dip"
-            android:background="@color/j4"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            android:background="@color/color_eeeeee"
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <TextView
-            android:id="@id/bge"
+            android:id="@id/tv_pay_func"
             android:layout_width="0.0dip"
             android:layout_height="52.0dip"
             android:layout_marginTop="133.0dip"
             android:gravity="center"
-            android:text="@string/aid"
-            android:textColor="@color/ky"
+            android:text="@string/xiaoying_str_template_rate_unlock_dialog_confirm"
+            android:textColor="@color/color_ff6333"
             android:textSize="16.0dip"
             app:layout_constraintHorizontal_weight="1.0"
-            app:layout_constraintLeft_toRightOf="@id/bgw"
-            app:layout_constraintRight_toRightOf="apv"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintLeft_toRightOf="@id/tv_remove_vip_func"
+            app:layout_constraintRight_toRightOf="parrent"
+            app:layout_constraintTop_toTopOf="parrent" />
         <TextView
-            android:id="@id/bgw"
+            android:id="@id/tv_remove_vip_func"
             android:layout_width="0.0dip"
             android:layout_height="52.0dip"
             android:layout_marginTop="133.0dip"
             android:gravity="center"
-            android:text="@string/s_"
-            android:textColor="@color/eq"
+            android:text="@string/xiaoying_str_com_cancel"
+            android:textColor="@color/color_333333"
             android:textSize="16.0dip"
             app:layout_constraintHorizontal_weight="1.0"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toLeftOf="@id/bge"
-            app:layout_constraintTop_toTopOf="apv" />
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toLeftOf="@id/tv_pay_func"
+            app:layout_constraintTop_toTopOf="parrent" />
         <View
             android:layout_width="0.5dip"
             android:layout_height="52.0dip"
-            android:background="@color/j4"
-            app:layout_constraintBottom_toBottomOf="apv"
-            app:layout_constraintLeft_toLeftOf="apv"
-            app:layout_constraintRight_toRightOf="apv" />
+            android:background="@color/color_eeeeee"
+            app:layout_constraintBottom_toBottomOf="parrent"
+            app:layout_constraintLeft_toLeftOf="parrent"
+            app:layout_constraintRight_toRightOf="parrent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

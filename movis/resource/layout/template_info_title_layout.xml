@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="48.0dip">
     <ImageView
-        android:id="@id/ke"
+        android:id="@id/btn_back"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
@@ -14,35 +14,35 @@
         android:paddingEnd="8.0dip"
         android:paddingRight="8.0dip"
         android:scaleType="centerInside"
-        android:src="@drawable/dy" />
+        android:src="@drawable/app_default_close_black" />
     <TextView
-        android:id="@id/bi9"
+        android:id="@id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginStart="2.0dip"
         android:layout_marginLeft="2.0dip"
-        android:layout_toEndOf="@id/ke"
-        android:layout_toRightOf="@id/ke"
+        android:layout_toEndOf="@id/btn_back"
+        android:layout_toRightOf="@id/btn_back"
         android:gravity="center"
         android:lines="1"
         android:singleLine="true"
-        android:textColor="@color/fp"
+        android:textColor="@color/color_666666"
         android:textSize="18.0sp" />
     <ImageButton
-        android:id="@id/l2"
+        android:id="@id/btn_manager"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:background="@color/xz"
+        android:background="@color/transparent"
         android:gravity="center"
         android:padding="6.0dip"
-        android:src="@drawable/awu"
-        android:text="@string/v3" />
+        android:src="@drawable/v5_xiaoying_material_management_bg"
+        android:text="@string/xiaoying_str_com_manage" />
     <View
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="1.0dip"
         android:layout_alignParentBottom="true"
-        android:background="@color/fx" />
+        android:background="@color/color_707070_p40" />
 </RelativeLayout>

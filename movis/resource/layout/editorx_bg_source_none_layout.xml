@@ -2,39 +2,39 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
+    android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical">
     <com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout
-        android:id="@id/re"
-        android:layout_width="@dimen/y_"
-        android:layout_height="@dimen/yg">
+        android:id="@id/content_layout"
+        android:layout_width="@dimen/px68"
+        android:layout_height="@dimen/px80">
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@id/aap"
-            android:layout_width="@dimen/y_"
-            android:layout_height="@dimen/y0"
+            android:id="@id/iv_none"
+            android:layout_width="@dimen/px68"
+            android:layout_height="@dimen/px60"
             android:layout_centerHorizontal="true"
-            android:background="@color/ah"
+            android:background="@color/app_dcolor_bg_1"
             android:scaleType="centerInside"
-            android:src="@drawable/a58"
-            app:shapeAppearanceOverlay="@style/iu" />
+            android:src="@drawable/editorx_none_template_icon"
+            app:shapeAppearanceOverlay="@style/RoundedImageItem" />
         <View
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@drawable/ary" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/templatex_shape_item_bg" />
         <View
-            android:id="@id/zt"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@drawable/a7p"
+            android:id="@id/focus_mask_view_none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/editorx_shape_focus_view_bg"
             android:visibility="gone" />
         <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/ul"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px20"
             android:layout_alignParentBottom="true"
             android:gravity="center"
-            android:text="@string/ap2"
-            android:textColor="@color/xj"
-            android:textSize="@dimen/yy" />
+            android:text="@string/xiaoying_str_ve_template_empty_title"
+            android:textColor="@color/text_selector_tab"
+            android:textSize="@dimen/sp10" />
     </com.videoai.aivpcore.templatex.view.TemplateRoundRelativeLayout>
 </LinearLayout>

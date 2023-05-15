@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <LinearLayout
-        android:id="@id/aii"
-        android:layout_width="fill_parent"
+        android:id="@id/ll_trial_title"
+        android:layout_width="match_parent"
         android:layout_height="36.0dip"
         android:layout_marginTop="56.0dip"
         android:alpha="0.89"
-        android:background="@drawable/a__"
+        android:background="@drawable/editorx_trial_title_bg"
         android:gravity="center_vertical"
-        app:layout_constraintTop_toTopOf="apv">
+        app:layout_constraintTop_toTopOf="parrent">
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_marginStart="15.0dip"
             android:gravity="center_vertical"
-            android:textColor="@color/zo" />
+            android:textColor="@color/white" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/a_e" />
+            android:src="@drawable/editorx_vip_trial_arrow" />
     </LinearLayout>
     <TextView
-        android:id="@id/big"
+        android:id="@id/tv_trial_try"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingStart="6.0dip"
         android:paddingTop="2.0dip"
         android:paddingEnd="7.0dip"
         android:paddingBottom="3.0dip"
-        app:layout_constraintBottom_toBottomOf="apv"
-        app:layout_constraintEnd_toEndOf="apv" />
+        app:layout_constraintBottom_toBottomOf="parrent"
+        app:layout_constraintEnd_toEndOf="parrent" />
 </merge>

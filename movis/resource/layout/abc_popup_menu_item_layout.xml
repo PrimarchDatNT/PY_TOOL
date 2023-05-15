@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.view.menu.ListMenuItemView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:minWidth="196.0dip"
     android:orientation="vertical">
     <ImageView
-        android:id="@id/a28"
-        android:layout_width="fill_parent"
+        android:id="@id/group_divider"
+        android:layout_width="match_parent"
         android:layout_height="1.0dip"
         android:layout_marginTop="4.0dip"
         android:layout_marginBottom="4.0dip"
-        android:background="@drawable/av" />
+        android:background="@drawable/abc_list_divider_material" />
     <LinearLayout
-        android:id="@id/ra"
-        style="@style/j1"
-        android:layout_width="fill_parent"
+        android:id="@id/content"
+        style="@style/RtlOverlay_Widget_AppCompat_PopupMenuItem"
+        android:layout_width="match_parent"
         android:layout_height="?la"
         android:duplicateParentState="true">
         <RelativeLayout
-            style="@style/j2"
+            style="@style/RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1.0"
             android:duplicateParentState="true">
             <TextView
-                android:id="@id/b_5"
-                style="@style/j5"
-                android:layout_width="fill_parent"
+                android:id="@id/title"
+                style="@style/RtlOverlay_Widget_AppCompat_PopupMenuItem_Text"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:duplicateParentState="true"
@@ -36,18 +36,18 @@
                 android:singleLine="true"
                 android:textAppearance="?aa2" />
             <TextView
-                android:id="@id/b1j"
-                style="@style/j5"
+                android:id="@id/shortcut"
+                style="@style/RtlOverlay_Widget_AppCompat_PopupMenuItem_Text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/b_5"
+                android:layout_below="@id/title"
                 android:duplicateParentState="true"
                 android:singleLine="true"
                 android:textAppearance="?aaa" />
         </RelativeLayout>
         <ImageView
-            android:id="@id/b5b"
-            style="@style/j4"
+            android:id="@id/submenuarrow"
+            style="@style/RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
