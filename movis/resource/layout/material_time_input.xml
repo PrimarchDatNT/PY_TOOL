@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     app:errorIconDrawable="@null"
     app:hintEnabled="false"
-    app:shapeAppearance="?a5k"
+    app:shapeAppearance="?shapeAppearanceMediumComponent"
     app:shapeAppearanceOverlay="@null">
     <EditText
         android:id="@+id/material_timepicker_edit_text"
@@ -21,5 +21,5 @@
         android:layout_height="wrap_content"
         android:focusable="false"
         android:labelFor="@id/material_timepicker_edit_text"
-        android:textAppearance="?a_v" />
+        android:textAppearance="?textAppearanceCaption" />
 </com.google.android.material.textfield.TextInputLayout>

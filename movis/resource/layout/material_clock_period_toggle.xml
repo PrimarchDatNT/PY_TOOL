@@ -5,7 +5,7 @@
     android:layout_width="@dimen/material_clock_period_toggle_width"
     android:layout_height="@dimen/material_clock_period_toggle_height"
     android:layout_marginStart="@dimen/material_clock_period_toggle_margin_left"
-    android:background="?hw"
+    android:background="?colorSurface"
     android:contentDescription="@string/material_clock_toggle_content_description"
     android:orientation="vertical"
     android:visibility="gone"
@@ -16,16 +16,16 @@
     app:singleSelection="true">
     <com.google.android.material.button.MaterialButton
         android:id="@+id/material_clock_period_am_button"
-        style="?vw"
+        style="?materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:insetTop="8.0dip"
         android:text="@string/material_timepicker_am"
-        app:shapeAppearanceOverlay="?a5k" />
+        app:shapeAppearanceOverlay="?shapeAppearanceMediumComponent" />
     <com.google.android.material.button.MaterialButton
         android:id="@+id/material_clock_period_pm_button"
-        style="?vw"
+        style="?materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:insetBottom="8.0dip"
         android:text="@string/material_timepicker_pm"
-        app:shapeAppearanceOverlay="?a5k" />
+        app:shapeAppearanceOverlay="?shapeAppearanceMediumComponent" />
 </com.google.android.material.button.MaterialButtonToggleGroup>

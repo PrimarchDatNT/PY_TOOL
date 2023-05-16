@@ -245,14 +245,14 @@
     <attr name="badgeTextColor" format="color" />
     <attr name="barLength" format="dimension" />
     <attr name="barrierAllowsGoneWidgets" format="boolean" />
-    <attr name="barrierDirection">
-        <enum name="agt" value="0" />
-        <enum name="avs" value="1" />
-        <enum name="ba1" value="2" />
-        <enum name="il" value="3" />
-        <enum name="b4a" value="5" />
-        <enum name="w8" value="6" />
-    </attr>
+<!--    <attr name="barrierDirection">-->
+<!--        <enum name="agt" value="0" />-->
+<!--        <enum name="avs" value="1" />-->
+<!--        <enum name="ba1" value="2" />-->
+<!--        <enum name="il" value="3" />-->
+<!--        <enum name="b4a" value="5" />-->
+<!--        <enum name="w8" value="6" />-->
+<!--    </attr>-->
     <attr name="barrierMargin" format="dimension" />
     <attr name="behavior_autoHide" format="boolean" />
     <attr name="behavior_autoShrink" format="boolean" />

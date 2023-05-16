@@ -5,7 +5,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="8.0dip"
-    android:background="?hw"
+    android:background="?colorSurface"
     android:baselineAligned="false"
     android:layoutDirection="ltr"
     android:orientation="horizontal"

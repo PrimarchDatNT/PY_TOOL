@@ -299,7 +299,7 @@
     </style>
 
     <style name="Base_MaterialAlertDialog_MaterialComponents_Title_Text" parent="@style/RtlOverlay_DialogWindowTitle_AppCompat">
-        <item name="android:textAppearance">?aab</item>
+        <item name="android:textAppearance">?textAppearanceSubtitle1</item>
         <item name="android:textColor">@color/material_on_surface_emphasis_high_type</item>
         <item name="android:ellipsize">end</item>
         <item name="android:layout_width">wrap_content</item>
@@ -431,7 +431,7 @@
     <style name="Base_TextAppearance_MaterialComponents_Badge" parent="@style/TextAppearance_AppCompat">
         <item name="android:textSize">@dimen/mtrl_badge_text_size</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">?hk</item>
+        <item name="android:textColor">?colorOnError</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:letterSpacing">0.08928572</item>
@@ -724,8 +724,8 @@
         <item name="a6e">@style/Widget_MaterialComponents_Snackbar_TextView</item>
         <item name="a9t">@style/Widget_MaterialComponents_CompoundButton_Switch</item>
         <item name="a_h">@style/Widget_MaterialComponents_TabLayout</item>
-        <item name="aa2">?aab</item>
-        <item name="aaa">?aab</item>
+        <item name="aa2">?textAppearanceSubtitle1</item>
+        <item name="aaa">?textAppearanceSubtitle1</item>
         <item name="aan">@style/Widget_MaterialComponents_TextInputLayout_FilledBox</item>
         <item name="abz">@style/Widget_MaterialComponents_Toolbar</item>
         <item name="adb">com.google.android.material.theme.MaterialComponentsViewInflater</item>
@@ -744,7 +744,7 @@
         <item name="FullTransportControlsButton_Ffwd">?ho</item>
         <item name="FullTransportControlsButton_Next">@color/design_dark_default_color_on_secondary</item>
         <item name="FullTransportControlsButton_Pause">@color/design_dark_default_color_on_surface</item>
-        <item name="Gallery_Scanner_Window_style">?hw</item>
+        <item name="Gallery_Scanner_Window_style">?colorSurface</item>
         <item name="GuideWindowAnim">@color/design_dark_default_color_primary_variant</item>
         <item name="Loading">@color/design_dark_default_color_secondary</item>
         <item name="MD_ActionButton">@color/design_dark_default_color_secondary_variant</item>
@@ -809,8 +809,8 @@
         <item name="a6e">@style/Widget_MaterialComponents_Snackbar_TextView</item>
         <item name="a9t">@style/Widget_MaterialComponents_CompoundButton_Switch</item>
         <item name="a_h">@style/Widget_MaterialComponents_TabLayout</item>
-        <item name="aa2">?aab</item>
-        <item name="aaa">?aab</item>
+        <item name="aa2">?textAppearanceSubtitle1</item>
+        <item name="aaa">?textAppearanceSubtitle1</item>
         <item name="aan">@style/Widget_MaterialComponents_TextInputLayout_FilledBox</item>
         <item name="abz">@style/Widget_MaterialComponents_Toolbar</item>
         <item name="adb">com.google.android.material.theme.MaterialComponentsViewInflater</item>
@@ -828,7 +828,7 @@
         <item name="FullTransportControlsButton_Ffwd">?ho</item>
         <item name="FullTransportControlsButton_Next">@color/design_dark_default_color_on_secondary</item>
         <item name="FullTransportControlsButton_Pause">@color/design_dark_default_color_on_surface</item>
-        <item name="Gallery_Scanner_Window_style">?hw</item>
+        <item name="Gallery_Scanner_Window_style">?colorSurface</item>
         <item name="GuideWindowAnim">@color/design_dark_default_color_primary_variant</item>
         <item name="Loading">@color/design_dark_default_color_secondary</item>
         <item name="MD_ActionButton">@color/design_dark_default_color_secondary_variant</item>
@@ -898,8 +898,8 @@
         <item name="a6e">@style/Widget_MaterialComponents_Snackbar_TextView</item>
         <item name="a9t">@style/Widget_MaterialComponents_CompoundButton_Switch</item>
         <item name="a_h">@style/Widget_MaterialComponents_TabLayout</item>
-        <item name="aa2">?aab</item>
-        <item name="aaa">?aab</item>
+        <item name="aa2">?textAppearanceSubtitle1</item>
+        <item name="aaa">?textAppearanceSubtitle1</item>
         <item name="aan">@style/Widget_MaterialComponents_TextInputLayout_FilledBox</item>
         <item name="abz">@style/Widget_MaterialComponents_Toolbar</item>
         <item name="adb">com.google.android.material.theme.MaterialComponentsViewInflater</item>
@@ -1017,8 +1017,8 @@
         <item name="a6e">@style/Widget_MaterialComponents_Snackbar_TextView</item>
         <item name="a9t">@style/Widget_MaterialComponents_CompoundButton_Switch</item>
         <item name="a_h">@style/Widget_MaterialComponents_TabLayout</item>
-        <item name="aa2">?aab</item>
-        <item name="aaa">?aab</item>
+        <item name="aa2">?textAppearanceSubtitle1</item>
+        <item name="aaa">?textAppearanceSubtitle1</item>
         <item name="aan">@style/Widget_MaterialComponents_TextInputLayout_FilledBox</item>
         <item name="abz">@style/Widget_MaterialComponents_Toolbar</item>
         <item name="adb">com.google.android.material.theme.MaterialComponentsViewInflater</item>
@@ -1796,7 +1796,7 @@
     </style>
 
     <style name="Base_Widget_MaterialComponents_AutoCompleteTextView" parent="@style/Widget_AppCompat_AutoCompleteTextView">
-        <item name="android:textAppearance">?aab</item>
+        <item name="android:textAppearance">?textAppearanceSubtitle1</item>
         <item name="android:background">@null</item>
         <item name="android:paddingLeft">16.0dip</item>
         <item name="android:paddingTop">17.0dip</item>
@@ -1847,7 +1847,7 @@
         <item name="ThemeOverlay_MaterialComponents_ActionBar">0.0dip</item>
         <item name="a3k">@color/mtrl_on_surface_ripple_color</item>
         <item name="a5i">?a5m</item>
-        <item name="a5l">@style/ShapeAppearanceOverlay_MaterialComponents_Chip</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_MaterialComponents_Chip</item>
         <item name="aak">6.0dip</item>
         <item name="aat">8.0dip</item>
     </style>
@@ -1867,7 +1867,7 @@
     </style>
 
     <style name="Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow" parent="@style/Widget_AppCompat_ListPopupWindow">
-        <item name="android:popupBackground">?a1o</item>
+        <item name="android:popupBackground">?popupMenuBackground</item>
         <item name="android:dropDownVerticalOffset">1.0dip</item>
         <item name="android:popupElevation">8.0dip</item>
     </style>
@@ -1881,14 +1881,14 @@
         <item name="Theme_MaterialComponents_Light_Dialog">@dimen/mtrl_slider_halo_radius</item>
         <item name="Widget_AppCompat_ProgressBar_Horizontal">@style/Widget_MaterialComponents_Tooltip</item>
         <item name="xiaoying_dialog_progressBar">0.0dip</item>
-        <item name="ab4">@color/material_slider_thumb_color</item>
-        <item name="ab5">@dimen/mtrl_slider_thumb_elevation</item>
-        <item name="ab6">@dimen/mtrl_slider_thumb_radius</item>
-        <item name="abc">@color/material_slider_active_tick_marks_color</item>
-        <item name="abd">@color/material_slider_inactive_tick_marks_color</item>
-        <item name="ac_">@color/material_slider_active_track_color</item>
-        <item name="aca">@color/material_slider_inactive_track_color</item>
-        <item name="acc">@dimen/mtrl_slider_track_height</item>
+        <item name="thumbColor">@color/material_slider_thumb_color</item>
+        <item name="thumbElevation">@dimen/mtrl_slider_thumb_elevation</item>
+        <item name="thumbRadius">@dimen/mtrl_slider_thumb_radius</item>
+        <item name="tickColorActive">@color/material_slider_active_tick_marks_color</item>
+        <item name="tickColorInactive">@color/material_slider_inactive_tick_marks_color</item>
+        <item name="trackColorActive">@color/material_slider_active_track_color</item>
+        <item name="trackColorInactive">@color/material_slider_inactive_track_color</item>
+        <item name="trackHeight">@dimen/mtrl_slider_track_height</item>
     </style>
 
     <style name="Base_Widget_MaterialComponents_Snackbar" parent="@style/Widget_Design_Snackbar">
@@ -1899,7 +1899,7 @@
     </style>
 
     <style name="Base_Widget_MaterialComponents_TextInputEditText" parent="@style/Widget_Design_TextInputEditText">
-        <item name="android:textAppearance">?aab</item>
+        <item name="android:textAppearance">?textAppearanceSubtitle1</item>
         <item name="android:background">@null</item>
         <item name="android:paddingLeft">16.0dip</item>
         <item name="android:paddingTop">17.0dip</item>
@@ -1909,7 +1909,7 @@
         <item name="android:paddingEnd">16.0dip</item>
         <item name="TextAppearance_Compat_Notification_Time_Media">true</item>
         <item name="TextAppearance_Compat_Notification_Title">true</item>
-        <item name="aam">true</item>
+        <item name="textInputLayoutFocusedRectEnabled">true</item>
     </style>
 
     <style name="Base_Widget_MaterialComponents_TextInputLayout" parent="@style/Widget_Design_TextInputLayout">
@@ -1921,29 +1921,29 @@
         <item name="Base_V7_Theme_AppCompat_Light">@color/mtrl_error</item>
         <item name="Base_V7_Theme_AppCompat_Light_Dialog">@dimen/mtrl_textinput_box_stroke_width_default</item>
         <item name="Base_V7_ThemeOverlay_AppCompat_Dialog">@dimen/mtrl_textinput_box_stroke_width_focused</item>
-        <item name="RtlOverlay_Widget_AppCompat_Search_DropDown_Text">?a_v</item>
+        <item name="RtlOverlay_Widget_AppCompat_Search_DropDown_Text">?textAppearanceCaption</item>
         <item name="RtlOverlay_Widget_AppCompat_SearchView_MagIcon">@color/mtrl_error</item>
-        <item name="RtlUnderlay_Widget_AppCompat_ActionButton">?a_v</item>
+        <item name="RtlUnderlay_Widget_AppCompat_ActionButton">?textAppearanceCaption</item>
         <item name="RtlUnderlay_Widget_AppCompat_ActionButton_Overflow">@color/mtrl_indicator_text_color</item>
         <item name="TextAppearance_Compat_Notification_Line2_Media">@color/mtrl_outlined_icon_tint</item>
         <item name="TextAppearance_Compat_Notification_Time_Media">true</item>
         <item name="TextAppearance_Compat_Notification_Title">true</item>
         <item name="TextAppearance_Design_Counter_Overflow">@drawable/mtrl_ic_error</item>
         <item name="TextAppearance_Design_Error">@color/mtrl_error</item>
-        <item name="TextAppearance_Design_Hint">?a_v</item>
+        <item name="TextAppearance_Design_Hint">?textAppearanceCaption</item>
         <item name="TextAppearance_Design_Placeholder">@color/mtrl_error</item>
-        <item name="Theme_MaterialComponents_Light_Dialog_MinWidth">?a_v</item>
+        <item name="Theme_MaterialComponents_Light_Dialog_MinWidth">?textAppearanceCaption</item>
         <item name="Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge">@color/mtrl_indicator_text_color</item>
-        <item name="Theme_Transparent">?a_v</item>
+        <item name="Theme_Transparent">?textAppearanceCaption</item>
         <item name="ThemeOverlay_AppCompat">?hp</item>
-        <item name="a1j">?aab</item>
-        <item name="a1k">@color/mtrl_indicator_text_color</item>
-        <item name="a1u">?aab</item>
+        <item name="placeholderTextAppearance">?textAppearanceSubtitle1</item>
+        <item name="placeholderTextColor">@color/mtrl_indicator_text_color</item>
+        <item name="a1u">?textAppearanceSubtitle1</item>
         <item name="a1v">@color/mtrl_indicator_text_color</item>
         <item name="a5i">?a5m</item>
-        <item name="a5l">@null</item>
+        <item name="shapeAppearanceOverlay">@null</item>
         <item name="a8t">@color/mtrl_outlined_icon_tint</item>
-        <item name="a9n">?aab</item>
+        <item name="a9n">?textAppearanceSubtitle1</item>
         <item name="a9o">@color/mtrl_indicator_text_color</item>
     </style>
 
@@ -2386,7 +2386,7 @@
         <item name="Base_ThemeOverlay_AppCompat_Dark">@dimen/mtrl_alert_dialog_background_inset_top</item>
         <item name="Widget_MaterialComponents_MaterialCalendar_MonthNavigationButton">@layout/mtrl_alert_select_dialog_item</item>
         <item name="zk">@layout/mtrl_alert_select_dialog_multichoice</item>
-        <item name="a5i">?a5k</item>
+        <item name="a5i">?shapeAppearanceMediumComponent</item>
         <item name="a62">@layout/mtrl_alert_select_dialog_singlechoice</item>
     </style>
 
@@ -2404,14 +2404,14 @@
         <item name="android:datePickerMode">calendar</item>
         <item name="Base_Theme_MaterialComponents_Light_DialogWhenLarge">@dimen/mtrl_alert_dialog_picker_background_inset</item>
         <item name="Base_ThemeOverlay_AppCompat_Dark">@dimen/mtrl_alert_dialog_picker_background_inset</item>
-        <item name="a5i">?a5k</item>
+        <item name="a5i">?shapeAppearanceMediumComponent</item>
     </style>
 
     <style name="MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner" parent="@android:style/Widget.DeviceDefault.DatePicker">
         <item name="android:datePickerMode">spinner</item>
         <item name="Base_Theme_MaterialComponents_Light_DialogWhenLarge">@dimen/mtrl_alert_dialog_picker_background_inset</item>
         <item name="Base_ThemeOverlay_AppCompat_Dark">@dimen/mtrl_alert_dialog_picker_background_inset</item>
-        <item name="a5i">?a5k</item>
+        <item name="a5i">?shapeAppearanceMediumComponent</item>
     </style>
 
     <style name="MaterialAlertDialog_MaterialComponents_Title_Icon" parent="@style/Base_MaterialAlertDialog_MaterialComponents_Title_Icon">
@@ -3394,7 +3394,7 @@
     </style>
 
     <style name="ThemeOverlay_MaterialComponents_ActionBar_Surface" parent="@style/ThemeOverlay_AppCompat_ActionBar">
-        <item name="android:colorBackground">?hw</item>
+        <item name="android:colorBackground">?colorSurface</item>
         <item name="android:textColorPrimary">@color/material_on_surface_emphasis_high_type</item>
         <item name="android:textColorSecondary">@color/material_on_surface_emphasis_medium</item>
         <item name="AppTheme_TabLayout_TextAppearance">@color/material_on_surface_emphasis_medium</item>
@@ -3873,7 +3873,7 @@
         <item name="Base_V21_Theme_AppCompat_Dialog">false</item>
         <item name="TextAppearance_Compat_Notification_Time_Media">false</item>
         <item name="a5i">@null</item>
-        <item name="a5l">@null</item>
+        <item name="shapeAppearanceOverlay">@null</item>
     </style>
 
     <style name="Widget_Design_CollapsingToolbar" parent="@android:style/Widget">
@@ -3954,12 +3954,12 @@
         <item name="a11">@string/password_toggle_content_description</item>
         <item name="a12">@drawable/design_password_eye</item>
         <item name="a14">@color/design_icon_tint</item>
-        <item name="a1j">@style/TextAppearance_Design_Placeholder</item>
-        <item name="a1k">@null</item>
+        <item name="placeholderTextAppearance">@style/TextAppearance_Design_Placeholder</item>
+        <item name="placeholderTextColor">@null</item>
         <item name="a1u">@style/TextAppearance_Design_Prefix</item>
         <item name="a1v">@null</item>
         <item name="a5i">@null</item>
-        <item name="a5l">@null</item>
+        <item name="shapeAppearanceOverlay">@null</item>
         <item name="a8t">@color/design_icon_tint</item>
         <item name="a9n">@style/TextAppearance_Design_Suffix</item>
         <item name="a9o">@null</item>
@@ -3975,12 +3975,12 @@
     <style name="Widget_MaterialComponents_ActionBar_Solid" parent="@style/Widget_AppCompat_ActionBar_Solid">
         <item name="android:minHeight">@dimen/mtrl_toolbar_default_height</item>
         <item name="XYTabLayoutTextAppearance">@dimen/mtrl_toolbar_default_height</item>
-        <item name="a9l">?aab</item>
+        <item name="a9l">?textAppearanceSubtitle1</item>
         <item name="abw">?aa1</item>
     </style>
 
     <style name="Widget_MaterialComponents_ActionBar_Surface" parent="@style/Widget_AppCompat_Light_ActionBar_Solid">
-        <item name="Base_Theme_MaterialComponents_Light_Dialog_FixedSize">?hw</item>
+        <item name="Base_Theme_MaterialComponents_Light_Dialog_FixedSize">?colorSurface</item>
         <item name="TextAppearance_AppCompat_Widget_Button_Colored">0.0dip</item>
     </style>
 
@@ -3989,7 +3989,7 @@
     <style name="Widget_MaterialComponents_AppBarLayout_PrimarySurface" parent="@style/Widget_MaterialComponents_AppBarLayout_Primary" />
 
     <style name="Widget_MaterialComponents_AppBarLayout_Surface" parent="@style/Widget_Design_AppBarLayout">
-        <item name="android:background">?hw</item>
+        <item name="android:background">?colorSurface</item>
     </style>
 
     <style name="Widget_MaterialComponents_AutoCompleteTextView_FilledBox" parent="@style/Base_Widget_MaterialComponents_AutoCompleteTextView">
@@ -4017,7 +4017,7 @@
 
     <style name="Widget_MaterialComponents_BottomAppBar" parent="@style/Widget_AppCompat_Toolbar">
         <item name="android:minHeight">@dimen/mtrl_bottomappbar_height</item>
-        <item name="Base_ThemeOverlay_AppCompat_Light">?hw</item>
+        <item name="Base_ThemeOverlay_AppCompat_Light">?colorSurface</item>
         <item name="TextAppearance_AppCompat_Widget_Button_Colored">8.0dip</item>
         <item name="TextAppearance_Compat_Notification_Time_Media">true</item>
         <item name="TextAppearance_MaterialComponents_Headline5">@dimen/mtrl_bottomappbar_fab_cradle_margin</item>
@@ -4037,15 +4037,15 @@
     <style name="Widget_MaterialComponents_BottomAppBar_PrimarySurface" parent="@style/Widget_MaterialComponents_BottomAppBar_Colored" />
 
     <style name="Widget_MaterialComponents_BottomNavigationView" parent="@style/Widget_Design_BottomNavigationView">
-        <item name="android:background">?hw</item>
+        <item name="android:background">?colorSurface</item>
         <item name="TextAppearance_Compat_Notification_Time_Media">true</item>
         <item name="TextAppearance_Compat_Notification_Title">true</item>
         <item name="Widget_AppCompat_ImageButton">@null</item>
         <item name="Widget_AppCompat_Light_ActionBar_Solid_Inverse">false</item>
         <item name="Widget_AppCompat_Light_ActionBar_TabText">@color/mtrl_bottom_nav_item_tint</item>
         <item name="Widget_AppCompat_Light_ActionBar_TabView_Inverse">@color/mtrl_bottom_nav_ripple_color</item>
-        <item name="Widget_AppCompat_Light_SearchView">?a_v</item>
-        <item name="Widget_AppCompat_Light_Spinner_DropDown_ActionBar">?a_v</item>
+        <item name="Widget_AppCompat_Light_SearchView">?textAppearanceCaption</item>
+        <item name="Widget_AppCompat_Light_Spinner_DropDown_ActionBar">?textAppearanceCaption</item>
         <item name="Widget_AppCompat_ListMenuView">@color/mtrl_bottom_nav_item_tint</item>
     </style>
 
@@ -4055,8 +4055,8 @@
         <item name="TextAppearance_Compat_Notification_Title">true</item>
         <item name="Widget_AppCompat_Light_ActionBar_TabText">@color/mtrl_bottom_nav_colored_item_tint</item>
         <item name="Widget_AppCompat_Light_ActionBar_TabView_Inverse">@color/mtrl_bottom_nav_colored_ripple_color</item>
-        <item name="Widget_AppCompat_Light_SearchView">?a_v</item>
-        <item name="Widget_AppCompat_Light_Spinner_DropDown_ActionBar">?a_v</item>
+        <item name="Widget_AppCompat_Light_SearchView">?textAppearanceCaption</item>
+        <item name="Widget_AppCompat_Light_Spinner_DropDown_ActionBar">?textAppearanceCaption</item>
         <item name="Widget_AppCompat_ListMenuView">@color/mtrl_bottom_nav_colored_item_tint</item>
     </style>
 
@@ -4065,10 +4065,10 @@
     <style name="Widget_MaterialComponents_BottomSheet" parent="@style/Widget_Design_BottomSheet_Modal">
         <item name="android:background">@null</item>
         <item name="android:elevation">@dimen/design_bottom_sheet_elevation</item>
-        <item name="Base_ThemeOverlay_AppCompat_Light">?hw</item>
+        <item name="Base_ThemeOverlay_AppCompat_Light">?colorSurface</item>
         <item name="TextAppearance_Compat_Notification_Time_Media">true</item>
         <item name="a5i">?a5j</item>
-        <item name="a5l">@style/ShapeAppearanceOverlay_MaterialComponents_BottomSheet</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_MaterialComponents_BottomSheet</item>
     </style>
 
     <style name="Widget_MaterialComponents_BottomSheet_Modal" parent="@style/Widget_MaterialComponents_BottomSheet">
@@ -4157,7 +4157,7 @@
 
     <style name="Widget_MaterialComponents_CardView" parent="@style/CardView">
         <item name="android:stateListAnimator">@animator/mtrl_card_state_list_anim</item>
-        <item name="Base_Widget_AppCompat_Button_Borderless">?hw</item>
+        <item name="Base_Widget_AppCompat_Button_Borderless">?colorSurface</item>
         <item name="Base_Widget_AppCompat_Button_Borderless_Colored">@null</item>
         <item name="Base_Widget_AppCompat_Button_ButtonBar_AlertDialog">@dimen/mtrl_card_elevation</item>
         <item name="Base_Widget_AppCompat_Button_Colored">@color/mtrl_card_view_foreground</item>
@@ -4167,7 +4167,7 @@
         <item name="Base_Widget_AppCompat_ListView_Menu">?hp</item>
         <item name="TextAppearance_Compat_Notification_Time_Media">true</item>
         <item name="a3k">@color/mtrl_card_view_ripple</item>
-        <item name="a5i">?a5k</item>
+        <item name="a5i">?shapeAppearanceMediumComponent</item>
     </style>
 
     <style name="Widget_MaterialComponents_CheckedTextView" parent="@style/Base_Widget_MaterialComponents_CheckedTextView">
@@ -4273,7 +4273,7 @@
         <item name="ThemeOverlay_MaterialComponents">@dimen/mtrl_extended_fab_icon_size</item>
         <item name="ThemeOverlay_MaterialComponents_ActionBar_Primary">@color/mtrl_fab_icon_text_color_selector</item>
         <item name="a3k">@color/mtrl_fab_ripple_color</item>
-        <item name="a5l">@style/ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton</item>
     </style>
 
     <style name="Widget_MaterialComponents_ExtendedFloatingActionButton_Icon" parent="@style/Widget_MaterialComponents_ExtendedFloatingActionButton">
@@ -4295,7 +4295,7 @@
         <item name="a1y">@dimen/mtrl_fab_translation_z_pressed</item>
         <item name="a3k">@color/mtrl_fab_ripple_color</item>
         <item name="a5i">?a5m</item>
-        <item name="a5l">@style/ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton</item>
         <item name="a5w">@animator/mtrl_fab_show_motion_spec</item>
         <item name="abk">@color/mtrl_fab_icon_text_color_selector</item>
     </style>
@@ -4303,7 +4303,7 @@
     <style name="Widget_MaterialComponents_Light_ActionBar_Solid" parent="@style/Widget_AppCompat_Light_ActionBar_Solid">
         <item name="android:minHeight">@dimen/mtrl_toolbar_default_height</item>
         <item name="XYTabLayoutTextAppearance">@dimen/mtrl_toolbar_default_height</item>
-        <item name="a9l">?aab</item>
+        <item name="a9l">?textAppearanceSubtitle1</item>
         <item name="abw">?aa1</item>
     </style>
 
@@ -4323,7 +4323,7 @@
         <item name="TestThemeWithLineHeightDisabled">@style/Widget_MaterialComponents_MaterialCalendar_Day</item>
         <item name="TextAppearance_AppCompat">@style/Widget_MaterialComponents_MaterialCalendar_Day_Today</item>
         <item name="a33">@color/mtrl_calendar_selected_range</item>
-        <item name="a5i">?a5k</item>
+        <item name="a5i">?shapeAppearanceMediumComponent</item>
         <item name="adz">@style/Widget_MaterialComponents_MaterialCalendar_Year_Selected</item>
         <item name="ae0">@style/Widget_MaterialComponents_MaterialCalendar_Year</item>
         <item name="ae1">@style/Widget_MaterialComponents_MaterialCalendar_Year_Today</item>
@@ -4356,13 +4356,13 @@
     </style>
 
     <style name="Widget_MaterialComponents_MaterialCalendar_DayTextView" parent="@style/Widget_AppCompat_TextView">
-        <item name="android:textAppearance">?a_v</item>
+        <item name="android:textAppearance">?textAppearanceCaption</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="Widget_MaterialComponents_MaterialCalendar_Fullscreen" parent="@style/Widget_MaterialComponents_MaterialCalendar">
         <item name="android:windowFullscreen">true</item>
-        <item name="a5l">@style/ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen</item>
     </style>
 
     <style name="Widget_MaterialComponents_MaterialCalendar_HeaderCancelButton" parent="@style/Widget_MaterialComponents_Button_TextButton">
@@ -4400,7 +4400,7 @@
     </style>
 
     <style name="Widget_MaterialComponents_MaterialCalendar_HeaderTitle" parent="@style/Widget_AppCompat_TextView">
-        <item name="android:textAppearance">?aa7</item>
+        <item name="android:textAppearance">?textAppearanceOverline</item>
         <item name="android:textColor">?hl</item>
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">1</item>
@@ -4454,7 +4454,7 @@
     <style name="Widget_MaterialComponents_MaterialCalendar_YearNavigationButton" parent="@style/Base_Widget_MaterialComponents_MaterialCalendar_NavigationButton" />
 
     <style name="Widget_MaterialComponents_NavigationView" parent="@style/Widget_Design_NavigationView">
-        <item name="android:background">?hw</item>
+        <item name="android:background">?colorSurface</item>
         <item name="TextAppearance_Compat_Notification_Time_Media">true</item>
         <item name="Widget_AppCompat_ImageButton">@null</item>
         <item name="Widget_AppCompat_Light_ActionBar_Solid">@dimen/mtrl_navigation_item_horizontal_padding</item>
@@ -4472,7 +4472,7 @@
     </style>
 
     <style name="Widget_MaterialComponents_PopupMenu" parent="@style/Base_Widget_MaterialComponents_PopupMenu">
-        <item name="android:popupBackground">?a1o</item>
+        <item name="android:popupBackground">?popupMenuBackground</item>
         <item name="android:popupElevation">8.0dip</item>
     </style>
 
@@ -4481,7 +4481,7 @@
     <style name="Widget_MaterialComponents_PopupMenu_ListPopupWindow" parent="@style/Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow" />
 
     <style name="Widget_MaterialComponents_PopupMenu_Overflow" parent="@style/Base_Widget_MaterialComponents_PopupMenu_Overflow">
-        <item name="android:popupBackground">?a1o</item>
+        <item name="android:popupBackground">?popupMenuBackground</item>
         <item name="android:popupElevation">8.0dip</item>
     </style>
 
@@ -4508,7 +4508,7 @@
 
     <style name="Widget_MaterialComponents_Snackbar_TextView" parent="@style/Widget_AppCompat_TextView">
         <item name="android:textAppearance">?a_t</item>
-        <item name="android:textColor">?hw</item>
+        <item name="android:textColor">?colorSurface</item>
         <item name="android:ellipsize">end</item>
         <item name="android:paddingTop">@dimen/design_snackbar_padding_vertical</item>
         <item name="android:paddingBottom">@dimen/design_snackbar_padding_vertical</item>
@@ -4520,7 +4520,7 @@
     </style>
 
     <style name="Widget_MaterialComponents_TabLayout" parent="@style/Widget_Design_TabLayout">
-        <item name="android:background">?hw</item>
+        <item name="android:background">?colorSurface</item>
         <item name="TextAppearance_Compat_Notification_Time_Media">true</item>
         <item name="TextAppearance_Compat_Notification_Title">true</item>
         <item name="a9y">@color/mtrl_tabs_icon_color_selector</item>
@@ -4566,7 +4566,7 @@
         <item name="Base_V7_Theme_AppCompat_Dialog">@color/mtrl_filled_stroke_color</item>
         <item name="TextAppearance_Compat_Notification_Line2_Media">@color/mtrl_filled_icon_tint</item>
         <item name="XYBottomDialogAnimCute">@style/ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox</item>
-        <item name="a5l">@style/ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox</item>
         <item name="a8t">@color/mtrl_filled_icon_tint</item>
     </style>
 
@@ -4608,7 +4608,7 @@
     <style name="Widget_MaterialComponents_TimePicker">
         <item name="EmbeddedTransportControlsButton_Rew">@drawable/ic_clock_black_24dp</item>
         <item name="Widget_AppCompat_PopupMenu">@drawable/ic_keyboard_black_24dp</item>
-        <item name="a5i">?a5k</item>
+        <item name="a5i">?shapeAppearanceMediumComponent</item>
     </style>
 
     <style name="Widget_MaterialComponents_TimePicker_Button" parent="@style/Widget_MaterialComponents_Button_OutlinedButton">
@@ -4636,7 +4636,7 @@
         <item name="android:textAlignment">center</item>
         <item name="TextAppearance_Compat_Notification_Title_Media">false</item>
         <item name="XYBottomDialogAnimCute">@style/ThemeOverlay_MaterialComponents_TimePicker_Display</item>
-        <item name="a5l">?a5k</item>
+        <item name="shapeAppearanceOverlay">?shapeAppearanceMediumComponent</item>
     </style>
 
     <style name="Widget_MaterialComponents_TimePicker_Display_TextInputEditText" parent="@style/Widget_MaterialComponents_TextInputEditText_OutlinedBox">
@@ -4673,7 +4673,7 @@
     <style name="Widget_MaterialComponents_Toolbar" parent="@style/Widget_AppCompat_Toolbar">
         <item name="android:minHeight">@dimen/mtrl_toolbar_default_height</item>
         <item name="XYTabLayoutTextAppearance">@dimen/mtrl_toolbar_default_height</item>
-        <item name="a9j">?aab</item>
+        <item name="a9j">?textAppearanceSubtitle1</item>
         <item name="a9k">?android:textColorSecondary</item>
         <item name="abu">?aa1</item>
         <item name="abv">?android:textColorPrimary</item>
@@ -4691,7 +4691,7 @@
 
     <style name="Widget_MaterialComponents_Toolbar_Surface" parent="@style/Widget_MaterialComponents_Toolbar">
         <item name="android:theme">@style/ThemeOverlay_MaterialComponents_Toolbar_Surface</item>
-        <item name="android:background">?hw</item>
+        <item name="android:background">?colorSurface</item>
         <item name="a9k">@color/material_on_surface_emphasis_medium</item>
         <item name="abv">@color/material_on_surface_emphasis_high_type</item>
     </style>
