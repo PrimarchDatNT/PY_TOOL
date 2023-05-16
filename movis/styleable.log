@@ -1,0 +1,554 @@
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\my\target\ads\MyTargetView.smali
+	Line  93:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->MyTargetView:[I
+	Line 132:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MyTargetView_myTarget_slotId:I
+	Line 144:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->MyTargetView_myTarget_isRefreshAd:I
+	Line 154:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MyTargetView_myTarget_adSize:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\app\home8\discover\component\LoopImageViewPager.smali
+	Line  83:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->LoopImageViewPager:[I
+	Line  89:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->LoopImageViewPager_auto_loop:I
+	Line  99:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->LoopImageViewPager_loop_time:I
+	Line 109:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->LoopImageViewPager_fit_in:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\app\view\HomeIconView.smali
+	Line 593:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->HomeIconView:[I
+	Line 599:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->HomeIconView_icon_text:I
+	Line 616:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->HomeIconView_icon_selectRes:I
+	Line 629:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->HomeIconView_icon_unselectRes:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\camera\ui\view\BackDeleteButton.smali
+	Line  47:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->RotateView:[I
+	Line  53:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RotateView_isPortrait:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\camera\ui\view\BeautyLevelBar.smali
+	Line 334:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->RotateView:[I
+	Line 340:     sget v1, Lcom/resouce/provider/ResSTYLEABLE;->RotateView_isPortrait:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\camera\ui\view\CamRecordView.smali
+	Line  35:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->AVLoadingIndicatorView:[I
+	Line  41:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->AVLoadingIndicatorView_indicator:I
+	Line  51:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->AVLoadingIndicatorView_indicator_color:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\camera\ui\view\SegProgressbar.smali
+	Line  277:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar:[I
+	Line  285:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_width:I
+	Line  295:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_height:I
+	Line  305:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_shapeType:I
+	Line  313:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_showText:I
+	Line  321:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_showProgressSegment:I
+	Line  337:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_circle_radius:I
+	Line  347:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_circle_X_Y:I
+	Line  366:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_square_radius:I
+	Line  379:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_textSize:I
+	Line  392:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_maxValue:I
+	Line  404:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_progressValue:I
+	Line  414:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_progressColor:I
+	Line  424:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_progressBackColor:I
+	Line  434:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_textLowColor:I
+	Line  444:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_textMiddleColor:I
+	Line  454:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_textHighColor:I
+	Line  464:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_progressSegmentColor:I
+	Line  474:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SegProgressbar_p_progressDoubleSegColor:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\common\ui\custom\RatingBarView.smali
+	Line  73:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->RatingBarView:[I
+	Line  79:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RatingBarView_starNums:I
+	Line  89:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RatingBarView_starRating:I
+	Line  97:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RatingBarView_stepSize:I
+	Line 105:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RatingBarView_minStar:I
+	Line 113:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RatingBarView_emptyDrawable:I
+	Line 121:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RatingBarView_fillDrawable:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\common\ui\emoji\EmojiconTextView.smali
+	Line 100:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->Emojicon:[I
+	Line 106:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->Emojicon_emojiconSize:I
+	Line 120:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->Emojicon_emojiconTextStart:I
+	Line 130:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->Emojicon_emojiconTextLength:I
+	Line 140:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->Emojicon_emojiconUseSystemDefault:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\common\ui\Switch.smali
+	Line  147:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->XY_Switch:[I
+	Line  155:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->XY_Switch_XY_SwitchThumb:I
+	Line  163:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->XY_Switch_XY_Track:I
+	Line  171:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->XY_Switch_XY_TextOn:I
+	Line  179:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->XY_Switch_XY_TextOff:I
+	Line  187:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->XY_Switch_XY_ThumbTextPadding:I
+	Line  195:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->XY_Switch_XY_SwitchMinWidth:I
+	Line  203:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->XY_Switch_XY_SwitchPadding:I
+	Line  211:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->XY_Switch_XY_SwitchTextAppearance:I
+	Line 1404:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->XY_TextAppearance:[I
+	Line 1410:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->XY_TextAppearance_XY_TextColor:I
+	Line 1428:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->XY_TextAppearance_XY_TextSize:I
+	Line 1457:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->XY_TextAppearance_XY_Typeface:I
+	Line 1465:     sget v1, Lcom/resouce/provider/ResSTYLEABLE;->XY_TextAppearance_XY_TextStyle:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\common\ui\widgets\autofittextview\a.smali
+	Line 406:     sget-object v4, Lcom/resouce/provider/ResSTYLEABLE;->AutofitTextView:[I
+	Line 414:     sget p1, Lcom/resouce/provider/ResSTYLEABLE;->AutofitTextView_sizeToFit:I
+	Line 420:     sget p1, Lcom/resouce/provider/ResSTYLEABLE;->AutofitTextView_minTextSize:I
+	Line 426:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->AutofitTextView_precision:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\clipedit\paramadjust\view\ParamAdjustView.smali
+	Line  57:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->ParamAdjustView:[I
+	Line  63:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->ParamAdjustView_referenceFValue:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\effects\ColorfulSeekLayout.smali
+	Line   81:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->ColorfulSeekLayout:[I
+	Line   87:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->ColorfulSeekLayout_timeLineAddable:I
+	Line   95:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->ColorfulSeekLayout_playable:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\pip\TrimMaskView.smali
+	Line  177:     sget-object p4, Lcom/resouce/provider/ResSTYLEABLE;->trimmaskview:[I
+	Line  183:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->trimmaskview_lefthandle:I
+	Line  193:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->trimmaskview_righthandle:I
+	Line  203:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->trimmaskview_curneedle:I
+	Line  213:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->trimmaskview_leftfakehandle:I
+	Line  221:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->trimmaskview_rightfakehandle:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\player\BaseEditorPlayerView.smali
+	Line 129:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->BaseEditorPlayerView:[I
+	Line 135:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->BaseEditorPlayerView_display_mode:I
+	Line 143:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->BaseEditorPlayerView_seek_enable:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\preview\EditorViewPager.smali
+	Line 35:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->EditorViewPager:[I
+	Line 41:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->EditorViewPager_scrollable:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\videotrim\crop\CropImageView.smali
+	Line  779:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView:[I
+	Line  787:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_guidelines:I
+	Line  797:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_fixAspectRatio:I
+	Line  805:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_aspectRatioX:I
+	Line  813:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_aspectRatioY:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\videotrim\ui\TrimMaskView4Import.smali
+	Line  211:     sget-object p4, Lcom/resouce/provider/ResSTYLEABLE;->trimmaskview:[I
+	Line  217:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->trimmaskview_lefthandle:I
+	Line  227:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->trimmaskview_righthandle:I
+	Line  237:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->trimmaskview_curneedle:I
+	Line  245:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->trimmaskview_indicatorhandle:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\videotrim\ui\VePIPGallery.smali
+	Line  279:     sget-object v3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery:[I
+	Line  285:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_gravity:I
+	Line  296:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_animationDuration:I
+	Line  307:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_spacing:I
+	Line  315:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_unselectedAlpha:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\widget\picker\EditorGalleryBoard.smali
+	Line  167:     sget-object p3, Lcom/resouce/provider/ResSTYLEABLE;->EditorGalleryBoard:[I
+	Line  173:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->EditorGalleryBoard_picNoneItem:I
+	Line  183:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->EditorGalleryBoard_picFocus:I
+	Line  191:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->EditorGalleryBoard_topTransparent:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\widget\seekbar\IndicatorSeekBar.smali
+	Line  748:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar:[I
+	Line  754:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_max:I
+	Line  764:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_min:I
+	Line  774:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_progress:I
+	Line  784:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_progress_value_float:I
+	Line  794:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_user_seekable:I
+	Line  804:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_clear_default_padding:I
+	Line  814:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_only_thumb_draggable:I
+	Line  824:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_seek_smoothly:I
+	Line  834:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_r2l:I
+	Line  844:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_track_background_size:I
+	Line  854:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_track_progress_size:I
+	Line  864:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_track_background_color:I
+	Line  874:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_track_progress_color:I
+	Line  884:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_track_rounded_corners:I
+	Line  894:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_thumb_size:I
+	Line  904:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_thumb_drawable:I
+	Line  912:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_thumb_adjust_auto:I
+	Line  922:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_thumb_color:I
+	Line  932:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_show_thumb_text:I
+	Line  942:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_thumb_text_color:I
+	Line  952:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_ticks_count:I
+	Line  962:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_show_tick_marks_type:I
+	Line  972:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_tick_marks_size:I
+	Line  982:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_tick_marks_color:I
+	Line  992:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_tick_marks_drawable:I
+	Line 1000:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_tick_marks_swept_hide:I
+	Line 1010:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_tick_marks_ends_hide:I
+	Line 1020:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_show_tick_texts:I
+	Line 1030:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_tick_texts_size:I
+	Line 1040:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_tick_texts_color:I
+	Line 1050:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_tick_texts_array:I
+	Line 1058:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_tick_texts_typeface:I
+	Line 1070:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_show_indicator:I
+	Line 1080:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_indicator_color:I
+	Line 1090:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_indicator_text_size:I
+	Line 1100:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_indicator_thumb_text_size:I
+	Line 1110:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_indicator_text_color:I
+	Line 1120:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_indicator_thumb_text_color:I
+	Line 1130:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_indicator_content_layout:I
+	Line 1151:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->IndicatorSeekBar_isb_indicator_top_content_layout:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\widget\terminator\Terminator.smali
+	Line  47:     sget-object p3, Lcom/resouce/provider/ResSTYLEABLE;->Terminator:[I
+	Line  53:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Terminator_terminatorText:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\widget\timeline\b.smali
+	Line  280:     sget-object v3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery:[I
+	Line  286:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_gravity:I
+	Line  297:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_animationDuration:I
+	Line  308:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_spacing:I
+	Line  316:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_unselectedAlpha:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\widget\timeline\c.smali
+	Line  279:     sget-object v3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery:[I
+	Line  285:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_gravity:I
+	Line  296:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_animationDuration:I
+	Line  307:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_spacing:I
+	Line  315:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_unselectedAlpha:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\widget\timeline\VeAdvanceTrimGallery.smali
+	Line  358:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->VeTrimGallery:[I
+	Line  364:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VeTrimGallery_LeftTrimBar:I
+	Line  372:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VeTrimGallery_RightTrimBar:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\widget\timeline\VeGallery2.smali
+	Line  35:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery:[I
+	Line  43:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_gravity:I
+	Line  56:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_animationDuration:I
+	Line  67:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_spacing:I
+	Line  75:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_unselectedAlpha:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editor\widget\title\EditorTitle.smali
+	Line  65:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->EditorTitle:[I
+	Line  71:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->EditorTitle_draftEnable:I
+	Line  79:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->EditorTitle_shareEnable:I
+	Line  87:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->EditorTitle_backEnable:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\board\clip\cover\CropImageView.smali
+	Line 1990:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView:[I
+	Line 1996:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_civ_stroke_color:I
+	Line 2008:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_civ_stroke_width:I
+	Line 2020:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_civ_stroke_top_bottom_min_space:I
+	Line 2032:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_civ_drop_text:I
+	Line 2040:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_civ_drop_text_size:I
+	Line 2052:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_civ_drop_text_color:I
+	Line 2064:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_civ_drop_text_left_right_space:I
+	Line 2076:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_civ_min_scale:I
+	Line 2088:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_civ_min_scale:I
+	Line 2100:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_civ_stroke_scale:I
+	Line 2112:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_civ_trans_color:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\board\effect\subtitle2\widget\TabFillView.smali
+	Line  96:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->TabFillView:[I
+	Line 102:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->TabFillView_tfv_tab_title:I
+	Line 110:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->TabFillView_tfv_tab_icon:I
+	Line 118:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->TabFillView_tfv_tab_title_color:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\board\effect\subtitle2\widget\TabIndicatorView.smali
+	Line  58:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->TabIndicatorView:[I
+	Line  64:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->TabIndicatorView_tab_title:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\board\effect\ui\SimpleIconTextView.smali
+	Line 184:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->SimpleIconTextView:[I
+	Line 190:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SimpleIconTextView_sitv_top_drawable:I
+	Line 198:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SimpleIconTextView_sitv_top_text_color:I
+	Line 206:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SimpleIconTextView_sitv_top_type:I
+	Line 216:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SimpleIconTextView_sitv_top_text:I
+	Line 224:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SimpleIconTextView_sitv_bottom_text:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\board\effect\ui\SimpleIconView.smali
+	Line 41:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->SimpleIconView:[I
+	Line 47:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SimpleIconView_simple_drawable:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\board\filter\FilterReverseSeekBarView.smali
+	Line  99:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->FilterSeekBarView:[I
+	Line 105:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->FilterSeekBarView_fsb_type:I
+	Line 115:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->FilterSeekBarView_fsb_top_name_text:I
+	Line 123:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->FilterSeekBarView_fsb_top_img:I
+	Line 131:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->FilterSeekBarView_fsb_max_progress:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\iap\widget\MaxHeightRecyclerView.smali
+	Line 43:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->MaxHeightRecyclerView:[I
+	Line 49:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MaxHeightRecyclerView_maxHeight:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\a.smali
+	Line  85:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->EditorTitleView:[I
+	Line  91:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->EditorTitleView_draftEnable:I
+	Line  99:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->EditorTitleView_backEnable:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\EditorViewPager.smali
+	Line 35:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->EditorViewPager:[I
+	Line 41:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->EditorViewPager_scrollable:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\ImageTextView.smali
+	Line  58:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->ImageTextView:[I
+	Line  64:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ImageTextView_itv_top_img:I
+	Line  72:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ImageTextView_itv_top_name_text:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\magic\helper\c.smali
+	Line  53:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->RCAttrs:[I
+	Line  59:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RCAttrs_round_as_circle:I
+	Line  69:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RCAttrs_stroke_color:I
+	Line 103:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RCAttrs_stroke_width:I
+	Line 111:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RCAttrs_clip_background:I
+	Line 119:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RCAttrs_round_corner:I
+	Line 125:     sget v2, Lcom/resouce/provider/ResSTYLEABLE;->RCAttrs_round_corner_top_left:I
+	Line 131:     sget v3, Lcom/resouce/provider/ResSTYLEABLE;->RCAttrs_round_corner_top_right:I
+	Line 137:     sget v4, Lcom/resouce/provider/ResSTYLEABLE;->RCAttrs_round_corner_bottom_left:I
+	Line 143:     sget v5, Lcom/resouce/provider/ResSTYLEABLE;->RCAttrs_round_corner_bottom_right:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\magic\RoundProgressView.smali
+	Line 171:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->RoundProgressView:[I
+	Line 177:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundProgressView_circleProgress:I
+	Line 187:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundProgressView_circleCorner:I
+	Line 195:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundProgressView_circleRadius:I
+	Line 205:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundProgressView_startAngle:I
+	Line 215:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundProgressView_backgroundColor:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\seekbar\CircleShadowView.smali
+	Line 182:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->CircleShadowView:[I
+	Line 188:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CircleShadowView_csv_bg_color:I
+	Line 200:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CircleShadowView_csv_border_color:I
+	Line 212:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CircleShadowView_csv_border_width:I
+	Line 224:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CircleShadowView_csv_bg_diam:I
+	Line 236:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CircleShadowView_csv_text_size:I
+	Line 248:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CircleShadowView_csv_text_color:I
+	Line 260:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->CircleShadowView_csv_text:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\seekbar\ColorBarBgView.smali
+	Line  631:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar:[I
+	Line  637:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_bg_height:I
+	Line  649:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_color_type:I
+	Line  661:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_thumb_width:I
+	Line  673:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_thumb_height:I
+	Line  685:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_thumb_border_width:I
+	Line  697:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_thumb_border_color:I
+	Line  709:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_bg_left_padding:I
+	Line  721:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_bg_right_padding:I
+	Line  733:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_top_text_bg_space:I
+	Line  745:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_default_color:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\seekbar\ColorSeekBar.smali
+	Line 189:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar:[I
+	Line 195:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_bg_height:I
+	Line 207:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_color_type:I
+	Line 219:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_thumb_width:I
+	Line 231:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_thumb_height:I
+	Line 243:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_thumb_border_width:I
+	Line 255:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_thumb_border_color:I
+	Line 267:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_top_circle_diam:I
+	Line 279:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_top_text_bg_space:I
+	Line 291:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_bg_left_padding:I
+	Line 303:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_bg_right_padding:I
+	Line 315:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ColorSeekBar_csb_default_color:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\seekbar\FontSizeSeekBar.smali
+	Line  454:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->FontSizeSeekBar:[I
+	Line  460:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->FontSizeSeekBar_fsb_text_color:I
+	Line  470:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->FontSizeSeekBar_fsb_text_size:I
+	Line  486:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->FontSizeSeekBar_android_thumb:I
+	Line  496:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->FontSizeSeekBar_android_progressDrawable:I
+	Line  506:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->FontSizeSeekBar_fsb_min_progress:I
+	Line  514:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->FontSizeSeekBar_fsb_rotation:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\seekbar\MarkSeekBar.smali
+	Line 193:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar:[I
+	Line 199:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_mark_bg_height:I
+	Line 209:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_mark_num:I
+	Line 219:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_mark_even_radius:I
+	Line 229:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_mark_odd_radius:I
+	Line 239:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_mark_color:I
+	Line 249:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_mark_text_color:I
+	Line 259:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_mark_bg_color:I
+	Line 269:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_mark_text_size:I
+	Line 279:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_mark_text_bg_space:I
+	Line 289:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_mark_text_array:I
+	Line 297:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_top_text_diam:I
+	Line 307:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_seek_bar_height:I
+	Line 317:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_seek_bar_left_padding:I
+	Line 327:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_seek_bar_right_padding:I
+	Line 337:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_seek_bar_thumb:I
+	Line 345:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_seek_bar_progress_drawable:I
+	Line 353:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_top_text_bg_space:I
+	Line 363:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_top_text_size:I
+	Line 373:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_top_text_color:I
+	Line 383:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MarkSeekBar_msb_max_progress:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\seekbar\PopSeekBar.smali
+	Line  352:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar:[I
+	Line  358:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_bg_color:I
+	Line  370:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_bg_height:I
+	Line  382:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_seek_bar_color:I
+	Line  394:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_seek_bar_height:I
+	Line  406:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_seek_bar_left_padding:I
+	Line  418:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_seek_bar_right_padding:I
+	Line  430:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_text_bg_space:I
+	Line  442:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_top_text_diam:I
+	Line  454:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_top_text_size:I
+	Line  466:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_top_text_color:I
+	Line  478:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_top_circle_color:I
+	Line  490:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_seek_bar_thumb:I
+	Line  498:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_seek_bar_progress_drawable:I
+	Line  506:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_max_progress:I
+	Line  518:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->PopSeekBar_psb_bg_max_progress_color:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\seekbar\ReverseSeekBar.smali
+	Line  326:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->ReverseSeekBar:[I
+	Line  332:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ReverseSeekBar_rsb_progress:I
+	Line  344:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ReverseSeekBar_rsb_max_progress:I
+	Line  356:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ReverseSeekBar_rsb_orientation:I
+	Line  368:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ReverseSeekBar_rsb_bg_color:I
+	Line  380:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ReverseSeekBar_rsb_progress_color:I
+	Line  392:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ReverseSeekBar_rsb_point_color:I
+	Line  404:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ReverseSeekBar_rsb_bg_radius:I
+	Line  416:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ReverseSeekBar_rsb_progress_radius:I
+	Line  428:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ReverseSeekBar_rsb_point_radius:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\seekbar\VHSeekBar.smali
+	Line  512:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->VHSeekBar:[I
+	Line  518:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VHSeekBar_vh_progress:I
+	Line  530:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VHSeekBar_vh_max_progress:I
+	Line  542:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VHSeekBar_vh_orientation:I
+	Line  554:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VHSeekBar_vh_bg_color:I
+	Line  566:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VHSeekBar_vh_progress_color:I
+	Line  578:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VHSeekBar_vh_point_color:I
+	Line  590:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VHSeekBar_vh_bg_radius:I
+	Line  602:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VHSeekBar_vh_progress_radius:I
+	Line  614:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VHSeekBar_vh_point_radius:I
+	Line  626:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VHSeekBar_vh_top_bg_space:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\editorx\widget\SelectTextView.smali
+	Line  39:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->SelectTextView:[I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\module\iap\business\RatioFrameLayout.smali
+	Line  29:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->RatioView:[I
+	Line  35:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RatioView_ratio:I
+	Line  45:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RatioView_percentHorizontal:I
+	Line  53:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RatioView_offset:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\module\iap\VisibilityAsSpace.smali
+	Line  20:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->SettingLine:[I
+	Line  26:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->SettingLine_line_target:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoedit\gallery\widget\crop\CropImageView.smali
+	Line  779:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView:[I
+	Line  787:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_guidelines:I
+	Line  797:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_fixAspectRatio:I
+	Line  805:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_aspectRatioX:I
+	Line  813:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->CropImageView_aspectRatioY:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoedit\gallery\widget\fastscrollview\views\b.smali
+	Line  241:     sget-object v6, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView:[I
+	Line  248:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView_fastScrollAutoHide:I
+	Line  256:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView_fastScrollAutoHideDelay:I
+	Line  264:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView_fastScrollEnableThumbInactiveColor:I
+	Line  272:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView_fastScrollThumbColor:I
+	Line  280:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView_fastScrollThumbInactiveColor:I
+	Line  288:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView_fastScrollTrackColor:I
+	Line  294:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView_fastScrollPopupBgColor:I
+	Line  302:     sget v4, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView_fastScrollPopupTextColor:I
+	Line  308:     sget v4, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView_fastScrollPopupTextSize:I
+	Line  322:     sget v6, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView_fastScrollPopupBackgroundSize:I
+	Line  334:     sget v6, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView_fastScrollPopupTextVerticalAlignmentMode:I
+	Line  340:     sget v7, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView_fastScrollPopupPosition:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoedit\gallery\widget\fastscrollview\views\FastScrollRecyclerView.smali
+	Line   79:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView:[I
+	Line   88:     sget v1, Lcom/resouce/provider/ResSTYLEABLE;->FastScrollRecyclerView_fastScrollThumbEnabled:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoedit\gallery\widget\RoundImageView.smali
+	Line  55:     sget-object p3, Lcom/resouce/provider/ResSTYLEABLE;->RoundImageView:[I
+	Line  73:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->RoundImageView_cornerRadius:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\templatex\view\TemplateCornerMarkerView.smali
+	Line 111:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->TemplateCornerMarkView:[I
+	Line 117:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->TemplateCornerMarkView_tcm_imgae_res:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\ui\dialog\MDRootLayout.smali
+	Line  211:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->MDRootLayout:[I
+	Line  219:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->MDRootLayout_md_reduce_padding_no_title_no_buttons:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\ui\view\MultiColorBar.smali
+	Line  163:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->VS_ColorBarAppearance:[I
+	Line  169:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->VS_ColorBarAppearance_color_bar_CircleRadius:I
+	Line  179:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->VS_ColorBarAppearance_color_bar_ThumbRadius:I
+	Line  187:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->VS_ColorBarAppearance_color_bar_StrokeColor:I
+	Line  195:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->VS_ColorBarAppearance_color_bar_StrokeWidth:I
+	Line  203:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->VS_ColorBarAppearance_color_bar_ThumbWidth:I
+	Line  211:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->VS_ColorBarAppearance_color_bar_ThumbHeight:I
+	Line  219:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->VS_ColorBarAppearance_color_bar_ThumbMarginBottom:I
+	Line  227:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->VS_ColorBarAppearance_color_bar_height:I
+	Line  235:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->VS_ColorBarAppearance_color_bar_Thumb_visible:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\ui\view\ProgressBarWithIndicator.smali
+	Line  33:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressBarWithIndicator:[I
+	Line 183:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressBarWithIndicator_progress_text_color:I
+	Line 193:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressBarWithIndicator_progress_text_size:I
+	Line 203:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressBarWithIndicator_indicator_src:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\ui\view\ProgressWheel.smali
+	Line  217:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel:[I
+	Line  359:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwBarWidth:I
+	Line  373:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwRimWidth:I
+	Line  387:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwSpinSpeed:I
+	Line  401:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwBarLength:I
+	Line  415:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwProgress:I
+	Line  425:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwDelayMillis:I
+	Line  442:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwText:I
+	Line  450:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwText:I
+	Line  459:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwBarColor:I
+	Line  469:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwTextColor:I
+	Line  479:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwRimColor:I
+	Line  489:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwCircleColor:I
+	Line  499:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwContourColor:I
+	Line  509:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwTextSize:I
+	Line  523:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->ProgressWheel_pwContourSize:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\ui\view\RotateImageView.smali
+	Line  83:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->RotateView:[I
+	Line  89:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RotateView_rotation:I
+	Line 147:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->RotateView:[I
+	Line 153:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RotateView_rotation:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\ui\view\RotateTextView.smali
+	Line   95:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->RotateView:[I
+	Line  101:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RotateView_isShadowOn:I
+	Line  111:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RotateView_rotation:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\ui\view\RoundImageView.smali
+	Line  153:     sget-object v3, Lcom/resouce/provider/ResSTYLEABLE;->RoundedImageView:[I
+	Line  159:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundedImageView_android_scaleType:I
+	Line  181:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundedImageView_riv_corner_radius:I
+	Line  191:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundedImageView_riv_border_width:I
+	Line  201:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundedImageView_riv_check_border_width:I
+	Line  211:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundedImageView_riv_check_border_color:I
+	Line  265:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundedImageView_riv_border_color:I
+	Line  282:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundedImageView_riv_mutate_background:I
+	Line  290:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundedImageView_riv_oval:I
+	Line  298:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundedImageView_riv_tile_mode:I
+	Line  321:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundedImageView_riv_tile_mode_x:I
+	Line  336:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->RoundedImageView_riv_tile_mode_y:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\xyui\i\a.smali
+	Line  181:     sget-object v2, Lcom/resouce/provider/ResSTYLEABLE;->MaterialRippleLayout:[I
+	Line  187:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MaterialRippleLayout_mrl_rippleColor:I
+	Line  197:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MaterialRippleLayout_mrl_rippleDimension:I
+	Line  217:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MaterialRippleLayout_mrl_rippleOverlay:I
+	Line  225:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MaterialRippleLayout_mrl_rippleHover:I
+	Line  233:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MaterialRippleLayout_mrl_rippleDuration:I
+	Line  243:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MaterialRippleLayout_mrl_rippleAlpha:I
+	Line  259:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MaterialRippleLayout_mrl_rippleDelayClick:I
+	Line  267:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MaterialRippleLayout_mrl_rippleFadeDuration:I
+	Line  279:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->MaterialRippleLayout_mrl_rippleBackground:I
+	Line  289:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MaterialRippleLayout_mrl_ripplePersistent:I
+	Line  297:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MaterialRippleLayout_mrl_rippleInAdapter:I
+	Line  305:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->MaterialRippleLayout_mrl_rippleRoundedCorners:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\xyui\RoundCornerImageView.smali
+	Line  35:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->RoundCornerImageView:[I
+	Line  53:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->RoundCornerImageView_cornerRadius:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\xyui\RoundedRelativeLayout.smali
+	Line 181:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->VS_RoundedAppearance:[I
+	Line 189:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VS_RoundedAppearance_VS_CornerRadius:I
+	Line 197:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VS_RoundedAppearance_VS_StrokeColor:I
+	Line 205:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VS_RoundedAppearance_VS_StrokeWidth:I
+	Line 213:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VS_RoundedAppearance_VS_SolidColor:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\xyui\RoundedTextView.smali
+	Line  55:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->VS_RoundedAppearance:[I
+	Line  63:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VS_RoundedAppearance_VS_CornerRadius:I
+	Line  71:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VS_RoundedAppearance_VS_StrokeColor:I
+	Line  79:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VS_RoundedAppearance_VS_StrokeWidth:I
+	Line  87:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VS_RoundedAppearance_VS_SolidColor:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\xyui\StoryGridView.smali
+	Line  87:     sget-object v3, Lcom/resouce/provider/ResSTYLEABLE;->StoryGridView:[I
+	Line  94:     sget v2, Lcom/resouce/provider/ResSTYLEABLE;->StoryGridView_pagerSize:I
+	Line 102:     sget v2, Lcom/resouce/provider/ResSTYLEABLE;->StoryGridView_mode:I
+	Line 110:     sget v2, Lcom/resouce/provider/ResSTYLEABLE;->StoryGridView_spanCounts:I
+	Line 118:     sget v2, Lcom/resouce/provider/ResSTYLEABLE;->StoryGridView_orientation:I
+	Line 126:     sget v2, Lcom/resouce/provider/ResSTYLEABLE;->StoryGridView_horizontalSpacing:I
+	Line 138:     sget v2, Lcom/resouce/provider/ResSTYLEABLE;->StoryGridView_verticalSpacing:I
+	Line 150:     sget v2, Lcom/resouce/provider/ResSTYLEABLE;->StoryGridView_includeEdge:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\xyui\view\ArcConvexImageView.smali
+	Line 118:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->ArcConvexImageView:[I
+	Line 126:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->ArcConvexImageView_arc_height:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\mobile\component\imageview\b.smali
+	Line 393:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->DynamicLoadingImageView_roundedCornerRadius:I
+	Line 401:     sget v1, Lcom/resouce/provider/ResSTYLEABLE;->DynamicLoadingImageView_roundAsCircle:I
+	Line 409:     sget v2, Lcom/resouce/provider/ResSTYLEABLE;->DynamicLoadingImageView_roundTopLeft:I
+	Line 417:     sget v4, Lcom/resouce/provider/ResSTYLEABLE;->DynamicLoadingImageView_roundTopRight:I
+	Line 423:     sget v5, Lcom/resouce/provider/ResSTYLEABLE;->DynamicLoadingImageView_roundBottomRight:I
+	Line 429:     sget v6, Lcom/resouce/provider/ResSTYLEABLE;->DynamicLoadingImageView_roundBottomLeft:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\mobile\component\imageview\DynamicLoadingImageView.smali
+	Line 148:     sget-object v1, Lcom/resouce/provider/ResSTYLEABLE;->DynamicLoadingImageView:[I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\mobile\component\imageview\ImageViewEx.smali
+	Line  95:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->DynamicLoadingImageView:[I
+	Line 101:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->DynamicLoadingImageView_aspectRatio:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\mobile\component\imageview\RelativeLayoutEx.smali
+	Line  81:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->DynamicLoadingImageView:[I
+	Line  87:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->DynamicLoadingImageView_aspectRatio:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\mobile\component\utils\widget\RoundCornerImageView.smali
+	Line  55:     sget-object p3, Lcom/resouce/provider/ResSTYLEABLE;->RoundCornerImageView:[I
+	Line  73:     sget v0, Lcom/resouce/provider/ResSTYLEABLE;->RoundCornerImageView_cornerRadius:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoedit\gallery\widget\trim\b.smali
+	Line  280:     sget-object v3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery:[I
+	Line  286:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_gravity:I
+	Line  297:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_animationDuration:I
+	Line  308:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_spacing:I
+	Line  316:     sget p3, Lcom/resouce/provider/ResSTYLEABLE;->VeGallery_android_unselectedAlpha:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoedit\gallery\widget\trim\VeAdvanceTrimGallery.smali
+	Line  320:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->VeTrimGallery:[I
+	Line  326:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VeTrimGallery_LeftTrimBar:I
+	Line  334:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->VeTrimGallery_RightTrimBar:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes7\com\videoedit\mobile\h5core\c\a.smali
+	Line  52:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->apWebView:[I
+	Line  64:     sget p4, Lcom/resouce/provider/ResSTYLEABLE;->apWebView_bizType:I
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes7\com\youth\banner\Banner.smali
+	Line  965:     sget-object v0, Lcom/resouce/provider/ResSTYLEABLE;->Banner:[I
+	Line  971:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_indicator_width:I
+	Line  981:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_indicator_height:I
+	Line  991:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_indicator_margin:I
+	Line 1001:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_indicator_drawable_selected:I
+	Line 1011:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_indicator_drawable_unselected:I
+	Line 1021:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_image_scale_type:I
+	Line 1031:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_delay_time:I
+	Line 1041:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_scroll_time:I
+	Line 1051:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_is_auto_play:I
+	Line 1061:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_title_background:I
+	Line 1071:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_title_height:I
+	Line 1079:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_title_textcolor:I
+	Line 1087:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_title_textsize:I
+	Line 1095:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_banner_layout:I
+	Line 1105:     sget p2, Lcom/resouce/provider/ResSTYLEABLE;->Banner_banner_default_image:I
