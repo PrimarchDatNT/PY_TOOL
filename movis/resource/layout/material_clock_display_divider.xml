@@ -9,6 +9,6 @@
     android:lineSpacingExtra="0.0dip"
     android:maxEms="1"
     android:text="@string/material_clock_display_divider"
-    android:textAppearance="?a_y"
-    android:textColor="?ho"
+    android:textAppearance="?textAppearanceHeadline3"
+    android:textColor="?colorOnSurface"
     android:textSize="56.0dip" />

@@ -771,7 +771,7 @@
         <item name="a_v">@style/TextAppearance_MaterialComponents_Caption</item>
         <item name="a_w">@style/TextAppearance_MaterialComponents_Headline1</item>
         <item name="a_x">@style/TextAppearance_MaterialComponents_Headline2</item>
-        <item name="a_y">@style/TextAppearance_MaterialComponents_Headline3</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance_MaterialComponents_Headline3</item>
         <item name="a_z">@style/TextAppearance_MaterialComponents_Headline4</item>
         <item name="aa0">@style/TextAppearance_MaterialComponents_Headline5</item>
         <item name="aa1">@style/TextAppearance_MaterialComponents_Headline6</item>
@@ -854,7 +854,7 @@
         <item name="a_v">@style/TextAppearance_MaterialComponents_Caption</item>
         <item name="a_w">@style/TextAppearance_MaterialComponents_Headline1</item>
         <item name="a_x">@style/TextAppearance_MaterialComponents_Headline2</item>
-        <item name="a_y">@style/TextAppearance_MaterialComponents_Headline3</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance_MaterialComponents_Headline3</item>
         <item name="a_z">@style/TextAppearance_MaterialComponents_Headline4</item>
         <item name="aa0">@style/TextAppearance_MaterialComponents_Headline5</item>
         <item name="aa1">@style/TextAppearance_MaterialComponents_Headline6</item>
@@ -945,7 +945,7 @@
         <item name="a_v">@style/TextAppearance_MaterialComponents_Caption</item>
         <item name="a_w">@style/TextAppearance_MaterialComponents_Headline1</item>
         <item name="a_x">@style/TextAppearance_MaterialComponents_Headline2</item>
-        <item name="a_y">@style/TextAppearance_MaterialComponents_Headline3</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance_MaterialComponents_Headline3</item>
         <item name="a_z">@style/TextAppearance_MaterialComponents_Headline4</item>
         <item name="aa0">@style/TextAppearance_MaterialComponents_Headline5</item>
         <item name="aa1">@style/TextAppearance_MaterialComponents_Headline6</item>
@@ -980,7 +980,7 @@
         <item name="a_v">@style/TextAppearance_MaterialComponents_Caption</item>
         <item name="a_w">@style/TextAppearance_MaterialComponents_Headline1</item>
         <item name="a_x">@style/TextAppearance_MaterialComponents_Headline2</item>
-        <item name="a_y">@style/TextAppearance_MaterialComponents_Headline3</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance_MaterialComponents_Headline3</item>
         <item name="a_z">@style/TextAppearance_MaterialComponents_Headline4</item>
         <item name="aa0">@style/TextAppearance_MaterialComponents_Headline5</item>
         <item name="aa1">@style/TextAppearance_MaterialComponents_Headline6</item>
@@ -1062,7 +1062,7 @@
         <item name="a_v">@style/TextAppearance_MaterialComponents_Caption</item>
         <item name="a_w">@style/TextAppearance_MaterialComponents_Headline1</item>
         <item name="a_x">@style/TextAppearance_MaterialComponents_Headline2</item>
-        <item name="a_y">@style/TextAppearance_MaterialComponents_Headline3</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance_MaterialComponents_Headline3</item>
         <item name="a_z">@style/TextAppearance_MaterialComponents_Headline4</item>
         <item name="aa0">@style/TextAppearance_MaterialComponents_Headline5</item>
         <item name="aa1">@style/TextAppearance_MaterialComponents_Headline6</item>
@@ -4631,7 +4631,7 @@
     </style>
 
     <style name="Widget_MaterialComponents_TimePicker_Display" parent="@style/Widget_MaterialComponents_Chip_Choice">
-        <item name="android:textAppearance">?a_y</item>
+        <item name="android:textAppearance">?textAppearanceHeadline3</item>
         <item name="android:textSize">56.0dip</item>
         <item name="android:textAlignment">center</item>
         <item name="TextAppearance_Compat_Notification_Title_Media">false</item>
@@ -4640,7 +4640,7 @@
     </style>
 
     <style name="Widget_MaterialComponents_TimePicker_Display_TextInputEditText" parent="@style/Widget_MaterialComponents_TextInputEditText_OutlinedBox">
-        <item name="android:textAppearance">?a_y</item>
+        <item name="android:textAppearance">?textAppearanceHeadline3</item>
         <item name="android:textSize">56.0dip</item>
         <item name="android:gravity">center</item>
         <item name="android:paddingTop">4.0dip</item>

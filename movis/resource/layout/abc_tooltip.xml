@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/tooltip_margin"
-        android:background="?ac1"
+        android:background="?tooltipFrameBackground"
         android:ellipsize="end"
         android:maxWidth="256.0dip"
         android:maxLines="3"
@@ -19,5 +19,5 @@
         android:paddingRight="@dimen/tooltip_horizontal_padding"
         android:paddingBottom="@dimen/tooltip_vertical_padding"
         android:textAppearance="@style/TextAppearance_AppCompat_Tooltip"
-        android:textColor="?ac0" />
+        android:textColor="?tooltipForegroundColor" />
 </LinearLayout>
