@@ -1,6 +1,7 @@
 import os
 import re
 import xml.etree.ElementTree as ET
+import movis.model as Model
 
 # ---WORKSPACE DIR---
 ROOT_DIR = 'D:/PY_PROJECT/TOOL/movis'
@@ -62,13 +63,6 @@ ENCYP_TO_ORG_RES_MAPPER = {}
 SPERATOR = '---'
 
 
-class ResourceData:
-    def __init__(self, org, encrypt, hid, restype):
-        self.org = org
-        self.encrypt = encrypt
-        self.hid = hid
-        self.restype = restype
-
 
 def get_file_name_without_extension(file_path):
     file_name = os.path.basename(file_path)
@@ -112,7 +106,7 @@ if __name__ == '__main__':
                 hexid = line[(line.index('=') + 1):].strip()
                 encrypname = res_id[typekey][hexid]
                 CHECK_ID.append(hexid)
-                RESOUCE_DATA.append(ResourceData(org=orgname, encrypt=encrypname, hid=hexid, restype=typekey))
+                RESOUCE_DATA.append(Model.ResourceData(org=orgname, encrypt=encrypname, hid=hexid, restype=typekey))
 
     # ---create mapper---
     # for data in RESOUCE_DATA:
