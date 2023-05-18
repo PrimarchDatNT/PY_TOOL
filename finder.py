@@ -1,0 +1,31 @@
+import os
+import fnmatch
+
+DIRECTORY_TO_SEARCH = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/com.videomaker.movis/code/smali_classes2'
+
+FILE_PATTERN = "*.smali"
+
+SEARCH_STRING = "bytedance"
+
+
+def find_string_in_files(directory, pattern, search_string):
+    matches = []
+    for root, dirnames, filenames in os.walk(directory):
+        for filename in fnmatch.filter(filenames, pattern):
+            file_path = os.path.join(root, filename).replace('\\', '/')
+            with open(file_path, 'r') as file:
+                for line_number, line in enumerate(file, start=1):
+                    if search_string in line:
+                        matches.append((file_path, line_number, line.strip()))
+    return matches
+
+
+if __name__ == '__main__':
+
+    results = find_string_in_files(directory=DIRECTORY_TO_SEARCH, pattern=FILE_PATTERN, search_string=SEARCH_STRING)
+
+    if results:
+        for file_path, line_number, line in results:
+            print(f"Found '{SEARCH_STRING}' in '{file_path}' at line {line_number}: {line}")
+    else:
+        print("No matches found.")

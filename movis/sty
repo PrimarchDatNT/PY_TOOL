@@ -1,0 +1,473 @@
+public static final int[] MyTargetView = {R.attr.zl, R.attr.zm, R.attr.zn};
+public static final int MyTargetView_myTarget_adSize = 0;
+public static final int MyTargetView_myTarget_isRefreshAd = 1;
+public static final int MyTargetView_myTarget_slotId = 2;
+
+public static final int[] RotateView = {R.attr.q9, R.attr.q_, R.attr.a3v};
+public static final int RotateView_isPortrait = 0;
+public static final int RotateView_isShadowOn = 1;
+public static final int RotateView_rotation = 2;
+
+public static final int[] AVLoadingIndicatorView = {com.beautyvideo.photovideomaker.videoshow.R.attr.pr, com.beautyvideo.photovideomaker.videoshow.R.attr.px};
+public static final int AVLoadingIndicatorView_indicator = 0;
+public static final int AVLoadingIndicatorView_indicator_color = 1;
+
+public static final int[] SegProgressbar = {R.attr.a09, R.attr.a0_, R.attr.a0a, R.attr.a0b, R.attr.a0c, R.attr.a0d, R.attr.a0e, R.attr.a0f, R.attr.a0g, R.attr.a0h, R.attr.a0i, R.attr.a0j, R.attr.a0k, R.attr.a0l, R.attr.a0m, R.attr.a0n, R.attr.a0o, R.attr.a0p};
+public static final int SegProgressbar_p_circle_X_Y = 0;
+public static final int SegProgressbar_p_circle_radius = 1;
+public static final int SegProgressbar_p_height = 2;
+public static final int SegProgressbar_p_maxValue = 3;
+public static final int SegProgressbar_p_progressBackColor = 4;
+public static final int SegProgressbar_p_progressColor = 5;
+public static final int SegProgressbar_p_progressDoubleSegColor = 6;
+public static final int SegProgressbar_p_progressSegmentColor = 7;
+public static final int SegProgressbar_p_progressValue = 8;
+public static final int SegProgressbar_p_shapeType = 9;
+public static final int SegProgressbar_p_showProgressSegment = 10;
+public static final int SegProgressbar_p_showText = 11;
+public static final int SegProgressbar_p_square_radius = 12;
+public static final int SegProgressbar_p_textHighColor = 13;
+public static final int SegProgressbar_p_textLowColor = 14;
+public static final int SegProgressbar_p_textMiddleColor = 15;
+public static final int SegProgressbar_p_textSize = 16;
+public static final int SegProgressbar_p_width = 17;
+
+public static final int[] RatingBarView = {com.beautyvideo.photovideomaker.videoshow.R.attr.lm, com.beautyvideo.photovideomaker.videoshow.R.attr.n6, com.beautyvideo.photovideomaker.videoshow.R.attr.xu, com.beautyvideo.photovideomaker.videoshow.R.attr.a8k, com.beautyvideo.photovideomaker.videoshow.R.attr.a8l, com.beautyvideo.photovideomaker.videoshow.R.attr.a8m, com.beautyvideo.photovideomaker.videoshow.R.attr.a8n, com.beautyvideo.photovideomaker.videoshow.R.attr.a8o, com.beautyvideo.photovideomaker.videoshow.R.attr.a95};
+public static final int RatingBarView_emptyDrawable = 0;
+public static final int RatingBarView_fillDrawable = 1;
+public static final int RatingBarView_minStar = 2;
+public static final int RatingBarView_starHeight = 3;
+public static final int RatingBarView_starNums = 4;
+public static final int RatingBarView_starPadding = 5;
+public static final int RatingBarView_starRating = 6;
+public static final int RatingBarView_starWidth = 7;
+public static final int RatingBarView_stepSize = 8;
+
+public static final int[] Emojicon = {com.beautyvideo.photovideomaker.videoshow.R.attr.li, com.beautyvideo.photovideomaker.videoshow.R.attr.lj, com.beautyvideo.photovideomaker.videoshow.R.attr.lk, com.beautyvideo.photovideomaker.videoshow.R.attr.ll};
+public static final int Emojicon_emojiconSize = 0;
+public static final int Emojicon_emojiconTextLength = 1;
+public static final int Emojicon_emojiconTextStart = 2;
+public static final int Emojicon_emojiconUseSystemDefault = 3;
+
+public static final int[] XY_Switch = {R.attr.l, R.attr.m, R.attr.n, R.attr.o, R.attr.u, R.attr.v, R.attr.y, R.attr.z};
+public static final int XY_Switch_XY_SwitchMinWidth = 0;
+public static final int XY_Switch_XY_SwitchPadding = 1;
+public static final int XY_Switch_XY_SwitchTextAppearance = 2;
+public static final int XY_Switch_XY_SwitchThumb = 3;
+public static final int XY_Switch_XY_TextOff = 4;
+public static final int XY_Switch_XY_TextOn = 5;
+public static final int XY_Switch_XY_ThumbTextPadding = 6;
+public static final int XY_Switch_XY_Track = 7;
+
+public static final int[] XY_TextAppearance = {R.attr.k, R.attr.p, R.attr.q, R.attr.r, R.attr.s, R.attr.t, R.attr.w, R.attr.x, R.attr.a0};
+public static final int XY_TextAppearance_XY_FontFamily = 0;
+public static final int XY_TextAppearance_XY_TextAllCaps = 1;
+public static final int XY_TextAppearance_XY_TextColor = 2;
+public static final int XY_TextAppearance_XY_TextColorHighlight = 3;
+public static final int XY_TextAppearance_XY_TextColorHint = 4;
+public static final int XY_TextAppearance_XY_TextColorLink = 5;
+public static final int XY_TextAppearance_XY_TextSize = 6;
+public static final int XY_TextAppearance_XY_TextStyle = 7;
+public static final int XY_TextAppearance_XY_Typeface = 8;
+
+public static final int[] AutofitTextView = {R.attr.xv, R.attr.a1s, R.attr.a6a};
+public static final int AutofitTextView_minTextSize = 0;
+public static final int AutofitTextView_precision = 1;
+public static final int AutofitTextView_sizeToFit = 2;
+
+public static final int[] ParamAdjustView = {com.beautyvideo.photovideomaker.videoshow.R.attr.a3c};
+public static final int ParamAdjustView_referenceFValue = 0;
+
+public static final int[] ColorfulSeekLayout = {com.beautyvideo.photovideomaker.videoshow.R.attr.a1m, com.beautyvideo.photovideomaker.videoshow.R.attr.abi};
+public static final int ColorfulSeekLayout_playable = 0;
+
+public static final int[] trimmaskview = {com.beautyvideo.photovideomaker.videoshow.R.attr.jx, com.beautyvideo.photovideomaker.videoshow.R.attr.q4, com.beautyvideo.photovideomaker.videoshow.R.attr.uk, com.beautyvideo.photovideomaker.videoshow.R.attr.ul, com.beautyvideo.photovideomaker.videoshow.R.attr.a3i, com.beautyvideo.photovideomaker.videoshow.R.attr.a3j, com.beautyvideo.photovideomaker.videoshow.R.attr.abj};
+public static final int trimmaskview_curneedle = 0;
+public static final int trimmaskview_indicatorhandle = 1;
+public static final int trimmaskview_leftfakehandle = 2;
+public static final int trimmaskview_lefthandle = 3;
+public static final int trimmaskview_rightfakehandle = 4;
+public static final int trimmaskview_righthandle = 5;
+public static final int trimmaskview_timelinemargintop = 6;
+
+public static final int[] BaseEditorPlayerView = {com.beautyvideo.photovideomaker.videoshow.R.attr.kn, com.beautyvideo.photovideomaker.videoshow.R.attr.a5c};
+public static final int BaseEditorPlayerView_display_mode = 0;
+public static final int BaseEditorPlayerView_seek_enable = 1;
+
+public static final int[] EditorViewPager = {com.beautyvideo.photovideomaker.videoshow.R.attr.a58};
+public static final int EditorViewPager_scrollable = 0;
+
+public static final int[] CropImageView = {com.beautyvideo.photovideomaker.videoshow.R.attr.cn, com.beautyvideo.photovideomaker.videoshow.R.attr.co, com.beautyvideo.photovideomaker.videoshow.R.attr.gg, com.beautyvideo.photovideomaker.videoshow.R.attr.gh, com.beautyvideo.photovideomaker.videoshow.R.attr.gi, com.beautyvideo.photovideomaker.videoshow.R.attr.gj, com.beautyvideo.photovideomaker.videoshow.R.attr.gk, com.beautyvideo.photovideomaker.videoshow.R.attr.gl, com.beautyvideo.photovideomaker.videoshow.R.attr.gm, com.beautyvideo.photovideomaker.videoshow.R.attr.gn, com.beautyvideo.photovideomaker.videoshow.R.attr.go, com.beautyvideo.photovideomaker.videoshow.R.attr.gp, com.beautyvideo.photovideomaker.videoshow.R.attr.gq, com.beautyvideo.photovideomaker.videoshow.R.attr.n8, com.beautyvideo.photovideomaker.videoshow.R.attr.oj};
+public static final int CropImageView_aspectRatioX = 0;
+public static final int CropImageView_aspectRatioY = 1;
+public static final int CropImageView_civ_drop_text = 2;
+public static final int CropImageView_civ_drop_text_color = 3;
+public static final int CropImageView_civ_drop_text_left_right_space = 4;
+public static final int CropImageView_civ_drop_text_size = 5;
+public static final int CropImageView_civ_max_scale = 6;
+public static final int CropImageView_civ_min_scale = 7;
+public static final int CropImageView_civ_stroke_color = 8;
+public static final int CropImageView_civ_stroke_scale = 9;
+public static final int CropImageView_civ_stroke_top_bottom_min_space = 10;
+public static final int CropImageView_civ_stroke_width = 11;
+public static final int CropImageView_civ_trans_color = 12;
+public static final int CropImageView_fixAspectRatio = 13;
+public static final int CropImageView_guidelines = 14;
+
+public static final int[] VeGallery = {16842927, 16843026, 16843027, 16843278};
+public static final int VeGallery_android_animationDuration = 1;
+public static final int VeGallery_android_gravity = 0;
+public static final int VeGallery_android_spacing = 2;
+public static final int VeGallery_android_unselectedAlpha = 3;
+
+public static final int[] EditorGalleryBoard = {com.beautyvideo.photovideomaker.videoshow.R.attr.a1d, com.beautyvideo.photovideomaker.videoshow.R.attr.a1e, com.beautyvideo.photovideomaker.videoshow.R.attr.ac4};
+public static final int EditorGalleryBoard_picFocus = 0;
+public static final int EditorGalleryBoard_picNoneItem = 1;
+public static final int EditorGalleryBoard_topTransparent = 2;
+
+public static final int[] IndicatorSeekBar = {com.beautyvideo.photovideomaker.videoshow.R.attr.qb, com.beautyvideo.photovideomaker.videoshow.R.attr.qc, com.beautyvideo.photovideomaker.videoshow.R.attr.qd, com.beautyvideo.photovideomaker.videoshow.R.attr.qe, com.beautyvideo.photovideomaker.videoshow.R.attr.qf, com.beautyvideo.photovideomaker.videoshow.R.attr.qg, com.beautyvideo.photovideomaker.videoshow.R.attr.qh, com.beautyvideo.photovideomaker.videoshow.R.attr.qi, com.beautyvideo.photovideomaker.videoshow.R.attr.qj, com.beautyvideo.photovideomaker.videoshow.R.attr.qk, com.beautyvideo.photovideomaker.videoshow.R.attr.ql, com.beautyvideo.photovideomaker.videoshow.R.attr.qm, com.beautyvideo.photovideomaker.videoshow.R.attr.qn, com.beautyvideo.photovideomaker.videoshow.R.attr.qo, com.beautyvideo.photovideomaker.videoshow.R.attr.qp, com.beautyvideo.photovideomaker.videoshow.R.attr.qq, com.beautyvideo.photovideomaker.videoshow.R.attr.qr, com.beautyvideo.photovideomaker.videoshow.R.attr.qs, com.beautyvideo.photovideomaker.videoshow.R.attr.qt, com.beautyvideo.photovideomaker.videoshow.R.attr.qu, com.beautyvideo.photovideomaker.videoshow.R.attr.qv, com.beautyvideo.photovideomaker.videoshow.R.attr.qw, com.beautyvideo.photovideomaker.videoshow.R.attr.qx, com.beautyvideo.photovideomaker.videoshow.R.attr.qy, com.beautyvideo.photovideomaker.videoshow.R.attr.qz, com.beautyvideo.photovideomaker.videoshow.R.attr.r0, com.beautyvideo.photovideomaker.videoshow.R.attr.r1, com.beautyvideo.photovideomaker.videoshow.R.attr.r2, com.beautyvideo.photovideomaker.videoshow.R.attr.r3, com.beautyvideo.photovideomaker.videoshow.R.attr.r4, com.beautyvideo.photovideomaker.videoshow.R.attr.r5, com.beautyvideo.photovideomaker.videoshow.R.attr.r6, com.beautyvideo.photovideomaker.videoshow.R.attr.r7, com.beautyvideo.photovideomaker.videoshow.R.attr.r8, com.beautyvideo.photovideomaker.videoshow.R.attr.r9, com.beautyvideo.photovideomaker.videoshow.R.attr.r_, com.beautyvideo.photovideomaker.videoshow.R.attr.ra, com.beautyvideo.photovideomaker.videoshow.R.attr.rb, com.beautyvideo.photovideomaker.videoshow.R.attr.rc, com.beautyvideo.photovideomaker.videoshow.R.attr.rd};
+public static final int IndicatorSeekBar_isb_clear_default_padding = 0;
+public static final int IndicatorSeekBar_isb_indicator_color = 1;
+public static final int IndicatorSeekBar_isb_indicator_content_layout = 2;
+public static final int IndicatorSeekBar_isb_indicator_text_color = 3;
+public static final int IndicatorSeekBar_isb_indicator_text_size = 4;
+public static final int IndicatorSeekBar_isb_indicator_thumb_text_color = 5;
+public static final int IndicatorSeekBar_isb_indicator_thumb_text_size = 6;
+public static final int IndicatorSeekBar_isb_indicator_top_content_layout = 7;
+public static final int IndicatorSeekBar_isb_max = 8;
+public static final int IndicatorSeekBar_isb_min = 9;
+public static final int IndicatorSeekBar_isb_only_thumb_draggable = 10;
+public static final int IndicatorSeekBar_isb_progress = 11;
+public static final int IndicatorSeekBar_isb_progress_value_float = 12;
+public static final int IndicatorSeekBar_isb_r2l = 13;
+public static final int IndicatorSeekBar_isb_seek_smoothly = 14;
+public static final int IndicatorSeekBar_isb_show_indicator = 15;
+public static final int IndicatorSeekBar_isb_show_thumb_text = 16;
+public static final int IndicatorSeekBar_isb_show_tick_marks_type = 17;
+public static final int IndicatorSeekBar_isb_show_tick_texts = 18;
+public static final int IndicatorSeekBar_isb_thumb_adjust_auto = 19;
+public static final int IndicatorSeekBar_isb_thumb_color = 20;
+public static final int IndicatorSeekBar_isb_thumb_drawable = 21;
+public static final int IndicatorSeekBar_isb_thumb_size = 22;
+public static final int IndicatorSeekBar_isb_thumb_text_color = 23;
+public static final int IndicatorSeekBar_isb_tick_marks_color = 24;
+public static final int IndicatorSeekBar_isb_tick_marks_drawable = 25;
+public static final int IndicatorSeekBar_isb_tick_marks_ends_hide = 26;
+public static final int IndicatorSeekBar_isb_tick_marks_size = 27;
+public static final int IndicatorSeekBar_isb_tick_marks_swept_hide = 28;
+public static final int IndicatorSeekBar_isb_tick_texts_array = 29;
+public static final int IndicatorSeekBar_isb_tick_texts_color = 30;
+public static final int IndicatorSeekBar_isb_tick_texts_size = 31;
+public static final int IndicatorSeekBar_isb_tick_texts_typeface = 32;
+public static final int IndicatorSeekBar_isb_ticks_count = 33;
+public static final int IndicatorSeekBar_isb_track_background_color = 34;
+public static final int IndicatorSeekBar_isb_track_background_size = 35;
+public static final int IndicatorSeekBar_isb_track_progress_color = 36;
+public static final int IndicatorSeekBar_isb_track_progress_size = 37;
+public static final int IndicatorSeekBar_isb_track_rounded_corners = 38;
+public static final int IndicatorSeekBar_isb_user_seekable = 39;
+
+public static final int[] Terminator = {com.beautyvideo.photovideomaker.videoshow.R.attr.a_q};
+public static final int Terminator_terminatorText = 0;
+
+public static final int[] VeTrimGallery = {com.beautyvideo.photovideomaker.videoshow.R.attr.a, com.beautyvideo.photovideomaker.videoshow.R.attr.b};
+public static final int VeTrimGallery_LeftTrimBar = 0;
+public static final int VeTrimGallery_RightTrimBar = 1;
+
+public static final int[] EditorTitle = {com.beautyvideo.photovideomaker.videoshow.R.attr.cy, com.beautyvideo.photovideomaker.videoshow.R.attr.kv, com.beautyvideo.photovideomaker.videoshow.R.attr.a5n};
+public static final int EditorTitle_backEnable = 0;
+public static final int EditorTitle_draftEnable = 1;
+public static final int EditorTitle_shareEnable = 2;
+
+public static final int[] TabFillView = {com.beautyvideo.photovideomaker.videoshow.R.attr.aay, com.beautyvideo.photovideomaker.videoshow.R.attr.aaz, com.beautyvideo.photovideomaker.videoshow.R.attr.ab0};
+public static final int TabFillView_tfv_tab_icon = 0;
+public static final int TabFillView_tfv_tab_title = 1;
+public static final int TabFillView_tfv_tab_title_color = 2;
+
+public static final int[] TabIndicatorView = {com.beautyvideo.photovideomaker.videoshow.R.attr.a_l};
+public static final int TabIndicatorView_tab_title = 0;
+
+public static final int[] SimpleIconTextView = {com.beautyvideo.photovideomaker.videoshow.R.attr.a65, com.beautyvideo.photovideomaker.videoshow.R.attr.a66, com.beautyvideo.photovideomaker.videoshow.R.attr.a67, com.beautyvideo.photovideomaker.videoshow.R.attr.a68, com.beautyvideo.photovideomaker.videoshow.R.attr.a69};
+public static final int SimpleIconTextView_sitv_bottom_text = 0;
+public static final int SimpleIconTextView_sitv_top_drawable = 1;
+public static final int SimpleIconTextView_sitv_top_text = 2;
+public static final int SimpleIconTextView_sitv_top_text_color = 3;
+public static final int SimpleIconTextView_sitv_top_type = 4;
+
+public static final int[] SimpleIconView = {com.beautyvideo.photovideomaker.videoshow.R.attr.a61};
+public static final int SimpleIconView_simple_drawable = 0;
+
+public static final int[] FilterSeekBarView = {com.beautyvideo.photovideomaker.videoshow.R.attr.o8, com.beautyvideo.photovideomaker.videoshow.R.attr.oc, com.beautyvideo.photovideomaker.videoshow.R.attr.od, com.beautyvideo.photovideomaker.videoshow.R.attr.oe};
+public static final int FilterSeekBarView_fsb_max_progress = 0;
+public static final int FilterSeekBarView_fsb_top_img = 1;
+public static final int FilterSeekBarView_fsb_top_name_text = 2;
+public static final int FilterSeekBarView_fsb_type = 3;
+
+MaxHeightRecyclerView_maxHeight
+
+EditorTitleView_draftEnable
+EditorTitleView_backEnable
+
+public static final int[] ImageTextView = {com.beautyvideo.photovideomaker.videoshow.R.attr.s2, com.beautyvideo.photovideomaker.videoshow.R.attr.s3};
+public static final int ImageTextView_itv_top_img = 0;
+public static final int ImageTextView_itv_top_name_text = 1;
+
+public static final int[] RCAttrs = {com.beautyvideo.photovideomaker.videoshow.R.attr.gt, com.beautyvideo.photovideomaker.videoshow.R.attr.a45, com.beautyvideo.photovideomaker.videoshow.R.attr.a46, com.beautyvideo.photovideomaker.videoshow.R.attr.a47, com.beautyvideo.photovideomaker.videoshow.R.attr.a48, com.beautyvideo.photovideomaker.videoshow.R.attr.a49, com.beautyvideo.photovideomaker.videoshow.R.attr.a4_, com.beautyvideo.photovideomaker.videoshow.R.attr.a9_, com.beautyvideo.photovideomaker.videoshow.R.attr.a9a};
+public static final int RCAttrs_clip_background = 0;
+public static final int RCAttrs_round_as_circle = 1;
+public static final int RCAttrs_round_corner = 2;
+public static final int RCAttrs_round_corner_bottom_left = 3;
+public static final int RCAttrs_round_corner_bottom_right = 4;
+public static final int RCAttrs_round_corner_top_left = 5;
+public static final int RCAttrs_round_corner_top_right = 6;
+public static final int RCAttrs_stroke_color = 7;
+public static final int RCAttrs_stroke_width = 8;
+
+public static final int[] RoundProgressView = {com.beautyvideo.photovideomaker.videoshow.R.attr.d0, com.beautyvideo.photovideomaker.videoshow.R.attr.g3, com.beautyvideo.photovideomaker.videoshow.R.attr.g5, com.beautyvideo.photovideomaker.videoshow.R.attr.g6, com.beautyvideo.photovideomaker.videoshow.R.attr.a8p};
+public static final int RoundProgressView_backgroundColor = 0;
+public static final int RoundProgressView_circleCorner = 1;
+public static final int RoundProgressView_circleProgress = 2;
+public static final int RoundProgressView_circleRadius = 3;
+public static final int RoundProgressView_startAngle = 4;
+
+public static final int[] CircleShadowView = {com.beautyvideo.photovideomaker.videoshow.R.attr.jq, com.beautyvideo.photovideomaker.videoshow.R.attr.jr, com.beautyvideo.photovideomaker.videoshow.R.attr.js, com.beautyvideo.photovideomaker.videoshow.R.attr.jt, com.beautyvideo.photovideomaker.videoshow.R.attr.ju, com.beautyvideo.photovideomaker.videoshow.R.attr.jv, com.beautyvideo.photovideomaker.videoshow.R.attr.jw};
+public static final int CircleShadowView_csv_bg_color = 0;
+public static final int CircleShadowView_csv_bg_diam = 1;
+public static final int CircleShadowView_csv_border_color = 2;
+public static final int CircleShadowView_csv_border_width = 3;
+public static final int CircleShadowView_csv_text = 4;
+public static final int CircleShadowView_csv_text_color = 5;
+public static final int CircleShadowView_csv_text_size = 6;
+
+public static final int[] ColorSeekBar = {com.beautyvideo.photovideomaker.videoshow.R.attr.jf, com.beautyvideo.photovideomaker.videoshow.R.attr.jg, com.beautyvideo.photovideomaker.videoshow.R.attr.jh, com.beautyvideo.photovideomaker.videoshow.R.attr.ji, com.beautyvideo.photovideomaker.videoshow.R.attr.jj, com.beautyvideo.photovideomaker.videoshow.R.attr.jk, com.beautyvideo.photovideomaker.videoshow.R.attr.jl, com.beautyvideo.photovideomaker.videoshow.R.attr.jm, com.beautyvideo.photovideomaker.videoshow.R.attr.jn, com.beautyvideo.photovideomaker.videoshow.R.attr.jo, com.beautyvideo.photovideomaker.videoshow.R.attr.jp};
+public static final int ColorSeekBar_csb_bg_height = 0;
+public static final int ColorSeekBar_csb_bg_left_padding = 1;
+public static final int ColorSeekBar_csb_bg_right_padding = 2;
+public static final int ColorSeekBar_csb_color_type = 3;
+public static final int ColorSeekBar_csb_default_color = 4;
+public static final int ColorSeekBar_csb_thumb_border_color = 5;
+public static final int ColorSeekBar_csb_thumb_border_width = 6;
+public static final int ColorSeekBar_csb_thumb_height = 7;
+public static final int ColorSeekBar_csb_thumb_width = 8;
+public static final int ColorSeekBar_csb_top_circle_diam = 9;
+public static final int ColorSeekBar_csb_top_text_bg_space = 10;
+
+public static final int[] FontSizeSeekBar = {16843068, 16843074, com.beautyvideo.photovideomaker.videoshow.R.attr.o9, com.beautyvideo.photovideomaker.videoshow.R.attr.o_, com.beautyvideo.photovideomaker.videoshow.R.attr.oa, com.beautyvideo.photovideomaker.videoshow.R.attr.ob};
+public static final int FontSizeSeekBar_android_progressDrawable = 0;
+public static final int FontSizeSeekBar_android_thumb = 1;
+public static final int FontSizeSeekBar_fsb_min_progress = 2;
+public static final int FontSizeSeekBar_fsb_rotation = 3;
+public static final int FontSizeSeekBar_fsb_text_color = 4;
+public static final int FontSizeSeekBar_fsb_text_size = 5;
+
+public static final int[] MarkSeekBar = {com.beautyvideo.photovideomaker.videoshow.R.attr.yy, com.beautyvideo.photovideomaker.videoshow.R.attr.yz, com.beautyvideo.photovideomaker.videoshow.R.attr.z0, com.beautyvideo.photovideomaker.videoshow.R.attr.z1, com.beautyvideo.photovideomaker.videoshow.R.attr.z2, com.beautyvideo.photovideomaker.videoshow.R.attr.z3, com.beautyvideo.photovideomaker.videoshow.R.attr.z4, com.beautyvideo.photovideomaker.videoshow.R.attr.z5, com.beautyvideo.photovideomaker.videoshow.R.attr.z6, com.beautyvideo.photovideomaker.videoshow.R.attr.z7, com.beautyvideo.photovideomaker.videoshow.R.attr.z8, com.beautyvideo.photovideomaker.videoshow.R.attr.z9, com.beautyvideo.photovideomaker.videoshow.R.attr.z_, com.beautyvideo.photovideomaker.videoshow.R.attr.za, com.beautyvideo.photovideomaker.videoshow.R.attr.zb, com.beautyvideo.photovideomaker.videoshow.R.attr.zc, com.beautyvideo.photovideomaker.videoshow.R.attr.zd, com.beautyvideo.photovideomaker.videoshow.R.attr.ze, com.beautyvideo.photovideomaker.videoshow.R.attr.zf, com.beautyvideo.photovideomaker.videoshow.R.attr.zg};
+public static final int MarkSeekBar_msb_mark_bg_color = 0;
+public static final int MarkSeekBar_msb_mark_bg_height = 1;
+public static final int MarkSeekBar_msb_mark_color = 2;
+public static final int MarkSeekBar_msb_mark_even_radius = 3;
+public static final int MarkSeekBar_msb_mark_num = 4;
+public static final int MarkSeekBar_msb_mark_odd_radius = 5;
+public static final int MarkSeekBar_msb_mark_text_array = 6;
+public static final int MarkSeekBar_msb_mark_text_bg_space = 7;
+public static final int MarkSeekBar_msb_mark_text_color = 8;
+public static final int MarkSeekBar_msb_mark_text_size = 9;
+public static final int MarkSeekBar_msb_max_progress = 10;
+public static final int MarkSeekBar_msb_seek_bar_height = 11;
+public static final int MarkSeekBar_msb_seek_bar_left_padding = 12;
+public static final int MarkSeekBar_msb_seek_bar_progress_drawable = 13;
+public static final int MarkSeekBar_msb_seek_bar_right_padding = 14;
+public static final int MarkSeekBar_msb_seek_bar_thumb = 15;
+public static final int MarkSeekBar_msb_top_text_bg_space = 16;
+public static final int MarkSeekBar_msb_top_text_color = 17;
+public static final int MarkSeekBar_msb_top_text_diam = 18;
+public static final int MarkSeekBar_msb_top_text_size = 19;
+
+public static final int[] PopSeekBar = {com.beautyvideo.photovideomaker.videoshow.R.attr.a23, com.beautyvideo.photovideomaker.videoshow.R.attr.a24, com.beautyvideo.photovideomaker.videoshow.R.attr.a25, com.beautyvideo.photovideomaker.videoshow.R.attr.a26, com.beautyvideo.photovideomaker.videoshow.R.attr.a27, com.beautyvideo.photovideomaker.videoshow.R.attr.a28, com.beautyvideo.photovideomaker.videoshow.R.attr.a29, com.beautyvideo.photovideomaker.videoshow.R.attr.a2_, com.beautyvideo.photovideomaker.videoshow.R.attr.a2a, com.beautyvideo.photovideomaker.videoshow.R.attr.a2b, com.beautyvideo.photovideomaker.videoshow.R.attr.a2c, com.beautyvideo.photovideomaker.videoshow.R.attr.a2d, com.beautyvideo.photovideomaker.videoshow.R.attr.a2e, com.beautyvideo.photovideomaker.videoshow.R.attr.a2f, com.beautyvideo.photovideomaker.videoshow.R.attr.a2g};
+public static final int PopSeekBar_psb_bg_color = 0;
+public static final int PopSeekBar_psb_bg_height = 1;
+public static final int PopSeekBar_psb_bg_max_progress_color = 2;
+public static final int PopSeekBar_psb_max_progress = 3;
+public static final int PopSeekBar_psb_seek_bar_color = 4;
+public static final int PopSeekBar_psb_seek_bar_height = 5;
+public static final int PopSeekBar_psb_seek_bar_left_padding = 6;
+public static final int PopSeekBar_psb_seek_bar_progress_drawable = 7;
+public static final int PopSeekBar_psb_seek_bar_right_padding = 8;
+public static final int PopSeekBar_psb_seek_bar_thumb = 9;
+public static final int PopSeekBar_psb_text_bg_space = 10;
+public static final int PopSeekBar_psb_top_circle_color = 11;
+public static final int PopSeekBar_psb_top_text_color = 12;
+public static final int PopSeekBar_psb_top_text_diam = 13;
+public static final int PopSeekBar_psb_top_text_size = 14;
+
+public static final int[] ReverseSeekBar = {com.beautyvideo.photovideomaker.videoshow.R.attr.a4l, com.beautyvideo.photovideomaker.videoshow.R.attr.a4m, com.beautyvideo.photovideomaker.videoshow.R.attr.a4n, com.beautyvideo.photovideomaker.videoshow.R.attr.a4o, com.beautyvideo.photovideomaker.videoshow.R.attr.a4p, com.beautyvideo.photovideomaker.videoshow.R.attr.a4q, com.beautyvideo.photovideomaker.videoshow.R.attr.a4r, com.beautyvideo.photovideomaker.videoshow.R.attr.a4s, com.beautyvideo.photovideomaker.videoshow.R.attr.a4t};
+public static final int ReverseSeekBar_rsb_bg_color = 0;
+public static final int ReverseSeekBar_rsb_bg_radius = 1;
+public static final int ReverseSeekBar_rsb_max_progress = 2;
+public static final int ReverseSeekBar_rsb_orientation = 3;
+public static final int ReverseSeekBar_rsb_point_color = 4;
+public static final int ReverseSeekBar_rsb_point_radius = 5;
+public static final int ReverseSeekBar_rsb_progress = 6;
+public static final int ReverseSeekBar_rsb_progress_color = 7;
+public static final int ReverseSeekBar_rsb_progress_radius = 8;
+
+public static final int[] VHSeekBar = {com.beautyvideo.photovideomaker.videoshow.R.attr.ad2, com.beautyvideo.photovideomaker.videoshow.R.attr.ad3, com.beautyvideo.photovideomaker.videoshow.R.attr.ad4, com.beautyvideo.photovideomaker.videoshow.R.attr.ad5, com.beautyvideo.photovideomaker.videoshow.R.attr.ad6, com.beautyvideo.photovideomaker.videoshow.R.attr.ad7, com.beautyvideo.photovideomaker.videoshow.R.attr.ad8, com.beautyvideo.photovideomaker.videoshow.R.attr.ad9, com.beautyvideo.photovideomaker.videoshow.R.attr.ad_, com.beautyvideo.photovideomaker.videoshow.R.attr.ada};
+public static final int VHSeekBar_vh_bg_color = 0;
+public static final int VHSeekBar_vh_bg_radius = 1;
+public static final int VHSeekBar_vh_max_progress = 2;
+public static final int VHSeekBar_vh_orientation = 3;
+public static final int VHSeekBar_vh_point_color = 4;
+public static final int VHSeekBar_vh_point_radius = 5;
+public static final int VHSeekBar_vh_progress = 6;
+public static final int VHSeekBar_vh_progress_color = 7;
+public static final int VHSeekBar_vh_progress_radius = 8;
+public static final int VHSeekBar_vh_top_bg_space = 9;
+
+public static final int[] SelectTextView = {com.beautyvideo.photovideomaker.videoshow.R.attr.a9d, com.beautyvideo.photovideomaker.videoshow.R.attr.a9e};
+public static final int SelectTextView_stv_selected = 0;
+public static final int SelectTextView_stv_text = 1;
+
+public static final int[] RatioView = {R.attr.zy, R.attr.a19, R.attr.a37};
+public static final int RatioView_offset = 0;
+public static final int RatioView_percentHorizontal = 1;
+public static final int RatioView_ratio = 2;
+
+SettingLine_line_target
+
+public static final int[] FastScrollRecyclerView = {com.beautyvideo.photovideomaker.videoshow.R.attr.mo, com.beautyvideo.photovideomaker.videoshow.R.attr.mp, com.beautyvideo.photovideomaker.videoshow.R.attr.mq, com.beautyvideo.photovideomaker.videoshow.R.attr.mu, com.beautyvideo.photovideomaker.videoshow.R.attr.mv, com.beautyvideo.photovideomaker.videoshow.R.attr.mw, com.beautyvideo.photovideomaker.videoshow.R.attr.mx, com.beautyvideo.photovideomaker.videoshow.R.attr.my, com.beautyvideo.photovideomaker.videoshow.R.attr.mz, com.beautyvideo.photovideomaker.videoshow.R.attr.n0, com.beautyvideo.photovideomaker.videoshow.R.attr.n1, com.beautyvideo.photovideomaker.videoshow.R.attr.n2, com.beautyvideo.photovideomaker.videoshow.R.attr.n3};
+public static final int FastScrollRecyclerView_fastScrollAutoHide = 0;
+public static final int FastScrollRecyclerView_fastScrollAutoHideDelay = 1;
+public static final int FastScrollRecyclerView_fastScrollEnableThumbInactiveColor = 2;
+public static final int FastScrollRecyclerView_fastScrollPopupBackgroundSize = 3;
+public static final int FastScrollRecyclerView_fastScrollPopupBgColor = 4;
+public static final int FastScrollRecyclerView_fastScrollPopupPosition = 5;
+public static final int FastScrollRecyclerView_fastScrollPopupTextColor = 6;
+public static final int FastScrollRecyclerView_fastScrollPopupTextSize = 7;
+public static final int FastScrollRecyclerView_fastScrollPopupTextVerticalAlignmentMode = 8;
+public static final int FastScrollRecyclerView_fastScrollThumbColor = 9;
+public static final int FastScrollRecyclerView_fastScrollThumbEnabled = 10;
+public static final int FastScrollRecyclerView_fastScrollThumbInactiveColor = 11;
+public static final int FastScrollRecyclerView_fastScrollTrackColor = 12;
+
+public static final int[] RoundImageView = {com.beautyvideo.photovideomaker.videoshow.R.attr.j3};
+public static final int RoundImageView_cornerRadius = 0
+
+TemplateCornerMarkView_tcm_imgae_res
+
+public static final int[] MDRootLayout = {R.attr.xi};
+public static final int MDRootLayout_md_reduce_padding_no_title_no_buttons = 0;
+
+public static final int[] VS_ColorBarAppearance = {com.beautyvideo.photovideomaker.videoshow.R.attr.hy, com.beautyvideo.photovideomaker.videoshow.R.attr.hz, com.beautyvideo.photovideomaker.videoshow.R.attr.i0, com.beautyvideo.photovideomaker.videoshow.R.attr.i1, com.beautyvideo.photovideomaker.videoshow.R.attr.i2, com.beautyvideo.photovideomaker.videoshow.R.attr.i3, com.beautyvideo.photovideomaker.videoshow.R.attr.i4, com.beautyvideo.photovideomaker.videoshow.R.attr.i5, com.beautyvideo.photovideomaker.videoshow.R.attr.i6, com.beautyvideo.photovideomaker.videoshow.R.attr.i7};
+public static final int VS_ColorBarAppearance_color_bar_CircleRadius = 0;
+public static final int VS_ColorBarAppearance_color_bar_SolidColor = 1;
+public static final int VS_ColorBarAppearance_color_bar_StrokeColor = 2;
+public static final int VS_ColorBarAppearance_color_bar_StrokeWidth = 3;
+public static final int VS_ColorBarAppearance_color_bar_ThumbHeight = 4;
+public static final int VS_ColorBarAppearance_color_bar_ThumbMarginBottom = 5;
+public static final int VS_ColorBarAppearance_color_bar_ThumbRadius = 6;
+public static final int VS_ColorBarAppearance_color_bar_ThumbWidth = 7;
+public static final int VS_ColorBarAppearance_color_bar_Thumb_visible = 8;
+public static final int VS_ColorBarAppearance_color_bar_height = 9;
+
+public static final int[] ProgressBarWithIndicator = {com.beautyvideo.photovideomaker.videoshow.R.attr.q2, com.beautyvideo.photovideomaker.videoshow.R.attr.a21, com.beautyvideo.photovideomaker.videoshow.R.attr.a22};
+public static final int ProgressBarWithIndicator_indicator_src = 0;
+public static final int ProgressBarWithIndicator_progress_text_color = 1;
+public static final int ProgressBarWithIndicator_progress_text_size = 2;
+
+public static final int[] ProgressWheel = {com.beautyvideo.photovideomaker.videoshow.R.attr.a2h, com.beautyvideo.photovideomaker.videoshow.R.attr.a2i, com.beautyvideo.photovideomaker.videoshow.R.attr.a2j, com.beautyvideo.photovideomaker.videoshow.R.attr.a2k, com.beautyvideo.photovideomaker.videoshow.R.attr.a2l, com.beautyvideo.photovideomaker.videoshow.R.attr.a2m, com.beautyvideo.photovideomaker.videoshow.R.attr.a2n, com.beautyvideo.photovideomaker.videoshow.R.attr.a2o, com.beautyvideo.photovideomaker.videoshow.R.attr.a2p, com.beautyvideo.photovideomaker.videoshow.R.attr.a2q, com.beautyvideo.photovideomaker.videoshow.R.attr.a2r, com.beautyvideo.photovideomaker.videoshow.R.attr.a2s, com.beautyvideo.photovideomaker.videoshow.R.attr.a2t, com.beautyvideo.photovideomaker.videoshow.R.attr.a2u, com.beautyvideo.photovideomaker.videoshow.R.attr.a2v};
+public static final int ProgressWheel_pwBarColor = 0;
+public static final int ProgressWheel_pwBarLength = 1;
+public static final int ProgressWheel_pwBarWidth = 2;
+public static final int ProgressWheel_pwCircleColor = 3;
+public static final int ProgressWheel_pwContourColor = 4;
+public static final int ProgressWheel_pwContourSize = 5;
+public static final int ProgressWheel_pwDelayMillis = 6;
+public static final int ProgressWheel_pwProgress = 7;
+public static final int ProgressWheel_pwRadius = 8;
+public static final int ProgressWheel_pwRimColor = 9;
+public static final int ProgressWheel_pwRimWidth = 10;
+public static final int ProgressWheel_pwSpinSpeed = 11;
+public static final int ProgressWheel_pwText = 12;
+public static final int ProgressWheel_pwTextColor = 13;
+public static final int ProgressWheel_pwTextSize = 14;
+
+public static final int[] RoundedImageView = {16843037, com.beautyvideo.photovideomaker.videoshow.R.attr.a3l, com.beautyvideo.photovideomaker.videoshow.R.attr.a3m, com.beautyvideo.photovideomaker.videoshow.R.attr.a3n, com.beautyvideo.photovideomaker.videoshow.R.attr.a3o, com.beautyvideo.photovideomaker.videoshow.R.attr.a3p, com.beautyvideo.photovideomaker.videoshow.R.attr.a3q, com.beautyvideo.photovideomaker.videoshow.R.attr.a3r, com.beautyvideo.photovideomaker.videoshow.R.attr.a3s, com.beautyvideo.photovideomaker.videoshow.R.attr.a3t, com.beautyvideo.photovideomaker.videoshow.R.attr.a3u};
+public static final int RoundedImageView_android_scaleType = 0;
+public static final int RoundedImageView_riv_border_color = 1;
+public static final int RoundedImageView_riv_border_width = 2;
+public static final int RoundedImageView_riv_check_border_color = 3;
+public static final int RoundedImageView_riv_check_border_width = 4;
+public static final int RoundedImageView_riv_corner_radius = 5;
+public static final int RoundedImageView_riv_mutate_background = 6;
+public static final int RoundedImageView_riv_oval = 7;
+public static final int RoundedImageView_riv_tile_mode = 8;
+public static final int RoundedImageView_riv_tile_mode_x = 9;
+public static final int RoundedImageView_riv_tile_mode_y = 10;
+
+MaterialRippleLayout_mrl_rippleColor:I
+MaterialRippleLayout_mrl_rippleDimension:I
+MaterialRippleLayout_mrl_rippleOverlay:I
+MaterialRippleLayout_mrl_rippleHover:I
+MaterialRippleLayout_mrl_rippleDuration:I
+MaterialRippleLayout_mrl_rippleAlpha:I
+MaterialRippleLayout_mrl_rippleDelayClick:I
+MaterialRippleLayout_mrl_rippleFadeDuration:I
+MaterialRippleLayout_mrl_rippleBackground:I
+MaterialRippleLayout_mrl_ripplePersistent:I
+MaterialRippleLayout_mrl_rippleInAdapter:I
+MaterialRippleLayout_mrl_rippleRoundedCorners:I
+
+public static final int[] RoundCornerImageView = {com.beautyvideo.photovideomaker.videoshow.R.attr.gu};
+public static final int RoundCornerImageView_cornerRadius = 0;
+
+public static final int[] VS_RoundedAppearance = {com.beautyvideo.photovideomaker.videoshow.R.attr.e, com.beautyvideo.photovideomaker.videoshow.R.attr.f, com.beautyvideo.photovideomaker.videoshow.R.attr.g, com.beautyvideo.photovideomaker.videoshow.R.attr.h};
+public static final int VS_RoundedAppearance_VS_CornerRadius = 0;
+public static final int VS_RoundedAppearance_VS_SolidColor = 1;
+public static final int VS_RoundedAppearance_VS_StrokeColor = 2;
+public static final int VS_RoundedAppearance_VS_StrokeWidth = 3;
+
+public static final int[] StoryGridView = {com.beautyvideo.photovideomaker.videoshow.R.attr.p4, com.beautyvideo.photovideomaker.videoshow.R.attr.po, com.beautyvideo.photovideomaker.videoshow.R.attr.y4, com.beautyvideo.photovideomaker.videoshow.R.attr.a06, com.beautyvideo.photovideomaker.videoshow.R.attr.a0x, com.beautyvideo.photovideomaker.videoshow.R.attr.a6g, com.beautyvideo.photovideomaker.videoshow.R.attr.ad1};
+public static final int StoryGridView_horizontalSpacing = 0;
+public static final int StoryGridView_includeEdge = 1;
+public static final int StoryGridView_mode = 2;
+public static final int StoryGridView_orientation = 3;
+public static final int StoryGridView_pagerSize = 4;
+public static final int StoryGridView_spanCounts = 5;
+public static final int StoryGridView_verticalSpacing = 6;
+
+ArcConvexImageView_arc_height
+
+public static final int[] DynamicLoadingImageView = {com.beautyvideo.photovideomaker.videoshow.R.attr.ax, com.beautyvideo.photovideomaker.videoshow.R.attr.bg, com.beautyvideo.photovideomaker.videoshow.R.attr.kq, com.beautyvideo.photovideomaker.videoshow.R.attr.yc, com.beautyvideo.photovideomaker.videoshow.R.attr.yd, com.beautyvideo.photovideomaker.videoshow.R.attr.yl, com.beautyvideo.photovideomaker.videoshow.R.attr.a0j, com.beautyvideo.photovideomaker.videoshow.R.attr.a0k, com.beautyvideo.photovideomaker.videoshow.R.attr.a0l, com.beautyvideo.photovideomaker.videoshow.R.attr.a0n, com.beautyvideo.photovideomaker.videoshow.R.attr.a0o, com.beautyvideo.photovideomaker.videoshow.R.attr.a0p, com.beautyvideo.photovideomaker.videoshow.R.attr.a0w, com.beautyvideo.photovideomaker.videoshow.R.attr.a0x, com.beautyvideo.photovideomaker.videoshow.R.attr.a0y};
+public static final int DynamicLoadingImageView_actualImageScaleType = 0;
+public static final int DynamicLoadingImageView_aspectRatio = 1;
+public static final int DynamicLoadingImageView_failureImage = 2;
+public static final int DynamicLoadingImageView_placeholderImage = 3;
+public static final int DynamicLoadingImageView_placeholderImageScaleType = 4;
+public static final int DynamicLoadingImageView_pressedStateOverlayImage = 5;
+public static final int DynamicLoadingImageView_roundAsCircle = 6;
+public static final int DynamicLoadingImageView_roundBottomLeft = 7;
+public static final int DynamicLoadingImageView_roundBottomRight = 8;
+public static final int DynamicLoadingImageView_roundTopLeft = 9;
+public static final int DynamicLoadingImageView_roundTopRight = 10;
+public static final int DynamicLoadingImageView_roundWithOverlayColor = 11;
+public static final int DynamicLoadingImageView_roundedCornerRadius = 12;
+public static final int DynamicLoadingImageView_roundingBorderColor = 13;
+public static final int DynamicLoadingImageView_roundingBorderWidth = 14;
+
+public static final int[] apWebView = {com.beautyvideo.photovideomaker.videoshow.R.attr.ce};
+public static final int apWebView_bizType = 0;
+
+Banner_indicator_width:I
+Banner_indicator_height:I
+Banner_indicator_margin:I
+Banner_indicator_drawable_selected:I
+Banner_indicator_drawable_unselected:I
+Banner_image_scale_type:I
+Banner_delay_time:I
+Banner_scroll_time:I
+Banner_is_auto_play:I
+Banner_title_background:I
+Banner_title_height:I
+Banner_title_textcolor:I
+Banner_title_textsize:I
+Banner_banner_layout:I
+Banner_banner_default_image:I
