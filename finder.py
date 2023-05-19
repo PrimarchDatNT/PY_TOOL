@@ -5,7 +5,7 @@ DIRECTORY_TO_SEARCH = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/
 
 FILE_PATTERN = "*.smali"
 
-SEARCH_STRING = "bytedance"
+SEARCH_STRING = "com/videoapp/videomakermaster/ads/"
 
 
 def find_string_in_files(directory, pattern, search_string):

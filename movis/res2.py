@@ -6,7 +6,7 @@ import movis.model as Model
 # ---WORKSPACE DIR---
 ROOT_DIR = 'D:/PY_PROJECT/TOOL/movis'
 RES_DIR = 'D:/PY_PROJECT/TOOL/movis/resource'
-PUBLIC_PATH = 'public.xml'
+PUBLIC_PATH = 'log/public.xml'
 # ------------------------------------------------------------------
 
 

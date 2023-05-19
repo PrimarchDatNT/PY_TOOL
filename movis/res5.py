@@ -7,7 +7,7 @@ import movis.model as Model
 ROOT_DIR = 'D:/PY_PROJECT/TOOL/movis'
 RES_DIR = 'D:/PY_PROJECT/TOOL/movis/resource'
 SMALI_DIR = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/com.videomaker.movis/code'
-PUBLIC_PATH = 'public.xml'
+PUBLIC_PATH = 'log/public.xml'
 # ------------------------------------------------------------------
 
 
@@ -124,7 +124,7 @@ if __name__ == '__main__':
         keypair = data.restype + SPERATOR + data.encrypt
         ENCYP_TO_ORG_RES_MAPPER[keypair] = data.org
 
-    tree = ET.parse('styles.xml')
+    tree = ET.parse('log/styles.xml')
     root = tree.getroot()
     for style in root.findall('style'):
         style_keypair = ResSTYLE + SPERATOR + style.attrib['name']

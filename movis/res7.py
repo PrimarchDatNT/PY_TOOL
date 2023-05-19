@@ -1,6 +1,6 @@
 def get_log_data():
     data = []
-    with open('styleable.log') as logfile:
+    with open('log/styleable.log') as logfile:
         logdatas = logfile.readlines()
     logfile.close()
 
@@ -16,7 +16,7 @@ def get_log_data():
 if __name__ == '__main__':
 
     tree = {}
-    with open('sty') as datafile:
+    with open('log/sty') as datafile:
         lines = datafile.readlines()
         datafile.close()
 

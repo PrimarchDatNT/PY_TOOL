@@ -7,7 +7,7 @@ import movis.model as Model
 ROOT_DIR = 'D:/PY_PROJECT/TOOL/movis'
 RES_DIR = 'D:/PY_PROJECT/TOOL/movis/resource'
 SMALI_DIR = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/com.videomaker.movis/code'
-PUBLIC_PATH = 'public.xml'
+PUBLIC_PATH = 'log/public.xml'
 # ------------------------------------------------------------------
 
 

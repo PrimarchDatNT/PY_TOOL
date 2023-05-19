@@ -1,0 +1,1568 @@
+
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\-$$Lambda$MainActivity$dnYmNnh7WhU8g-b94H6wz40CFF8.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\-$$Lambda$MainActivity$za___UKOUGsm0olrbX9Ou5MHecs.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\-$$Lambda$MainActivity$_coSa2SU8T-tmfuwtDzTI7Pu-KM.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\app\function\-$$Lambda$ResultActivity$2W8plIHlXI1HEOdqPxvPLGqXuuQ.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\app\function\-$$Lambda$ResultActivity$WMZC-0qoM04WExzOxZ22g-D9-gg.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\app\function\-$$Lambda$ResultActivity$ZwxAciGAT64ot6uOV7yhEOvgctI.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\app\function\ResultActivity.smali (41 hits)
+	Line 111:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->b:Lcom/videoapp/videomakermaster/ads/l;
+	Line 113:     sget-object v1, Lcom/videoapp/videomakermaster/ads/i;->b:Lcom/videoapp/videomakermaster/ads/i;
+	Line 119:     invoke-static {p0, v0, v1, v2}, Lcom/videoapp/videomakermaster/ads/c;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;Lcom/videoapp/videomakermaster/ads/a;)Z
+	Line 227:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->a:Lcom/videoapp/videomakermaster/ads/l;
+	Line 229:     sget-object v1, Lcom/videoapp/videomakermaster/ads/i;->a:Lcom/videoapp/videomakermaster/ads/i;
+	Line 233:     invoke-static {p0, v0, v1, v2}, Lcom/videoapp/videomakermaster/ads/c;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;Lcom/videoapp/videomakermaster/ads/a;)Z
+	Line 282:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->a:Lcom/videoapp/videomakermaster/ads/l;
+	Line 284:     sget-object v1, Lcom/videoapp/videomakermaster/ads/i;->b:Lcom/videoapp/videomakermaster/ads/i;
+	Line 290:     invoke-static {p0, v0, v1, v2}, Lcom/videoapp/videomakermaster/ads/c;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;Lcom/videoapp/videomakermaster/ads/a;)Z
+	Line 534:     sget-object p1, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line 536:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->j:Lcom/videoapp/videomakermaster/ads/l;
+	Line 538:     invoke-interface {p1, v0}, Lcom/videoapp/videomakermaster/ads/admob/g;->a(Lcom/videoapp/videomakermaster/ads/l;)Z
+	Line 545:     sget-object p1, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line 549:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->j:Lcom/videoapp/videomakermaster/ads/l;
+	Line 551:     invoke-interface {p1, v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/g;->a(Landroid/view/ViewGroup;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line 557:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/b;->a()Lcom/videoapp/videomakermaster/ads/b/b;
+	Line 563:     invoke-virtual {p1, v0}, Lcom/videoapp/videomakermaster/ads/b/b;->a(Ljava/lang/String;)Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line 569:     invoke-virtual {p1, v0}, Lcom/videoapp/videomakermaster/ads/b/b$a;->a(Landroid/view/ViewGroup;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes3\com\videoai\aivpcore\MainActivity.smali (54 hits)
+	Line  246:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line  248:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->h:Lcom/videoapp/videomakermaster/ads/l;
+	Line  250:     invoke-interface {v0, p0, v1}, Lcom/videoapp/videomakermaster/ads/admob/g;->a(Landroid/content/Context;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line  495:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line  497:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->i:Lcom/videoapp/videomakermaster/ads/l;
+	Line  499:     invoke-interface {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/g;->b(Lcom/videoapp/videomakermaster/ads/l;)Z
+	Line  517:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line  519:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->i:Lcom/videoapp/videomakermaster/ads/l;
+	Line  521:     invoke-interface {v0, p0, v1}, Lcom/videoapp/videomakermaster/ads/admob/g;->a(Landroid/content/Context;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line  981:     invoke-static {p0}, Lcom/videoapp/videomakermaster/ads/g;->a(Landroid/content/Context;)Z
+	Line 1033:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/b;->a()Lcom/videoapp/videomakermaster/ads/b/b;
+	Line 1039:     invoke-virtual {p1, v0}, Lcom/videoapp/videomakermaster/ads/b/b;->a(Ljava/lang/String;)Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line 1043:     invoke-virtual {p1}, Lcom/videoapp/videomakermaster/ads/b/b$a;->a()V
+	Line 1046:     sget-object p1, Lcom/videoapp/videomakermaster/ads/o;->a:Lcom/videoapp/videomakermaster/ads/j;
+	Line 1050:     invoke-interface {p1, v0}, Lcom/videoapp/videomakermaster/ads/j;->a(Ljava/lang/String;)V
+	Line 1073:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line 1075:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/admob/g;->a()V
+	Line 1177:     sget-object p1, Lcom/videoapp/videomakermaster/ads/l;->c:Lcom/videoapp/videomakermaster/ads/l;
+	Line 1179:     sget-object p2, Lcom/videoapp/videomakermaster/ads/i;->a:Lcom/videoapp/videomakermaster/ads/i;
+	Line 1185:     invoke-static {p0, p1, p2, v0}, Lcom/videoapp/videomakermaster/ads/c;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;Lcom/videoapp/videomakermaster/ads/a;)Z
+	Line 1198:     sget-object p1, Lcom/videoapp/videomakermaster/ads/l;->f:Lcom/videoapp/videomakermaster/ads/l;
+	Line 1200:     sget-object p2, Lcom/videoapp/videomakermaster/ads/i;->a:Lcom/videoapp/videomakermaster/ads/i;
+	Line 1206:     invoke-static {p0, p1, p2, v0}, Lcom/videoapp/videomakermaster/ads/c;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;Lcom/videoapp/videomakermaster/ads/a;)Z
+	Line 1219:     sget-object p1, Lcom/videoapp/videomakermaster/ads/l;->d:Lcom/videoapp/videomakermaster/ads/l;
+	Line 1221:     sget-object p2, Lcom/videoapp/videomakermaster/ads/i;->a:Lcom/videoapp/videomakermaster/ads/i;
+	Line 1227:     invoke-static {p0, p1, p2, p3}, Lcom/videoapp/videomakermaster/ads/c;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;Lcom/videoapp/videomakermaster/ads/a;)Z
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\module\iap\business\hPackage\b$1.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/n$a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\module\iap\business\hPackage\b$2.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/b/d$a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\module\iap\business\hPackage\b$3.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/h;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\module\iap\business\hPackage\b$4.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/d$a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes4\com\videoai\aivpcore\module\iap\business\hPackage\b.smali (22 hits)
+	Line  831:     sget-object v0, Lcom/videoapp/videomakermaster/ads/d;->a:Lcom/videoapp/videomakermaster/ads/d;
+	Line  833:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/d;->a()Z
+	Line  840:     sget-object v0, Lcom/videoapp/videomakermaster/ads/d;->a:Lcom/videoapp/videomakermaster/ads/d;
+	Line  850:     invoke-virtual {v0, v1, v2}, Lcom/videoapp/videomakermaster/ads/d;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/n$a;)V
+	Line  859:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/d;->a()Lcom/videoapp/videomakermaster/ads/b/d;
+	Line  863:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/b/d;->c()Z
+	Line  870:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/d;->a()Lcom/videoapp/videomakermaster/ads/b/d;
+	Line  882:     invoke-virtual {v0, v1, v2}, Lcom/videoapp/videomakermaster/ads/b/d;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/b/d$a;)Z
+	Line  888:     sget-object v0, Lcom/videoapp/videomakermaster/ads/o;->a:Lcom/videoapp/videomakermaster/ads/j;
+	Line  900:     invoke-interface {v0, v1, v3, v2}, Lcom/videoapp/videomakermaster/ads/j;->a(Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/h;)V
+	Line 1199:     sget-object p1, Lcom/videoapp/videomakermaster/ads/d;->a:Lcom/videoapp/videomakermaster/ads/d;
+	Line 1209:     invoke-virtual {p1, v0, v1}, Lcom/videoapp/videomakermaster/ads/d;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/d$a;)Z
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes5\com\videoai\aivpcore\unit\view\NativeAdsVH.smali (15 hits)
+	Line  68:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line  71:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->g:Lcom/videoapp/videomakermaster/ads/l;
+	Line  73:     invoke-interface {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/g;->a(Lcom/videoapp/videomakermaster/ads/l;)Z
+	Line  84:     sget-object v2, Lcom/videoapp/videomakermaster/ads/l;->g:Lcom/videoapp/videomakermaster/ads/l;
+	Line  86:     invoke-interface {v0, v1, v2}, Lcom/videoapp/videomakermaster/ads/admob/g;->a(Landroid/view/ViewGroup;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line 104:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/b;->a()Lcom/videoapp/videomakermaster/ads/b/b;
+	Line 110:     invoke-virtual {p1, p2}, Lcom/videoapp/videomakermaster/ads/b/b;->a(Ljava/lang/String;)Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line 118:     invoke-virtual {p1, p2}, Lcom/videoapp/videomakermaster/ads/b/b$a;->a(Landroid/view/ViewGroup;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\-$$Lambda$AppEffectCenterActivity$tYngXOOyh9bQr626fTKApYpilNM.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\-$$Lambda$AppSplashActivity$HntIiMSI3aOC7Waa4CXg1C-1EsQ.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\-$$Lambda$AppSplashActivity$kbw0ORQe3yt3m2Ev-qM8pDFYeNE.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/b/e$a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\-$$Lambda$AppSplashActivity$NvTpOZ1PmlM4_A9iy9ZPTm_l8F8.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\-$$Lambda$hPy6iJSZo3E3ApqD6176P8FvGcQ.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\-$$Lambda$ZNJcSGzz0e2pI-UXREuHvDJSzZw.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\-$$Lambda$c$6F5amV1CfLWJYOBTsDE74yyAzfk.smali (10 hits)
+	Line  1: .class public final synthetic Lcom/videoapp/videomakermaster/ads/-$$Lambda$c$6F5amV1CfLWJYOBTsDE74yyAzfk;
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/a;
+	Line 10: .field public final synthetic f$0:Lcom/videoapp/videomakermaster/ads/a;
+	Line 14: .method public synthetic constructor <init>(Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 19:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$c$6F5amV1CfLWJYOBTsDE74yyAzfk;->f$0:Lcom/videoapp/videomakermaster/ads/a;
+	Line 29:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$c$6F5amV1CfLWJYOBTsDE74yyAzfk;->f$0:Lcom/videoapp/videomakermaster/ads/a;
+	Line 31:     invoke-static {v0}, Lcom/videoapp/videomakermaster/ads/c;->lambda$6F5amV1CfLWJYOBTsDE74yyAzfk(Lcom/videoapp/videomakermaster/ads/a;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\-$$Lambda$c$ILFbOaXeyDZVse-y2GFVGo6pRjI.smali (10 hits)
+	Line  1: .class public final synthetic Lcom/videoapp/videomakermaster/ads/-$$Lambda$c$ILFbOaXeyDZVse-y2GFVGo6pRjI;
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/a;
+	Line 10: .field public final synthetic f$0:Lcom/videoapp/videomakermaster/ads/a;
+	Line 14: .method public synthetic constructor <init>(Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 19:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$c$ILFbOaXeyDZVse-y2GFVGo6pRjI;->f$0:Lcom/videoapp/videomakermaster/ads/a;
+	Line 29:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$c$ILFbOaXeyDZVse-y2GFVGo6pRjI;->f$0:Lcom/videoapp/videomakermaster/ads/a;
+	Line 31:     invoke-static {v0}, Lcom/videoapp/videomakermaster/ads/c;->lambda$ILFbOaXeyDZVse-y2GFVGo6pRjI(Lcom/videoapp/videomakermaster/ads/a;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\-$$Lambda$d$-anv5puw2EiIBgNXmFdjQf-nxCU.smali (9 hits)
+	Line  1: .class public final synthetic Lcom/videoapp/videomakermaster/ads/-$$Lambda$d$-anv5puw2EiIBgNXmFdjQf-nxCU;
+	Line 10: .field public final synthetic f$0:Lcom/videoapp/videomakermaster/ads/d;
+	Line 14: .method public synthetic constructor <init>(Lcom/videoapp/videomakermaster/ads/d;)V
+	Line 19:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$d$-anv5puw2EiIBgNXmFdjQf-nxCU;->f$0:Lcom/videoapp/videomakermaster/ads/d;
+	Line 29:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$d$-anv5puw2EiIBgNXmFdjQf-nxCU;->f$0:Lcom/videoapp/videomakermaster/ads/d;
+	Line 31:     invoke-static {v0, p1}, Lcom/videoapp/videomakermaster/ads/d;->lambda$-anv5puw2EiIBgNXmFdjQf-nxCU(Lcom/videoapp/videomakermaster/ads/d;Lcom/google/android/gms/ads/rewarded/RewardItem;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\-$$Lambda$g$RrnK5fFyoMBfA-09pdK7MYy56xQ.smali (7 hits)
+	Line  1: .class public final synthetic Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$RrnK5fFyoMBfA-09pdK7MYy56xQ;
+	Line 10: .field public static final synthetic INSTANCE:Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$RrnK5fFyoMBfA-09pdK7MYy56xQ;
+	Line 17:     new-instance v0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$RrnK5fFyoMBfA-09pdK7MYy56xQ;
+	Line 19:     invoke-direct {v0}, Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$RrnK5fFyoMBfA-09pdK7MYy56xQ;-><init>()V
+	Line 21:     sput-object v0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$RrnK5fFyoMBfA-09pdK7MYy56xQ;->INSTANCE:Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$RrnK5fFyoMBfA-09pdK7MYy56xQ;
+	Line 39:     invoke-static {p1, p2, p3}, Lcom/videoapp/videomakermaster/ads/g;->lambda$RrnK5fFyoMBfA-09pdK7MYy56xQ(Landroid/content/DialogInterface;ILandroid/view/KeyEvent;)Z
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\-$$Lambda$g$_7YBp68mqBMVZSQl1qb6a5Hp4E4.smali (6 hits)
+	Line  1: .class public final synthetic Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$_7YBp68mqBMVZSQl1qb6a5Hp4E4;
+	Line 21:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$_7YBp68mqBMVZSQl1qb6a5Hp4E4;->f$0:Landroid/app/Dialog;
+	Line 23:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$_7YBp68mqBMVZSQl1qb6a5Hp4E4;->f$1:Landroid/app/Activity;
+	Line 33:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$_7YBp68mqBMVZSQl1qb6a5Hp4E4;->f$0:Landroid/app/Dialog;
+	Line 35:     iget-object v1, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$_7YBp68mqBMVZSQl1qb6a5Hp4E4;->f$1:Landroid/app/Activity;
+	Line 37:     invoke-static {v0, v1, p1}, Lcom/videoapp/videomakermaster/ads/g;->lambda$_7YBp68mqBMVZSQl1qb6a5Hp4E4(Landroid/app/Dialog;Landroid/app/Activity;Landroid/view/View;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\-$$Lambda$o$8Ykd-hbzOXeS0kOQz0If0H30MPY.smali (20 hits)
+	Line  1: .class public final synthetic Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$8Ykd-hbzOXeS0kOQz0If0H30MPY;
+	Line 10: .field public final synthetic f$0:Lcom/videoapp/videomakermaster/ads/o;
+	Line 16: .field public final synthetic f$3:Lcom/videoapp/videomakermaster/ads/h;
+	Line 20: .method public synthetic constructor <init>(Lcom/videoapp/videomakermaster/ads/o;Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/h;)V
+	Line 25:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$8Ykd-hbzOXeS0kOQz0If0H30MPY;->f$0:Lcom/videoapp/videomakermaster/ads/o;
+	Line 27:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$8Ykd-hbzOXeS0kOQz0If0H30MPY;->f$1:Landroid/app/Activity;
+	Line 29:     iput-object p3, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$8Ykd-hbzOXeS0kOQz0If0H30MPY;->f$2:Ljava/lang/String;
+	Line 31:     iput-object p4, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$8Ykd-hbzOXeS0kOQz0If0H30MPY;->f$3:Lcom/videoapp/videomakermaster/ads/h;
+	Line 41:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$8Ykd-hbzOXeS0kOQz0If0H30MPY;->f$0:Lcom/videoapp/videomakermaster/ads/o;
+	Line 43:     iget-object v1, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$8Ykd-hbzOXeS0kOQz0If0H30MPY;->f$1:Landroid/app/Activity;
+	Line 45:     iget-object v2, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$8Ykd-hbzOXeS0kOQz0If0H30MPY;->f$2:Ljava/lang/String;
+	Line 47:     iget-object v3, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$8Ykd-hbzOXeS0kOQz0If0H30MPY;->f$3:Lcom/videoapp/videomakermaster/ads/h;
+	Line 49:     invoke-static {v0, v1, v2, v3}, Lcom/videoapp/videomakermaster/ads/o;->lambda$8Ykd-hbzOXeS0kOQz0If0H30MPY(Lcom/videoapp/videomakermaster/ads/o;Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/h;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\-$$Lambda$o$Rt9m3IHF_vtQyABsov0NAaU-_CE.smali (20 hits)
+	Line  1: .class public final synthetic Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$Rt9m3IHF_vtQyABsov0NAaU-_CE;
+	Line 10: .field public final synthetic f$0:Lcom/videoapp/videomakermaster/ads/o;
+	Line 16: .field public final synthetic f$3:Lcom/videoapp/videomakermaster/ads/a;
+	Line 20: .method public synthetic constructor <init>(Lcom/videoapp/videomakermaster/ads/o;Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 25:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$Rt9m3IHF_vtQyABsov0NAaU-_CE;->f$0:Lcom/videoapp/videomakermaster/ads/o;
+	Line 27:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$Rt9m3IHF_vtQyABsov0NAaU-_CE;->f$1:Landroid/app/Activity;
+	Line 29:     iput-object p3, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$Rt9m3IHF_vtQyABsov0NAaU-_CE;->f$2:Ljava/lang/String;
+	Line 31:     iput-object p4, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$Rt9m3IHF_vtQyABsov0NAaU-_CE;->f$3:Lcom/videoapp/videomakermaster/ads/a;
+	Line 41:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$Rt9m3IHF_vtQyABsov0NAaU-_CE;->f$0:Lcom/videoapp/videomakermaster/ads/o;
+	Line 43:     iget-object v1, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$Rt9m3IHF_vtQyABsov0NAaU-_CE;->f$1:Landroid/app/Activity;
+	Line 45:     iget-object v2, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$Rt9m3IHF_vtQyABsov0NAaU-_CE;->f$2:Ljava/lang/String;
+	Line 47:     iget-object v3, p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$Rt9m3IHF_vtQyABsov0NAaU-_CE;->f$3:Lcom/videoapp/videomakermaster/ads/a;
+	Line 49:     invoke-static {v0, v1, v2, v3}, Lcom/videoapp/videomakermaster/ads/o;->lambda$Rt9m3IHF_vtQyABsov0NAaU-_CE(Lcom/videoapp/videomakermaster/ads/o;Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/a;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\a\a$1.smali (14 hits)
+	Line   1: .class Lcom/videoapp/videomakermaster/ads/a/a$1;
+	Line  11:     value = Lcom/videoapp/videomakermaster/ads/a/a;->a(Landroid/view/ViewGroup;)V
+	Line  23: .field final synthetic b:Lcom/videoapp/videomakermaster/ads/a/a;
+	Line  27: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/a/a;Landroid/view/ViewGroup;)V
+	Line  31:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/a/a$1;->b:Lcom/videoapp/videomakermaster/ads/a/a;
+	Line  33:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/a/a$1;->a:Landroid/view/ViewGroup;
+	Line  53:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/a/a$1;->a:Landroid/view/ViewGroup;
+	Line  61:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/a/a$1;->b:Lcom/videoapp/videomakermaster/ads/a/a;
+	Line  63:     invoke-static {v0}, Lcom/videoapp/videomakermaster/ads/a/a;->a(Lcom/videoapp/videomakermaster/ads/a/a;)Lcom/my/target/ads/MyTargetView;
+	Line  96:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/a/a$1;->a:Landroid/view/ViewGroup;
+	Line 107:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/a/a$1;->a:Landroid/view/ViewGroup;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\a\a.smali (21 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/a/a;
+	Line   7: .field private static a:Lcom/videoapp/videomakermaster/ads/a/a;
+	Line  24: .method static synthetic a(Lcom/videoapp/videomakermaster/ads/a/a;)Lcom/my/target/ads/MyTargetView;
+	Line  28:     iget-object p0, p0, Lcom/videoapp/videomakermaster/ads/a/a;->b:Lcom/my/target/ads/MyTargetView;
+	Line  33: .method public static declared-synchronized a()Lcom/videoapp/videomakermaster/ads/a/a;
+	Line  36:     const-class v0, Lcom/videoapp/videomakermaster/ads/a/a;
+	Line  42:     sget-object v1, Lcom/videoapp/videomakermaster/ads/a/a;->a:Lcom/videoapp/videomakermaster/ads/a/a;
+	Line  47:     new-instance v1, Lcom/videoapp/videomakermaster/ads/a/a;
+	Line  49:     invoke-direct {v1}, Lcom/videoapp/videomakermaster/ads/a/a;-><init>()V
+	Line  51:     sput-object v1, Lcom/videoapp/videomakermaster/ads/a/a;->a:Lcom/videoapp/videomakermaster/ads/a/a;
+	Line  55:     sget-object v1, Lcom/videoapp/videomakermaster/ads/a/a;->a:Lcom/videoapp/videomakermaster/ads/a/a;
+	Line 101:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/a/a;->b:Lcom/my/target/ads/MyTargetView;
+	Line 109:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/a/a;->b:Lcom/my/target/ads/MyTargetView;
+	Line 116:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/a/a;->b:Lcom/my/target/ads/MyTargetView;
+	Line 118:     new-instance v1, Lcom/videoapp/videomakermaster/ads/a/a$1;
+	Line 120:     invoke-direct {v1, p0, p1}, Lcom/videoapp/videomakermaster/ads/a/a$1;-><init>(Lcom/videoapp/videomakermaster/ads/a/a;Landroid/view/ViewGroup;)V
+	Line 125:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/a/a;->b:Lcom/my/target/ads/MyTargetView;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\a.smali (1 hit)
+	Line 1: .class public interface abstract Lcom/videoapp/videomakermaster/ads/a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\-$$Lambda$AppOpenAdManager$35Pp4EB4Lpr6WKXKcdta7pjmQ7o.smali (8 hits)
+	Line  1: .class public final synthetic Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$35Pp4EB4Lpr6WKXKcdta7pjmQ7o;
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+	Line 10: .field public static final synthetic INSTANCE:Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$35Pp4EB4Lpr6WKXKcdta7pjmQ7o;
+	Line 17:     new-instance v0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$35Pp4EB4Lpr6WKXKcdta7pjmQ7o;
+	Line 19:     invoke-direct {v0}, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$35Pp4EB4Lpr6WKXKcdta7pjmQ7o;-><init>()V
+	Line 21:     sput-object v0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$35Pp4EB4Lpr6WKXKcdta7pjmQ7o;->INSTANCE:Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$35Pp4EB4Lpr6WKXKcdta7pjmQ7o;
+	Line 39:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->lambda$showAdIfAvailable$0()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\-$$Lambda$AppOpenAdManager$3jJlHYeANtUCAG7NxCMKhD_l4IA.smali (16 hits)
+	Line  1: .class public final synthetic Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$3jJlHYeANtUCAG7NxCMKhD_l4IA;
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+	Line 10: .field public final synthetic f$0:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 12: .field public final synthetic f$1:Lcom/videoapp/videomakermaster/ads/admob/d;
+	Line 16: .method public synthetic constructor <init>(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Lcom/videoapp/videomakermaster/ads/admob/d;)V
+	Line 21:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$3jJlHYeANtUCAG7NxCMKhD_l4IA;->f$0:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 23:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$3jJlHYeANtUCAG7NxCMKhD_l4IA;->f$1:Lcom/videoapp/videomakermaster/ads/admob/d;
+	Line 33:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$3jJlHYeANtUCAG7NxCMKhD_l4IA;->f$0:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 35:     iget-object v1, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$3jJlHYeANtUCAG7NxCMKhD_l4IA;->f$1:Lcom/videoapp/videomakermaster/ads/admob/d;
+	Line 37:     invoke-virtual {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->lambda$showAd$3$AppOpenAdManager(Lcom/videoapp/videomakermaster/ads/admob/d;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\-$$Lambda$AppOpenAdManager$YbeziP0pjnouv9W9gBwCMb6rIPY.smali (16 hits)
+	Line  1: .class public final synthetic Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$YbeziP0pjnouv9W9gBwCMb6rIPY;
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+	Line 10: .field public final synthetic f$0:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 12: .field public final synthetic f$1:Lcom/videoapp/videomakermaster/ads/admob/d;
+	Line 16: .method public synthetic constructor <init>(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Lcom/videoapp/videomakermaster/ads/admob/d;)V
+	Line 21:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$YbeziP0pjnouv9W9gBwCMb6rIPY;->f$0:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 23:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$YbeziP0pjnouv9W9gBwCMb6rIPY;->f$1:Lcom/videoapp/videomakermaster/ads/admob/d;
+	Line 33:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$YbeziP0pjnouv9W9gBwCMb6rIPY;->f$0:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 35:     iget-object v1, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$YbeziP0pjnouv9W9gBwCMb6rIPY;->f$1:Lcom/videoapp/videomakermaster/ads/admob/d;
+	Line 37:     invoke-virtual {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->lambda$showAd$2$AppOpenAdManager(Lcom/videoapp/videomakermaster/ads/admob/d;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\-$$Lambda$AppOpenAdManager$ySS02kC0CHTMEzwnK1p2ofTZ7iw.smali (15 hits)
+	Line  1: .class public final synthetic Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$ySS02kC0CHTMEzwnK1p2ofTZ7iw;
+	Line 10: .field public final synthetic f$0:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 12: .field public final synthetic f$1:Lcom/videoapp/videomakermaster/ads/admob/d;
+	Line 16: .method public synthetic constructor <init>(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Lcom/videoapp/videomakermaster/ads/admob/d;)V
+	Line 21:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$ySS02kC0CHTMEzwnK1p2ofTZ7iw;->f$0:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 23:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$ySS02kC0CHTMEzwnK1p2ofTZ7iw;->f$1:Lcom/videoapp/videomakermaster/ads/admob/d;
+	Line 33:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$ySS02kC0CHTMEzwnK1p2ofTZ7iw;->f$0:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 35:     iget-object v1, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$ySS02kC0CHTMEzwnK1p2ofTZ7iw;->f$1:Lcom/videoapp/videomakermaster/ads/admob/d;
+	Line 37:     invoke-virtual {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->lambda$onMoveToForeground$1$AppOpenAdManager(Lcom/videoapp/videomakermaster/ads/admob/d;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\-$$Lambda$c$fJ9x-tKV5ZmY9rcNEVlni0EVNcw.smali (9 hits)
+	Line  1: .class public final synthetic Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$c$fJ9x-tKV5ZmY9rcNEVlni0EVNcw;
+	Line 10: .field public final synthetic f$0:Lcom/videoapp/videomakermaster/ads/admob/c;
+	Line 14: .method public synthetic constructor <init>(Lcom/videoapp/videomakermaster/ads/admob/c;)V
+	Line 19:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$c$fJ9x-tKV5ZmY9rcNEVlni0EVNcw;->f$0:Lcom/videoapp/videomakermaster/ads/admob/c;
+	Line 29:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$c$fJ9x-tKV5ZmY9rcNEVlni0EVNcw;->f$0:Lcom/videoapp/videomakermaster/ads/admob/c;
+	Line 31:     invoke-static {v0, p1}, Lcom/videoapp/videomakermaster/ads/admob/c;->lambda$fJ9x-tKV5ZmY9rcNEVlni0EVNcw(Lcom/videoapp/videomakermaster/ads/admob/c;Lcom/google/android/gms/ads/nativead/NativeAd;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\a\a.smali (46 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/admob/a/a;
+	Line   6: .implements Lcom/videoapp/videomakermaster/ads/admob/h;
+	Line  10: .field public static final a:Lcom/videoapp/videomakermaster/ads/admob/h;
+	Line  18:             "Lcom/videoapp/videomakermaster/ads/m;",
+	Line  19:             "Lcom/videoapp/videomakermaster/ads/admob/e;",
+	Line  31:     new-instance v0, Lcom/videoapp/videomakermaster/ads/admob/a/a;
+	Line  33:     invoke-direct {v0}, Lcom/videoapp/videomakermaster/ads/admob/a/a;-><init>()V
+	Line  35:     sput-object v0, Lcom/videoapp/videomakermaster/ads/admob/a/a;->a:Lcom/videoapp/videomakermaster/ads/admob/h;
+	Line  51:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/a/a;->b:Ljava/util/Map;
+	Line  54:     sget-object v1, Lcom/videoapp/videomakermaster/ads/m;->b:Lcom/videoapp/videomakermaster/ads/m;
+	Line  56:     new-instance v2, Lcom/videoapp/videomakermaster/ads/admob/a/c;
+	Line  58:     invoke-direct {v2}, Lcom/videoapp/videomakermaster/ads/admob/a/c;-><init>()V
+	Line  63:     sget-object v1, Lcom/videoapp/videomakermaster/ads/m;->a:Lcom/videoapp/videomakermaster/ads/m;
+	Line  65:     new-instance v2, Lcom/videoapp/videomakermaster/ads/admob/a/b;
+	Line  67:     invoke-direct {v2}, Lcom/videoapp/videomakermaster/ads/admob/a/b;-><init>()V
+	Line  74: .method private c(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;)V
+	Line  82:     invoke-virtual {p2}, Lcom/videoapp/videomakermaster/ads/m;->a()Ljava/lang/String;
+	Line  91:     iget-object v1, p0, Lcom/videoapp/videomakermaster/ads/admob/a/a;->b:Ljava/util/Map;
+	Line  97:     check-cast p2, Lcom/videoapp/videomakermaster/ads/admob/e;
+	Line 112:     invoke-interface {p2, p1}, Lcom/videoapp/videomakermaster/ads/admob/e;->a(Landroid/app/Activity;)V
+	Line 120: .method public a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;)V
+	Line 138:     invoke-direct {p0, p1, p2}, Lcom/videoapp/videomakermaster/ads/admob/a/a;->c(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;)V
+	Line 143: .method public a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 147:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/a/a;->b:Ljava/util/Map;
+	Line 153:     check-cast v0, Lcom/videoapp/videomakermaster/ads/admob/e;
+	Line 175:     invoke-interface {v0, p1, p3}, Lcom/videoapp/videomakermaster/ads/admob/e;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 185:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/a/a;->b:Ljava/util/Map;
+	Line 187:     sget-object v1, Lcom/videoapp/videomakermaster/ads/m;->b:Lcom/videoapp/videomakermaster/ads/m;
+	Line 193:     check-cast v0, Lcom/videoapp/videomakermaster/ads/admob/e;
+	Line 200:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/admob/e;->c()Z
+	Line 210:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/a/a;->b:Ljava/util/Map;
+	Line 212:     sget-object v2, Lcom/videoapp/videomakermaster/ads/m;->a:Lcom/videoapp/videomakermaster/ads/m;
+	Line 218:     check-cast v0, Lcom/videoapp/videomakermaster/ads/admob/e;
+	Line 223:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/admob/e;->c()Z
+	Line 237: .method public b(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;)Z
+	Line 257:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/a/a;->b:Ljava/util/Map;
+	Line 263:     check-cast p1, Lcom/videoapp/videomakermaster/ads/admob/e;
+	Line 268:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/admob/e;->b()Z
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\a\b.smali (4 hits)
+	Line  1: .class public Lcom/videoapp/videomakermaster/ads/admob/a/b;
+	Line  2: .super Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line 11:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/admob/b;-><init>()V
+	Line 22:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->i:Ljava/lang/String;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\a\c.smali (4 hits)
+	Line  1: .class public Lcom/videoapp/videomakermaster/ads/admob/a/c;
+	Line  2: .super Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line 11:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/admob/b;-><init>()V
+	Line 22:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->j:Ljava/lang/String;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\a.smali (11 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/admob/a;
+	Line  47:     sput-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->a:Ljava/lang/String;
+	Line  64:     sput-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->b:Ljava/lang/String;
+	Line  83:     sput-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->c:Ljava/lang/String;
+	Line  98:     sput-object v1, Lcom/videoapp/videomakermaster/ads/admob/a;->d:Ljava/lang/String;
+	Line 115:     sput-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->e:Ljava/lang/String;
+	Line 132:     sput-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->f:Ljava/lang/String;
+	Line 149:     sput-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->g:Ljava/lang/String;
+	Line 166:     sput-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->h:Ljava/lang/String;
+	Line 183:     sput-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->i:Ljava/lang/String;
+	Line 200:     sput-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->j:Ljava/lang/String;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\AppOpenAdManager$1.smali (27 hits)
+	Line   1: .class Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$1;
+	Line   8:     value = Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->fetchAd()V
+	Line  18: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  22: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;)V
+	Line  26:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$1;->a:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  39:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$1;->a:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  41:     invoke-static {v0, p1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->access$002(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Lcom/google/android/gms/ads/appopen/AppOpenAd;)Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line  44:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$1;->a:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  48:     invoke-static {p1, v0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->access$102(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Z)Z
+	Line  51:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$1;->a:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  61:     invoke-static {p1, v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->access$202(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;J)J
+	Line  72:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$1;->a:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  74:     invoke-static {v0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->access$200(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;)J
+	Line  93:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$1;->a:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  97:     invoke-static {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->access$102(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Z)Z
+	Line 129:     invoke-virtual {p0, p1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$1;->a(Lcom/google/android/gms/ads/appopen/AppOpenAd;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\AppOpenAdManager$2.smali (39 hits)
+	Line   1: .class Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$2;
+	Line   8:     value = Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->showAdIfAvailable(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;)V
+	Line  18: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+	Line  20: .field final synthetic b:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  24: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;)V
+	Line  28:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$2;->b:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  30:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$2;->a:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+	Line  43:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$2;->b:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  47:     invoke-static {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->access$002(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Lcom/google/android/gms/ads/appopen/AppOpenAd;)Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line  50:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$2;->b:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  54:     invoke-static {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->access$302(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Z)Z
+	Line  62:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$2;->a:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+	Line  64:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;->onShowAdComplete()V
+	Line  67:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$2;->b:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  69:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->fetchAd()V
+	Line  78:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$2;->b:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  82:     invoke-static {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->access$002(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Lcom/google/android/gms/ads/appopen/AppOpenAd;)Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line  85:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$2;->b:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  89:     invoke-static {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->access$302(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Z)Z
+	Line 113:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$2;->a:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+	Line 115:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;->onShowAdComplete()V
+	Line 118:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$2;->b:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 120:     invoke-virtual {p1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->fetchAd()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\AppOpenAdManager$a.smali (2 hits)
+	Line  1: .class public interface abstract Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+	Line  8:     value = Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\AppOpenAdManager.smali (109 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  13:         Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+	Line  19: .field public static final INSTANCE:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  39:     new-instance v0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  41:     invoke-direct {v0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;-><init>()V
+	Line  43:     sput-object v0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->INSTANCE:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line  57:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->appOpenAd:Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line  62:     iput-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isLoadingAd:Z
+	Line  65:     iput-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isShowingAd:Z
+	Line  70:     iput-wide v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->loadTime:J
+	Line  75: .method static synthetic access$002(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Lcom/google/android/gms/ads/appopen/AppOpenAd;)Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line  79:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->appOpenAd:Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line  84: .method static synthetic access$102(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Z)Z
+	Line  88:     iput-boolean p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isLoadingAd:Z
+	Line  93: .method static synthetic access$200(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;)J
+	Line  97:     iget-wide v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->loadTime:J
+	Line 102: .method static synthetic access$202(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;J)J
+	Line 106:     iput-wide p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->loadTime:J
+	Line 111: .method static synthetic access$302(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Z)Z
+	Line 115:     iput-boolean p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isShowingAd:Z
+	Line 128:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->s:Lcom/videoapp/videomakermaster/ads/l;
+	Line 130:     invoke-virtual {v1}, Lcom/videoapp/videomakermaster/ads/l;->a()Ljava/lang/String;
+	Line 177:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->appOpenAd:Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line 183:     invoke-direct {p0, v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->wasLoadTimeLessThanNHoursAgo(J)Z
+	Line 206: .method private showAd(Lcom/videoapp/videomakermaster/ads/admob/d;)V
+	Line 211:     sget-object v0, Lcom/videoapp/videomakermaster/ads/k;->a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 213:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/k;->b()Z
+	Line 224:     invoke-virtual {p1}, Lcom/videoapp/videomakermaster/ads/admob/d;->a()V
+	Line 228:     sget-object v0, Lcom/videoapp/videomakermaster/ads/k;->a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 230:     iget-object v2, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->currentActivity:Landroid/app/Activity;
+	Line 232:     new-instance v3, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$YbeziP0pjnouv9W9gBwCMb6rIPY;
+	Line 234:     invoke-direct {v3, p0, p1}, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$YbeziP0pjnouv9W9gBwCMb6rIPY;-><init>(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Lcom/videoapp/videomakermaster/ads/admob/d;)V
+	Line 236:     invoke-virtual {v0, v2, v3}, Lcom/videoapp/videomakermaster/ads/k;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;)Z
+	Line 239:     iput-boolean v1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isShowingAd:Z
+	Line 245:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isAdAvailable()Z
+	Line 254:     invoke-virtual {p1}, Lcom/videoapp/videomakermaster/ads/admob/d;->isShowing()Z
+	Line 261:     invoke-virtual {p1}, Lcom/videoapp/videomakermaster/ads/admob/d;->a()V
+	Line 265:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->currentActivity:Landroid/app/Activity;
+	Line 267:     new-instance v2, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$3jJlHYeANtUCAG7NxCMKhD_l4IA;
+	Line 269:     invoke-direct {v2, p0, p1}, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$3jJlHYeANtUCAG7NxCMKhD_l4IA;-><init>(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Lcom/videoapp/videomakermaster/ads/admob/d;)V
+	Line 271:     invoke-direct {p0, v0, v2}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->showAdIfAvailable(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;)V
+	Line 274:     iput-boolean v1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isShowingAd:Z
+	Line 295:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$35Pp4EB4Lpr6WKXKcdta7pjmQ7o;->INSTANCE:Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$35Pp4EB4Lpr6WKXKcdta7pjmQ7o;
+	Line 297:     invoke-direct {p0, p1, v0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->showAdIfAvailable(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;)V
+	Line 302: .method private showAdIfAvailable(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;)V
+	Line 306:     iget-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isShowingAd:Z
+	Line 310:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->enablePlacement()Z
+	Line 320:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isAdAvailable()Z
+	Line 332:     invoke-interface {p2}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;->onShowAdComplete()V
+	Line 335:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->fetchAd()V
+	Line 346:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->appOpenAd:Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line 348:     new-instance v1, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$2;
+	Line 350:     invoke-direct {v1, p0, p2}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$2;-><init>(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;)V
+	Line 357:     iput-boolean p2, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isShowingAd:Z
+	Line 360:     iget-object p2, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->appOpenAd:Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line 388:     iget-wide v2, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->loadTime:J
+	Line 417:     iget-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isLoadingAd:Z
+	Line 421:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isAdAvailable()Z
+	Line 427:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->enablePlacement()Z
+	Line 439:     iput-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isLoadingAd:Z
+	Line 455:     sget-object v3, Lcom/videoapp/videomakermaster/ads/admob/a;->d:Ljava/lang/String;
+	Line 457:     new-instance v4, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$1;
+	Line 459:     invoke-direct {v4, p0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$1;-><init>(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;)V
+	Line 469: .method public synthetic lambda$onMoveToForeground$1$AppOpenAdManager(Lcom/videoapp/videomakermaster/ads/admob/d;)V
+	Line 473:     invoke-direct {p0, p1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->showAd(Lcom/videoapp/videomakermaster/ads/admob/d;)V
+	Line 478: .method public synthetic lambda$showAd$2$AppOpenAdManager(Lcom/videoapp/videomakermaster/ads/admob/d;)V
+	Line 484:     invoke-virtual {p1}, Lcom/videoapp/videomakermaster/ads/admob/d;->isShowing()Z
+	Line 491:     invoke-virtual {p1}, Lcom/videoapp/videomakermaster/ads/admob/d;->dismiss()V
+	Line 497:     iput-boolean p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isShowingAd:Z
+	Line 502: .method public synthetic lambda$showAd$3$AppOpenAdManager(Lcom/videoapp/videomakermaster/ads/admob/d;)V
+	Line 508:     invoke-virtual {p1}, Lcom/videoapp/videomakermaster/ads/admob/d;->isShowing()Z
+	Line 515:     invoke-virtual {p1}, Lcom/videoapp/videomakermaster/ads/admob/d;->dismiss()V
+	Line 521:     iput-boolean p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isShowingAd:Z
+	Line 560:     iget-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isShowingAd:Z
+	Line 565:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->currentActivity:Landroid/app/Activity;
+	Line 584:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->currentActivity:Landroid/app/Activity;
+	Line 596:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/a/a;->a:Lcom/videoapp/videomakermaster/ads/admob/h;
+	Line 598:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/admob/h;->a()Z
+	Line 604:     iget-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isShowingAd:Z
+	Line 612:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->currentActivity:Landroid/app/Activity;
+	Line 643:     sget-object v0, Lcom/videoapp/videomakermaster/ads/k;->a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 645:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/k;->b()Z
+	Line 650:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->isAdAvailable()Z
+	Line 662:     new-instance v0, Lcom/videoapp/videomakermaster/ads/admob/d;
+	Line 664:     iget-object v1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->currentActivity:Landroid/app/Activity;
+	Line 666:     invoke-direct {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/d;-><init>(Landroid/content/Context;)V
+	Line 669:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/admob/d;->show()V
+	Line 676:     new-instance v2, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$ySS02kC0CHTMEzwnK1p2ofTZ7iw;
+	Line 678:     invoke-direct {v2, p0, v0}, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$AppOpenAdManager$ySS02kC0CHTMEzwnK1p2ofTZ7iw;-><init>(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;Lcom/videoapp/videomakermaster/ads/admob/d;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\AppOpenAdManager_LifecycleAdapter.smali (8 hits)
+	Line  1: .class public Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager_LifecycleAdapter;
+	Line 10: .field final mReceiver:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 14: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;)V
+	Line 21:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager_LifecycleAdapter;->mReceiver:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 66:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager_LifecycleAdapter;->mReceiver:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 68:     invoke-virtual {p1}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->onMoveToForeground()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\b\a.smali (53 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/admob/b/a;
+	Line   6: .implements Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line  10: .field public static final a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line  18:             "Lcom/videoapp/videomakermaster/ads/l;",
+	Line  19:             "Lcom/videoapp/videomakermaster/ads/admob/f;",
+	Line  31:     new-instance v0, Lcom/videoapp/videomakermaster/ads/admob/b/a;
+	Line  33:     invoke-direct {v0}, Lcom/videoapp/videomakermaster/ads/admob/b/a;-><init>()V
+	Line  35:     sput-object v0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line  51:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->b:Ljava/util/Map;
+	Line  54:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->j:Lcom/videoapp/videomakermaster/ads/l;
+	Line  56:     new-instance v2, Lcom/videoapp/videomakermaster/ads/admob/b/e;
+	Line  58:     invoke-direct {v2}, Lcom/videoapp/videomakermaster/ads/admob/b/e;-><init>()V
+	Line  63:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->g:Lcom/videoapp/videomakermaster/ads/l;
+	Line  65:     new-instance v2, Lcom/videoapp/videomakermaster/ads/admob/b/d;
+	Line  67:     invoke-direct {v2}, Lcom/videoapp/videomakermaster/ads/admob/b/d;-><init>()V
+	Line  72:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->h:Lcom/videoapp/videomakermaster/ads/l;
+	Line  74:     new-instance v2, Lcom/videoapp/videomakermaster/ads/admob/b/b;
+	Line  76:     invoke-direct {v2}, Lcom/videoapp/videomakermaster/ads/admob/b/b;-><init>()V
+	Line  81:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->i:Lcom/videoapp/videomakermaster/ads/l;
+	Line  83:     new-instance v2, Lcom/videoapp/videomakermaster/ads/admob/b/c;
+	Line  85:     invoke-direct {v2}, Lcom/videoapp/videomakermaster/ads/admob/b/c;-><init>()V
+	Line  92: .method private b(Landroid/content/Context;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line  96:     invoke-direct {p0, p1, p2}, Lcom/videoapp/videomakermaster/ads/admob/b/a;->c(Landroid/content/Context;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line 101: .method private c(Landroid/content/Context;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line 105:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->b:Ljava/util/Map;
+	Line 111:     check-cast v0, Lcom/videoapp/videomakermaster/ads/admob/f;
+	Line 133:     invoke-interface {v0, p1}, Lcom/videoapp/videomakermaster/ads/admob/f;->a(Landroid/content/Context;)V
+	Line 146:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->b:Ljava/util/Map;
+	Line 168:     check-cast v1, Lcom/videoapp/videomakermaster/ads/l;
+	Line 171:     iget-object v2, p0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->b:Ljava/util/Map;
+	Line 177:     check-cast v1, Lcom/videoapp/videomakermaster/ads/admob/f;
+	Line 182:     invoke-interface {v1}, Lcom/videoapp/videomakermaster/ads/admob/f;->e()V
+	Line 198: .method public a(Landroid/content/Context;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line 216:     invoke-direct {p0, p1, p2}, Lcom/videoapp/videomakermaster/ads/admob/b/a;->b(Landroid/content/Context;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line 221: .method public a(Landroid/view/ViewGroup;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line 241:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->b:Ljava/util/Map;
+	Line 247:     check-cast p2, Lcom/videoapp/videomakermaster/ads/admob/f;
+	Line 252:     invoke-interface {p2, p1}, Lcom/videoapp/videomakermaster/ads/admob/f;->a(Landroid/view/ViewGroup;)V
+	Line 259: .method public a(Lcom/videoapp/videomakermaster/ads/l;)Z
+	Line 279:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->b:Ljava/util/Map;
+	Line 285:     check-cast p1, Lcom/videoapp/videomakermaster/ads/admob/f;
+	Line 290:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/admob/f;->d()Z
+	Line 300: .method public b(Lcom/videoapp/videomakermaster/ads/l;)Z
+	Line 304:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->b:Ljava/util/Map;
+	Line 310:     check-cast p1, Lcom/videoapp/videomakermaster/ads/admob/f;
+	Line 315:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/admob/f;->c()Z
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\b\b.smali (7 hits)
+	Line  1: .class public Lcom/videoapp/videomakermaster/ads/admob/b/b;
+	Line  2: .super Lcom/videoapp/videomakermaster/ads/admob/c;
+	Line 11:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/admob/c;-><init>()V
+	Line 22:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->h:Lcom/videoapp/videomakermaster/ads/l;
+	Line 24:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/l;->a()Ljava/lang/String;
+	Line 35:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->g:Ljava/lang/String;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\b\c.smali (7 hits)
+	Line  1: .class public Lcom/videoapp/videomakermaster/ads/admob/b/c;
+	Line  2: .super Lcom/videoapp/videomakermaster/ads/admob/c;
+	Line 11:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/admob/c;-><init>()V
+	Line 22:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->i:Lcom/videoapp/videomakermaster/ads/l;
+	Line 24:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/l;->a()Ljava/lang/String;
+	Line 35:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->h:Ljava/lang/String;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\b\d.smali (7 hits)
+	Line  1: .class public Lcom/videoapp/videomakermaster/ads/admob/b/d;
+	Line  2: .super Lcom/videoapp/videomakermaster/ads/admob/c;
+	Line 11:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/admob/c;-><init>()V
+	Line 22:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->g:Lcom/videoapp/videomakermaster/ads/l;
+	Line 24:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/l;->a()Ljava/lang/String;
+	Line 35:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->f:Ljava/lang/String;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\b\e.smali (7 hits)
+	Line  1: .class public Lcom/videoapp/videomakermaster/ads/admob/b/e;
+	Line  2: .super Lcom/videoapp/videomakermaster/ads/admob/c;
+	Line 11:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/admob/c;-><init>()V
+	Line 22:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->j:Lcom/videoapp/videomakermaster/ads/l;
+	Line 24:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/l;->a()Ljava/lang/String;
+	Line 35:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->e:Ljava/lang/String;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\b$1$1.smali (66 hits)
+	Line   1: .class Lcom/videoapp/videomakermaster/ads/admob/b$1$1;
+	Line   8:     value = Lcom/videoapp/videomakermaster/ads/admob/b$1;->a(Lcom/google/android/gms/ads/interstitial/InterstitialAd;)V
+	Line  18: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/admob/b$1;
+	Line  22: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/admob/b$1;)V
+	Line  26:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/b$1$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b$1;
+	Line  39:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b$1$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b$1;
+	Line  41:     iget-object v0, v0, Lcom/videoapp/videomakermaster/ads/admob/b$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line  45:     invoke-static {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/b;->a(Lcom/videoapp/videomakermaster/ads/admob/b;Lcom/google/android/gms/ads/interstitial/InterstitialAd;)Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+	Line  53:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b$1$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b$1;
+	Line  55:     iget-object v0, v0, Lcom/videoapp/videomakermaster/ads/admob/b$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line  57:     invoke-static {v0}, Lcom/videoapp/videomakermaster/ads/admob/b;->a(Lcom/videoapp/videomakermaster/ads/admob/b;)Lcom/videoapp/videomakermaster/ads/a;
+	Line  64:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b$1$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b$1;
+	Line  66:     iget-object v0, v0, Lcom/videoapp/videomakermaster/ads/admob/b$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line  68:     invoke-static {v0}, Lcom/videoapp/videomakermaster/ads/admob/b;->a(Lcom/videoapp/videomakermaster/ads/admob/b;)Lcom/videoapp/videomakermaster/ads/a;
+	Line  72:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/a;->onAdClosed()V
+	Line  76:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b$1$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b$1;
+	Line  78:     iget-object v0, v0, Lcom/videoapp/videomakermaster/ads/admob/b$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line  82:     invoke-static {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/b;->a(Lcom/videoapp/videomakermaster/ads/admob/b;Z)Z
+	Line  91:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/b$1$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b$1;
+	Line  93:     iget-object p1, p1, Lcom/videoapp/videomakermaster/ads/admob/b$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line  97:     invoke-static {p1, v0}, Lcom/videoapp/videomakermaster/ads/admob/b;->a(Lcom/videoapp/videomakermaster/ads/admob/b;Lcom/google/android/gms/ads/interstitial/InterstitialAd;)Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+	Line 105:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/b$1$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b$1;
+	Line 107:     iget-object p1, p1, Lcom/videoapp/videomakermaster/ads/admob/b$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line 109:     invoke-static {p1}, Lcom/videoapp/videomakermaster/ads/admob/b;->a(Lcom/videoapp/videomakermaster/ads/admob/b;)Lcom/videoapp/videomakermaster/ads/a;
+	Line 116:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/b$1$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b$1;
+	Line 118:     iget-object p1, p1, Lcom/videoapp/videomakermaster/ads/admob/b$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line 120:     invoke-static {p1}, Lcom/videoapp/videomakermaster/ads/admob/b;->a(Lcom/videoapp/videomakermaster/ads/admob/b;)Lcom/videoapp/videomakermaster/ads/a;
+	Line 124:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/a;->onAdClosed()V
+	Line 128:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/b$1$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b$1;
+	Line 130:     iget-object p1, p1, Lcom/videoapp/videomakermaster/ads/admob/b$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line 134:     invoke-static {p1, v0}, Lcom/videoapp/videomakermaster/ads/admob/b;->a(Lcom/videoapp/videomakermaster/ads/admob/b;Z)Z
+	Line 148:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b$1$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b$1;
+	Line 150:     iget-object v0, v0, Lcom/videoapp/videomakermaster/ads/admob/b$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line 154:     invoke-static {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/b;->a(Lcom/videoapp/videomakermaster/ads/admob/b;Z)Z
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\b$1.smali (18 hits)
+	Line   1: .class Lcom/videoapp/videomakermaster/ads/admob/b$1;
+	Line   8:     value = Lcom/videoapp/videomakermaster/ads/admob/b;->a(Landroid/app/Activity;)V
+	Line  18: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line  22: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/admob/b;)V
+	Line  26:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/b$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line  39:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line  41:     invoke-static {v0, p1}, Lcom/videoapp/videomakermaster/ads/admob/b;->a(Lcom/videoapp/videomakermaster/ads/admob/b;Lcom/google/android/gms/ads/interstitial/InterstitialAd;)Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+	Line  44:     new-instance v0, Lcom/videoapp/videomakermaster/ads/admob/b$1$1;
+	Line  46:     invoke-direct {v0, p0}, Lcom/videoapp/videomakermaster/ads/admob/b$1$1;-><init>(Lcom/videoapp/videomakermaster/ads/admob/b$1;)V
+	Line  81:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/b$1;->a:Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line  85:     invoke-static {p1, v0}, Lcom/videoapp/videomakermaster/ads/admob/b;->a(Lcom/videoapp/videomakermaster/ads/admob/b;Lcom/google/android/gms/ads/interstitial/InterstitialAd;)Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+	Line  96:     invoke-virtual {p0, p1}, Lcom/videoapp/videomakermaster/ads/admob/b$1;->a(Lcom/google/android/gms/ads/interstitial/InterstitialAd;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\b.smali (24 hits)
+	Line   1: .class public abstract Lcom/videoapp/videomakermaster/ads/admob/b;
+	Line   6: .implements Lcom/videoapp/videomakermaster/ads/admob/e;
+	Line  14: .field private c:Lcom/videoapp/videomakermaster/ads/a;
+	Line  27:     iput-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b;->b:Z
+	Line  32: .method static synthetic a(Lcom/videoapp/videomakermaster/ads/admob/b;Lcom/google/android/gms/ads/interstitial/InterstitialAd;)Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+	Line  36:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/b;->a:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+	Line  41: .method static synthetic a(Lcom/videoapp/videomakermaster/ads/admob/b;)Lcom/videoapp/videomakermaster/ads/a;
+	Line  45:     iget-object p0, p0, Lcom/videoapp/videomakermaster/ads/admob/b;->c:Lcom/videoapp/videomakermaster/ads/a;
+	Line  50: .method static synthetic a(Lcom/videoapp/videomakermaster/ads/admob/b;Z)Z
+	Line  54:     iput-boolean p1, p0, Lcom/videoapp/videomakermaster/ads/admob/b;->b:Z
+	Line  70:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b;->a:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+	Line  73:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/admob/b;->a()Ljava/lang/String;
+	Line  87:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/admob/b;->a()Ljava/lang/String;
+	Line  99:     new-instance v2, Lcom/videoapp/videomakermaster/ads/admob/b$1;
+	Line 101:     invoke-direct {v2, p0}, Lcom/videoapp/videomakermaster/ads/admob/b$1;-><init>(Lcom/videoapp/videomakermaster/ads/admob/b;)V
+	Line 108: .method public a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 112:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/admob/b;->c:Lcom/videoapp/videomakermaster/ads/a;
+	Line 115:     iget-object p2, p0, Lcom/videoapp/videomakermaster/ads/admob/b;->a:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+	Line 132:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b;->a:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+	Line 151:     iget-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/admob/b;->b:Z
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\c$1.smali (6 hits)
+	Line  1: .class Lcom/videoapp/videomakermaster/ads/admob/c$1;
+	Line  8:     value = Lcom/videoapp/videomakermaster/ads/admob/c;->a(Landroid/content/Context;)V
+	Line 18: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/admob/c;
+	Line 22: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/admob/c;)V
+	Line 26:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/c$1;->a:Lcom/videoapp/videomakermaster/ads/admob/c;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\c.smali (32 hits)
+	Line   1: .class public abstract Lcom/videoapp/videomakermaster/ads/admob/c;
+	Line   6: .implements Lcom/videoapp/videomakermaster/ads/admob/f;
+	Line  25:     iput-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->b:Z
+	Line  34:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line  39: .method public static synthetic lambda$fJ9x-tKV5ZmY9rcNEVlni0EVNcw(Lcom/videoapp/videomakermaster/ads/admob/c;Lcom/google/android/gms/ads/nativead/NativeAd;)V
+	Line  42:     invoke-direct {p0, p1}, Lcom/videoapp/videomakermaster/ads/admob/c;->a(Lcom/google/android/gms/ads/nativead/NativeAd;)V
+	Line  72:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line  79:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/admob/c;->a()Ljava/lang/String;
+	Line 106:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/admob/c;->a()Ljava/lang/String;
+	Line 121:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/admob/c;->b()Ljava/lang/String;
+	Line 128:     new-instance p1, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$c$fJ9x-tKV5ZmY9rcNEVlni0EVNcw;
+	Line 130:     invoke-direct {p1, p0}, Lcom/videoapp/videomakermaster/ads/admob/-$$Lambda$c$fJ9x-tKV5ZmY9rcNEVlni0EVNcw;-><init>(Lcom/videoapp/videomakermaster/ads/admob/c;)V
+	Line 136:     new-instance v0, Lcom/videoapp/videomakermaster/ads/admob/c$1;
+	Line 138:     invoke-direct {v0, p0}, Lcom/videoapp/videomakermaster/ads/admob/c$1;-><init>(Lcom/videoapp/videomakermaster/ads/admob/c;)V
+	Line 164:     iput-boolean p1, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->b:Z
+	Line 176:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line 278:     iget-object v4, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line 291:     iget-object v4, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line 300:     iget-object v2, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line 334:     iget-object v5, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line 344:     iget-object v2, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line 376:     iget-object v4, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line 386:     iget-object v2, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line 413:     iget-object v4, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line 436:     iget-object v2, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line 452:     iput-boolean v3, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->b:Z
+	Line 476:     iget-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->b:Z
+	Line 485:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line 504:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+	Line 515:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/admob/c;->a:Lcom/google/android/gms/ads/nativead/NativeAd;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\d.smali (3 hits)
+	Line  1: .class public Lcom/videoapp/videomakermaster/ads/admob/d;
+	Line 27:     invoke-virtual {p0, v0}, Lcom/videoapp/videomakermaster/ads/admob/d;->findViewById(I)Landroid/view/View;
+	Line 59:     invoke-virtual {p0, p1}, Lcom/videoapp/videomakermaster/ads/admob/d;->setContentView(I)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\e.smali (2 hits)
+	Line  1: .class public interface abstract Lcom/videoapp/videomakermaster/ads/admob/e;
+	Line 10: .method public abstract a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/a;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\f.smali (1 hit)
+	Line  1: .class public interface abstract Lcom/videoapp/videomakermaster/ads/admob/f;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\g.smali (5 hits)
+	Line  1: .class public interface abstract Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line 10: .method public abstract a(Landroid/content/Context;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line 13: .method public abstract a(Landroid/view/ViewGroup;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line 16: .method public abstract a(Lcom/videoapp/videomakermaster/ads/l;)Z
+	Line 19: .method public abstract b(Lcom/videoapp/videomakermaster/ads/l;)Z
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\admob\h.smali (5 hits)
+	Line  1: .class public interface abstract Lcom/videoapp/videomakermaster/ads/admob/h;
+	Line  7: .method public abstract a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;)V
+	Line 10: .method public abstract a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 16: .method public abstract b(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;)Z
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\a$1.smali (12 hits)
+	Line   1: .class Lcom/videoapp/videomakermaster/ads/b/a$1;
+	Line  11:     value = Lcom/videoapp/videomakermaster/ads/b/a;->a(Landroid/view/ViewGroup;)V
+	Line  23: .field final synthetic b:Lcom/videoapp/videomakermaster/ads/b/a;
+	Line  27: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/b/a;Landroid/view/ViewGroup;)V
+	Line  31:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/a$1;->b:Lcom/videoapp/videomakermaster/ads/b/a;
+	Line  33:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/b/a$1;->a:Landroid/view/ViewGroup;
+	Line  46:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/a$1;->a:Landroid/view/ViewGroup;
+	Line  59:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/a$1;->a:Landroid/view/ViewGroup;
+	Line  78:     invoke-virtual {p0, p1}, Lcom/videoapp/videomakermaster/ads/b/a$1;->a(Lcom/bytedance/sdk/openadsdk/api/banner/PAGBannerAd;)V
+	Line  87:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/a$1;->a:Landroid/view/ViewGroup;
+	Line  98:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/a$1;->a:Landroid/view/ViewGroup;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\a.smali (15 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/b/a;
+	Line   7: .field private static a:Lcom/videoapp/videomakermaster/ads/b/a;
+	Line  20: .method public static declared-synchronized a()Lcom/videoapp/videomakermaster/ads/b/a;
+	Line  23:     const-class v0, Lcom/videoapp/videomakermaster/ads/b/a;
+	Line  29:     sget-object v1, Lcom/videoapp/videomakermaster/ads/b/a;->a:Lcom/videoapp/videomakermaster/ads/b/a;
+	Line  34:     new-instance v1, Lcom/videoapp/videomakermaster/ads/b/a;
+	Line  36:     invoke-direct {v1}, Lcom/videoapp/videomakermaster/ads/b/a;-><init>()V
+	Line  38:     sput-object v1, Lcom/videoapp/videomakermaster/ads/b/a;->a:Lcom/videoapp/videomakermaster/ads/b/a;
+	Line  42:     sget-object v1, Lcom/videoapp/videomakermaster/ads/b/a;->a:Lcom/videoapp/videomakermaster/ads/b/a;
+	Line  88:     new-instance v0, Lcom/videoapp/videomakermaster/ads/b/a$1;
+	Line  90:     invoke-direct {v0, p0, p1}, Lcom/videoapp/videomakermaster/ads/b/a$1;-><init>(Lcom/videoapp/videomakermaster/ads/b/a;Landroid/view/ViewGroup;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\b$a$1.smali (10 hits)
+	Line  1: .class Lcom/videoapp/videomakermaster/ads/b/b$a$1;
+	Line 11:     value = Lcom/videoapp/videomakermaster/ads/b/b$a;->a()V
+	Line 21: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line 25: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/b/b$a;)V
+	Line 29:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/b$a$1;->a:Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line 42:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/b$a$1;->a:Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line 44:     iput-object p1, v0, Lcom/videoapp/videomakermaster/ads/b/b$a;->a:Lcom/bytedance/sdk/openadsdk/api/nativeAd/PAGNativeAd;
+	Line 55:     invoke-virtual {p0, p1}, Lcom/videoapp/videomakermaster/ads/b/b$a$1;->a(Lcom/bytedance/sdk/openadsdk/api/nativeAd/PAGNativeAd;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\b$a$2.smali (6 hits)
+	Line  1: .class Lcom/videoapp/videomakermaster/ads/b/b$a$2;
+	Line 11:     value = Lcom/videoapp/videomakermaster/ads/b/b$a;->a(Landroid/content/Context;)Landroid/view/View;
+	Line 21: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line 25: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/b/b$a;)V
+	Line 29:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/b$a$2;->a:Lcom/videoapp/videomakermaster/ads/b/b$a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\b$a.smali (16 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line   8:     value = Lcom/videoapp/videomakermaster/ads/b/b;
+	Line  31:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/b$a;->b:Ljava/lang/String;
+	Line  40:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/b$a;->a:Lcom/bytedance/sdk/openadsdk/api/nativeAd/PAGNativeAd;
+	Line 267:     iget-object v1, p0, Lcom/videoapp/videomakermaster/ads/b/b$a;->a:Lcom/bytedance/sdk/openadsdk/api/nativeAd/PAGNativeAd;
+	Line 273:     new-instance v6, Lcom/videoapp/videomakermaster/ads/b/b$a$2;
+	Line 275:     invoke-direct {v6, p0}, Lcom/videoapp/videomakermaster/ads/b/b$a$2;-><init>(Lcom/videoapp/videomakermaster/ads/b/b$a;)V
+	Line 321:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/b/b$a;->c()Z
+	Line 336:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/b$a;->b:Ljava/lang/String;
+	Line 342:     new-instance v2, Lcom/videoapp/videomakermaster/ads/b/b$a$1;
+	Line 344:     invoke-direct {v2, p0}, Lcom/videoapp/videomakermaster/ads/b/b$a$1;-><init>(Lcom/videoapp/videomakermaster/ads/b/b$a;)V
+	Line 358:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/b$a;->a:Lcom/bytedance/sdk/openadsdk/api/nativeAd/PAGNativeAd;
+	Line 379:     invoke-direct {p0, v0}, Lcom/videoapp/videomakermaster/ads/b/b$a;->a(Landroid/content/Context;)Landroid/view/View;
+	Line 420:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/b$a;->a:Lcom/bytedance/sdk/openadsdk/api/nativeAd/PAGNativeAd;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\b.smali (22 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/b/b;
+	Line   9:         Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line  15: .field private static b:Lcom/videoapp/videomakermaster/ads/b/b;
+	Line  24:             "Lcom/videoapp/videomakermaster/ads/b/b$a;",
+	Line  43:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/b;->a:Ljava/util/Map;
+	Line  49:     new-instance v1, Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line  53:     invoke-direct {v1, v2}, Lcom/videoapp/videomakermaster/ads/b/b$a;-><init>(Ljava/lang/String;)V
+	Line  58:     new-instance v1, Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line  62:     invoke-direct {v1, v2}, Lcom/videoapp/videomakermaster/ads/b/b$a;-><init>(Ljava/lang/String;)V
+	Line  69: .method public static declared-synchronized a()Lcom/videoapp/videomakermaster/ads/b/b;
+	Line  72:     const-class v0, Lcom/videoapp/videomakermaster/ads/b/b;
+	Line  78:     sget-object v1, Lcom/videoapp/videomakermaster/ads/b/b;->b:Lcom/videoapp/videomakermaster/ads/b/b;
+	Line  83:     new-instance v1, Lcom/videoapp/videomakermaster/ads/b/b;
+	Line  85:     invoke-direct {v1}, Lcom/videoapp/videomakermaster/ads/b/b;-><init>()V
+	Line  87:     sput-object v1, Lcom/videoapp/videomakermaster/ads/b/b;->b:Lcom/videoapp/videomakermaster/ads/b/b;
+	Line  91:     sget-object v1, Lcom/videoapp/videomakermaster/ads/b/b;->b:Lcom/videoapp/videomakermaster/ads/b/b;
+	Line 109: .method public a(Ljava/lang/String;)Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line 113:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/b;->a:Ljava/util/Map;
+	Line 119:     check-cast p1, Lcom/videoapp/videomakermaster/ads/b/b$a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\c$1.smali (11 hits)
+	Line  1: .class Lcom/videoapp/videomakermaster/ads/b/c$1;
+	Line 11:     value = Lcom/videoapp/videomakermaster/ads/b/c;->b()V
+	Line 21: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/b/c;
+	Line 25: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/b/c;)V
+	Line 29:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/c$1;->a:Lcom/videoapp/videomakermaster/ads/b/c;
+	Line 42:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/c$1;->a:Lcom/videoapp/videomakermaster/ads/b/c;
+	Line 44:     invoke-static {v0, p1}, Lcom/videoapp/videomakermaster/ads/b/c;->a(Lcom/videoapp/videomakermaster/ads/b/c;Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;)Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;
+	Line 55:     invoke-virtual {p0, p1}, Lcom/videoapp/videomakermaster/ads/b/c$1;->a(Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\c$2.smali (14 hits)
+	Line  1: .class Lcom/videoapp/videomakermaster/ads/b/c$2;
+	Line 11:     value = Lcom/videoapp/videomakermaster/ads/b/c;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/a;)Z
+	Line 21: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/a;
+	Line 23: .field final synthetic b:Lcom/videoapp/videomakermaster/ads/b/c;
+	Line 27: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/b/c;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 31:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/c$2;->b:Lcom/videoapp/videomakermaster/ads/b/c;
+	Line 33:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/b/c$2;->a:Lcom/videoapp/videomakermaster/ads/a;
+	Line 52:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/c$2;->a:Lcom/videoapp/videomakermaster/ads/a;
+	Line 57:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/a;->onAdClosed()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\c.smali (28 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/b/c;
+	Line   7: .field private static b:Lcom/videoapp/videomakermaster/ads/b/c;
+	Line  24:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/c;->a:Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;
+	Line  29: .method static synthetic a(Lcom/videoapp/videomakermaster/ads/b/c;Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;)Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;
+	Line  33:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/c;->a:Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;
+	Line  38: .method public static declared-synchronized a()Lcom/videoapp/videomakermaster/ads/b/c;
+	Line  41:     const-class v0, Lcom/videoapp/videomakermaster/ads/b/c;
+	Line  47:     sget-object v1, Lcom/videoapp/videomakermaster/ads/b/c;->b:Lcom/videoapp/videomakermaster/ads/b/c;
+	Line  52:     new-instance v1, Lcom/videoapp/videomakermaster/ads/b/c;
+	Line  54:     invoke-direct {v1}, Lcom/videoapp/videomakermaster/ads/b/c;-><init>()V
+	Line  56:     sput-object v1, Lcom/videoapp/videomakermaster/ads/b/c;->b:Lcom/videoapp/videomakermaster/ads/b/c;
+	Line  60:     sget-object v1, Lcom/videoapp/videomakermaster/ads/b/c;->b:Lcom/videoapp/videomakermaster/ads/b/c;
+	Line  78: .method public a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/a;)Z
+	Line 103:     invoke-interface {p2}, Lcom/videoapp/videomakermaster/ads/a;->onAdClosed()V
+	Line 110:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/c;->a:Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;
+	Line 115:     new-instance v1, Lcom/videoapp/videomakermaster/ads/b/c$2;
+	Line 117:     invoke-direct {v1, p0, p2}, Lcom/videoapp/videomakermaster/ads/b/c$2;-><init>(Lcom/videoapp/videomakermaster/ads/b/c;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 122:     iget-object p2, p0, Lcom/videoapp/videomakermaster/ads/b/c;->a:Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;
+	Line 129:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/c;->a:Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;
+	Line 143:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/c;->a:Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;
+	Line 173:     new-instance v1, Lcom/videoapp/videomakermaster/ads/b/c$1;
+	Line 175:     invoke-direct {v1, p0}, Lcom/videoapp/videomakermaster/ads/b/c$1;-><init>(Lcom/videoapp/videomakermaster/ads/b/c;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\d$1.smali (11 hits)
+	Line  1: .class Lcom/videoapp/videomakermaster/ads/b/d$1;
+	Line 11:     value = Lcom/videoapp/videomakermaster/ads/b/d;->b()V
+	Line 21: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/b/d;
+	Line 25: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/b/d;)V
+	Line 29:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/d$1;->a:Lcom/videoapp/videomakermaster/ads/b/d;
+	Line 42:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/d$1;->a:Lcom/videoapp/videomakermaster/ads/b/d;
+	Line 44:     invoke-static {v0, p1}, Lcom/videoapp/videomakermaster/ads/b/d;->a(Lcom/videoapp/videomakermaster/ads/b/d;Lcom/bytedance/sdk/openadsdk/api/reward/PAGRewardedAd;)Lcom/bytedance/sdk/openadsdk/api/reward/PAGRewardedAd;
+	Line 55:     invoke-virtual {p0, p1}, Lcom/videoapp/videomakermaster/ads/b/d$1;->a(Lcom/bytedance/sdk/openadsdk/api/reward/PAGRewardedAd;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\d$2.smali (29 hits)
+	Line   1: .class Lcom/videoapp/videomakermaster/ads/b/d$2;
+	Line  11:     value = Lcom/videoapp/videomakermaster/ads/b/d;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/b/d$a;)Z
+	Line  21: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/b/d$a;
+	Line  23: .field final synthetic b:Lcom/videoapp/videomakermaster/ads/b/d;
+	Line  27: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/b/d;Lcom/videoapp/videomakermaster/ads/b/d$a;)V
+	Line  31:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/d$2;->b:Lcom/videoapp/videomakermaster/ads/b/d;
+	Line  33:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/b/d$2;->a:Lcom/videoapp/videomakermaster/ads/b/d$a;
+	Line  52:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/d$2;->b:Lcom/videoapp/videomakermaster/ads/b/d;
+	Line  54:     iget-boolean v0, v0, Lcom/videoapp/videomakermaster/ads/b/d;->a:Z
+	Line  59:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/d$2;->a:Lcom/videoapp/videomakermaster/ads/b/d$a;
+	Line  64:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/b/d$a;->onReward()V
+	Line  70:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/d$2;->a:Lcom/videoapp/videomakermaster/ads/b/d$a;
+	Line  75:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/b/d$a;->onSkip()V
+	Line  80:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/d$2;->b:Lcom/videoapp/videomakermaster/ads/b/d;
+	Line  82:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/b/d;->b()V
+	Line  97:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/d$2;->b:Lcom/videoapp/videomakermaster/ads/b/d;
+	Line 101:     iput-boolean v0, p1, Lcom/videoapp/videomakermaster/ads/b/d;->a:Z
+	Line 110:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/d$2;->b:Lcom/videoapp/videomakermaster/ads/b/d;
+	Line 114:     iput-boolean p2, p1, Lcom/videoapp/videomakermaster/ads/b/d;->a:Z
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\d$a.smali (2 hits)
+	Line  1: .class public interface abstract Lcom/videoapp/videomakermaster/ads/b/d$a;
+	Line  8:     value = Lcom/videoapp/videomakermaster/ads/b/d;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\d.smali (31 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/b/d;
+	Line   9:         Lcom/videoapp/videomakermaster/ads/b/d$a;
+	Line  15: .field private static b:Lcom/videoapp/videomakermaster/ads/b/d;
+	Line  34:     iput-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/b/d;->a:Z
+	Line  39: .method static synthetic a(Lcom/videoapp/videomakermaster/ads/b/d;Lcom/bytedance/sdk/openadsdk/api/reward/PAGRewardedAd;)Lcom/bytedance/sdk/openadsdk/api/reward/PAGRewardedAd;
+	Line  43:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/d;->c:Lcom/bytedance/sdk/openadsdk/api/reward/PAGRewardedAd;
+	Line  48: .method public static declared-synchronized a()Lcom/videoapp/videomakermaster/ads/b/d;
+	Line  51:     const-class v0, Lcom/videoapp/videomakermaster/ads/b/d;
+	Line  57:     sget-object v1, Lcom/videoapp/videomakermaster/ads/b/d;->b:Lcom/videoapp/videomakermaster/ads/b/d;
+	Line  62:     new-instance v1, Lcom/videoapp/videomakermaster/ads/b/d;
+	Line  64:     invoke-direct {v1}, Lcom/videoapp/videomakermaster/ads/b/d;-><init>()V
+	Line  66:     sput-object v1, Lcom/videoapp/videomakermaster/ads/b/d;->b:Lcom/videoapp/videomakermaster/ads/b/d;
+	Line  70:     sget-object v1, Lcom/videoapp/videomakermaster/ads/b/d;->b:Lcom/videoapp/videomakermaster/ads/b/d;
+	Line  88: .method public a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/b/d$a;)Z
+	Line 103:     invoke-interface {p2}, Lcom/videoapp/videomakermaster/ads/b/d$a;->onReward()V
+	Line 110:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/d;->c:Lcom/bytedance/sdk/openadsdk/api/reward/PAGRewardedAd;
+	Line 117:     iput-boolean v2, p0, Lcom/videoapp/videomakermaster/ads/b/d;->a:Z
+	Line 120:     new-instance v2, Lcom/videoapp/videomakermaster/ads/b/d$2;
+	Line 122:     invoke-direct {v2, p0, p2}, Lcom/videoapp/videomakermaster/ads/b/d$2;-><init>(Lcom/videoapp/videomakermaster/ads/b/d;Lcom/videoapp/videomakermaster/ads/b/d$a;)V
+	Line 127:     iget-object p2, p0, Lcom/videoapp/videomakermaster/ads/b/d;->c:Lcom/bytedance/sdk/openadsdk/api/reward/PAGRewardedAd;
+	Line 134:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/d;->c:Lcom/bytedance/sdk/openadsdk/api/reward/PAGRewardedAd;
+	Line 146:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/d;->c:Lcom/bytedance/sdk/openadsdk/api/reward/PAGRewardedAd;
+	Line 170:     new-instance v1, Lcom/videoapp/videomakermaster/ads/b/d$1;
+	Line 172:     invoke-direct {v1, p0}, Lcom/videoapp/videomakermaster/ads/b/d$1;-><init>(Lcom/videoapp/videomakermaster/ads/b/d;)V
+	Line 187:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/d;->c:Lcom/bytedance/sdk/openadsdk/api/reward/PAGRewardedAd;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\e$1.smali (15 hits)
+	Line  1: .class Lcom/videoapp/videomakermaster/ads/b/e$1;
+	Line 11:     value = Lcom/videoapp/videomakermaster/ads/b/e;->a(Lcom/videoapp/videomakermaster/ads/b/e$a;)V
+	Line 21: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/b/e$a;
+	Line 23: .field final synthetic b:Lcom/videoapp/videomakermaster/ads/b/e;
+	Line 27: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/b/e;Lcom/videoapp/videomakermaster/ads/b/e$a;)V
+	Line 31:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/b/e$1;->b:Lcom/videoapp/videomakermaster/ads/b/e;
+	Line 33:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/b/e$1;->a:Lcom/videoapp/videomakermaster/ads/b/e$a;
+	Line 71:     sput-boolean v0, Lcom/videoapp/videomakermaster/ads/b/e;->a:Z
+	Line 79:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b/e$1;->a:Lcom/videoapp/videomakermaster/ads/b/e$a;
+	Line 84:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/b/e$a;->onLoadSuccess()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\e$a.smali (2 hits)
+	Line  1: .class public interface abstract Lcom/videoapp/videomakermaster/ads/b/e$a;
+	Line  8:     value = Lcom/videoapp/videomakermaster/ads/b/e;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b\e.smali (21 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/b/e;
+	Line   9:         Lcom/videoapp/videomakermaster/ads/b/e$a;
+	Line  17: .field private static b:Lcom/videoapp/videomakermaster/ads/b/e;
+	Line  30: .method public static declared-synchronized a()Lcom/videoapp/videomakermaster/ads/b/e;
+	Line  33:     const-class v0, Lcom/videoapp/videomakermaster/ads/b/e;
+	Line  39:     sget-object v1, Lcom/videoapp/videomakermaster/ads/b/e;->b:Lcom/videoapp/videomakermaster/ads/b/e;
+	Line  44:     new-instance v1, Lcom/videoapp/videomakermaster/ads/b/e;
+	Line  46:     invoke-direct {v1}, Lcom/videoapp/videomakermaster/ads/b/e;-><init>()V
+	Line  48:     sput-object v1, Lcom/videoapp/videomakermaster/ads/b/e;->b:Lcom/videoapp/videomakermaster/ads/b/e;
+	Line  52:     sget-object v1, Lcom/videoapp/videomakermaster/ads/b/e;->b:Lcom/videoapp/videomakermaster/ads/b/e;
+	Line 114: .method public a(Lcom/videoapp/videomakermaster/ads/b/e$a;)V
+	Line 118:     sget-boolean v0, Lcom/videoapp/videomakermaster/ads/b/e;->a:Z
+	Line 127:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/e;->b()Lcom/bytedance/sdk/openadsdk/api/init/PAGConfig;
+	Line 131:     new-instance v2, Lcom/videoapp/videomakermaster/ads/b/e$1;
+	Line 133:     invoke-direct {v2, p0, p1}, Lcom/videoapp/videomakermaster/ads/b/e$1;-><init>(Lcom/videoapp/videomakermaster/ads/b/e;Lcom/videoapp/videomakermaster/ads/b/e$a;)V
+	Line 143:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/b/e$a;->onLoadSuccess()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\b.smali (41 hits)
+	Line   1: .class public final enum Lcom/videoapp/videomakermaster/ads/b;
+	Line  10:         "Lcom/videoapp/videomakermaster/ads/b;",
+	Line  17: .field public static final enum a:Lcom/videoapp/videomakermaster/ads/b;
+	Line  19: .field public static final enum b:Lcom/videoapp/videomakermaster/ads/b;
+	Line  21: .field public static final enum c:Lcom/videoapp/videomakermaster/ads/b;
+	Line  23: .field public static final enum d:Lcom/videoapp/videomakermaster/ads/b;
+	Line  25: .field public static final enum e:Lcom/videoapp/videomakermaster/ads/b;
+	Line  27: .field private static final synthetic g:[Lcom/videoapp/videomakermaster/ads/b;
+	Line  39:     new-instance v0, Lcom/videoapp/videomakermaster/ads/b;
+	Line  45:     invoke-direct {v0, v1, v2, v1}, Lcom/videoapp/videomakermaster/ads/b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line  47:     sput-object v0, Lcom/videoapp/videomakermaster/ads/b;->a:Lcom/videoapp/videomakermaster/ads/b;
+	Line  49:     new-instance v1, Lcom/videoapp/videomakermaster/ads/b;
+	Line  55:     invoke-direct {v1, v3, v4, v3}, Lcom/videoapp/videomakermaster/ads/b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line  57:     sput-object v1, Lcom/videoapp/videomakermaster/ads/b;->b:Lcom/videoapp/videomakermaster/ads/b;
+	Line  59:     new-instance v3, Lcom/videoapp/videomakermaster/ads/b;
+	Line  65:     invoke-direct {v3, v5, v6, v5}, Lcom/videoapp/videomakermaster/ads/b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line  67:     sput-object v3, Lcom/videoapp/videomakermaster/ads/b;->c:Lcom/videoapp/videomakermaster/ads/b;
+	Line  69:     new-instance v5, Lcom/videoapp/videomakermaster/ads/b;
+	Line  75:     invoke-direct {v5, v7, v8, v7}, Lcom/videoapp/videomakermaster/ads/b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line  77:     sput-object v5, Lcom/videoapp/videomakermaster/ads/b;->d:Lcom/videoapp/videomakermaster/ads/b;
+	Line  79:     new-instance v7, Lcom/videoapp/videomakermaster/ads/b;
+	Line  85:     invoke-direct {v7, v9, v10, v9}, Lcom/videoapp/videomakermaster/ads/b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line  87:     sput-object v7, Lcom/videoapp/videomakermaster/ads/b;->e:Lcom/videoapp/videomakermaster/ads/b;
+	Line  91:     new-array v9, v9, [Lcom/videoapp/videomakermaster/ads/b;
+	Line 104:     sput-object v9, Lcom/videoapp/videomakermaster/ads/b;->g:[Lcom/videoapp/videomakermaster/ads/b;
+	Line 123:     iput-object p3, p0, Lcom/videoapp/videomakermaster/ads/b;->f:Ljava/lang/String;
+	Line 128: .method public static valueOf(Ljava/lang/String;)Lcom/videoapp/videomakermaster/ads/b;
+	Line 132:     const-class v0, Lcom/videoapp/videomakermaster/ads/b;
+	Line 138:     check-cast p0, Lcom/videoapp/videomakermaster/ads/b;
+	Line 143: .method public static values()[Lcom/videoapp/videomakermaster/ads/b;
+	Line 147:     sget-object v0, Lcom/videoapp/videomakermaster/ads/b;->g:[Lcom/videoapp/videomakermaster/ads/b;
+	Line 149:     invoke-virtual {v0}, [Lcom/videoapp/videomakermaster/ads/b;->clone()Ljava/lang/Object;
+	Line 153:     check-cast v0, [Lcom/videoapp/videomakermaster/ads/b;
+	Line 164:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/b;->f:Ljava/lang/String;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\c.smali (61 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/c;
+	Line   7: .method private static synthetic a(Lcom/videoapp/videomakermaster/ads/a;)V
+	Line  13:     invoke-interface {p0}, Lcom/videoapp/videomakermaster/ads/a;->onAdClosed()V
+	Line  19: .method public static a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;Lcom/videoapp/videomakermaster/ads/a;)Z
+	Line  45:     invoke-static {p1, p2}, Lcom/videoapp/videomakermaster/ads/i;->a(Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;)Z
+	Line  53:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/a/a;->a:Lcom/videoapp/videomakermaster/ads/admob/h;
+	Line  55:     sget-object v3, Lcom/videoapp/videomakermaster/ads/m;->a:Lcom/videoapp/videomakermaster/ads/m;
+	Line  57:     invoke-interface {v0, p0, v3}, Lcom/videoapp/videomakermaster/ads/admob/h;->b(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;)Z
+	Line  69:     sget-object p1, Lcom/videoapp/videomakermaster/ads/admob/a/a;->a:Lcom/videoapp/videomakermaster/ads/admob/h;
+	Line  71:     sget-object p2, Lcom/videoapp/videomakermaster/ads/m;->a:Lcom/videoapp/videomakermaster/ads/m;
+	Line  73:     new-instance v0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$c$ILFbOaXeyDZVse-y2GFVGo6pRjI;
+	Line  75:     invoke-direct {v0, p3}, Lcom/videoapp/videomakermaster/ads/-$$Lambda$c$ILFbOaXeyDZVse-y2GFVGo6pRjI;-><init>(Lcom/videoapp/videomakermaster/ads/a;)V
+	Line  77:     invoke-interface {p1, p0, p2, v0}, Lcom/videoapp/videomakermaster/ads/admob/h;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line  83:     invoke-static {p1, p2}, Lcom/videoapp/videomakermaster/ads/i;->a(Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;)Z
+	Line  89:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/a/a;->a:Lcom/videoapp/videomakermaster/ads/admob/h;
+	Line  91:     sget-object v3, Lcom/videoapp/videomakermaster/ads/m;->b:Lcom/videoapp/videomakermaster/ads/m;
+	Line  93:     invoke-interface {v0, p0, v3}, Lcom/videoapp/videomakermaster/ads/admob/h;->b(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;)Z
+	Line 105:     sget-object p1, Lcom/videoapp/videomakermaster/ads/admob/a/a;->a:Lcom/videoapp/videomakermaster/ads/admob/h;
+	Line 107:     sget-object p2, Lcom/videoapp/videomakermaster/ads/m;->b:Lcom/videoapp/videomakermaster/ads/m;
+	Line 109:     new-instance v0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$c$6F5amV1CfLWJYOBTsDE74yyAzfk;
+	Line 111:     invoke-direct {v0, p3}, Lcom/videoapp/videomakermaster/ads/-$$Lambda$c$6F5amV1CfLWJYOBTsDE74yyAzfk;-><init>(Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 113:     invoke-interface {p1, p0, p2, v0}, Lcom/videoapp/videomakermaster/ads/admob/h;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 119:     invoke-static {p1, p2}, Lcom/videoapp/videomakermaster/ads/i;->a(Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;)Z
+	Line 126:     sget-object p1, Lcom/videoapp/videomakermaster/ads/o;->a:Lcom/videoapp/videomakermaster/ads/j;
+	Line 128:     invoke-interface {p1, p0, p3}, Lcom/videoapp/videomakermaster/ads/j;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 136:     invoke-interface {p3}, Lcom/videoapp/videomakermaster/ads/a;->onAdClosed()V
+	Line 146:     invoke-interface {p3}, Lcom/videoapp/videomakermaster/ads/a;->onAdClosed()V
+	Line 152: .method private static synthetic b(Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 158:     invoke-interface {p0}, Lcom/videoapp/videomakermaster/ads/a;->onAdClosed()V
+	Line 164: .method public static synthetic lambda$6F5amV1CfLWJYOBTsDE74yyAzfk(Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 167:     invoke-static {p0}, Lcom/videoapp/videomakermaster/ads/c;->a(Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 172: .method public static synthetic lambda$ILFbOaXeyDZVse-y2GFVGo6pRjI(Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 175:     invoke-static {p0}, Lcom/videoapp/videomakermaster/ads/c;->b(Lcom/videoapp/videomakermaster/ads/a;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\d$1$1.smali (69 hits)
+	Line   1: .class Lcom/videoapp/videomakermaster/ads/d$1$1;
+	Line   8:     value = Lcom/videoapp/videomakermaster/ads/d$1;->a(Lcom/google/android/gms/ads/rewarded/RewardedAd;)V
+	Line  18: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/d$1;
+	Line  22: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/d$1;)V
+	Line  26:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/d$1$1;->a:Lcom/videoapp/videomakermaster/ads/d$1;
+	Line  44:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/d$1$1;->a:Lcom/videoapp/videomakermaster/ads/d$1;
+	Line  46:     iget-object v0, v0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line  48:     invoke-static {v0}, Lcom/videoapp/videomakermaster/ads/d;->b(Lcom/videoapp/videomakermaster/ads/d;)Z
+	Line  55:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/d$1$1;->a:Lcom/videoapp/videomakermaster/ads/d$1;
+	Line  57:     iget-object v0, v0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line  61:     invoke-static {v0, v1}, Lcom/videoapp/videomakermaster/ads/d;->b(Lcom/videoapp/videomakermaster/ads/d;Z)Z
+	Line  64:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/d$1$1;->a:Lcom/videoapp/videomakermaster/ads/d$1;
+	Line  66:     iget-object v0, v0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line  68:     invoke-static {v0}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/videoapp/videomakermaster/ads/d;)Lcom/videoapp/videomakermaster/ads/n$a;
+	Line  75:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/d$1$1;->a:Lcom/videoapp/videomakermaster/ads/d$1;
+	Line  77:     iget-object v0, v0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line  79:     invoke-static {v0}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/videoapp/videomakermaster/ads/d;)Lcom/videoapp/videomakermaster/ads/n$a;
+	Line  83:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/n$a;->onRewarded()V
+	Line  90:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/d$1$1;->a:Lcom/videoapp/videomakermaster/ads/d$1;
+	Line  92:     iget-object v0, v0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line  94:     invoke-static {v0}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/videoapp/videomakermaster/ads/d;)Lcom/videoapp/videomakermaster/ads/n$a;
+	Line 101:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/d$1$1;->a:Lcom/videoapp/videomakermaster/ads/d$1;
+	Line 103:     iget-object v0, v0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line 105:     invoke-static {v0}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/videoapp/videomakermaster/ads/d;)Lcom/videoapp/videomakermaster/ads/n$a;
+	Line 109:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/n$a;->onUserCanceled()V
+	Line 124:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/d$1$1;->a:Lcom/videoapp/videomakermaster/ads/d$1;
+	Line 126:     iget-object p1, p1, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line 128:     invoke-static {p1}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/videoapp/videomakermaster/ads/d;)Lcom/videoapp/videomakermaster/ads/n$a;
+	Line 135:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/d$1$1;->a:Lcom/videoapp/videomakermaster/ads/d$1;
+	Line 137:     iget-object p1, p1, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line 139:     invoke-static {p1}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/videoapp/videomakermaster/ads/d;)Lcom/videoapp/videomakermaster/ads/n$a;
+	Line 143:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/n$a;->onLoadFailed()V
+	Line 158:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/d$1$1;->a:Lcom/videoapp/videomakermaster/ads/d$1;
+	Line 160:     iget-object v0, v0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line 164:     invoke-static {v0, v1}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/videoapp/videomakermaster/ads/d;Lcom/google/android/gms/ads/rewarded/RewardedAd;)Lcom/google/android/gms/ads/rewarded/RewardedAd;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\d$1.smali (52 hits)
+	Line   1: .class Lcom/videoapp/videomakermaster/ads/d$1;
+	Line   8:     value = Lcom/videoapp/videomakermaster/ads/d;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/d$a;)Z
+	Line  18: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/d$a;
+	Line  20: .field final synthetic b:Lcom/videoapp/videomakermaster/ads/d;
+	Line  24: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/d;Lcom/videoapp/videomakermaster/ads/d$a;)V
+	Line  28:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line  30:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/d$1;->a:Lcom/videoapp/videomakermaster/ads/d$a;
+	Line  43:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line  47:     invoke-static {v0, v1}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/videoapp/videomakermaster/ads/d;Z)Z
+	Line  50:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line  52:     invoke-static {v0, p1}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/videoapp/videomakermaster/ads/d;Lcom/google/android/gms/ads/rewarded/RewardedAd;)Lcom/google/android/gms/ads/rewarded/RewardedAd;
+	Line  55:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line  57:     invoke-static {p1}, Lcom/videoapp/videomakermaster/ads/d;->c(Lcom/videoapp/videomakermaster/ads/d;)Lcom/google/android/gms/ads/rewarded/RewardedAd;
+	Line  61:     new-instance v0, Lcom/videoapp/videomakermaster/ads/d$1$1;
+	Line  63:     invoke-direct {v0, p0}, Lcom/videoapp/videomakermaster/ads/d$1$1;-><init>(Lcom/videoapp/videomakermaster/ads/d$1;)V
+	Line  68:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/d$1;->a:Lcom/videoapp/videomakermaster/ads/d$a;
+	Line  73:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/d$a;->onLoaded()V
+	Line  88:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line  92:     invoke-static {p1, v0}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/videoapp/videomakermaster/ads/d;Lcom/google/android/gms/ads/rewarded/RewardedAd;)Lcom/google/android/gms/ads/rewarded/RewardedAd;
+	Line  95:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line  99:     invoke-static {p1, v0}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/videoapp/videomakermaster/ads/d;Z)Z
+	Line 102:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line 104:     invoke-static {p1}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/videoapp/videomakermaster/ads/d;)Lcom/videoapp/videomakermaster/ads/n$a;
+	Line 111:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/d$1;->b:Lcom/videoapp/videomakermaster/ads/d;
+	Line 113:     invoke-static {p1}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/videoapp/videomakermaster/ads/d;)Lcom/videoapp/videomakermaster/ads/n$a;
+	Line 117:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/n$a;->onLoadFailed()V
+	Line 121:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/d$1;->a:Lcom/videoapp/videomakermaster/ads/d$a;
+	Line 126:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/d$a;->onLoadFail()V
+	Line 138:     invoke-virtual {p0, p1}, Lcom/videoapp/videomakermaster/ads/d$1;->a(Lcom/google/android/gms/ads/rewarded/RewardedAd;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\d$a.smali (2 hits)
+	Line  1: .class public interface abstract Lcom/videoapp/videomakermaster/ads/d$a;
+	Line  8:     value = Lcom/videoapp/videomakermaster/ads/d;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\d.smali (53 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/d;
+	Line   9:         Lcom/videoapp/videomakermaster/ads/d$a;
+	Line  15: .field public static final a:Lcom/videoapp/videomakermaster/ads/d;
+	Line  23: .field private d:Lcom/videoapp/videomakermaster/ads/n$a;
+	Line  33:     new-instance v0, Lcom/videoapp/videomakermaster/ads/d;
+	Line  35:     invoke-direct {v0}, Lcom/videoapp/videomakermaster/ads/d;-><init>()V
+	Line  37:     sput-object v0, Lcom/videoapp/videomakermaster/ads/d;->a:Lcom/videoapp/videomakermaster/ads/d;
+	Line  51:     iput-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/d;->c:Z
+	Line  54:     iput-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/d;->e:Z
+	Line  59: .method static synthetic a(Lcom/videoapp/videomakermaster/ads/d;Lcom/google/android/gms/ads/rewarded/RewardedAd;)Lcom/google/android/gms/ads/rewarded/RewardedAd;
+	Line  63:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/d;->b:Lcom/google/android/gms/ads/rewarded/RewardedAd;
+	Line  68: .method static synthetic a(Lcom/videoapp/videomakermaster/ads/d;)Lcom/videoapp/videomakermaster/ads/n$a;
+	Line  72:     iget-object p0, p0, Lcom/videoapp/videomakermaster/ads/d;->d:Lcom/videoapp/videomakermaster/ads/n$a;
+	Line  83:     iput-boolean p1, p0, Lcom/videoapp/videomakermaster/ads/d;->c:Z
+	Line  93: .method static synthetic a(Lcom/videoapp/videomakermaster/ads/d;Z)Z
+	Line  97:     iput-boolean p1, p0, Lcom/videoapp/videomakermaster/ads/d;->e:Z
+	Line 110:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->q:Lcom/videoapp/videomakermaster/ads/l;
+	Line 112:     invoke-virtual {v1}, Lcom/videoapp/videomakermaster/ads/l;->a()Ljava/lang/String;
+	Line 128: .method static synthetic b(Lcom/videoapp/videomakermaster/ads/d;)Z
+	Line 132:     iget-boolean p0, p0, Lcom/videoapp/videomakermaster/ads/d;->c:Z
+	Line 137: .method static synthetic b(Lcom/videoapp/videomakermaster/ads/d;Z)Z
+	Line 141:     iput-boolean p1, p0, Lcom/videoapp/videomakermaster/ads/d;->c:Z
+	Line 146: .method static synthetic c(Lcom/videoapp/videomakermaster/ads/d;)Lcom/google/android/gms/ads/rewarded/RewardedAd;
+	Line 150:     iget-object p0, p0, Lcom/videoapp/videomakermaster/ads/d;->b:Lcom/google/android/gms/ads/rewarded/RewardedAd;
+	Line 155: .method public static synthetic lambda$-anv5puw2EiIBgNXmFdjQf-nxCU(Lcom/videoapp/videomakermaster/ads/d;Lcom/google/android/gms/ads/rewarded/RewardItem;)V
+	Line 158:     invoke-direct {p0, p1}, Lcom/videoapp/videomakermaster/ads/d;->a(Lcom/google/android/gms/ads/rewarded/RewardItem;)V
+	Line 165: .method public a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/n$a;)V
+	Line 169:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/d;->d:Lcom/videoapp/videomakermaster/ads/n$a;
+	Line 172:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/d;->b:Lcom/google/android/gms/ads/rewarded/RewardedAd;
+	Line 177:     new-instance p2, Lcom/videoapp/videomakermaster/ads/-$$Lambda$d$-anv5puw2EiIBgNXmFdjQf-nxCU;
+	Line 179:     invoke-direct {p2, p0}, Lcom/videoapp/videomakermaster/ads/-$$Lambda$d$-anv5puw2EiIBgNXmFdjQf-nxCU;-><init>(Lcom/videoapp/videomakermaster/ads/d;)V
+	Line 189:     invoke-interface {p2}, Lcom/videoapp/videomakermaster/ads/n$a;->onLoadFailed()V
+	Line 205:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/d;->b:Lcom/google/android/gms/ads/rewarded/RewardedAd;
+	Line 220: .method public a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/d$a;)Z
+	Line 227:     iget-object v1, p0, Lcom/videoapp/videomakermaster/ads/d;->b:Lcom/google/android/gms/ads/rewarded/RewardedAd;
+	Line 231:     iget-boolean v1, p0, Lcom/videoapp/videomakermaster/ads/d;->e:Z
+	Line 235:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/d;->b()Z
+	Line 245:     iput-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/d;->c:Z
+	Line 257:     sget-object v2, Lcom/videoapp/videomakermaster/ads/admob/a;->a:Ljava/lang/String;
+	Line 259:     new-instance v3, Lcom/videoapp/videomakermaster/ads/d$1;
+	Line 261:     invoke-direct {v3, p0, p2}, Lcom/videoapp/videomakermaster/ads/d$1;-><init>(Lcom/videoapp/videomakermaster/ads/d;Lcom/videoapp/videomakermaster/ads/d$a;)V
+	Line 268:     iput-boolean p1, p0, Lcom/videoapp/videomakermaster/ads/d;->e:Z
+	Line 290:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/d;->d:Lcom/videoapp/videomakermaster/ads/n$a;
+	Line 295:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/n$a;->onLoadFailed()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\e$1.smali (9 hits)
+	Line   1: .class Lcom/videoapp/videomakermaster/ads/e$1;
+	Line   8:     value = Lcom/videoapp/videomakermaster/ads/e;->d()V
+	Line  18: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/e;
+	Line  22: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/e;)V
+	Line  26:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/e$1;->a:Lcom/videoapp/videomakermaster/ads/e;
+	Line  61:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/e$1;->a:Lcom/videoapp/videomakermaster/ads/e;
+	Line  65:     invoke-virtual {v0, v1}, Lcom/videoapp/videomakermaster/ads/e;->setVisibility(I)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\e.smali (31 hits)
+	Line   1: .class public abstract Lcom/videoapp/videomakermaster/ads/e;
+	Line  27:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/a/a;->a()Lcom/videoapp/videomakermaster/ads/a/a;
+	Line  31:     invoke-virtual {v0, p0}, Lcom/videoapp/videomakermaster/ads/a/a;->a(Landroid/view/ViewGroup;)V
+	Line  37:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/a;->a()Lcom/videoapp/videomakermaster/ads/b/a;
+	Line  41:     invoke-virtual {v0, p0}, Lcom/videoapp/videomakermaster/ads/b/a;->a(Landroid/view/ViewGroup;)V
+	Line  50:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/e;->getADMobId()Ljava/lang/String;
+	Line  61:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/e;->c()V
+	Line  69:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/e;->getContext()Landroid/content/Context;
+	Line  76:     new-instance v1, Lcom/videoapp/videomakermaster/ads/e$1;
+	Line  78:     invoke-direct {v1, p0}, Lcom/videoapp/videomakermaster/ads/e$1;-><init>(Lcom/videoapp/videomakermaster/ads/e;)V
+	Line  83:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/e;->getADMobId()Ljava/lang/String;
+	Line 100:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/e;->getAdSize()Lcom/google/android/gms/ads/AdSize;
+	Line 113:     invoke-virtual {p0, v0, v3}, Lcom/videoapp/videomakermaster/ads/e;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+	Line 128:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/e;->getContext()Landroid/content/Context;
+	Line 178:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/e;->getContext()Landroid/content/Context;
+	Line 208:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/e;->getPlacement()Ljava/lang/String;
+	Line 215:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/e;->getPlacement()Ljava/lang/String;
+	Line 219:     sget-object v3, Lcom/videoapp/videomakermaster/ads/b;->a:Lcom/videoapp/videomakermaster/ads/b;
+	Line 221:     invoke-virtual {v3}, Lcom/videoapp/videomakermaster/ads/b;->a()Ljava/lang/String;
+	Line 225:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/e;->b()Z
+	Line 250:     invoke-virtual {p0, v1}, Lcom/videoapp/videomakermaster/ads/e;->setVisibility(I)V
+	Line 256:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/e;->removeAllViews()V
+	Line 266:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/e;->d()V
+	Line 272:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/e;->c()V
+	Line 279:     invoke-virtual {p0, v1}, Lcom/videoapp/videomakermaster/ads/e;->setVisibility(I)V
+	Line 314:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/e;->a()V
+	Line 341:     invoke-virtual {p0, p1}, Lcom/videoapp/videomakermaster/ads/e;->setVisibility(I)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\ExportAdView.smali (33 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/ExportAdView;
+	Line  20:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line  22:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->j:Lcom/videoapp/videomakermaster/ads/l;
+	Line  24:     invoke-interface {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/g;->b(Lcom/videoapp/videomakermaster/ads/l;)Z
+	Line  39:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line  41:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/ExportAdView;->getContext()Landroid/content/Context;
+	Line  45:     sget-object v2, Lcom/videoapp/videomakermaster/ads/l;->j:Lcom/videoapp/videomakermaster/ads/l;
+	Line  47:     invoke-interface {v0, v1, v2}, Lcom/videoapp/videomakermaster/ads/admob/g;->a(Landroid/content/Context;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line  74:     invoke-virtual {p0, v0}, Lcom/videoapp/videomakermaster/ads/ExportAdView;->setVisibility(I)V
+	Line  80:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/ExportAdView;->a()V
+	Line  83:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line  85:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->i:Lcom/videoapp/videomakermaster/ads/l;
+	Line  87:     invoke-interface {v0, v1}, Lcom/videoapp/videomakermaster/ads/admob/g;->a(Lcom/videoapp/videomakermaster/ads/l;)Z
+	Line  94:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/b;->a()Lcom/videoapp/videomakermaster/ads/b/b;
+	Line 100:     invoke-virtual {v0, v1}, Lcom/videoapp/videomakermaster/ads/b/b;->a(Ljava/lang/String;)Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line 104:     invoke-virtual {v0, p0}, Lcom/videoapp/videomakermaster/ads/b/b$a;->a(Landroid/view/ViewGroup;)V
+	Line 110:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line 112:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->i:Lcom/videoapp/videomakermaster/ads/l;
+	Line 114:     invoke-interface {v0, p0, v1}, Lcom/videoapp/videomakermaster/ads/admob/g;->a(Landroid/view/ViewGroup;Lcom/videoapp/videomakermaster/ads/l;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\ExportBannerAdview.smali (15 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/ExportBannerAdview;
+	Line  23:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/ExportBannerAdview;->getContext()Landroid/content/Context;
+	Line  36:     invoke-virtual {p0, v1}, Lcom/videoapp/videomakermaster/ads/ExportBannerAdview;->setVisibility(I)V
+	Line  46:     sget-object v2, Lcom/videoapp/videomakermaster/ads/l;->k:Lcom/videoapp/videomakermaster/ads/l;
+	Line  48:     invoke-virtual {v2}, Lcom/videoapp/videomakermaster/ads/l;->a()Ljava/lang/String;
+	Line  54:     sget-object v4, Lcom/videoapp/videomakermaster/ads/l;->k:Lcom/videoapp/videomakermaster/ads/l;
+	Line  57:     invoke-virtual {v4}, Lcom/videoapp/videomakermaster/ads/l;->a()Ljava/lang/String;
+	Line  78:     invoke-virtual {p0, v1}, Lcom/videoapp/videomakermaster/ads/ExportBannerAdview;->setVisibility(I)V
+	Line  84:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/ExportBannerAdview;->removeAllViews()V
+	Line  89:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/ExportBannerAdview;->getContext()Landroid/content/Context;
+	Line  97:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/ExportBannerAdview;->getContext()Landroid/content/Context;
+	Line 116:     invoke-virtual {p0, v0, v1}, Lcom/videoapp/videomakermaster/ads/ExportBannerAdview;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+	Line 142:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/ExportBannerAdview;->a()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\f.smali (1 hit)
+	Line 1: .class public abstract Lcom/videoapp/videomakermaster/ads/f;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\g.smali (29 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/g;
+	Line  94:     sget-object v5, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line  96:     sget-object v6, Lcom/videoapp/videomakermaster/ads/l;->h:Lcom/videoapp/videomakermaster/ads/l;
+	Line  98:     invoke-interface {v5, v6}, Lcom/videoapp/videomakermaster/ads/admob/g;->a(Lcom/videoapp/videomakermaster/ads/l;)Z
+	Line 105:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line 107:     sget-object v5, Lcom/videoapp/videomakermaster/ads/l;->h:Lcom/videoapp/videomakermaster/ads/l;
+	Line 109:     invoke-interface {v0, v4, v5}, Lcom/videoapp/videomakermaster/ads/admob/g;->a(Landroid/view/ViewGroup;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line 115:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/b;->a()Lcom/videoapp/videomakermaster/ads/b/b;
+	Line 119:     invoke-virtual {v5, v0}, Lcom/videoapp/videomakermaster/ads/b/b;->a(Ljava/lang/String;)Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line 123:     invoke-virtual {v5}, Lcom/videoapp/videomakermaster/ads/b/b$a;->b()Z
+	Line 130:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/b;->a()Lcom/videoapp/videomakermaster/ads/b/b;
+	Line 134:     invoke-virtual {v5, v0}, Lcom/videoapp/videomakermaster/ads/b/b;->a(Ljava/lang/String;)Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line 138:     invoke-virtual {v0, v4}, Lcom/videoapp/videomakermaster/ads/b/b$a;->a(Landroid/view/ViewGroup;)V
+	Line 148:     new-instance v4, Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$_7YBp68mqBMVZSQl1qb6a5Hp4E4;
+	Line 150:     invoke-direct {v4, v3, v1}, Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$_7YBp68mqBMVZSQl1qb6a5Hp4E4;-><init>(Landroid/app/Dialog;Landroid/app/Activity;)V
+	Line 181:     sget-object p0, Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$RrnK5fFyoMBfA-09pdK7MYy56xQ;->INSTANCE:Lcom/videoapp/videomakermaster/ads/-$$Lambda$g$RrnK5fFyoMBfA-09pdK7MYy56xQ;
+	Line 254:     invoke-static {p0, p1, p2}, Lcom/videoapp/videomakermaster/ads/g;->a(Landroid/content/DialogInterface;ILandroid/view/KeyEvent;)Z
+	Line 264:     invoke-static {p0, p1, p2}, Lcom/videoapp/videomakermaster/ads/g;->a(Landroid/app/Dialog;Landroid/app/Activity;Landroid/view/View;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\GalleryBannerAds.smali (8 hits)
+	Line  1: .class public Lcom/videoapp/videomakermaster/ads/GalleryBannerAds;
+	Line  2: .super Lcom/videoapp/videomakermaster/ads/e;
+	Line 11:     invoke-direct {p0, p1, p2}, Lcom/videoapp/videomakermaster/ads/e;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+	Line 30:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/a;->b:Ljava/lang/String;
+	Line 39:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->n:Lcom/videoapp/videomakermaster/ads/l;
+	Line 41:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/l;->a()Ljava/lang/String;
+	Line 60:     invoke-super {p0}, Lcom/videoapp/videomakermaster/ads/e;->onAttachedToWindow()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\h.smali (2 hits)
+	Line  1: .class public interface abstract Lcom/videoapp/videomakermaster/ads/h;
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\i.smali (30 hits)
+	Line   1: .class public final enum Lcom/videoapp/videomakermaster/ads/i;
+	Line  10:         "Lcom/videoapp/videomakermaster/ads/i;",
+	Line  17: .field public static final enum a:Lcom/videoapp/videomakermaster/ads/i;
+	Line  19: .field public static final enum b:Lcom/videoapp/videomakermaster/ads/i;
+	Line  21: .field private static final synthetic d:[Lcom/videoapp/videomakermaster/ads/i;
+	Line  33:     new-instance v0, Lcom/videoapp/videomakermaster/ads/i;
+	Line  41:     invoke-direct {v0, v1, v2, v3}, Lcom/videoapp/videomakermaster/ads/i;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line  43:     sput-object v0, Lcom/videoapp/videomakermaster/ads/i;->a:Lcom/videoapp/videomakermaster/ads/i;
+	Line  46:     new-instance v1, Lcom/videoapp/videomakermaster/ads/i;
+	Line  54:     invoke-direct {v1, v3, v4, v5}, Lcom/videoapp/videomakermaster/ads/i;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line  56:     sput-object v1, Lcom/videoapp/videomakermaster/ads/i;->b:Lcom/videoapp/videomakermaster/ads/i;
+	Line  60:     new-array v3, v3, [Lcom/videoapp/videomakermaster/ads/i;
+	Line  67:     sput-object v3, Lcom/videoapp/videomakermaster/ads/i;->d:[Lcom/videoapp/videomakermaster/ads/i;
+	Line  86:     iput-object p3, p0, Lcom/videoapp/videomakermaster/ads/i;->c:Ljava/lang/String;
+	Line  91: .method public static a(Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;)Z
+	Line 102:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/l;->a()Ljava/lang/String;
+	Line 121:     invoke-virtual {p1}, Lcom/videoapp/videomakermaster/ads/i;->a()Ljava/lang/String;
+	Line 147: .method public static valueOf(Ljava/lang/String;)Lcom/videoapp/videomakermaster/ads/i;
+	Line 151:     const-class v0, Lcom/videoapp/videomakermaster/ads/i;
+	Line 157:     check-cast p0, Lcom/videoapp/videomakermaster/ads/i;
+	Line 162: .method public static values()[Lcom/videoapp/videomakermaster/ads/i;
+	Line 166:     sget-object v0, Lcom/videoapp/videomakermaster/ads/i;->d:[Lcom/videoapp/videomakermaster/ads/i;
+	Line 168:     invoke-virtual {v0}, [Lcom/videoapp/videomakermaster/ads/i;->clone()Ljava/lang/Object;
+	Line 172:     check-cast v0, [Lcom/videoapp/videomakermaster/ads/i;
+	Line 183:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/i;->c:Ljava/lang/String;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\j.smali (4 hits)
+	Line  1: .class public interface abstract Lcom/videoapp/videomakermaster/ads/j;
+	Line 10: .method public abstract a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 13: .method public abstract a(Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 16: .method public abstract a(Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/h;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\k$1.smali (11 hits)
+	Line  1: .class Lcom/videoapp/videomakermaster/ads/k$1;
+	Line  8:     value = Lcom/videoapp/videomakermaster/ads/k;
+	Line 18: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 22: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/k;)V
+	Line 26:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/k$1;->a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 39:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/k$1;->a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 41:     invoke-static {v0, p1}, Lcom/videoapp/videomakermaster/ads/k;->a(Lcom/videoapp/videomakermaster/ads/k;Lcom/google/android/gms/ads/appopen/AppOpenAd;)Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line 84:     invoke-virtual {p0, p1}, Lcom/videoapp/videomakermaster/ads/k$1;->a(Lcom/google/android/gms/ads/appopen/AppOpenAd;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\k$2.smali (18 hits)
+	Line  1: .class Lcom/videoapp/videomakermaster/ads/k$2;
+	Line  8:     value = Lcom/videoapp/videomakermaster/ads/k;
+	Line 18: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 22: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/k;)V
+	Line 26:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/k$2;->a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 39:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/k$2;->a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 41:     invoke-static {v0}, Lcom/videoapp/videomakermaster/ads/k;->a(Lcom/videoapp/videomakermaster/ads/k;)V
+	Line 50:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/k$2;->a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 52:     invoke-static {p1}, Lcom/videoapp/videomakermaster/ads/k;->a(Lcom/videoapp/videomakermaster/ads/k;)V
+	Line 61:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/k$2;->a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 65:     invoke-static {v0, v1}, Lcom/videoapp/videomakermaster/ads/k;->a(Lcom/videoapp/videomakermaster/ads/k;Z)Z
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\k.smali (49 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/k;
+	Line   7: .field public static final a:Lcom/videoapp/videomakermaster/ads/k;
+	Line  19: .field private f:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+	Line  27:     new-instance v0, Lcom/videoapp/videomakermaster/ads/k;
+	Line  29:     invoke-direct {v0}, Lcom/videoapp/videomakermaster/ads/k;-><init>()V
+	Line  31:     sput-object v0, Lcom/videoapp/videomakermaster/ads/k;->a:Lcom/videoapp/videomakermaster/ads/k;
+	Line  45:     iput-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/k;->d:Z
+	Line  50:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/k;->e:Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line  53:     new-instance v0, Lcom/videoapp/videomakermaster/ads/k$1;
+	Line  55:     invoke-direct {v0, p0}, Lcom/videoapp/videomakermaster/ads/k$1;-><init>(Lcom/videoapp/videomakermaster/ads/k;)V
+	Line  57:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/k;->b:Lcom/google/android/gms/ads/appopen/AppOpenAd$AppOpenAdLoadCallback;
+	Line  60:     new-instance v0, Lcom/videoapp/videomakermaster/ads/k$2;
+	Line  62:     invoke-direct {v0, p0}, Lcom/videoapp/videomakermaster/ads/k$2;-><init>(Lcom/videoapp/videomakermaster/ads/k;)V
+	Line  64:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/k;->c:Lcom/google/android/gms/ads/FullScreenContentCallback;
+	Line  69: .method static synthetic a(Lcom/videoapp/videomakermaster/ads/k;Lcom/google/android/gms/ads/appopen/AppOpenAd;)Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line  73:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/k;->e:Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line  78: .method static synthetic a(Lcom/videoapp/videomakermaster/ads/k;)V
+	Line  82:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/k;->c()V
+	Line  87: .method static synthetic a(Lcom/videoapp/videomakermaster/ads/k;Z)Z
+	Line  91:     iput-boolean p1, p0, Lcom/videoapp/videomakermaster/ads/k;->d:Z
+	Line 100:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->INSTANCE:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;
+	Line 102:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager;->fetchAd()V
+	Line 107:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/k;->e:Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line 112:     iput-boolean v0, p0, Lcom/videoapp/videomakermaster/ads/k;->d:Z
+	Line 115:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/k;->f:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+	Line 120:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;->onShowAdComplete()V
+	Line 134:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->r:Lcom/videoapp/videomakermaster/ads/l;
+	Line 136:     invoke-virtual {v1}, Lcom/videoapp/videomakermaster/ads/l;->a()Ljava/lang/String;
+	Line 201:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/k;->d()Z
+	Line 207:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/k;->b()Z
+	Line 222:     invoke-direct {p0}, Lcom/videoapp/videomakermaster/ads/k;->e()Lcom/google/android/gms/ads/AdRequest;
+	Line 231:     sget-object v2, Lcom/videoapp/videomakermaster/ads/admob/a;->c:Ljava/lang/String;
+	Line 235:     iget-object v4, p0, Lcom/videoapp/videomakermaster/ads/k;->b:Lcom/google/android/gms/ads/appopen/AppOpenAd$AppOpenAdLoadCallback;
+	Line 263: .method public a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;)Z
+	Line 270:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/k;->f:Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+	Line 273:     iget-boolean p2, p0, Lcom/videoapp/videomakermaster/ads/k;->d:Z
+	Line 277:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/k;->b()Z
+	Line 283:     iget-object p2, p0, Lcom/videoapp/videomakermaster/ads/k;->e:Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line 306:     iget-object p2, p0, Lcom/videoapp/videomakermaster/ads/k;->e:Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line 308:     iget-object v1, p0, Lcom/videoapp/videomakermaster/ads/k;->c:Lcom/google/android/gms/ads/FullScreenContentCallback;
+	Line 313:     iget-object p2, p0, Lcom/videoapp/videomakermaster/ads/k;->e:Lcom/google/android/gms/ads/appopen/AppOpenAd;
+	Line 340:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/k;->e:Lcom/google/android/gms/ads/appopen/AppOpenAd;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\l.smali (116 hits)
+	Line   1: .class public final enum Lcom/videoapp/videomakermaster/ads/l;
+	Line  10:         "Lcom/videoapp/videomakermaster/ads/l;",
+	Line  17: .field public static final enum a:Lcom/videoapp/videomakermaster/ads/l;
+	Line  19: .field public static final enum b:Lcom/videoapp/videomakermaster/ads/l;
+	Line  21: .field public static final enum c:Lcom/videoapp/videomakermaster/ads/l;
+	Line  23: .field public static final enum d:Lcom/videoapp/videomakermaster/ads/l;
+	Line  25: .field public static final enum e:Lcom/videoapp/videomakermaster/ads/l;
+	Line  27: .field public static final enum f:Lcom/videoapp/videomakermaster/ads/l;
+	Line  29: .field public static final enum g:Lcom/videoapp/videomakermaster/ads/l;
+	Line  31: .field public static final enum h:Lcom/videoapp/videomakermaster/ads/l;
+	Line  33: .field public static final enum i:Lcom/videoapp/videomakermaster/ads/l;
+	Line  35: .field public static final enum j:Lcom/videoapp/videomakermaster/ads/l;
+	Line  37: .field public static final enum k:Lcom/videoapp/videomakermaster/ads/l;
+	Line  39: .field public static final enum l:Lcom/videoapp/videomakermaster/ads/l;
+	Line  41: .field public static final enum m:Lcom/videoapp/videomakermaster/ads/l;
+	Line  43: .field public static final enum n:Lcom/videoapp/videomakermaster/ads/l;
+	Line  45: .field public static final enum o:Lcom/videoapp/videomakermaster/ads/l;
+	Line  47: .field public static final enum p:Lcom/videoapp/videomakermaster/ads/l;
+	Line  49: .field public static final enum q:Lcom/videoapp/videomakermaster/ads/l;
+	Line  51: .field public static final enum r:Lcom/videoapp/videomakermaster/ads/l;
+	Line  53: .field public static final enum s:Lcom/videoapp/videomakermaster/ads/l;
+	Line  55: .field public static final enum t:Lcom/videoapp/videomakermaster/ads/l;
+	Line  57: .field private static final synthetic v:[Lcom/videoapp/videomakermaster/ads/l;
+	Line  69:     new-instance v0, Lcom/videoapp/videomakermaster/ads/l;
+	Line  75:     invoke-direct {v0, v1, v2, v1}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line  77:     sput-object v0, Lcom/videoapp/videomakermaster/ads/l;->a:Lcom/videoapp/videomakermaster/ads/l;
+	Line  80:     new-instance v1, Lcom/videoapp/videomakermaster/ads/l;
+	Line  86:     invoke-direct {v1, v3, v4, v3}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line  88:     sput-object v1, Lcom/videoapp/videomakermaster/ads/l;->b:Lcom/videoapp/videomakermaster/ads/l;
+	Line  91:     new-instance v3, Lcom/videoapp/videomakermaster/ads/l;
+	Line  97:     invoke-direct {v3, v5, v6, v5}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line  99:     sput-object v3, Lcom/videoapp/videomakermaster/ads/l;->c:Lcom/videoapp/videomakermaster/ads/l;
+	Line 102:     new-instance v5, Lcom/videoapp/videomakermaster/ads/l;
+	Line 108:     invoke-direct {v5, v7, v8, v7}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 110:     sput-object v5, Lcom/videoapp/videomakermaster/ads/l;->d:Lcom/videoapp/videomakermaster/ads/l;
+	Line 113:     new-instance v7, Lcom/videoapp/videomakermaster/ads/l;
+	Line 119:     invoke-direct {v7, v9, v10, v9}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 121:     sput-object v7, Lcom/videoapp/videomakermaster/ads/l;->e:Lcom/videoapp/videomakermaster/ads/l;
+	Line 124:     new-instance v9, Lcom/videoapp/videomakermaster/ads/l;
+	Line 130:     invoke-direct {v9, v11, v12, v11}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 132:     sput-object v9, Lcom/videoapp/videomakermaster/ads/l;->f:Lcom/videoapp/videomakermaster/ads/l;
+	Line 135:     new-instance v11, Lcom/videoapp/videomakermaster/ads/l;
+	Line 141:     invoke-direct {v11, v13, v14, v13}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 143:     sput-object v11, Lcom/videoapp/videomakermaster/ads/l;->g:Lcom/videoapp/videomakermaster/ads/l;
+	Line 146:     new-instance v13, Lcom/videoapp/videomakermaster/ads/l;
+	Line 152:     invoke-direct {v13, v15, v14, v15}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 154:     sput-object v13, Lcom/videoapp/videomakermaster/ads/l;->h:Lcom/videoapp/videomakermaster/ads/l;
+	Line 157:     new-instance v15, Lcom/videoapp/videomakermaster/ads/l;
+	Line 163:     invoke-direct {v15, v14, v12, v14}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 165:     sput-object v15, Lcom/videoapp/videomakermaster/ads/l;->i:Lcom/videoapp/videomakermaster/ads/l;
+	Line 168:     new-instance v14, Lcom/videoapp/videomakermaster/ads/l;
+	Line 174:     invoke-direct {v14, v12, v10, v12}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 176:     sput-object v14, Lcom/videoapp/videomakermaster/ads/l;->j:Lcom/videoapp/videomakermaster/ads/l;
+	Line 179:     new-instance v12, Lcom/videoapp/videomakermaster/ads/l;
+	Line 185:     invoke-direct {v12, v10, v8, v10}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 187:     sput-object v12, Lcom/videoapp/videomakermaster/ads/l;->k:Lcom/videoapp/videomakermaster/ads/l;
+	Line 190:     new-instance v10, Lcom/videoapp/videomakermaster/ads/l;
+	Line 198:     invoke-direct {v10, v8, v6, v4}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 200:     sput-object v10, Lcom/videoapp/videomakermaster/ads/l;->l:Lcom/videoapp/videomakermaster/ads/l;
+	Line 203:     new-instance v4, Lcom/videoapp/videomakermaster/ads/l;
+	Line 211:     invoke-direct {v4, v6, v8, v2}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 213:     sput-object v4, Lcom/videoapp/videomakermaster/ads/l;->m:Lcom/videoapp/videomakermaster/ads/l;
+	Line 216:     new-instance v2, Lcom/videoapp/videomakermaster/ads/l;
+	Line 226:     invoke-direct {v2, v6, v8, v4}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 228:     sput-object v2, Lcom/videoapp/videomakermaster/ads/l;->n:Lcom/videoapp/videomakermaster/ads/l;
+	Line 231:     new-instance v4, Lcom/videoapp/videomakermaster/ads/l;
+	Line 241:     invoke-direct {v4, v6, v8, v2}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 243:     sput-object v4, Lcom/videoapp/videomakermaster/ads/l;->o:Lcom/videoapp/videomakermaster/ads/l;
+	Line 246:     new-instance v2, Lcom/videoapp/videomakermaster/ads/l;
+	Line 256:     invoke-direct {v2, v6, v8, v4}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 258:     sput-object v2, Lcom/videoapp/videomakermaster/ads/l;->p:Lcom/videoapp/videomakermaster/ads/l;
+	Line 261:     new-instance v4, Lcom/videoapp/videomakermaster/ads/l;
+	Line 271:     invoke-direct {v4, v6, v8, v2}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 273:     sput-object v4, Lcom/videoapp/videomakermaster/ads/l;->q:Lcom/videoapp/videomakermaster/ads/l;
+	Line 276:     new-instance v2, Lcom/videoapp/videomakermaster/ads/l;
+	Line 286:     invoke-direct {v2, v6, v8, v4}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 288:     sput-object v2, Lcom/videoapp/videomakermaster/ads/l;->r:Lcom/videoapp/videomakermaster/ads/l;
+	Line 291:     new-instance v4, Lcom/videoapp/videomakermaster/ads/l;
+	Line 301:     invoke-direct {v4, v6, v8, v2}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 303:     sput-object v4, Lcom/videoapp/videomakermaster/ads/l;->s:Lcom/videoapp/videomakermaster/ads/l;
+	Line 306:     new-instance v2, Lcom/videoapp/videomakermaster/ads/l;
+	Line 316:     invoke-direct {v2, v6, v8, v4}, Lcom/videoapp/videomakermaster/ads/l;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line 318:     sput-object v2, Lcom/videoapp/videomakermaster/ads/l;->t:Lcom/videoapp/videomakermaster/ads/l;
+	Line 322:     new-array v4, v4, [Lcom/videoapp/videomakermaster/ads/l;
+	Line 405:     sput-object v4, Lcom/videoapp/videomakermaster/ads/l;->v:[Lcom/videoapp/videomakermaster/ads/l;
+	Line 424:     iput-object p3, p0, Lcom/videoapp/videomakermaster/ads/l;->u:Ljava/lang/String;
+	Line 429: .method public static valueOf(Ljava/lang/String;)Lcom/videoapp/videomakermaster/ads/l;
+	Line 433:     const-class v0, Lcom/videoapp/videomakermaster/ads/l;
+	Line 439:     check-cast p0, Lcom/videoapp/videomakermaster/ads/l;
+	Line 444: .method public static values()[Lcom/videoapp/videomakermaster/ads/l;
+	Line 448:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->v:[Lcom/videoapp/videomakermaster/ads/l;
+	Line 450:     invoke-virtual {v0}, [Lcom/videoapp/videomakermaster/ads/l;->clone()Ljava/lang/Object;
+	Line 454:     check-cast v0, [Lcom/videoapp/videomakermaster/ads/l;
+	Line 465:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/l;->u:Ljava/lang/String;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\m.smali (26 hits)
+	Line   1: .class public final enum Lcom/videoapp/videomakermaster/ads/m;
+	Line  10:         "Lcom/videoapp/videomakermaster/ads/m;",
+	Line  17: .field public static final enum a:Lcom/videoapp/videomakermaster/ads/m;
+	Line  19: .field public static final enum b:Lcom/videoapp/videomakermaster/ads/m;
+	Line  21: .field private static final synthetic d:[Lcom/videoapp/videomakermaster/ads/m;
+	Line  33:     new-instance v0, Lcom/videoapp/videomakermaster/ads/m;
+	Line  39:     invoke-direct {v0, v1, v2, v1}, Lcom/videoapp/videomakermaster/ads/m;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line  41:     sput-object v0, Lcom/videoapp/videomakermaster/ads/m;->a:Lcom/videoapp/videomakermaster/ads/m;
+	Line  44:     new-instance v1, Lcom/videoapp/videomakermaster/ads/m;
+	Line  50:     invoke-direct {v1, v3, v4, v3}, Lcom/videoapp/videomakermaster/ads/m;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+	Line  52:     sput-object v1, Lcom/videoapp/videomakermaster/ads/m;->b:Lcom/videoapp/videomakermaster/ads/m;
+	Line  56:     new-array v3, v3, [Lcom/videoapp/videomakermaster/ads/m;
+	Line  63:     sput-object v3, Lcom/videoapp/videomakermaster/ads/m;->d:[Lcom/videoapp/videomakermaster/ads/m;
+	Line  82:     iput-object p3, p0, Lcom/videoapp/videomakermaster/ads/m;->c:Ljava/lang/String;
+	Line  87: .method public static valueOf(Ljava/lang/String;)Lcom/videoapp/videomakermaster/ads/m;
+	Line  91:     const-class v0, Lcom/videoapp/videomakermaster/ads/m;
+	Line  97:     check-cast p0, Lcom/videoapp/videomakermaster/ads/m;
+	Line 102: .method public static values()[Lcom/videoapp/videomakermaster/ads/m;
+	Line 106:     sget-object v0, Lcom/videoapp/videomakermaster/ads/m;->d:[Lcom/videoapp/videomakermaster/ads/m;
+	Line 108:     invoke-virtual {v0}, [Lcom/videoapp/videomakermaster/ads/m;->clone()Ljava/lang/Object;
+	Line 112:     check-cast v0, [Lcom/videoapp/videomakermaster/ads/m;
+	Line 123:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/m;->c:Ljava/lang/String;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\MessageBannerAdview.smali (7 hits)
+	Line  1: .class public Lcom/videoapp/videomakermaster/ads/MessageBannerAdview;
+	Line  2: .super Lcom/videoapp/videomakermaster/ads/e;
+	Line 11:     invoke-direct {p0, p1, p2}, Lcom/videoapp/videomakermaster/ads/e;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+	Line 38:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->m:Lcom/videoapp/videomakermaster/ads/l;
+	Line 40:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/l;->a()Ljava/lang/String;
+	Line 59:     invoke-super {p0}, Lcom/videoapp/videomakermaster/ads/e;->onAttachedToWindow()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\n$a.smali (2 hits)
+	Line  1: .class public interface abstract Lcom/videoapp/videomakermaster/ads/n$a;
+	Line  8:     value = Lcom/videoapp/videomakermaster/ads/n;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\n.smali (3 hits)
+	Line  1: .class public Lcom/videoapp/videomakermaster/ads/n;
+	Line  2: .super Lcom/videoapp/videomakermaster/ads/f;
+	Line  9:         Lcom/videoapp/videomakermaster/ads/n$a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\o$1.smali (12 hits)
+	Line  1: .class Lcom/videoapp/videomakermaster/ads/o$1;
+	Line 11:     value = Lcom/videoapp/videomakermaster/ads/o;->a()V
+	Line 21: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/o;
+	Line 25: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/o;)V
+	Line 29:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/o$1;->a:Lcom/videoapp/videomakermaster/ads/o;
+	Line 42:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/o$1;->a:Lcom/videoapp/videomakermaster/ads/o;
+	Line 46:     invoke-virtual {v0, v1}, Lcom/videoapp/videomakermaster/ads/o;->a(Ljava/lang/String;)V
+	Line 49:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/o$1;->a:Lcom/videoapp/videomakermaster/ads/o;
+	Line 53:     invoke-virtual {v0, v1}, Lcom/videoapp/videomakermaster/ads/o;->a(Ljava/lang/String;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\o$2.smali (22 hits)
+	Line  1: .class Lcom/videoapp/videomakermaster/ads/o$2;
+	Line 11:     value = Lcom/videoapp/videomakermaster/ads/o;->b(Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 21: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/a;
+	Line 25: .field final synthetic c:Lcom/videoapp/videomakermaster/ads/o;
+	Line 29: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/o;Lcom/videoapp/videomakermaster/ads/a;Ljava/lang/String;)V
+	Line 33:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/o$2;->c:Lcom/videoapp/videomakermaster/ads/o;
+	Line 35:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/o$2;->a:Lcom/videoapp/videomakermaster/ads/a;
+	Line 37:     iput-object p3, p0, Lcom/videoapp/videomakermaster/ads/o$2;->b:Ljava/lang/String;
+	Line 56:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/o$2;->a:Lcom/videoapp/videomakermaster/ads/a;
+	Line 61:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/a;->onAdClosed()V
+	Line 65:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/o$2;->c:Lcom/videoapp/videomakermaster/ads/o;
+	Line 67:     iget-object p2, p0, Lcom/videoapp/videomakermaster/ads/o$2;->b:Ljava/lang/String;
+	Line 69:     invoke-virtual {p1, p2}, Lcom/videoapp/videomakermaster/ads/o;->a(Ljava/lang/String;)V
+	Line 78:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/o$2;->a:Lcom/videoapp/videomakermaster/ads/a;
+	Line 83:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/a;->onAdClosed()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\o$3.smali (6 hits)
+	Line  1: .class Lcom/videoapp/videomakermaster/ads/o$3;
+	Line 11:     value = Lcom/videoapp/videomakermaster/ads/o;->a(Ljava/lang/String;)V
+	Line 21: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/o;
+	Line 25: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/o;)V
+	Line 29:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/o$3;->a:Lcom/videoapp/videomakermaster/ads/o;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\o$4.smali (22 hits)
+	Line  1: .class Lcom/videoapp/videomakermaster/ads/o$4;
+	Line 11:     value = Lcom/videoapp/videomakermaster/ads/o;->b(Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/h;)V
+	Line 21: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/h;
+	Line 25: .field final synthetic c:Lcom/videoapp/videomakermaster/ads/o;
+	Line 29: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/o;Lcom/videoapp/videomakermaster/ads/h;Ljava/lang/String;)V
+	Line 33:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/o$4;->c:Lcom/videoapp/videomakermaster/ads/o;
+	Line 35:     iput-object p2, p0, Lcom/videoapp/videomakermaster/ads/o$4;->a:Lcom/videoapp/videomakermaster/ads/h;
+	Line 37:     iput-object p3, p0, Lcom/videoapp/videomakermaster/ads/o$4;->b:Ljava/lang/String;
+	Line 56:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/o$4;->a:Lcom/videoapp/videomakermaster/ads/h;
+	Line 61:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/h;->onUnityAdsShowComplete()V
+	Line 65:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/o$4;->c:Lcom/videoapp/videomakermaster/ads/o;
+	Line 67:     iget-object p2, p0, Lcom/videoapp/videomakermaster/ads/o$4;->b:Ljava/lang/String;
+	Line 69:     invoke-virtual {p1, p2}, Lcom/videoapp/videomakermaster/ads/o;->a(Ljava/lang/String;)V
+	Line 78:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/o$4;->a:Lcom/videoapp/videomakermaster/ads/h;
+	Line 83:     invoke-interface {p1}, Lcom/videoapp/videomakermaster/ads/h;->onAdClosed()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\o.smali (51 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/o;
+	Line   6: .implements Lcom/videoapp/videomakermaster/ads/j;
+	Line  10: .field public static final a:Lcom/videoapp/videomakermaster/ads/j;
+	Line  20:     new-instance v0, Lcom/videoapp/videomakermaster/ads/o;
+	Line  22:     invoke-direct {v0}, Lcom/videoapp/videomakermaster/ads/o;-><init>()V
+	Line  24:     sput-object v0, Lcom/videoapp/videomakermaster/ads/o;->a:Lcom/videoapp/videomakermaster/ads/j;
+	Line  31:     sput-object v0, Lcom/videoapp/videomakermaster/ads/o;->b:Landroid/os/Handler;
+	Line  45: .method private synthetic b(Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line  49:     new-instance v0, Lcom/videoapp/videomakermaster/ads/o$2;
+	Line  51:     invoke-direct {v0, p0, p3, p2}, Lcom/videoapp/videomakermaster/ads/o$2;-><init>(Lcom/videoapp/videomakermaster/ads/o;Lcom/videoapp/videomakermaster/ads/a;Ljava/lang/String;)V
+	Line  58: .method private synthetic b(Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/h;)V
+	Line  62:     new-instance v0, Lcom/videoapp/videomakermaster/ads/o$4;
+	Line  64:     invoke-direct {v0, p0, p3, p2}, Lcom/videoapp/videomakermaster/ads/o$4;-><init>(Lcom/videoapp/videomakermaster/ads/o;Lcom/videoapp/videomakermaster/ads/h;Ljava/lang/String;)V
+	Line  71: .method public static synthetic lambda$8Ykd-hbzOXeS0kOQz0If0H30MPY(Lcom/videoapp/videomakermaster/ads/o;Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/h;)V
+	Line  74:     invoke-direct {p0, p1, p2, p3}, Lcom/videoapp/videomakermaster/ads/o;->b(Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/h;)V
+	Line  79: .method public static synthetic lambda$Rt9m3IHF_vtQyABsov0NAaU-_CE(Lcom/videoapp/videomakermaster/ads/o;Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line  82:     invoke-direct {p0, p1, p2, p3}, Lcom/videoapp/videomakermaster/ads/o;->b(Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 138:     new-instance v3, Lcom/videoapp/videomakermaster/ads/o$1;
+	Line 140:     invoke-direct {v3, p0}, Lcom/videoapp/videomakermaster/ads/o$1;-><init>(Lcom/videoapp/videomakermaster/ads/o;)V
+	Line 164:     invoke-virtual {p0, v0}, Lcom/videoapp/videomakermaster/ads/o;->a(Ljava/lang/String;)V
+	Line 169:     invoke-virtual {p0, v0}, Lcom/videoapp/videomakermaster/ads/o;->a(Ljava/lang/String;)V
+	Line 186: .method public a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 192:     invoke-virtual {p0, p1, v0, p2}, Lcom/videoapp/videomakermaster/ads/o;->a(Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 197: .method public a(Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 214:     invoke-interface {p3}, Lcom/videoapp/videomakermaster/ads/a;->onAdClosed()V
+	Line 221:     sget-object v0, Lcom/videoapp/videomakermaster/ads/o;->b:Landroid/os/Handler;
+	Line 223:     new-instance v1, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$Rt9m3IHF_vtQyABsov0NAaU-_CE;
+	Line 225:     invoke-direct {v1, p0, p1, p2, p3}, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$Rt9m3IHF_vtQyABsov0NAaU-_CE;-><init>(Lcom/videoapp/videomakermaster/ads/o;Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 232: .method public a(Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/h;)V
+	Line 249:     invoke-interface {p3}, Lcom/videoapp/videomakermaster/ads/h;->onUnityAdsShowComplete()V
+	Line 256:     sget-object v0, Lcom/videoapp/videomakermaster/ads/o;->b:Landroid/os/Handler;
+	Line 258:     new-instance v1, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$8Ykd-hbzOXeS0kOQz0If0H30MPY;
+	Line 260:     invoke-direct {v1, p0, p1, p2, p3}, Lcom/videoapp/videomakermaster/ads/-$$Lambda$o$8Ykd-hbzOXeS0kOQz0If0H30MPY;-><init>(Lcom/videoapp/videomakermaster/ads/o;Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/h;)V
+	Line 276:     new-instance v1, Lcom/videoapp/videomakermaster/ads/o$3;
+	Line 278:     invoke-direct {v1, p0}, Lcom/videoapp/videomakermaster/ads/o$3;-><init>(Lcom/videoapp/videomakermaster/ads/o;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\p$1.smali (30 hits)
+	Line   1: .class Lcom/videoapp/videomakermaster/ads/p$1;
+	Line  11:     value = Lcom/videoapp/videomakermaster/ads/p;->b()V
+	Line  21: .field final synthetic a:Lcom/videoapp/videomakermaster/ads/p;
+	Line  25: .method constructor <init>(Lcom/videoapp/videomakermaster/ads/p;)V
+	Line  29:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/p$1;->a:Lcom/videoapp/videomakermaster/ads/p;
+	Line  90:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/p$1;->a:Lcom/videoapp/videomakermaster/ads/p;
+	Line  92:     invoke-static {p1}, Lcom/videoapp/videomakermaster/ads/p;->a(Lcom/videoapp/videomakermaster/ads/p;)Lcom/android/installreferrer/api/InstallReferrerClient;
+	Line 172:     invoke-static {v2, p1}, Lcom/videoapp/videomakermaster/ads/p;->a(Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
+	Line 183:     invoke-static {v2, v1}, Lcom/videoapp/videomakermaster/ads/p;->a(Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
+	Line 224:     iget-object v1, p0, Lcom/videoapp/videomakermaster/ads/p$1;->a:Lcom/videoapp/videomakermaster/ads/p;
+	Line 226:     invoke-static {v1}, Lcom/videoapp/videomakermaster/ads/p;->b(Lcom/videoapp/videomakermaster/ads/p;)Landroid/content/SharedPreferences;
+	Line 251:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/p$1;->a:Lcom/videoapp/videomakermaster/ads/p;
+	Line 253:     invoke-static {p1}, Lcom/videoapp/videomakermaster/ads/p;->b(Lcom/videoapp/videomakermaster/ads/p;)Landroid/content/SharedPreferences;
+	Line 271:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/p$1;->a:Lcom/videoapp/videomakermaster/ads/p;
+	Line 273:     invoke-static {p1}, Lcom/videoapp/videomakermaster/ads/p;->b(Lcom/videoapp/videomakermaster/ads/p;)Landroid/content/SharedPreferences;
+	Line 314:     iget-object p1, p0, Lcom/videoapp/videomakermaster/ads/p$1;->a:Lcom/videoapp/videomakermaster/ads/p;
+	Line 316:     invoke-virtual {p1}, Lcom/videoapp/videomakermaster/ads/p;->f()V
+	Line 322:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/p$1;->a:Lcom/videoapp/videomakermaster/ads/p;
+	Line 324:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/p;->f()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\p.smali (36 hits)
+	Line   1: .class public Lcom/videoapp/videomakermaster/ads/p;
+	Line   7: .field private static a:Lcom/videoapp/videomakermaster/ads/p;
+	Line  30:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/p;->d:Ljava/lang/String;
+	Line  33:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/p;->b:Landroid/content/Context;
+	Line  44:     iput-object p1, p0, Lcom/videoapp/videomakermaster/ads/p;->c:Landroid/content/SharedPreferences;
+	Line  49: .method static synthetic a(Lcom/videoapp/videomakermaster/ads/p;)Lcom/android/installreferrer/api/InstallReferrerClient;
+	Line  53:     iget-object p0, p0, Lcom/videoapp/videomakermaster/ads/p;->e:Lcom/android/installreferrer/api/InstallReferrerClient;
+	Line  58: .method public static declared-synchronized a()Lcom/videoapp/videomakermaster/ads/p;
+	Line  61:     const-class v0, Lcom/videoapp/videomakermaster/ads/p;
+	Line  67:     sget-object v1, Lcom/videoapp/videomakermaster/ads/p;->a:Lcom/videoapp/videomakermaster/ads/p;
+	Line  72:     new-instance v1, Lcom/videoapp/videomakermaster/ads/p;
+	Line  78:     invoke-direct {v1, v2}, Lcom/videoapp/videomakermaster/ads/p;-><init>(Landroid/content/Context;)V
+	Line  80:     sput-object v1, Lcom/videoapp/videomakermaster/ads/p;->a:Lcom/videoapp/videomakermaster/ads/p;
+	Line  84:     sget-object v1, Lcom/videoapp/videomakermaster/ads/p;->a:Lcom/videoapp/videomakermaster/ads/p;
+	Line 104:     invoke-static {p0, p1}, Lcom/videoapp/videomakermaster/ads/p;->b(Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
+	Line 111: .method static synthetic b(Lcom/videoapp/videomakermaster/ads/p;)Landroid/content/SharedPreferences;
+	Line 115:     iget-object p0, p0, Lcom/videoapp/videomakermaster/ads/p;->c:Landroid/content/SharedPreferences;
+	Line 165:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/p;->c:Landroid/content/SharedPreferences;
+	Line 198:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/p;->b:Landroid/content/Context;
+	Line 212:     iget-object v4, p0, Lcom/videoapp/videomakermaster/ads/p;->c:Landroid/content/SharedPreferences;
+	Line 240:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/p;->b:Landroid/content/Context;
+	Line 250:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/p;->e:Lcom/android/installreferrer/api/InstallReferrerClient;
+	Line 253:     new-instance v1, Lcom/videoapp/videomakermaster/ads/p$1;
+	Line 255:     invoke-direct {v1, p0}, Lcom/videoapp/videomakermaster/ads/p$1;-><init>(Lcom/videoapp/videomakermaster/ads/p;)V
+	Line 277:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/p;->d()Z
+	Line 283:     invoke-virtual {p0}, Lcom/videoapp/videomakermaster/ads/p;->e()Z
+	Line 348:     iget-object v2, p0, Lcom/videoapp/videomakermaster/ads/p;->c:Landroid/content/SharedPreferences;
+	Line 359:     iget-object v4, p0, Lcom/videoapp/videomakermaster/ads/p;->c:Landroid/content/SharedPreferences;
+	Line 475:     iget-object v1, p0, Lcom/videoapp/videomakermaster/ads/p;->b:Landroid/content/Context;
+	Line 481:     iget-object v2, p0, Lcom/videoapp/videomakermaster/ads/p;->b:Landroid/content/Context;
+	Line 533:     iget-object v0, p0, Lcom/videoapp/videomakermaster/ads/p;->e:Lcom/android/installreferrer/api/InstallReferrerClient;
+	Line 544:     iput-object v0, p0, Lcom/videoapp/videomakermaster/ads/p;->e:Lcom/android/installreferrer/api/InstallReferrerClient;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\ProView.smali (2 hits)
+	Line  1: .class public Lcom/videoapp/videomakermaster/ads/ProView;
+	Line 84:     invoke-virtual {p0, v0}, Lcom/videoapp/videomakermaster/ads/ProView;->setVisibility(I)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\ads\StudioBannerAdview.smali (7 hits)
+	Line  1: .class public Lcom/videoapp/videomakermaster/ads/StudioBannerAdview;
+	Line  2: .super Lcom/videoapp/videomakermaster/ads/e;
+	Line 11:     invoke-direct {p0, p1, p2}, Lcom/videoapp/videomakermaster/ads/e;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+	Line 38:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->l:Lcom/videoapp/videomakermaster/ads/l;
+	Line 40:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/l;->a()Ljava/lang/String;
+	Line 59:     invoke-super {p0}, Lcom/videoapp/videomakermaster/ads/e;->onAttachedToWindow()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\AppEffectCenterActivity.smali (16 hits)
+	Line 197:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->e:Lcom/videoapp/videomakermaster/ads/l;
+	Line 199:     sget-object v1, Lcom/videoapp/videomakermaster/ads/i;->b:Lcom/videoapp/videomakermaster/ads/i;
+	Line 205:     invoke-static {p0, v0, v1, v2}, Lcom/videoapp/videomakermaster/ads/c;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;Lcom/videoapp/videomakermaster/ads/a;)Z
+	Line 217:     sget-object p1, Lcom/videoapp/videomakermaster/ads/l;->e:Lcom/videoapp/videomakermaster/ads/l;
+	Line 219:     sget-object v0, Lcom/videoapp/videomakermaster/ads/i;->a:Lcom/videoapp/videomakermaster/ads/i;
+	Line 223:     invoke-static {p0, p1, v0, v1}, Lcom/videoapp/videomakermaster/ads/c;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;Lcom/videoapp/videomakermaster/ads/a;)Z
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\AppSplashActivity.smali (54 hits)
+	Line 107:     sget-object v0, Lcom/videoapp/videomakermaster/ads/k;->a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 113:     invoke-virtual {v0, p0, v1}, Lcom/videoapp/videomakermaster/ads/k;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;)Z
+	Line 123:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/c;->a()Lcom/videoapp/videomakermaster/ads/b/c;
+	Line 131:     invoke-virtual {v0, p0, v1}, Lcom/videoapp/videomakermaster/ads/b/c;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/a;)Z
+	Line 141:     sget-object v0, Lcom/videoapp/videomakermaster/ads/o;->a:Lcom/videoapp/videomakermaster/ads/j;
+	Line 149:     invoke-interface {v0, p0, v2, v1}, Lcom/videoapp/videomakermaster/ads/j;->a(Landroid/app/Activity;Ljava/lang/String;Lcom/videoapp/videomakermaster/ads/a;)V
+	Line 290:     sget-object v0, Lcom/videoapp/videomakermaster/ads/k;->a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 292:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/k;->a()V
+	Line 295:     sget-object v0, Lcom/videoapp/videomakermaster/ads/o;->a:Lcom/videoapp/videomakermaster/ads/j;
+	Line 297:     invoke-interface {v0}, Lcom/videoapp/videomakermaster/ads/j;->a()V
+	Line 300:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line 302:     sget-object v1, Lcom/videoapp/videomakermaster/ads/l;->g:Lcom/videoapp/videomakermaster/ads/l;
+	Line 304:     invoke-interface {v0, p0, v1}, Lcom/videoapp/videomakermaster/ads/admob/g;->a(Landroid/content/Context;Lcom/videoapp/videomakermaster/ads/l;)V
+	Line 307:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/a/a;->a:Lcom/videoapp/videomakermaster/ads/admob/h;
+	Line 309:     sget-object v1, Lcom/videoapp/videomakermaster/ads/m;->a:Lcom/videoapp/videomakermaster/ads/m;
+	Line 311:     invoke-interface {v0, p0, v1}, Lcom/videoapp/videomakermaster/ads/admob/h;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;)V
+	Line 314:     sget-object v0, Lcom/videoapp/videomakermaster/ads/admob/a/a;->a:Lcom/videoapp/videomakermaster/ads/admob/h;
+	Line 316:     sget-object v1, Lcom/videoapp/videomakermaster/ads/m;->b:Lcom/videoapp/videomakermaster/ads/m;
+	Line 318:     invoke-interface {v0, p0, v1}, Lcom/videoapp/videomakermaster/ads/admob/h;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/m;)V
+	Line 646:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/b;->a()Lcom/videoapp/videomakermaster/ads/b/b;
+	Line 652:     invoke-virtual {v0, v1}, Lcom/videoapp/videomakermaster/ads/b/b;->a(Ljava/lang/String;)Lcom/videoapp/videomakermaster/ads/b/b$a;
+	Line 656:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/b/b$a;->a()V
+	Line 659:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/d;->a()Lcom/videoapp/videomakermaster/ads/b/d;
+	Line 663:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/b/d;->b()V
+	Line 666:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/c;->a()Lcom/videoapp/videomakermaster/ads/b/c;
+	Line 670:     invoke-virtual {v0}, Lcom/videoapp/videomakermaster/ads/b/c;->b()V
+	Line 854:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/b/e;->a()Lcom/videoapp/videomakermaster/ads/b/e;
+	Line 862:     invoke-virtual {p1, v0}, Lcom/videoapp/videomakermaster/ads/b/e;->a(Lcom/videoapp/videomakermaster/ads/b/e$a;)V
+	Line 865:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/p;->a()Lcom/videoapp/videomakermaster/ads/p;
+	Line 869:     invoke-virtual {p1}, Lcom/videoapp/videomakermaster/ads/p;->b()V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\campaign\CampaignOpenAd$2.smali (1 hit)
+	Line  6: .implements Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\campaign\CampaignOpenAd.smali (4 hits)
+	Line 302:     sget-object v0, Lcom/videoapp/videomakermaster/ads/k;->a:Lcom/videoapp/videomakermaster/ads/k;
+	Line 310:     invoke-virtual {v0, v1, v2}, Lcom/videoapp/videomakermaster/ads/k;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/admob/AppOpenAdManager$a;)Z
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes6\com\videoapp\videomakermaster\MyStudioActivity.smali (20 hits)
+	Line  59:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->d:Lcom/videoapp/videomakermaster/ads/l;
+	Line  61:     sget-object v1, Lcom/videoapp/videomakermaster/ads/i;->b:Lcom/videoapp/videomakermaster/ads/i;
+	Line  67:     invoke-static {p0, v0, v1, v2}, Lcom/videoapp/videomakermaster/ads/c;->a(Landroid/app/Activity;Lcom/videoapp/videomakermaster/ads/l;Lcom/videoapp/videomakermaster/ads/i;Lcom/videoapp/videomakermaster/ads/a;)Z
+	Line 161:     sget-object p1, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line 163:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->i:Lcom/videoapp/videomakermaster/ads/l;
+	Line 165:     invoke-interface {p1, v0}, Lcom/videoapp/videomakermaster/ads/admob/g;->b(Lcom/videoapp/videomakermaster/ads/l;)Z
+	Line 183:     sget-object p1, Lcom/videoapp/videomakermaster/ads/admob/b/a;->a:Lcom/videoapp/videomakermaster/ads/admob/g;
+	Line 185:     sget-object v0, Lcom/videoapp/videomakermaster/ads/l;->i:Lcom/videoapp/videomakermaster/ads/l;
+	Line 187:     invoke-interface {p1, p0, v0}, Lcom/videoapp/videomakermaster/ads/admob/g;->a(Landroid/content/Context;Lcom/videoapp/videomakermaster/ads/l;)V
+  C:\Users\DatNT\Desktop\APKTOOL\apktool\apk-tool\projects\com.videomaker.movis\code\smali_classes7\com\videovideo\framework\config\a.smali (3 hits)
+	Line 398:     invoke-static {}, Lcom/videoapp/videomakermaster/ads/p;->a()Lcom/videoapp/videomakermaster/ads/p;
+	Line 410:     invoke-virtual {v3, v2}, Lcom/videoapp/videomakermaster/ads/p;->a(Ljava/lang/String;)V
