@@ -6,7 +6,7 @@ DIRECTORY_TO_SEARCH = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/
 
 FILE_PATTERN = "*.xml"
 
-SEARCH_STRING = "editor_selector_"
+SEARCH_STRING = "v4_xiaoying_cam_btn_cam_"
 
 
 def find_string_in_files(directory, pattern, search_string):
@@ -32,9 +32,19 @@ if __name__ == '__main__':
                 wrapper[file_path] = []
             wrapper[file_path].append(line)
 
+        content = ''
         for k in wrapper:
             print(k)
+            content += k
+            content += '\n'
             for line in wrapper[k]:
-                print('     line: ' + line)
+                line = '     line: ' + line
+                content += line
+                content += '\n'
+                print(line)
+
+        file = open('out_finder.log', 'w', encoding='utf-8')
+        file.writelines(content)
+        file.close()
     else:
         print("No matches found.")
