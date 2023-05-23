@@ -6,7 +6,7 @@ DIRECTORY_TO_SEARCH = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/
 
 FILE_PATTERN = "*.xml"
 
-SEARCH_STRING = "bg_fb_"
+SEARCH_STRING = "editor_selector_"
 
 
 def find_string_in_files(directory, pattern, search_string):
@@ -24,9 +24,17 @@ def find_string_in_files(directory, pattern, search_string):
 if __name__ == '__main__':
 
     results = find_string_in_files(directory=DIRECTORY_TO_SEARCH, pattern=FILE_PATTERN, search_string=SEARCH_STRING)
-
+    wrapper = {}
     if results:
         for file_path, line_number, line in results:
-            print(f"Found '{SEARCH_STRING}' in '{file_path}' at line {line_number}: {line}")
+            # print(f"Found '{SEARCH_STRING}' in '{file_path}' at line {line_number}: {line}")
+            if not wrapper.__contains__(file_path):
+                wrapper[file_path] = []
+            wrapper[file_path].append(line)
+
+        for k in wrapper:
+            print(k)
+            for line in wrapper[k]:
+                print('     line: ' + line)
     else:
         print("No matches found.")
