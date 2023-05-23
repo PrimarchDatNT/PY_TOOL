@@ -1,11 +1,12 @@
 import os
 import fnmatch
 
-DIRECTORY_TO_SEARCH = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/com.videomaker.movis/code/smali_classes2'
+# DIRECTORY_TO_SEARCH = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/com.videomaker.movis/code/'
+DIRECTORY_TO_SEARCH = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/com.videomaker.movis/app/src/main/res'
 
-FILE_PATTERN = "*.smali"
+FILE_PATTERN = "*.xml"
 
-SEARCH_STRING = "com/videoapp/videomakermaster/ads/"
+SEARCH_STRING = "bg_fb_"
 
 
 def find_string_in_files(directory, pattern, search_string):
@@ -13,7 +14,7 @@ def find_string_in_files(directory, pattern, search_string):
     for root, dirnames, filenames in os.walk(directory):
         for filename in fnmatch.filter(filenames, pattern):
             file_path = os.path.join(root, filename).replace('\\', '/')
-            with open(file_path, 'r') as file:
+            with open(file_path, 'r', encoding='utf-8') as file:
                 for line_number, line in enumerate(file, start=1):
                     if search_string in line:
                         matches.append((file_path, line_number, line.strip()))
