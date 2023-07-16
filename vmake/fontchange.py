@@ -1,8 +1,9 @@
 import requests
 import json
 
-URL = 'https://api2.videoshow.mobi/getDetail?group_code='
-response = requests.get('https://api2.videoshow.mobi/getCate?name=transition')
+URL = 'https://api2.videoshow.mobi/' \
+      ''
+response = requests.get('https://api2.videoshow.mobi/getCate?name=font')
 rootdata = response.json()
 groupdata = rootdata['data']
 
@@ -13,9 +14,12 @@ def changegroupData(data):
     res = requests.get(URL + str(data['groupCode']))
     jsondata = res.json()
     for slug in jsondata['data']:
+        print(slug['titleFromTemplate'])
         print(slug['iconFromTemplate'])
-    with open(data['title'] + '.json', 'w', encoding='utf-8') as outjson:
-        json.dump(jsondata, outjson)
+        print(slug['previewurl'])
+        print()
+    # with open(data['title'] + '.json', 'w', encoding='utf-8') as outjson:
+    #     json.dump(jsondata, outjson)
 
 
 for group in groupdata:

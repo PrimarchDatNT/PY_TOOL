@@ -1,0 +1,13 @@
+"GET / HTTP/1.1" 200 -
+"GET / HTTP/1.1" 200 -
+"GET /getCate?method=getCate&productId=2&name=theme&sign=VGhhbmtzIHlvdSBzbyBtdWNo&appKey=100366FF&user=0&content=%7B%22countryCode%22%3A%22VN%22,%22lang%22%3A%22en_US%22,%22model%22%3A%22videoshow_template_theme%22,%22modelCodeList%22%3A%22videoshow_template_theme%22%7D&timestamp=1689317929741 HTTP/1.1" 200 -
+"GET /getCate?method=getCate&productId=2&name=normalfilter&sign=VGhhbmtzIHlvdSBzbyBtdWNo&appKey=100366FF&user=0&content=%7B%22countryCode%22%3A%22VN%22,%22lang%22%3A%22en_US%22,%22model%22%3A%22videoshow_normalfilter%22,%22modelCodeList%22%3A%22videoshow_normalfilter%22%7D&timestamp=1689317929765 HTTP/1.1" 200 -
+"GET /getCate?method=getCate&productId=2&name=effectfilter&sign=VGhhbmtzIHlvdSBzbyBtdWNo&appKey=100366FF&user=0&content=%7B%22countryCode%22%3A%22VN%22,%22lang%22%3A%22en_US%22,%22model%22%3A%22videoshow_effectfilter%22,%22modelCodeList%22%3A%22videoshow_effectfilter%22%7D&timestamp=1689317943733 HTTP/1.1" 200 -
+"GET /getCate?method=getCate&productId=2&name=effect&sign=VGhhbmtzIHlvdSBzbyBtdWNo&appKey=100366FF&user=0&content=%7B%22countryCode%22%3A%22VN%22,%22lang%22%3A%22en_US%22,%22model%22%3A%22videoshow_effect%22,%22modelCodeList%22%3A%22videoshow_effect%22%7D&timestamp=1689317943740 HTTP/1.1" 200 -
+"GET /getCate?method=getCate&productId=2&name=text&sign=VGhhbmtzIHlvdSBzbyBtdWNo&appKey=100366FF&user=0&content=%7B%22countryCode%22%3A%22VN%22,%22lang%22%3A%22en_US%22,%22model%22%3A%22videoshow_text%22,%22modelCodeList%22%3A%22videoshow_text%22%7D&timestamp=1689317943745 HTTP/1.1" 200 -
+"GET /getCate?name=audio HTTP/1.1" 200 -
+"GET /getCate?method=getCate&productId=2&name=font&sign=VGhhbmtzIHlvdSBzbyBtdWNo&appKey=100366FF&user=0&content=%7B%22countryCode%22%3A%22VN%22,%22lang%22%3A%22en_US%22,%22model%22%3A%22videoshow_font%22,%22modelCodeList%22%3A%22videoshow_font%22%7D&timestamp=1689318191398 HTTP/1.1" 200 -
+"GET /getCate?method=getCate&productId=2&name=text_animation&sign=VGhhbmtzIHlvdSBzbyBtdWNo&appKey=100366FF&user=0&content=%7B%22countryCode%22%3A%22VN%22,%22lang%22%3A%22en_US%22,%22model%22%3A%22text_animation%22,%22modelCodeList%22%3A%22text_animation%22%7D&timestamp=1689318191401 HTTP/1.1" 200 -
+"GET /getCate?method=getCate&productId=2&name=sticker&sign=VGhhbmtzIHlvdSBzbyBtdWNo&appKey=100366FF&user=0&content=%7B%22countryCode%22%3A%22VN%22,%22lang%22%3A%22en_US%22,%22model%22%3A%22videoshow_sticker%22,%22modelCodeList%22%3A%22videoshow_sticker%22%7D&timestamp=1689318287097 HTTP/1.1" 200 -
+"GET /getCate?name=font HTTP/1.1" 200 -
+"GET /getCate?name=audio HTTP/1.1" 200 -

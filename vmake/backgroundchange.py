@@ -2,7 +2,7 @@ import requests
 import json
 
 URL = 'https://api2.videoshow.mobi/getDetail?group_code='
-response = requests.get('https://api2.videoshow.mobi/getCate?name=transition')
+response = requests.get('https://api2.videoshow.mobi/getCate?name=background')
 rootdata = response.json()
 groupdata = rootdata['data']
 
