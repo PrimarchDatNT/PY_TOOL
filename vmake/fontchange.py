@@ -1,14 +1,12 @@
 import requests
-import json
 
-URL = 'https://api2.videoshow.mobi/' \
-      ''
+URL = 'https://api2.videoshow.mobi/'
 response = requests.get('https://api2.videoshow.mobi/getCate?name=font')
 rootdata = response.json()
 groupdata = rootdata['data']
 
 
-def changegroupData(data):
+def changegroupdata(data):
     print(data['groupCode'])
     print(data['title'])
     res = requests.get(URL + str(data['groupCode']))
@@ -23,4 +21,4 @@ def changegroupData(data):
 
 
 for group in groupdata:
-    changegroupData(group)
+    changegroupdata(group)

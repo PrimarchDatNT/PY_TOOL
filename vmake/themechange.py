@@ -10,7 +10,7 @@ groupdata = rootdata['data']
 removeitems = ['Job', 'Foodie 6', 'Notebook', 'News', 'ML-17', 'Journey', 'Style 12', 'New Age', 'Run with me']
 
 
-def changegroupData(data):
+def changegroupdata(data):
     print(data['groupCode'])
     print(data['title'])
     res = requests.get(URL + str(data['groupCode']))
@@ -38,4 +38,4 @@ def changegroupData(data):
 
 
 for group in groupdata:
-    changegroupData(group)
+    changegroupdata(group)
