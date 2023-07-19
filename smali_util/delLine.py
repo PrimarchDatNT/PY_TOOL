@@ -8,26 +8,40 @@ def rundelete(path):
         lines = file.readlines()
     file.close()
 
-    start_kotlin_metadata_index = -1
-    end_kotlin_metadata_index = -1
+    remove_index = []
 
     index = 0
     for line in lines:
-        if line.__contains__('.annotation runtime Lcotlin/b0;'):
-            start_kotlin_metadata_index = index
-
-        if line.__contains__('.end annotation') and start_kotlin_metadata_index > -1:
-            end_kotlin_metadata_index = index
-            break
+        if line.__contains__('.line'):
+            remove_index.append(index)
         index += 1
 
-    if start_kotlin_metadata_index == -1 or end_kotlin_metadata_index == -1:
+    if len(remove_index) == 0:
         return
 
-    del lines[start_kotlin_metadata_index: end_kotlin_metadata_index + 1]
+    # for i in remove_index:
+    #     lines.pop(i)
 
     with open(path, 'w') as smali:
-        smali.writelines(lines)
+        smali.writelines(remove_lines_by_indexes(lines, remove_index))
+
+
+def remove_items_by_indexes(lst, indexes_to_remove):
+    sorted_indexes = sorted(indexes_to_remove, reverse=True)
+
+    for index in sorted_indexes:
+        if 0 <= index < len(lst):
+            lst.pop(index)
+
+
+def remove_lines_by_indexes(lines, indexes_to_remove):
+    sorted_indexes = sorted(indexes_to_remove, reverse=True)
+
+    for index in sorted_indexes:
+        if 0 <= index < len(lines):
+            del lines[index]
+
+    return lines
 
 
 def run(rootpath):

@@ -13,7 +13,7 @@ def rundelete(path):
 
     index = 0
     for line in lines:
-        if line.__contains__('.annotation runtime Lcotlin/b0;'):
+        if line.__contains__('.annotation system Ldalvik/annotation/SourceDebugExtension;'):
             start_kotlin_metadata_index = index
 
         if line.__contains__('.end annotation') and start_kotlin_metadata_index > -1:
