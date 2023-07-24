@@ -1,5 +1,4 @@
 package com.commsource.beautyplus;
-/* loaded from: C:\Users\DatNT\AppData\Local\Temp\jadx-3885356015981036082.dex */
 public final class RStyable {
     public static final int AbsWindowImageView_showWindow = 0;
     public static final int AbsWindowImageView_windowBgAlpha = 1;

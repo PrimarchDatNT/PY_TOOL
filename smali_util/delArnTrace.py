@@ -12,15 +12,13 @@ def rundelete(path):
 
     index = 0
     for line in lines:
-        if line.__contains__('invoke-static') and line.__contains__('Lcom/meitu/library/appcia/h/a;->'):
+        if line.__contains__('invoke-static') \
+                and line.__contains__('Lcom/res/ANRTrace;->') and line.strip().endswith('V'):
             remove_index.append(index)
         index += 1
 
     if len(remove_index) == 0:
         return
-
-    # for i in remove_index:
-    #     lines.pop(i)
 
     with open(path, 'w') as smali:
         smali.writelines(remove_lines_by_indexes(lines, remove_index))

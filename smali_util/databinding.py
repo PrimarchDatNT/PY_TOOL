@@ -2,13 +2,10 @@ import os
 import re
 import xml.etree.ElementTree as ET
 
-ROOT_SMALI_DIR = 'C:/Users/DatNT/Desktop/apktool/apk-tool/projects/com.muse.core'
-
-BINDING_SMALI_DIR = 'C:/Users/DatNT/Desktop/apktool/apk-tool/projects/com.muse.core/code/smali/com/commsource/beautyplus/f0'
-
-LAYOUT_DIR = 'G:/ANDROID_PROJECT/MUSE_NEW/app/src/main/res/layout/'
-
-BIDNING_CLASS_PATH = 'Lcom/mtfacebook/camerast/databinding'
+ROOT_SMALI_DIR = 'C:/Users/DatNT/Desktop/apktool/apktool/apk-tool/projects/beatrix.core.space'
+BINDING_SMALI_DIR = 'C:/Users/DatNT/Desktop/apktool/apktool/apk-tool/projects/beatrix.core.space/code/smali/com/commsource/beautyplus/f0'
+LAYOUT_DIR = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/beatrix.core.space/app/src/main/res/layout'
+BIDNING_CLASS_PATH = 'Lcom/commsource/beautyplus/databinding'
 
 K_ORG_CLASS_PATH = 'org_class_path'
 K_ORG_SOURCE_JAVA = 'org_source_java'
@@ -40,8 +37,8 @@ def find_binding_id(xml):
             if str(val).__contains__('@+id/'):
                 if ids.__contains__(val):
                     continue
-                id = camel_to_case(val.replace('@+id/', ''))
-                ids.append(id)
+                viewid = camel_to_case(val.replace('@+id/', ''))
+                ids.append(viewid)
     ids.sort()
     return ids
 
@@ -145,7 +142,6 @@ def change_code(rootpath):
 def procees_change(path, data):
     with open(path, 'r') as file:
         lines = file.readlines()
-    file.close()
 
     index = 0
     for line in lines:
@@ -173,7 +169,7 @@ def procees_change(path, data):
 
 
 if __name__ == '__main__':
-    # data = list_smali(BINDING_SMALI_DIR)
-    # for meta in data:
-    #     print(meta[K_ORG_SOURCE_JAVA] + ' --- ' + meta[K_LAYOUT_XML] + '-----' + str(meta[K_CONTAIN_DATA_BINDING]))
+    data = list_smali(BINDING_SMALI_DIR)
+    for meta in data:
+        print(meta[K_ORG_SOURCE_JAVA] + ' --- ' + meta[K_LAYOUT_XML] + '-----' + str(meta[K_CONTAIN_DATA_BINDING]))
     change_code(ROOT_SMALI_DIR)
