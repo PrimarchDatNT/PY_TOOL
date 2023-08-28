@@ -1,7 +1,7 @@
 import os
 import re
 import xml.etree.ElementTree as ET
-import movis.model as Model
+import model as Model
 
 # ---WORKSPACE DIR---
 ROOT_DIR = 'D:/PY_PROJECT/TOOL/movis'

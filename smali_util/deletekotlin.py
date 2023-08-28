@@ -1,6 +1,6 @@
 import os
 
-ROOT_SMALI_DIR = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/beatrix.core.space/code'
+ROOT_SMALI_DIR = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/com.beatrix.core/code'
 
 
 def rundelete(path):
@@ -13,7 +13,7 @@ def rundelete(path):
 
     index = 0
     for line in lines:
-        if line.__contains__('.annotation runtime Lcotlin/b0;'):
+        if line.__contains__('.annotation runtime Lkotlin/b0;'):
             start_kotlin_metadata_index = index
 
         if line.__contains__('.end annotation') and start_kotlin_metadata_index > -1:

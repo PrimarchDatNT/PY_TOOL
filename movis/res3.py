@@ -1,6 +1,6 @@
 import os
 import xml.etree.ElementTree as ET
-import movis.model as Model
+import model as Model
 
 
 # ---WORKSPACE DIR---
