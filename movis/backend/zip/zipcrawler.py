@@ -21,9 +21,11 @@ def download_file(url, local_filename):
 
 CATE_DIR = 'E:/WORK/PY_PROJECT/TOOL/movis/backend/resource/detail'
 SAVE_DIR = 'E:/WORK/PY_PROJECT/TOOL/movis/backend/zip/zip/'
+BUCKET_DOMAIN = 'https://d3pldjsx7tl7ei.cloudfront.net/zip/'
 
 if __name__ == '__main__':
     LIST_FILE = []
+    MODIFI_PATH = set({})
     for r, d, f in os.walk(CATE_DIR):
         for file in f:
             if '.json' in file:
@@ -35,6 +37,7 @@ if __name__ == '__main__':
             json_content = json.load(jsonfile)
 
         data = json_content['data']
+        isModify = False
         for item in data:
             if dict(item).__contains__('downUrl'):
                 if str(item['downUrl']).__contains__('.zip'):
@@ -44,3 +47,10 @@ if __name__ == '__main__':
                     savepath = SAVE_DIR + str(item['id']) + filename
                     print(savepath)
                     # download_file(zip_path, savepath)
+                    new_path = BUCKET_DOMAIN + str(item['id']) + filename
+                    print(new_path)
+                    item['downUrl'] = new_path
+                    isModify = True
+        if isModify:
+            with open(file, 'w', encoding='utf-8') as outjson:
+                json.dump(json_content, outjson)
