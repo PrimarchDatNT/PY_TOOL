@@ -17,4 +17,4 @@ def download_file(url, local_filename):
 
 
 if __name__ == '__main__':
-    print('run')
+    print()
