@@ -14,7 +14,7 @@
       "groupCode": "202009021948272310",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/filter/sketch/1a.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/1a.webp",
       "id": 1010953,
       "intro": "",
       "introFromTemplate": "",
@@ -37,7 +37,8 @@
       "titleFromTemplate": "SK-1",
       "version": 196608,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/1a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -51,7 +52,7 @@
       "groupCode": "202009021948272310",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/filter/sketch/2a.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/2a.webp",
       "id": 1010948,
       "intro": "",
       "introFromTemplate": "",
@@ -74,7 +75,8 @@
       "titleFromTemplate": "SK-2",
       "version": 196608,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/2a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -88,7 +90,7 @@
       "groupCode": "202009021948272310",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/filter/sketch/3a.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/3a.webp",
       "id": 1010952,
       "intro": "",
       "introFromTemplate": "",
@@ -111,7 +113,8 @@
       "titleFromTemplate": "SK-3",
       "version": 196608,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/3a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -125,7 +128,7 @@
       "groupCode": "202009021948272310",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/filter/sketch/4a.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/4a.webp",
       "id": 1010951,
       "intro": "",
       "introFromTemplate": "",
@@ -148,7 +151,8 @@
       "titleFromTemplate": "SK-4",
       "version": 196608,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/4a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -162,7 +166,7 @@
       "groupCode": "202009021948272310",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/filter/sketch/5a.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/5a.webp",
       "id": 1010950,
       "intro": "",
       "introFromTemplate": "",
@@ -185,7 +189,8 @@
       "titleFromTemplate": "SK-5",
       "version": 196608,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/5a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -199,7 +204,7 @@
       "groupCode": "202009021948272310",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/filter/sketch/6a.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/6a.webp",
       "id": 1010949,
       "intro": "",
       "introFromTemplate": "",
@@ -222,7 +227,8 @@
       "titleFromTemplate": "SK-6",
       "version": 196608,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/6a.webp"
     }
   ],
   "message": "successful",

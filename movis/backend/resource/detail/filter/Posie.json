@@ -14,7 +14,7 @@
       "groupCode": "202009031553042640",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/filter/posie/1a.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/1a.webp",
       "id": 1010963,
       "intro": "",
       "lang": "en_OTHER",
@@ -36,7 +36,8 @@
       "titleFromTemplate": "PS-1",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/1a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -50,7 +51,7 @@
       "groupCode": "202009031553042640",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/filter/posie/2a.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/2a.webp",
       "id": 1010965,
       "intro": "",
       "lang": "en_OTHER",
@@ -72,7 +73,8 @@
       "titleFromTemplate": "PS-2",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/2a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -86,7 +88,7 @@
       "groupCode": "202009031553042640",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/filter/posie/3a.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/3a.webp",
       "id": 1010967,
       "intro": "",
       "lang": "en_OTHER",
@@ -108,7 +110,8 @@
       "titleFromTemplate": "PS-3",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/3a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -122,7 +125,7 @@
       "groupCode": "202009031553042640",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/filter/posie/4a.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/4a.webp",
       "id": 1010964,
       "intro": "",
       "lang": "en_OTHER",
@@ -144,7 +147,8 @@
       "titleFromTemplate": "PS-4",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/4a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -158,7 +162,7 @@
       "groupCode": "202009031553042640",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/filter/posie/5a.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/5a.webp",
       "id": 1010966,
       "intro": "",
       "lang": "en_OTHER",
@@ -180,7 +184,8 @@
       "titleFromTemplate": "PS-5",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/5a.webp"
     }
   ],
   "message": "successful",
