@@ -14,7 +14,7 @@
       "groupCode": "20201201115525842",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/fx/retro/1.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/1.webp",
       "id": 1234928,
       "intro": "",
       "lang": "en_OTHER",
@@ -36,7 +36,8 @@
       "titleFromTemplate": "RT-1",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/1.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -50,7 +51,7 @@
       "groupCode": "20201201115525842",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/fx/retro/2.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/2.webp",
       "id": 1234923,
       "intro": "",
       "lang": "en_OTHER",
@@ -59,7 +60,7 @@
       "orderNoFromInfo": 2,
       "orderNoFromTemplate": 2,
       "previewtype": 2,
-      "previewurl": "https://rs.videoshow.mobi/v2/images/vmake/fx/retro/2.gif",
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/2.webp",
       "productId": 2,
       "recommendFlag": 0,
       "showEditFlag": 1,
@@ -87,7 +88,7 @@
       "groupCode": "20201201115525842",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/fx/retro/3.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/3.webp",
       "id": 1234926,
       "intro": "",
       "lang": "en_OTHER",
@@ -109,7 +110,8 @@
       "titleFromTemplate": "RT-3",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/3.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -123,7 +125,7 @@
       "groupCode": "20201201115525842",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/fx/retro/4.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/4.webp",
       "id": 1234936,
       "intro": "",
       "lang": "en_OTHER",
@@ -145,7 +147,8 @@
       "titleFromTemplate": "RT-4",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/4.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -159,7 +162,7 @@
       "groupCode": "20201201115525842",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/fx/retro/5.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/5.webp",
       "id": 1234930,
       "intro": "",
       "lang": "en_OTHER",
@@ -181,7 +184,8 @@
       "titleFromTemplate": "RT-5",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/5.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -195,7 +199,7 @@
       "groupCode": "20201201115525842",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/fx/retro/6.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/6.webp",
       "id": 1234932,
       "intro": "",
       "lang": "en_OTHER",
@@ -217,7 +221,8 @@
       "titleFromTemplate": "RT-6",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/6.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -231,7 +236,7 @@
       "groupCode": "20201201115525842",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/fx/retro/7.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/7.webp",
       "id": 1234934,
       "intro": "",
       "lang": "en_OTHER",
@@ -253,7 +258,8 @@
       "titleFromTemplate": "RT-7",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/7.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -267,7 +273,7 @@
       "groupCode": "20201201115525842",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/fx/retro/8.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/8.webp",
       "id": 1234938,
       "intro": "",
       "lang": "en_OTHER",
@@ -289,7 +295,8 @@
       "titleFromTemplate": "RT-8",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/8.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -303,7 +310,7 @@
       "groupCode": "20201201115525842",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/fx/retro/9.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/9.webp",
       "id": 1234919,
       "intro": "",
       "lang": "en_OTHER",
@@ -325,7 +332,8 @@
       "titleFromTemplate": "RT-9",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/9.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -339,7 +347,7 @@
       "groupCode": "20201201115525842",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/fx/retro/10.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/10.webp",
       "id": 1234921,
       "intro": "",
       "lang": "en_OTHER",
@@ -361,7 +369,8 @@
       "titleFromTemplate": "RT-10",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/10.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -375,7 +384,7 @@
       "groupCode": "20201201115525842",
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/fx/retro/11.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/11.webp",
       "id": 1234924,
       "intro": "",
       "lang": "en_OTHER",
@@ -397,7 +406,8 @@
       "titleFromTemplate": "RT-11",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/fx_imgs/videodata/fx/retro/11.webp"
     }
   ],
   "message": "successful",
