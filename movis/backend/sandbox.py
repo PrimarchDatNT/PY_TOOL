@@ -191,7 +191,29 @@ def change_text_imgs():
 
 
 def change_theme_imgs():
-    pass
+    for e in LIST_THEME_URL:
+        print(e)
+    files = []
+    for p in LIST_JSON_FILE:
+        if p.__contains__('theme'):
+            files.append(p)
+            print(p)
+
+    for p in files:
+        print(p)
+        with open(p) as jsonfile:
+            jsondata = json.load(jsonfile)
+        for data in jsondata['data']:
+            old_url = data['iconFromTemplate']
+            prefix = 'https://d3pldjsx7tl7ei.cloudfront.net/theme_imgs/videodata/theme'
+            new_url = str(old_url).replace('https://d2hyio9ps90xn9.cloudfront.net/videodata/theme', prefix)
+            print(old_url)
+            print(new_url)
+            data['iconFromTemplate'] = new_url
+            data['previewurl'] = new_url
+            data['creatorAvatarUrl'] = new_url
+        with open(p, 'w', encoding='utf-8') as outjson:
+            json.dump(jsondata, outjson)
 
 
 def change_transition_imgs():
@@ -240,4 +262,5 @@ if __name__ == '__main__':
     # change_font_imgs()
     # change_fx_imgs()
     # change_sticker_imgs()
-    change_text_imgs()
+    # change_text_imgs()
+    change_theme_imgs()
