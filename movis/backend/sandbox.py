@@ -212,6 +212,7 @@ def change_theme_imgs():
             data['iconFromTemplate'] = new_url
             data['previewurl'] = new_url
             data['creatorAvatarUrl'] = new_url
+            data['showImg'] = new_url
         with open(p, 'w', encoding='utf-8') as outjson:
             json.dump(jsondata, outjson)
 
@@ -284,5 +285,5 @@ if __name__ == '__main__':
     # change_fx_imgs()
     # change_sticker_imgs()
     # change_text_imgs()
-    # change_theme_imgs()
-    change_transition_imgs()
+    change_theme_imgs()
+    # change_transition_imgs()
