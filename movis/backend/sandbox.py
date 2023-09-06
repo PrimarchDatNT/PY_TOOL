@@ -96,7 +96,25 @@ def change_filter_imgs():
 
 
 def change_font_imgs():
-    pass
+    files = []
+    for p in LIST_JSON_FILE:
+        if p.__contains__('font'):
+            files.append(p)
+    for p in files:
+        print(p)
+        with open(p) as jsonfile:
+            jsondata = json.load(jsonfile)
+
+        for data in jsondata['data']:
+            old_url = data['iconFromTemplate']
+            new_url = str(data['iconFromTemplate']).replace('https://d2hyio9ps90xn9.cloudfront.net/videodata/',
+                                                            'https://d3pldjsx7tl7ei.cloudfront.net/font_imgs/videodata/')
+            print(old_url)
+            print(new_url)
+            data['iconFromTemplate'] = new_url
+            data['previewurl'] = new_url
+        with open(p, 'w', encoding='utf-8') as outjson:
+            json.dump(jsondata, outjson)
 
 
 def change_fx_imgs():
@@ -159,4 +177,5 @@ if __name__ == '__main__':
 
     # change_background_imgs()
     # change_effect_imgs()
-    change_filter_imgs()
+    # change_filter_imgs()
+    change_font_imgs()
