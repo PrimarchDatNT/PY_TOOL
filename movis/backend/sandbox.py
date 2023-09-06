@@ -15,7 +15,7 @@ LIST_FX_URL = []
 LIST_STICKER_URL = []
 LIST_TEXT_URL = []
 LIST_THEME_URL = []
-LIST_TRANSITION__URL = []
+LIST_TRANSITION_URL = []
 
 
 def change_background_imgs():
@@ -192,8 +192,6 @@ def change_text_imgs():
 
 
 def change_theme_imgs():
-    for e in LIST_THEME_URL:
-        print(e)
     files = []
     for p in LIST_JSON_FILE:
         if p.__contains__('theme'):
@@ -219,8 +217,6 @@ def change_theme_imgs():
 
 
 def change_transition_imgs():
-    for e in LIST_TRANSITION__URL:
-        print(e)
     files = []
     for p in LIST_JSON_FILE:
         if p.__contains__('transition'):
@@ -277,11 +273,11 @@ if __name__ == '__main__':
         if path.__contains__('theme_imgs'):
             LIST_THEME_URL.append(path)
         if path.__contains__('transition_imgs'):
-            LIST_TRANSITION__URL.append(path)
+            LIST_TRANSITION_URL.append(path)
 
     # change_background_imgs()
     # change_effect_imgs()
-    change_filter_imgs()
+    # change_filter_imgs()
     # change_font_imgs()
     # change_fx_imgs()
     # change_sticker_imgs()
