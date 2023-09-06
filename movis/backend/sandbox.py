@@ -118,8 +118,6 @@ def change_font_imgs():
 
 
 def change_fx_imgs():
-    for e in LIST_FX_URL:
-        print(e)
     files = []
     for p in LIST_JSON_FILE:
         if p.__contains__('fx'):
@@ -144,7 +142,27 @@ def change_fx_imgs():
 
 
 def change_sticker_imgs():
-    pass
+    files = []
+    for p in LIST_JSON_FILE:
+        if p.__contains__('sticker'):
+            files.append(p)
+            print(p)
+
+    for p in files:
+        print(p)
+        with open(p) as jsonfile:
+            jsondata = json.load(jsonfile)
+        key = p[p.rindex('/'):].replace('/', '').replace('.json', '').lower()
+        for data in jsondata['data']:
+            old_url = data['iconFromTemplate']
+            prefix = 'https://d3pldjsx7tl7ei.cloudfront.net/sticker_imgs/' + key + '/vcm'
+            new_url = str(old_url).replace('http://rc.veresource.com/vcm', prefix)
+            print(old_url)
+            print(new_url)
+            data['iconFromTemplate'] = new_url
+            data['previewurl'] = new_url
+        with open(p, 'w', encoding='utf-8') as outjson:
+            json.dump(jsondata, outjson)
 
 
 def change_theme_imgs():
@@ -201,4 +219,5 @@ if __name__ == '__main__':
     # change_effect_imgs()
     # change_filter_imgs()
     # change_font_imgs()
-    change_fx_imgs()
+    # change_fx_imgs()
+    change_sticker_imgs()
