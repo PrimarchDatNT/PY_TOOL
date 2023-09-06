@@ -9,9 +9,6 @@ from flask import Flask
 app = Flask(__name__)
 app.config["DEBUG"] = False
 
-ALT_CATE_URL = 'https://api2.videoshow.mobi/getCate?name=$'
-ALT_DETAIL_URL = 'https://api2.videoshow.mobi/getDetail?group_code=$'
-
 
 @app.route('/')
 def home():
@@ -31,11 +28,7 @@ def getcate():
                     status=200,
                     mimetype='application/json')
     print('No resouce request alt api')
-    response = requests.get(ALT_CATE_URL.replace('$', name_arg))
-    return app.response_class(
-        response=response.text,
-        status=200,
-        mimetype='application/json')
+    return "Record not found", 400
 
 
 @app.route('/getDetail', methods=['GET'])
@@ -84,11 +77,7 @@ def getdetail():
                         mimetype='application/json')
 
     print('No resouce request alt api')
-    response = requests.get(ALT_DETAIL_URL.replace('$', groupcode_arg))
-    return app.response_class(
-        response=response.text,
-        status=200,
-        mimetype='application/json')
+    return "Record not found", 400
 
 
 if __name__ == '__main__':
