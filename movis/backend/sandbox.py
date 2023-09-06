@@ -13,6 +13,7 @@ LIST_FILTER_URL = []
 LIST_FONT_URL = []
 LIST_FX_URL = []
 LIST_STICKER_URL = []
+LIST_TEXT_URL = []
 LIST_THEME_URL = []
 LIST_TRANSITION__URL = []
 
@@ -165,6 +166,30 @@ def change_sticker_imgs():
             json.dump(jsondata, outjson)
 
 
+def change_text_imgs():
+    files = []
+    for p in LIST_JSON_FILE:
+        if p.__contains__('text'):
+            files.append(p)
+            print(p)
+
+    for p in files:
+        print(p)
+        with open(p) as jsonfile:
+            jsondata = json.load(jsonfile)
+        for data in jsondata['data']:
+            old_url = data['iconFromTemplate']
+            prefix = 'https://d3pldjsx7tl7ei.cloudfront.net/text_imgs/videodata/text'
+            new_url = str(old_url).replace('https://d2hyio9ps90xn9.cloudfront.net/videodata/text', prefix)
+            print(old_url)
+            print(new_url)
+            data['iconFromTemplate'] = new_url
+            data['previewurl'] = new_url
+            data['showImg'] = new_url
+        with open(p, 'w', encoding='utf-8') as outjson:
+            json.dump(jsondata, outjson)
+
+
 def change_theme_imgs():
     pass
 
@@ -174,7 +199,6 @@ def change_transition_imgs():
 
 
 if __name__ == '__main__':
-
     for r, d, f in os.walk(CATE_DIR):
         for file in f:
             if '.json' in file:
@@ -188,13 +212,6 @@ if __name__ == '__main__':
         for file in f:
             file_path = str(r + '/' + file).replace('\\', '/')
             LIST_REOUSOUCE_FILE.append(file_path)
-
-    # for file in LIST_JSON_FILE:
-    #     if file.__contains__('audio/'):
-    #         pass
-    #     else:
-    #         cate = file[file.rindex('movis'):].replace('movis/backend/resource/detail/', '').replace('.json', '')
-    #         print(cate.lower())
 
     for file in LIST_REOUSOUCE_FILE:
         path = file.replace(MOVIS_RES_DIR, BUCKET_DOMAIN)
@@ -210,6 +227,8 @@ if __name__ == '__main__':
             LIST_FX_URL.append(path)
         if path.__contains__('sticker_imgs'):
             LIST_STICKER_URL.append(path)
+        if path.__contains__('text_imgs'):
+            LIST_TEXT_URL.append(path)
         if path.__contains__('theme_imgs'):
             LIST_THEME_URL.append(path)
         if path.__contains__('transition_imgs'):
@@ -220,4 +239,5 @@ if __name__ == '__main__':
     # change_filter_imgs()
     # change_font_imgs()
     # change_fx_imgs()
-    change_sticker_imgs()
+    # change_sticker_imgs()
+    change_text_imgs()
