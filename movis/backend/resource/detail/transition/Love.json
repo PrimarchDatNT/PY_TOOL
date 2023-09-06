@@ -19,7 +19,7 @@
       "flagForGroup": 0,
       "height": 720,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/transition/love/1.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/1.webp",
       "id": 421821,
       "lang": "en_OTHER",
       "newFlag": 0,
@@ -39,7 +39,7 @@
       "virFlag": 0,
       "width": 1280,
       "introFromTemplate": "Love transition.",
-      "previewurl": "http://rc.veresource.com/vcm/20180929/11164848/2018092911164848.mp4"
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/1.webp"
     },
     {
       "event": "",
@@ -58,7 +58,7 @@
       "flagForGroup": 0,
       "height": 720,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/transition/love/2.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/2.webp",
       "id": 421820,
       "lang": "en_OTHER",
       "newFlag": 0,
@@ -77,7 +77,7 @@
       "virFlag": 0,
       "width": 1280,
       "introFromTemplate": "Gushing my love for you.",
-      "previewurl": "http://rc.veresource.com/vcm/20180929/11151414/2018092911151414.mp4",
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/2.webp",
       "showImg": ""
     },
     {
@@ -97,7 +97,7 @@
       "flagForGroup": 0,
       "height": 720,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/transition/love/3.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/3.webp",
       "id": 421819,
       "lang": "en_OTHER",
       "newFlag": 0,
@@ -116,7 +116,7 @@
       "virFlag": 0,
       "width": 1280,
       "introFromTemplate": "Bubbles rising.",
-      "previewurl": "http://rc.veresource.com/vcm/20180929/11121010/2018092911121010.mp4",
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/3.webp",
       "showImg": ""
     },
     {
@@ -136,7 +136,7 @@
       "flagForGroup": 0,
       "height": 1280,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/transition/love/4.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/4.webp",
       "id": 1149273,
       "lang": "en_OTHER",
       "newFlag": 0,
@@ -153,7 +153,8 @@
       "titleFromTemplate": "L-4",
       "version": 131074,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/4.webp"
     },
     {
       "event": "",
@@ -172,7 +173,7 @@
       "flagForGroup": 0,
       "height": 360,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/transition/love/5.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/5.webp",
       "id": 421813,
       "lang": "en_OTHER",
       "newFlag": 0,
@@ -191,7 +192,7 @@
       "virFlag": 0,
       "width": 640,
       "introFromTemplate": "",
-      "previewurl": "http://rc.veresource.com/template/app1/android/TEMPLATE/2013/1223/0212/3/0x030000000000000A/preview.mp4",
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/5.webp",
       "showImg": "None"
     },
     {
@@ -211,7 +212,7 @@
       "flagForGroup": 0,
       "height": 0,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/transition/love/6.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/6.webp",
       "id": 421816,
       "lang": "en_OTHER",
       "newFlag": 0,
@@ -230,7 +231,7 @@
       "virFlag": 0,
       "width": 0,
       "introFromTemplate": "",
-      "previewurl": "http://rc.veresource.com/template/app1/android/TEMPLATE/2013/1223/0214/3/0x030000000000001F/preview.mp4",
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/6.webp",
       "showImg": "None"
     },
     {
@@ -250,7 +251,7 @@
       "flagForGroup": 0,
       "height": 0,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/transition/love/7.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/7.webp",
       "id": 421815,
       "lang": "en_OTHER",
       "newFlag": 0,
@@ -269,7 +270,7 @@
       "virFlag": 0,
       "width": 0,
       "introFromTemplate": "",
-      "previewurl": "http://rc.veresource.com/template/app1/android/TEMPLATE/2013/1223/0214/3/0x030000000000001D/preview.mp4",
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/7.webp",
       "showImg": "None"
     },
     {
@@ -289,7 +290,7 @@
       "flagForGroup": 0,
       "height": 0,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/transition/love/8.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/8.webp",
       "id": 421818,
       "lang": "en_OTHER",
       "newFlag": 0,
@@ -308,7 +309,7 @@
       "virFlag": 0,
       "width": 0,
       "introFromTemplate": "",
-      "previewurl": "http://rc.veresource.com/template/app1/android/TEMPLATE/2013/1223/0217/3/0x0300000000000022/preview.mp4",
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/8.webp",
       "showImg": "None"
     },
     {
@@ -328,7 +329,7 @@
       "flagForGroup": 0,
       "height": 0,
       "hotFlag": 0,
-      "iconFromTemplate": "https://d2hyio9ps90xn9.cloudfront.net/videodata/transition/love/9.webp",
+      "iconFromTemplate": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/9.webp",
       "id": 421817,
       "introFromTemplate": "",
       "lang": "en_OTHER",
@@ -336,7 +337,7 @@
       "orderNoFromInfo": 8,
       "orderNoFromTemplate": 8,
       "previewtype": 1,
-      "previewurl": "http://rc.veresource.com/template/app1/android/TEMPLATE/2013/1223/0217/3/0x0300000000000020/preview.mp4",
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/transition/love/9.webp",
       "productId": 2,
       "recommendFlag": 0,
       "showImg": "None",

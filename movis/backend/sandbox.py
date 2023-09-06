@@ -217,7 +217,28 @@ def change_theme_imgs():
 
 
 def change_transition_imgs():
-    pass
+    for e in LIST_TRANSITION__URL:
+        print(e)
+    files = []
+    for p in LIST_JSON_FILE:
+        if p.__contains__('transition'):
+            files.append(p)
+            print(p)
+
+    for p in files:
+        print(p)
+        with open(p) as jsonfile:
+            jsondata = json.load(jsonfile)
+        for data in jsondata['data']:
+            old_url = data['iconFromTemplate']
+            prefix = 'https://d3pldjsx7tl7ei.cloudfront.net/transition_imgs/videodata/'
+            new_url = str(old_url).replace('https://d2hyio9ps90xn9.cloudfront.net/videodata/', prefix)
+            print(old_url)
+            print(new_url)
+            data['iconFromTemplate'] = new_url
+            data['previewurl'] = new_url
+        with open(p, 'w', encoding='utf-8') as outjson:
+            json.dump(jsondata, outjson)
 
 
 if __name__ == '__main__':
@@ -263,4 +284,5 @@ if __name__ == '__main__':
     # change_fx_imgs()
     # change_sticker_imgs()
     # change_text_imgs()
-    change_theme_imgs()
+    # change_theme_imgs()
+    change_transition_imgs()
