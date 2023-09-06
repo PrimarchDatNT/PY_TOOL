@@ -37,7 +37,8 @@
       "titleFromTemplate": "DO-1",
       "version": 196608,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/dolce/1a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -74,7 +75,8 @@
       "titleFromTemplate": "DO-2",
       "version": 196608,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/dolce/2a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -111,7 +113,8 @@
       "titleFromTemplate": "DO-3",
       "version": 196608,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/dolce/3a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -148,7 +151,8 @@
       "titleFromTemplate": "DO-4",
       "version": 196608,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/dolce/4a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -185,7 +189,8 @@
       "titleFromTemplate": "DO-5",
       "version": 196608,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/dolce/5a.webp"
     }
   ],
   "message": "successful",

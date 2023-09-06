@@ -37,7 +37,8 @@
       "version": 196637,
       "virFlag": 0,
       "width": 720,
-      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/1a.webp"
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/1a.webp",
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/1a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -74,7 +75,8 @@
       "version": 196637,
       "virFlag": 0,
       "width": 720,
-      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/2a.webp"
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/2a.webp",
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/2a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -111,7 +113,8 @@
       "version": 196637,
       "virFlag": 0,
       "width": 720,
-      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/3a.webp"
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/3a.webp",
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/3a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -148,7 +151,8 @@
       "version": 196637,
       "virFlag": 0,
       "width": 720,
-      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/4a.webp"
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/4a.webp",
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/4a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -185,7 +189,8 @@
       "version": 196637,
       "virFlag": 0,
       "width": 720,
-      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/5a.webp"
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/5a.webp",
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/posie/5a.webp"
     }
   ],
   "message": "successful",

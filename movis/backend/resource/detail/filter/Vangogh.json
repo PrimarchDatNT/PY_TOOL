@@ -38,7 +38,8 @@
       "titleFromTemplate": "VA-1",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/vangogh/1a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -76,7 +77,8 @@
       "titleFromTemplate": "VA-2",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/vangogh/2a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -114,7 +116,8 @@
       "titleFromTemplate": "VA-3",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/vangogh/3a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -152,7 +155,8 @@
       "titleFromTemplate": "VA-4",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/vangogh/4a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -190,7 +194,8 @@
       "titleFromTemplate": "VA-5",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/vangogh/5a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -228,7 +233,8 @@
       "titleFromTemplate": "VA-6",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/vangogh/6a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -266,7 +272,8 @@
       "titleFromTemplate": "VA-7",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/vangogh/7a.webp"
     }
   ],
   "message": "successful",

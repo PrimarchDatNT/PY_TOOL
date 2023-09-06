@@ -38,7 +38,8 @@
       "version": 196608,
       "virFlag": 0,
       "width": 720,
-      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/1a.webp"
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/1a.webp",
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/1a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -76,7 +77,8 @@
       "version": 196608,
       "virFlag": 0,
       "width": 720,
-      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/2a.webp"
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/2a.webp",
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/2a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -114,7 +116,8 @@
       "version": 196608,
       "virFlag": 0,
       "width": 720,
-      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/3a.webp"
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/3a.webp",
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/3a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -152,7 +155,8 @@
       "version": 196608,
       "virFlag": 0,
       "width": 720,
-      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/4a.webp"
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/4a.webp",
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/4a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -190,7 +194,8 @@
       "version": 196608,
       "virFlag": 0,
       "width": 720,
-      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/5a.webp"
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/5a.webp",
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/5a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -228,7 +233,8 @@
       "version": 196608,
       "virFlag": 0,
       "width": 720,
-      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/6a.webp"
+      "previewurl": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/6a.webp",
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/sketch/6a.webp"
     }
   ],
   "message": "successful",

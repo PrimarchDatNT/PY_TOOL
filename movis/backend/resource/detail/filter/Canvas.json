@@ -38,7 +38,8 @@
       "titleFromTemplate": "CA-1",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/canvas/1a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -76,7 +77,8 @@
       "titleFromTemplate": "CA-2",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/canvas/2a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -113,7 +115,8 @@
       "titleFromTemplate": "CA-3",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/canvas/3a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -150,7 +153,8 @@
       "titleFromTemplate": "CA-4",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/canvas/4a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -187,7 +191,8 @@
       "titleFromTemplate": "CA-5",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/canvas/5a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -224,7 +229,8 @@
       "titleFromTemplate": "CA-6",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/canvas/6a.webp"
     },
     {
       "appmaxcodeFromTemplate": "",
@@ -261,7 +267,8 @@
       "titleFromTemplate": "CA-7",
       "version": 196637,
       "virFlag": 0,
-      "width": 720
+      "width": 720,
+      "showImg": "https://d3pldjsx7tl7ei.cloudfront.net/filter_imgs/videodata/filter/canvas/7a.webp"
     }
   ],
   "message": "successful",
