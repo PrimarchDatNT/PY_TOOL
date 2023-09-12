@@ -3,7 +3,6 @@ import subprocess
 import shutil
 import time
 
-input_dir = 'E:/WORK/PY_PROJECT/TOOL/quickapktool/temp'
 OUTPUT_DEX = 'E:/WORK/PY_PROJECT/TOOL/quickapktool/temp'
 SMALI_DIR = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/com.public.pixishow/code/'
 DEX_TO_JAR_TOOL = 'E:/WORK/PY_PROJECT/TOOL/quickapktool/libs/dex2jar/lib'
@@ -13,7 +12,7 @@ def convert_dex_to_jar(dexdir):
     output_jar_path = dexdir + '/' + 'ai_core.jar'
     jars = []
 
-    for dex_file in os.listdir(input_dir):
+    for dex_file in os.listdir(OUTPUT_DEX):
         if dex_file.lower().endswith('.dex'):
             print(f"Converting {dex_file}")
             jarfile = dexdir + '/' + dex_file.replace('.dex', '.jar')
@@ -33,7 +32,7 @@ def convert_dex_to_jar(dexdir):
             ]
 
             java_command.extend(
-                ['com.googlecode.dex2jar.tools.Dex2jarCmd', os.path.join(input_dir, dex_file), '--force', '-o',
+                ['com.googlecode.dex2jar.tools.Dex2jarCmd', os.path.join(OUTPUT_DEX, dex_file), '--force', '-o',
                  jarfile])
             subprocess.run(java_command, shell=True)
             jars.append(jarfile)
