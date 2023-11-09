@@ -1,10 +1,9 @@
-import socket
-import requests
-import os.path
 import json
+import os.path
+import socket
 import datamapper as mapper
-from flask import request
 from flask import Flask
+from flask import request
 
 app = Flask(__name__)
 app.config["DEBUG"] = False
