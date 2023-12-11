@@ -135,7 +135,7 @@ if __name__ == '__main__':
                     if len(matches) > 0:
                         for m in matches:
                             if res_id.__contains__(m):
-                                regex = '@' + m + "/(\w+)"
+                                regex = '@' + m + r"/(\w+)"
                                 for encrypname in re.findall(regex, line):
                                     keypair = m + '---' + encrypname
                                     if ENCYP_TO_ORG_RES_MAPPER.__contains__(keypair):

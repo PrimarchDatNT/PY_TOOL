@@ -1,5 +1,4 @@
 import os
-import re
 import xml.etree.ElementTree as ET
 import model as Model
 
@@ -61,7 +60,6 @@ ENCYP_TO_ORG_RES_MAPPER = {}
 # ------------------------------------------------------------------
 
 SPERATOR = '---'
-
 
 
 def get_file_name_without_extension(file_path):

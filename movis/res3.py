@@ -2,7 +2,6 @@ import os
 import xml.etree.ElementTree as ET
 import model as Model
 
-
 # ---WORKSPACE DIR---
 ROOT_DIR = 'D:/PY_PROJECT/TOOL/movis'
 RES_DIR = 'D:/PY_PROJECT/TOOL/movis/resource'
@@ -60,7 +59,6 @@ ENCYP_TO_ORG_RES_MAPPER = {}
 
 
 # ------------------------------------------------------------------
-
 
 
 def get_file_name_without_extension(file_path):
