@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 
-def resize_image(input_path, output_path, new_size):
+def resize_image(input_path, output_path, new_size: tuple):
     """
     Resize an image.
 
@@ -16,10 +16,7 @@ def resize_image(input_path, output_path, new_size):
     resized_image.save(output_path)
 
 
-# Example Usage:
-
 if __name__ == "__main__":
     for r, d, f in os.walk(''):
         for file in f:
-            new_size = (120, 120)
-            resize_image(file, file, new_size)
+            resize_image(file, file, (120, 120))
