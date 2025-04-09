@@ -1,6 +1,7 @@
 import os
 
-ROOT_SMALI_DIR = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/beatrix.core.space/code'
+# ROOT_SMALI_DIR = 'C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/beatrix.core.space/code'
+ROOT_SMALI_DIR = 'D:/APKTOOL/apktool/apk-tool/projects/com.sencatech.iwawa.iwawahome/code'
 
 
 def rundelete(path):

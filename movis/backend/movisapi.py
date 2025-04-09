@@ -4,6 +4,7 @@ import socket
 import datamapper as mapper
 from flask import Flask
 from flask import request
+import wsgiserver
 
 app = Flask(__name__)
 app.config["DEBUG"] = False
@@ -84,3 +85,5 @@ if __name__ == '__main__':
     local_ip = socket.gethostbyname(hostname)
     print(local_ip)
     app.run(host=local_ip, port=5000, debug=True, threaded=False)
+    server = wsgiserver.WSGIServer(app)
+    server.start()

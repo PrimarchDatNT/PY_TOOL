@@ -1,0 +1,1 @@
+C:\Users\DatNT\AppData\Local\Android\Sdk\build-tools\34.0.0\apksigner sign --ks D:\APKTOOL\apktool\apk-tool\projects\com.sencatech.iwawa.iwawahome\my-release-key.jks --ks-pass pass:123456 --key-pass pass:123456 --out signed-app.apk D:\APKTOOL\apktool\apk-tool\projects\com.sencatech.iwawa.iwawahome\code\dist\zz.apk
